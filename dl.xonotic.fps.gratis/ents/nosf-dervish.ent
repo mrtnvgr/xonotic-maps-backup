@@ -1,0 +1,114 @@
+{
+"_gridsize" "144 144 208"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "t1"
+"wait" "-1"
+}
+{
+"classname" "target_startTimer"
+"origin" "830 682 0"
+"targetname" "t1"
+}
+{
+"classname" "item_enviro"
+"origin" "128 640 -30"
+"wait" "-1"
+"count" "10000"
+}
+{
+"target" "t4"
+"classname" "item_armor_shard"
+"origin" "-2072 528 824"
+"wait" "-1"
+}
+{
+"spawnflags" "4"
+"targetname" "t3"
+"target" "t2"
+"frags" "4"
+"origin" "-32 640 56"
+"classname" "target_fragsFilter"
+}
+{
+"targetname" "t2"
+"origin" "-72 640 56"
+"classname" "target_stopTimer"
+}
+{
+"model" "*2"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t4"
+"origin" "-2008 640 840"
+"classname" "target_score"
+}
+{
+"target" "t5"
+"origin" "128 2856 944"
+"classname" "item_armor_shard"
+"wait" "-1"
+}
+{
+"targetname" "t5"
+"origin" "0 2872 944"
+"classname" "target_score"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "128 640 -11"
+}
+{
+"target" "t6"
+"origin" "2543 563 808"
+"classname" "item_armor_shard"
+"wait" "-1"
+}
+{
+"targetname" "t6"
+"origin" "2543 483 808"
+"classname" "target_score"
+}
+{
+"target" "t7"
+"origin" "168 -1640 928"
+"classname" "item_armor_shard"
+"wait" "-1"
+}
+{
+"targetname" "t7"
+"origin" "112 -1640 928"
+"classname" "target_score"
+}
+{
+"classname" "target_speaker"
+"origin" "128 640 56"
+"targetname" "t8"
+"noise" "sound/n-dervish/Zen_5_LQ"
+"spawnflags" "13"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2495 565 808"
+"targetname" "t6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "206 -1640 928"
+"targetname" "t7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2071 451 824"
+"targetname" "t4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "199 2858 944"
+"targetname" "t5"
+}
