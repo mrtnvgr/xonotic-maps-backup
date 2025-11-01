@@ -1,0 +1,134 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta -v -maxarea -samplesize 8 -mv 1000000 -mi 6000000; -vis -saveprt; -light -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill"
+"classname" "worldspawn"
+}
+{
+"origin" "-1920.000000 0.000000 64.000000"
+"classname" "item_flag_team1"
+}
+{
+"angle" "45.385929"
+"origin" "-1536.000000 -832.000000 88.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "-135.916626"
+"origin" "1536.000000 832.000000 88.000000"
+"classname" "info_player_team2"
+}
+{
+"origin" "1920.000000 0.000000 64.000000"
+"classname" "item_flag_team2"
+}
+{
+"angle" "-135.916626"
+"origin" "1024.000000 832.000000 88.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "135.645798"
+"origin" "1024.000000 -832.000000 88.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "135.645798"
+"origin" "1536.000000 -832.000000 88.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "45.385929"
+"origin" "-1024.000000 -832.000000 88.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "-44.614079"
+"origin" "-1024.000000 832.000000 88.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "-44.614079"
+"origin" "-1536.000000 832.000000 88.000000"
+"classname" "info_player_team1"
+}
+{
+"targetname" "target_blue-right"
+"origin" "256.000000 512.000000 512.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_blue-left"
+"origin" "256.000000 -640.000000 512.000000"
+"classname" "target_position"
+}
+{
+"model" "*1"
+"target" "target_blue-left"
+"classname" "trigger_push"
+}
+{
+"model" "*2"
+"target" "target_blue-right"
+"classname" "trigger_push"
+}
+{
+"model" "*3"
+"target" "target_red-right"
+"classname" "trigger_push"
+}
+{
+"model" "*4"
+"target" "target_red-left"
+"classname" "trigger_push"
+}
+{
+"targetname" "target_red-right"
+"origin" "-256.000000 -640.000000 512.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_red-left"
+"origin" "-256.000000 512.000000 512.000000"
+"classname" "target_position"
+}
+{
+"model" "*5"
+"dmg" "500"
+"classname" "trigger_hurt"
+}
+{
+"model" "*6"
+"targetname" "warp-red-sky"
+"warpzone_fadeend" "384"
+"warpzone_fadestart" "256"
+"target" "warp-red-gnd"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*7"
+"target" "warp-red-sky"
+"warpzone_fadeend" "384"
+"warpzone_fadestart" "256"
+"targetname" "warp-red-gnd"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*8"
+"target" "warp-blue-sky"
+"warpzone_fadeend" "384"
+"warpzone_fadestart" "256"
+"targetname" "warp-blue-gnd"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*9"
+"targetname" "warp-blue-sky"
+"warpzone_fadeend" "384"
+"warpzone_fadestart" "256"
+"target" "warp-blue-gnd"
+"classname" "trigger_warpzone"
+}
+{
+"origin" "0.000000 0.000000 2496.000000"
+"classname" "item_strength"
+}
