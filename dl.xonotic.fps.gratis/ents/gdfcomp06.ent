@@ -1,0 +1,268 @@
+{
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "gdfcomp06-starttimer"
+"classname" "trigger_multiple"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "gdfcomp06-checkpoint1"
+"origin" "-56 2576 8"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "gdfcomp06-checkpoint1"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "gdfcomp06-checkpoint2"
+"origin" "664 2232 1128"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "gdfcomp06-checkpoint2"
+}
+{
+"origin" "1120 2240 -528"
+"wait" "5"
+"count" "5"
+"classname" "item_flight"
+}
+{
+"model" "*4"
+"target" "gdfcomp06-teleport1"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-56 1440 384"
+"model" "models/mapobj~1/telepo~1/telepo~1.md3"
+"classname" "misc_model"
+}
+{
+"origin" "-384 1056 64"
+"wait" "1"
+"classname" "item_health_mega"
+}
+{
+"wait" "1"
+"origin" "-384 736 8"
+"classname" "item_armor_body"
+}
+{
+"origin" "216 352 464"
+"targetname" "gdfcomp06-init"
+"classname" "target_init"
+}
+{
+"model" "*5"
+"target" "gdfcomp06-init"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-448 -576 448"
+"targetname" "gdfcomp06-starttimer"
+"classname" "target_startTimer"
+}
+{
+"model" "*6"
+"target" "gdfcomp06-init"
+"classname" "trigger_multiple"
+}
+{
+"origin" "80 1456 520"
+"targetname" "gdfcomp06-stoptimer"
+"classname" "target_stopTimer"
+}
+{
+"model" "*7"
+"target" "gdfcomp06-stoptimer"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-384 1696 176"
+"wait" "1"
+"count" "200"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "1440 2208 528"
+"count" "200"
+"wait" "1"
+"classname" "weapon_plasmagun"
+}
+{
+"origin" "768 2208 1048"
+"wait" "1"
+"classname" "item_health_mega"
+}
+{
+"origin" "864 1632 400"
+"wait" "1"
+"classname" "item_armor_combat"
+}
+{
+"origin" "384 1824 264"
+"wait" "1"
+"classname" "item_health_mega"
+}
+{
+"wait" "1"
+"origin" "480 2296 264"
+"classname" "item_armor_body"
+}
+{
+"targetname" "gdfcomp06-teleport4"
+"origin" "816 2208 1056"
+"angle" "180"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*8"
+"target" "gdfcomp06-teleport4"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-384 -1056 24"
+"targetname" "gdfcomp06-teleport1"
+"angle" "90"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*9"
+"target" "gdfcomp06-teleport1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*10"
+"target" "gdfcomp06-teleport2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "gdfcomp06-teleport2"
+"origin" "-448 2656 -104"
+"angle" "360"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "gdfcomp06-teleport3"
+"origin" "640 2528 -104"
+"angle" "360"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*11"
+"target" "gdfcomp06-teleport3"
+"classname" "trigger_teleport"
+}
+{
+"wait" "1"
+"origin" "-480 2248 32"
+"classname" "item_armor_shard"
+}
+{
+"wait" "1"
+"origin" "-160 2248 32"
+"classname" "item_health_small"
+}
+{
+"origin" "1408 1984 -112"
+"count" "200"
+"wait" "1"
+"classname" "weapon_grenadelauncher"
+}
+{
+"model" "*12"
+"dmg" "9999"
+"classname" "trigger_hurt"
+}
+{
+"classname" "info_player_start"
+"origin" "-384 -992 24"
+"angle" "90"
+}
+{
+"origin" "1408 2496 512"
+"targetname" "gdfcomp06-jump2"
+"classname" "target_position"
+}
+{
+"origin" "1408 2432 192"
+"targetname" "gdfcomp06-jump1"
+"classname" "target_position"
+}
+{
+"model" "*13"
+"target" "gdfcomp06-jump2"
+"classname" "trigger_push"
+}
+{
+"model" "*14"
+"target" "gdfcomp06-jump1"
+"classname" "trigger_push"
+}
+{
+"wait" "1"
+"classname" "item_health_small"
+"origin" "-160 1928 32"
+}
+{
+"wait" "1"
+"origin" "-608 1928 32"
+"classname" "item_health_small"
+}
+{
+"wait" "1"
+"classname" "item_health_small"
+"origin" "-608 2248 32"
+}
+{
+"wait" "1"
+"classname" "item_armor_shard"
+"origin" "-416 2248 32"
+}
+{
+"wait" "1"
+"origin" "-352 2248 32"
+"classname" "item_armor_shard"
+}
+{
+"wait" "1"
+"classname" "item_armor_shard"
+"origin" "-288 2248 32"
+}
+{
+"wait" "1"
+"classname" "item_armor_shard"
+"origin" "-480 1928 32"
+}
+{
+"wait" "1"
+"origin" "-416 1928 32"
+"classname" "item_armor_shard"
+}
+{
+"wait" "1"
+"classname" "item_armor_shard"
+"origin" "-352 1928 32"
+}
+{
+"wait" "1"
+"origin" "-288 1928 32"
+"classname" "item_armor_shard"
+}
+{
+"angle" "135"
+"wait" "1"
+"classname" "item_armor_body"
+"origin" "480 2120 264"
+}
+{
+"wait" "1"
+"angle" "225"
+"classname" "item_armor_body"
+"origin" "-384 1376 120"
+}
