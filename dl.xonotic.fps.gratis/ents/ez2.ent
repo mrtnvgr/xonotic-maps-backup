@@ -1,0 +1,49 @@
+{
+"_q3map2_version" "2.5.17n-git-cd99e66"
+"_q3map2_cmdline" "-meta -keepLights -v -maxarea -samplesize 8 -mv 1000000 -mi 6000000; -vis -saveprt; -light -lightmapsize 1024 -lightmapsearchpower 4 -deluxe -patchshadows -randomsamples -samples 4 -fast -fastbounce -dirty -bouncegrid -fill"
+"_floodlight" "240 240 255 1024 42"
+"license" "GNU GPL version 2"
+"author" "(-z-)"
+"message" "ez2 by -z-"
+"_celshader" "sxb_env/cel"
+"classname" "worldspawn"
+}
+{
+"target" "c0"
+"origin" "64.000000 192.000000 224.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*1"
+"cnt" "0"
+"targetname" "c0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*2"
+"targetname" "c1"
+"cnt" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*3"
+"cnt" "3"
+"targetname" "c3"
+"spawnflags" "8"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*4"
+"dmg" "1000"
+"classname" "trigger_hurt"
+}
+{
+"model" "*5"
+"targetname" "c2"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"origin" "128.000000 192.000000 224.000000"
+"classname" "item_buff_speed"
+}
