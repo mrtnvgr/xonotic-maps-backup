@@ -1,0 +1,55 @@
+{
+"classname" "worldspawn"
+"_minlight" "20"
+}
+{
+"classname" "item_armor_body"
+"origin" "-192 256 272"
+"target" "target_give1"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-266 256 127"
+"count" "50"
+"target" "target_give1"
+}
+{
+"classname" "item_health_mega"
+"origin" "-256 208 288"
+"target" "target_give1"
+}
+{
+"classname" "item_armor_body"
+"origin" "-320 256 272"
+"target" "target_give1"
+}
+{
+"classname" "info_player_start"
+"origin" "-256 160 120"
+"angle" "90"
+}
+{
+"classname" "target_startTimer"
+"origin" "-256 384 560"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-256 1120 784"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*3"
+}
