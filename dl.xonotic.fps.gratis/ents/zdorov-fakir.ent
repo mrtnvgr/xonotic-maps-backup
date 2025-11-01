@@ -1,0 +1,139 @@
+{
+"classname" "worldspawn"
+"ambient" "25"
+}
+{
+"classname" "info_player_start"
+"origin" "-1224 -1944 600"
+"angle" "360"
+}
+{
+"classname" "target_teleporter"
+"origin" "-264 3592 -328"
+"targetname" "tele1"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele1"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2368 4904 -328"
+"targetname" "t3"
+}
+{
+"targetname" "t4"
+"origin" "-296 4456 176"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-288 3672 48"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"wait" "-1"
+"random" "-1"
+"model" "*8"
+}
+{
+"classname" "target_startTimer"
+"origin" "-1072 -1824 632"
+"targetname" "t6"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "4720 5472 -384"
+"targetname" "t7"
+}
+{
+"wait" "9999"
+"classname" "trigger_teleport"
+"target" "t8"
+"model" "*10"
+}
+{
+"angle" "360"
+"classname" "target_teleporter"
+"origin" "-1160 3960 112"
+"targetname" "t8"
+}
+{
+"angle" "270"
+"targetname" "tele3"
+"origin" "2384 5728 -416"
+"classname" "target_teleporter"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele3"
+"model" "*11"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*12"
+}
+{
+"wait" "12"
+"random" "-1"
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*13"
+}
+{
+"spawnflags" "8"
+"noise" "sound/world/screech1"
+"targetname" "t9"
+"origin" "2408 5944 -352"
+"classname" "target_speaker"
+}
+{
+"target" "t10"
+"wait" "12"
+"random" "-1"
+"classname" "trigger_multiple"
+"model" "*14"
+}
+{
+"spawnflags" "8"
+"targetname" "t10"
+"noise" "sound/world/button_zap"
+"origin" "-552 3904 424"
+"classname" "target_speaker"
+}
