@@ -1,0 +1,165 @@
+{
+"Message" "^2Made by Daemond"
+"_ambient" "6"
+"gridsize" "512 512 512"
+"_blocksize" "4096"
+"_lightmapscale" ".3"
+"_minlight" "40"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-352 216 152"
+"angle" "90"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-352 232 152"
+"angle" "90"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "-256 312 256"
+"targetname" "t2"
+}
+{
+"target" "t3"
+"targetname" "t3"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"targetname" "t3"
+"origin" "4096 2288 -112"
+"classname" "misc_teleporter_dest"
+}
+{
+"noise" "sound/daemond/ohyeah.wav"
+"origin" "4160 2256 -216"
+"classname" "target_speaker"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "t4"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_kill"
+"origin" "-2184 2952 -64"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "t5"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "target_kill"
+"origin" "-2536 4208 -64"
+"targetname" "t5"
+}
+{
+"classname" "target_print"
+"origin" "-2504 4200 -64"
+"message" "^2 Get out bitch nigga"
+"targetname" "t5"
+}
+{
+"classname" "target_print"
+"origin" "-2192 2984 -64"
+"message" "^2 Get out bitch nigga"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*6"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-6440 3072 -64"
+"targetname" "t6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-336 2608 256"
+"targetname" "t7"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "208 2928 144"
+"targetname" "t8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t9"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2688 3720 -112"
+"targetname" "t9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1320 5928 -64"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "672 4128 -64"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*12"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-3208 3064 -64"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t13"
+"model" "*13"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-5808 3048 -64"
+"targetname" "t13"
+}
