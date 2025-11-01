@@ -1,0 +1,146 @@
+{
+"gridsize" "128 128 176"
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t2"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-21920 -15456 -320"
+"targetname" "t2"
+}
+{
+"classname" "info_player_start"
+"origin" "25424 -17024 128"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "25056 -17024 288"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*4"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "16128 -13056 -128"
+"angle" "180"
+"targetname" "t3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "9472 -1792 448"
+"targetname" "t4"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "18816 -12864 320"
+"targetname" "t5"
+}
+{
+"target" "t6"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t6"
+"origin" "13632 -10304 320"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t7"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "8768 -1952 320"
+"targetname" "t7"
+}
+{
+"target" "t8"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t8"
+"origin" "-4896 -10880 576"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t9"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-8544 -17376 -160"
+"targetname" "t9"
+}
+{
+"target" "t10"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "t10"
+"origin" "-5536 -23296 -160"
+"classname" "target_checkpoint"
+}
+{
+"target" "t12"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "t12"
+"origin" "-14560 -16192 -160"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_teleport"
+"target" "t13"
+"model" "*12"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-7104 -11136 -840"
+"angle" "90"
+"targetname" "t13"
+}
+{
+"classname" "info_player_intermission"
+"origin" "20608 -16192 320"
+"angle" "90"
+}
