@@ -1,0 +1,52 @@
+{
+"classname" "worldspawn"
+"_ambient" "2"
+"message" "Duel X Revisited by FruitieX"
+}
+{
+"classname" "info_player_start"
+"origin" "-1024 640 1144"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "-1024 2432 1144"
+"spawnflags" "1"
+"angle" "-90"
+}
+{
+"classname" "target_push"
+"origin" "-1024 2208 -576"
+"targetname" "platform2"
+}
+{
+"classname" "trigger_push"
+"target" "platform1"
+"model" "*1"
+}
+{
+"classname" "target_push"
+"origin" "-1024 864 -576"
+"targetname" "platform1"
+}
+{
+"classname" "trigger_push"
+"target" "platform2"
+"model" "*2"
+}
+{
+"classname" "target_push"
+"origin" "-1024 1536 0"
+"targetname" "middlejump"
+}
+{
+"classname" "trigger_push"
+"target" "middlejump"
+"model" "*3"
+}
+{
+"classname" "trigger_push"
+"target" "middlejump"
+"model" "*4"
+}
