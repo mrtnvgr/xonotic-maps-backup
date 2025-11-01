@@ -1,0 +1,179 @@
+{
+"target" "p1"
+"classname" "worldspawn"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "s3"
+"origin" "48 276 1044"
+}
+{
+"classname" "trigger_multiple"
+"target" "s3"
+"model" "*1"
+}
+{
+"origin" "2272 516 1008"
+"targetname" "t2"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t2"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"count" "100"
+"wait" "1"
+"origin" "2288 516 992"
+"classname" "item_health_large"
+}
+{
+"origin" "-1008 -1600 224"
+"wait" "1"
+"count" "200"
+"classname" "item_health_mega"
+}
+{
+"origin" "-1000 -1536 224"
+"count" "200"
+"wait" "1"
+"classname" "item_armor_body"
+}
+{
+"origin" "2096 536 1104"
+"targetname" "s2"
+"classname" "target_stopTimer"
+}
+{
+"target" "s2"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"origin" "-872 -1664 296"
+"targetname" "s1"
+"classname" "target_startTimer"
+}
+{
+"target" "s1"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"origin" "256 -1280 32"
+"targetname" "t1"
+"classname" "misc_teleporter_dest"
+"angle" "90"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"angle" "180"
+"health" "1"
+"classname" "func_button"
+"model" "*6"
+}
+{
+"origin" "-1168 -1600 232"
+"classname" "info_player_start"
+}
+{
+"classname" "func_button"
+"health" "1"
+"angle" "270"
+"model" "*7"
+}
+{
+"angle" "90"
+"health" "1"
+"classname" "func_button"
+"model" "*8"
+}
+{
+"classname" "item_armor_body"
+"wait" "1"
+"count" "200"
+"origin" "-1000 -1664 224"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-1100 -1600 224"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "p1"
+"model" "*9"
+}
+{
+"origin" "312 -520 1120"
+"spawnflags" "11"
+"targetname" "p1"
+"classname" "target_init"
+}
+{
+"target" "g1"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"target" "w1"
+"targetname" "g1"
+"origin" "256 -136 1144"
+"classname" "target_give"
+}
+{
+"targetname" "w1"
+"origin" "256 -288 1192"
+"classname" "weapon_grenadelauncher"
+}
+{
+"target" "k1"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "k1"
+"origin" "56 -536 680"
+"classname" "target_kill"
+}
+{
+"angle" "-2"
+"health" "1"
+"classname" "func_button"
+"model" "*12"
+}
+{
+"wait" "1"
+"origin" "-1016 -1740 240"
+"classname" "ammo_rockets"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-1096 -1740 240"
+"wait" "1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-936 -1740 240"
+"wait" "1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-1016 -1460 240"
+"wait" "1"
+}
+{
+"wait" "1"
+"origin" "-1096 -1460 240"
+"classname" "ammo_rockets"
+}
+{
+"wait" "1"
+"origin" "-936 -1460 240"
+"classname" "ammo_rockets"
+}
