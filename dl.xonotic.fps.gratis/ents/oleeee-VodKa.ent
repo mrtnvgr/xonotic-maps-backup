@@ -1,0 +1,158 @@
+{
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "-144 -120 88"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "t2"
+"origin" "168 -6144 312"
+"classname" "target_stopTimer"
+}
+{
+"wait" "-1"
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1504 -1520 232"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"wait" "-1"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1048 -64 376"
+"targetname" "t4"
+"wait" "-1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"wait" "-1"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-136 -1208 800"
+"targetname" "t5"
+}
+{
+"classname" "trigger_teleport"
+"target" "t8"
+"model" "*5"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1696 -1472 608"
+"angle" "90"
+"target" "t7"
+"targetname" "t8"
+}
+{
+"target" "t9"
+"classname" "trigger_push"
+"model" "*6"
+}
+{
+"target" "t10"
+"classname" "trigger_push"
+"model" "*7"
+}
+{
+"targetname" "t10"
+"origin" "1696 -960 688"
+"classname" "target_position"
+}
+{
+"target" "t11"
+"classname" "trigger_push"
+"model" "*8"
+}
+{
+"targetname" "t11"
+"origin" "872 -1472 592"
+"classname" "target_position"
+}
+{
+"classname" "trigger_teleport"
+"target" "t12"
+"model" "*9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "992 -1152 224"
+"targetname" "t12"
+"angle" "315"
+}
+{
+"classname" "trigger_teleport"
+"target" "t14"
+"model" "*10"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1224 -64 288"
+"angle" "180"
+"targetname" "t14"
+}
+{
+"targetname" "t9"
+"classname" "target_position"
+"origin" "336 0 728"
+}
+{
+"origin" "288 -384 592"
+"classname" "target_fragsFilter"
+}
+{
+"target" "t15"
+"classname" "trigger_teleport"
+"model" "*11"
+}
+{
+"targetname" "t15"
+"angle" "180"
+"origin" "2504 -80 248"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t15"
+"classname" "trigger_teleport"
+"model" "*12"
+}
+{
+"target" "t15"
+"classname" "trigger_teleport"
+"model" "*13"
+}
+{
+"target" "t12"
+"classname" "trigger_teleport"
+"model" "*14"
+}
+{
+"wait" "-1"
+"target" "t16"
+"classname" "trigger_multiple"
+"model" "*15"
+}
+{
+"targetname" "t16"
+"origin" "-72 -152 224"
+"classname" "target_startTimer"
+}
