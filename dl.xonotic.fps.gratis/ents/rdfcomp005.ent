@@ -1,0 +1,142 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 -112 40"
+"angle" "90"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"target" "t2"
+"targetname" "t1"
+"origin" "-16 5064 -168"
+"classname" "target_give"
+}
+{
+"targetname" "t2"
+"count" "999"
+"origin" "32 5064 -160"
+"classname" "item_enviro"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"target" "t4"
+"targetname" "t3"
+"origin" "0 7232 -184"
+"classname" "target_give"
+}
+{
+"targetname" "t4"
+"count" "100"
+"origin" "0 7176 -208"
+"classname" "ammo_cells"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t5"
+"origin" "0 7856 -144"
+"classname" "target_stopTimer"
+}
+{
+"target" "t6"
+"classname" "trigger_teleport"
+"model" "*4"
+}
+{
+"targetname" "t6"
+"angle" "90"
+"origin" "0 4984 -568"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t7"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"targetname" "t7"
+"angle" "90"
+"origin" "0 7160 -280"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t8"
+"origin" "0 8 176"
+"classname" "target_startTimer"
+}
+{
+"target" "t9"
+"classname" "trigger_teleport"
+"model" "*7"
+}
+{
+"targetname" "t9"
+"angle" "90"
+"origin" "0 -96 40"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t10"
+"origin" "0 4976 312"
+"classname" "target_checkpoint"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t11"
+"origin" "0 7320 -256"
+"classname" "target_checkpoint"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "t12"
+"origin" "0 24 72"
+"classname" "target_init"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"target" "t14"
+"targetname" "t13"
+"origin" "0 2264 160"
+"classname" "target_give"
+}
+{
+"targetname" "t14"
+"count" "200"
+"origin" "0 2296 192"
+"classname" "weapon_plasmagun"
+}
