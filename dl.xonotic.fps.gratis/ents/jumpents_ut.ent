@@ -1,0 +1,138 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"_mingridlight" "25"
+"ambient" "25"
+"message" "jump entities tutorial"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"notteam" "1"
+"wait" ".2"
+"target" "start"
+"classname" "trigger_multiple"
+}
+{
+"name" "easy way"
+"type" "2"
+"targetname" "start"
+"notteam" "1"
+"origin" "168.000000 123.199997 190.399994"
+"classname" "ut_jumpstart"
+"color" "3"
+}
+{
+"model" "*2"
+"notteam" "1"
+"wait" ".2"
+"target" "stop"
+"classname" "trigger_multiple"
+}
+{
+"type" "2"
+"name" "easy way"
+"targetname" "stop"
+"notteam" "1"
+"origin" "358.399994 -89.599998 190.399994"
+"classname" "ut_jumpstop"
+}
+{
+"angle" "180"
+"g_gametype" "9"
+"origin" "324.799988 89.599998 -22.400000"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"g_gametype" "9"
+"origin" "324.799988 358.399994 -22.400000"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"g_gametype" "9"
+"origin" "324.799988 268.799988 -22.400000"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"g_gametype" "9"
+"origin" "324.799988 179.199997 -22.400000"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"g_gametype" "9"
+"origin" "436.799988 89.599998 -22.400000"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"g_gametype" "9"
+"origin" "436.799988 358.399994 -22.400000"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"g_gametype" "9"
+"origin" "436.799988 268.799988 -22.400000"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"g_gametype" "9"
+"origin" "436.799988 179.199997 -22.400000"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"origin" "470.399994 358.399994 -22.400000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*3"
+"wait" ".2"
+"notteam" "1"
+"target" "start2"
+"classname" "trigger_multiple"
+}
+{
+"name" "hard way"
+"notteam" "1"
+"type" "1"
+"targetname" "start2"
+"origin" "168.000000 313.600006 190.399994"
+"classname" "ut_jumpstart"
+"color" "6"
+}
+{
+"model" "*4"
+"notteam" "1"
+"target" "stop2"
+"wait" ".2"
+"classname" "trigger_multiple"
+}
+{
+"name" "hard way"
+"notteam" "1"
+"type" "1"
+"targetname" "stop2"
+"origin" "358.399994 -268.799988 190.399994"
+"classname" "ut_jumpstop"
+}
+{
+"model" "*5"
+"notteam" "1"
+"target" "cancel"
+"classname" "trigger_multiple"
+}
+{
+"notteam" "1"
+"type" "1"
+"name" "hard way by-pass route"
+"targetname" "cancel"
+"origin" "-100.799995 492.799988 190.399994"
+"classname" "ut_jumpcancel"
+}
