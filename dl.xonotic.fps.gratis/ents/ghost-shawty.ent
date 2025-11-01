@@ -1,0 +1,55 @@
+{
+"ambient" "17"
+"_color" "1.000000 0.795317 0.366931"
+"message" "^1Made By Ghost"
+"gridsize" "215,160,000,000,000,000,000"
+"_blocksize" "4096"
+"_lightmapscale" ".3"
+"classname" "worldspawn"
+"light" "225"
+}
+{
+"angle" "90"
+"origin" "72 16 40"
+"classname" "info_player_start"
+}
+{
+"targetname" "t1"
+"origin" "-184 40 216"
+"classname" "target_startTimer"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t2"
+"origin" "64 1608 8"
+"classname" "target_location"
+}
+{
+"classname" "trigger_push"
+"target" "t2"
+"model" "*2"
+}
+{
+"targetname" "t3"
+"origin" "2368 5192 16"
+"classname" "target_stopTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"origin" "1672 1728 0"
+"classname" "target_checkpoint"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*4"
+}
