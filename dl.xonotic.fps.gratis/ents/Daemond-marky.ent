@@ -1,0 +1,34 @@
+{
+"_lightmapscale" ".3"
+"message" "Change in my pocket wasnt enough?"
+"_blocksize" "4096"
+"gridsize" "512 512 512"
+"classname" "worldspawn"
+"ambient" "5"
+}
+{
+"angle" "90"
+"origin" "-448 144 24"
+"classname" "info_player_start"
+}
+{
+"wait" "-1"
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-440 560 256"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-3336 1216 128"
+"targetname" "t3"
+}
