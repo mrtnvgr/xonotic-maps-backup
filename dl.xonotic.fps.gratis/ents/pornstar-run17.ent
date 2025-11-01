@@ -1,0 +1,155 @@
+{
+"classname" "worldspawn"
+"_ambient" "2"
+"message" "^3Made By Pornstar"
+"_blocksize" "4096"
+}
+{
+"origin" "-480 192 152"
+"classname" "info_player_start"
+}
+{
+"count" "10"
+"origin" "2656 192 160"
+"classname" "weapon_plasmagun"
+}
+{
+"wait" "5"
+"count" "2"
+"origin" "3840 208 1504"
+"classname" "weapon_rocketlauncher"
+}
+{
+"wait" "5"
+"classname" "item_health_mega"
+"origin" "3808 208 1504"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "3640 208 1520"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*3"
+}
+{
+"wait" "5"
+"origin" "3776 208 1504"
+"classname" "item_armor_body"
+}
+{
+"classname" "target_startTimer"
+"origin" "-288 192 184"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*4"
+}
+{
+"count" "200"
+"origin" "2480 192 2112"
+"classname" "ammo_cells"
+}
+{
+"count" "1"
+"origin" "2512 192 2112"
+"classname" "weapon_plasmagun"
+}
+{
+"count" "2"
+"origin" "3984 -84 1568"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "2544 192 2112"
+"classname" "item_health_mega"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "3984 460 1568"
+"count" "2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-536 232 2408"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3136 -32 264"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*6"
+}
+{
+"targetname" "t36456"
+"origin" "3616 -32 1592"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36456"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4000 -32 2168"
+"targetname" "t36457"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36457"
+"model" "*8"
+}
+{
+"classname" "ammo_cells"
+"origin" "2080 192 2416"
+"count" "200"
+}
+{
+"count" "200"
+"origin" "2112 192 2416"
+"classname" "item_enviro"
+}
+{
+"count" "200"
+"origin" "2144 192 2416"
+"classname" "ammo_cells"
+}
+{
+"classname" "item_enviro"
+"origin" "2176 192 2416"
+"count" "200"
+}
+{
+"targetname" "t36458"
+"origin" "1920 -32 1848"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36458"
+"classname" "trigger_multiple"
+"model" "*9"
+}
