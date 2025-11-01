@@ -1,0 +1,86 @@
+{
+"message" "Made By Pornstar"
+"_color" "1.000000 0.720180 0.409628"
+"_lightmapscale" ".3"
+"gridsize" "215,160,000,000,000"
+"_blocksize" "4096"
+"_minlight" "80"
+"ambient" "15"
+"classname" "worldspawn"
+}
+{
+"angle" "180"
+"origin" "1248 -272 64"
+"classname" "info_player_start"
+}
+{
+"classname" "target_position"
+"origin" "6692 -288 -752"
+"targetname" "target_position1"
+}
+{
+"classname" "trigger_push"
+"target" "target_position1"
+"model" "*1"
+}
+{
+"targetname" "t12"
+"origin" "6472 -224 -1488"
+"classname" "target_stopTimer"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t10"
+"origin" "1960 0 -336"
+"classname" "target_checkpoint"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3656 -280 -1016"
+"targetname" "t13"
+}
+{
+"classname" "trigger_multiple"
+"target" "t13"
+"model" "*4"
+}
+{
+"targetname" "t14"
+"origin" "6088 -280 -2120"
+"classname" "target_checkpoint"
+}
+{
+"target" "t14"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4360 -280 -1256"
+"targetname" "t15"
+}
+{
+"classname" "trigger_multiple"
+"target" "t15"
+"model" "*6"
+}
+{
+"wait" "9999"
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t6"
+"origin" "1024 -264 120"
+"classname" "target_startTimer"
+}
