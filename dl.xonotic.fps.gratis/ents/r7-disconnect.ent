@@ -1,0 +1,33 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"spawnflags" "12"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "17760 0 40"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "64 0 32"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*3"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 -32"
+}
