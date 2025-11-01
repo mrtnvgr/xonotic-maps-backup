@@ -1,0 +1,147 @@
+{
+"classname" "worldspawn"
+"ambient" "20"
+}
+{
+"origin" "3352 864 144"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "3352 1376 144"
+}
+{
+"classname" "item_health"
+"origin" "3736 864 144"
+}
+{
+"origin" "3736 1376 144"
+"classname" "item_health"
+}
+{
+"angle" "180"
+"targetname" "t1"
+"origin" "-792 1120 664"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"targetname" "t3"
+"angle" "360"
+"origin" "696 1120 2328"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "4472 1120 152"
+"classname" "info_player_start"
+"angle" "180"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t2"
+"origin" "3632 1120 296"
+"classname" "target_startTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "8"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "8"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+"model" "*6"
+}
+{
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*8"
+}
+{
+"classname" "target_stopTimer"
+"origin" "4480 1120 1176"
+"targetname" "t4"
+}
+{
+"spawnflags" "8"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*9"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "8"
+"model" "*10"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*12"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-600 1120 80"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*13"
+}
+{
+"classname" "target_checkpoint"
+"origin" "632 1120 2376"
+"targetname" "t6"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+"model" "*14"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"wait" "999"
+"model" "*15"
+}
+{
+"classname" "target_speaker"
+"origin" "4584 1400 1192"
+"noise" "sound/items/protect3.wav"
+"spawnflags" "8"
+"targetname" "t7"
+}
