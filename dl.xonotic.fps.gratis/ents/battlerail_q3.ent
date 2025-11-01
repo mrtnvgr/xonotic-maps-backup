@@ -1,0 +1,153 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"message" "battle dome"
+"gravity" "600"
+}
+{
+"origin" "0.000000 -179.199997 -918.399963"
+"random" "30"
+"wait" "120"
+"count" "20"
+"team" "powerups"
+"classname" "item_haste"
+}
+{
+"team" "powerups"
+"random" "30"
+"wait" "120"
+"origin" "0.000000 179.199997 -918.399963"
+"classname" "item_health_mega"
+}
+{
+"origin" "179.199997 0.000000 -918.399963"
+"count" "20"
+"random" "30"
+"wait" "120"
+"team" "powerups"
+"classname" "item_invis"
+}
+{
+"team" "powerups"
+"count" "20"
+"random" "30"
+"wait" "120"
+"origin" "-179.199997 0.000000 -918.399963"
+"classname" "item_quad"
+}
+{
+"classname" "weapon_railgun"
+"origin" "-1657.599976 1545.599976 -1489.599976"
+"targetname" "rail"
+"count" "999"
+"wait" "1"
+}
+{
+"classname" "target_position"
+"targetname" "jumpbottom"
+"origin" "0 0 0"
+}
+{
+"classname" "trigger_push"
+"target" "jumpbottom"
+"model" "*1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "500"
+"spawnflags" "8"
+"model" "*2"
+}
+{
+"classname" "target_give"
+"origin" "-1612.799927 1467.199951 -1444.799927"
+"targetname" "give"
+"target" "rail"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-963.200012 -291.199982 -145.599991"
+"target" "give"
+}
+{
+"targetname" "jump1"
+"origin" "358.399994 0.000000 358.399994"
+"classname" "target_position"
+}
+{
+"target" "jump1"
+"classname" "trigger_push"
+"model" "*3"
+}
+{
+"target" "give"
+"classname" "info_player_start"
+"origin" "-1008.000000 291.199982 -145.599991"
+}
+{
+"targetname" "jump2"
+"angle" "0"
+"classname" "target_position"
+"origin" "-358.399994 0.000000 358.399994"
+}
+{
+"classname" "trigger_push"
+"target" "jump2"
+"model" "*4"
+}
+{
+"origin" "963.200012 291.199982 -145.599991"
+"classname" "info_player_deathmatch"
+"angle" "180"
+"target" "give"
+}
+{
+"origin" "-784.000000 -336.000000 571.200012"
+"classname" "info_player_deathmatch"
+"target" "give"
+}
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "784.000000 246.399994 571.200012"
+"target" "give"
+}
+{
+"origin" "-291.199982 963.200012 -145.599991"
+"classname" "info_player_deathmatch"
+"angle" "270"
+"target" "give"
+}
+{
+"angle" "90"
+"classname" "info_player_deathmatch"
+"origin" "291.199982 -963.200012 -145.599991"
+"target" "give"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-336.000000 784.000000 571.200012"
+"angle" "270"
+"target" "give"
+}
+{
+"origin" "246.399994 -784.000000 571.200012"
+"classname" "info_player_deathmatch"
+"angle" "90"
+"target" "give"
+}
+{
+"target" "rail2"
+"targetname" "give"
+"origin" "-1612.799927 1467.199951 -1400.000000"
+"classname" "target_give"
+}
+{
+"origin" "-1657.599976 1545.599976 -1400.000000"
+"classname" "weapon_railgun"
+"targetname" "rail"
+"count" "999"
+"wait" "1"
+}
