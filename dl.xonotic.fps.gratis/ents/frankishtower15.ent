@@ -1,0 +1,961 @@
+{
+"gridsize" "80 64 128"
+"classname" "worldspawn"
+"_color" "1 1 1"
+"_minLight" "45"
+"message" "FrankishTower - by MikeeUSA (LICENSE: GNU GPL v2)"
+"_blocksize" "1024"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"speed" "2400"
+"angle" "-2"
+"targetname" "trapgrate1"
+"lip" "288"
+"_minLight" "45"
+"model" "*1"
+}
+{
+"classname" "func_button"
+"target" "trapgrate1"
+"angle" "180"
+"health" "1"
+"_minLight" "45"
+"model" "*2"
+}
+{
+"classname" "func_button"
+"target" "trapgrate1"
+"angle" "0"
+"health" "1"
+"_minLight" "45"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"health" "20"
+"speed" "15"
+"angle" "-1"
+"lip" "128"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"health" "20"
+"lip" "46"
+"speed" "10"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"health" "20"
+"lip" "32"
+"speed" "15"
+"model" "*6"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"message" "was impaled"
+"model" "*7"
+}
+{
+"classname" "func_button"
+"target" "trapgrate1"
+"angle" "0"
+"health" "1"
+"_minLight" "45"
+"model" "*8"
+}
+{
+"classname" "func_ladder"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*10"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*13"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*15"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-2"
+"speed" "500"
+"lip" "-80"
+"targetname" "trapceling1"
+"model" "*16"
+}
+{
+"classname" "func_button"
+"target" "trapceling1"
+"angle" "270"
+"health" "1"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*18"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*19"
+}
+{
+"classname" "func_door"
+"health" "20"
+"angle" "-2"
+"speed" "300"
+"lip" "-320"
+"model" "*20"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "-3584 0 -16"
+"angle" "-1.4033e-14"
+"message" " has captured the first column (2 pts)"
+"frags" "2"
+}
+{
+"classname" "item_flag_team1"
+"origin" "-3584 0 -64"
+}
+{
+"classname" "item_flag_team2"
+"origin" "3584 0 -64"
+"angle" "180"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-768 3584 -128"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "-768 2944 -128"
+"angle" "180"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"message" "was terminated in a fall"
+"model" "*21"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "0 448 1968"
+"angle" "-90"
+"message" " has captured the tower (5 pts)"
+"frags" "5"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "3584 0 -16"
+"angle" "180"
+"message" " has captured the second column (2 pts)"
+"frags" "2"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "0 0 64"
+"angle" "-90"
+"message" " has captured the foyer (1 pt)"
+"frags" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "-1984 256 -32"
+"angle" "-1.4033e-14"
+}
+{
+"classname" "info_player_start"
+"origin" "-2080 736 -64"
+"angle" "-1.4033e-14"
+}
+{
+"classname" "info_player_start"
+"origin" "-2112 -384 -64"
+"angle" "-1.4033e-14"
+}
+{
+"classname" "info_player_start"
+"origin" "-1792 -640 32"
+"angle" "-1.4033e-14"
+}
+{
+"classname" "info_player_start"
+"origin" "-1728 640 32"
+"angle" "-1.4033e-14"
+}
+{
+"classname" "info_player_start"
+"origin" "-1728 1184 32"
+"angle" "-1.4033e-14"
+}
+{
+"classname" "weapon_crylink"
+"origin" "-1920 0 -32"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "-2016 0 -32"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "1760 -448 32"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "2016 0 -32"
+}
+{
+"classname" "info_player_team2"
+"origin" "2080 -352 -64"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "1984 -256 -32"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "1696 -1024 32"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "2080 -736 -64"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "2112 384 -64"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "1728 256 32"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "1664 -96 64"
+"angle" "180"
+}
+{
+"classname" "weapon_crylink"
+"origin" "1920 0 -32"
+}
+{
+"classname" "info_player_team2"
+"origin" "2080 -576 -64"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "2080 320 -64"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "1728 -1184 32"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "1792 640 32"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "1728 -640 32"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "1888 416 0"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "1760 800 32"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "2080 -896 -64"
+"angle" "180"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1728 -256 32"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1760 -800 32"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1888 -416 0"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2080 -320 -64"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1664 96 64"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2064 352 -64"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1760 448 32"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2080 576 -64"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2080 896 -64"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1696 1024 32"
+}
+{
+"classname" "weapon_electro"
+"origin" "1024 0 32"
+"angle" "180"
+}
+{
+"classname" "weapon_electro"
+"origin" "-1024 0 32"
+}
+{
+"classname" "item_cells"
+"origin" "512 1024 32"
+}
+{
+"classname" "item_cells"
+"origin" "-512 -1024 32"
+}
+{
+"classname" "weapon_hagar"
+"origin" "768 -1280 32"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-1280 1280 160"
+}
+{
+"classname" "item_cells"
+"origin" "-656 960 32"
+}
+{
+"classname" "item_rockets"
+"origin" "1328 -848 32"
+}
+{
+"classname" "item_rockets"
+"origin" "-976 -1360 32"
+}
+{
+"classname" "item_cells"
+"origin" "-64 1584 32"
+}
+{
+"classname" "item_health1"
+"origin" "96 2336 32"
+}
+{
+"classname" "item_health25"
+"origin" "336 2176 32"
+}
+{
+"classname" "item_health1"
+"origin" "592 2032 32"
+}
+{
+"classname" "item_armor1"
+"origin" "448 2112 32"
+}
+{
+"classname" "item_armor1"
+"origin" "208 2272 32"
+}
+{
+"classname" "item_armor1"
+"origin" "-1200 -1648 32"
+}
+{
+"classname" "item_armor25"
+"origin" "-960 -1792 32"
+}
+{
+"classname" "item_armor1"
+"origin" "-592 -2032 32"
+}
+{
+"classname" "item_health1"
+"origin" "-720 -1936 32"
+}
+{
+"classname" "item_health1"
+"origin" "-1088 -1696 32"
+}
+{
+"classname" "weapon_machinegun"
+"origin" "0 448 32"
+"angle" "-90"
+}
+{
+"classname" "item_bullets"
+"origin" "208 -432 32"
+"angle" "180"
+}
+{
+"classname" "item_bullets"
+"origin" "-208 -432 32"
+}
+{
+"classname" "weapon_hagar"
+"origin" "-448 0 1760"
+}
+{
+"classname" "item_rockets"
+"origin" "288 352 1968"
+"angle" "-90"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "448 0 1760"
+"angle" "180"
+}
+{
+"classname" "weapon_machinegun"
+"origin" "-296 376 1376"
+}
+{
+"classname" "weapon_crylink"
+"origin" "-72 -56 992"
+}
+{
+"classname" "item_cells"
+"origin" "192 64 992"
+}
+{
+"classname" "item_cells"
+"origin" "-192 64 992"
+}
+{
+"classname" "item_armor1"
+"origin" "1248 -160 32"
+}
+{
+"classname" "item_armor1"
+"origin" "-1120 400 32"
+}
+{
+"classname" "item_bullets"
+"origin" "-816 1984 32"
+}
+{
+"classname" "item_bullets"
+"origin" "816 -1984 32"
+}
+{
+"classname" "item_rockets"
+"origin" "368 -1456 32"
+}
+{
+"classname" "item_rockets"
+"origin" "-560 1424 32"
+}
+{
+"classname" "item_strength"
+"origin" "768 -3584 -128"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"speed" "40"
+"dmg" "10"
+"origin" "-874 -360 -220"
+"model" "*22"
+}
+{
+"classname" "item_shells"
+"origin" "768 -2944 -128"
+}
+{
+"classname" "weapon_crylink"
+"origin" "1088 -352 -208"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "352 -1184 -208"
+}
+{
+"classname" "item_cells"
+"origin" "512 -1216 -208"
+}
+{
+"classname" "item_cells"
+"origin" "448 -1088 -208"
+}
+{
+"classname" "item_rockets"
+"origin" "80 -1216 -208"
+}
+{
+"classname" "item_rockets"
+"origin" "128 -1088 -208"
+}
+{
+"classname" "item_rockets"
+"origin" "-96 -1104 -208"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*23"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "-1"
+"lip" "64"
+"speed" "20"
+"health" "20"
+"model" "*24"
+}
+{
+"classname" "func_door"
+"dmg" "100"
+"angle" "-1"
+"targetname" "trapspike1"
+"lip" "0"
+"model" "*25"
+}
+{
+"classname" "func_door"
+"dmg" "100"
+"angle" "-1"
+"targetname" "trapspike1"
+"lip" "0"
+"model" "*26"
+}
+{
+"classname" "func_door"
+"dmg" "100"
+"angle" "-1"
+"targetname" "trapspike1"
+"lip" "0"
+"model" "*27"
+}
+{
+"classname" "func_door"
+"dmg" "100"
+"angle" "-1"
+"targetname" "trapspike1"
+"lip" "0"
+"model" "*28"
+}
+{
+"classname" "func_door"
+"dmg" "100"
+"angle" "-1"
+"targetname" "trapspike1"
+"lip" "0"
+"model" "*29"
+}
+{
+"classname" "func_door"
+"dmg" "100"
+"angle" "-1"
+"targetname" "trapspike1"
+"lip" "0"
+"model" "*30"
+}
+{
+"classname" "func_door"
+"dmg" "100"
+"angle" "-1"
+"targetname" "trapspike1"
+"lip" "0"
+"model" "*31"
+}
+{
+"classname" "func_button"
+"target" "trapspike1"
+"angle" "-1"
+"health" "1"
+"model" "*32"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"dmg" "5"
+"health" "10"
+"lip" "64"
+"model" "*33"
+}
+{
+"classname" "item_rockets"
+"origin" "0 432 1760"
+"angle" "-90"
+}
+{
+"classname" "item_rockets"
+"origin" "-288 352 1968"
+"angle" "-90"
+}
+{
+"classname" "item_bullets"
+"origin" "512 512 1968"
+}
+{
+"classname" "item_bullets"
+"origin" "-512 -512 1968"
+}
+{
+"classname" "item_cells"
+"origin" "-512 512 1968"
+}
+{
+"classname" "item_cells"
+"origin" "512 -512 1968"
+}
+{
+"classname" "item_bullets"
+"origin" "576 0 992"
+}
+{
+"classname" "item_bullets"
+"origin" "-576 0 992"
+"angle" "180"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"dmg" "5"
+"health" "10"
+"lip" "64"
+"model" "*34"
+}
+{
+"classname" "info_player_start"
+"origin" "320 1376 96"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "576 1792 32"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "-1088 1792 32"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "-640 1984 32"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "-224 -1344 96"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "-608 -1760 32"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "1184 -1760 32"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "736 -1952 32"
+"angle" "90"
+}
+{
+"classname" "trigger_teleport"
+"target" "bararea1"
+"model" "*35"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2976 0 176"
+"angle" "180"
+"targetname" "bararea1"
+}
+{
+"classname" "trigger_teleport"
+"target" "bararea2"
+"model" "*36"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-2976 0 176"
+"angle" "-1.4033e-14"
+"targetname" "bararea2"
+}
+{
+"classname" "trigger_teleport"
+"target" "bararea3"
+"model" "*37"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "488 0 2544"
+"targetname" "bararea3"
+}
+{
+"classname" "trigger_teleport"
+"target" "bararea4"
+"model" "*38"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-488 0 2544"
+"targetname" "bararea4"
+"angle" "180"
+}
+{
+"classname" "trigger_teleport"
+"target" "bararea5"
+"model" "*39"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "0 -488 2544"
+"targetname" "bararea5"
+"angle" "-90"
+}
+{
+"classname" "trigger_teleport"
+"target" "bararea6"
+"model" "*40"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "0 488 2544"
+"targetname" "bararea6"
+"angle" "90"
+}
+{
+"classname" "trigger_teleport"
+"target" "bararea7"
+"model" "*41"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "0 680 1080"
+"targetname" "bararea7"
+"angle" "90"
+}
+{
+"classname" "item_bullets"
+"origin" "64 320 992"
+}
+{
+"classname" "item_bullets"
+"origin" "192 320 992"
+}
+{
+"classname" "item_bullets"
+"origin" "432 -144 1376"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "-64 -64 1248"
+}
+{
+"classname" "item_health1"
+"origin" "-480 32 1408"
+}
+{
+"classname" "item_health1"
+"origin" "-480 -32 1408"
+}
+{
+"classname" "func_wall"
+"model" "*42"
+}
+{
+"classname" "func_wall"
+"model" "*43"
+}
+{
+"classname" "func_wall"
+"model" "*44"
+}
+{
+"classname" "func_wall"
+"model" "*45"
+}
+{
+"classname" "func_wall"
+"model" "*46"
+}
+{
+"classname" "func_wall"
+"model" "*47"
+}
+{
+"classname" "func_wall"
+"model" "*48"
+}
+{
+"classname" "func_wall"
+"model" "*49"
+}
+{
+"classname" "func_wall"
+"model" "*50"
+}
+{
+"classname" "func_wall"
+"model" "*51"
+}
+{
+"classname" "func_wall"
+"model" "*52"
+}
+{
+"classname" "func_wall"
+"model" "*53"
+}
+{
+"classname" "func_wall"
+"model" "*54"
+}
+{
+"classname" "func_wall"
+"model" "*55"
+}
+{
+"classname" "func_wall"
+"model" "*56"
+}
+{
+"classname" "func_wall"
+"model" "*57"
+}
+{
+"classname" "func_wall"
+"model" "*58"
+}
+{
+"classname" "func_wall"
+"model" "*59"
+}
+{
+"classname" "item_cells"
+"origin" "0 -480 400"
+}
+{
+"classname" "item_cells"
+"origin" "0 -432 400"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"message" "was terminated in a fall"
+"model" "*60"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"message" "was terminated in a fall"
+"model" "*61"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"message" "was terminated in a fall"
+"model" "*62"
+}
