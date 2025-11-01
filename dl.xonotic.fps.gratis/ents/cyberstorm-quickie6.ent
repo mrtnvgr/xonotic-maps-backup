@@ -1,0 +1,110 @@
+{
+"classname" "worldspawn"
+"_ambient" "0.6"
+}
+{
+"origin" "-248 0 40"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t1"
+"origin" "16408 1208 -336"
+"classname" "target_stopTimer"
+}
+{
+"model" "*2"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t2"
+"origin" "11904 1192 -352"
+"classname" "target_checkpoint"
+}
+{
+"model" "*3"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t3"
+"origin" "9952 -8 -352"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t4"
+"origin" "7800 -88 96"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"wait" "-1"
+"target" "t5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t5"
+"origin" "-200 8 96"
+"classname" "target_startTimer"
+}
+{
+"model" "*6"
+"target" "t6"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t6"
+"origin" "2904 -32 96"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "4"
+}
+{
+"model" "*8"
+"classname" "trigger_teleport"
+"target" "t7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "8032 0 24"
+"targetname" "t7"
+}
+{
+"model" "*9"
+"classname" "trigger_teleport"
+"target" "t7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "10048 0 -424"
+"targetname" "t8"
+}
+{
+"model" "*10"
+"classname" "trigger_teleport"
+"target" "t8"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "11712 1216 -424"
+"targetname" "t9"
+}
+{
+"model" "*11"
+"classname" "trigger_teleport"
+"target" "t9"
+}
