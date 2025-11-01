@@ -1,0 +1,85 @@
+{
+"classname" "worldspawn"
+"_floodlight" "240 240 255 1024 230"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "56 568 848"
+"angle" "-90"
+"targetname" "t1"
+}
+{
+"classname" "info_player_race"
+"origin" "-56 312 808"
+"target" "cp0"
+}
+{
+"classname" "info_player_race"
+"origin" "80 1776 800"
+"target" "cp1"
+}
+{
+"classname" "info_player_race"
+"origin" "40 5080 800"
+"target" "cp2"
+}
+{
+"classname" "info_player_race"
+"origin" "-40 12512 800"
+"target" "cp3"
+}
+{
+"classname" "info_player_race"
+"origin" "-72 16720 800"
+"target" "cp4"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp0"
+"cnt" "0"
+"model" "*2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "1"
+"targetname" "cp1"
+"target" "give_hagar"
+"model" "*3"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp2"
+"cnt" "2"
+"model" "*4"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "3"
+"targetname" "cp3"
+"model" "*5"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp4"
+"cnt" "4"
+"model" "*6"
+}
+{
+"classname" "target_items"
+"origin" "384 312 816"
+"ammo_rockets" "999"
+"netname" "hagar invincible"
+"health" "999"
+"targetname" "give_hagar"
+"armorvalue" "999"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999999999999"
+"model" "*7"
+}
