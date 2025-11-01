@@ -1,0 +1,90 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-custinfoparms -meta -noob; -vis; -light -fast -filter -super 2"
+"target" "target_stopTimer1"
+"classname" "worldspawn"
+}
+{
+"origin" "160 -32 64"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "280 -40 -1632"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "target_teleporter1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "target_teleporter1"
+"angle" "180"
+"origin" "8128 768 -1024"
+"classname" "target_teleporter"
+}
+{
+"model" "*3"
+"wait" "4"
+"target" "target_speaker1"
+"classname" "trigger_multiple"
+}
+{
+"noise" "sound/josh/ytmal.wav"
+"wait" "5"
+"spawnflags" "4"
+"targetname" "target_speaker1"
+"origin" "7720 792 -960"
+"classname" "target_speaker"
+}
+{
+"model" "*4"
+"target" "target_stopTimer2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer2"
+"origin" "4960 -32 -1512"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "target_stopTimer3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer3"
+"origin" "8864 -3992 -1504"
+"classname" "target_stopTimer"
+}
+{
+"model" "*6"
+"target" "target_teleporter2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "target_teleporter2"
+"angle" "180"
+"origin" "8112 1472 -1024"
+"classname" "target_teleporter"
+}
+{
+"model" "*7"
+"wait" "2"
+"target" "target_speaker2"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "4"
+"noise" "sound/josh/lysciyp.wav"
+"targetname" "target_speaker2"
+"origin" "7712 1408 -960"
+"classname" "target_speaker"
+}
