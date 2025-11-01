@@ -1,0 +1,68 @@
+{
+"classname" "worldspawn"
+"message" "Qoox - by emelis"
+"music" "music/sonic1.wav"
+"gravity" "800"
+}
+{
+"origin" "-344 -792 16"
+"targetname" "t3"
+"classname" "item_armor_body"
+}
+{
+"origin" "-320 -672 8"
+"targetname" "t2"
+"target" "t3"
+"classname" "target_give"
+}
+{
+"origin" "-160 -704 16"
+"targetname" "t3"
+"classname" "weapon_rocketlauncher"
+"count" "200"
+}
+{
+"target" "t2"
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "928 32 24"
+}
+{
+"target" "t2"
+"classname" "info_player_deathmatch"
+"angle" "360"
+"origin" "-736 32 24"
+}
+{
+"target" "t2"
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "96 -800 24"
+}
+{
+"target" "t2"
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "96 864 24"
+}
+{
+"origin" "1264 -888 -256"
+"targetname" "t4"
+"classname" "target_kill"
+}
+{
+"model" "*1"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1176 264 168"
+"targetname" "t1"
+"noise" "*falling1.wav"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"target" "t1"
+"classname" "trigger_multiple"
+}
