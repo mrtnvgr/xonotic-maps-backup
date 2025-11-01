@@ -1,0 +1,128 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "50"
+"model" "*1"
+}
+{
+"classname" "func_button"
+"target" "t1"
+"model" "*2"
+}
+{
+"classname" "item_health_small"
+"origin" "-1536 -472 88"
+"target" "target_score1"
+"wait" "-1"
+}
+{
+"classname" "target_score"
+"origin" "-1592 -480 88"
+"count" "1"
+"targetname" "target_score1"
+}
+{
+"classname" "item_armor_combat"
+"origin" "-696 256 24"
+}
+{
+"classname" "item_health_small"
+"origin" "-160 0 -32"
+"target" "target_score2"
+"wait" "-1"
+}
+{
+"classname" "target_score"
+"origin" "-160 8 40"
+"count" "1"
+"targetname" "target_score2"
+}
+{
+"classname" "func_button"
+"health" "10"
+"target" "target_score3"
+"model" "*3"
+}
+{
+"classname" "func_button"
+"health" "10"
+"target" "target_score4"
+"model" "*4"
+}
+{
+"classname" "func_button"
+"health" "10"
+"target" "target_score5"
+"model" "*5"
+}
+{
+"classname" "target_score"
+"origin" "-40 448 120"
+"targetname" "target_score3"
+"count" "1"
+}
+{
+"classname" "target_score"
+"origin" "-176 472 120"
+"targetname" "target_score4"
+"count" "1"
+}
+{
+"classname" "target_score"
+"origin" "-120 416 64"
+"targetname" "target_score5"
+"count" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_fragsFilter1"
+"model" "*6"
+}
+{
+"classname" "target_fragsFilter"
+"origin" "-544 400 224"
+"targetname" "target_fragsFilter1"
+"target" "target_stopTimer1"
+"frags" "5"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-440 424 224"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer2"
+"model" "*7"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-614 467 258"
+"targetname" "target_stopTimer2"
+}
+{
+"classname" "info_player_start"
+"origin" "-1852 544 32"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*8"
+}
+{
+"classname" "target_startTimer"
+"origin" "-1688 -16 80"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "func_door"
+"targetname" "t1"
+"wait" "4"
+"angle" "90"
+"speed" "50"
+"model" "*9"
+}
