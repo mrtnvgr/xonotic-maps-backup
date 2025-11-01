@@ -1,0 +1,75 @@
+{
+"ambient" "15"
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "12456 -1128 -184"
+"targetname" "t1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "64 256 152"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "384 408 320"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4432 232 352"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "12568 256 -112"
+"targetname" "t4"
+}
+{
+"origin" "4480 384 312"
+"classname" "target_speaker"
+"noise" "sound/acc/woohoo.wav"
+"wait" "5"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "target_kill"
+"origin" "2728 320 184"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*6"
+}
+{
+"classname" "target_kill"
+"origin" "12488 184 -344"
+"targetname" "t6"
+}
