@@ -1,0 +1,231 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "item_health_large"
+"wait" "5"
+"origin" "2144 32 32"
+}
+{
+"classname" "item_health"
+"origin" "2320 32 344"
+}
+{
+"classname" "ammo_rockets"
+"count" "1"
+"wait" "5"
+"origin" "2276 36 344"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2912 -40 528"
+}
+{
+"classname" "target_kill"
+"targetname" "kill2"
+"origin" "2576 160 200"
+}
+{
+"classname" "target_kill"
+"targetname" "kill3"
+"origin" "2280 144 200"
+}
+{
+"classname" "target_kill"
+"targetname" "kill4"
+"origin" "2304 -80 192"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "kill4"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "kill3"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "kill2"
+}
+{
+"classname" "target_kill"
+"targetname" "kill1"
+"origin" "1352 248 456"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "kill1"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"target" "reinit1"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "timer_start"
+}
+{
+"model" "*7"
+"wait" "5"
+"classname" "trigger_multiple"
+"target" "ammorocket01"
+"target_init" ""
+}
+{
+"classname" "ammo_rockets"
+"targetname" "ammorocket01"
+"wait" "-1"
+"origin" "2148 -212 32"
+"count" "1"
+}
+{
+"model" "*8"
+"classname" "func_button"
+"target" "porte01"
+"angle" "90"
+"wait" "5"
+}
+{
+"model" "*9"
+"classname" "func_door"
+"angle" "-1"
+"targetname" "porte01"
+"wait" "3"
+}
+{
+"model" "*10"
+"origin" "1688 32 240"
+"classname" "func_rotating"
+}
+{
+"model" "*11"
+"classname" "func_door"
+"angle" "-2"
+"speed" "600"
+"return" "-1"
+}
+{
+"model" "*12"
+"classname" "func_door"
+"angle" "-2"
+"speed" "600"
+"return" "-1"
+}
+{
+"origin" "-336 32 40"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-64 32 192"
+"light" "2000"
+"classname" "light"
+}
+{
+"origin" "32 32 40"
+"targetname" "rocket1"
+"classname" "weapon_rocketlauncher"
+"wait" "-1"
+"count" "2"
+}
+{
+"model" "*13"
+"wait" "5"
+"angle" "180"
+"classname" "func_button"
+"target" "rocket1"
+"target_init" ""
+}
+{
+"classname" "light"
+"light" "2000"
+"origin" "856 32 328"
+}
+{
+"origin" "1184 32 336"
+"light" "2000"
+"classname" "light"
+}
+{
+"origin" "1408 32 320"
+"light" "2000"
+"classname" "light"
+}
+{
+"origin" "1688 32 320"
+"light" "2000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "2000"
+"origin" "1920 32 424"
+}
+{
+"model" "*14"
+"return" "-1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "2200 24 424"
+"light" "2000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "2000"
+"origin" "2200 24 256"
+}
+{
+"classname" "light"
+"light" "2000"
+"origin" "2144 128 112"
+}
+{
+"origin" "2496 32 256"
+"light" "200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "2752 32 256"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "2352 32 336"
+}
+{
+"model" "*15"
+"target" "target_finish"
+"classname" "trigger_multiple"
+}
+{
+"origin" "2920 168 528"
+"targetname" "target_finish"
+"classname" "target_stopTimer"
+}
+{
+"classname" "target_startTimer"
+"targetname" "timer_start"
+"origin" "-128 288 352"
+}
+{
+"origin" "-312 272 344"
+"targetname" "reinit1"
+"classname" "target_init"
+}
+{
+"origin" "2912 96 528"
+"light" "500"
+"classname" "light"
+}
