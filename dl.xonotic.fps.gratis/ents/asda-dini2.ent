@@ -1,0 +1,63 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta -noob; -vis -saveprt; -light -fast -scale 1 -bounce 4 - fastbounce -bouncescale 1.2 -dirty -dirtdepth 128 -dirtscale 0.1 -samples 3 -cpma -patchshadows -shade"
+"_lightmapscale" "1"
+"_ambient" "20"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "stoptimer"
+"classname" "trigger_multiple"
+}
+{
+"origin" "344 64 0"
+"targetname" "stoptimer"
+"classname" "target_stopTimer"
+}
+{
+"origin" "272 64 0"
+"targetname" "starttimer"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"wait" "-1"
+"name" "Run"
+"target" "starttimer"
+"classname" "trigger_multiple"
+}
+{
+"origin" "130 128 8"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*3"
+"target" "cp1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"target" "cp2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"target" "cp3"
+"classname" "trigger_multiple"
+}
+{
+"origin" "224 40 8"
+"targetname" "cp3"
+"classname" "target_checkpoint"
+}
+{
+"origin" "312 64 40"
+"targetname" "cp2"
+"classname" "target_checkpoint"
+}
+{
+"origin" "272 56 24"
+"targetname" "cp1"
+"classname" "target_checkpoint"
+}
