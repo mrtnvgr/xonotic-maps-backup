@@ -1,0 +1,43 @@
+{
+"classname" "worldspawn"
+"_ambient;ambient" "30"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*1"
+}
+{
+"classname" "info_player_start"
+"origin" "320 192 -40"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "-72 -760 80"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "896 40 352"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "880 1000 216"
+"targetname" "misc_teleporter_dest1"
+}
