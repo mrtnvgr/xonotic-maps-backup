@@ -1,0 +1,135 @@
+{
+"classname" "worldspawn"
+"_ambient" "5"
+"_floodlight" "240 240 255 1024 128"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000; -vis -saveprt; -light -deluxe -patchshadows -samples 3 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid; -scale 0.2"
+"_q3map2_version" "2.5.17n-svn395"
+"gridsize" "19.200001 19.200001 28.800000"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp1"
+"cnt" "0"
+"model" "*1"
+}
+{
+"classname" "info_player_race"
+"origin" "-10632.000000 -344.000000 -2241.600033"
+"target" "cp1"
+"target2" "rl"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp2"
+"cnt" "1"
+"target" "hagar"
+"model" "*2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp3"
+"cnt" "2"
+"target" "noweapon"
+"model" "*3"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp5"
+"cnt" "4"
+"spawnflags" "8"
+"target" "noweapon2"
+"model" "*4"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp4"
+"cnt" "3"
+"target" "hagar2"
+"model" "*5"
+}
+{
+"classname" "info_player_race"
+"origin" "-6582.399902 -347.200012 -2214.400033"
+"target" "cp2"
+}
+{
+"classname" "info_player_race"
+"origin" "-969.600037 -329.600006 -2390.400036"
+"target" "cp3"
+}
+{
+"classname" "info_player_race"
+"origin" "1448.000000 -352.000000 -2390.400036"
+"target" "cp4"
+}
+{
+"classname" "info_player_race"
+"origin" "7265.600098 -334.399994 -2328.000035"
+"target" "cp5"
+}
+{
+"classname" "target_items"
+"origin" "-10630.400391 -361.600006 -2241.600033"
+"targetname" "rl"
+"netname" "rocketlauncher unlimited_ammo"
+}
+{
+"classname" "target_items"
+"origin" "-6582.399902 -387.200012 -2240.000033"
+"targetname" "hagar"
+"netname" "hagar unlimited_ammo"
+}
+{
+"classname" "target_items"
+"origin" "-972.799988 -337.600006 -2404.800036"
+"targetname" "noweapon"
+}
+{
+"classname" "target_items"
+"origin" "1449.599976 -376.000000 -2390.400036"
+"targetname" "hagar2"
+"netname" "hagar unlimited_ammo"
+}
+{
+"classname" "target_items"
+"origin" "7268.800293 -345.600006 -2316.800035"
+"targetname" "noweapon2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*8"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-6582.399902 -360.000000 -2264.000034"
+"speed" "700"
+"targetname" "t3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-668.799988 -379.200012 -2521.600038"
+"speed" "500"
+"targetname" "t2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1744.000000 -377.600006 -2713.600040"
+"speed" "700"
+"targetname" "t1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "99999999999"
+"model" "*9"
+}
