@@ -1,0 +1,174 @@
+{
+"gridsize" "112 96 160"
+"classname" "worldspawn"
+"_blocksize" "2048 2048 2048"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 88"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"targetname" "t1"
+"origin" "320 0 384"
+}
+{
+"classname" "weapon_bfg"
+"targetname" "t2"
+"count" "99"
+"origin" "464 0 336"
+}
+{
+"classname" "item_enviro"
+"count" "99"
+"targetname" "t2"
+"origin" "400 0 336"
+}
+{
+"classname" "target_give"
+"target" "t2"
+"targetname" "t1"
+"origin" "320 -64 352"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"lip" "1"
+"wait" "5"
+"targetname" "func_door1"
+"model" "*2"
+}
+{
+"classname" "func_button"
+"angle" "0"
+"lip" "0"
+"health" "500"
+"target" "func_door1"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*4"
+}
+{
+"classname" "target_print"
+"origin" "15744 0 768"
+"targetname" "target_print1"
+"message" "oh nice cool pool party ye :) :) :) !!!"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print2"
+"model" "*5"
+}
+{
+"classname" "target_print"
+"origin" "14528 0 -128"
+"message" "fuck. :("
+"targetname" "target_print2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*6"
+}
+{
+"classname" "target_stopTimer"
+"origin" "28800 5760 -4864"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2688 256 640"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3328 0 1664"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "9088 0 1152"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "11968 64 896"
+"targetname" "target_checkpoint4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint5"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "16576 0 896"
+"targetname" "target_checkpoint5"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint6"
+"model" "*12"
+}
+{
+"classname" "target_checkpoint"
+"origin" "17344 0 -4480"
+"targetname" "target_checkpoint6"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint7"
+"model" "*13"
+}
+{
+"classname" "target_checkpoint"
+"origin" "26752 -64 -4480"
+"targetname" "target_checkpoint7"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_give1"
+"model" "*14"
+}
+{
+"classname" "target_give"
+"origin" "28224 0 -4864"
+"targetname" "target_give1"
+"target" "item_quad1"
+}
+{
+"classname" "item_quad"
+"origin" "28288 0 -4864"
+"targetname" "item_quad1"
+"count" "5"
+}
