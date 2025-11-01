@@ -1,0 +1,167 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "shooter_grenade_targetplayer"
+"origin" "432 -1152 32"
+"targetname" "t3"
+"target" "t7"
+}
+{
+"origin" "432 -1152 8"
+"classname" "shooter_grenade"
+"targetname" "t7"
+}
+{
+"target" "t6"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"classname" "target_teleporter"
+"origin" "-5760 1152 6864"
+"targetname" "t6"
+"angle" "270"
+}
+{
+"angle" "90"
+"classname" "target_teleporter"
+"origin" "-5760 576 800"
+"targetname" "t5"
+}
+{
+"classname" "trigger_teleport"
+"target" "t5"
+"model" "*2"
+}
+{
+"angle" "90"
+"classname" "target_teleporter"
+"origin" "-5760 576 776"
+"targetname" "t2"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"classname" "target_teleporter"
+"origin" "432 224 8"
+"targetname" "t1"
+"angle" "270"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*4"
+}
+{
+"classname" "target_teleporter"
+"origin" "-4056 -256 24"
+"targetname" "resp"
+}
+{
+"classname" "trigger_teleport"
+"target" "resp"
+"model" "*5"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-4056 -256 24"
+}
+{
+"wait" "1"
+"origin" "432 112 16"
+"classname" "item_armor_body"
+}
+{
+"target" "t2"
+"classname" "trigger_teleport"
+"model" "*6"
+}
+{
+"count" "999"
+"wait" "1"
+"origin" "-5784 724 784"
+"classname" "item_haste"
+}
+{
+"count" "999"
+"wait" "1"
+"origin" "-5736 724 784"
+"classname" "item_enviro"
+}
+{
+"count" "999"
+"wait" "1"
+"origin" "-5760 748 784"
+"classname" "weapon_plasmagun"
+}
+{
+"target" "start"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "start"
+"origin" "-3792 -8 176"
+"classname" "target_startTimer"
+}
+{
+"target" "c1"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "c1"
+"origin" "216 0 184"
+"classname" "target_checkpoint"
+}
+{
+"target" "c2"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "c2"
+"origin" "432 -4544 192"
+"classname" "target_checkpoint"
+}
+{
+"target" "c3"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "c3"
+"origin" "-5760 1376 6920"
+"classname" "target_checkpoint"
+}
+{
+"target" "stop"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "stop"
+"origin" "-5752 -6896 7152"
+"classname" "target_stopTimer"
+}
+{
+"classname" "trigger_teleport"
+"target" "resp"
+"model" "*12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*13"
+}
+{
+"spawnflags" "27"
+"targetname" "t10"
+"origin" "-5760 1376 6976"
+"classname" "target_init"
+}
