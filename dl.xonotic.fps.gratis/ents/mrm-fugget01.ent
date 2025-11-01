@@ -1,0 +1,117 @@
+{
+"classname" "worldspawn"
+"angle" "-1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-448 448 24"
+"angle" "315"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "checkpoint6"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-1728 -1472 -320"
+"targetname" "checkpoint6"
+}
+{
+"classname" "target_speaker"
+"origin" "-1856 -1472 -320"
+"targetname" "checkpoint6"
+"noise" "sound/mrm-fugget/bell1.wav"
+"spawnflags" "12"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "checkpoint1"
+"model" "*2"
+}
+{
+"classname" "target_speaker"
+"origin" "-320 64 192"
+"targetname" "checkpoint1"
+"noise" "sound/mrm-fugget/bell1.wav"
+"spawnflags" "12"
+}
+{
+"classname" "target_startTimer"
+"origin" "-192 64 192"
+"targetname" "checkpoint1"
+}
+{
+"target" "checkpoint2"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "checkpoint3"
+"model" "*4"
+}
+{
+"target" "checkpoint4"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "checkpoint5"
+"model" "*6"
+}
+{
+"targetname" "checkpoint2"
+"spawnflags" "12"
+"noise" "sound/mrm-fugget/bell2.wav"
+"origin" "-448 -192 192"
+"classname" "target_speaker"
+}
+{
+"targetname" "checkpoint3"
+"classname" "target_speaker"
+"origin" "-960 -192 192"
+"noise" "sound/mrm-fugget/bell3.wav"
+"spawnflags" "12"
+}
+{
+"targetname" "checkpoint4"
+"spawnflags" "12"
+"noise" "sound/mrm-fugget/bell4.wav"
+"origin" "-1856 -448 -320"
+"classname" "target_speaker"
+}
+{
+"targetname" "checkpoint5"
+"classname" "target_speaker"
+"origin" "-1856 -960 -320"
+"noise" "sound/mrm-fugget/bell5.wav"
+"spawnflags" "12"
+}
+{
+"targetname" "checkpoint4"
+"origin" "-1728 -448 -320"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "checkpoint5"
+"origin" "-1728 -960 -320"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "checkpoint3"
+"origin" "-960 -320 192"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "checkpoint2"
+"origin" "-448 -320 192"
+"classname" "target_checkpoint"
+}
