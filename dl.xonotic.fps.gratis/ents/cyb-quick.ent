@@ -1,0 +1,39 @@
+{
+"classname" "worldspawn"
+"ambient" "10"
+}
+{
+"classname" "target_startTimer"
+"origin" "344 32 32"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "7424 -5144 -1376"
+"targetname" "target_stopTimer1"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "96 32 -40"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill1"
+"model" "*3"
+}
+{
+"classname" "target_kill"
+"origin" "3720 -2760 -1704"
+"targetname" "target_kill1"
+}
