@@ -1,0 +1,102 @@
+{
+"ambient" "15"
+"gridsize" "512 512 512"
+"_blocksize" "4096"
+"classname" "worldspawn"
+"message" "big bertha likes to be big"
+}
+{
+"targetname" "t11"
+"origin" "-900 3448 -1044"
+"classname" "target_startTimer"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "10536 -4096 -3920"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "8 2016 -1520"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*3"
+}
+{
+"targetname" "t13"
+"origin" "1672 1632 -1520"
+"classname" "target_checkpoint"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2592 -1032 -1520"
+"targetname" "t14"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"model" "*5"
+}
+{
+"targetname" "t15"
+"origin" "2592 -3400 -1520"
+"classname" "target_checkpoint"
+}
+{
+"target" "t15"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "7160 -4320 -2992"
+"targetname" "t16"
+}
+{
+"classname" "trigger_multiple"
+"target" "t16"
+"model" "*7"
+}
+{
+"classname" "info_player_start"
+"origin" "-928 3712 -949"
+"angle" "270"
+}
+{
+"classname" "target_startTimer"
+"origin" "2604 -5700 -4020"
+"targetname" "t17"
+}
+{
+"classname" "trigger_multiple"
+"target" "t17"
+"model" "*8"
+}
+{
+"targetname" "t18"
+"origin" "2600 -5536 -4048"
+"classname" "target_stopTimer"
+}
+{
+"target" "t18"
+"classname" "trigger_multiple"
+"model" "*9"
+}
