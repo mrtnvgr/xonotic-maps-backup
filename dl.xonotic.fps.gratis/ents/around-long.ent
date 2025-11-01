@@ -1,0 +1,112 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "192 -96 -24"
+"targetname" "info_player_deathmatch1"
+"angle" "88.3836"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_deathmatch1"
+"model" "*1"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-184 -72 936"
+"angle" "-120.415"
+"targetname" "info_player_intermission1"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_intermission1"
+"model" "*2"
+}
+{
+"classname" "info_player_intermission"
+"origin" "272 -248 456"
+"angle" "87.0783"
+"targetname" "info_player_intermission2"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_intermission2"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "624 -960 2416"
+"angle" "178.636"
+"targetname" "target_stopTimer2"
+}
+{
+"classname" "target_startTimer"
+"targetname" "target_startTimer2"
+"origin" "192 -184 72"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer2"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer2"
+"model" "*5"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-256 -112 1608"
+"angle" "86.8906"
+"targetname" "info_player_intermission3"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_intermission3"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "232 -96 504"
+"angle" "86.4907"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "160 336 920"
+"angle" "-132.932"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-256 -680 1648"
+"angle" "90"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-312 432 2160"
+"angle" "-117.535"
+"targetname" "target_checkpoint4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*10"
+}
