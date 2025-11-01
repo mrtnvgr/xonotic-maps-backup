@@ -1,0 +1,44 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-32 -488 32"
+"angle" "90"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-40 432 32"
+"count" "1"
+"wait" "-1"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t1"
+"origin" "-96 0 128"
+"classname" "target_startTimer"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t2"
+"origin" "-96 344 128"
+"classname" "target_init"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t3"
+"origin" "824 1616 392"
+"classname" "target_stopTimer"
+}
