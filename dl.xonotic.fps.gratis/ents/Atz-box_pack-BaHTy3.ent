@@ -1,0 +1,45 @@
+{
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "64 -704 304"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "t1"
+"origin" "-32 10880 160"
+"classname" "target_stopTimer"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"spawnflags" "16"
+"dmg" "35"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "35"
+"spawnflags" "16"
+"model" "*3"
+}
+{
+"dmg" "50"
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"targetname" "t2"
+"origin" "112 -416 -112"
+"classname" "target_startTimer"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*5"
+}
