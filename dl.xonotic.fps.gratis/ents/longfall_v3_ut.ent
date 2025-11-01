@@ -1,0 +1,116 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"message" "the brick room (non-lethal)"
+"origin" "0.000000 -11.200000 1232.000000"
+"classname" "target_location"
+}
+{
+"message" "the end ?!"
+"origin" "-2340.800049 -190.399994 1478.400024"
+"classname" "target_location"
+}
+{
+"message" "the wood room (lethal)"
+"origin" "-1433.599976 0.000000 1232.000000"
+"classname" "target_location"
+}
+{
+"message" "the wood room (lethal)"
+"origin" "-2038.400024 -313.600006 1052.799927"
+"classname" "target_location"
+}
+{
+"angle" "90"
+"origin" "1377.775024 30.100000 297.324982"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "1576.932007 20.125000 298.024994"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1760.682007 5.600000 297.500000"
+"classname" "info_player_deathmatch"
+}
+{
+"message" "the dirt room (semi-lethal)"
+"origin" "1433.599976 0.000000 1075.199951"
+"classname" "target_location"
+}
+{
+"model" "*1"
+"target" "the brick room"
+"classname" "trigger_teleport"
+}
+{
+"angle" "90"
+"targetname" "the brick room"
+"origin" "537.599976 -100.799995 2060.800049"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "the brick room"
+"angle" "90"
+"origin" "537.599976 -604.799988 2060.800049"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*2"
+"spawnflags" "8"
+"dmg" "100"
+"classname" "trigger_hurt"
+}
+{
+"angle" "90"
+"origin" "1174.599976 18.900000 302.750000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "985.599976 18.025000 306.250000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*3"
+"wait" "120"
+"target" "wickedsick"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "wickedsick"
+"spawnflags" "4"
+"noise" "sound/quake/wickedsick.wav"
+"origin" "-2251.199951 -369.600006 1344.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "90270"
+"origin" "884.799988 672.000000 168.000000"
+"classname" "misc_portal_surface"
+}
+{
+"model" "*4"
+"target" "brickroomreturn"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "brickroomreturn"
+"origin" "-246.399994 -504.000000 1780.799927"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*5"
+"target" "woodroomreturn"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "woodroomreturn"
+"origin" "-851.200012 -604.799988 268.799988"
+"classname" "misc_teleporter_dest"
+}
