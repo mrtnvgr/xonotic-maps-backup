@@ -1,0 +1,132 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"targetname" "info_player_deathmatch1"
+"origin" "24 0 -280"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_deathmatch1"
+"model" "*1"
+}
+{
+"classname" "target_kill"
+"targetname" "target_kill1"
+"origin" "3848 0 -184"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "200"
+"target" "target_kill1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "32 0 -56"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*3"
+}
+{
+"classname" "info_player_intermission"
+"origin" "4208 3608 -168"
+"angle" "89.6468"
+"targetname" "info_player_intermission1"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_intermission1"
+"model" "*4"
+}
+{
+"classname" "target_kill"
+"origin" "4224 1408 -112"
+"angle" "90.8114"
+"targetname" "target_kill2"
+"dmg" "200"
+}
+{
+"classname" "trigger_hurt"
+"target" "target_kill2"
+"dmg" "200"
+"model" "*5"
+}
+{
+"classname" "info_player_intermission"
+"origin" "9024 4728 -24"
+"targetname" "info_player_intermission2"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_intermission2"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2640 -8 -192"
+"targetname" "target_checkpoint4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4904 4736 -136"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "9504 4720 16"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "10912 4736 -352"
+"angle" "3.43577"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*10"
+}
+{
+"classname" "target_kill"
+"origin" "10496 4768 -352"
+"angle" "-176.469"
+"targetname" "target_kill3"
+"dmg" "200"
+}
+{
+"classname" "trigger_hurt"
+"target" "target_kill3"
+"dmg" "200"
+"model" "*11"
+}
+{
+"classname" "info_player_intermission"
+"origin" "6136 4736 -256"
+"targetname" "info_player_intermission7"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_intermission7"
+"model" "*12"
+}
