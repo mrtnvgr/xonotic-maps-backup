@@ -1,0 +1,69 @@
+{
+"angle" "-1"
+"classname" "worldspawn"
+}
+{
+"dmg" "999"
+"spawnflags" "12"
+"classname" "trigger_hurt"
+"model" "*1"
+}
+{
+"origin" "-1280 -1152 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "checkpoint1"
+"origin" "-840 -1024 0"
+"classname" "target_startTimer"
+}
+{
+"target" "checkpoint1"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "checkpoint4"
+"origin" "-3200 -440 24"
+"classname" "target_stopTimer"
+}
+{
+"noise" "sound/mrm-fugget/bell1"
+"targetname" "checkpoint1"
+"origin" "-824 -1024 0"
+"classname" "target_speaker"
+}
+{
+"targetname" "checkpoint4"
+"noise" "sound/mrm-fugget/bell1"
+"origin" "-3200 -456 24"
+"classname" "target_speaker"
+}
+{
+"classname" "trigger_multiple"
+"target" "checkpoint4"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-8 -24 -28"
+"targetname" "checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "checkpoint2"
+"wait" "-1"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "checkpoint3"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1256 480 -28"
+"targetname" "checkpoint3"
+}
