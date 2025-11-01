@@ -1,0 +1,112 @@
+{
+"classname" "worldspawn"
+"gridsize" "512 512 512"
+"_blocksize" "4096"
+"ambient" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4032 32 24"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*2"
+}
+{
+"angle" "360"
+"targetname" "t1"
+"origin" "1544 32 280"
+"classname" "target_position"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "doors"
+"speed" "300"
+"wait" "5"
+"lip" "0"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "doors"
+"speed" "300"
+"wait" "5"
+"lip" "0"
+"model" "*5"
+}
+{
+"wait" "1"
+"classname" "trigger_multiple"
+"target" "doors"
+"model" "*6"
+}
+{
+"target" "end"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "end"
+"origin" "9488 32 568"
+"classname" "target_stopTimer"
+}
+{
+"target" "non"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"spawnflags" "32"
+"targetname" "non"
+"origin" "2752 32 136"
+"classname" "target_init"
+}
+{
+"target" "run"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "run"
+"origin" "-3776 184 56"
+"classname" "target_startTimer"
+}
+{
+"dmg" "100"
+"classname" "trigger_hurt"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3056 104 120"
+"targetname" "t2"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"classname" "trigger_teleport"
+"target" "instart"
+"model" "*12"
+}
+{
+"targetname" "instart"
+"angle" "360"
+"origin" "-4056 32 0"
+"classname" "target_position"
+}
