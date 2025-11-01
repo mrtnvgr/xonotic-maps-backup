@@ -1,0 +1,132 @@
+{
+"ambient" "35"
+"targetname" "p01"
+"target" "start"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "8"
+}
+{
+"model" "*2"
+"spawnflags" "8"
+"dmg" "1000"
+"classname" "trigger_hurt"
+}
+{
+"classname" "target_push"
+"origin" "-76 128 1768"
+"targetname" "p01"
+}
+{
+"model" "*3"
+"classname" "trigger_push"
+"target" "p01"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-360 128 -432"
+"count" "999"
+"wait" "1"
+}
+{
+"classname" "item_enviro"
+"origin" "-392 128 -432"
+"wait" "1"
+"count" "999"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "1136 132 208"
+"wait" "5"
+"count" "1"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "start"
+}
+{
+"classname" "target_startTimer"
+"origin" "-376 128 56"
+"targetname" "start"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-432 128 -424"
+}
+{
+"origin" "912 144 1552"
+"classname" "ammo_cells"
+}
+{
+"classname" "ammo_cells"
+"origin" "944 144 1552"
+}
+{
+"origin" "912 112 1552"
+"classname" "ammo_cells"
+}
+{
+"classname" "ammo_cells"
+"origin" "944 112 1552"
+}
+{
+"model" "*5"
+"spawnflags" "8"
+"dmg" "1000"
+"classname" "trigger_hurt"
+}
+{
+"spawnflags" "1"
+"wait" "3"
+"count" "2"
+"origin" "768 152 208"
+"classname" "item_haste"
+}
+{
+"spawnflags" "1"
+"wait" "3"
+"count" "2"
+"classname" "item_haste"
+"origin" "768 112 208"
+}
+{
+"model" "*6"
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "8"
+}
+{
+"model" "*7"
+"classname" "trigger_multiple"
+"target" "stop"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1608 128 2632"
+"targetname" "stop"
+}
+{
+"model" "*8"
+"classname" "trigger_multiple"
+"target" "check01"
+}
+{
+"classname" "target_checkpoint"
+"origin" "944 128 680"
+"targetname" "check01"
+}
+{
+"model" "*9"
+"classname" "trigger_multiple"
+"target" "check02"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1032 128 1736"
+"targetname" "check02"
+}
