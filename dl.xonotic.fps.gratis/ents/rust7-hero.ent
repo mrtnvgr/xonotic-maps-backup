@@ -1,0 +1,50 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "32 -160 32"
+}
+{
+"classname" "target_startTimer"
+"origin" "32 56 128"
+"targetname" "t5"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "t5"
+}
+{
+"classname" "target_stopTimer"
+"origin" "32 -1512 128"
+"targetname" "t1"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"classname" "misc_model"
+"model" "models/mapobj~1/visor_~1.md3"
+"angle" "225"
+"origin" "256 576 88"
+}
+{
+"origin" "-184 576 88"
+"angle" "315"
+"model" "models/mapobj~1/visor_~1.md3"
+"classname" "misc_model"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "t1"
+}
