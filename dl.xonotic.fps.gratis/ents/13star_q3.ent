@@ -1,0 +1,281 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "716.799988 716.799988 716.799988"
+"vertexremapshader3" "textures/13star/floor_logo;textures/13star/vx_floor_logo"
+"vertexremapshader2" "textures/13star/floor_peak;textures/13star/vx_floor"
+"vertexremapshader1" "textures/13star/floor;textures/13star/vx_floor"
+"message" "starforce (by sst13)"
+"classname" "worldspawn"
+"music" "music/win.wav"
+}
+{
+"classname" "target_teleporter"
+"targetname" "t11"
+"target" "t3"
+"origin" "0.000000 0.000000 89.599998"
+}
+{
+"classname" "trigger_always"
+"targetshadername" "bloodtrail"
+"targetshadernewname" "textures/13star/_bloodtrail"
+"origin" "-89.599998 0.000000 627.200012"
+}
+{
+"classname" "target_speaker"
+"targetname" "t10"
+"gametype" "tournament, single, team"
+"spawnflags" "4"
+"noise" "*falling1.wav"
+"origin" "0.000000 0.000000 -716.799988"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "t9"
+"gametype" "tournament, single, team"
+"origin" "0.000000 0.000000 -896.000000"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"gametype" "tournament, single, team"
+"target" "t9"
+}
+{
+"model" "*2"
+"classname" "trigger_hurt"
+"gametype" "tournament, single, team"
+"spawnflags" "12"
+"dmg" "9999"
+}
+{
+"classname" "target_give"
+"targetname" "t7"
+"target" "t8"
+"origin" "0.000000 0.000000 896.000000"
+}
+{
+"classname" "target_location"
+"message" "star"
+"origin" "0.000000 0.000000 179.199997"
+}
+{
+"classname" "item_botroam"
+"weight" "500"
+"origin" "0.000000 -582.399963 22.400000"
+}
+{
+"model" "*3"
+"origin" "0.000000 0.000000 -358.399994"
+"classname" "func_rotating"
+"speed" "100"
+}
+{
+"origin" "0.000000 -1344.000000 89.599998"
+"noise" "sound/world/wind2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"model" "*4"
+"target" "t11"
+"classname" "trigger_multiple"
+"gametype" "ffa"
+}
+{
+"classname" "target_position"
+"targetname" "t1"
+"origin" "0.000000 985.599976 672.000000"
+}
+{
+"classname" "info_player_intermission"
+"angle" "270"
+"target" "t1"
+"origin" "0.000000 1164.799927 806.399963"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "0.000000 -739.200012 33.599998"
+"target" "t7"
+}
+{
+"origin" "694.399963 -246.399994 33.599998"
+"angle" "160"
+"classname" "info_player_deathmatch"
+"target" "t7"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "20"
+"origin" "-694.399963 -246.399994 33.599998"
+"target" "t7"
+}
+{
+"origin" "-425.600006 582.399963 33.599998"
+"angle" "305"
+"classname" "info_player_deathmatch"
+"target" "t7"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "235"
+"origin" "425.600006 582.399963 33.599998"
+"target" "t7"
+}
+{
+"targetname" "t3"
+"classname" "misc_teleporter_dest"
+"angle" "90"
+"origin" "0.000000 -739.200012 33.599998"
+"gametype" "ffa"
+}
+{
+"targetname" "t3"
+"origin" "694.399963 -246.399994 33.599998"
+"angle" "160"
+"classname" "misc_teleporter_dest"
+"gametype" "ffa"
+}
+{
+"targetname" "t3"
+"classname" "misc_teleporter_dest"
+"angle" "20"
+"origin" "-694.399963 -246.399994 33.599998"
+"gametype" "ffa"
+}
+{
+"targetname" "t3"
+"origin" "-425.600006 582.399963 33.599998"
+"angle" "310"
+"classname" "misc_teleporter_dest"
+"gametype" "ffa"
+}
+{
+"targetname" "t3"
+"classname" "misc_teleporter_dest"
+"angle" "230"
+"origin" "425.600006 582.399963 33.599998"
+"gametype" "ffa"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/wind2.wav"
+"origin" "1254.400024 -448.000000 89.599998"
+}
+{
+"origin" "806.399963 1075.199951 89.599998"
+"noise" "sound/world/wind2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/wind2.wav"
+"origin" "-806.399963 1075.199951 89.599998"
+}
+{
+"origin" "-1254.400024 -448.000000 89.599998"
+"noise" "sound/world/wind2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/tim_hole.wav"
+"origin" "0.000000 0.000000 537.599976"
+}
+{
+"origin" "0.000000 0.000000 358.399994"
+"wait" "3"
+"target" "t5"
+"targetname" "t4"
+"classname" "target_delay"
+}
+{
+"targetname" "t5"
+"origin" "0.000000 0.000000 448.000000"
+"spawnflags" "4"
+"noise" "sound/world/1shot_gong.wav"
+"classname" "target_speaker"
+}
+{
+"target" "t4"
+"wait" "-1"
+"classname" "trigger_always"
+"origin" "0.000000 0.000000 268.799988"
+}
+{
+"origin" "537.599976 -179.199997 22.400000"
+"weight" "500"
+"classname" "item_botroam"
+}
+{
+"classname" "item_botroam"
+"weight" "500"
+"origin" "313.600006 448.000000 22.400000"
+}
+{
+"origin" "-313.600006 448.000000 22.400000"
+"weight" "500"
+"classname" "item_botroam"
+}
+{
+"classname" "item_botroam"
+"weight" "500"
+"origin" "-537.599976 -179.199997 22.400000"
+}
+{
+"origin" "-179.199997 -268.799988 22.400000"
+"weight" "1000"
+"classname" "item_botroam"
+}
+{
+"classname" "item_botroam"
+"weight" "1000"
+"origin" "179.199997 -268.799988 22.400000"
+}
+{
+"origin" "313.600006 89.599998 22.400000"
+"weight" "1000"
+"classname" "item_botroam"
+}
+{
+"classname" "item_botroam"
+"weight" "1000"
+"origin" "-313.600006 89.599998 22.400000"
+}
+{
+"origin" "0.000000 313.600006 22.400000"
+"weight" "1000"
+"classname" "item_botroam"
+}
+{
+"origin" "44.799999 0.000000 985.599976"
+"count" "-100"
+"classname" "ammo_bullets"
+"gametype" "ffa, tournament, single, ctf"
+"targetname" "t8"
+}
+{
+"classname" "ammo_bullets"
+"count" "-50"
+"origin" "-44.799999 0.000000 985.599976"
+"gametype" "team"
+"targetname" "t8"
+}
+{
+"model" "*5"
+"gametype" "tournament, single, team"
+"classname" "trigger_multiple"
+"target" "t10"
+}
+{
+"origin" "89.599998 0.000000 627.200012"
+"targetshadernewname" "textures/13star/_bloodmark"
+"targetshadername" "bloodmark"
+"classname" "trigger_always"
+}
