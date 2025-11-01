@@ -1,0 +1,115 @@
+{
+"classname" "worldspawn"
+}
+{
+"target" "t2"
+"classname" "info_player_start"
+"origin" "-320 168 40"
+}
+{
+"targetname" "t1"
+"count" "2"
+"origin" "-240 136 96"
+"classname" "weapon_rocketlauncher"
+}
+{
+"targetname" "t1"
+"count" "200"
+"origin" "-288 136 136"
+"classname" "item_enviro"
+}
+{
+"targetname" "t2"
+"target" "t1"
+"origin" "-368 136 144"
+"classname" "target_give"
+}
+{
+"targetname" "t3"
+"origin" "-80 144 168"
+"classname" "target_startTimer"
+}
+{
+"wait" "-1"
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t4"
+"origin" "1056 -688 184"
+"classname" "target_checkpoint"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t5"
+"origin" "-1896 -1024 216"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t6"
+"origin" "1272 424 168"
+"classname" "target_checkpoint"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t8"
+"count" "1"
+"origin" "-1048 -1024 184"
+"classname" "ammo_rockets"
+}
+{
+"targetname" "t9"
+"target" "t8"
+"origin" "-952 -1024 176"
+"classname" "target_give"
+}
+{
+"wait" "-1"
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"target" "t10"
+"classname" "target_fragsFilter"
+"origin" "2096 1048 168"
+"frags" "1"
+"targetname" "t7"
+}
+{
+"targetname" "t10"
+"origin" "1952 1080 168"
+"classname" "target_stopTimer"
+}
+{
+"target" "t7"
+"targetname" "t11"
+"classname" "target_score"
+"origin" "-1800 -984 208"
+"count" "1"
+}
+{
+"wait" "-1"
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*7"
+}
