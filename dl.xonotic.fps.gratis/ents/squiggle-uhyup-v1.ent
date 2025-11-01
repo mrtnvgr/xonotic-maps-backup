@@ -1,0 +1,59 @@
+{
+"_q3map2_version" "2.5.17n-git-aa9e315"
+"_q3map2_cmdline" "-meta -v -maxarea -samplesize 8 -mv 1000000 -mi 6000000; -vis -fast -saveprt; -light -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill -lomem"
+"classname" "worldspawn"
+}
+{
+"origin" "1632.000000 1824.000000 -456.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"dmg" "1000"
+"classname" "trigger_hurt"
+}
+{
+"model" "*1"
+"dmg" "1000"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"targetname" "trigger_race_checkpoint1"
+"spawnflags" "2"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint1"
+"angle" "-90.000000"
+"origin" "1728.000000 1728.000000 -460.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*3"
+"targetname" "trigger_race_checkpoint2"
+"cnt" "1"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*4"
+"targetname" "trigger_race_checkpoint3"
+"cnt" "2"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*5"
+"targetname" "trigger_race_checkpoint4"
+"cnt" "3"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*6"
+"targetname" "trigger_race_checkpoint5"
+"cnt" "4"
+"spawnflags" "10"
+"classname" "trigger_race_checkpoint"
+}
