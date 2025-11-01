@@ -1,0 +1,162 @@
+{
+"gridsize" "80 80 128"
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta -noob; -vis; -light -fast -patchshadows -samples 2 -filter -bounce 8"
+"_celshader" "nes_sfx/celshading"
+"music" "music/nes/basslinesexist.wav"
+"classname" "worldspawn"
+}
+{
+"origin" "1152 4352 352"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "1152 4288 448"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"wait" "-1"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "5200 6832 9788"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "4928 6272 9216"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint2"
+"origin" "1024 3264 7936"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint3"
+"origin" "5696 448 6912"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "target_checkpoint4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint4"
+"origin" "6976 7616 6912"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"target" "target_checkpoint5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint5"
+"origin" "1984 7104 6784"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"target" "target_checkpoint6"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint6"
+"origin" "1792 3456 3648"
+"classname" "target_checkpoint"
+}
+{
+"model" "*9"
+"target" "target_checkpoint7"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint7"
+"origin" "4928 6912 3456"
+"classname" "target_checkpoint"
+}
+{
+"model" "*10"
+"target" "target_checkpoint8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint8"
+"origin" "3904 5056 2368"
+"classname" "target_checkpoint"
+}
+{
+"model" "*11"
+"target" "target_checkpoint9"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint9"
+"origin" "7616 4352 896"
+"classname" "target_checkpoint"
+}
+{
+"count" "999"
+"origin" "1152 4352 384"
+"classname" "item_enviro"
+}
+{
+"model" "*12"
+"spawnflags" "8"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"message" "good job warrior!"
+"targetname" "target_stopTimer1"
+"origin" "5200 6832 9888"
+"classname" "target_print"
+}
+{
+"noise" "sound/nes/cosmicd.wav"
+"spawnflags" "12"
+"targetname" "target_stopTimer1"
+"origin" "5120 6912 9984"
+"classname" "target_speaker"
+}
+{
+"model" "*13"
+"notcpm" "1"
+"classname" "func_static"
+}
+{
+"model" "*14"
+"notcpm" "1"
+"classname" "func_static"
+}
+{
+"model" "*15"
+"notcpm" "1"
+"classname" "func_static"
+}
