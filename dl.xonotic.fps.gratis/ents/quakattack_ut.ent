@@ -1,0 +1,136 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"message" "quakattack!?"
+"classname" "worldspawn"
+"ambient" "10"
+"_blocksize" "512 512 512"
+"_minlight" "5"
+}
+{
+"angle" "90"
+"origin" "179.199997 89.599998 -89.599998"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "speed"
+"classname" "trigger_push"
+}
+{
+"targetname" "speed"
+"origin" "5465.600098 3740.800049 -425.600006"
+"classname" "target_position"
+}
+{
+"model" "*2"
+"target" "startrun"
+"classname" "trigger_multiple"
+}
+{
+"name" "quakattack!?"
+"color" "5"
+"type" "1"
+"targetname" "startrun"
+"origin" "358.399994 1086.400024 0.000000"
+"classname" "ut_jumpstart"
+}
+{
+"model" "*3"
+"target" "endrun"
+"classname" "trigger_multiple"
+}
+{
+"name" "quakattack!?"
+"color" "5"
+"type" "1"
+"targetname" "endrun"
+"origin" "896.000000 -1030.400024 -515.200012"
+"classname" "ut_jumpstop"
+}
+{
+"model" "*4"
+"target" "stoprun"
+"classname" "trigger_multiple"
+}
+{
+"name" "quakattack!?"
+"color" "5"
+"type" "1"
+"targetname" "stoprun"
+"origin" "358.399994 -784.000000 -380.799988"
+"classname" "ut_jumpcancel"
+}
+{
+"classname" "info_player_start"
+"origin" "268.799988 89.599998 -89.599998"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "358.399994 89.599998 -89.599998"
+"classname" "info_player_start"
+}
+{
+"classname" "info_player_start"
+"origin" "448.000000 89.599998 -89.599998"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "537.599976 89.599998 -89.599998"
+"classname" "info_player_start"
+}
+{
+"classname" "info_player_start"
+"origin" "492.799988 156.800003 -89.599998"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "403.199982 156.800003 -89.599998"
+"classname" "info_player_start"
+}
+{
+"_minlight" "5"
+"message" "quakattack!? - racemap"
+"classname" "info_player_start"
+"origin" "313.600006 156.800003 -89.599998"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "224.000000 156.800003 -89.599998"
+"classname" "info_player_start"
+}
+{
+"model" "*5"
+"classname" "trigger_hurt"
+"dmg" "5"
+"spawnflags" "28"
+}
+{
+"model" "*6"
+"spawnflags" "28"
+"dmg" "5"
+"classname" "trigger_hurt"
+}
+{
+"model" "*7"
+"classname" "trigger_hurt"
+"dmg" "5"
+"spawnflags" "28"
+}
+{
+"model" "*8"
+"spawnflags" "28"
+"dmg" "5"
+"classname" "trigger_hurt"
+}
+{
+"model" "*9"
+"classname" "trigger_hurt"
+"spawnflags" "20"
+"dmg" "3"
+}
