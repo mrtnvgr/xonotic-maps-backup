@@ -1,0 +1,3565 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"message" "wild berry poptart"
+"classname" "worldspawn"
+"ambient" "5"
+}
+{
+"model" "*1"
+"speed" "150"
+"wait" "6"
+"lip" "19.600000"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"lip" "25.199999"
+"wait" "6"
+"speed" "150"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"lip" "14.000000"
+"angle" "360"
+"speed" "100"
+"wait" "6"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"lip" "14.000000"
+"speed" "100"
+"wait" "6"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"classname" "func_door"
+"lip" "14.000000"
+"speed" "150"
+"wait" "6"
+"angle" "360"
+}
+{
+"model" "*6"
+"angle" "270"
+"wait" "6"
+"lip" "14.000000"
+"speed" "150"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"classname" "func_door"
+"wait" "6"
+"speed" "150"
+"lip" "14.000000"
+"angle" "90"
+}
+{
+"model" "*8"
+"speed" "150"
+"wait" "6"
+"lip" "14.000000"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"speed" "150"
+"lip" "14.000000"
+"wait" "6"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"classname" "misc_portal_surface"
+"origin" "1176.000000 -442.399994 498.399994"
+}
+{
+"model" "*10"
+"angle" "360"
+"health" "1"
+"lip" "4.200000"
+"speed" "75"
+"wait" "3"
+"classname" "func_door"
+}
+{
+"model" "*11"
+"classname" "trigger_push"
+"target" "roofbouncer"
+}
+{
+"classname" "target_position"
+"origin" "1288.000000 -1684.199951 793.799988"
+"targetname" "roofbouncer"
+}
+{
+"model" "*12"
+"classname" "func_door"
+"targetname" "springdoor"
+"speed" "150"
+"lip" "1.400000"
+"angle" "180"
+"wait" "27.5"
+}
+{
+"model" "*13"
+"classname" "func_button"
+"angle" "270"
+"wait" "28.5"
+"lip" "1.400000"
+"speed" "150"
+"target" "springdoor"
+"health" "0"
+}
+{
+"model" "*14"
+"classname" "func_door"
+"angle" "180"
+"targetname" "hammerdoor"
+"lip" "1.400000"
+"wait" "18.5"
+"speed" "150"
+}
+{
+"model" "*15"
+"classname" "func_button"
+"speed" "150"
+"lip" "1.400000"
+"wait" "19"
+"angle" "180"
+"target" "hammerdoor"
+"health" "1"
+}
+{
+"model" "*16"
+"classname" "func_door"
+"angle" "180"
+"speed" "150"
+"lip" "1.400000"
+"wait" "6"
+"targetname" "wrenchdoor"
+}
+{
+"model" "*17"
+"classname" "func_button"
+"target" "wrenchdoor"
+"speed" "150"
+"wait" "10"
+"lip" "1.400000"
+"angle" "360"
+"health" "1"
+}
+{
+"model" "*18"
+"classname" "trigger_push"
+"target" "poptartbouncer"
+}
+{
+"classname" "target_position"
+"origin" "-235.199997 -179.199997 509.600006"
+"targetname" "poptartbouncer"
+"health" "1"
+}
+{
+"model" "*19"
+"classname" "func_door"
+"angle" "-2"
+"speed" "100"
+"lip" "1.400000"
+"wait" "5.5"
+"targetname" "saunadoor"
+}
+{
+"model" "*20"
+"classname" "func_button"
+"target" "saunadoor"
+"lip" "-1.400000"
+"angle" "360"
+"wait" "7"
+"speed" "150"
+"health" "1"
+}
+{
+"model" "*21"
+"classname" "trigger_multiple"
+"target" "saunadoor"
+"wait" "3"
+}
+{
+"model" "*22"
+"classname" "trigger_teleport"
+"target" "mainteleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1797.599976 -2998.800049 -44.799999"
+"targetname" "mainteleport"
+"angle" "135"
+}
+{
+"model" "*23"
+"classname" "trigger_teleport"
+"target" "secondaryteleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "6137.600098 -3001.599854 -414.399994"
+"angle" "135"
+"targetname" "secondaryteleport"
+}
+{
+"model" "*24"
+"classname" "func_button"
+"target" "poptartdoor"
+"speed" "150"
+"lip" "1.400000"
+"wait" "1000000"
+"angle" "90"
+}
+{
+"model" "*25"
+"classname" "func_door"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"targetname" "poptartdoor"
+"angle" "-2"
+}
+{
+"classname" "target_print"
+"origin" "6283.199707 -3158.399902 -249.199997"
+"targetname" "poptartdoor"
+"message" "you found the wild berry poptart!"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "6260.799805 -3136.000000 -249.199997"
+"targetname" "poptartdoor"
+"count" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "6137.600098 -3001.599854 -380.799988"
+"angle" "135"
+}
+{
+"model" "*26"
+"health" "1"
+"classname" "func_button"
+"angle" "-1"
+"speed" "150"
+"lip" "1.400000"
+"target" "orangedoor"
+"wait" "1000000"
+}
+{
+"model" "*27"
+"classname" "func_door"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"angle" "-2"
+"targetname" "orangedoor"
+}
+{
+"classname" "target_print"
+"origin" "6244.000000 -3203.199951 -246.399994"
+"targetname" "orangedoor"
+"message" "you found the orange!"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "6244.000000 -3169.599854 -246.399994"
+"targetname" "orangedoor"
+"count" "1"
+}
+{
+"model" "*28"
+"target" "purpledoor"
+"wait" "1000000"
+"angle" "90"
+"speed" "150"
+"lip" "1.400000"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*29"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"targetname" "purpledoor"
+"classname" "func_door"
+}
+{
+"message" "you found the purple!"
+"targetname" "purpledoor"
+"origin" "6339.199707 -3119.199951 -246.399994"
+"classname" "target_print"
+"spawnflags" "4"
+}
+{
+"count" "1"
+"targetname" "purpledoor"
+"origin" "6311.199707 -3119.199951 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*30"
+"angle" "-2"
+"target" "marshmellowdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*31"
+"angle" "-2"
+"speed" "150"
+"wait" "1000000"
+"lip" "5.600000"
+"targetname" "marshmellowdoor"
+"classname" "func_door"
+}
+{
+"message" "you found the marshmallow!"
+"targetname" "marshmellowdoor"
+"origin" "6176.799805 -3203.199951 -246.399994"
+"classname" "target_print"
+"spawnflags" "4"
+}
+{
+"count" "1"
+"targetname" "marshmellowdoor"
+"origin" "6176.799805 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*32"
+"classname" "func_button"
+"lip" "1.400000"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"target" "dongdoor"
+}
+{
+"model" "*33"
+"classname" "func_door"
+"targetname" "dongdoor"
+"angle" "-2"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+}
+{
+"classname" "target_print"
+"origin" "5975.199707 -3203.199951 -246.399994"
+"targetname" "dongdoor"
+"message" "you found your dong!"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "5975.199707 -3169.599854 -246.399994"
+"targetname" "dongdoor"
+"count" "1"
+}
+{
+"model" "*34"
+"classname" "func_door"
+"angle" "180"
+"lip" "11.200000"
+"speed" "100"
+"wait" "4"
+"health" "1"
+}
+{
+"model" "*35"
+"classname" "func_button"
+"angle" "270"
+"health" "1"
+"lip" "8.400000"
+"target" "hillybibeldoor"
+"wait" "1000000"
+"speed" "150"
+}
+{
+"model" "*36"
+"classname" "func_door"
+"lip" "5.600000"
+"wait" "1000000"
+"speed" "150"
+"targetname" "hillybibeldoor"
+"angle" "-2"
+}
+{
+"classname" "target_print"
+"origin" "5773.600098 -3203.199951 -246.399994"
+"targetname" "hillybibeldoor"
+"message" "you found the hilly bibbel!"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "5773.600098 -3169.599854 -246.399994"
+"targetname" "hillybibeldoor"
+"count" "1"
+}
+{
+"model" "*37"
+"health" "1"
+"target" "chickadeedoor"
+"speed" "150"
+"wait" "1000000"
+"lip" "1.400000"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*38"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"targetname" "chickadeedoor"
+"classname" "func_door"
+}
+{
+"message" "you found the chickadee!"
+"targetname" "chickadeedoor"
+"origin" "6109.600098 -3203.199951 -249.199997"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "chickadeedoor"
+"origin" "6109.600098 -3169.599854 -249.199997"
+"classname" "target_score"
+}
+{
+"model" "*39"
+"classname" "func_button"
+"angle" "180"
+"lip" "1.400000"
+"speed" "150"
+"wait" "1000000"
+"target" "turdburglardoor"
+}
+{
+"model" "*40"
+"classname" "func_door"
+"targetname" "turdburglardoor"
+"lip" "5.600000"
+"wait" "1000000"
+"speed" "150"
+"angle" "-2"
+}
+{
+"message" "you found the turd burglar!"
+"spawnflags" "4"
+"targetname" "turdburglardoor"
+"origin" "5840.799805 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"classname" "target_score"
+"origin" "5840.799805 -3169.599854 -246.399994"
+"targetname" "turdburglardoor"
+"count" "1"
+}
+{
+"model" "*41"
+"classname" "func_button"
+"angle" "315"
+"lip" "1.400000"
+"health" "1"
+"speed" "150"
+"wait" "1000000"
+"target" "turdsandwichdoor"
+}
+{
+"model" "*42"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "turdsandwichdoor"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+}
+{
+"classname" "target_print"
+"origin" "6042.399902 -3203.199951 -246.399994"
+"targetname" "turdsandwichdoor"
+"message" "you found the turd sandwich!"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "6042.399902 -3169.599854 -246.399994"
+"targetname" "turdsandwichdoor"
+"count" "1"
+}
+{
+"model" "*43"
+"health" "1"
+"target" "pieceofgrassdoor"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*44"
+"wait" "1000000"
+"angle" "-2"
+"lip" "5.600000"
+"speed" "150"
+"targetname" "pieceofgrassdoor"
+"classname" "func_door"
+}
+{
+"spawnflags" "4"
+"message" "you found the piece of grass!"
+"targetname" "pieceofgrassdoor"
+"origin" "5706.399902 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "pieceofgrassdoor"
+"origin" "5706.399902 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*45"
+"target" "snaildoor"
+"wait" "1000000"
+"angle" "360"
+"lip" "1.400000"
+"spped" "150"
+"classname" "func_button"
+}
+{
+"model" "*46"
+"angle" "-2"
+"speed" "150"
+"wait" "1000000"
+"lip" "5.600000"
+"targetname" "snaildoor"
+"classname" "func_door"
+}
+{
+"message" "you found the snail!"
+"spawnflags" "4"
+"targetname" "snaildoor"
+"origin" "5639.199707 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "snaildoor"
+"origin" "5639.199707 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*47"
+"classname" "func_button"
+"lip" "5.600000"
+"wait" "1000000"
+"speed" "150"
+"angle" "-1"
+"health" "1"
+"target" "breazydoor"
+}
+{
+"spawnflags" "4"
+"message" "you found the breazy!"
+"targetname" "breazydoor"
+"origin" "5572.000000 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "breazydoor"
+"origin" "5572.000000 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*48"
+"angle" "-2"
+"target" "popcorndoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"model" "*49"
+"angle" "-2"
+"wait" "1000000"
+"lip" "5.600000"
+"speed" "150"
+"targetname" "popcorndoor"
+"classname" "func_door"
+}
+{
+"message" "you found the popcorn!"
+"spawnflags" "4"
+"targetname" "popcorndoor"
+"origin" "5504.799805 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "popcorndoor"
+"origin" "5504.799805 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*50"
+"wait" "3"
+"target" "restroomdoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*51"
+"angle" "360"
+"lip" "4.200000"
+"speed" "100"
+"wait" "3.1"
+"targetname" "restroomdoor"
+"classname" "func_door"
+}
+{
+"model" "*52"
+"health" "1"
+"target" "smilingbananadoor"
+"speed" "150"
+"wait" "1000000"
+"angle" "360"
+"lip" "-2.800000"
+"classname" "func_button"
+}
+{
+"model" "*53"
+"targetname" "smilingbananadoor"
+"angle" "-2"
+"wait" "1000000"
+"lip" "5.600000"
+"speed" "150"
+"classname" "func_door"
+}
+{
+"message" "you found the smiling banana!"
+"spawnflags" "4"
+"targetname" "smilingbananadoor"
+"origin" "5437.600098 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "smilingbananadoor"
+"origin" "5437.600098 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*54"
+"target" "menorahdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"spawnflags" "4"
+"message" "you found the menorah!"
+"targetname" "menorahdoor"
+"origin" "5908.000000 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"model" "*55"
+"angle" "-2"
+"wait" "1000000"
+"lip" "5.600000"
+"speed" "150"
+"targetname" "menorahdoor"
+"classname" "func_door"
+}
+{
+"count" "1"
+"targetname" "menorahdoor"
+"origin" "5908.000000 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*56"
+"speed" "150"
+"wait" "1000000"
+"lip" "1.400000"
+"target" "sudoor"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*57"
+"targetname" "sudoor"
+"wait" "1000000"
+"angle" "-2"
+"lip" "5.600000"
+"speed" "150"
+"classname" "func_door"
+}
+{
+"message" "you found the su!"
+"spawnflags" "4"
+"targetname" "sudoor"
+"origin" "5370.399902 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "sudoor"
+"origin" "5364.799805 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*58"
+"classname" "func_button"
+"angle" "-2"
+"speed" "150"
+"lip" "1.400000"
+"wait" "1000000"
+"target" "tootsierollsdoor"
+"health" "1"
+}
+{
+"model" "*59"
+"classname" "func_door"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+"targetname" "tootsierollsdoor"
+"angle" "-2"
+}
+{
+"classname" "target_print"
+"origin" "5303.199707 -3203.199951 -246.399994"
+"targetname" "tootsierollsdoor"
+"spawnflags" "4"
+"message" "you found the tootsie rolls!"
+}
+{
+"classname" "target_score"
+"origin" "5303.199707 -3169.599854 -246.399994"
+"targetname" "tootsierollsdoor"
+"count" "1"
+}
+{
+"model" "*60"
+"classname" "func_button"
+"speed" "150"
+"wait" "1000000"
+"lip" "1.400000"
+"targetname" "losendaryjosdoor"
+"angle" "-1"
+"health" "1"
+"target" "losendaryjoshdoor"
+}
+{
+"model" "*61"
+"classname" "func_door"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+"targetname" "losendaryjoshdoor"
+"angle" "-2"
+}
+{
+"classname" "target_print"
+"origin" "5236.000000 -3203.199951 -246.399994"
+"targetname" "losendaryjoshdoor"
+"message" "you found losendary josh!"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "5236.000000 -3169.599854 -246.399994"
+"targetname" "losendaryjoshdoor"
+"count" "1"
+}
+{
+"model" "*62"
+"classname" "func_door"
+"angle" "-2"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+"targetname" "breazydoor"
+}
+{
+"model" "*63"
+"classname" "func_button"
+"target" "loptopbokpokdoor"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"health" "1"
+}
+{
+"model" "*64"
+"classname" "func_door"
+"speed" "150"
+"wait" "1000000"
+"lip" "5.600000"
+"targetname" "loptopbokpokdoor"
+"angle" "-2"
+}
+{
+"message" "you found the lop top bok pok!"
+"classname" "target_print"
+"origin" "5168.799805 -3203.199951 -246.399994"
+"targetname" "loptopbokpokdoor"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "5168.799805 -3169.599854 -246.399994"
+"targetname" "loptopbokpokdoor"
+"count" "1"
+}
+{
+"model" "*65"
+"wait" "1000000"
+"target" "magicwanddoor"
+"health" "1"
+"angle" "270"
+"lip" "1.400000"
+"speed" "150"
+"classname" "func_button"
+}
+{
+"model" "*66"
+"angle" "-2"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+"targetname" "magicwanddoor"
+"classname" "func_door"
+}
+{
+"message" "you found the magic wand!"
+"spawnflags" "4"
+"targetname" "magicwanddoor"
+"origin" "5101.600098 -3203.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "magicwanddoor"
+"origin" "5101.600098 -3169.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*67"
+"health" "1"
+"target" "platedoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "23.799999"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*68"
+"targetname" "platedoor"
+"speed" "150"
+"wait" "1000000"
+"lip" "5.600000"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"message" "you found the plate!"
+"spawnflags" "4"
+"targetname" "platedoor"
+"origin" "6344.799805 -3052.000000 -246.399994"
+"classname" "target_print"
+}
+{
+"count" "1"
+"targetname" "platedoor"
+"origin" "6316.799805 -3052.000000 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*69"
+"angle" "-2"
+"wait" "3"
+"lip" "-7.000000"
+"health" "1"
+"speed" "150"
+"classname" "func_door"
+}
+{
+"model" "*70"
+"health" "1"
+"target" "tshirtdoor"
+"angle" "-2"
+"lip" "1.400000"
+"speed" "150"
+"wait" "1000000"
+"classname" "func_button"
+}
+{
+"model" "*71"
+"targetname" "tshirtdoor"
+"angle" "-2"
+"lip" "5.600000"
+"wait" "1000000"
+"speed" "150"
+"classname" "func_door"
+}
+{
+"message" "you found the t-shirt!"
+"spawnflags" "4"
+"targetname" "tshirtdoor"
+"origin" "6344.799805 -2984.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "tshirtdoor"
+"origin" "6316.799805 -2984.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*72"
+"target" "narwhaldoor"
+"wait" "1000000"
+"lip" "14.000000"
+"speed" "150"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*73"
+"angle" "-2"
+"wait" "1000000"
+"lip" "5.600000"
+"speed" "150"
+"targetname" "narwhaldoor"
+"classname" "func_door"
+}
+{
+"message" "you found the narwhal!"
+"targetname" "narwhaldoor"
+"spawnflags" "4"
+"origin" "4765.600098 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "narwhaldoor"
+"origin" "4765.600098 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*74"
+"classname" "func_button"
+"lip" "1.400000"
+"speed" "150"
+"angle" "270"
+"wait" "1000000"
+"target" "frisbeedoor"
+"health" "1"
+}
+{
+"model" "*75"
+"classname" "func_door"
+"targetname" "frisbeedoor"
+"speed" "150"
+"lip" "5.600000"
+"wait" "1000000"
+"angle" "-2"
+}
+{
+"classname" "target_print"
+"origin" "5034.399902 -3203.199951 -246.399994"
+"spawnflags" "4"
+"targetname" "frisbeedoor"
+"message" "you found the frisbee!"
+}
+{
+"classname" "target_score"
+"origin" "5034.399902 -3169.599854 -246.399994"
+"targetname" "frisbeedoor"
+"count" "1"
+}
+{
+"model" "*76"
+"classname" "func_button"
+"speed" "150"
+"angle" "90"
+"lip" "1.400000"
+"wait" "1000000"
+"health" "1"
+"target" "specofsoildoor"
+}
+{
+"model" "*77"
+"classname" "func_door"
+"targetname" "specofsoildoor"
+"lip" "5.600000"
+"wait" "1000000"
+"speed" "150"
+"angle" "-2"
+}
+{
+"classname" "target_print"
+"origin" "4631.199707 -3208.800049 -246.399994"
+"targetname" "specofsoildoor"
+"message" "you found the spec of soil!"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "4631.199707 -3180.800049 -246.399994"
+"targetname" "specofsoildoor"
+"count" "1"
+}
+{
+"model" "*78"
+"classname" "func_button"
+"health" "1"
+"wait" "1000000"
+"speed" "150"
+"angle" "90"
+"lip" "1.400000"
+"target" "bearsdoor"
+}
+{
+"model" "*79"
+"classname" "func_door"
+"targetname" "bearsdoor"
+"speed" "150"
+"lip" "5.600000"
+"wait" "1000000"
+"angle" "-2"
+}
+{
+"classname" "target_print"
+"origin" "6339.199707 -2917.599854 -246.399994"
+"spawnflags" "4"
+"message" "you found the bears!"
+"targetname" "bearsdoor"
+}
+{
+"classname" "target_score"
+"origin" "6311.199707 -2917.599854 -246.399994"
+"targetname" "bearsdoor"
+}
+{
+"model" "*80"
+"wait" "6"
+"angle" "-2"
+"speed" "150"
+"lip" "5.600000"
+"targetname" "coffeepotbutton"
+"classname" "func_door"
+}
+{
+"model" "*81"
+"health" "1"
+"target" "coffeepotbutton"
+"wait" "5"
+"speed" "150"
+"angle" "180"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"model" "*82"
+"angle" "180"
+"health" "1"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"target" "cheezenipdoor"
+"classname" "func_button"
+}
+{
+"model" "*83"
+"targetname" "cheezenipdoor"
+"angle" "-2"
+"lip" "5.600000"
+"wait" "1000000"
+"speed" "150"
+"classname" "func_door"
+}
+{
+"message" "you found the cheeze nip!"
+"spawnflags" "4"
+"targetname" "cheezenipdoor"
+"origin" "4832.799805 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "cheezenipdoor"
+"origin" "4832.799805 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*84"
+"angle" "-2"
+"wait" "100000"
+"lip" "5.600000"
+"speed" "150"
+"targetname" "appledoor"
+"classname" "func_door"
+}
+{
+"message" "you found the apple!"
+"targetname" "appledoor"
+"spawnflags" "4"
+"origin" "6344.799805 -2716.000000 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "appledoor"
+"origin" "6316.799805 -2716.000000 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*85"
+"health" "1"
+"angle" "90"
+"speed" "150"
+"wait" "1000000"
+"lip" "8.400000"
+"target" "appledoor"
+"classname" "func_button"
+}
+{
+"model" "*86"
+"classname" "func_button"
+"lip" "1.400000"
+"speed" "150"
+"angle" "90"
+"wait" "1000000"
+"target" "battlestargalacticadoor"
+"health" "1"
+}
+{
+"model" "*87"
+"classname" "func_button"
+"angle" "-2"
+"target" "watermellondoor"
+"lip" "1.400000"
+"speed" "150"
+"health" "1"
+"wait" "1000000"
+}
+{
+"model" "*88"
+"classname" "func_button"
+"wait" "1000000"
+"lip" "1.400000"
+"angle" "-2"
+"speed" "150"
+"health" "1"
+"target" "mordordoor"
+}
+{
+"model" "*89"
+"classname" "func_button"
+"lip" "5.600000"
+"target" "rubicscubedoor"
+"speed" "150"
+"wait" "1000000"
+"angle" "360"
+"health" "1"
+}
+{
+"model" "*90"
+"classname" "func_button"
+"health" "1"
+"speed" "150"
+"lip" "1.400000"
+"wait" "1000000"
+"target" "beets door"
+"angle" "-2"
+}
+{
+"model" "*91"
+"classname" "func_door"
+"targetname" "battlestargalacticadoor"
+"lip" "5.600000"
+"wait" "1000000"
+"speed" "150"
+"angle" "-2"
+}
+{
+"model" "*92"
+"classname" "func_door"
+"targetname" "beets door"
+"speed" "150"
+"angle" "-2"
+"lip" "5.600000"
+"wait" "1000000"
+}
+{
+"model" "*93"
+"classname" "func_door"
+"wait" "1000000"
+"speed" "150"
+"targetname" "rubicscubedoor"
+"angle" "-2"
+"lip" "5.600000"
+}
+{
+"model" "*94"
+"classname" "func_door"
+"lip" "5.600000"
+"wait" "1000000"
+"speed" "150"
+"angle" "-2"
+"targetname" "mordordoor"
+}
+{
+"model" "*95"
+"classname" "func_door"
+"targetname" "watermellondoor"
+"lip" "5.600000"
+"speed" "150"
+"angle" "-2"
+"wait" "1000000"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -2581.599854 -246.399994"
+"targetname" "watermellondoor"
+"message" "you found the watermellon!"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -2581.599854 -246.399994"
+"targetname" "watermellondoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -2783.199951 -246.399994"
+"targetname" "battlestargalacticadoor"
+"spawnflags" "4"
+"message" "you found the battlestar galactica!"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -2850.399902 -246.399994"
+"message" "you found the beets!"
+"spawnflags" "4"
+"targetname" "beets door"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -2850.399902 -246.399994"
+"targetname" "beets door"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -2783.199951 -246.399994"
+"targetname" "battlestargalacticadoor"
+}
+{
+"classname" "target_score"
+"origin" "4698.399902 -3180.800049 -246.399994"
+"targetname" "rubicscubedoor"
+}
+{
+"classname" "target_score"
+"origin" "4900.000000 -3180.800049 -246.399994"
+"targetname" "mordordoor"
+}
+{
+"classname" "target_print"
+"origin" "4900.000000 -3208.800049 -246.399994"
+"targetname" "mordordoor"
+"message" "you found the mordor!"
+"spawnflags" "4"
+}
+{
+"classname" "target_print"
+"origin" "4698.399902 -3208.800049 -246.399994"
+"spawnflags" "4"
+"message" "you found the rubic's cube!"
+"targetname" "rubicscubedoor"
+}
+{
+"model" "*96"
+"target" "christmastreedoor"
+"angle" "90"
+"speed" "150"
+"wait" "1000000"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"model" "*97"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"target" "bananadoor"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*98"
+"targetname" "bananadoor"
+"angle" "-2"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+"classname" "func_door"
+}
+{
+"message" "you found the banana!"
+"spawnflags" "4"
+"targetname" "bananadoor"
+"origin" "6344.799805 -2380.000000 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "bananadoor"
+"origin" "6316.799805 -2380.000000 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*99"
+"targetname" "christmastreedoor"
+"angle" "-2"
+"speed" "150"
+"wait" "1000000"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"message" "you found the christmas tree!"
+"spawnflags" "4"
+"targetname" "christmastreedoor"
+"origin" "4967.199707 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "christmastreedoor"
+"origin" "4967.199707 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*100"
+"classname" "func_door"
+"health" "1"
+"lip" "-22.400000"
+"wait" "6"
+"angle" "-1"
+"speed" "150"
+}
+{
+"model" "*101"
+"classname" "func_button"
+"angle" "-2"
+"speed" "150"
+"wait" "1000000"
+"target" "headphonesdoor"
+"lip" "1.400000"
+}
+{
+"model" "*102"
+"classname" "func_door"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+"angle" "-2"
+"targetname" "headphonesdoor"
+}
+{
+"classname" "target_print"
+"origin" "4564.000000 -3208.800049 -246.399994"
+"targetname" "headphonesdoor"
+"spawnflags" "4"
+"message" "you found the headphones!"
+}
+{
+"classname" "target_score"
+"origin" "4564.000000 -3180.800049 -246.399994"
+"targetname" "headphonesdoor"
+}
+{
+"model" "*103"
+"wait" "1000000"
+"speed" "150"
+"angle" "-2"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "bensnosedoor"
+}
+{
+"model" "*104"
+"targetname" "colorfultriangledoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*105"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "canoedoor"
+}
+{
+"model" "*106"
+"targetname" "stanhatdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*107"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "shaunandeddoor"
+}
+{
+"model" "*108"
+"targetname" "weirdodoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*109"
+"targetname" "maplesyrupdoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*110"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "cakefromportaldoor"
+"angle" "-2"
+}
+{
+"model" "*111"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "belugawhaledoor"
+}
+{
+"model" "*112"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "zerglingdoor"
+}
+{
+"model" "*113"
+"angle" "-2"
+"targetname" "openbothdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*114"
+"angle" "-2"
+"targetname" "seeddoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*115"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "wallaroodoor"
+"angle" "-2"
+}
+{
+"model" "*116"
+"angle" "-2"
+"targetname" "snowflakedoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*117"
+"targetname" "sharkdoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*118"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "saladdoor"
+}
+{
+"model" "*119"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "ricedoor"
+"angle" "-2"
+}
+{
+"model" "*120"
+"targetname" "canofsodadoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*121"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "redhotchilipeppersdoor"
+"angle" "-2"
+}
+{
+"model" "*122"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "snakedoor"
+}
+{
+"model" "*123"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "porcupinedoor"
+}
+{
+"model" "*124"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "poprocksdoor"
+}
+{
+"model" "*125"
+"targetname" "nepaldoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*126"
+"targetname" "bluecheesedoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*127"
+"targetname" "cinnamonsticksdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*128"
+"targetname" "barfbagdoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*129"
+"targetname" "cavedoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*130"
+"targetname" "cliffsdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*131"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "dragondoor"
+}
+{
+"model" "*132"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "smileyfacedoor"
+}
+{
+"model" "*133"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "floggingmollydoor"
+}
+{
+"model" "*134"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "toothdoor"
+"angle" "-2"
+}
+{
+"model" "*135"
+"targetname" "germanshepherddoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*136"
+"angle" "-2"
+"targetname" "googledoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*137"
+"targetname" "forkdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*138"
+"targetname" "hamsterballdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*139"
+"targetname" "knotdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*140"
+"angle" "-2"
+"targetname" "pyramiddoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*141"
+"targetname" "theoneringdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*142"
+"targetname" "moondoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*143"
+"targetname" "pecandoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*144"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "saltinecubedoor"
+}
+{
+"model" "*145"
+"targetname" "scissorsdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*146"
+"targetname" "golddoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*147"
+"targetname" "dogdoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*148"
+"targetname" "railgundoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*149"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "friedeggdoor"
+}
+{
+"model" "*150"
+"targetname" "pidedoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*151"
+"angle" "-2"
+"targetname" "hammerpeddoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*152"
+"targetname" "browniedoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*153"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "schrutebuckdoor"
+}
+{
+"model" "*154"
+"angle" "-2"
+"targetname" "leafdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*155"
+"targetname" "sworddoor"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*156"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "tinytabledoor"
+}
+{
+"model" "*157"
+"angle" "-2"
+"targetname" "alaskadoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"model" "*158"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "jimhalpertdoor"
+"angle" "-2"
+"message" "you found the jim halpert!"
+}
+{
+"model" "*159"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "sunflowerseedsdoor"
+}
+{
+"model" "*160"
+"targetname" "lightbulbdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"model" "*161"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+"angle" "-2"
+"targetname" "krissbarnesdoor"
+}
+{
+"model" "*162"
+"target" "poprocksdoor"
+"health" "1"
+"angle" "-2"
+"speed" "150"
+"lip" "1.400000"
+"wait" "1000000"
+"classname" "func_button"
+}
+{
+"model" "*163"
+"target" "porcupinedoor"
+"wait" "1000000"
+"angle" "-1"
+"lip" "1.400000"
+"speed" "150"
+"classname" "func_button"
+}
+{
+"model" "*164"
+"target" "bensnosedoor"
+"health" "1"
+"wait" "1000000"
+"speed" "150"
+"lip" "2.800000"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*165"
+"target" "shaunandeddoor"
+"wait" "1000000"
+"angle" "180"
+"speed" "150"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"message" "you found shaun and ed!"
+"spawnflags" "4"
+"targetname" "shaunandeddoor"
+"origin" "3287.199951 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"message" "you found ben's nose!"
+"spawnflags" "4"
+"targetname" "bensnosedoor"
+"origin" "2951.199951 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"message" "you found the porcupine!"
+"spawnflags" "4"
+"targetname" "porcupinedoor"
+"origin" "4429.600098 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"message" "you found the pop rocks!"
+"spawnflags" "4"
+"targetname" "poprocksdoor"
+"origin" "4496.799805 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"model" "*166"
+"target" "snakedoor"
+"health" "1"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"message" "you found the snake!"
+"spawnflags" "4"
+"targetname" "snakedoor"
+"origin" "4362.399902 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"model" "*167"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"target" "golddoor"
+"classname" "func_button"
+}
+{
+"message" "you found the gold!"
+"spawnflags" "4"
+"targetname" "golddoor"
+"origin" "6344.799805 -1506.400024 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "golddoor"
+"origin" "6311.199707 -1506.400024 -246.399994"
+"classname" "target_score"
+}
+{
+"targetname" "bensnosedoor"
+"origin" "2951.199951 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"targetname" "shaunandeddoor"
+"origin" "3287.199951 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"targetname" "snakedoor"
+"origin" "4362.399902 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"targetname" "porcupinedoor"
+"origin" "4429.600098 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"targetname" "poprocksdoor"
+"origin" "4496.799805 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*168"
+"target" "weirdodoor"
+"angle" "180"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"message" "you found the weirdo!"
+"spawnflags" "4"
+"targetname" "weirdodoor"
+"origin" "3354.399902 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "weirdodoor"
+"origin" "3354.399902 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*169"
+"target" "dogdoor"
+"health" "1"
+"angle" "360"
+"speed" "150"
+"wait" "1000000"
+"lip" "7.000000"
+"classname" "func_button"
+}
+{
+"message" "you found the dog!"
+"spawnflags" "4"
+"targetname" "dogdoor"
+"origin" "6344.799805 -1573.599976 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "dogdoor"
+"origin" "6316.799805 -1573.599976 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*170"
+"health" "1"
+"wait" "1000000"
+"target" "moondoor"
+"speed" "150"
+"angle" "-1"
+"lip" "2.800000"
+"classname" "func_button"
+}
+{
+"message" "you found the moon!"
+"spawnflags" "4"
+"targetname" "moondoor"
+"origin" "6344.799805 -1237.599976 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "moondoor"
+"origin" "6316.799805 -1237.599976 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*171"
+"target" "floggingmollydoor"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"classname" "func_button"
+"health" "1"
+}
+{
+"message" "you found the flogging molly!"
+"spawnflags" "4"
+"targetname" "floggingmollydoor"
+"origin" "6344.799805 -632.799988 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "floggingmollydoor"
+"origin" "6316.799805 -632.799988 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*172"
+"target" "googledoor"
+"health" "1"
+"angle" "-2"
+"speed" "150"
+"wait" "1000000"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"message" "you found the google!"
+"spawnflags" "4"
+"targetname" "googledoor"
+"origin" "6344.799805 -834.399963 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "googledoor"
+"origin" "6316.799805 -834.399963 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*173"
+"target" "pecandoor"
+"health" "1"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*174"
+"target" "asparagusdoor"
+"health" "1"
+"angle" "-1"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"model" "*175"
+"targetname" "asparagusdoor"
+"speed" "150"
+"wait" "1000000"
+"lip" "5.600000"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"message" "you found the asparagus!"
+"spawnflags" "4"
+"targetname" "asparagusdoor"
+"origin" "3220.000000 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "asparagusdoor"
+"origin" "3220.000000 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the pecans!"
+"spawnflags" "4"
+"targetname" "pecandoor"
+"origin" "6344.799805 -1304.799927 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "pecandoor"
+"origin" "6316.799805 -1304.799927 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*176"
+"target" "nepaldoor"
+"health" "1"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*177"
+"target" "colorfultriangledoor"
+"angle" "-1"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"model" "*178"
+"target" "stanhatdoor"
+"angle" "-1"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*179"
+"target" "lightningboltdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*180"
+"targetname" "lightningboltdoor"
+"wait" "1000000"
+"angle" "-2"
+"speed" "150"
+"lip" "5.600000"
+"classname" "func_door"
+}
+{
+"message" "you found the lightning bolt!"
+"spawnflags" "4"
+"targetname" "lightningboltdoor"
+"origin" "6344.799805 -431.199982 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "lightningboltdoor"
+"origin" "6316.799805 -431.199982 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the nepal!"
+"targetname" "nepaldoor"
+"spawnflags" "4"
+"origin" "6344.799805 -28.000000 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "nepaldoor"
+"origin" "6316.799805 -28.000000 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the stan hat!"
+"targetname" "stanhatdoor"
+"spawnflags" "4"
+"origin" "3152.800049 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "stanhatdoor"
+"origin" "3152.800049 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the colorful triangle!"
+"spawnflags" "4"
+"targetname" "colorfultriangledoor"
+"origin" "3018.399902 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "colorfultriangledoor"
+"origin" "3018.399902 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*181"
+"target" "barfbagdoor"
+"health" "1"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*182"
+"target" "maplesyrupdoor"
+"angle" "270"
+"wait" "1000000"
+"health" "1"
+"speed" "150"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"model" "*183"
+"health" "1"
+"angle" "180"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"target" "sharkdoor"
+"classname" "func_button"
+}
+{
+"model" "*184"
+"target" "waterballoondoor"
+"angle" "-2"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"health" "1"
+"classname" "func_button"
+}
+{
+"message" "you found the maple syrup!"
+"spawnflags" "4"
+"targetname" "maplesyrupdoor"
+"origin" "3421.599854 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "maplesyrupdoor"
+"origin" "3421.599854 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*185"
+"angle" "-2"
+"wait" "1000000"
+"speed" "150"
+"lip" "5.600000"
+"targetname" "waterballoondoor"
+"classname" "func_door"
+}
+{
+"message" "you found the water balloon!"
+"spawnflags" "4"
+"targetname" "waterballoondoor"
+"origin" "3757.599854 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "waterballoondoor"
+"origin" "3757.599854 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the shark!"
+"spawnflags" "4"
+"targetname" "sharkdoor"
+"origin" "4026.399902 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "sharkdoor"
+"origin" "4026.399902 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the barf bag!"
+"spawnflags" "4"
+"targetname" "barfbagdoor"
+"origin" "6344.799805 -229.599991 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "barfbagdoor"
+"origin" "6316.799805 -229.599991 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*186"
+"classname" "func_button"
+"angle" "180"
+"target" "toothdoor"
+"speed" "150"
+"wait" "1000000"
+"lip" "1.400000"
+}
+{
+"model" "*187"
+"classname" "func_button"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-1"
+"wait" "1000000"
+"health" "1"
+"target" "belugawhaledoor"
+}
+{
+"model" "*188"
+"classname" "func_button"
+"angle" "-2"
+"speed" "150"
+"lip" "1.400000"
+"wait" "1000000"
+"target" "cakefromportaldoor"
+}
+{
+"model" "*189"
+"classname" "func_button"
+"angle" "-2"
+"target" "jimhalpertdoor"
+"lip" "1.400000"
+"speed" "150"
+"health" "1"
+"wait" "1000000"
+}
+{
+"model" "*190"
+"classname" "func_button"
+"angle" "-2"
+"speed" "150"
+"wait" "1000000"
+"lip" "1.400000"
+"target" "tinytabledoor"
+"health" "1"
+}
+{
+"classname" "target_print"
+"origin" "3556.000000 -3208.800049 -246.399994"
+"targetname" "belugawhaledoor"
+"spawnflags" "4"
+"message" "you found the beluga whale!"
+}
+{
+"classname" "target_score"
+"origin" "3556.000000 -3180.800049 -246.399994"
+"targetname" "belugawhaledoor"
+}
+{
+"classname" "target_print"
+"origin" "3488.800049 -3208.800049 -246.399994"
+"targetname" "cakefromportaldoor"
+"spawnflags" "4"
+"message" "you found the cake from portal!"
+}
+{
+"classname" "target_score"
+"origin" "3488.800049 -3180.800049 -246.399994"
+"targetname" "cakefromportaldoor"
+}
+{
+"message" "you found the jim halpert!"
+"classname" "target_print"
+"origin" "6344.799805 -2312.800049 -246.399994"
+"targetname" "jimhalpertdoor"
+"spawnflags" "4"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -2312.800049 -246.399994"
+"targetname" "jimhalpertdoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -2178.399902 -246.399994"
+"targetname" "tinytabledoor"
+"spawnflags" "4"
+"message" "you found the tiny table!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -2178.399902 -246.399994"
+"targetname" "tinytabledoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -700.000000 -246.399994"
+"targetname" "toothdoor"
+"spawnflags" "4"
+"message" "you found the tooth!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -700.000000 -246.399994"
+"targetname" "toothdoor"
+}
+{
+"model" "*191"
+"targetname" "windowdoor"
+"lip" "-7.000000"
+"wait" "2"
+"speed" "150"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*192"
+"target" "windowdoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*193"
+"health" "1"
+"target" "leafdoor"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*194"
+"angle" "-2"
+"target" "pyramiddoor"
+"lip" "1.400000"
+"wait" "1000000"
+"speed" "150"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*195"
+"angle" "-2"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"health" "1"
+"target" "seeddoor"
+"classname" "func_button"
+}
+{
+"model" "*196"
+"health" "1"
+"angle" "-2"
+"target" "openbothdoor"
+"speed" "150"
+"lip" "1.400000"
+"wait" "1000000"
+"classname" "func_button"
+}
+{
+"model" "*197"
+"angle" "270"
+"target" "hammerpeddoor"
+"lip" "1.400000"
+"speed" "150"
+"wait" "1000000"
+"classname" "func_button"
+}
+{
+"message" "you found the first aid kit!"
+"spawnflags" "4"
+"targetname" "snowflakedoor"
+"origin" "3959.199951 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "snowflakedoor"
+"origin" "3959.199951 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the seed!"
+"spawnflags" "4"
+"targetname" "seeddoor"
+"origin" "3824.800049 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "seeddoor"
+"origin" "3824.800049 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the open both!"
+"spawnflags" "4"
+"targetname" "openbothdoor"
+"origin" "3690.399902 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "openbothdoor"
+"origin" "3690.399902 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the mallet!"
+"spawnflags" "4"
+"targetname" "hammerpeddoor"
+"origin" "6344.799805 -1842.400024 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "hammerpeddoor"
+"origin" "6316.799805 -1842.400024 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the pyramid!"
+"spawnflags" "4"
+"targetname" "pyramiddoor"
+"origin" "6344.799805 -1103.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "pyramiddoor"
+"origin" "6316.799805 -1103.199951 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the leaf!"
+"spawnflags" "4"
+"targetname" "leafdoor"
+"origin" "6344.799805 -2044.000000 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "leafdoor"
+"origin" "6316.799805 -2044.000000 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the snowflake!"
+"spawnflags" "4"
+"targetname" "railgundoor"
+"origin" "6344.799805 -1640.799927 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "railgundoor"
+"origin" "6316.799805 -1640.799927 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*198"
+"health" "1"
+"wait" "1000000"
+"target" "canoedoor"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*199"
+"target" "zerglingdoor"
+"angle" "-2"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*200"
+"health" "1"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"target" "wallaroodoor"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*201"
+"wait" "1000000"
+"lip" "1.400000"
+"target" "friedeggdoor"
+"speed" "150"
+"health" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*202"
+"target" "dragondoor"
+"lip" "1.400000"
+"health" "1"
+"speed" "150"
+"wait" "1000000"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*203"
+"classname" "func_door"
+"angle" "180"
+"speed" "150"
+"lip" "28.000000"
+"wait" "5"
+"targetname" "remotedoor"
+}
+{
+"model" "*204"
+"classname" "func_button"
+"target" "remotedoor"
+"wait" "6"
+"health" "1"
+"angle" "360"
+"lip" "7.000000"
+"speed" "150"
+}
+{
+"classname" "target_print"
+"origin" "3085.599854 -3208.800049 -246.399994"
+"targetname" "canoedoor"
+"spawnflags" "4"
+"message" "you found the canoe!"
+}
+{
+"classname" "target_score"
+"origin" "3085.599854 -3180.800049 -246.399994"
+"targetname" "canoedoor"
+}
+{
+"classname" "target_print"
+"origin" "3623.199951 -3208.800049 -246.399994"
+"targetname" "zerglingdoor"
+"spawnflags" "4"
+"message" "you found the zergling!"
+}
+{
+"classname" "target_score"
+"origin" "3623.199951 -3180.800049 -246.399994"
+"targetname" "zerglingdoor"
+}
+{
+"classname" "target_print"
+"origin" "3892.000000 -3208.800049 -246.399994"
+"targetname" "wallaroodoor"
+"spawnflags" "4"
+"message" "you found the wallaroo!"
+}
+{
+"classname" "target_score"
+"origin" "3892.000000 -3180.800049 -246.399994"
+"targetname" "wallaroodoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -1708.000000 -246.399994"
+"targetname" "friedeggdoor"
+"spawnflags" "4"
+"message" "you found the fried egg!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -1708.000000 -246.399994"
+"targetname" "friedeggdoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -498.399994 -246.399994"
+"targetname" "dragondoor"
+"spawnflags" "4"
+"message" "you found the dragon!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -498.399994 -246.399994"
+"targetname" "dragondoor"
+}
+{
+"model" "*205"
+"classname" "func_button"
+"angle" "270"
+"lip" "8.400000"
+"wait" "1000000"
+"speed" "150"
+"health" "1"
+"target" "saltinecubedoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -1372.000000 -246.399994"
+"targetname" "saltinecubedoor"
+"spawnflags" "4"
+"message" "you found the saltine cube!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -1372.000000 -246.399994"
+"targetname" "saltinecubedoor"
+}
+{
+"model" "*206"
+"classname" "func_button"
+"angle" "-1"
+"lip" "1.400000"
+"speed" "150"
+"wait" "1000000"
+"target" "krissbarnesdoor"
+}
+{
+"model" "*207"
+"classname" "func_button"
+"angle" "180"
+"lip" "1.400000"
+"speed" "150"
+"wait" "1000000"
+"target" "ricedoor"
+}
+{
+"model" "*208"
+"classname" "func_button"
+"angle" "-2"
+"speed" "150"
+"lip" "2.800000"
+"wait" "1000000"
+"target" "smileyfacedoor"
+}
+{
+"model" "*209"
+"classname" "func_button"
+"angle" "270"
+"lip" "1.400000"
+"speed" "150"
+"wait" "1000000"
+"health" "1"
+"target" "redhotchilipeppersdoor"
+}
+{
+"classname" "target_print"
+"origin" "4295.199707 -3208.800049 -246.399994"
+"targetname" "redhotchilipeppersdoor"
+"spawnflags" "4"
+"message" "you found the red hot chili peppers!"
+}
+{
+"classname" "target_score"
+"origin" "4295.199707 -3180.800049 -246.399994"
+"targetname" "redhotchilipeppersdoor"
+}
+{
+"classname" "target_print"
+"origin" "4160.799805 -3208.800049 -246.399994"
+"targetname" "ricedoor"
+"spawnflags" "4"
+"message" "you found the rice!"
+}
+{
+"classname" "target_score"
+"origin" "4160.799805 -3180.800049 -246.399994"
+"targetname" "ricedoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -2648.800049 -246.399994"
+"targetname" "krissbarnesdoor"
+"spawnflags" "4"
+"message" "you found kris's barnes!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -2648.800049 -246.399994"
+"targetname" "krissbarnesdoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -565.599976 -246.399994"
+"targetname" "smileyfacedoor"
+"spawnflags" "4"
+"message" "you found the smiley face!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -565.599976 -246.399994"
+"targetname" "smileyfacedoor"
+}
+{
+"model" "*210"
+"classname" "func_button"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"wait" "1000000"
+"target" "sunflowerseedsdoor"
+"health" "1"
+}
+{
+"model" "*211"
+"classname" "func_button"
+"speed" "150"
+"wait" "1000000"
+"lip" "1.400000"
+"angle" "-2"
+"target" "saladdoor"
+}
+{
+"model" "*212"
+"classname" "func_button"
+"angle" "180"
+"target" "schrutebuckdoor"
+"speed" "150"
+"lip" "1.400000"
+"wait" "1000000"
+"health" "1"
+}
+{
+"classname" "target_print"
+"origin" "4093.599854 -3208.800049 -246.399994"
+"spawnflags" "4"
+"targetname" "saladdoor"
+"message" "you found the salad!"
+}
+{
+"classname" "target_score"
+"origin" "4093.599854 -3180.800049 -246.399994"
+"targetname" "saladdoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -2447.199951 -246.399994"
+"targetname" "sunflowerseedsdoor"
+"spawnflags" "4"
+"message" "you found the sunflower seeds!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -2447.199951 -246.399994"
+"targetname" "sunflowerseedsdoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 -1976.799927 -246.399994"
+"targetname" "schrutebuckdoor"
+"spawnflags" "4"
+"message" "you found the schrute buck!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 -1976.799927 -246.399994"
+"targetname" "schrutebuckdoor"
+}
+{
+"model" "*213"
+"target" "bluecheesedoor"
+"health" "1"
+"wait" "1000000"
+"angle" "-2"
+"speed" "150"
+"lip" "1.400000"
+"classname" "func_button"
+}
+{
+"model" "*214"
+"wait" "1000000"
+"health" "1"
+"target" "cavedoor"
+"lip" "1.400000"
+"speed" "150"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*215"
+"target" "theoneringdoor"
+"health" "1"
+"lip" "1.400000"
+"speed" "150"
+"angle" "180"
+"wait" "1000000"
+"classname" "func_button"
+}
+{
+"model" "*216"
+"angle" "-1"
+"lip" "1.400000"
+"wait" "1000000"
+"health" "1"
+"speed" "150"
+"target" "lightbulbdoor"
+"classname" "func_button"
+}
+{
+"model" "*217"
+"target" "forkdoor"
+"wait" "1000000"
+"speed" "150"
+"lip" "1.400000"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*218"
+"health" "1"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"target" "sworddoor"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*219"
+"angle" "360"
+"target" "browniedoor"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*220"
+"health" "1"
+"target" "pidedoor"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"message" "you found the blue cheese!"
+"spawnflags" "4"
+"targetname" "bluecheesedoor"
+"origin" "6344.799805 -95.199997 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "bluecheesedoor"
+"origin" "6316.799805 -95.199997 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the cave!"
+"spawnflags" "4"
+"targetname" "cavedoor"
+"origin" "6344.799805 -296.799988 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "cavedoor"
+"origin" "6316.799805 -296.799988 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the fork!"
+"spawnflags" "4"
+"targetname" "forkdoor"
+"origin" "6344.799805 -901.599976 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "forkdoor"
+"origin" "6316.799805 -901.599976 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the pide!"
+"spawnflags" "4"
+"targetname" "pidedoor"
+"origin" "6344.799805 -1775.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "pidedoor"
+"origin" "6316.799805 -1775.199951 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the brownie!"
+"spawnflags" "4"
+"targetname" "browniedoor"
+"origin" "6344.799805 -1909.599976 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "browniedoor"
+"origin" "6316.799805 -1909.599976 -246.399994"
+"classname" "target_score"
+}
+{
+"spawnflags" "4"
+"targetname" "lightbulbdoor"
+"origin" "6344.799805 -2514.399902 -246.399994"
+"classname" "target_print"
+"message" "you found the light bulb!"
+}
+{
+"targetname" "lightbulbdoor"
+"origin" "6316.799805 -2514.399902 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the one ring!"
+"spawnflags" "4"
+"targetname" "theoneringdoor"
+"origin" "6344.799805 -1170.400024 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "theoneringdoor"
+"origin" "6316.799805 -1170.400024 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the sword!"
+"spawnflags" "4"
+"targetname" "sworddoor"
+"origin" "6344.799805 -2111.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "sworddoor"
+"origin" "6316.799805 -2111.199951 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*221"
+"targetname" "siddoor"
+"wait" "3"
+"lip" "0"
+"speed" "150"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*222"
+"wait" "2"
+"target" "siddoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*223"
+"target" "germanshepherddoor"
+"health" "1"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*224"
+"targetname" "dialdoor"
+"lip" "-7.000000"
+"wait" "4"
+"speed" "150"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*225"
+"target" "dialdoor"
+"wait" "5"
+"lip" "1.400000"
+"speed" "150"
+"health" "1"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*226"
+"target" "scissorsdoor"
+"angle" "-2"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*227"
+"health" "1"
+"wait" "1000000"
+"angle" "-2"
+"lip" "1.400000"
+"speed" "150"
+"target" "canofsodadoor"
+"classname" "func_button"
+}
+{
+"model" "*228"
+"target" "alaskadoor"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*229"
+"target" "hamsterballdoor"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*230"
+"angle" "360"
+"health" "1"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"target" "knotdoor"
+"classname" "func_button"
+}
+{
+"model" "*231"
+"target" "cliffsdoor"
+"lip" "1.400000"
+"wait" "1000000"
+"speed" "150"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*232"
+"angle" "-2"
+"lip" "1.400000"
+"wait" "1000000"
+"speed" "150"
+"health" "1"
+"target" "cinnamonsticksdoor"
+"classname" "func_button"
+}
+{
+"message" "you found the can of soda!"
+"spawnflags" "4"
+"targetname" "canofsodadoor"
+"origin" "4228.000000 -3208.800049 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "canofsodadoor"
+"origin" "4228.000000 -3180.800049 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the alaska!"
+"spawnflags" "4"
+"targetname" "alaskadoor"
+"origin" "6344.799805 -2245.599854 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "alaskadoor"
+"origin" "6316.799805 -2245.599854 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the scissors!"
+"spawnflags" "4"
+"targetname" "scissorsdoor"
+"origin" "6344.799805 -1439.199951 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "scissorsdoor"
+"origin" "6316.799805 -1439.199951 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the knot!"
+"spawnflags" "4"
+"targetname" "knotdoor"
+"origin" "6344.799805 -1036.000000 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "knotdoor"
+"origin" "6316.799805 -1036.000000 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the hamsterball!"
+"spawnflags" "4"
+"targetname" "hamsterballdoor"
+"origin" "6344.799805 -968.799988 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "hamsterballdoor"
+"origin" "6316.799805 -968.799988 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the german shepherd!"
+"spawnflags" "4"
+"targetname" "germanshepherddoor"
+"origin" "6344.799805 -767.200012 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "germanshepherddoor"
+"origin" "6316.799805 -767.200012 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the cliff!"
+"spawnflags" "4"
+"targetname" "cliffsdoor"
+"origin" "6344.799805 -364.000000 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "cliffsdoor"
+"origin" "6316.799805 -364.000000 -246.399994"
+"classname" "target_score"
+}
+{
+"message" "you found the cinnamon sticks!"
+"spawnflags" "4"
+"targetname" "cinnamonsticksdoor"
+"origin" "6344.799805 -162.399994 -246.399994"
+"classname" "target_print"
+}
+{
+"targetname" "cinnamonsticksdoor"
+"origin" "6316.799805 -162.399994 -246.399994"
+"classname" "target_score"
+}
+{
+"model" "*233"
+"classname" "func_button"
+"lip" "1.400000"
+"speed" "150"
+"wait" "1000000"
+"angle" "180"
+"health" "1"
+"target" "puzzlepiecedoor"
+}
+{
+"model" "*234"
+"classname" "func_button"
+"speed" "150"
+"lip" "1.400000"
+"angle" "-2"
+"wait" "1000000"
+"health" "1"
+"target" "almonddoor"
+}
+{
+"model" "*235"
+"classname" "func_button"
+"target" "waterdoor"
+"speed" "150"
+"health" "1"
+"lip" "1.400000"
+"wait" "1000000"
+"angle" "90"
+}
+{
+"model" "*236"
+"classname" "func_door"
+"targetname" "almonddoor"
+"speed" "150"
+"wait" "1000000"
+"lip" "5.600000"
+"angle" "-2"
+}
+{
+"model" "*237"
+"classname" "func_door"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+"angle" "-2"
+"targetname" "puzzlepiecedoor"
+}
+{
+"model" "*238"
+"angle" "-2"
+"classname" "func_door"
+"lip" "5.600000"
+"speed" "150"
+"wait" "1000000"
+"targetname" "waterdoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 106.400002 -246.399994"
+"targetname" "puzzlepiecedoor"
+"spawnflags" "4"
+"message" "you found the puzzle piece!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 106.400002 -246.399994"
+"targetname" "puzzlepiecedoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 39.200001 -246.399994"
+"spawnflags" "4"
+"targetname" "almonddoor"
+"message" "you found the almond!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 39.200001 -246.399994"
+"targetname" "almonddoor"
+}
+{
+"classname" "target_print"
+"origin" "6344.799805 173.599991 -246.399994"
+"targetname" "waterdoor"
+"spawnflags" "4"
+"message" "you found the h20!"
+}
+{
+"classname" "target_score"
+"origin" "6316.799805 173.599991 -246.399994"
+"targetname" "waterdoor"
+}
+{
+"model" "*239"
+"classname" "trigger_multiple"
+"target" "coffeepotbutton"
+"wait" ".2"
+}
+{
+"model" "*240"
+"classname" "trigger_multiple"
+"target" "treemessage"
+"wait" "1000000"
+}
+{
+"classname" "target_print"
+"origin" "2956.800049 -3001.599854 -313.600006"
+"targetname" "treemessage"
+"message" "you got on the trees!"
+"spawnflags" "4"
+}
+{
+"model" "*241"
+"classname" "func_door"
+"speed" "150"
+"wait" "5"
+"health" "1"
+"angle" "360"
+"lip" "56.000000"
+}
+{
+"model" "*242"
+"classname" "func_door"
+"angle" "-1"
+"health" "1"
+"wait" "5"
+"speed" "150"
+"lip" "-7.000000"
+}
+{
+"model" "*243"
+"classname" "func_door"
+"lip" "1.400000"
+"speed" "150"
+"wait" "1000000"
+"health" "1"
+"angle" "360"
+"target" "railgundoor"
+}
+{
+"model" "*244"
+"classname" "func_button"
+"angle" "360"
+"wait" "1000000"
+"lip" "1.400000"
+"speed" "150"
+"target" "snowflakedoor"
+}
+{
+"model" "*245"
+"classname" "func_door"
+"angle" "180"
+"speed" "150"
+"wait" ".5"
+"targetname" "floppingmolly"
+"lip" "1.400000"
+}
+{
+"model" "*246"
+"classname" "trigger_multiple"
+"target" "floppingmolly"
+"wait" ".2"
+}
+{
+"model" "*247"
+"lip" "-14.000000"
+"health" "1"
+"wait" "6"
+"speed" "150"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"target" "treeemessage"
+"wait" "3"
+"targetname" "treemessage"
+"origin" "3046.399902 -3001.599854 -313.600006"
+"classname" "target_delay"
+}
+{
+"message" "you must have quabbling skills!"
+"targetname" "treeemessage"
+"origin" "3001.599854 -3001.599854 -313.600006"
+"classname" "target_print"
+}
+{
+"targetname" "mwnc"
+"noise" "sound/world/mwnc.wav"
+"spawnflags" "8"
+"origin" "3091.199951 -3001.599854 -313.600006"
+"classname" "target_speaker"
+}
+{
+"model" "*248"
+"wait" "6.3"
+"target" "mwnc"
+"classname" "trigger_multiple"
+}
