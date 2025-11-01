@@ -1,0 +1,63 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 0 24"
+"angle" "0"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-264.000000 0.000000 40.000000"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "320.000000 0.000000 32.000000"
+"spawnflags" "1"
+"count" "2"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "608.000000 0.000000 32.000000"
+"spawnflags" "1"
+"count" "2"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "960.000000 0.000000 32.000000"
+"spawnflags" "1"
+"count" "20"
+}
+{
+"classname" "target_stopTimer"
+"origin" "10368.000000 -960.000000 512.000000"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "64.000000 -256.000000 256.000000"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "9999"
+"model" "*3"
+}
+{
+"classname" "item_enviro"
+"origin" "0.000000 0.000000 32.000000"
+"spawnflags" "1"
+"count" "99"
+}
