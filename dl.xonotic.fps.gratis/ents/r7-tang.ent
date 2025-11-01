@@ -1,0 +1,135 @@
+{
+"gridsize" "80 80 144"
+"_maxlight" "75"
+"_minlight" "50"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -96 32"
+"angle" "90"
+}
+{
+"classname" "target_speaker"
+"origin" "0 56 104"
+"spawnflags" "1"
+"noise" "sound/world/portal01.wav"
+}
+{
+"noise" "sound/world/portal01.wav"
+"spawnflags" "1"
+"origin" "0 56 40"
+"classname" "target_speaker"
+}
+{
+"classname" "target_teleporter"
+"origin" "0 576 152"
+"angle" "90"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "0 672 312"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-5568 -4096 -3264"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3968 -4736 224"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5824 -4480 224"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "10944 -4480 -472"
+"targetname" "t6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "11520 -3072 1856"
+"targetname" "t7"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5056 -3008 1848"
+"targetname" "t8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t9"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "352 -2368 1704"
+"targetname" "t9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1920 -512 -1600"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4736 -1088 -192"
+"targetname" "t11"
+}
