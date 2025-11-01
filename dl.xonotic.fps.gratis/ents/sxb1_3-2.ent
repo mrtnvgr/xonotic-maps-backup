@@ -1,0 +1,911 @@
+{
+"_q3map2_version" "2.5.17n-git-8e4989b"
+"_q3map2_cmdline" "-meta -keepLights -vis -fast"
+"_description" "Super Xonotic Bros. 1: A side-scrolling adventure and true to the original fan remake of the original Super Mario Bros for NES!"
+"author" "-z-, Mario"
+"message" "Super Xonotic Bros. 1 (Level 3-2)"
+"classname" "worldspawn"
+}
+{
+"angles" "-0.000017 -90.000000 179.999985"
+"origin" "560.000000 -176.000000 608.000000"
+"speed" "-1"
+"targetname" "spoint"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*1"
+"target2" "overworld_2"
+"target" "overworld_1"
+"classname" "trigger_viewlocation"
+}
+{
+"targetname" "overworld_1"
+"angle" "0.000003"
+"origin" "328.000000 -296.000000 672.000000"
+"classname" "target_viewlocation_start"
+}
+{
+"targetname" "overworld_2"
+"angle" "0.000003"
+"origin" "328.000000 -6696.000000 832.000000"
+"classname" "target_viewlocation_end"
+}
+{
+"model" "*2"
+"classname" "trigger_hurt"
+}
+{
+"model" "*3"
+"classname" "func_clientillusionary"
+}
+{
+"model" "*4"
+"strength" "0.03"
+"classname" "trigger_impulse"
+}
+{
+"model" "*5"
+"target" "flag0"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"speed" "200"
+"solid" "0"
+"targetname" "flag0"
+"wait" "-1"
+"angle" "-2"
+"lip" "-240"
+"spawnflags" "1028"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"target" "next0"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"chmap" "sxb1_3-3"
+"spawnflags" "2"
+"targetname" "next0"
+"origin" "192.000000 -6880.000000 576.000000"
+"classname" "target_changelevel"
+}
+{
+"model" "*8"
+"delay" "0.2"
+"target" "brick_41"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_41"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"item_pickupsound" "sound/map_sxb/coin.wav"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"origin" "560.000000 -5328.000000 704.000000"
+"classname" "item_health_small"
+}
+{
+"item_pickupsound" "sound/map_sxb/coin.wav"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"origin" "560.000000 -5424.000000 704.000000"
+"classname" "item_health_small"
+}
+{
+"item_pickupsound" "sound/map_sxb/coin.wav"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"origin" "560.000000 -5392.000000 704.000000"
+"classname" "item_health_small"
+}
+{
+"item_pickupsound" "sound/map_sxb/coin.wav"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"origin" "560.000000 -1776.000000 640.000000"
+"classname" "item_health_small"
+}
+{
+"item_pickupsound" "sound/map_sxb/coin.wav"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"origin" "560.000000 -1712.000000 640.000000"
+"classname" "item_health_small"
+}
+{
+"item_pickupsound" "sound/map_sxb/coin.wav"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"origin" "560.000000 -1744.000000 640.000000"
+"classname" "item_health_small"
+}
+{
+"item_pickupsound" "sound/map_sxb/coin.wav"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"origin" "560.000000 -5360.000000 704.000000"
+"classname" "item_health_small"
+}
+{
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/castle.obj"
+"origin" "816.000000 -112.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/castle.obj"
+"origin" "816.000000 -6856.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angles" "-0.000017 -90.000000 179.999985"
+"origin" "560.000000 -240.000000 608.000000"
+"speed" "-1"
+"targetname" "spoint"
+"classname" "misc_teleporter_dest"
+}
+{
+"angles" "-0.000017 -90.000000 179.999985"
+"origin" "560.000000 -112.000000 608.000000"
+"speed" "-1"
+"targetname" "spoint"
+"classname" "misc_teleporter_dest"
+}
+{
+"angles" "-0.000017 -90.000000 179.999985"
+"origin" "560.000000 -48.000000 608.000000"
+"speed" "-1"
+"targetname" "spoint"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*10"
+"target2" "inter_2"
+"target" "inter_1"
+"classname" "trigger_viewlocation"
+}
+{
+"targetname" "inter_2"
+"angle" "0.000003"
+"origin" "-4920.000000 -888.000000 7680.000000"
+"classname" "target_viewlocation_end"
+}
+{
+"targetname" "inter_1"
+"angle" "0.000003"
+"origin" "-4920.000000 -776.000000 7680.000000"
+"classname" "target_viewlocation_start"
+}
+{
+"angle" "-90.000000"
+"origin" "-4688.000000 -672.000000 7648.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*11"
+"target" "spoint"
+"classname" "trigger_teleport"
+}
+{
+"model" "*12"
+"target" "player1_drop"
+"delay" "1.5"
+"wait" "2"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*13"
+"wait" "1"
+"lip" "100"
+"angle" "0"
+"targetname" "player1_drop"
+"classname" "func_door"
+}
+{
+"angle" "-90.000000"
+"origin" "-4688.000000 -800.000000 7648.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*14"
+"target" "player1_drop1"
+"delay" "1.5"
+"wait" "2"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*15"
+"wait" "1"
+"lip" "100"
+"angle" "0"
+"targetname" "player1_drop1"
+"classname" "func_door"
+}
+{
+"angle" "-90.000000"
+"origin" "-4688.000000 -928.000000 7648.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*16"
+"target" "player1_drop2"
+"delay" "1.5"
+"wait" "2"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*17"
+"wait" "1"
+"lip" "100"
+"angle" "0"
+"targetname" "player1_drop2"
+"classname" "func_door"
+}
+{
+"angle" "-90.000000"
+"origin" "-4688.000000 -1056.000000 7648.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*18"
+"target" "player1_drop3"
+"delay" "1.5"
+"wait" "2"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*19"
+"wait" "1"
+"lip" "100"
+"angle" "0"
+"targetname" "player1_drop3"
+"classname" "func_door"
+}
+{
+"angle" "-90.000000"
+"origin" "-4688.000000 -1184.000000 7648.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*20"
+"target" "player1_drop4"
+"delay" "1.5"
+"wait" "2"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*21"
+"wait" "1"
+"lip" "100"
+"angle" "0"
+"targetname" "player1_drop4"
+"classname" "func_door"
+}
+{
+"angle" "-90.000000"
+"origin" "-4688.000000 -544.000000 7648.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*22"
+"target" "player1_drop5"
+"delay" "1.5"
+"wait" "2"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*23"
+"wait" "1"
+"lip" "100"
+"angle" "0"
+"targetname" "player1_drop5"
+"classname" "func_door"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -496.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -592.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -528.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -560.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -2768.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -2864.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -816.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -784.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -720.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -400.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -464.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -3472.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -2704.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -3504.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -1232.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -1328.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -1168.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -1200.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -1264.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -2800.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -3440.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -3376.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -3760.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -3568.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -3536.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -3792.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -2736.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -3696.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -2224.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -1840.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -2032.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -1936.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -2000.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -1904.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -1968.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -2256.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -2160.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -4304.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -4400.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -4240.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -4272.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -4336.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -5296.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -4912.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -5104.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -5008.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -5072.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -4976.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -5040.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -5328.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -5232.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -5872.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -5968.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -5808.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -5840.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -5904.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_short_night.obj"
+"origin" "592.000000 -6480.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -6576.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -6640.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"lodmodel2" "null"
+"lodmodel1" "null"
+"loddistance1" "2000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"origin" "592.000000 -6544.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"model" "models/map_sxb/fence.obj"
+"origin" "592.000000 -6608.000000 544.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*24"
+"target" "block_1"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*25"
+"targetname" "block_1"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_1"
+"target" "coin_13"
+"origin" "560.000000 -1872.000000 824.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_13"
+"angle" "-179.999985"
+"origin" "560.000000 -1872.000000 784.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*26"
+"target" "block_15"
+"delay" "0.2"
+"wait" "0.75"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*27"
+"targetname" "block_15"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_15"
+"target" "coin_16"
+"origin" "560.000000 -2416.000000 576.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z -100 noalign -1 classname droppedweapon"
+"targetname" "coin_16"
+"angle" "-179.999985"
+"origin" "560.000000 -2416.000000 624.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*28"
+"target" "block_14"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*29"
+"targetname" "block_14"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_14"
+"target" "coin_15"
+"origin" "560.000000 -2416.000000 856.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/star.wav noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_15"
+"angle" "-179.999985"
+"origin" "560.000000 -2416.000000 816.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "models/sxb-models/small_mushroom.md3"
+"origin" "-12232.000000 128.000000 3856.000000"
+"classname" "item_health_medium"
+}
+{
+"model" "models/sxb-models/coin.md3"
+"origin" "-12144.000000 128.000000 3856.000000"
+"classname" "item_health_small"
+}
+{
+"model" "models/sxb-models/small_star.md3"
+"origin" "-12072.000000 128.000000 3856.000000"
+"classname" "weapon_laser"
+}
+{
+"model" "models/sxb-models/small_green_mushroom.md3"
+"origin" "-12000.000000 128.000000 3856.000000"
+"classname" "item_health_mega"
+}
+{
+"model" "models/sxb-models/small_flower.md3"
+"origin" "-11928.000000 128.000000 3856.000000"
+"classname" "weapon_uzi"
+}
