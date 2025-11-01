@@ -1,0 +1,668 @@
+{
+"gridsize" "89.599998 89.599998 179.199997"
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-meta; -light -deluxe -fast -samples 3; -scale 1.40"
+"lip" "11.200000"
+"maxlevel" "5"
+"noise" "sound/breakable/metal_breaks.wav"
+"ambient" "40"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"team" "1"
+"health" "50"
+"type" "glass"
+"noise" "glass1"
+"angle" "-2"
+"classname" "func_breakable"
+}
+{
+"model" "*2"
+"health" "50"
+"team" "2"
+"type" "glass"
+"noise" "glass1"
+"angle" "-2"
+"classname" "func_breakable"
+}
+{
+"model" "*3"
+"health" "50"
+"team" "4"
+"type" "glass"
+"noise" "glass1"
+"angle" "-2"
+"classname" "func_breakable"
+}
+{
+"model" "*4"
+"noise" "glass1"
+"team" "5"
+"health" "50"
+"type" "glass"
+"angle" "-2"
+"classname" "func_breakable"
+}
+{
+"model" "*5"
+"health" "50"
+"team" "3"
+"type" "glass"
+"noise" "glass1"
+"angle" "-2"
+"classname" "func_breakable"
+}
+{
+"model" "*6"
+"type" "wood"
+"health" "60"
+"team" "9"
+"noise" "sound/breakable/glass2.wav"
+"angle" "-2"
+"classname" "func_breakable"
+}
+{
+"model" "*7"
+"type" "1"
+"noise" "sound/breakable/wood1.wav"
+"health" "70"
+"angle" "-2"
+"debrismovetype" "2"
+"classname" "func_breakable"
+}
+{
+"origin" "562.799988 -680.399963 -182.000000"
+"angle" "-180.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1360.799927 -516.599976 982.799988"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1430.799927 92.400002 53.200001"
+"angle" "-90.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-58.799999 109.199997 53.200001"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "137.199997 19.600000 380.799988"
+"angle" "-179.999985"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1447.599976 -344.399994 53.200001"
+"angle" "-179.999985"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1346.799927 -478.799988 669.200012"
+"angle" "-0.000004"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*8"
+"closewhenidle" "1"
+"lip" "4.200000"
+"speed" "100"
+"wait" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"health" "60"
+"angle" "-2"
+"type" "glass"
+"classname" "func_breakable"
+}
+{
+"origin" "1096.199951 145.599991 46.200001"
+"angle" "0.000009"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "467.600006 -137.199997 -182.000000"
+"angle" "0.000009"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*10"
+"message" "tower"
+"count" "1"
+"classname" "trigger_location"
+}
+{
+"origin" "1142.400024 -257.600006 324.799988"
+"message" "hotel 2nd floor"
+"angle" "-90"
+"classname" "target_location"
+}
+{
+"origin" "817.599976 0.000000 224.000000"
+"message" "hotel"
+"angle" "-90.000000"
+"classname" "target_location"
+}
+{
+"origin" "1086.400024 168.000000 324.799988"
+"message" "hotel 2nd floor"
+"angle" "-90"
+"classname" "target_location"
+}
+{
+"origin" "-1506.400024 -959.000000 53.200001"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1181.599976 -516.599976 53.200001"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*11"
+"angle" "0"
+"team" "elevator_down"
+"lip" "7.000000"
+"speed" "100"
+"targetname" "func_door3"
+"wait" "3"
+"closewhenidle" "1"
+"noise" "sound/elevator_sounds.wav"
+"sounds" "0"
+"noise1" "sound/elevator_sounds.wav"
+"noise2" "sound/elevator_sounds.wav"
+"classname" "func_door"
+}
+{
+"model" "*12"
+"speed" "100"
+"lip" "7.000000"
+"angle" "180"
+"team" "elevator_down"
+"targetname" "func_door3"
+"wait" "3"
+"closewhenidle" "1"
+"noise" "sound/elevator_sounds.wav"
+"sounds" "0"
+"noise1" "sound/elevator_sounds.wav"
+"noise2" "sound/elevator_sounds.wav"
+"classname" "func_door"
+}
+{
+"model" "*13"
+"lip" "7.000000"
+"speed" "100"
+"wait" "3"
+"angle" "180"
+"team" "elevator_up"
+"closewhenidle" "1"
+"targetname" "func_door1"
+"noise" "sound/elevator_sounds.wav"
+"sounds" "0"
+"noise1" "sound/elevator_sounds.wav"
+"noise2" "sound/elevator_sounds.wav"
+"classname" "func_door"
+}
+{
+"model" "*14"
+"angle" "0"
+"speed" "100"
+"lip" "7.000000"
+"team" "elevator_up"
+"wait" "3"
+"closewhenidle" "1"
+"targetname" "func_door4"
+"noise" "sound/elevator_sounds.wav"
+"sounds" "0"
+"noise1" "sound/elevator_sounds.wav"
+"noise2" "sound/elevator_sounds.wav"
+"classname" "func_door"
+}
+{
+"model" "*15"
+"speed" "40"
+"height" "268.799988"
+"wait" "3"
+"sound1" "sound/elevator_sounds2.wav"
+"sound2" "sound/elevator_bell.wav"
+"sounds" "-1"
+"noise" "sound/elevator_sounds2.wav"
+"classname" "func_plat"
+}
+{
+"model" "*16"
+"noise" "sound/breakable/metal_breaks.wav"
+"health" "60"
+"type" "4"
+"classname" "func_breakable"
+}
+{
+"model" "*17"
+"closewhenidle" "1"
+"lip" "1.400000"
+"wait" "0.1"
+"speed" "100"
+"angle" "68"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"closewhenidle" "1"
+"team" "doubledoor"
+"wait" "0.1"
+"lip" "1.400000"
+"speed" "90"
+"angle" "196.9"
+"classname" "func_door"
+}
+{
+"model" "*19"
+"closewhenidle" "1"
+"team" "doubledoor"
+"wait" "0.1"
+"lip" "1.400000"
+"speed" "90"
+"angle" "16.9"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"type" "4"
+"noise" "sound/breakable/metal_breaks.wav"
+"health" "60"
+"classname" "func_breakable"
+}
+{
+"model" "*21"
+"team" "schrank"
+"wait" "0.1"
+"lip" "11.200000"
+"speed" "80"
+"angle" "8"
+"classname" "func_door"
+}
+{
+"model" "*22"
+"wait" "0.1"
+"team" "schrank"
+"angle" "188"
+"speed" "80"
+"lip" "11.200000"
+"classname" "func_door"
+}
+{
+"model" "*23"
+"team" "geheimbild"
+"closewhenidle" "1"
+"wait" "0.1"
+"lip" "11.200000"
+"speed" "70"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*24"
+"lip" "5.600000"
+"team" "geheimluke"
+"angle" "180"
+"speed" "90"
+"wait" "1"
+"classname" "func_door"
+}
+{
+"model" "*25"
+"lip" "5.600000"
+"wait" "1"
+"speed" "70"
+"closewhenidle" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*26"
+"team" "loveschrank"
+"angle" "0"
+"speed" "80"
+"wait" "0.1"
+"classname" "func_door"
+}
+{
+"model" "*27"
+"team" "loveschrank"
+"wait" "0.1"
+"angle" "180"
+"speed" "80"
+"classname" "func_door"
+}
+{
+"model" "*28"
+"team" "gulli"
+"speed" "80"
+"angle" "0"
+"lip" "2.800000"
+"wait" "3"
+"classname" "func_button"
+}
+{
+"targetname" "info_null1"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "687.399963 -1164.799927 296.799988"
+"classname" "info_null"
+}
+{
+"angle" "-90.000000"
+"origin" "992.250000 -1465.974976 380.449982"
+"classname" "misc_portal_surface"
+}
+{
+"targetname" "info_nulg"
+"angles" "90.000000 0.000000 179.999985"
+"origin" "352.799988 -229.599991 78.400002"
+"classname" "info_null"
+}
+{
+"targetname" "info_nulla"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "-386.399994 -1181.599976 78.400002"
+"classname" "info_null"
+}
+{
+"targetname" "info_nullb"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "-879.200012 -1181.599976 78.400002"
+"classname" "info_null"
+}
+{
+"targetname" "info_nullc"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "-1506.400024 -1187.199951 78.400002"
+"classname" "info_null"
+}
+{
+"targetname" "info_nulld"
+"angles" "90.000000 0.000000 179.999985"
+"origin" "-1506.400024 -744.799988 78.400002"
+"classname" "info_null"
+}
+{
+"targetname" "info_nulle"
+"angles" "90.000000 0.000000 -90.000000"
+"origin" "-929.599976 -588.000000 78.400002"
+"classname" "info_null"
+}
+{
+"targetname" "info_nullf"
+"angles" "90.000000 0.000000 179.999985"
+"origin" "-632.799988 -235.199997 78.400002"
+"classname" "info_null"
+}
+{
+"targetname" "info_nulh"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "856.799988 -1044.400024 44.799999"
+"classname" "info_null"
+}
+{
+"targetname" "info_nulk"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "117.599998 -1268.400024 44.799999"
+"classname" "info_null"
+}
+{
+"targetname" "info_nulj"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "341.600006 -1201.199951 44.799999"
+"classname" "info_null"
+}
+{
+"targetname" "info_nuli"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "588.000000 -1122.799927 44.799999"
+"classname" "info_null"
+}
+{
+"model" "*29"
+"halth" "60"
+"classname" "func_breakable"
+}
+{
+"model" "*30"
+"halth" "60"
+"classname" "func_breakable"
+}
+{
+"model" "*31"
+"halth" "60"
+"classname" "func_breakable"
+}
+{
+"model" "*32"
+"halth" "60"
+"classname" "func_breakable"
+}
+{
+"model" "*33"
+"halth" "60"
+"classname" "func_breakable"
+}
+{
+"model" "*34"
+"halth" "60"
+"classname" "func_breakable"
+}
+{
+"model" "*35"
+"halth" "60"
+"classname" "func_breakable"
+}
+{
+"model" "*36"
+"halth" "60"
+"classname" "func_breakable"
+}
+{
+"targetname" "info_nullk"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "946.399963 -896.000000 44.799999"
+"classname" "info_null"
+}
+{
+"angle" "90.000000"
+"origin" "-949.200012 -1559.599976 53.200001"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "68.599998 -1470.000000 44.799999"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "68.599998 -1470.000000 313.600006"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "740.599976 -1302.000000 313.600006"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "1178.799927 -883.399963 313.600006"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "1190.000000 -670.599976 313.600006"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "1436.400024 -1152.199951 190.399994"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "1055.599976 -1185.799927 44.799999"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "1223.599976 -961.799988 44.799999"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "372.399994 -1331.400024 44.799999"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1828.400024 14.000000 53.200001"
+"angle" "-89.999992"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "1271.199951 -477.399994 119.000000"
+"classname" "misc_portal_surface"
+}
+{
+"origin" "1738.799927 305.199982 322.000000"
+"angle" "-90.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1145.199951 -120.400002 322.000000"
+"angle" "-90.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1996.400024 19.600000 557.200012"
+"angle" "179.999985"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1391.599976 -540.399963 557.200012"
+"angle" "179.999985"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1794.799927 -887.599976 557.200012"
+"angle" "179.999985"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "434.000000 -1436.400024 557.200012"
+"angle" "89.999992"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-529.200012 -1514.799927 557.200012"
+"angle" "89.999992"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1447.599976 -1470.000000 557.200012"
+"angle" "89.999992"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1346.799927 -478.799988 366.799988"
+"angle" "-0.000004"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-215.599991 -350.000000 -182.000000"
+"angle" "0.000009"
+"classname" "info_player_deathmatch"
+}
+{
+"message" "square"
+"origin" "-168.000000 -358.399994 78.400002"
+"classname" "target_location"
+}
+{
+"message" "square"
+"origin" "560.000000 -638.399963 78.400002"
+"classname" "target_location"
+}
+{
+"message" "square"
+"origin" "784.000000 -996.799988 78.400002"
+"classname" "target_location"
+}
+{
+"message" "truck"
+"origin" "-1232.000000 -907.200012 56.000000"
+"classname" "target_location"
+}
+{
+"message" "yellow houses"
+"origin" "0.000000 44.799999 100.799995"
+"classname" "target_location"
+}
+{
+"message" "yellow houses"
+"origin" "-235.199997 44.799999 470.399994"
+"classname" "target_location"
+}
+{
+"message" "yellow houses"
+"origin" "-716.799988 44.799999 470.399994"
+"classname" "target_location"
+}
+{
+"origin" "1131.199951 -190.399994 89.599998"
+"message" "hotel"
+"angle" "-90"
+"classname" "target_location"
+}
+{
+"message" "restaurant"
+"origin" "627.200012 -1232.000000 44.799999"
+"classname" "target_location"
+}
+{
+"message" "restaurant"
+"origin" "302.399994 -1422.400024 44.799999"
+"classname" "target_location"
+}
+{
+"message" "restaurant"
+"origin" "123.199997 -1456.000000 44.799999"
+"classname" "target_location"
+}
+{
+"message" "restaurant"
+"origin" "907.200012 -1153.599976 44.799999"
+"classname" "target_location"
+}
+{
+"message" "square"
+"origin" "-683.200012 -1030.400024 78.400002"
+"classname" "target_location"
+}
+{
+"message" "square"
+"origin" "-33.599998 -1276.799927 78.400002"
+"classname" "target_location"
+}
+{
+"message" "square"
+"origin" "168.000000 -1198.400024 78.400002"
+"classname" "target_location"
+}
+{
+"message" "square"
+"origin" "392.000000 -1131.199951 78.400002"
+"classname" "target_location"
+}
+{
+"message" "square"
+"origin" "627.200012 -1064.000000 78.400002"
+"classname" "target_location"
+}
