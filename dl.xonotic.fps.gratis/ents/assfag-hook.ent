@@ -1,0 +1,43 @@
+{
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "t1"
+"wait" "-1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-64 128 128"
+"targetname" "t1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-256 -64 24"
+"angle" "45"
+}
+{
+"wait" "-1"
+"count" "99999"
+"spawnflags" "1"
+"origin" "-192 0 32"
+"classname" "item_enviro"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "20320 4512 2176"
+"targetname" "t2"
+}
+{
+"classname" "weapon_grapplinghook"
+"origin" "-128 64 32"
+"spawnflags" "1"
+"wait" "-1"
+"speed" "1"
+}
