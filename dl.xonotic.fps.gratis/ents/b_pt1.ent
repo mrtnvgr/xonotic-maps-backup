@@ -1,0 +1,51 @@
+{
+"classname" "worldspawn"
+"_minlight" "10"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-256 80 32"
+"angle" "90"
+}
+{
+"classname" "ammo_cells"
+"origin" "-112 256 64"
+"count" "15"
+"wait" "-1"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-400 256 64"
+"count" "1"
+"wait" "-1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-224 152 96"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_init"
+"origin" "-288 152 96"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-256 256 512"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "item_health_mega"
+"origin" "-256 400 64"
+"wait" "-1"
+}
