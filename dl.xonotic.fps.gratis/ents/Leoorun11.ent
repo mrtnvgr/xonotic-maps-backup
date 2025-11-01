@@ -1,0 +1,75 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -filter"
+"_floodlight" "255 240 225 900 100"
+"classname" "worldspawn"
+}
+{
+"origin" "-64 224 96"
+"classname" "team_CTF_bluespawn"
+}
+{
+"origin" "-64 -416 96"
+"classname" "team_CTF_redspawn"
+}
+{
+"_floodlight" "255 240 225 900 100"
+"wait" "-1"
+"origin" "-64.000000 -256.000000 96.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-64 224 96"
+"classname" "team_CTF_bluespawn"
+}
+{
+"model" "*1"
+"target" "target_stopTimer2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"_floodlight" "255 240 225 900 100"
+"wait" "-1"
+"target" "target_startTimer2"
+"classname" "trigger_multiple"
+}
+{
+"name" "Ice 1"
+"targetname" "target_startTimer2"
+"origin" "448 -96 192"
+"classname" "target_startTimer"
+}
+{
+"name" "Ice 1"
+"targetname" "target_stopTimer2"
+"origin" "-4480 -96 128"
+"classname" "target_stopTimer"
+}
+{
+"name" "Ice 1"
+"targetname" "target_checkpoint1"
+"origin" "2016 -96 -64"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"angles" "-0.000000 -90.000000 -90.000000"
+"name" "Ice 1"
+"targetname" "target_checkpoint2"
+"origin" "104.000000 -40.000000 -16.000000"
+"classname" "target_checkpoint"
+}
+{
+"origin" "-64.000000 96.000000 96.000000"
+"classname" "info_player_deathmatch"
+}
