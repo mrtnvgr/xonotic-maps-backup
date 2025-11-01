@@ -1,0 +1,273 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"angle" "180"
+"notfree" "1"
+"trigger_only" "1"
+"closewhenidle" "1"
+"only" "red"
+"wait" ".25"
+"targetname" "redtrapmid"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"angle" "270"
+"notfree" "1"
+"closewhenidle" "1"
+"only" "red"
+"trigger_only" "1"
+"wait" ".25"
+"targetname" "redtrap1"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"notfree" "1"
+"only" "red"
+"target" "redtrapmid"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"only" "red"
+"notfree" "1"
+"target" "redtrap1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"only" "red"
+"notfree" "1"
+"target" "redtrap2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"angle" "90"
+"notfree" "1"
+"trigger_only" "1"
+"closewhenidle" "1"
+"only" "red"
+"wait" ".25"
+"targetname" "redtrap2"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"angle" "180"
+"notfree" "1"
+"trigger_only" "1"
+"closewhenidle" "1"
+"only" "blue"
+"wait" ".25"
+"targetname" "bluetrapmid1"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"angle" "270"
+"notfree" "1"
+"closewhenidle" "1"
+"only" "blue"
+"trigger_only" "1"
+"wait" ".25"
+"targetname" "bluetrap3"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"only" "blue"
+"notfree" "1"
+"target" "bluetrapmid1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"notfree" "1"
+"only" "blue"
+"target" "bluetrap3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"notfree" "1"
+"only" "blue"
+"target" "bluetrap4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"angle" "90"
+"notfree" "1"
+"trigger_only" "1"
+"closewhenidle" "1"
+"only" "blue"
+"wait" ".25"
+"targetname" "bluetrap4"
+"classname" "func_door"
+}
+{
+"angle" "180"
+"origin" "750.399963 1.400000 58.099998"
+"classname" "team_CTF_blueflag"
+}
+{
+"origin" "-749.000000 0.000000 58.099998"
+"classname" "team_CTF_redflag"
+}
+{
+"g_gametype" "3,4,7"
+"team" "blue"
+"angle" "90"
+"origin" "123.199997 -235.199997 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"team" "blue"
+"angle" "-90"
+"origin" "123.199997 235.199997 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"team" "blue"
+"angle" "-3.50824e-15"
+"origin" "123.199997 156.800003 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"team" "blue"
+"angle" "-1.4033e-14"
+"origin" "123.199997 -156.800003 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"angle" "90"
+"team" "red"
+"origin" "-123.199997 -235.199997 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"angle" "-90"
+"team" "red"
+"origin" "-123.199997 235.199997 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"angle" "180"
+"team" "red"
+"origin" "-123.199997 156.800003 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"angle" "180"
+"team" "red"
+"origin" "-123.199997 -156.800003 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"angles" "330 0 0"
+"angle" "180"
+"origin" "481.600006 33.599998 1075.199951"
+"classname" "info_player_intermission"
+}
+{
+"gametype" "7"
+"team" "blue"
+"angle" "180"
+"origin" "235.199997 256.199982 670.599976"
+"classname" "ut_mrsentry"
+}
+{
+"gametype" "7"
+"team" "red"
+"origin" "-224.000000 256.199982 670.599976"
+"classname" "ut_mrsentry"
+}
+{
+"gametype" "7"
+"team" "red"
+"origin" "-224.000000 -256.199982 670.599976"
+"classname" "ut_mrsentry"
+}
+{
+"gametype" "7"
+"team" "blue"
+"angle" "180"
+"origin" "224.000000 -256.199982 670.599976"
+"classname" "ut_mrsentry"
+}
+{
+"g_gametype" "3,4,7"
+"team" "blue"
+"angle" "-1.4033e-14"
+"origin" "123.199997 0.000000 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"angle" "180"
+"team" "red"
+"origin" "-123.199997 0.000000 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"team" "blue"
+"angle" "-1.4033e-14"
+"origin" "123.199997 -89.599998 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"team" "blue"
+"angle" "-1.4033e-14"
+"origin" "123.199997 78.400002 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"angle" "180"
+"team" "red"
+"origin" "-123.199997 78.400002 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3,4,7"
+"angle" "180"
+"team" "red"
+"origin" "-123.199997 -89.599998 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "180"
+"origin" "-56.000000 78.400002 492.799988"
+"classname" "info_player_start"
+}
+{
+"angle" "180"
+"origin" "-56.000000 -89.599998 492.799988"
+"classname" "info_player_start"
+}
+{
+"angle" "-1.4033e-14"
+"origin" "56.000000 -89.599998 492.799988"
+"classname" "info_player_start"
+}
+{
+"angle" "-1.4033e-14"
+"origin" "56.000000 78.400002 492.799988"
+"classname" "info_player_start"
+}
