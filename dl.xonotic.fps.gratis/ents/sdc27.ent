@@ -1,0 +1,143 @@
+{
+"ambient" "10"
+"classname" "worldspawn"
+}
+{
+"classname" "item_armor_shard"
+"origin" "608 96 40"
+"spawnflags" "1"
+"wait" "1"
+}
+{
+"classname" "item_health_mega"
+"origin" "1440 -104 40"
+"spawnflags" "1"
+"angle" "90"
+"wait" "1"
+}
+{
+"classname" "item_enviro"
+"origin" "1120 -96 40"
+"angle" "90"
+"spawnflags" "1"
+"wait" "1"
+}
+{
+"classname" "item_armor_body"
+"origin" "1888 -1312 40"
+"spawnflags" "1"
+"angle" "180"
+"wait" "1"
+}
+{
+"classname" "item_quad"
+"origin" "2464 -1384 40"
+"spawnflags" "1"
+"wait" "1"
+}
+{
+"classname" "item_health_small"
+"origin" "2784 -1696 40"
+"spawnflags" "1"
+"angle" "90"
+"wait" "1"
+}
+{
+"classname" "item_regen"
+"origin" "2720 -2656 40"
+"angle" "90"
+"spawnflags" "1"
+"wait" "1"
+}
+{
+"classname" "item_armor_combat"
+"origin" "2832 -3304 40"
+"angle" "90"
+"spawnflags" "1"
+"wait" "1"
+}
+{
+"classname" "item_health_large"
+"origin" "3152 -3616 40"
+"spawnflags" "1"
+"wait" "1"
+}
+{
+"classname" "item_invis"
+"origin" "4176 -4896 40"
+"angle" "90"
+"spawnflags" "1"
+"wait" "1"
+}
+{
+"count" "5"
+"classname" "item_haste"
+"origin" "4480 -4840 40"
+"spawnflags" "1"
+"wait" "5"
+}
+{
+"classname" "info_player_start"
+"origin" "80 240 24"
+"angle" "360"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "472 200 160"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "5376 -5176 168"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1408 -896 96"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2824 -2408 160"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4168 -4456 160"
+"targetname" "t5"
+}
+{
+"targetname" "t1"
+"origin" "456 120 96"
+"classname" "target_init"
+}
