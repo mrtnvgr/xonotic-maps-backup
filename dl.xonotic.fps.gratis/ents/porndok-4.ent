@@ -1,0 +1,87 @@
+{
+"gridsize" "80 80 128"
+"ambient" "16"
+"classname" "worldspawn"
+"message" "Made By BardoK And Pornstar"
+"_minlight" "16"
+"_blocksize" "8092"
+"_color" "0.400326 0.443768 1.000000"
+"_lightmapscale" "1.0"
+}
+{
+"classname" "info_player_start"
+"origin" "192 -416 184"
+"angle" "90"
+}
+{
+"origin" "160 -320 176"
+"classname" "weapon_rocketlauncher"
+"wait" "3"
+"count" "200"
+}
+{
+"targetname" "t1"
+"origin" "192 -384 256"
+"classname" "target_startTimer"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"classname" "item_enviro"
+"origin" "224 -320 176"
+"count" "999"
+"wait" "3"
+}
+{
+"targetname" "t2"
+"origin" "192 3488 192"
+"classname" "target_checkpoint"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t3"
+"origin" "192 8512 576"
+"classname" "target_checkpoint"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t12"
+"origin" "-14384 17024 176"
+"classname" "target_stopTimer"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-832 16704 576"
+"targetname" "t13"
+}
+{
+"classname" "trigger_multiple"
+"target" "t13"
+"model" "*5"
+}
+{
+"targetname" "t14"
+"origin" "-9920 16704 576"
+"classname" "target_checkpoint"
+}
+{
+"target" "t14"
+"classname" "trigger_multiple"
+"model" "*6"
+}
