@@ -1,0 +1,78 @@
+{
+"_q3map2_version" "2.5.17n-svn393"
+"_q3map2_cmdline" "-meta -v -mv 1000000 -mi 6000000; -vis -saveprt -fast; -light -deluxe -fast -samples 3 -dirty -dirtyscale 2"
+"_floodlight" "240 240 255 1024 220"
+"classname" "worldspawn"
+}
+{
+"target2" "rl"
+"target" "trigger_race_checkpoint0"
+"angle" "-90.000000"
+"origin" "0.000000 192.000000 576.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*1"
+"target" "rl"
+"cnt" "0"
+"targetname" "trigger_race_checkpoint0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"netname" "rocketlauncher unlimited_ammo"
+"targetname" "rl"
+"origin" "0.000000 -512.000000 768.000000"
+"classname" "target_items"
+}
+{
+"target" "trigger_race_checkpoint1"
+"angle" "-90.000000"
+"origin" "0.000000 -1856.000000 576.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*2"
+"target" "rl1"
+"cnt" "1"
+"targetname" "trigger_race_checkpoint1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint2"
+"angle" "90.000000"
+"origin" "-4096.000000 3648.000000 576.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*3"
+"target" "rl2"
+"cnt" "2"
+"targetname" "trigger_race_checkpoint2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint3"
+"angle" "-90.000000"
+"origin" "-8192.000000 -1856.000000 576.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*4"
+"spawnflags" "8"
+"target" "rl3"
+"cnt" "3"
+"targetname" "trigger_race_checkpoint3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*5"
+"target" "starttele"
+"classname" "trigger_teleport"
+}
+{
+"speed" "-1"
+"targetname" "starttele"
+"angle" "-90.000000"
+"origin" "0.000000 192.000000 576.000000"
+"classname" "misc_teleporter_dest"
+}
