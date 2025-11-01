@@ -1,0 +1,332 @@
+{
+"gridsize" "256 256 512"
+"_blocksize" "0 0 0"
+"classname" "worldspawn"
+}
+{
+"target" "target_give1"
+"angle" "144.563629"
+"origin" "2119.000000 -1703.000000 96.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"target" "target_startTimer1"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "1736.000000 -1424.000000 208.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "4609.000000 18586.000000 -111.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "389.000000 741.625000 510.750000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"angle" "7.021792"
+"targetname" "target_checkpoint2"
+"origin" "124.095551 2654.250977 510.750000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-1.702565"
+"targetname" "target_checkpoint3"
+"origin" "13.367096 4749.290039 510.750000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "target_checkpoint4"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-40.654999"
+"targetname" "target_checkpoint4"
+"origin" "1164.389893 7117.928711 510.750000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"target" "target_checkpoint5"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-22.504644"
+"targetname" "target_checkpoint5"
+"origin" "1521.385254 9295.666992 510.750000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"target" "target_checkpoint6"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-29.571650"
+"targetname" "target_checkpoint6"
+"origin" "3104.571045 12158.373047 510.750000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*9"
+"target" "target_checkpoint7"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-12.485659"
+"targetname" "target_checkpoint7"
+"origin" "3784.127930 15223.283203 510.750000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*10"
+"target" "target_checkpoint8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-12.485659"
+"targetname" "target_checkpoint8"
+"origin" "4359.627930 17482.533203 510.750000"
+"classname" "target_checkpoint"
+}
+{
+"target" "func_timer1"
+"origin" "248.000000 3368.000000 648.000000"
+"classname" "trigger_always"
+}
+{
+"target" "target_delay1"
+"random" "111"
+"wait" "288"
+"targetname" "func_timer1"
+"origin" "160.000000 3344.000000 648.000000"
+"targetShaderName" "df_hud/94x32_border"
+"targetShaderNewName" "df_hud/94x32_borderX"
+"classname" "func_timer"
+}
+{
+"target" "target_relay1"
+"targetname" "target_delay1"
+"wait" "15"
+"origin" "128.000000 3272.000000 648.000000"
+"targetShaderName" "df_hud/94x32_border"
+"targetShaderNewName" "df_hud/94x32_border"
+"classname" "target_delay"
+}
+{
+"target" "func_timer2"
+"origin" "224.000000 3272.000000 648.000000"
+"classname" "trigger_always"
+}
+{
+"target" "target_delay2"
+"random" "120"
+"wait" "492"
+"targetname" "func_timer2"
+"origin" "248.000000 3192.000000 648.000000"
+"targetShaderName" "df_hud/94x32_inner"
+"targetShaderNewName" "df_hud/94x32_innerX"
+"classname" "func_timer"
+}
+{
+"target" "target_relay2"
+"targetname" "target_delay2"
+"wait" ".7"
+"origin" "384.000000 3248.000000 648.000000"
+"targetShaderName" "df_hud/94x32_inner"
+"targetShaderNewName" "df_hud/94x32_inner"
+"classname" "target_delay"
+}
+{
+"target" "target_relay5"
+"targetname" "func_timer1"
+"wait" "0.2"
+"origin" "256.000000 3320.000000 648.000000"
+"targetShaderName" "df_hud/94x32_border"
+"targetShaderNewName" "df_hud/94x32_border"
+"classname" "target_delay"
+}
+{
+"target" "func_timer3"
+"origin" "232.000000 3592.000000 712.000000"
+"classname" "trigger_always"
+}
+{
+"target" "target_delay3"
+"random" "27"
+"wait" "360"
+"targetname" "func_timer3"
+"origin" "144.000000 3568.000000 712.000000"
+"targetShaderName" "df_hud/94x32_border"
+"targetShaderNewName" "df_hud/94x32_borderXy"
+"classname" "func_timer"
+}
+{
+"target" "target_relay3"
+"targetname" "target_delay3"
+"wait" "3"
+"origin" "112.000000 3496.000000 712.000000"
+"targetShaderName" "df_hud/94x32_border"
+"targetShaderNewName" "df_hud/94x32_border"
+"classname" "target_delay"
+}
+{
+"target" "target_relay4"
+"targetname" "func_timer3"
+"wait" "0.2"
+"origin" "240.000000 3544.000000 712.000000"
+"targetShaderName" "df_hud/94x32_border"
+"targetShaderNewName" "df_hud/94x32_border"
+"classname" "target_delay"
+}
+{
+"target" "func_timer4"
+"origin" "240.000000 3728.000000 736.000000"
+"classname" "trigger_always"
+}
+{
+"target" "target_delay4"
+"random" "144"
+"wait" "900"
+"targetname" "func_timer4"
+"origin" "152.000000 3704.000000 736.000000"
+"targetShaderName" "gfx/2d/bigchars"
+"targetShaderNewName" "gfx/2d/bigcharsX"
+"classname" "func_timer"
+}
+{
+"target" "target_relay7"
+"targetname" "func_timer4"
+"wait" "0.2"
+"origin" "248.000000 3680.000000 736.000000"
+"targetShaderName" "gfx/2d/bigchars"
+"targetShaderNewName" "gfx/2d/bigchars"
+"classname" "target_delay"
+}
+{
+"target" "target_relay8"
+"targetname" "func_timer2"
+"wait" ".2"
+"origin" "344.000000 3296.000000 704.000000"
+"targetShaderName" "df_hud/94x32_inner"
+"targetShaderNewName" "df_hud/94x32_inner"
+"classname" "target_delay"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshairbX"
+"targetShaderName" "gfx/2d/crosshairb"
+"origin" "112.000000 3632.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshaircX"
+"targetShaderName" "gfx/2d/crosshairc"
+"origin" "112.000000 3672.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshairdX"
+"targetShaderName" "gfx/2d/crosshaird"
+"origin" "112.000000 3712.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshaireX"
+"targetShaderName" "gfx/2d/crosshaire"
+"origin" "112.000000 3744.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshairfX"
+"targetShaderName" "gfx/2d/crosshairf"
+"origin" "112.000000 3784.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshairgX"
+"targetShaderName" "gfx/2d/crosshairg"
+"origin" "112.000000 3824.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshairhX"
+"targetShaderName" "gfx/2d/crosshairh"
+"origin" "112.000000 3864.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshairiX"
+"targetShaderName" "gfx/2d/crosshairi"
+"origin" "112.000000 3904.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"targetShaderNewName" "gfx/2d/crosshairjX"
+"targetShaderName" "gfx/2d/crosshairj"
+"origin" "112.000000 3936.000000 640.000000"
+"classname" "trigger_always"
+}
+{
+"target" "item_enviro1"
+"targetname" "target_give1"
+"origin" "1968.000000 -1448.000000 96.000000"
+"classname" "target_give"
+}
+{
+"targetname" "item_enviro1"
+"count" "999999"
+"origin" "1824.000000 -1616.000000 96.000000"
+"classname" "item_enviro"
+}
+{
+"target" "func_timer6"
+"origin" "264.000000 3496.000000 680.000000"
+"classname" "trigger_always"
+}
+{
+"target" "target_delay6"
+"random" "27"
+"wait" "211"
+"targetname" "func_timer6"
+"origin" "176.000000 3472.000000 680.000000"
+"targetShaderName" "df_hud/78x32_border"
+"targetShaderNewName" "df_hud/78x32_borderX"
+"classname" "func_timer"
+}
+{
+"target" "target_relay11"
+"targetname" "func_timer6"
+"wait" "0.2"
+"origin" "272.000000 3448.000000 680.000000"
+"targetShaderName" "df_hud/78x32_border"
+"targetShaderNewName" "df_hud/78x32_border"
+"classname" "target_delay"
+}
