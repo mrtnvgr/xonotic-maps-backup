@@ -1,0 +1,518 @@
+{
+"_q3map2_version" "2.5.17n-git-8ab3108"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4; -vis -saveprt; -light -randomsamples -samples 4 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid"
+"classname" "worldspawn"
+}
+{
+"angle" "45"
+"targetname" "earthside"
+"origin" "184.000000 -1168.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "320.000000 -576.000000 -200.000000"
+"classname" "weapon_uzi"
+}
+{
+"targetname" "earthside"
+"angle" "180"
+"origin" "704.000000 -992.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "744.000000 -1464.000000 288.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-64.000000 -2368.000000 112.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "896.000000 -2880.000000 -208.000000"
+"classname" "weapon_hagar"
+}
+{
+"origin" "896.000000 -2496.000000 -208.000000"
+"classname" "weapon_electro"
+}
+{
+"origin" "-576.000000 -3720.000000 -208.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "72.000000 1760.000000 -144.000000"
+"classname" "weapon_minstanex"
+}
+{
+"origin" "832.000000 1768.000000 -112.000000"
+"classname" "weapon_tuba"
+}
+{
+"angle" "0"
+"origin" "288.000000 1760.000000 -200.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1888.000000 2088.000000 -208.000000"
+"classname" "weapon_nex"
+}
+{
+"origin" "448.000000 2624.000000 -224.000000"
+"classname" "weapon_crylink"
+}
+{
+"targetname" "earthout"
+"angle" "-90.000000"
+"origin" "448.000000 200.000000 -24.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "desertout"
+"angle" "90.000000"
+"origin" "448.000000 1144.000000 -96.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*1"
+"target" "desertout"
+"classname" "trigger_teleport"
+}
+{
+"model" "*2"
+"target" "earthout"
+"classname" "trigger_teleport"
+}
+{
+"classname" "trigger_gravity"
+}
+{
+"classname" "trigger_swamp"
+}
+{
+"classname" "trigger_push"
+}
+{
+"classname" "func_fourier"
+}
+{
+"origin" "168.000000 4872.000000 104.000000"
+"classname" "weapon_fireball"
+}
+{
+"model" "*3"
+"targetname" "trigger_warpzone1"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*4"
+"target" "trigger_warpzone1"
+"classname" "trigger_warpzone"
+}
+{
+"origin" "176.000000 4208.000000 128.000000"
+"spawnflags" "1"
+"velocity" "0 0 20"
+"impulse" "36"
+"mdl" "torch_small"
+"classname" "func_pointparticles"
+}
+{
+"targetname" "misc_teleporter_dest1"
+"origin" "48.000000 1760.000000 -192.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "misc_teleporter_dest2"
+"angle" "-179.999985"
+"origin" "848.000000 1768.000000 -192.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*5"
+"target" "misc_teleporter_dest1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*6"
+"target" "misc_teleporter_dest2"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-64.000000 -2624.000000 -220.000000"
+"spawnflags" "1"
+"velocity" "0 0 5"
+"impulse" "60"
+"mdl" "pipe_smoke"
+"classname" "func_pointparticles"
+}
+{
+"origin" "-64.000000 -2112.000000 -220.000000"
+"spawnflags" "1"
+"velocity" "0 0 5"
+"impulse" "60"
+"mdl" "pipe_smoke"
+"classname" "func_pointparticles"
+}
+{
+"origin" "824.000000 1440.000000 -192.000000"
+"classname" "item_invincible"
+}
+{
+"origin" "40.000000 4352.000000 48.000000"
+"classname" "item_fuel"
+}
+{
+"origin" "1144.000000 1960.000000 168.000000"
+"classname" "item_jetpack"
+}
+{
+"origin" "768.000000 -2496.000000 0.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "768.000000 -2624.000000 0.000000"
+"classname" "item_cells"
+}
+{
+"origin" "768.000000 -2752.000000 0.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "768.000000 -2880.000000 0.000000"
+"classname" "item_shells"
+}
+{
+"origin" "896.000000 -3008.000000 0.000000"
+"classname" "item_fuel"
+}
+{
+"origin" "-736.000000 -3488.000000 0.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-672.000000 -3488.000000 0.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-480.000000 -3488.000000 0.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-416.000000 -3488.000000 0.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-576.000000 -3488.000000 0.000000"
+"classname" "item_fuel_regen"
+}
+{
+"model" "models/domination/dom_unclaimed.md3"
+"origin" "-216.000000 -3656.000000 0.000000"
+"classname" "dom_team"
+}
+{
+"cnt" "4"
+"netname" "Red Team"
+"model" "models/domination//dom_red.md3"
+"origin" "-216.000000 -3696.000000 0.000000"
+"classname" "dom_team"
+}
+{
+"model" "models/domination/dom_blue.md3"
+"cnt" "13"
+"netname" "Blue Team"
+"origin" "-216.000000 -3736.000000 0.000000"
+"classname" "dom_team"
+}
+{
+"target" "rocketsilo"
+"message" " has captured the missile silo"
+"origin" "-64.000000 -2368.000000 -192.000000"
+"classname" "dom_controlpoint"
+}
+{
+"target" "pillars"
+"message" " has captured the Outdoor Pillars"
+"origin" "752.000000 5184.000000 48.000000"
+"classname" "dom_controlpoint"
+}
+{
+"target" "earthside"
+"message" " has captured the earth-side Stargate"
+"origin" "320.000000 -1024.000000 -192.000000"
+"classname" "dom_controlpoint"
+}
+{
+"targetname" "rocketsilo"
+"angle" "-135"
+"origin" "160.000000 -1952.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-45"
+"origin" "-616.000000 -1352.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-45.000008"
+"origin" "-616.000000 -3288.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "rocketsilo"
+"angle" "135"
+"origin" "1024.000000 -3008.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "1088.000000 -2048.000000 8.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "rocketsilo"
+"origin" "768.000000 -2624.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "rocketsilo"
+"origin" "768.000000 -2752.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "-200.000000 -3712.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-960.000000 -3712.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "1088.000000 -1408.000000 8.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "1496.000000 -1648.000000 320.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "640.000000 -1360.000000 272.000000"
+"classname" "weapon_minelayer"
+}
+{
+"model" "*7"
+"message2" "was pushed into the flames of the crashed rocket by"
+"message" "got burned in the flames of the crashed rocket"
+"dmg" "10"
+"classname" "trigger_hurt"
+}
+{
+"angle" "180"
+"origin" "608.000000 1760.000000 -200.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "1392.000000 1680.000000 256.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135.000000"
+"origin" "2184.000000 2440.000000 152.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "784.000000 2440.000000 224.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "pillars"
+"angle" "-90.000000"
+"origin" "464.000000 5312.000000 56.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "pillars"
+"angle" "180"
+"origin" "-152.000000 5192.000000 -232.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "64.000000 2092.000000 -216.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "0.000000 2092.000000 -216.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-128.000000 2092.000000 -216.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-192.000000 2092.000000 -216.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-64.000000 2092.000000 -216.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "516.000000 5280.000000 -280.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "516.000000 5344.000000 -280.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-336.000000 5192.000000 -272.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1088.000000 -1536.000000 -8.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "1088.000000 -1920.000000 -8.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-576.000000 -2048.000000 -200.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "45.000000"
+"origin" "-616.000000 -3048.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "rocketsilo"
+"angle" "-45"
+"origin" "-288.000000 -1952.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "rocketsilo"
+"angle" "135"
+"origin" "160.000000 -2784.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "rocketsilo"
+"angle" "45.000000"
+"origin" "-288.000000 -2784.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "earthside"
+"angle" "-135"
+"origin" "712.000000 112.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-45"
+"targetname" "earthside"
+"origin" "184.000000 112.000000 -184.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "pillars"
+"angle" "45"
+"origin" "216.000000 5512.000000 -264.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "pillars"
+"angle" "-90.000000"
+"origin" "752.000000 5312.000000 56.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "pillars"
+"angle" "135"
+"origin" "920.000000 5512.000000 -264.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-45"
+"origin" "1720.000000 2232.000000 -200.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "45"
+"origin" "1720.000000 1944.000000 -200.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"radius" "640"
+"falloff" "1"
+"strength" "-100"
+"classname" "trigger_impulse"
+}
+{
+"angle" "-135"
+"origin" "1592.000000 2224.000000 224.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1344.000000 -1648.000000 320.000000"
+"classname" "item_strength"
+}
+{
+"origin" "72.000000 1440.000000 -192.000000"
+"classname" "item_armor_large"
+}
+{
+"origin" "1024.000000 -3008.000000 32.000000"
+"classname" "item_health_mega"
+}
+{
+"origin" "768.000000 -2368.000000 0.000000"
+"classname" "item_armor_medium"
+}
+{
+"origin" "768.000000 -3008.000000 0.000000"
+"classname" "item_armor_medium"
+}
+{
+"model" "*8"
+"classname" "func_ladder"
+}
+{
+"origin" "-576.000000 -1728.000000 -208.000000"
+"classname" "weapon_sniperrifle"
+}
+{
+"model" "*9"
+"mdl" "torch_small"
+"gravity" "0.1"
+"classname" "trigger_gravity"
+}
+{
+"model" "*10"
+"mdl" "torch_small"
+"gravity" "0.1"
+"classname" "trigger_gravity"
+}
+{
+"origin" "248.000000 5600.000000 -288.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "752.000000 5024.000000 64.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "752.000000 4736.000000 48.000000"
+"classname" "item_armor_medium"
+}
+{
+"origin" "904.000000 5600.000000 -288.000000"
+"classname" "item_bullets"
+}
