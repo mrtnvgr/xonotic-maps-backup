@@ -1,0 +1,355 @@
+{
+"_q3map2_version" "2.5.17n-git-0c20b6e"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -super 2 -filter -bounce 6 -shade"
+"classname" "worldspawn"
+}
+{
+"angle" "-90.000000"
+"origin" "-936.000000 944.000000 88.000000"
+"classname" "info_player_start"
+}
+{
+"angle" "-90.000000"
+"targetname" "target_startTimer1"
+"origin" "-800.000000 1080.000000 128.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*1"
+"wait" "99999"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "2252.000000 -472.000000 300.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "-1840.000000 3128.000000 408.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint2"
+"origin" "-1824.000000 4072.000000 512.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"dmg" "1000"
+"classname" "trigger_hurt"
+}
+{
+"frags" "1"
+"spawnflags" "4"
+"target" "target_teleporter1"
+"targetname" "target_fragsFilter1"
+"origin" "-960.000000 3088.000000 -192.000000"
+"classname" "target_fragsFilter"
+}
+{
+"spawnflags" "4"
+"frags" "1"
+"target" "target_teleporter2"
+"targetname" "target_fragsFilter2"
+"origin" "-928.000000 3088.000000 -192.000000"
+"classname" "target_fragsFilter"
+}
+{
+"frags" "1"
+"spawnflags" "4"
+"target" "target_teleporter3"
+"targetname" "target_fragsFilter3"
+"origin" "-896.000000 3088.000000 -192.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position1"
+"targetname" "target_teleporter1"
+"origin" "-960.000000 3088.000000 -128.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "target_position1"
+"targetname" "target_teleporter2"
+"origin" "-928.000000 3088.000000 -128.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "target_position1"
+"targetname" "target_teleporter3"
+"origin" "-896.000000 3088.000000 -128.000000"
+"classname" "target_teleporter"
+}
+{
+"targetname" "target_position1"
+"angle" "90.000000"
+"origin" "-1120.000000 3200.000000 336.000000"
+"classname" "target_position"
+}
+{
+"model" "*6"
+"wait" "9999"
+"target" "target_score1"
+"classname" "trigger_multiple"
+}
+{
+"count" "1"
+"targetname" "target_score1"
+"origin" "-960.000000 3152.000000 416.000000"
+"classname" "target_score"
+}
+{
+"model" "*7"
+"target" "target_fragsFilter1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*8"
+"target" "target_fragsFilter2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"target" "target_fragsFilter3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"wait" "9999"
+"target" "target_score2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"target" "target_fragsFilter4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"target" "target_fragsFilter5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*13"
+"target" "target_fragsFilter6"
+"classname" "trigger_multiple"
+}
+{
+"count" "1"
+"targetname" "target_score2"
+"origin" "-4152.000000 3424.000000 408.000000"
+"classname" "target_score"
+}
+{
+"targetname" "target_position2"
+"angle" "90.000000"
+"origin" "-4184.000000 3592.000000 336.000000"
+"classname" "target_position"
+}
+{
+"target" "target_teleporter4"
+"targetname" "target_fragsFilter4"
+"spawnflags" "4"
+"frags" "2"
+"origin" "-4216.000000 3344.000000 -144.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_teleporter5"
+"targetname" "target_fragsFilter5"
+"spawnflags" "4"
+"frags" "2"
+"origin" "-4176.000000 3344.000000 -144.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_teleporter6"
+"targetname" "target_fragsFilter6"
+"spawnflags" "4"
+"frags" "2"
+"origin" "-4136.000000 3344.000000 -144.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position2"
+"targetname" "target_teleporter4"
+"origin" "-4216.000000 3344.000000 -64.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "target_position2"
+"targetname" "target_teleporter5"
+"origin" "-4176.000000 3344.000000 -64.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "target_position2"
+"targetname" "target_teleporter6"
+"origin" "-4136.000000 3344.000000 -64.000000"
+"classname" "target_teleporter"
+}
+{
+"targetname" "target_position3"
+"origin" "-1920.000000 4176.000000 408.000000"
+"classname" "target_position"
+}
+{
+"count" "1"
+"targetname" "target_score3"
+"origin" "-1968.000000 4392.000000 408.000000"
+"classname" "target_score"
+}
+{
+"model" "*14"
+"wait" "9999"
+"target" "target_score3"
+"classname" "trigger_multiple"
+}
+{
+"target" "target_teleporter7"
+"targetname" "target_fragsFilter7"
+"spawnflags" "4"
+"frags" "3"
+"origin" "-1888.000000 4632.000000 -192.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_teleporter8"
+"targetname" "target_fragsFilter8"
+"spawnflags" "4"
+"frags" "3"
+"origin" "-1848.000000 4632.000000 -192.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_teleporter9"
+"targetname" "target_fragsFilter9"
+"frags" "3"
+"spawnflags" "4"
+"origin" "-1808.000000 4632.000000 -192.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position3"
+"targetname" "target_teleporter7"
+"origin" "-1888.000000 4632.000000 -128.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "target_position3"
+"targetname" "target_teleporter8"
+"origin" "-1848.000000 4632.000000 -128.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "target_position3"
+"targetname" "target_teleporter9"
+"origin" "-1808.000000 4632.000000 -128.000000"
+"classname" "target_teleporter"
+}
+{
+"model" "*15"
+"target" "target_fragsFilter7"
+"classname" "trigger_multiple"
+}
+{
+"model" "*16"
+"target" "target_fragsFilter8"
+"classname" "trigger_multiple"
+}
+{
+"model" "*17"
+"target" "target_fragsFilter9"
+"classname" "trigger_multiple"
+}
+{
+"model" "*18"
+"wait" "9999"
+"target" "target_score4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_score4"
+"count" "1"
+"origin" "1920.000000 3472.000000 256.000000"
+"classname" "target_score"
+}
+{
+"targetname" "target_position4"
+"origin" "2256.000000 3984.000000 16.000000"
+"classname" "target_position"
+}
+{
+"model" "*19"
+"target" "target_fragsFilter10"
+"classname" "trigger_multiple"
+}
+{
+"model" "*20"
+"target" "target_fragsFilter11"
+"classname" "trigger_multiple"
+}
+{
+"model" "*21"
+"target" "target_fragsFilter12"
+"classname" "trigger_multiple"
+}
+{
+"target" "target_teleporter10"
+"targetname" "target_fragsFilter10"
+"spawnflags" "4"
+"frags" "4"
+"origin" "2360.000000 4176.000000 -24.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_teleporter11"
+"targetname" "target_fragsFilter11"
+"spawnflags" "4"
+"frags" "4"
+"origin" "2408.000000 4176.000000 -24.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_teleporter12"
+"targetname" "target_fragsFilter12"
+"spawnflags" "4"
+"frags" "4"
+"origin" "2456.000000 4176.000000 -24.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position4"
+"targetname" "target_teleporter10"
+"origin" "2360.000000 4176.000000 48.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "target_position4"
+"targetname" "target_teleporter11"
+"origin" "2408.000000 4176.000000 48.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "target_position4"
+"targetname" "target_teleporter12"
+"origin" "2456.000000 4176.000000 48.000000"
+"classname" "target_teleporter"
+}
