@@ -1,0 +1,48 @@
+{
+"_q3map2_version" "2.5.17n-svn378"
+"_q3map2_cmdline" "-meta -v -mv 1000000 -mi 6000000; -vis -saveprt -fast; -light -deluxe -fast -samples 2"
+"_ambient" "20"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"cnt" "1"
+"targetname" "trigger_race_checkpoint1"
+"spawnflags" "8"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint2"
+"angle" "90.000000"
+"origin" "2048.000000 -8128.000000 0.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint1"
+"angle" "90.000000"
+"origin" "2048.000000 10304.000000 320.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*2"
+"target" "starttele"
+"classname" "trigger_teleport"
+}
+{
+"model" "*3"
+"target" "starttele"
+"classname" "trigger_teleport"
+}
+{
+"speed" "-1"
+"targetname" "starttele"
+"angle" "90.000000"
+"origin" "2048.000000 -8128.000000 0.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*4"
+"targetname" "trigger_race_checkpoint2"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
