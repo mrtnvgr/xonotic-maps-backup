@@ -1,0 +1,71 @@
+{
+"classname" "worldspawn"
+"_ambient" "20"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "224 288 40"
+}
+{
+"classname" "trigger_multiple"
+"target" "s2"
+"model" "*1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2224 -2144 224"
+"targetname" "s2"
+}
+{
+"classname" "trigger_multiple"
+"target" "s1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "400 288 224"
+"targetname" "s1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "3136 -1120 184"
+"targetname" "t1"
+"angle" "270"
+}
+{
+"target" "s3"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "s3"
+"origin" "416 -4048 224"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "s4"
+"model" "*5"
+}
+{
+"classname" "target_stopTimer"
+"origin" "3312 -4960 296"
+"targetname" "s4"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "3176 -4960 -288"
+"wait" "1"
+"count" "30"
+}
+{
+"classname" "item_enviro"
+"origin" "3112 -4960 -288"
+"count" "999"
+"wait" "1"
+}
