@@ -1,0 +1,139 @@
+{
+"gridsize" "80 64 128"
+"angle" "270"
+"classname" "worldspawn"
+}
+{
+"target" "t1"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t1"
+"origin" "13952 -10368 -96"
+"classname" "target_stopTimer"
+}
+{
+"angle" "90"
+"origin" "1344 -1152 -272"
+"classname" "info_player_start"
+"target" "t3"
+}
+{
+"wait" "-1"
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "1184 -960 -96"
+"targetname" "t2"
+}
+{
+"classname" "target_give"
+"origin" "1472 -992 0"
+"targetname" "t3"
+"target" "t4"
+}
+{
+"classname" "item_enviro"
+"origin" "1536 -960 0"
+"targetname" "t4"
+"count" "200"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t5"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "6336 -10560 -96"
+"targetname" "t5"
+}
+{
+"target" "t6"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t6"
+"origin" "1824 -6848 -96"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t7"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2432 -1248 736"
+"targetname" "t7"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t8"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-3104 -608 416"
+"targetname" "t8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-6016 -640 896"
+"targetname" "t9"
+}
+{
+"target" "t10"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t10"
+"origin" "-6464 448 448"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t11"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2976 1152 0"
+"targetname" "t11"
+}
+{
+"target" "t12"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t12"
+"origin" "-7008 1568 0"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "t4"
+"count" "8"
+"origin" "1536 -1024 0"
+"classname" "weapon_rocketlauncher"
+}
+{
+"target" "t9"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*10"
+}
