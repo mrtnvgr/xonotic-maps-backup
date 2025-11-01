@@ -1,0 +1,127 @@
+{
+"angle" "45"
+"classname" "worldspawn"
+"message" "SiNeX's Resident Evil run"
+}
+{
+"classname" "info_player_start"
+"origin" "-640 32 112"
+}
+{
+"classname" "trigger_teleport"
+"target" "pradzia"
+"model" "*1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-656 32 112"
+"targetname" "pradzia"
+}
+{
+"target" "pradzia"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"target" "start"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "start"
+"origin" "-344 128 160"
+"classname" "target_startTimer"
+}
+{
+"classname" "trigger_teleport"
+"target" "antras"
+"model" "*4"
+}
+{
+"targetname" "antras"
+"angle" "90"
+"origin" "1312 -1480 104"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "antras"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "trecias"
+"model" "*6"
+}
+{
+"targetname" "trecias"
+"angle" "180"
+"origin" "4432 -184 128"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "trecias"
+"classname" "trigger_teleport"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"target" "ketvirtas"
+"model" "*8"
+}
+{
+"targetname" "ketvirtas"
+"origin" "2456 -1048 104"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "stop"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "stop"
+"origin" "4208 -1128 160"
+"classname" "target_stopTimer"
+}
+{
+"target" "re"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "re"
+"noise" "sound/re.wav"
+"origin" "4024 48 160"
+"classname" "target_speaker"
+}
+{
+"target" "first"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "first"
+"origin" "1080 -1296 152"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "second"
+"model" "*12"
+}
+{
+"targetname" "second"
+"origin" "4080 0 160"
+"classname" "target_checkpoint"
+}
+{
+"target" "third"
+"classname" "trigger_multiple"
+"model" "*13"
+}
+{
+"targetname" "third"
+"origin" "2416 -1160 160"
+"classname" "target_checkpoint"
+}
