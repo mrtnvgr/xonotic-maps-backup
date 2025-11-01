@@ -1,0 +1,122 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "-624 360 248"
+"classname" "info_player_start"
+}
+{
+"wait" "1"
+"origin" "-560 360 248"
+"classname" "weapon_bfg"
+}
+{
+"target" "kill1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "kill1"
+"origin" "440 264 176"
+"classname" "target_kill"
+}
+{
+"classname" "trigger_multiple"
+"target" "kill1"
+"model" "*2"
+}
+{
+"angle" "90"
+"classname" "func_door"
+"model" "*3"
+}
+{
+"angle" "270"
+"classname" "func_door"
+"model" "*4"
+}
+{
+"target" "start"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "start"
+"origin" "-408 376 368"
+"classname" "target_startTimer"
+}
+{
+"wait" "1"
+"origin" "32 736 736"
+"classname" "item_health_large"
+}
+{
+"classname" "item_health_large"
+"origin" "352 416 864"
+"wait" "1"
+}
+{
+"count" "25"
+"wait" "1"
+"origin" "416 -96 1056"
+"classname" "item_health_small"
+}
+{
+"classname" "item_health_small"
+"origin" "1024 -152 1056"
+"wait" "1"
+"count" "25"
+}
+{
+"target" "stop"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "stop"
+"origin" "1552 -96 1120"
+"classname" "target_checkpoint"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-976 1760 1752"
+"targetname" "tel1"
+}
+{
+"classname" "trigger_teleport"
+"target" "tel1"
+"model" "*7"
+}
+{
+"classname" "target_give"
+"origin" "1568 -64 1120"
+"targetname" "stop"
+"target" "w1"
+}
+{
+"classname" "item_health_mega"
+"origin" "1408 -96 1120"
+"targetname" "w1"
+"count" "200"
+}
+{
+"target" "stop1"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "stop1"
+"origin" "2832 1696 1872"
+"classname" "target_stopTimer"
+}
+{
+"target" "tel1"
+"classname" "trigger_teleport"
+"model" "*9"
+}
+{
+"wait" "1"
+"count" "200"
+"origin" "-984 1760 1752"
+"classname" "item_health_mega"
+}
