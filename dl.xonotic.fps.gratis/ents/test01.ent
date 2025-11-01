@@ -1,0 +1,269 @@
+{
+"gridsize" "80 64 128"
+"classname" "worldspawn"
+"_floodlight" "240 240 255 2048 256"
+}
+{
+"race_place" "1"
+"classname" "info_player_race"
+"origin" "-60 3200 1824"
+"target" "finish"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "finish"
+"target" "finish_items"
+"cnt" "0"
+"spawnflags" "4"
+"model" "*1"
+}
+{
+"classname" "trigger_race_checkpoint"
+"target" "cp1_items"
+"cnt" "1"
+"targetname" "cp1"
+"spawnflags" "4"
+"model" "*2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp2"
+"cnt" "2"
+"spawnflags" "4"
+"target" "cp2_items"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "cake"
+"model" "*4"
+}
+{
+"classname" "target_speaker"
+"origin" "3840 -3584 -3584"
+"noise" "sound/test01/haha.ogg"
+"atten" "0.5"
+}
+{
+"target" "cake_items"
+"classname" "misc_teleporter_dest"
+"origin" "3456 -3584 -4000"
+"targetname" "cake"
+}
+{
+"target" "backtothemap"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"target" "backtothemap_items"
+"targetname" "backtothemap"
+"origin" "-1392 2944 2040"
+"classname" "misc_teleporter_dest"
+}
+{
+"race_place" "2"
+"target" "finish"
+"origin" "-188 2688 1824"
+"classname" "info_player_race"
+}
+{
+"race_place" "3"
+"classname" "info_player_race"
+"origin" "-316 3200 1824"
+"target" "finish"
+}
+{
+"race_place" "4"
+"target" "finish"
+"origin" "-444 2688 1824"
+"classname" "info_player_race"
+}
+{
+"race_place" "5"
+"classname" "info_player_race"
+"origin" "-572 3200 1824"
+"target" "finish"
+}
+{
+"race_place" "6"
+"target" "finish"
+"origin" "-700 2688 1824"
+"classname" "info_player_race"
+}
+{
+"race_place" "7"
+"classname" "info_player_race"
+"origin" "-828 3200 1824"
+"target" "finish"
+}
+{
+"race_place" "8"
+"target" "finish"
+"origin" "-956 2688 1824"
+"classname" "info_player_race"
+}
+{
+"classname" "info_player_race"
+"origin" "-1084 2176 1824"
+"target" "finish"
+}
+{
+"target" "finish"
+"origin" "-1084 2432 1824"
+"classname" "info_player_race"
+}
+{
+"classname" "info_player_race"
+"origin" "-1084 2688 1824"
+"target" "finish"
+}
+{
+"target" "finish"
+"origin" "-1084 2944 1824"
+"classname" "info_player_race"
+}
+{
+"classname" "info_player_race"
+"origin" "-1084 3200 1824"
+"target" "finish"
+}
+{
+"target" "finish"
+"origin" "-1084 3456 1824"
+"classname" "info_player_race"
+}
+{
+"classname" "info_player_race"
+"origin" "-1084 3712 1824"
+"target" "finish"
+}
+{
+"spawnflags" "4"
+"cnt" "3"
+"targetname" "cp3"
+"target" "cp3_items"
+"classname" "trigger_race_checkpoint"
+"model" "*6"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"target" "cp1"
+"angle" "270"
+"origin" "3840 2112 2080"
+"classname" "info_player_race"
+}
+{
+"target" "cp1"
+"classname" "info_player_race"
+"origin" "4032 2112 2080"
+"angle" "270"
+}
+{
+"target" "cp1"
+"angle" "270"
+"origin" "3648 2112 2080"
+"classname" "info_player_race"
+}
+{
+"angle" "180"
+"target" "cp2"
+"origin" "896 896 2072"
+"classname" "info_player_race"
+}
+{
+"angle" "180"
+"classname" "info_player_race"
+"origin" "896 1408 2072"
+"target" "cp2"
+}
+{
+"angle" "180"
+"target" "cp2"
+"origin" "896 384 2072"
+"classname" "info_player_race"
+}
+{
+"classname" "info_player_race"
+"origin" "-1536 896 3352"
+"target" "cp3"
+"angle" "180"
+}
+{
+"target" "cp3"
+"origin" "-1536 1408 3352"
+"classname" "info_player_race"
+"angle" "180"
+}
+{
+"classname" "info_player_race"
+"origin" "-1536 384 3352"
+"target" "cp3"
+"angle" "180"
+}
+{
+"classname" "target_items"
+"origin" "3456 -3584 -3872"
+"targetname" "cake_items"
+"netname" "unlimited_ammo invincible laser shotgun uzi grenadelauncher electro crylink nex hagar rocketlauncher porto minstanex"
+"ammo_shells" "42"
+"ammo_nails" "42"
+"ammo_rockets" "42"
+"ammo_cells" "42"
+"armorvalue" "999"
+"invincible_finished" "999"
+"spawnflags" "2"
+"message" "This was a triumph..."
+}
+{
+"classname" "target_items"
+"origin" "3840 -3264 -3968"
+"spawnflags" "4"
+"netname" "invincible"
+"targetname" "t1"
+"message" "Thank you for helping us help you help us all."
+}
+{
+"targetname" "backtothemap_items"
+"origin" "-1392 2944 2168"
+"classname" "target_items"
+"health" "100"
+"message" "Back to work..."
+"netname" "porto"
+}
+{
+"targetname" "finish_items"
+"message" "You have ONE portal. Cross the lava with it!"
+"health" "100"
+"netname" "porto"
+"origin" "768 2944 3712"
+"classname" "target_items"
+}
+{
+"classname" "target_items"
+"origin" "3840 1536 3712"
+"netname" "porto"
+"health" "100"
+"message" "One attempt to make a portal ought to be enough for anyone."
+"targetname" "cp1_items"
+}
+{
+"targetname" "cp2_items"
+"message" "The lava here will kill you. Try to avoid it."
+"health" "100"
+"netname" "porto"
+"origin" "576 896 3712"
+"classname" "target_items"
+}
+{
+"classname" "target_items"
+"origin" "-2560 896 3712"
+"netname" "porto unlimited_ammo"
+"health" "100"
+"message" "For the last part, you are allowed multiple portals."
+"targetname" "cp3_items"
+}
