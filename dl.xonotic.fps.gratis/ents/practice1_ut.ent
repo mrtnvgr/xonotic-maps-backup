@@ -1,0 +1,65 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"message" "practice 1: firing range - by ilduril"
+}
+{
+"model" "*1"
+"classname" "func_door"
+"angle" "90"
+"noise" "sound/bbqmine/chain.wav"
+"speed" "50"
+"targetname" "firingrange03"
+"target" "firingrange03"
+"lip" "840.000000"
+"wait" "1"
+}
+{
+"model" "*2"
+"wait" "1"
+"lip" "840.000000"
+"target" "firingrange02"
+"targetname" "firingrange02"
+"speed" "50"
+"noise" "sound/bbqmine/chain.wav"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"classname" "func_door"
+"angle" "90"
+"noise" "sound/bbqmine/chain.wav"
+"speed" "50"
+"targetname" "firingrange01"
+"target" "firingrange01"
+"lip" "840.000000"
+"wait" "1"
+}
+{
+"model" "*4"
+"classname" "func_button"
+"wait" "2"
+"targetname" "t1"
+"target" "firingrange01"
+}
+{
+"origin" "-414.399994 -78.400002 44.799999"
+"classname" "info_player_start"
+}
+{
+"model" "*5"
+"target" "firingrange02"
+"targetname" "t1"
+"wait" "2"
+"classname" "func_button"
+}
+{
+"model" "*6"
+"classname" "func_button"
+"wait" "2"
+"targetname" "t1"
+"target" "firingrange03"
+}
