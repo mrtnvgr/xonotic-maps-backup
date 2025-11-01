@@ -1,0 +1,40 @@
+{
+"_celshader" "cel/ink"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "256 128 24"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "tele1"
+"angle" "90"
+"origin" "256 128 48"
+"classname" "target_teleporter"
+}
+{
+"target" "tele1"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"targetname" "t3"
+"origin" "256 216 64"
+"classname" "target_startTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"target" "t25"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t25"
+"origin" "256 2528 64"
+"classname" "target_stopTimer"
+}
