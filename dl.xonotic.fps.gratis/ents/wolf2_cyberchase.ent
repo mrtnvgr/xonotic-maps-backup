@@ -1,0 +1,147 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"spawnflags" "12"
+"model" "*1"
+}
+{
+"classname" "info_player_start"
+"origin" "-288 88 96"
+"angle" "90"
+}
+{
+"classname" "trigger_push"
+"target" "target_position1"
+"model" "*2"
+}
+{
+"classname" "target_position"
+"origin" "-200 1856 584"
+"targetname" "target_position1"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-552 160 288"
+"angle" "-90"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "-256 208 512"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*5"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-584 128 736"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "target_print"
+"origin" "1280 1632 24"
+"message" "Matt"
+"spawnflags" "4"
+"targetname" "target_print5"
+}
+{
+"classname" "target_print"
+"origin" "1024 1632 24"
+"message" "Jackie"
+"spawnflags" "4"
+"targetname" "target_print4"
+}
+{
+"classname" "target_print"
+"origin" "768 1632 24"
+"message" "Inez"
+"spawnflags" "4"
+"targetname" "target_print3"
+}
+{
+"classname" "target_print"
+"origin" "512 1632 24"
+"message" "Digit"
+"spawnflags" "4"
+"targetname" "target_print2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print2"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print3"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print4"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print5"
+"model" "*9"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest2"
+"model" "*10"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "896 992 32"
+"angle" "90"
+"targetname" "misc_teleporter_dest2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*11"
+}
+{
+"classname" "target_print"
+"origin" "896 992 24"
+"message" "Touch each colored tile to show their names.\n Each bar height and numbers representing\n their approximate height in Quake units.\n Look out for the button at the middle\n of the floor.\n Shooting it will play Cyberchase theme song.\n Button will return itself after the song."
+"spawnflags" "4"
+"targetname" "target_print1"
+}
+{
+"classname" "func_button"
+"angle" "-2"
+"speed" "400"
+"wait" "65"
+"health" "400"
+"target" "target_speaker1"
+"model" "*12"
+}
+{
+"classname" "target_speaker"
+"origin" "896 1632 32"
+"noise" "sound/theme/cyberchase.wav"
+"spawnflags" "8"
+"targetname" "target_speaker1"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-1744 992 720"
+}
