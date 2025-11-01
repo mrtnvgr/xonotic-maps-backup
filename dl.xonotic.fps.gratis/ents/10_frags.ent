@@ -1,0 +1,129 @@
+{
+"_minlight" "70"
+"classname" "worldspawn"
+"_ambient" "10"
+"_lightmapscale" "0.256"
+"gridsize" "512 512 1024"
+"_blocksize" "512 512 1024"
+"target" "st"
+}
+{
+"classname" "info_player_start"
+"origin" "1056 -96 32"
+"angle" "90"
+}
+{
+"classname" "target_startTimer"
+"origin" "1056 72 232"
+"targetname" "st"
+}
+{
+"classname" "trigger_multiple"
+"target" "st"
+"model" "*1"
+}
+{
+"classname" "target_speaker"
+"origin" "1056 192 136"
+"spawnflags" "5"
+"noise" "sound/ambient/over.wav"
+}
+{
+"wait" "-1"
+"target" "shard_score"
+"spawnflags" "1"
+"origin" "-736 2720 48"
+"classname" "item_armor_shard"
+}
+{
+"count" "1"
+"targetname" "shard_score"
+"origin" "1056 256 136"
+"classname" "target_score"
+}
+{
+"classname" "item_armor_shard"
+"origin" "32 1504 48"
+"spawnflags" "1"
+"target" "shard_score"
+"wait" "-1"
+}
+{
+"wait" "-1"
+"target" "shard_score"
+"spawnflags" "1"
+"origin" "32 0 48"
+"classname" "item_armor_shard"
+}
+{
+"classname" "item_armor_shard"
+"origin" "1888 1504 48"
+"spawnflags" "1"
+"target" "shard_score"
+"wait" "-1"
+}
+{
+"wait" "-1"
+"target" "shard_score"
+"spawnflags" "1"
+"origin" "864 2720 48"
+"classname" "item_armor_shard"
+}
+{
+"classname" "item_armor_shard"
+"origin" "864 3616 48"
+"spawnflags" "1"
+"target" "shard_score"
+"wait" "-1"
+}
+{
+"wait" "-1"
+"target" "shard_score"
+"spawnflags" "1"
+"origin" "2848 2976 48"
+"classname" "item_armor_shard"
+}
+{
+"classname" "item_armor_shard"
+"origin" "1056 608 112"
+"spawnflags" "1"
+"target" "shard_score"
+"wait" "-1"
+}
+{
+"wait" "-1"
+"target" "shard_score"
+"spawnflags" "1"
+"origin" "864 5472 48"
+"classname" "item_armor_shard"
+}
+{
+"noise" "sound/ambient/tele.wav"
+"spawnflags" "1"
+"origin" "864 4480 -104"
+"classname" "target_speaker"
+}
+{
+"classname" "target_stopTimer"
+"origin" "864 4480 -120"
+"targetname" "stop"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_fragsFilter"
+"origin" "864 4480 -88"
+"frags" "10"
+"target" "stop"
+"targetname" "target_stopTimer1"
+}
+{
+"wait" "-1"
+"target" "shard_score"
+"spawnflags" "1"
+"origin" "864 1504 48"
+"classname" "item_armor_shard"
+}
