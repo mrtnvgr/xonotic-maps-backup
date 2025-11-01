@@ -1,0 +1,55 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -288 -32"
+"angle" "90"
+"target" "target_print1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "0 -184 96"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_print"
+"origin" "0 -256 -24"
+"targetname" "target_print1"
+"message" "Frags required: 604,800\n Frags given: 1 per second"
+}
+{
+"classname" "target_fragsFilter"
+"origin" "0 360 96"
+"targetname" "target_stopTimer1"
+"frags" "604800"
+"target" "target_stopTimer2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "0 336 96"
+"targetname" "target_stopTimer2"
+}
+{
+"classname" "item_health_small"
+"origin" "0 32 -32"
+"target" "target_score2"
+"wait" "1"
+}
+{
+"classname" "target_score"
+"origin" "0 48 -24"
+"targetname" "target_score2"
+"count" "1"
+}
