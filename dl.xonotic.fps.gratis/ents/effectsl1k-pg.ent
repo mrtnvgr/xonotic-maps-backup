@@ -1,0 +1,85 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -patchshadows -samples 3 -bounce 8 -dirty -gamma 2 -compensate 4"
+"_minlight" "4"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "3840 3520 152"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t1"
+"origin" "3616 3712 192"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "7744 1216 320"
+"targetname" "t2"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3296 5408 320"
+"targetname" "t3"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "t4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4640 3488 320"
+"targetname" "t4"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"target" "t5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "6944 4832 320"
+"targetname" "t5"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t6"
+}
+{
+"classname" "target_give"
+"origin" "3936 3552 160"
+"targetname" "t6"
+"target" "t7"
+}
+{
+"classname" "weapon_plasmagun"     
+"origin" "3904 3616 160"
+           
+"targetname" "t7"
+}
+{
+"classname" "item_enviro"
+"origin" "3808 3616 160"
+"targetname" "t7"
+}
