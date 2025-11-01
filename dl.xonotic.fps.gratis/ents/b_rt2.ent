@@ -1,0 +1,42 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-128 -128 88"
+"angle" "90"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-176 -80 96"
+"count" "20"
+}
+{
+"classname" "item_armor_body"
+"origin" "-96 -80 96"
+}
+{
+"classname" "target_startTimer"
+"origin" "-128 -128 288"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "704 128 320"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"model" "*3"
+}
