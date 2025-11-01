@@ -1,0 +1,37 @@
+{
+"_blocksize" "256 256 0"
+"classname" "worldspawn"
+"gridsize" "256 256 512"
+"vertexremapshader0" "textures/stone/terrain_0;textures/stone/terrain.vertex"
+"vertexremapshader1" "textures/stone/terrain_1;textures/stone/terrain.vertex"
+"vertexremapshader2" "textures/stone/terrain_2;textures/stone/terrain.vertex"
+"vertexremapshader3" "textures/stone/terrain_0to1;textures/stone/terrain.vertex"
+"vertexremapshader4" "textures/stone/terrain_0to2;textures/stone/terrain.vertex"
+"vertexremapshader5" "textures/stone/terrain_1to2;textures/stone/terrain.vertex"
+}
+{
+"classname" "info_player_start"
+"origin" "3800 3696 -800"
+"angle" "180"
+}
+{
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t1"
+"origin" "3720 3688 -672"
+"classname" "target_startTimer"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t2"
+"origin" "-3192 -4248 -632"
+"classname" "target_stopTimer"
+}
