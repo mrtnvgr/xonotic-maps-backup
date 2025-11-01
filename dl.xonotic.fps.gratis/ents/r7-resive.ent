@@ -1,0 +1,168 @@
+{
+"classname" "worldspawn"
+"_ambient" "2"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 32"
+"angle" "360"
+}
+{
+"count" "1"
+"wait" "-1"
+"spawnflags" "1"
+"angle" "180"
+"origin" "1888 -1824 48"
+"classname" "weapon_rocketlauncher"
+}
+{
+"wait" "-1"
+"spawnflags" "1"
+"count" "1"
+"angle" "360"
+"origin" "1984 -4224 152"
+"classname" "weapon_railgun"
+}
+{
+"target" "t2"
+"speed" "1000"
+"lip" "8"
+"wait" "-1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*1"
+}
+{
+"targetname" "t2"
+"target" "t1"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t1"
+"count" "1"
+"origin" "5248 288 144"
+"classname" "target_score"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"origin" "5216 -160 32"
+"classname" "target_stopTimer"
+}
+{
+"target" "t4"
+"targetname" "t3"
+"frags" "1"
+"spawnflags" "8"
+"origin" "5280 -160 32"
+"classname" "target_fragsFilter"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t5"
+"origin" "5312 -3072 160"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t6"
+"origin" "1952 -1888 40"
+"classname" "target_checkpoint"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t7"
+"origin" "1984 -4224 256"
+"classname" "target_checkpoint"
+}
+{
+"target" "t8"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t8"
+"origin" "256 0 128"
+"classname" "target_startTimer"
+}
+{
+"spawnflags" "12"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*8"
+}
+{
+"classname" "func_bobbing"
+"height" "16"
+"model" "*9"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*10"
+}
+{
+"classname" "func_bobbing"
+"height" "16"
+"model" "*11"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*12"
+}
+{
+"classname" "func_bobbing"
+"height" "16"
+"model" "*13"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*14"
+}
+{
+"classname" "func_bobbing"
+"height" "16"
+"model" "*15"
+}
+{
+"height" "16"
+"classname" "func_bobbing"
+"model" "*16"
+}
+{
+"classname" "func_bobbing"
+"height" "16"
+"model" "*17"
+}
+{
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*18"
+}
+{
+"targetname" "t9"
+"spawnflags" "32"
+"origin" "0 0 192"
+"classname" "target_init"
+}
