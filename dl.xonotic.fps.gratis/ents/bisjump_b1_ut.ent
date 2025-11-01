@@ -1,0 +1,377 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"message" "bisjump by numero-bis. have fun."
+"_ambient" "200"
+}
+{
+"classname" "trigger_teleport"
+"target1" "dest1"
+"target" "target_position1"
+"model" "*1"
+}
+{
+"classname" "target_position"
+"origin" "-4356.631836 22.400000 -4890.199707"
+"angle" "-90"
+"target1name" "dest1"
+"targetname" "target_position1"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position2"
+"model" "*2"
+}
+{
+"classname" "target_position"
+"origin" "-4715.031738 -649.599976 -4879.000000"
+"angle" "90"
+"targetname" "target_position2"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter2"
+"model" "*3"
+}
+{
+"classname" "target_position"
+"origin" "-4222.231934 -403.199982 -4128.600098"
+"angle" "-1.40334e-014"
+"targetname" "target_position4"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position4"
+"model" "*4"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position5"
+"model" "*5"
+}
+{
+"classname" "target_position"
+"origin" "-6283.031738 -672.000000 -3490.199951"
+"targetname" "target_position5"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position7"
+"model" "*6"
+}
+{
+"classname" "target_position"
+"origin" "-1993.432007 -459.199982 -2291.813965"
+"angle" "-90"
+"targetname" "target_position7"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position6"
+"model" "*7"
+}
+{
+"classname" "target_position"
+"origin" "312.899994 -540.757019 268.457001"
+"targetname" "target_position6"
+"angle" "180"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter1"
+"model" "*8"
+}
+{
+"classname" "target_teleporter"
+"origin" "-6249.600098 -33.599998 -4872.000000"
+"targetname" "target_teleporter1"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter2"
+"model" "*9"
+}
+{
+"classname" "target_teleporter"
+"origin" "-6787.199707 -616.000000 -4244.799805"
+"targetname" "target_teleporter2"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter3"
+"model" "*10"
+}
+{
+"classname" "target_teleporter"
+"origin" "-7168.000000 -812.000000 -851.200012"
+"angle" "-90"
+"targetname" "target_teleporter3"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter4"
+"model" "*11"
+}
+{
+"classname" "target_teleporter"
+"origin" "-5980.799805 -560.000000 -761.599976"
+"targetname" "target_teleporter4"
+}
+{
+"classname" "target_position"
+"origin" "-8574.832031 483.000000 4699.631836"
+"targetname" "target_position8"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position8"
+"model" "*12"
+}
+{
+"classname" "target_speaker"
+"origin" "-8833.299805 494.199982 4804.799805"
+"noise" "sound/trickmap2/jumpleft.wav"
+"spawnflags" "8"
+"targetname" "speaker"
+"triger_only" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "speaker"
+"wait" "9.4"
+"random" "0"
+"model" "*13"
+}
+{
+"classname" "target_speaker"
+"origin" "-8904.000000 501.199982 4075.399902"
+"targetname" "complete"
+"spawnflags" "8"
+"noise" "sounds/complete.wav"
+}
+{
+"classname" "trigger_multiple"
+"target" "complete"
+"wait" "10"
+"random" "0"
+"model" "*14"
+}
+{
+"classname" "info_player_start"
+"origin" "-6211.449707 -66.674995 -4864.299805"
+"angle" "-3.50835e-015"
+}
+{
+"classname" "target_position"
+"origin" "-5724.250000 -1720.599976 2507.399902"
+"angle" "180"
+"targetname" "target_position3"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position3"
+"model" "*15"
+}
+{
+"classname" "target_location"
+"origin" "-5370.399902 -61.599998 -4841.199707"
+"message" "first jump ! walljump, walljump, walljump..."
+}
+{
+"classname" "target_location"
+"origin" "-5084.799805 -596.399963 -4762.799805"
+"angle" "180"
+"message" "third jump ! jump and grab !"
+}
+{
+"classname" "target_location"
+"origin" "-4277.000000 -232.399994 -4755.799805"
+"message" "second jump ! wall .. wall .."
+}
+{
+"classname" "target_location"
+"origin" "-6601.000000 -546.000000 -4246.199707"
+"message" "fourth jump ! walljump, jump, walljump, grab. go down !"
+}
+{
+"classname" "target_location"
+"origin" "-4863.600098 -553.000000 -4246.199707"
+"message" "fourth jump ! walljump, jump, walljump, grab. go down !"
+}
+{
+"classname" "target_location"
+"origin" "-4048.800049 -553.000000 -4331.600098"
+"angle" "180"
+"message" "fifth jump ! three walljump and grab"
+}
+{
+"classname" "target_location"
+"origin" "-4544.399902 -81.199997 -4324.600098"
+"message" "sixth jump !! three wj .."
+}
+{
+"classname" "target_location"
+"origin" "-6616.399902 -81.199997 -4158.000000"
+"message" "seventh jump ! three walljump and grab !"
+}
+{
+"classname" "target_location"
+"origin" "-6311.199707 -677.599976 -3362.800049"
+"message" "eighth jump ! pillars... how ? as you want ..."
+}
+{
+"classname" "target_location"
+"origin" "-2262.399902 -704.200012 -3362.800049"
+"message" "eighth jump ! pillars... how ? as you want ..."
+"angle" "180"
+}
+{
+"classname" "target_location"
+"origin" "-1779.400024 -648.200012 -2986.199951"
+"message" "ninth jump ! three walljump..again..again .."
+}
+{
+"classname" "target_location"
+"origin" "-1723.400024 -648.200012 -2459.800049"
+"message" "ninth jump ! three walljump..again..again .."
+}
+{
+"classname" "target_location"
+"origin" "-2101.399902 -637.000000 -2315.599854"
+"message" "tenth jump ! walljump, jump, walljump ...."
+}
+{
+"classname" "target_location"
+"origin" "-4393.199707 -648.200012 -2315.599854"
+"message" "tenth jump ! walljump, jump, walljump ...."
+}
+{
+"classname" "target_location"
+"origin" "-5972.399902 -648.200012 -2430.399902"
+"message" "tenth jump ! walljump, jump, walljump ...."
+}
+{
+"classname" "target_location"
+"origin" "-4393.199707 -648.200012 -2315.599854"
+"message" "tenth jump ! walljump, jump, walljump ...."
+}
+{
+"classname" "target_location"
+"origin" "-7089.600098 -648.200012 -2571.800049"
+"message" "eleventh jump ! three walljump, again .."
+}
+{
+"classname" "target_location"
+"origin" "-7089.600098 -648.200012 -2038.400024"
+"message" "eleventh jump ! three walljump, again .."
+}
+{
+"classname" "target_location"
+"origin" "-7351.399902 -648.200012 -1743.000000"
+"message" "twelveth jump ! three walljump, jump, three wj and grab !"
+}
+{
+"classname" "target_location"
+"origin" "-7355.600098 -648.200012 -1330.000000"
+"message" "twelveth jump ! three walljump, jump, three wj and grab !"
+}
+{
+"classname" "target_location"
+"origin" "-5334.000000 -659.399963 -868.000000"
+"message" "fourteenth jump ! long jump and grab !"
+}
+{
+"classname" "target_location"
+"origin" "-53.200001 -526.399963 -443.799988"
+"message" "fourteenth jump ! long jump and grab !"
+}
+{
+"classname" "target_location"
+"origin" "77.000000 -526.399963 322.000000"
+"message" "fifteenth jump ! walljump, jump, wj, jump and grab !"
+}
+{
+"classname" "target_location"
+"origin" "-4753.000000 -526.399963 448.000000"
+"message" "sixteenth jump ! three double grab .. good luck !"
+}
+{
+"classname" "target_location"
+"origin" "-4684.399902 -679.000000 2441.599854"
+"message" "sixteenth jump ! three double grab .. gook luck !"
+}
+{
+"classname" "target_location"
+"origin" "-5968.199707 -1421.000000 2441.599854"
+"message" "seventeenth and final jump ! don't fall or .. you die .. !"
+}
+{
+"classname" "target_location"
+"origin" "-6913.199707 -154.000000 2441.599854"
+"message" "seventeenth and final jump ! don't fall or .. you die .. !"
+}
+{
+"classname" "target_location"
+"origin" "-8227.799805 474.600006 2441.599854"
+"message" "seventeenth and final jump ! don't fall or .. you die .. !"
+}
+{
+"classname" "target_location"
+"origin" "-8520.399414 462.000000 4463.199707"
+"message" "congratulation !!! final room, bye bye!"
+}
+{
+"classname" "target_location"
+"origin" "-6977.600098 -848.399963 -883.399963"
+"message" "thirteenth jump ! three reverse walljump .. jump, three wj and grab !!"
+}
+{
+"classname" "target_location"
+"origin" "-6699.000000 -568.399963 -868.000000"
+"message" "thirteenth jump ! three reverse walljump .. jump, three wj and grab !!"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position9"
+"model" "*16"
+}
+{
+"classname" "target_position"
+"origin" "-6241.199707 -76.650002 -4800.250000"
+"targetname" "target_position9"
+}
+{
+"classname" "target_location"
+"origin" "-6120.799805 -95.199997 -4841.199707"
+"message" "first jump ! walljump, walljump, walljump..."
+}
+{
+"classname" "target_location"
+"origin" "-6115.199707 -574.000000 -4762.799805"
+"angle" "180"
+"message" "third jump ! jump and grab !"
+}
+{
+"classname" "target_location"
+"origin" "-6242.600098 -590.799988 -4246.199707"
+"message" "fourth jump ! walljump, jump, walljump, grab. go down !"
+}
+{
+"classname" "trigger_teleporte"
+}
+{
+"classname" "target_position"
+"origin" "-5857.600098 -1534.400024 2408.000000"
+"angle" "180"
+"targetname" "target_position10"
+}
+{
+"classname" "trigger_teleporte"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_position10"
+"model" "*17"
+}
