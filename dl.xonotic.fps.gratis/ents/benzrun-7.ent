@@ -1,0 +1,241 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "192 5776 -1080"
+"angle" "90"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "target_kill"
+"origin" "-504 7272 -1328"
+"targetname" "target_kill1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill2"
+"model" "*2"
+}
+{
+"classname" "target_kill"
+"origin" "200 7272 -1328"
+"targetname" "target_kill2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill1"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "0 -480 160"
+"angle" "90"
+"targetname" "start"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "4000"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill3"
+"model" "*6"
+}
+{
+"classname" "target_kill"
+"origin" "-2088 3312 -2768"
+"angle" "180"
+"targetname" "target_kill3"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest2"
+"model" "*7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1264 -5976 -379"
+"angle" "-90"
+"targetname" "misc_teleporter_dest2"
+}
+{
+"classname" "trigger_push"
+"target" "target_position1"
+"model" "*8"
+}
+{
+"classname" "target_position"
+"origin" "-1056 -8872 64"
+"angle" "180"
+"targetname" "target_position1"
+}
+{
+"classname" "target_kill"
+"origin" "16 560 16"
+"angle" "90"
+"targetname" "target_kill4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill4"
+"model" "*9"
+}
+{
+"classname" "target_kill"
+"origin" "-16 3120 -304"
+"targetname" "target_kill5"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill5"
+"model" "*10"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest3"
+"model" "*11"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-512 7040 -1088"
+"angle" "-90"
+"targetname" "misc_teleporter_dest3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1152 6768 -1024"
+"angle" "90"
+"targetname" "misc_teleporter_dest4"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest4"
+"model" "*12"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest5"
+"model" "*13"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1376 8464 -1736"
+"angle" "-90"
+"targetname" "misc_teleporter_dest5"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest2"
+"model" "*14"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest6"
+"model" "*15"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "0 -8200 -352"
+"angle" "180"
+"targetname" "misc_teleporter_dest6"
+}
+{
+"classname" "trigger_multiple"
+"target" "stop0"
+"model" "*16"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-1280 -6064 176"
+"angle" "-90"
+"targetname" "stop0"
+}
+{
+"classname" "trigger_multiple"
+"target" "check1"
+"model" "*17"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-16 4800 -1008"
+"targetname" "check1"
+}
+{
+"classname" "trigger_multiple"
+"target" "check2"
+"model" "*18"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1136 8416 -1040"
+"angle" "90"
+"targetname" "check2"
+}
+{
+"classname" "trigger_multiple"
+"target" "check3"
+"model" "*19"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2496 3056 -2592"
+"angle" "-90"
+"targetname" "check3"
+}
+{
+"classname" "trigger_multiple"
+"target" "check4"
+"model" "*20"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1248 -7152 160"
+"angle" "90"
+"targetname" "check5"
+}
+{
+"classname" "item_haste"
+"origin" "-1584 -8864 -8"
+"wait" "7"
+"count" "7"
+}
+{
+"classname" "target_smallprint"
+"origin" "-360 -9424 -296"
+"targetname" "target_smallprint1"
+"spawnflags" "4"
+"message" "omfg!"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_smallprint1"
+"model" "*21"
+}
+{
+"classname" "target_kill"
+"origin" "-320 -9424 -288"
+"targetname" "target_kill6"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill6"
+"model" "*22"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 -672 -8"
+"angle" "90"
+}
