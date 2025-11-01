@@ -1,0 +1,144 @@
+{
+"gridsize" "215 160 8"
+"_blocksize" "4096"
+"_color" "1.000000 0.896193 0.829114"
+"classname" "worldspawn"
+"_minlight" "80"
+"message" "Made By Pornstar"
+}
+{
+"classname" "info_player_start"
+"origin" "-944 -1392 -40"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "4472 -1392 112"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_position"
+"origin" "4072 -1392 272"
+"targetname" "t36455"
+}
+{
+"target" "t36455"
+"classname" "trigger_push"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-552 2664 -2896"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*3"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "-592 -1328 -8"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*5"
+}
+{
+"targetname" "t17"
+"origin" "-383 -1360 26"
+"classname" "target_kill"
+}
+{
+"dmg" "200"
+"spawnflags" "1"
+"target" "t17"
+"classname" "trigger_hurt"
+"model" "*6"
+}
+{
+"classname" "trigger_hurt"
+"target" "t17"
+"spawnflags" "1"
+"dmg" "200"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "728 -1064 144"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*8"
+}
+{
+"targetname" "t36456"
+"origin" "4240 -1064 -3064"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36456"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "912 -1320 456"
+"targetname" "t36457"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36457"
+"model" "*10"
+}
+{
+"targetname" "t36458"
+"origin" "-496 -2600 -2104"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36458"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-496 88 -2104"
+"targetname" "t36459"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36459"
+"model" "*12"
+}
+{
+"origin" "-144 -1616 112"
+"spawnflags" "1"
+"noise" "sound/world/fire1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fire1.wav"
+"spawnflags" "1"
+"origin" "-144 -1168 112"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fire1.wav"
+"spawnflags" "1"
+"origin" "336 -1392 464"
+}
