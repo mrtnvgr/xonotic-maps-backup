@@ -1,0 +1,293 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"targetname" "remove1"
+"classname" "worldspawn"
+}
+{
+"targetname" "endtimer"
+"origin" "3231.199951 -1243.199951 257.600006"
+"classname" "target_stoptimer"
+}
+{
+"model" "*1"
+"target" "endtimer"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "remove3"
+"origin" "-4071.199951 -3522.399902 974.399963"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "remove2"
+"origin" "5566.399902 -56.000000 4984.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*2"
+"target" "check1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check1"
+"origin" "6238.399902 -61.599998 1302.000000"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "starttimer"
+"origin" "0.000000 -44.799999 1383.199951"
+"classname" "target_starttimer"
+}
+{
+"model" "*3"
+"target" "starttimer"
+"classname" "trigger_multiple"
+}
+{
+"count" "200"
+"wait" "5"
+"origin" "-4065.599854 263.199982 -67.199997"
+"classname" "item_health_mega"
+}
+{
+"wait" "5"
+"count" "4"
+"origin" "-4009.599854 313.600006 -67.199997"
+"classname" "weapon_rocketlauncher"
+}
+{
+"targetname" "remove2"
+"origin" "5566.399902 -56.000000 5051.199707"
+"classname" "target_init"
+}
+{
+"targetname" "remove2"
+"origin" "5566.399902 -56.000000 5017.600098"
+"classname" "target_remove_powerups"
+}
+{
+"model" "*4"
+"target" "remove2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "5790.399902 -56.000000 2900.800049"
+"classname" "item_health_mega"
+"wait" "3"
+"count" "200"
+}
+{
+"model" "*5"
+"target" "padstele1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "downtele1"
+"origin" "5857.600098 -61.599998 1159.199951"
+"classname" "target_teleporter"
+}
+{
+"model" "*6"
+"target" "downtele1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "uptele1"
+"origin" "2256.800049 -44.799999 1198.400024"
+"classname" "target_teleporter"
+}
+{
+"model" "*7"
+"target" "uptele1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "maintele"
+"origin" "-190.399994 -44.799999 50.399998"
+"classname" "target_teleporter"
+}
+{
+"model" "*8"
+"target" "maintele"
+"classname" "trigger_teleport"
+}
+{
+"angle" "180"
+"targetname" "portal1"
+"origin" "-660.799988 179.199997 5.600000"
+"classname" "misc_portal_camera"
+"roll" "180"
+}
+{
+"target" "portal1"
+"origin" "5695.199707 -56.000000 5017.600098"
+"classname" "misc_portal_surface"
+"angle" "270"
+}
+{
+"model" "*9"
+"target" "t1"
+"classname" "trigger_push"
+}
+{
+"classname" "target_position"
+"origin" "3494.399902 -56.000000 1254.400024"
+"targetname" "t1"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "100.799995 -44.799999 33.599998"
+"wait" "3"
+"count" "200"
+}
+{
+"classname" "item_enviro"
+"origin" "145.599991 -134.399994 33.599998"
+"wait" "3"
+"count" "999"
+}
+{
+"classname" "item_haste"
+"origin" "134.399994 44.799999 33.599998"
+"wait" "3"
+"count" "999"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-156.800003 -44.799999 44.799999"
+}
+{
+"model" "*10"
+"classname" "trigger_multiple"
+"target" "remove1"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "2441.599854 -56.000000 1310.400024"
+"targetname" "remove1"
+}
+{
+"classname" "item_health_mega"
+"origin" "2497.599854 -44.799999 1108.799927"
+"wait" "3"
+"count" "200"
+}
+{
+"model" "*11"
+"classname" "trigger_push"
+"target" "t2"
+}
+{
+"classname" "target_position"
+"origin" "5364.799805 -56.000000 3528.000000"
+"targetname" "t2"
+}
+{
+"model" "*12"
+"classname" "trigger_teleport"
+"target" "maintele1"
+}
+{
+"angle" "180"
+"classname" "target_teleporter"
+"origin" "-604.799988 179.199997 -28.000000"
+"targetname" "maintele1"
+}
+{
+"model" "*13"
+"classname" "trigger_teleport"
+"target" "tele2"
+}
+{
+"classname" "target_teleporter"
+"origin" "-386.399994 -1254.400024 39.200001"
+"targetname" "tele2"
+}
+{
+"model" "*14"
+"classname" "trigger_teleport"
+"target" "tele3"
+}
+{
+"classname" "target_teleporter"
+"origin" "-364.000000 -1254.400024 39.200001"
+"targetname" "tele3"
+}
+{
+"classname" "item_armor_body"
+"origin" "6003.199707 -11.200000 1108.799927"
+"wait" "3"
+"count" "200"
+}
+{
+"classname" "item_armor_body"
+"origin" "6003.199707 -106.400002 1108.799927"
+"wait" "3"
+"count" "200"
+}
+{
+"classname" "item_health_mega"
+"origin" "6742.399902 179.199997 1131.199951"
+"wait" "2"
+}
+{
+"classname" "item_health_mega"
+"origin" "6742.399902 -302.399994 1702.400024"
+"wait" "2"
+}
+{
+"classname" "item_health_mega"
+"origin" "6742.399902 179.199997 2811.199951"
+"wait" "2"
+}
+{
+"angle" "180"
+"classname" "target_teleporter"
+"origin" "-627.200012 179.199997 -28.000000"
+"targetname" "padstele1"
+}
+{
+"model" "*15"
+"classname" "trigger_multiple"
+"target" "remove3"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "-4071.199951 -3522.399902 918.399963"
+"targetname" "remove3"
+}
+{
+"classname" "target_init"
+"origin" "-4071.199951 -3522.399902 946.399963"
+"targetname" "remove3"
+}
+{
+"count" "200"
+"classname" "item_health_mega"
+"origin" "-330.399994 -1254.400024 33.599998"
+"wait" "3"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-280.000000 -1254.400024 33.599998"
+"wait" "3"
+"count" "20"
+}
+{
+"classname" "item_armor_combat"
+"origin" "-229.599991 -1254.400024 33.599998"
+"wait" "3"
+}
+{
+"classname" "misc_portal_surface"
+"origin" "-4065.599854 -3634.399902 907.200012"
+"target" "camera2"
+}
+{
+"classname" "misc_portal_camera"
+"origin" "-369.600006 -1254.400024 72.799995"
+"targetname" "camera2"
+"roll" "1"
+}
