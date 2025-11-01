@@ -1,0 +1,107 @@
+{
+"classname" "worldspawn"
+"_blocksize" "1024"
+"_minlight" "15"
+"_lightmapscale" "2"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -2480 24"
+"angle" "90"
+}
+{
+"classname" "item_haste"
+"origin" "-224 224 -464"
+"wait" "1"
+"count" "10"
+"angle" "180"
+}
+{
+"classname" "item_haste"
+"origin" "224 224 -464"
+"wait" "1"
+"count" "10"
+"angle" "180"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "0 -2368 48"
+"count" "1"
+"wait" "-1"
+"angle" "180"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-64 -2368 48"
+"wait" "-1"
+"count" "1"
+"angle" "180"
+}
+{
+"classname" "item_armor_body"
+"origin" "64 -2368 48"
+"count" "200"
+"wait" "-1"
+"angle" "180"
+}
+{
+"classname" "weapon_bfg"
+"origin" "384 -2160 -608"
+"wait" "-1"
+"count" "3"
+"angle" "180"
+}
+{
+"classname" "weapon_bfg"
+"origin" "-384 -2160 -608"
+"wait" "-1"
+"count" "3"
+"angle" "180"
+}
+{
+"classname" "target_startTimer"
+"origin" "0 -8 1024"
+"targetname" "target_startTimer1"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "0 8 1024"
+"targetname" "target_stopTimer1"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "320 2176 -480"
+"count" "20"
+"wait" "-1"
+"angle" "180"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-320 2176 -480"
+"count" "20"
+"wait" "-1"
+"angle" "180"
+}
+{
+"classname" "target_position"
+"origin" "64 0 720"
+"targetname" "target_position1"
+}
+{
+"classname" "target_position"
+"origin" "-64 0 720"
+"targetname" "target_position2"
+"angle" "180"
+}
