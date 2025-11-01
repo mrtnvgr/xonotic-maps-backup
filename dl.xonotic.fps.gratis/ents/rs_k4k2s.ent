@@ -1,0 +1,81 @@
+{
+"classname" "worldspawn"
+"_ambient" "10"
+}
+{
+"origin" "192 32 24"
+"classname" "info_player_start"
+}
+{
+"targetname" "t2"
+"spawnflags" "1"
+"classname" "weapon_rocketlauncher"
+"origin" "896 32 64"
+"wait" "-1"
+"count" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "416 32 296"
+"targetname" "t1"
+}
+{
+"target" "t2"
+"count" "10"
+"spawnflags" "1"
+"wait" "-1"
+"origin" "192 32 352"
+"classname" "weapon_plasmagun"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t3"
+"origin" "6488 64 304"
+"classname" "target_stopTimer"
+}
+{
+"spawnflags" "1"
+"wait" "-1"
+"origin" "3584 288 344"
+"classname" "item_health_large"
+}
+{
+"classname" "item_health_large"
+"origin" "3584 -224 344"
+"wait" "-1"
+"spawnflags" "1"
+}
+{
+"classname" "item_health_large"
+"origin" "3680 288 344"
+"wait" "-1"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"wait" "-1"
+"origin" "3488 288 344"
+"classname" "item_health_large"
+}
+{
+"spawnflags" "1"
+"wait" "-1"
+"origin" "3680 -224 344"
+"classname" "item_health_large"
+}
+{
+"classname" "item_health_large"
+"origin" "3488 -224 344"
+"wait" "-1"
+"spawnflags" "1"
+}
