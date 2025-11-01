@@ -1,0 +1,51 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-768 -1184 88"
+"angle" "90"
+}
+{
+"dmg" "400"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "lygis1"
+"model" "*2"
+}
+{
+"classname" "item_enviro"
+"origin" "-728 -1136 80"
+"count" "999"
+"wait" "3"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-816 -1136 80"
+"count" "999"
+"wait" "3"
+}
+{
+"target" "startas"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "startas"
+"origin" "-872 -1104 448"
+"classname" "target_startTimer"
+}
+{
+"target" "finis"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "finis"
+"origin" "-968 12416 448"
+"classname" "target_stopTimer"
+}
