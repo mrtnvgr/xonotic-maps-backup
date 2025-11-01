@@ -1,0 +1,63 @@
+{
+"classname" "worldspawn"
+"ambient" "15"
+"_lightmapscale" ".3"
+"message" "Made By BardoK"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000,000,000,000"
+}
+{
+"classname" "info_player_start"
+"origin" "64 -96 32"
+"angle" "90"
+}
+{
+"classname" "target_startTimer"
+"origin" "64 -24 160"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "896 1072 160"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "896 2024 160"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1728 3392 160"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1728 5632 160"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*5"
+}
