@@ -1,0 +1,39 @@
+{
+"classname" "worldspawn"
+"_celshader" "cel/ink"
+}
+{
+"targetname" "t1"
+"classname" "info_player_deathmatch"
+"origin" "-5488 0 -96"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"dmg" "1000"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t2"
+"origin" "-5360 8 -72"
+"classname" "target_startTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t3"
+"origin" "568 16 -40"
+"classname" "target_stopTimer"
+}
