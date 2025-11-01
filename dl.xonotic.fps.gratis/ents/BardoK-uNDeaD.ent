@@ -1,0 +1,76 @@
+{
+"music" "music\sonic4"
+"classname" "worldspawn"
+"ambient" "15"
+"_lightmapscale" ".05"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000,000,000,000,000"
+"message" "Made By BardoK"
+}
+{
+"classname" "info_player_start"
+"origin" "-1376 1632 32"
+"angle" "360"
+}
+{
+"targetname" "t1"
+"origin" "-1136 1632 128"
+"classname" "target_startTimer"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2016 1888 224"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"targetname" "t3"
+"angle" "90"
+"origin" "-1280 2144 -168"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t3"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"message" "Cum inside ;)"
+"origin" "5056 4664 304"
+"classname" "target_print"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t5"
+"origin" "2656 3872 32"
+"classname" "target_checkpoint"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"classname" "target_stopTimer"
+"origin" "6432 4256 32"
+"targetname" "t6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*6"
+}
