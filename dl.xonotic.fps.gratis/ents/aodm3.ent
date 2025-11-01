@@ -1,0 +1,651 @@
+{
+"author" "Agent Orange"
+"message" "The Art of Kanly"
+"music" "music/sonic3.wav"
+"classname" "worldspawn"
+"angle" "180"
+}
+{
+"classname" "light"
+"light" "25"
+"origin" "216 1528 576"
+}
+{
+"classname" "light"
+"_color" "0.000000 1.000000 0.000000"
+"light" "15"
+"origin" "288 1560 608"
+}
+{
+"origin" "256 832 256"
+"light" "40"
+"classname" "light"
+}
+{
+"model" "*1"
+"origin" "-836 528 1008"
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "360"
+"speed" "1000"
+"wait" ".5"
+"lip" "200"
+"targetname" "SPLAT"
+"dmg" "250"
+"model2" "/models/mapobjects/jets/jets01.md3"
+}
+{
+"origin" "128 1424 616"
+"targetname" "spot3"
+"classname" "target_position"
+}
+{
+"origin" "304 1408 648"
+"targetname" "spot2"
+"classname" "target_position"
+}
+{
+"origin" "216 1472 576"
+"targetname" "spot1"
+"classname" "target_position"
+}
+{
+"origin" "216 1504 624"
+"target" "spot1"
+"light" "100"
+"classname" "light"
+}
+{
+"classname" "ammo_slugs"
+"origin" "-832 512 48"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-192 512 48"
+}
+{
+"classname" "item_invis"
+"team" "PowerUp"
+"wait" "240"
+"random" "60"
+"spawnflags" "1"
+"origin" "-512 512 1440"
+}
+{
+"classname" "item_quad"
+"wait" "150"
+"random" "30"
+"spawnflags" "1"
+"team" "PowerUp"
+"origin" "-512 512 1440"
+}
+{
+"classname" "target_position"
+"targetname" "OverView"
+"origin" "-512 -192 768"
+}
+{
+"classname" "info_player_intermission"
+"target" "OverView"
+"origin" "-512 -384 816"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan4.wav"
+"spawnflags" "1"
+"origin" "-1280 1568 320"
+}
+{
+"classname" "target_speaker"
+"noise" "/sound/world/xforce1.wav"
+"spawnflags" "1"
+"origin" "-568 512 128"
+}
+{
+"classname" "misc_teleporter_dest"
+"angle" "300"
+"targetname" "TeleportOne"
+"origin" "240 864 160"
+}
+{
+"classname" "misc_teleporter_dest"
+"targetname" "TeleportOne"
+"angle" "180"
+"origin" "384 1216 544"
+}
+{
+"targetname" "Scream"
+"classname" "target_speaker"
+"spawnflags" "12"
+"noise" "*falling1.wav"
+"origin" "-1400 -544 -520"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "Scream"
+}
+{
+"classname" "light"
+"origin" "224 1208 1152"
+}
+{
+"classname" "light"
+"light" "50"
+"origin" "-1248 1552 320"
+}
+{
+"classname" "weapon_railgun"
+"origin" "-1248 1568 280"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "224 1520 288"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "135"
+"origin" "-256 256 32"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "45"
+"origin" "-1376 1120 536"
+}
+{
+"classname" "item_armor_combat"
+"origin" "-512 1344 152"
+}
+{
+"classname" "ammo_cells"
+"origin" "-512 192 24"
+}
+{
+"classname" "ammo_bullets"
+"origin" "-1136 1408 280"
+}
+{
+"classname" "ammo_cells"
+"origin" "-1072 1408 280"
+}
+{
+"classname" "item_health"
+"origin" "48 1408 280"
+}
+{
+"classname" "item_armor_shard"
+"origin" "288 1552 536"
+}
+{
+"classname" "item_health_small"
+"origin" "224 1552 536"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "224 1136 536"
+}
+{
+"classname" "item_health_large"
+"origin" "-512 1248 536"
+}
+{
+"classname" "ammo_slugs"
+"origin" "-1216 1072 528"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-1280 1072 528"
+}
+{
+"classname" "weapon_railgun"
+"origin" "320 -128 216"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-1344 -128 216"
+}
+{
+"model" "*3"
+"angle" "270"
+"team" "CatwalkRight"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"angle" "90"
+"team" "CatwalkRight"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"classname" "func_door"
+"angle" "90"
+"team" "CatwalkLeft"
+}
+{
+"model" "*6"
+"classname" "func_door"
+"angle" "270"
+"team" "CatwalkLeft"
+}
+{
+"origin" "-1248 1408 576"
+"targetname" "BounceTowerLeft"
+"classname" "target_position"
+}
+{
+"model" "*7"
+"target" "BounceTowerLeft"
+"classname" "trigger_push"
+}
+{
+"model" "*8"
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "12"
+}
+{
+"origin" "-1344 -256 384"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-512 400 1064"
+"spawnflags" "1"
+"target" "SPLAT"
+"random" "2"
+"wait" "3"
+"classname" "func_timer"
+}
+{
+"model" "*9"
+"classname" "trigger_multiple"
+"target" "GiveStuff"
+"wait" ".75"
+}
+{
+"classname" "item_health_small"
+"wait" "0"
+"targetname" "Restoration"
+"origin" "-480 480 -80"
+}
+{
+"classname" "item_armor_shard"
+"targetname" "Restoration"
+"wait" "0"
+"origin" "-544 544 -80"
+}
+{
+"classname" "target_give"
+"target" "Restoration"
+"targetname" "GiveStuff"
+"origin" "-736 488 440"
+}
+{
+"classname" "misc_teleporter_dest"
+"targetname" "TeleportOne"
+"angle" "90"
+"origin" "-512 104 32"
+}
+{
+"model" "*10"
+"classname" "trigger_teleport"
+"target" "TeleportOne"
+}
+{
+"classname" "target_position"
+"targetname" "BounceTwo"
+"origin" "-512 512 1584"
+}
+{
+"model" "*11"
+"classname" "trigger_push"
+"target" "BounceTwo"
+}
+{
+"classname" "target_position"
+"targetname" "BounceOne"
+"origin" "-512 256 504"
+}
+{
+"model" "*12"
+"classname" "trigger_push"
+"target" "BounceOne"
+}
+{
+"model" "*13"
+"classname" "trigger_push"
+"target" "RampRight"
+}
+{
+"model" "*14"
+"classname" "trigger_push"
+"target" "RampLeft"
+}
+{
+"classname" "target_position"
+"origin" "-304 -128 440"
+"targetname" "RampRight"
+}
+{
+"origin" "-720 -128 440"
+"classname" "target_position"
+"targetname" "RampLeft"
+}
+{
+"origin" "-1120 1120 160"
+"angle" "135"
+"targetname" "TeleportOne"
+"classname" "misc_teleporter_dest"
+}
+{
+"classname" "misc_model"
+"model" "/models/mapobjects/kmlamp1.md3"
+"origin" "-992 608 32"
+}
+{
+"origin" "-992 416 32"
+"model" "/models/mapobjects/kmlamp1.md3"
+"classname" "misc_model"
+}
+{
+"origin" "-32 608 32"
+"model" "/models/mapobjects/kmlamp1.md3"
+"classname" "misc_model"
+}
+{
+"classname" "misc_model"
+"model" "/models/mapobjects/kmlamp1.md3"
+"origin" "-32 416 32"
+}
+{
+"classname" "misc_model"
+"model" "/models/mapobjects/kmlamp1.md3"
+"origin" "-416 992 32"
+}
+{
+"angle" "360"
+"origin" "-608 992 32"
+"model" "/models/mapobjects/kmlamp1.md3"
+"classname" "misc_model"
+}
+{
+"angle" "90"
+"classname" "misc_model"
+"model" "/models/mapobjects/lamps/bot_lamp2.md3"
+"origin" "-1344 -360 520"
+}
+{
+"origin" "320 -360 520"
+"model" "/models/mapobjects/lamps/bot_lamp2.md3"
+"classname" "misc_model"
+"angle" "90"
+}
+{
+"origin" "-512 512 1344"
+"_color" "0.103226 0.000000 1.000000"
+"light" "200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "320 -256 384"
+}
+{
+"model" "*15"
+"spawnflags" "12"
+"dmg" "1000"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-1256 1600 752"
+"model" "/models/mapobjects/spotlamp/spotlamp.md3"
+"classname" "misc_model"
+"angle" "270"
+}
+{
+"angle" "270"
+"classname" "misc_model"
+"model" "/models/mapobjects/spotlamp/spotlamp.md3"
+"origin" "216 1600 752"
+}
+{
+"origin" "160 1552 536"
+"classname" "item_armor_shard"
+}
+{
+"origin" "112 1408 280"
+"classname" "item_health"
+}
+{
+"classname" "target_position"
+"targetname" "BounceTowerRight"
+"origin" "224 1408 576"
+}
+{
+"model" "*16"
+"classname" "trigger_push"
+"target" "BounceTowerRight"
+}
+{
+"origin" "352 1120 536"
+"angle" "135"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-768 256 32"
+"angle" "45"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "224 1552 320"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-1248 1208 1152"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-512 1208 1152"
+}
+{
+"origin" "-512 1360 160"
+"targetname" "TeleportOne"
+"angle" "270"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "192 1568 320"
+"spawnflags" "1"
+"noise" "sound/world/fan4.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "-512 512 1440"
+"team" "PowerUp"
+"spawnflags" "1"
+"random" "30"
+"wait" "150"
+"classname" "item_quad"
+}
+{
+"classname" "item_quad"
+"wait" "150"
+"random" "30"
+"spawnflags" "1"
+"team" "PowerUp"
+"origin" "-512 512 1440"
+}
+{
+"origin" "-1216 1568 320"
+"spawnflags" "1"
+"noise" "sound/world/fan4.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan4.wav"
+"spawnflags" "1"
+"origin" "256 1568 320"
+}
+{
+"origin" "-512 512 128"
+"_color" "0.103226 0.000000 1.000000"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "-456 512 128"
+"spawnflags" "1"
+"noise" "/sound/world/xforce1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "light"
+"light" "100"
+"target" "spot2"
+"origin" "288 1456 672"
+}
+{
+"origin" "144 1472 656"
+"target" "spot3"
+"light" "100"
+"classname" "light"
+}
+{
+"classname" "target_position"
+"targetname" "t1"
+"origin" "-1344 1424 616"
+}
+{
+"classname" "target_position"
+"targetname" "t2"
+"origin" "-1168 1408 648"
+}
+{
+"classname" "target_position"
+"targetname" "t3"
+"origin" "-1256 1472 576"
+}
+{
+"classname" "light"
+"light" "100"
+"target" "t3"
+"origin" "-1256 1504 624"
+}
+{
+"origin" "-1184 1456 672"
+"target" "t2"
+"light" "100"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "100"
+"target" "t1"
+"origin" "-1328 1472 656"
+}
+{
+"classname" "light"
+"light" "40"
+"origin" "320 512 256"
+}
+{
+"origin" "320 192 320"
+"light" "40"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "40"
+"origin" "-1280 832 256"
+}
+{
+"origin" "-1344 512 256"
+"light" "40"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "40"
+"origin" "-1344 192 320"
+}
+{
+"origin" "-512 1352 256"
+"light" "40"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "40"
+"origin" "-832 1280 256"
+}
+{
+"origin" "-192 1280 256"
+"light" "40"
+"classname" "light"
+}
+{
+"origin" "160 1560 608"
+"light" "15"
+"_color" "0.000000 1.000000 0.000000"
+"classname" "light"
+}
+{
+"origin" "288 1072 608"
+"light" "10"
+"_color" "0.000000 1.000000 0.000000"
+"classname" "light"
+}
+{
+"classname" "light"
+"_color" "0.000000 1.000000 0.000000"
+"light" "10"
+"origin" "160 1072 608"
+}
+{
+"origin" "-1184 1560 608"
+"light" "15"
+"_color" "0.000000 1.000000 0.000000"
+"classname" "light"
+}
+{
+"classname" "light"
+"_color" "0.000000 1.000000 0.000000"
+"light" "15"
+"origin" "-1312 1560 608"
+}
+{
+"classname" "light"
+"_color" "0.000000 1.000000 0.000000"
+"light" "10"
+"origin" "-1184 1072 608"
+}
+{
+"origin" "-1312 1072 608"
+"light" "10"
+"_color" "0.000000 1.000000 0.000000"
+"classname" "light"
+}
+{
+"model" "*17"
+"origin" "-188 496 1008"
+"model2" "/models/mapobjects/jets/jets01.md3"
+"dmg" "250"
+"targetname" "SPLAT"
+"lip" "200"
+"wait" ".5"
+"speed" "1000"
+"angle" "180"
+"spawnflags" "4"
+"classname" "func_door"
+}
+{
+"origin" "-1256 1528 576"
+"light" "25"
+"classname" "light"
+}
