@@ -1,0 +1,148 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "-144 -96 32"
+"classname" "info_player_deathmatch"
+}
+{
+"spawnflags" "4"
+"dmg" "9999"
+"classname" "trigger_hurt"
+"model" "*1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"spawnflags" "4"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"spawnflags" "4"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*4"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2144 2848 32"
+"angle" "90"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*5"
+}
+{
+"classname" "target_startTimer"
+"origin" "192 -96 192"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2144 6048 192"
+"targetname" "t3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "4192 5536 32"
+"targetname" "t4"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*8"
+}
+{
+"target" "t4"
+"classname" "trigger_teleport"
+"model" "*9"
+}
+{
+"target" "t4"
+"classname" "trigger_teleport"
+"model" "*10"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "t5"
+"origin" "6208 8288 192"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_teleport"
+"model" "*12"
+}
+{
+"targetname" "t6"
+"angle" "180"
+"origin" "6048 8288 32"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t6"
+"classname" "trigger_teleport"
+"model" "*13"
+}
+{
+"target" "t6"
+"classname" "trigger_teleport"
+"model" "*14"
+}
+{
+"target" "t6"
+"classname" "trigger_teleport"
+"model" "*15"
+}
+{
+"target" "t7"
+"classname" "trigger_teleport"
+"model" "*16"
+}
+{
+"targetname" "t7"
+"angle" "270"
+"origin" "2208 8992 32"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t7"
+"classname" "trigger_teleport"
+"model" "*17"
+}
+{
+"target" "t7"
+"classname" "trigger_teleport"
+"model" "*18"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*19"
+}
+{
+"targetname" "t8"
+"origin" "-960 7712 192"
+"classname" "target_stopTimer"
+}
