@@ -1,0 +1,414 @@
+{
+"_q3map2_version" "2.5.17n-git-11186bf"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -deluxe -fast -dirty -patchshadows -lightmapsize 512 -samples 4"
+"_lightmapscale" "0.25"
+"_blocksize" "0 0 0"
+"_minlight" "15"
+"classname" "worldspawn"
+}
+{
+"angle" "135.000000"
+"origin" "-608.000000 -1312.000000 32.000000"
+"classname" "info_player_team1"
+}
+{
+"targetname" "sl_1"
+"origin" "384.000000 -352.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_2"
+"origin" "512.000000 -512.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_3"
+"origin" "512.000000 -736.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "fl_1"
+"origin" "272.000000 -936.000000 16.000000"
+"classname" "target_position"
+}
+{
+"targetname" "fl_2"
+"origin" "272.000000 -1112.000000 16.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_4"
+"origin" "464.000000 -976.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "fl_3"
+"origin" "-272.000000 -936.000000 16.000000"
+"classname" "target_position"
+}
+{
+"targetname" "fl_4"
+"origin" "-272.000000 -1112.000000 16.000000"
+"classname" "target_position"
+}
+{
+"origin" "0.000000 0.000000 128.000000"
+"classname" "nexball_football"
+}
+{
+"targetname" "sl_5"
+"origin" "-704.000000 -1376.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_6"
+"origin" "-672.000000 -1120.000000 160.000000"
+"classname" "target_position"
+}
+{
+"angle" "45"
+"origin" "-832.000000 -1344.000000 32.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "-784.000000 -1456.000000 32.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "135"
+"origin" "-640.000000 -1440.000000 32.000000"
+"classname" "info_player_team1"
+}
+{
+"model" "*1"
+"mdl" "sparks"
+"classname" "func_pointparticles"
+}
+{
+"targetname" "sl_7"
+"origin" "-448.000000 -1024.000000 160.000000"
+"classname" "target_position"
+}
+{
+"atten" "1.5"
+"noise" "sound/ambient/sparks.ogg"
+"origin" "-696.000000 -1304.000000 152.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "1.5"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "0.000000 0.000000 104.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "dl_1"
+"origin" "-704.000000 -1528.000000 96.000000"
+"classname" "target_position"
+}
+{
+"targetname" "dl_2"
+"origin" "-328.000000 -656.000000 96.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_8"
+"origin" "-512.000000 -832.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_9"
+"origin" "-512.000000 -576.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "rfan_blades"
+"modelscale" "0.45"
+"angles" "-90.000000 0.000000 -90.000000"
+"model" "models/fans/bigfan01.md3"
+"origin" "0.000000 -868.000000 79.999985"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*2"
+"origin" "0.000000 -852.000000 80.000000"
+"targetname" "rfan_rotator"
+"speed" "360"
+"spawnflags" "8"
+"classname" "func_rotating"
+}
+{
+"target" "rfan_blades"
+"killtarget" "rfan_rotator"
+"origin" "20.000000 -840.000000 80.000000"
+"classname" "misc_follow"
+}
+{
+"targetname" "sl_10"
+"origin" "-512.000000 -392.000000 160.000000"
+"classname" "target_position"
+}
+{
+"model" "*3"
+"target" "rtele"
+"classname" "trigger_teleport"
+}
+{
+"model" "*4"
+"mdl" "pipe_smoke"
+"velocity" "2 -2 -0.5"
+"classname" "func_pointparticles"
+}
+{
+"model" "*5"
+"velocity" "2 2 -0.5"
+"mdl" "pipe_smoke"
+"classname" "func_pointparticles"
+}
+{
+"targetname" "rtele"
+"origin" "336.000000 656.000000 32.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"atten" "1.5"
+"noise" "sound/ambient/transformer.ogg"
+"origin" "680.000000 396.000000 80.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "-672.000000 -1024.000000 160.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "-704.000000 -1528.000000 120.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "-328.000000 -656.000000 120.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "512.000000 -352.000000 160.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "-512.000000 -704.000000 160.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "1.5"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "0.000000 1176.000000 32.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*6"
+"classname" "nexball_bluegoal"
+}
+{
+"angle" "-45.000008"
+"origin" "560.000000 1312.000000 32.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-90.000000"
+"origin" "728.000000 1464.000000 32.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-135.000000"
+"origin" "816.000000 1368.000000 32.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-45.000008"
+"origin" "592.000000 1440.000000 32.000000"
+"classname" "info_player_team2"
+}
+{
+"model" "*7"
+"velocity" "-2 -2 -0.5"
+"mdl" "pipe_smoke"
+"classname" "func_pointparticles"
+}
+{
+"model" "*8"
+"mdl" "pipe_smoke"
+"velocity" "-2 2 -0.5"
+"classname" "func_pointparticles"
+}
+{
+"atten" "1.5"
+"noise" "sound/ambient/transformer.ogg"
+"origin" "-680.000000 -396.000000 80.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*9"
+"target" "btele"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "btele"
+"angle" "-179.999985"
+"origin" "-336.000000 -656.000000 32.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "dl_3"
+"origin" "328.000000 656.000000 96.000000"
+"classname" "target_position"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "328.000000 656.000000 120.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "dl_4"
+"origin" "704.000000 1528.000000 96.000000"
+"classname" "target_position"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "704.000000 1528.000000 120.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "sl_12"
+"origin" "512.000000 832.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_13"
+"origin" "512.000000 576.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_11"
+"origin" "512.000000 392.000000 160.000000"
+"classname" "target_position"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "512.000000 704.000000 160.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "sl_14"
+"origin" "704.000000 1376.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_15"
+"origin" "672.000000 1120.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_16"
+"origin" "448.000000 1024.000000 160.000000"
+"classname" "target_position"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "672.000000 1024.000000 160.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "fl_5"
+"origin" "272.000000 1112.000000 16.000000"
+"classname" "target_position"
+}
+{
+"targetname" "fl_6"
+"origin" "272.000000 936.000000 16.000000"
+"classname" "target_position"
+}
+{
+"targetname" "fl_7"
+"origin" "-272.000000 1112.000000 16.000000"
+"classname" "target_position"
+}
+{
+"targetname" "fl_8"
+"origin" "-272.000000 936.000000 16.000000"
+"classname" "target_position"
+}
+{
+"targetname" "bfan_blades"
+"modelscale" "0.450000"
+"angles" "-90.000000 0.000000 90.000000"
+"model" "models/fans/bigfan01.md3"
+"origin" "-0.000011 867.999939 79.999924"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*10"
+"origin" "0.000000 852.000000 80.000000"
+"targetname" "bfan_rotator"
+"speed" "360"
+"spawnflags" "8"
+"classname" "func_rotating"
+}
+{
+"angle" "-179.999985"
+"target" "bfan_blades"
+"killtarget" "bfan_rotator"
+"origin" "-20.000000 840.000000 80.000000"
+"classname" "misc_follow"
+}
+{
+"targetname" "sl_17"
+"origin" "-384.000000 352.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_18"
+"origin" "-512.000000 512.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_19"
+"origin" "-512.000000 736.000000 160.000000"
+"classname" "target_position"
+}
+{
+"targetname" "sl_20"
+"origin" "-464.000000 976.000000 160.000000"
+"classname" "target_position"
+}
+{
+"noise" "sound/machines/Lights(Stereo).ogg"
+"origin" "-512.000000 352.000000 160.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*11"
+"velocity" "1 0.75 0.1"
+"impulse" "16"
+"mdl" "pipe_smoke"
+"classname" "func_pointparticles"
+}
+{
+"atten" "1.5"
+"noise" "sound/machines/steam_loop.ogg"
+"origin" "-640.000000 880.000000 80.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "1.5"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "0.000000 -1176.000000 32.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*12"
+"classname" "nexball_redgoal"
+}
