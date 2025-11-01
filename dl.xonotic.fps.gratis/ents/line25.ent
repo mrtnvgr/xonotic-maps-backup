@@ -1,0 +1,59 @@
+{
+"classname" "worldspawn"
+"wad" "\sierra\half-life\valve\halflife.wad"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill1"
+"model" "*1"
+}
+{
+"classname" "target_kill"
+"origin" "-5 193 418"
+"targetname" "target_kill1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4048 96 476"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "-3936 135 608"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "4968 160 576"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "81 202 600"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill1"
+"model" "*5"
+}
+{
+"classname" "info_player_intermission"
+"origin" "5040 88 720"
+"angle" "180"
+}
