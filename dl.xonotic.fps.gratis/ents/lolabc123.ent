@@ -1,0 +1,115 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta -noob; -vis -saveprt; -light -fast -scale 1 -bounce 3 - fastbounce -bouncescale 1 -bouncegrid -dirty -dirtdepth 128 -dirtscale 0.1 -samples 3 -cpma -patchshadows -shade"
+"ambient" "15"
+"classname" "worldspawn"
+}
+{
+"origin" "42 24 8"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"target" "stoptimer"
+"classname" "trigger_multiple"
+}
+{
+"origin" "24295.000000 138.000000 210.000000"
+"targetname" "stoptimer"
+"classname" "target_stopTimer"
+}
+{
+"model" "*2"
+"target" "cp3"
+"classname" "trigger_multiple"
+}
+{
+"origin" "22485 52 -835"
+"targetname" "cp3"
+"classname" "target_checkpoint"
+}
+{
+"model" "*3"
+"target" "cp2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "14716 43 -649"
+"targetname" "cp2"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "cp1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "7274 337 -18"
+"targetname" "cp1"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"wait" "-1"
+"target" "starttimer"
+"classname" "trigger_multiple"
+}
+{
+"origin" "637.000000 53.000000 43.000000"
+"targetname" "starttimer"
+"name" "Run"
+"classname" "target_startTimer"
+}
+{
+"origin" "40 144 8"
+"targetname" "teledest"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*6"
+"target" "teledest"
+"classname" "trigger_teleport"
+}
+{
+"model" "*7"
+"target" "teledest"
+"classname" "trigger_teleport"
+}
+{
+"model" "*8"
+"target" "teledest"
+"classname" "trigger_teleport"
+}
+{
+"target" "stoptimer"
+"wait" "60"
+"targetname" "starttimer"
+"origin" "768.000000 64.000000 64.000000"
+"classname" "target_delay"
+}
+{
+"model" "*9"
+"target" "target_score1"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_score1"
+"count" "1"
+"origin" "128.000000 64.000000 256.000000"
+"classname" "target_score"
+}
+{
+"targetname" "starttimer"
+"count" "-100000"
+"origin" "704.000000 64.000000 64.000000"
+"classname" "target_score"
+}
+{
+"target" "starttimer"
+"targetname" "target_score1"
+"frags" "10"
+"spawnflags" "12"
+"origin" "256.000000 0.000000 256.000000"
+"classname" "target_fragsFilter"
+}
