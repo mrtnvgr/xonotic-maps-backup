@@ -1,0 +1,79 @@
+{
+"message" "Angle Pain"
+"_minlight" "10"
+"_color" "1 1 1"
+"classname" "worldspawn"
+}
+{
+"targetname" "t1"
+"origin" "1152 3824 1184"
+"classname" "target_stopTimer"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_init"
+"origin" "1152 5216 384"
+"targetname" "t3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1152 5184 256"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*2"
+}
+{
+"classname" "target_init"
+"origin" "1184 4320 32"
+"targetname" "t2"
+}
+{
+"classname" "target_startTimer"
+"origin" "1184 4336 -64"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*3"
+}
+{
+"origin" "832 4288 -104"
+"classname" "info_player_deathmatch"
+"angles" "133.7 66.6 -66.6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12439_1"
+"model" "*4"
+}
+{
+"classname" "target_speaker"
+"targetname" "t12439_1"
+"origin" "768.000000 4480.000000 -240.000000"
+"spawnflags" "8"
+"noise" "*falling1.wav"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12439_2"
+"model" "*5"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "t12439_2"
+"origin" "768.000000 4480.000000 -320.000000"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"spawnflags" "12"
+"model" "*6"
+}
