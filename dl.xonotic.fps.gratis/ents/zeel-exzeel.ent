@@ -1,0 +1,95 @@
+{
+"gridsize" "80 64 128"
+"_q3map2_version" "2.5.17n-git-2b06fe2"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -super 2 -filter -bounce 8"
+"classname" "worldspawn"
+}
+{
+"_light;light" "12000"
+"target" "target_give1"
+"origin" "-2560.000000 -1920.000000 3392.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"_light;light" "12000"
+"target" "item_haste1"
+"targetname" "target_give1"
+"origin" "-2432.000000 -1920.000000 3392.000000"
+"classname" "target_give"
+}
+{
+"_light;light" "12000"
+"count" "999"
+"targetname" "item_haste1"
+"origin" "-2432.000000 -1984.000000 3392.000000"
+"classname" "item_haste"
+}
+{
+"model" "*1"
+"target" "START0"
+"classname" "trigger_multiple"
+}
+{
+"_light;light" "12000"
+"angle" "-90.000000"
+"targetname" "START0"
+"origin" "-2232.000000 -1928.000000 3376.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "END1"
+"classname" "trigger_multiple"
+}
+{
+"radius" "128"
+"_light;light" "12000"
+"angle" "90.000008"
+"targetname" "END1"
+"origin" "4336.000000 9944.000000 552.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "CHECK0"
+"classname" "trigger_multiple"
+}
+{
+"radius" "128"
+"_light;light" "12000"
+"angles" "0.000010 0.000016 0.000000"
+"targetname" "CHECK0"
+"origin" "2000.000000 -432.000000 4136.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "CHECK1"
+"classname" "trigger_multiple"
+}
+{
+"radius" "128"
+"_light;light" "12000"
+"angles" "0.000010 0.000016 0.000000"
+"targetname" "CHECK1"
+"origin" "7888.000000 -1584.000000 3112.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "CHECK2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"target" "CHECK3"
+"classname" "trigger_multiple"
+}
+{
+"radius" "128"
+"_light;light" "12000"
+"angles" "-0.000000 -90.000000 0.000010"
+"targetname" "CHECK3"
+"origin" "4496.000000 3888.000000 2600.000000"
+"classname" "target_checkpoint"
+}
