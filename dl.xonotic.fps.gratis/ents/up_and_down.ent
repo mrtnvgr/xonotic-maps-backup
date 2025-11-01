@@ -1,0 +1,407 @@
+{
+"gridsize" "80 64 128"
+"_q3map2_version" "2.5.17n-git-aa9e315"
+"_q3map2_cmdline" "-meta -v -maxarea -samplesize 8 -mv 1000000 -mi 6000000; -vis -saveprt; -light -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill"
+"_blocksize" "2048 2048 2048"
+"_description" "Race map"
+"message" "Up and down"
+"author" "forseti"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "tele2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "tele2"
+"angle" "90.000015"
+"origin" "-64.000000 -192.000000 1760.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*2"
+"speed" "300"
+"height" "0"
+"target" "push1"
+"classname" "trigger_push"
+}
+{
+"targetname" "push1"
+"origin" "-2176.000000 -768.000000 480.000000"
+"classname" "target_position"
+}
+{
+"model" "*3"
+"strength" "50"
+"classname" "trigger_impulse"
+}
+{
+"model" "*4"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*5"
+"strength" "70"
+"classname" "trigger_impulse"
+}
+{
+"model" "*6"
+"strength" "70"
+"classname" "trigger_impulse"
+}
+{
+"model" "*7"
+"targetname" "one"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*8"
+"targetname" "two"
+"cnt" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*9"
+"targetname" "three"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*10"
+"targetname" "four"
+"cnt" "3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "one"
+"origin" "-17024.000000 -576.000000 8192.000000"
+"classname" "info_player_race"
+}
+{
+"target" "two"
+"origin" "-2688.000000 -576.000000 -128.000000"
+"classname" "info_player_race"
+}
+{
+"angle" "-90.000000"
+"target" "three"
+"origin" "-128.000000 -576.000000 1792.000000"
+"classname" "info_player_race"
+}
+{
+"angle" "-179.999985"
+"target" "four"
+"origin" "-5952.000000 -384.000000 2176.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*11"
+"speed" "700"
+"height" "0"
+"target" "push2"
+"classname" "trigger_push"
+}
+{
+"targetname" "push2"
+"origin" "-6496.000000 -128.000000 10912.000000"
+"classname" "target_position"
+}
+{
+"model" "*12"
+"speed" "700"
+"height" "0"
+"target" "push3"
+"classname" "trigger_push"
+}
+{
+"targetname" "push3"
+"origin" "-6496.000000 -384.000000 10912.000000"
+"classname" "target_position"
+}
+{
+"model" "*13"
+"speed" "700"
+"height" "0"
+"target" "push4"
+"classname" "trigger_push"
+}
+{
+"targetname" "push4"
+"origin" "-6496.000000 -640.000000 10912.000000"
+"classname" "target_position"
+}
+{
+"model" "*14"
+"speed" "700"
+"height" "0"
+"target" "push5"
+"classname" "trigger_push"
+}
+{
+"targetname" "push5"
+"origin" "-6496.000000 -896.000000 10912.000000"
+"classname" "target_position"
+}
+{
+"model" "*15"
+"spawnflags" "8"
+"targetname" "five"
+"cnt" "4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "-179.999985"
+"target" "five"
+"origin" "-13888.000000 -384.000000 6784.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*16"
+"strength" "3"
+"classname" "trigger_impulse"
+}
+{
+"model" "*17"
+"strength" "3"
+"classname" "trigger_impulse"
+}
+{
+"model" "*18"
+"strength" "3"
+"classname" "trigger_impulse"
+}
+{
+"model" "*19"
+"strength" "3"
+"classname" "trigger_impulse"
+}
+{
+"model" "*20"
+"strength" "3"
+"classname" "trigger_impulse"
+}
+{
+"model" "*21"
+"speed" "300"
+"height" "0"
+"target" "push6"
+"classname" "trigger_push"
+}
+{
+"targetname" "push6"
+"origin" "-2176.000000 -256.000000 480.000000"
+"classname" "target_position"
+}
+{
+"model" "*22"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*23"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*24"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*25"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*26"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*27"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*28"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*29"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*30"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*31"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*32"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*33"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*34"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*35"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*36"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*37"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*38"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*39"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*40"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*41"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*42"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*43"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*44"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*45"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*46"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*47"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*48"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*49"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*50"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*51"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*52"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*53"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*54"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*55"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*56"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*57"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*58"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*59"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*60"
+"strength" "150"
+"classname" "trigger_impulse"
+}
+{
+"model" "*61"
+"strength" "0.05"
+"classname" "trigger_impulse"
+}
+{
+"model" "*62"
+"strength" "0.2"
+"classname" "trigger_impulse"
+}
+{
+"model" "*63"
+"strength" "0.5"
+"classname" "trigger_impulse"
+}
