@@ -1,0 +1,139 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "768 -960 152"
+"angle" "90"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "768 -896 144"
+"count" "100"
+"wait" "0"
+}
+{
+"classname" "item_quad"
+"origin" "768 -896 144"
+"count" "60"
+"wait" "0"
+}
+{
+"classname" "item_enviro"
+"origin" "768 -896 144"
+"count" "60"
+"wait" "0"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "768 -448 224"
+"angle" "90"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "768 8000 64"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "192 1152 128"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "768 3456 128"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "704 4864 -7936"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "768 4288 -3904"
+"targetname" "target_checkpoint4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "768 5888 -3840"
+"targetname" "target_checkpoint5"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint5"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_teleporter1"
+"model" "*8"
+}
+{
+"classname" "target_teleporter"
+"origin" "920 -85 64"
+"targetname" "target_teleporter1"
+"target" "misc_teleporter_dest1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1088 -256 64"
+"targetname" "misc_teleporter_dest1"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*9"
+}
+{
+"classname" "target_print"
+"origin" "-1408 -256 384"
+"targetname" "target_print1"
+"message" "ur welcom!"
+}
+{
+"classname" "func_door"
+"wait" "30"
+"lip" "0"
+"targetname" "func_door1"
+"angle" "-2"
+"model" "*10"
+}
+{
+"classname" "func_button"
+"health" "101"
+"target" "func_door1"
+"model" "*11"
+}
