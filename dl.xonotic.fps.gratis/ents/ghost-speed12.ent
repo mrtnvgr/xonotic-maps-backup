@@ -1,0 +1,73 @@
+{
+"classname" "worldspawn"
+"_blocksize" "4096"
+"gridsize" "512 512 1024"
+"message" "^1Made By Ghost"
+"_lightmapscale" ".35"
+"ambient" "5"
+}
+{
+"angle" "90"
+"origin" "192 -448 24"
+"classname" "info_player_start"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-3952 256 128"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "240 176 128"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-128 1792 112"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"origin" "-1232 64 112"
+"classname" "target_checkpoint"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2688 256 112"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*5"
+}
+{
+"targetname" "t6"
+"origin" "-1988 540 12"
+"classname" "target_kill"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*6"
+}
