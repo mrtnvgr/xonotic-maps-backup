@@ -1,0 +1,349 @@
+{
+"gridsize" "144 144 192"
+"_q3map2_version" "2.5.17n-svn393"
+"_q3map2_cmdline" "-meta -v -mv 1000000 -mi 6000000; -vis -saveprt -fast; -light -deluxe -fast -samples 3 -dirty -dirtyscale 2"
+"_floodlight" "240 240 255 1024 128"
+"r_ambient" "3"
+"classname" "worldspawn"
+}
+{
+"target" "cp0"
+"origin" "1712.000000 -576.000000 64.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*1"
+"target" "give_health"
+"targetname" "cp0"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*2"
+"targetname" "cp1"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp1"
+"angle" "180.000000"
+"origin" "2144.000000 3584.000000 288.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*3"
+"target" "give_laser"
+"targetname" "cp2"
+"cnt" "3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp2"
+"angle" "180.000000"
+"origin" "672.000000 3584.000000 288.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*4"
+"target" "take_laser"
+"targetname" "cp3"
+"cnt" "4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp3"
+"angle" "180.000000"
+"origin" "64.000000 3584.000000 160.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*5"
+"target" "jump1"
+"classname" "trigger_push"
+}
+{
+"targetname" "jump1"
+"origin" "-3456.000000 3584.000000 896.000000"
+"classname" "target_position"
+}
+{
+"model" "*6"
+"target" "give_mortar"
+"targetname" "cp4"
+"cnt" "5"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp4"
+"angle" "180.000000"
+"origin" "-2432.000000 3584.000000 160.000000"
+"classname" "info_player_race"
+}
+{
+"ammo_rockets" "42"
+"health" "300"
+"targetname" "give_rl"
+"netname" "rocketlauncher"
+"origin" "1728.000000 -256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"armorvalue" "0"
+"health" "150"
+"targetname" "give_health"
+"origin" "1984.000000 -256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"model" "*7"
+"target" "give_hagar"
+"targetname" "cp5"
+"cnt" "6"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp5"
+"angle" "180.000000"
+"origin" "-6464.000000 3584.000000 1184.000000"
+"classname" "info_player_race"
+}
+{
+"armorvalue" "100"
+"health" "400"
+"ammo_rockets" "42"
+"targetname" "give_hagar"
+"netname" "hagar"
+"origin" "1664.000000 -256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"model" "*8"
+"target" "give_rl"
+"targetname" "cp6"
+"cnt" "7"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp6"
+"angle" "-90.000000"
+"origin" "-10368.000000 4928.000000 -1760.000000"
+"classname" "info_player_race"
+}
+{
+"targetname" "give_laser"
+"netname" "laser"
+"origin" "1792.000000 -256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"model" "*9"
+"target" "give_null"
+"targetname" "cp7"
+"cnt" "8"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp7"
+"angle" "180.000000"
+"origin" "-23232.000000 3584.000000 -2528.000000"
+"classname" "info_player_race"
+}
+{
+"health" "150"
+"targetname" "give_mortar"
+"ammo_rockets" "42"
+"netname" "grenadelauncher"
+"origin" "1856.000000 -256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"targetname" "start"
+"angle" "-90.000000"
+"origin" "-22528.000000 832.000000 960.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*10"
+"target" "start"
+"classname" "trigger_teleport"
+}
+{
+"ammo_rockets" "0"
+"targetname" "give_null"
+"origin" "1920.000000 -256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"angle" "90.000000"
+"target" "cp8"
+"origin" "2368.000000 2864.000000 64.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*11"
+"target" "give_health1"
+"targetname" "cp8"
+"cnt" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*12"
+"target" "crylink"
+"targetname" "trigger_race_checkpoint1"
+"cnt" "9"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint1"
+"angle" "-90.000000"
+"origin" "-22528.000000 -6080.000000 -1216.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*13"
+"target" "starttele"
+"classname" "trigger_teleport"
+}
+{
+"model" "*14"
+"target" "starttele"
+"classname" "trigger_teleport"
+}
+{
+"health" "150"
+"targetname" "nullitems"
+"origin" "-22400.000000 -6912.000000 -4992.000000"
+"classname" "target_items"
+}
+{
+"model" "*15"
+"spawnflags" "9"
+"target" "nullitems"
+"targetname" "trigger_race_checkpoint2"
+"cnt" "10"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint2"
+"angle" "-90.000000"
+"origin" "-22528.000000 -6848.000000 -4992.000000"
+"classname" "info_player_race"
+}
+{
+"ammo_cells" "100"
+"health" "250"
+"netname" "crylink"
+"targetname" "crylink"
+"origin" "-22528.000000 -6912.000000 -4992.000000"
+"classname" "target_items"
+}
+{
+"target" "trigger_race_checkpoint2"
+"speed" "-1"
+"targetname" "starttele"
+"origin" "1712.000000 -576.000000 64.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*16"
+"target" "misc_teleporter_dest1"
+"classname" "trigger_teleport"
+}
+{
+"speed" "800"
+"targetname" "misc_teleporter_dest1"
+"angle" "90.000000"
+"origin" "2368.000000 3072.000000 64.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*17"
+"target" "misc_teleporter_dest2"
+"classname" "trigger_teleport"
+}
+{
+"speed" "800"
+"targetname" "misc_teleporter_dest2"
+"angle" "180.000000"
+"origin" "1888.000000 3584.000000 288.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*18"
+"target" "misc_teleporter_dest3"
+"classname" "trigger_teleport"
+}
+{
+"target" "give_laser"
+"speed" "800"
+"targetname" "misc_teleporter_dest3"
+"angle" "180.000000"
+"origin" "160.000000 3584.000000 192.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*19"
+"target" "misc_teleporter_dest4"
+"classname" "trigger_teleport"
+}
+{
+"target" "give_mortar"
+"speed" "400"
+"targetname" "misc_teleporter_dest4"
+"angle" "180.000000"
+"origin" "-2944.000000 3584.000000 224.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*20"
+"target" "misc_teleporter_dest5"
+"classname" "trigger_teleport"
+}
+{
+"target" "give_hagar"
+"speed" "800"
+"targetname" "misc_teleporter_dest5"
+"angle" "180.000000"
+"origin" "-6784.000000 3584.000000 1280.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*21"
+"target" "misc_teleporter_dest6"
+"classname" "trigger_teleport"
+}
+{
+"target" "give_rl"
+"speed" "400"
+"targetname" "misc_teleporter_dest6"
+"angle" "180.000000"
+"origin" "-11264.000000 2720.000000 -2528.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*22"
+"target" "misc_teleporter_dest7"
+"classname" "trigger_teleport"
+}
+{
+"model" "*23"
+"target" "misc_teleporter_dest7"
+"classname" "trigger_teleport"
+}
+{
+"model" "*24"
+"target" "misc_teleporter_dest7"
+"classname" "trigger_teleport"
+}
+{
+"model" "*25"
+"target" "misc_teleporter_dest7"
+"classname" "trigger_teleport"
+}
+{
+"speed" "1000"
+"targetname" "misc_teleporter_dest7"
+"angle" "-90.000000"
+"origin" "-22528.000000 -640.000000 128.000000"
+"classname" "misc_teleporter_dest"
+}
