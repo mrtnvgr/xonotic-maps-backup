@@ -1,0 +1,32 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-216 56 112"
+}
+{
+"model" "*1"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t2"
+"classname" "target_startTimer"
+"origin" "-72 40 136"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "8408 48 88"
+"targetname" "t1"
+}
+{
+"model" "*3"
+"classname" "trigger_hurt"
+"dmg" "999"
+}
