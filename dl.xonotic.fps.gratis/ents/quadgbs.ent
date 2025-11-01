@@ -1,0 +1,54 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "5736.000000 -256.000000 160.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*2"
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "128.000000 64.000000 40.000000"
+"classname" "target_startTimer"
+}
+{
+"origin" "-248.000000 32.000000 56.000000"
+"classname" "info_player_start"
+}
+{
+"wait" "-1"
+"count" "5"
+"origin" "-240.000000 40.000000 128.000000"
+"classname" "weapon_plasmagun"
+}
+{
+"targetname" "item_quad1"
+"count" "9999"
+"origin" "-256.000000 -16.000000 144.000000"
+"classname" "item_quad"
+}
+{
+"model" "*3"
+"wait" "1"
+"target" "target_give1"
+"classname" "trigger_multiple"
+}
+{
+"target" "item_quad1"
+"targetname" "target_give1"
+"origin" "-264.000000 72.000000 112.000000"
+"classname" "target_give"
+}
