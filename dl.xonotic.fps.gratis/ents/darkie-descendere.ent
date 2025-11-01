@@ -1,0 +1,94 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0.000000 0.000000 24.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "trigger_push"
+"target" "target_position1"
+"model" "*1"
+}
+{
+"classname" "target_position"
+"origin" "-896.000000 1152.000000 -256.000000"
+"targetname" "target_position1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-640.000000 192.000000 -896.000000"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*3"
+}
+{
+"classname" "target_startTimer"
+"origin" "-36 -192 -128"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "t1"
+"model" "*4"
+}
+{
+"classname" "func_button"
+"health" "5"
+"angle" "270"
+"target" "t1"
+"model" "*5"
+}
+{
+"target" "t2"
+"angle" "360"
+"health" "5"
+"classname" "func_button"
+"model" "*6"
+}
+{
+"target" "t3"
+"health" "5"
+"angle" "180"
+"classname" "func_button"
+"model" "*7"
+}
+{
+"target" "t4"
+"angle" "90"
+"health" "5"
+"classname" "func_button"
+"model" "*8"
+}
+{
+"targetname" "t2"
+"wait" "99"
+"angle" "-2"
+"classname" "func_door"
+"model" "*9"
+}
+{
+"targetname" "t3"
+"wait" "99"
+"angle" "-2"
+"classname" "func_door"
+"model" "*10"
+}
+{
+"targetname" "t4"
+"angle" "-2"
+"wait" "99"
+"classname" "func_door"
+"model" "*11"
+}
