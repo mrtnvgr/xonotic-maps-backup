@@ -1,0 +1,117 @@
+{
+"classname" "worldspawn"
+"message" "Fly like electr0n"
+}
+{
+"classname" "info_player_start"
+"origin" "288 -2024 1776"
+}
+{
+"classname" "item_enviro"
+"origin" "416 760 1336"
+"count" "50"
+"wait" "5"
+}
+{
+"count" "10"
+"wait" "5"
+"origin" "376 3392 1040"
+"classname" "weapon_rocketlauncher"
+}
+{
+"target" "start"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "start"
+"origin" "416 -1248 816"
+"classname" "target_startTimer"
+}
+{
+"wait" "5"
+"count" "30"
+"spawnflags" "1"
+"origin" "368 5208 152"
+"classname" "item_quad"
+}
+{
+"angle" "180"
+"classname" "item_quad"
+"origin" "464 5208 152"
+"spawnflags" "1"
+"count" "30"
+"wait" "5"
+}
+{
+"angle" "270"
+"wait" "5"
+"count" "30"
+"spawnflags" "1"
+"origin" "416 5208 152"
+"classname" "item_quad"
+}
+{
+"targetname" "deniedkill"
+"origin" "176 56 696"
+"classname" "target_kill"
+}
+{
+"targetname" "killr"
+"origin" "616 3936 1568"
+"classname" "target_kill"
+}
+{
+"target" "killr"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"classname" "misc_teleporter_dest"
+"targetame" "tlptostart"
+}
+{
+"classname" "trigger_multiple"
+"target" "killr"
+"model" "*3"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "416 3424 1040"
+"wait" "5"
+"count" "10"
+}
+{
+"count" "10"
+"wait" "5"
+"origin" "448 3392 1040"
+"classname" "weapon_rocketlauncher"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "416 3352 1040"
+"wait" "5"
+"count" "10"
+}
+{
+"classname" "trigger_multiple"
+"target" "killrss"
+"model" "*4"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "killrss"
+"origin" "296 15456 1840"
+}
+{
+"classname" "trigger_multiple"
+"target" "madzyte"
+"model" "*5"
+}
+{
+"classname" "target_speaker"
+"origin" "248 14864 1840"
+"targetname" "madzyte"
+"spawnflags" "8"
+"noise" "sound/feedback/excellent.wav"
+}
