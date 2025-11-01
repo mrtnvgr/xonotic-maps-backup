@@ -1,0 +1,80 @@
+{
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"origin" "-3672 -200 184"
+"target" "path2"
+"classname" "func_train"
+}
+{
+"origin" "3232 -96 136"
+"targetname" "timer2_stop"
+"spawnflags" "8"
+"noise" "sound/feedback/excellent.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "path_corner"
+"wait" "1"
+"speed" "100"
+"target" "path1"
+"targetname" "path2"
+"origin" "-3728 -208 248"
+}
+{
+"model" "*2"
+"wait" "5"
+"target" "timer2_stop"
+"classname" "trigger_multiple"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3728 -64 -32"
+}
+{
+"model" "*3"
+"target" "timer1_start"
+"classname" "trigger_multiple"
+}
+{
+"classname" "target_startTimer"
+"targetname" "timer1_start"
+"origin" "-3488 -56 136"
+}
+{
+"target" "t26"
+"classname" "target_stopTimer"
+"targetname" "timer2_stop"
+"origin" "3232 -16 136"
+}
+{
+"origin" "-3728 88 248"
+"targetname" "path1"
+"target" "path2"
+"speed" "100"
+"wait" "1"
+"classname" "path_corner"
+}
+{
+"model" "*4"
+"origin" "3328 144 88"
+"classname" "func_train"
+"target" "t1"
+}
+{
+"origin" "3328 -264 128"
+"targetname" "t1"
+"target" "t2"
+"speed" "50"
+"wait" "0"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"wait" "0"
+"speed" "50"
+"target" "t1"
+"targetname" "t2"
+"origin" "3328 144 128"
+}
