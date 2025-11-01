@@ -1,0 +1,58 @@
+{
+"gridsize" "160 144 208"
+"classname" "worldspawn"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"message" "U DISCOVERD THE ^1S^3W^2E^4D^6G^5E ^8C^1H^4A^2M^3B^5R^1!!!11"
+"targetname" "t1"
+"origin" "2144 -760 -368"
+"classname" "target_print"
+}
+{
+"spawnflags" "12"
+"dmg" "999999"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"spawnflags" "8"
+"noise" "sound/world/dumbstep.wav"
+"targetname" "t2"
+"origin" "2168 -632 -312"
+"classname" "target_speaker"
+}
+{
+"origin" "-320 0 24"
+"classname" "info_player_start"
+}
+{
+"wait" "-1"
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t3"
+"origin" "160 104 128"
+"classname" "target_startTimer"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t4"
+"origin" "64 344 328"
+"classname" "target_stopTimer"
+}
