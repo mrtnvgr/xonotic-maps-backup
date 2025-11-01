@@ -1,0 +1,46 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-168 0 56"
+}
+{
+"wait" "-1"
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-88 0 160"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_fragsFilter"
+"origin" "240 -16 160"
+"targetname" "t2"
+"target" "t3"
+"frags" "100000"
+}
+{
+"classname" "target_stopTimer"
+"origin" "176 -16 160"
+"targetname" "t3"
+}
+{
+"classname" "item_health_small"
+"origin" "64 0 16"
+"target" "t8"
+"wait" "1"
+}
+{
+"classname" "target_score"
+"origin" "64 0 80"
+"targetname" "t8"
+}
