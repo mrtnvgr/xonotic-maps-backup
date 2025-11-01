@@ -1,0 +1,145 @@
+{
+"classname" "worldspawn"
+"_ambient" "8"
+"_blocksize" "4096"
+"gridsize" "512 512 1024"
+"disablescore" "1"
+"_q3map2_cmdline" "-meta; -light -fast"
+"_q3map2_version" "2.5.17n-git-b25aa87"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1624 -2112 -448"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"angle" "-90"
+"targetname" "t11"
+"origin" "-1389 -2162 -165"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"angle" "-49.4149"
+"targetname" "t3"
+"origin" "1778.14 -3544.31 300"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"wait" "-1"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_speed1"
+"wait" ".1"
+"model" "*4"
+}
+{
+"classname" "target_speed"
+"origin" "-160 -2224 -368"
+"spawnflags" "64"
+"speed" "500"
+"targetname" "target_speed1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_speed2"
+"wait" ".1"
+"model" "*5"
+}
+{
+"classname" "target_speed"
+"origin" "-2264 24 -1160"
+"spawnflags" "64"
+"speed" "950"
+"targetname" "target_speed2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_speed3"
+"wait" ".1"
+"model" "*6"
+}
+{
+"classname" "target_speed"
+"origin" "-4700 1132 -752"
+"spawnflags" "64"
+"speed" "405"
+"targetname" "target_speed3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill1"
+"model" "*7"
+}
+{
+"classname" "target_score"
+"origin" "2063 -3503 300"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"wait" "-1"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"angle" "-90.3088"
+"targetname" "t1"
+"origin" "-5401.96 1071.36 300"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"wait" "-1"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"angle" "173.522"
+"targetname" "t2"
+"origin" "-8126.39 4348.15 300"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"wait" "-1"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"angle" "179.872"
+"targetname" "t5"
+"origin" "-3670.4 12615.7 300"
+}
+{
+"classname" "target_fragsFilter"
+"origin" "-2712 5152 -688"
+"targetname" "t4"
+"target" "target_checkpoint1"
+"spawnflags" "8"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-2696 5088 -656"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "target_kill"
+"origin" "-6208 2790 -388"
+"targetname" "target_kill1"
+}
