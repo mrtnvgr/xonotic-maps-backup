@@ -1,0 +1,447 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -samples 3 -filter -dirty -bounce 8"
+"classname" "worldspawn"
+}
+{
+"count" "5"
+"wait" "2"
+"origin" "-1328.000000 336.000000 272.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"count" "10"
+"wait" "2"
+"origin" "-1392.000000 208.000000 264.000000"
+"classname" "item_haste"
+}
+{
+"targetname" "info_null1"
+"origin" "-1392.000000 208.000000 236.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null2"
+"origin" "-1320.000000 336.000000 236.000000"
+"classname" "info_null"
+}
+{
+"count" "60"
+"origin" "1040.000000 352.000000 240.000000"
+"classname" "item_enviro"
+}
+{
+"wait" "3"
+"count" "20"
+"origin" "1280.000000 904.000000 1664.000000"
+"classname" "weapon_plasmagun"
+}
+{
+"model" "*1"
+"health" "1"
+"wait" "1"
+"angle" "0"
+"speed" "999"
+"target" "target_push1"
+"classname" "func_button"
+}
+{
+"angle" "90.000000"
+"target" "target_position1"
+"targetname" "target_push1"
+"origin" "1472.000000 904.000000 2656.000000"
+"classname" "target_push"
+}
+{
+"angle" "90.000000"
+"targetname" "target_position1"
+"origin" "1184.000000 904.000000 2736.000000"
+"classname" "target_position"
+}
+{
+"target" "target_init2"
+"origin" "-3120.000000 144.000000 -824.000000"
+"angle" "90.000008"
+"classname" "info_player_start"
+}
+{
+"count" "3"
+"wait" "10"
+"origin" "-3108.000000 208.000000 -832.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"model" "*2"
+"target" "t24"
+"classname" "trigger_push"
+}
+{
+"angle" "0.000003"
+"origin" "-2792.000000 -456.000000 -560.000000"
+"targetname" "t24"
+"classname" "target_position"
+}
+{
+"angle" "0.000003"
+"targetname" "info_null3"
+"origin" "-3104.000000 208.000000 -880.000000"
+"classname" "info_null"
+}
+{
+"angle" "0.000003"
+"target" "item_health_small1"
+"targetname" "target_give2"
+"origin" "-2896.000000 -464.000000 -640.000000"
+"classname" "target_give"
+}
+{
+"count" "25"
+"targetname" "item_health_small1"
+"origin" "-2896.000000 -432.000000 -640.000000"
+"classname" "item_health_small"
+}
+{
+"model" "*3"
+"wait" "1"
+"target" "target_give2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "-3280.000000 432.000000 -736.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*5"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "3392.000000 1056.000000 1744.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*6"
+"target" "target_init1"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "32"
+"targetname" "target_init1"
+"origin" "1632.000000 1152.000000 1488.000000"
+"classname" "target_init"
+}
+{
+"wait" "2"
+"origin" "1336.000000 904.000000 1664.000000"
+"classname" "item_health_mega"
+}
+{
+"spawnflags" "32"
+"targetname" "target_init2"
+"origin" "-3120.000000 112.000000 -824.000000"
+"classname" "target_init"
+}
+{
+"model" "*7"
+"wait" "-1"
+"target" "target_score1"
+"classname" "trigger_multiple"
+}
+{
+"count" "1"
+"targetname" "target_score1"
+"origin" "-2424.000000 -296.000000 -192.000000"
+"classname" "target_score"
+}
+{
+"targetname" "target_position2"
+"origin" "-2560.000000 -448.000000 -168.000000"
+"classname" "target_position"
+}
+{
+"target" "target_teleporter1"
+"targetname" "target_fragsFilter1"
+"spawnflags" "4"
+"frags" "1"
+"origin" "-2672.000000 -448.000000 -168.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position2"
+"targetname" "target_teleporter1"
+"origin" "-2632.000000 -448.000000 -168.000000"
+"classname" "target_teleporter"
+}
+{
+"model" "*8"
+"target" "target_fragsFilter1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+}
+{
+"model" "*10"
+"wait" "-1"
+"target" "target_score2"
+"classname" "trigger_multiple"
+}
+{
+"count" "1"
+"targetname" "target_score2"
+"origin" "-752.000000 -464.000000 -64.000000"
+"classname" "target_score"
+}
+{
+"model" "*11"
+"target" "target_fragsFilter3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_position3"
+"origin" "-1016.000000 -368.000000 -56.000000"
+"classname" "target_position"
+}
+{
+"target" "target_teleporter2"
+"targetname" "target_fragsFilter3"
+"frags" "2"
+"spawnflags" "4"
+"origin" "-712.000000 -544.000000 -120.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position3"
+"targetname" "target_teleporter2"
+"origin" "-744.000000 -544.000000 -120.000000"
+"classname" "target_teleporter"
+}
+{
+"model" "*12"
+"wait" "-1"
+"target" "target_score3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_score3"
+"count" "1"
+"origin" "1096.000000 456.000000 224.000000"
+"classname" "target_score"
+}
+{
+"targetname" "target_position4"
+"angle" "-179.999985"
+"origin" "1480.000000 272.000000 200.000000"
+"classname" "target_position"
+}
+{
+"model" "*13"
+"target" "target_fragsFilter4"
+"classname" "trigger_multiple"
+}
+{
+"target" "target_teleporter3"
+"targetname" "target_fragsFilter4"
+"spawnflags" "4"
+"frags" "3"
+"origin" "1120.000000 224.000000 224.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position4"
+"targetname" "target_teleporter3"
+"origin" "1120.000000 256.000000 224.000000"
+"classname" "target_teleporter"
+}
+{
+"model" "*14"
+"wait" "-1"
+"target" "target_score4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_score4"
+"count" "1"
+"origin" "-1264.000000 200.000000 272.000000"
+"classname" "target_score"
+}
+{
+"targetname" "target_position5"
+"angle" "90.000000"
+"origin" "-1392.000000 128.000000 256.000000"
+"classname" "target_position"
+}
+{
+"model" "*15"
+"targetname" "trigger_multiple1"
+"target" "target_fragsFilter5"
+"classname" "trigger_multiple"
+}
+{
+"target" "target_multimanager1"
+"targetname" "target_fragsFilter5"
+"frags" "4"
+"spawnflags" "4"
+"origin" "-1472.000000 384.000000 272.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position5"
+"targetname" "target_teleporter4"
+"origin" "-1472.000000 304.000000 272.000000"
+"classname" "target_teleporter"
+}
+{
+"target" "item_enviro2"
+"targetname" "target_give3"
+"origin" "-1568.000000 304.000000 272.000000"
+"classname" "target_give"
+}
+{
+"targetname" "item_enviro2"
+"origin" "-1616.000000 304.000000 272.000000"
+"classname" "item_enviro"
+}
+{
+"target01" "target_teleporter4"
+"wait" "0"
+"target02" "target_give3"
+"targetname" "target_multimanager1"
+"origin" "-1472.000000 344.000000 328.000000"
+"classname" "target_multimanager"
+}
+{
+"model" "*16"
+"target" "target_score5"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_score5"
+"count" "1"
+"origin" "1184.000000 720.000000 1648.000000"
+"classname" "target_score"
+}
+{
+"model" "*17"
+"targetname" "trigger_multiple2"
+"target" "target_fragsFilter6"
+"classname" "trigger_multiple"
+}
+{
+"target" "target_teleporter5"
+"targetname" "target_fragsFilter6"
+"spawnflags" "4"
+"frags" "5"
+"origin" "1248.000000 1136.000000 1648.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position6"
+"targetname" "target_teleporter5"
+"origin" "1248.000000 1104.000000 1648.000000"
+"classname" "target_teleporter"
+}
+{
+"targetname" "target_position6"
+"origin" "1128.000000 904.000000 1640.000000"
+"classname" "target_position"
+}
+{
+"model" "*18"
+"target" "target_teleporter6"
+"classname" "trigger_multiple"
+}
+{
+"target" "target_teleporter7"
+"targetname" "target_teleporter6"
+"origin" "3448.000000 896.000000 1664.000000"
+"classname" "target_teleporter"
+}
+{
+"targetname" "target_teleporter7"
+"origin" "656.000000 -3328.000000 5656.000000"
+"classname" "target_teleporter"
+}
+{
+"model" "*19"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "256.000000 -784.000000 -64.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*20"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint3"
+"origin" "16.000000 864.000000 1248.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*21"
+"health" "5"
+"target" "target_teleporter8"
+"lip" "1"
+"wait" "-1"
+"speed" "9999"
+"classname" "func_button"
+}
+{
+"target" "target_position6"
+"targetname" "target_teleporter8"
+"origin" "1352.000000 904.000000 1368.000000"
+"classname" "target_teleporter"
+}
+{
+"count" "1"
+"targetname" "target_score6"
+"origin" "0.000000 1008.000000 3040.000000"
+"classname" "target_score"
+}
+{
+"model" "*22"
+"wait" "-1"
+"target" "target_score6"
+"classname" "trigger_multiple"
+}
+{
+"model" "*23"
+"target" "target_fragsFilter2"
+"classname" "trigger_multiple"
+}
+{
+"frags" "6"
+"spawnflags" "4"
+"target" "target_teleporter9"
+"targetname" "target_fragsFilter2"
+"origin" "96.000000 1232.000000 3040.000000"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position7"
+"targetname" "target_teleporter9"
+"origin" "96.000000 1200.000000 3040.000000"
+"classname" "target_teleporter"
+}
+{
+"targetname" "target_position7"
+"origin" "-144.000000 904.000000 2984.000000"
+"classname" "target_position"
+}
