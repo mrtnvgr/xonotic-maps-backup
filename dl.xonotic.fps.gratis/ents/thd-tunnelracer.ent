@@ -1,0 +1,57 @@
+{
+"angle" "135"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-64 96 128"
+"angle" "90"
+}
+{
+"dmg" "300"
+"spawnflags" "4"
+"classname" "trigger_hurt"
+"model" "*1"
+}
+{
+"origin" "-3040 192 64"
+"classname" "item_health_mega"
+}
+{
+"classname" "item_health_mega"
+"origin" "-2976 192 64"
+}
+{
+"count" "2"
+"wait" "1"
+"angle" "90"
+"origin" "-3040 128 64"
+"classname" "weapon_rocketlauncher"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-2976 128 64"
+"angle" "90"
+"wait" "1"
+"count" "2"
+}
+{
+"targetname" "t1"
+"origin" "-288 -5408 -640"
+"classname" "target_stopTimer"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t2"
+"origin" "-64 448 192"
+"classname" "target_startTimer"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*3"
+}
