@@ -1,0 +1,407 @@
+{
+"gridsize" "208 192 256"
+"classname" "worldspawn"
+"_q3map2_cmdline" "-meta; -light -deluxe -fast -samples 3"
+"_q3map2_version" "2.5.17n-git-0c20b6e"
+}
+{
+"classname" "info_player_team1"
+"origin" "600.000000 240.000000 232.000000"
+}
+{
+"classname" "func_door"
+"targetname" "door"
+}
+{
+"classname" "func_door_secret"
+"targetname" "door"
+"model" "*1"
+}
+{
+"classname" "trigger_once"
+"target" "givefuel"
+}
+{
+"classname" "target_items"
+"origin" "232.000000 336.000000 200.000000"
+"message" "Welcome to base."
+"targetname" "givefuel"
+"netname" "item_rockets unlimited_ammo"
+"spawnflags" "2"
+}
+{
+"classname" "trigger_multiple"
+"target" "givefuel"
+"model" "*2"
+}
+{
+"classname" "item_flag_team1"
+"origin" "736.000000 -376.000000 112.000000"
+}
+{
+"classname" "item_flag_team2"
+"origin" "-4680.000000 10992.000000 336.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "-3232.000000 10736.000000 336.000000"
+}
+{
+"classname" "func_camera"
+"target" "otherroom"
+}
+{
+"classname" "func_wall"
+"model" "*3"
+}
+{
+"classname" "trigger_swamp"
+}
+{
+"classname" "trigger_push"
+"target" "upwards"
+"model" "*4"
+}
+{
+"classname" "func_door_secret"
+"targetname" "door2"
+"model" "*5"
+}
+{
+"classname" "target_position"
+"origin" "1488.000000 1136.000000 1536.000000"
+"targetname" "upwards"
+}
+{
+"classname" "func_door_secret"
+"targetname" "secret"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"target" "secret"
+"model" "*7"
+}
+{
+"classname" "func_illusionary"
+}
+{
+"classname" "func_door_secret"
+}
+{
+"classname" "func_door_secret"
+"targetname" "thebluedoor"
+"model" "*8"
+}
+{
+"classname" "func_plat"
+"targetname" "elevator"
+"height" "90000"
+}
+{
+"classname" "func_plat"
+"model" "*9"
+}
+{
+"classname" "trigger_push"
+"target" "wayup"
+"model" "*10"
+}
+{
+"classname" "target_position"
+"origin" "-5512.000000 5504.000000 3208.000000"
+"targetname" "wayup"
+"target" "spyderbot"
+}
+{
+"classname" "func_door_secret"
+"targetname" "secretsaregood"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"target" "secretsaregood"
+"model" "*12"
+}
+{
+"classname" "trigger_multiple"
+"target" "givefuel"
+"model" "*13"
+}
+{
+"classname" "func_door_secret"
+"targetname" "returntored"
+"model" "*14"
+}
+{
+"classname" "trigger_impulse"
+}
+{
+"classname" "trigger_multiple"
+}
+{
+"classname" "trigger_multiple"
+"target" "returntored"
+"model" "*15"
+}
+{
+"classname" "trigger_teleport"
+"target" "hiddentunnel"
+"model" "*16"
+}
+{
+"classname" "target_position"
+"origin" "-4240.000000 10600.000000 -72.000000"
+"targetname" "hiddentunnel"
+}
+{
+"classname" "func_door"
+"model" "*17"
+}
+{
+"classname" "func_plat"
+}
+{
+"classname" "func_door_secret"
+"angle" "-1"
+"targetname" "lava"
+}
+{
+"classname" "func_door"
+"targetname" "lava"
+"angle" "-1"
+"model" "*18"
+}
+{
+"classname" "trigger_multiple"
+"target" "lava"
+"health" "10"
+"model" "*19"
+}
+{
+"classname" "func_door"
+"model" "*20"
+}
+{
+"classname" "func_door"
+"targetname" "lava"
+"angle" "-1"
+"model" "*21"
+}
+{
+"classname" "trigger_multiple"
+"target" "lava"
+"health" "10"
+"model" "*22"
+}
+{
+"classname" "trigger_multiple"
+"health" "10"
+"target" "lava"
+"model" "*23"
+}
+{
+"classname" "func_button"
+"target" "lava"
+"model" "*24"
+}
+{
+"classname" "turret_hellion"
+"origin" "1824.000000 2000.000000 -408.000000"
+"team" "5"
+}
+{
+"classname" "turret_hellion"
+"origin" "-3264.000000 8376.000000 -408.000000"
+"team" "14"
+}
+{
+"classname" "trigger_multiple"
+"target" "platform"
+"health" "10"
+"model" "*25"
+}
+{
+"classname" "func_door"
+"targetname" "platform"
+"angle" "-1"
+"model" "*26"
+}
+{
+"classname" "trigger_push"
+"target" "secretopening"
+"model" "*27"
+}
+{
+"classname" "target_position"
+"origin" "3024.000000 1040.000000 264.000000"
+"targetname" "secretopening"
+}
+{
+"classname" "trigger_teleport"
+"target" "hidden"
+"model" "*28"
+}
+{
+"classname" "target_position"
+"origin" "2912.000000 1112.000000 272.000000"
+"targetname" "hidden"
+}
+{
+"classname" "info_player_team2"
+"origin" "3088.000000 6320.000000 -272.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "-1832.000000 10616.000000 -88.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "-3832.000000 8944.000000 192.000000"
+}
+{
+"classname" "info_player_team1"
+"origin" "1800.000000 880.000000 -16.000000"
+}
+{
+"classname" "info_player_team1"
+"origin" "968.000000 1072.000000 1408.000000"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2648.000000 -128.000000 1536.000000"
+}
+{
+"classname" "turret_walker"
+"origin" "-6696.000000 5272.000000 3104.000000"
+"targetname" "spyderbot"
+}
+{
+"classname" "target_position"
+"origin" "2176.000000 -264.000000 280.000000"
+"targetname" "thebigjump"
+}
+{
+"classname" "trigger_push"
+"target" "thebigjump"
+"model" "*29"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "640.000000 104.000000 120.000000"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "880.000000 200.000000 120.000000"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "824.000000 312.000000 120.000000"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "960.000000 56.000000 120.000000"
+}
+{
+"classname" "weapon_hlac"
+"origin" "672.000000 72.000000 120.000000"
+}
+{
+"classname" "weapon_crylink"
+"origin" "-4216.000000 9976.000000 144.000000"
+}
+{
+"classname" "weapon_crylink"
+"origin" "-4136.000000 9776.000000 144.000000"
+}
+{
+"classname" "weapon_crylink"
+"origin" "-3376.000000 10152.000000 144.000000"
+}
+{
+"classname" "weapon_electro"
+"origin" "-3344.000000 9536.000000 144.000000"
+}
+{
+"classname" "weapon_electro"
+"origin" "-3312.000000 9816.000000 144.000000"
+}
+{
+"classname" "weapon_laser"
+"origin" "-3776.000000 -192.000000 1392.000000"
+}
+{
+"classname" "weapon_fireball"
+"origin" "-3960.000000 -248.000000 1392.000000"
+}
+{
+"classname" "weapon_fireball"
+"origin" "-2968.000000 10640.000000 -144.000000"
+}
+{
+"classname" "weapon_hagar"
+"origin" "1624.000000 10624.000000 -144.000000"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "3152.000000 6160.000000 -368.000000"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "3112.000000 5680.000000 -368.000000"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "3112.000000 5240.000000 -368.000000"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "3096.000000 4656.000000 -368.000000"
+}
+{
+"classname" "weapon_fireball"
+"origin" "-3360.000000 10624.000000 256.000000"
+}
+{
+"classname" "weapon_fireball"
+"origin" "-3232.000000 10496.000000 256.000000"
+}
+{
+"classname" "weapon_fireball"
+"origin" "-3160.000000 10896.000000 256.000000"
+}
+{
+"classname" "weapon_fireball"
+"origin" "-3480.000000 10944.000000 256.000000"
+}
+{
+"classname" "weapon_electro"
+"origin" "-3808.000000 10672.000000 256.000000"
+}
+{
+"classname" "weapon_hagar"
+"origin" "-3568.000000 10240.000000 256.000000"
+}
+{
+"classname" "trigger_multiple"
+"health" "10"
+"target" "door"
+"model" "*30"
+}
+{
+"classname" "trigger_multiple"
+"target" "door2"
+"health" "10"
+"model" "*31"
+}
+{
+"classname" "trigger_multiple"
+"target" "thebluedoor"
+"health" "10"
+"model" "*32"
+}
+{
+"classname" "trigger_multiple"
+"target" "door"
+"model" "*33"
+}
