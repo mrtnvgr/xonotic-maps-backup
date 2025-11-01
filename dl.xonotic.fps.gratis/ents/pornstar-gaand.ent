@@ -1,0 +1,107 @@
+{
+"message" "^3Made By Pornstar"
+"_ambient" "6"
+"gridsize" "512 512 512"
+"_blocksize" "4096"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-704 -1408 512"
+}
+{
+"classname" "item_haste"
+"origin" "-640 -1408 512"
+}
+{
+"classname" "target_startTimer"
+"origin" "-720 -1312 504"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1600 -488 48"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-760 224 -112"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*3"
+}
+{
+"targetname" "t13"
+"origin" "-2488 3104 -112"
+"classname" "target_checkpoint"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2424 -1504 -560"
+"targetname" "t14"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"model" "*5"
+}
+{
+"targetname" "t15"
+"origin" "-376 -5088 -560"
+"classname" "target_checkpoint"
+}
+{
+"target" "t15"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t17"
+"origin" "-831 176 154"
+"classname" "target_kill"
+}
+{
+"dmg" "200"
+"spawnflags" "1"
+"target" "t17"
+"classname" "trigger_hurt"
+"model" "*7"
+}
+{
+"targetname" "t36455"
+"origin" "1856 -704 -120"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push"
+"target" "t36455"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2112 -2664 -560"
+"targetname" "t36456"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36456"
+"model" "*9"
+}
