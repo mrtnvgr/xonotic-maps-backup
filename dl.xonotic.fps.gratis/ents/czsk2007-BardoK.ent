@@ -1,0 +1,114 @@
+{
+"classname" "worldspawn"
+"message" "Made By BardoK"
+"ambient" "15"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000,000,000"
+"_lightmapscale" ".3"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -96 32"
+"angle" "90"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-160 -32 64"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"targetname" "t2"
+"origin" "0 1184 120"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t2"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"targetname" "t3"
+"origin" "928 1184 160"
+"classname" "target_checkpoint"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"origin" "0 32 128"
+"classname" "target_startTimer"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3040 2304 -152"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*5"
+}
+{
+"targetname" "t6"
+"origin" "4736 2304 -1024"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t7"
+"origin" "5024 3616 -1088"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t7"
+"classname" "trigger_teleport"
+"model" "*7"
+}
+{
+"targetname" "t8"
+"angle" "270"
+"origin" "7648 3616 -1088"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t8"
+"classname" "trigger_teleport"
+"model" "*8"
+}
+{
+"targetname" "t9"
+"origin" "7648 1376 -1048"
+"classname" "target_stopTimer"
+}
+{
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t10"
+"origin" "6944 3616 -960"
+"classname" "target_checkpoint"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*10"
+}
