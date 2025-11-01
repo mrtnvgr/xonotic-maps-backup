@@ -1,0 +1,311 @@
+{
+"_q3map2_version" "2.5.17n-svn402"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000; -vis -saveprt; -light -deluxe -patchshadows -samples 3 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid -dirty -dirtscale 2"
+"_description" "nexball on an octagonal bumper pool table"
+"message" "classic bumper pool by accident_200"
+"author" "accident_200"
+"classname" "worldspawn"
+}
+{
+"origin" "-512.000000 192.000000 24.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "180.000000"
+"origin" "512.000000 192.000000 24.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "180.000000"
+"origin" "384.000000 0.000000 112.000000"
+"classname" "nexball_football"
+}
+{
+"model" "*1"
+"classname" "nexball_redgoal"
+}
+{
+"model" "*2"
+"classname" "nexball_bluegoal"
+}
+{
+"angle" "180.000000"
+"origin" "512.000000 -192.000000 24.000000"
+"classname" "info_player_team2"
+}
+{
+"origin" "-512.000000 -192.000000 24.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-384.000000 0.000000 112.000000"
+"classname" "nexball_football"
+}
+{
+"origin" "-480.000000 -64.000000 24.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "180.000000"
+"origin" "480.000000 -64.000000 24.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "180.000000"
+"origin" "480.000000 64.000000 24.000000"
+"classname" "info_player_team2"
+}
+{
+"origin" "-480.000000 64.000000 24.000000"
+"classname" "info_player_team1"
+}
+{
+"model" "*3"
+"target" "redmid"
+"team" "5"
+"classname" "trigger_push"
+}
+{
+"targetname" "redmid"
+"origin" "-576.000000 0.000000 256.000000"
+"classname" "target_position"
+}
+{
+"model" "*4"
+"target" "bluemidl"
+"classname" "trigger_push"
+}
+{
+"targetname" "bluemidl"
+"origin" "144.000000 -240.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*5"
+"target" "redmidr"
+"classname" "trigger_push"
+}
+{
+"angle" "180.000000"
+"targetname" "redmidr"
+"origin" "-144.000000 -240.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*6"
+"target" "redmidr"
+"classname" "trigger_push"
+}
+{
+"model" "*7"
+"target" "bluemidl"
+"classname" "trigger_push"
+}
+{
+"model" "*8"
+"team" "14"
+"target" "bluemid"
+"classname" "trigger_push"
+}
+{
+"targetname" "bluemid"
+"angle" "180.000000"
+"origin" "576.000000 0.000000 256.000000"
+"classname" "target_position"
+}
+{
+"model" "*9"
+"target" "bluemidr"
+"classname" "trigger_push"
+}
+{
+"model" "*10"
+"target" "bluemidr"
+"classname" "trigger_push"
+}
+{
+"targetname" "bluemidr"
+"origin" "144.000000 240.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*11"
+"target" "redmidl"
+"classname" "trigger_push"
+}
+{
+"model" "*12"
+"target" "redmidl"
+"classname" "trigger_push"
+}
+{
+"targetname" "redmidl"
+"angle" "180.000000"
+"origin" "-144.000000 240.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*13"
+"target" "bluegoalr"
+"classname" "trigger_push"
+}
+{
+"targetname" "bluegoalr"
+"angle" "90.000000"
+"origin" "672.000000 224.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*14"
+"target" "centera"
+"classname" "trigger_push"
+}
+{
+"targetname" "centera"
+"angle" "90.000000"
+"origin" "0.000000 512.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*15"
+"target" "redgoall"
+"classname" "trigger_push"
+}
+{
+"targetname" "redgoall"
+"angle" "90.000000"
+"origin" "-672.000000 224.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*16"
+"target" "bluegoall"
+"classname" "trigger_push"
+}
+{
+"targetname" "bluegoall"
+"angle" "-90.000000"
+"origin" "672.000000 -224.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*17"
+"target" "centerb"
+"classname" "trigger_push"
+}
+{
+"targetname" "centerb"
+"angle" "-90.000000"
+"origin" "0.000000 -512.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*18"
+"target" "redgoalr"
+"classname" "trigger_push"
+}
+{
+"targetname" "redgoalr"
+"angle" "-90.000000"
+"origin" "-672.000000 -224.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*19"
+"strength" "250"
+"classname" "trigger_impulse"
+}
+{
+"model" "*20"
+"classname" "nexball_out"
+}
+{
+"model" "*21"
+"target" "redgoalcr"
+"classname" "trigger_push"
+}
+{
+"targetname" "redgoalcr"
+"origin" "-544.000000 -96.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*22"
+"target" "redgoalcl"
+"classname" "trigger_push"
+}
+{
+"targetname" "redgoalcl"
+"origin" "-544.000000 96.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*23"
+"target" "redcenter"
+"classname" "trigger_push"
+}
+{
+"targetname" "redcenter"
+"angle" "180.000000"
+"origin" "-304.000000 0.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*24"
+"target" "bluecenter"
+"classname" "trigger_push"
+}
+{
+"targetname" "bluecenter"
+"origin" "304.000000 0.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*25"
+"target" "bluegoalcr"
+"classname" "trigger_push"
+}
+{
+"targetname" "bluegoalcr"
+"angle" "180.000000"
+"origin" "544.000000 96.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*26"
+"target" "bluegoalcl"
+"classname" "trigger_push"
+}
+{
+"targetname" "bluegoalcl"
+"angle" "180.000000"
+"origin" "544.000000 -96.000000 96.000000"
+"classname" "target_position"
+}
+{
+"model" "*27"
+"strength" "200"
+"classname" "trigger_impulse"
+}
+{
+"model" "*28"
+"classname" "nexball_out"
+}
+{
+"angle" "180.000000"
+"origin" "576.000000 320.000000 24.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "180.000000"
+"origin" "576.000000 -320.000000 24.000000"
+"classname" "info_player_team2"
+}
+{
+"origin" "-576.000000 320.000000 24.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-576.000000 -320.000000 24.000000"
+"classname" "info_player_team1"
+}
