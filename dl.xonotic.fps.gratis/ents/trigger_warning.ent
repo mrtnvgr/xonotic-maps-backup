@@ -1,0 +1,82 @@
+{
+"classname" "worldspawn"
+"_style8alphaGen" "wave sin 0.5 1 0.875 0.5"
+"_style8rgbGen" "wave sin 0.5 1 0.875 0.5"
+"_style7alphaGen" "wave sin 0.5 1 0.75 0.5"
+"_style7rgbGen" "wave sin 0.5 1 0.75 0.5"
+"_style6alphaGen" "wave sin 0.5 1 0.625 0.5"
+"_style6rgbGen" "wave sin 0.5 1 0.625 0.5"
+"_style5alphaGen" "wave sin 0.5 1 0.5 0.5"
+"_style5rgbGen" "wave sin 0.5 1 0.5 0.5"
+"_style4alphaGen" "wave sin 0.5 1 0.375 0.5"
+"_style4rgbGen" "wave sin 0.5 1 0.375 0.5"
+"_style3rgbGen" "wave sin 0.5 1 0.25 0.5"
+"_style3alphaGen" "wave sin 0.5 1 0.25 0.5"
+"_style2rgbGen" "wave sin 0.5 1 0.125 0.5"
+"_style2alphaGen" "wave sin 0.5 1 0.125 0.5"
+"_style1rgbGen" "wave sin 0.5 1 0 0.5"
+"_style1alphaGen" "wave sin 0.5 1 0 0.5"
+}
+{
+"classname" "info_player_start"
+"origin" "128 192 24"
+}
+{
+"classname" "func_rotating"
+"origin" "496 192 240"
+"model" "*1"
+}
+{
+"classname" "func_rotating"
+"origin" "1520 192 240"
+"model" "*2"
+}
+{
+"classname" "target_speaker"
+"origin" "496 192 192"
+"noise" "sound/world/klaxon1.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "1520 192 192"
+"noise" "sound/world/klaxon1.wav"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_kill1"
+"model" "*3"
+}
+{
+"classname" "target_kill"
+"origin" "1152 256 128"
+"targetname" "target_kill1"
+}
+{
+"classname" "target_speaker"
+"origin" "1184 160 128"
+"spawnflags" "8"
+"targetname" "target_kill1"
+"noise" "sound/solstice/alarm.wav"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t1"
+"origin" "384 192 144"
+"classname" "target_startTimer"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t2"
+"origin" "1920 192 128"
+"classname" "target_stopTimer"
+}
