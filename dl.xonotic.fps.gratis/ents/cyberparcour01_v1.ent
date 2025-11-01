@@ -1,0 +1,524 @@
+{
+"gridsize" "80 80 128"
+"classname" "worldspawn"
+"_blocksize" "0 0 0"
+"_celshader" "cyberparcour01_shaders/celshader"
+"_floodlight" "255 255 255 1024 32"
+"message" "CyberParcour01 by sev"
+"author" "sev"
+"license" "GNU GPL version 2 or any later version"
+"_q3map2_cmdline" "-meta -samplesize 4; -light -patchshadows -fast -deluxe -filter -samples 3"
+"_q3map2_version" "2.5.17n-svn378"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "flamethrower"
+"impulse" "32"
+"movedir" "0 0 16"
+"model" "*1"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "8"
+"mdl" "sparks"
+"model" "*2"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "sparks"
+"impulse" "8"
+"model" "*3"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "32"
+"mdl" "flamethrower"
+"movedir" "0 0 16"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "test"
+"model" "*6"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "5248.000000 2560.000000 1504.000000"
+"angle" "-90.000000"
+"targetname" "test"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "sparks"
+"impulse" "8"
+"model" "*7"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "32"
+"mdl" "flamethrower"
+"movedir" "0 0 16"
+"model" "*8"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "sparks"
+"impulse" "8"
+"model" "*9"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "32"
+"mdl" "flamethrower"
+"movedir" "0 0 16"
+"model" "*10"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "flamethrower"
+"impulse" "32"
+"movedir" "0 0 16"
+"model" "*11"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "8"
+"mdl" "sparks"
+"model" "*12"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "sparks"
+"impulse" "8"
+"model" "*13"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "32"
+"mdl" "flamethrower"
+"movedir" "0 0 16"
+"model" "*14"
+}
+{
+"classname" "trigger_hurt"
+"model" "*15"
+}
+{
+"classname" "trigger_hurt"
+"model" "*16"
+}
+{
+"classname" "trigger_hurt"
+"model" "*17"
+}
+{
+"classname" "trigger_hurt"
+"model" "*18"
+}
+{
+"classname" "trigger_hurt"
+"model" "*19"
+}
+{
+"classname" "trigger_hurt"
+"model" "*20"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "sparks"
+"impulse" "8"
+"model" "*21"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "32"
+"mdl" "flamethrower"
+"movedir" "0 0 16"
+"model" "*22"
+}
+{
+"classname" "trigger_hurt"
+"model" "*23"
+}
+{
+"classname" "trigger_hurt"
+"model" "*24"
+}
+{
+"classname" "trigger_hurt"
+"model" "*25"
+}
+{
+"classname" "trigger_push"
+"target" "push01"
+"speed" "2500"
+"model" "*26"
+}
+{
+"classname" "target_position"
+"origin" "6400.000000 1664.000000 3520.000000"
+"targetname" "push01"
+"speed" "2500"
+}
+{
+"classname" "trigger_push"
+"target" "push02"
+"speed" "2500"
+"model" "*27"
+}
+{
+"classname" "trigger_push"
+"target" "push03"
+"speed" "2500"
+"model" "*28"
+}
+{
+"classname" "trigger_push"
+"target" "push04"
+"speed" "2500"
+"model" "*29"
+}
+{
+"classname" "trigger_push"
+"target" "push05"
+"speed" "2500"
+"model" "*30"
+}
+{
+"classname" "trigger_push"
+"target" "push06"
+"speed" "2500"
+"model" "*31"
+}
+{
+"classname" "trigger_push"
+"target" "push07"
+"speed" "2500"
+"model" "*32"
+}
+{
+"classname" "trigger_teleport"
+"target" "teleport01"
+"model" "*33"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1664.000000 1280.000000 384.000000"
+"targetname" "teleport01"
+}
+{
+"classname" "target_position"
+"origin" "7424.000000 1536.000000 4288.000000"
+"targetname" "push02"
+}
+{
+"classname" "target_position"
+"origin" "9088.000000 1792.000000 5568.000000"
+"targetname" "push03"
+}
+{
+"classname" "target_position"
+"origin" "11776.000000 2048.000000 4032.000000"
+"targetname" "push04"
+}
+{
+"classname" "target_position"
+"origin" "13824.000000 2176.000000 2752.000000"
+"targetname" "push05"
+}
+{
+"classname" "target_position"
+"origin" "13888.000000 1792.000000 3064.000000"
+"targetname" "push06"
+}
+{
+"classname" "target_position"
+"origin" "16896.000000 1792.000000 3064.000000"
+"targetname" "push07"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "0"
+"targetname" "checkpoint00"
+"model" "*34"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "checkpoint01"
+"cnt" "1"
+"model" "*35"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "checkpoint02"
+"cnt" "2"
+"model" "*36"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "3"
+"targetname" "checkpoint03"
+"model" "*37"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "checkpoint04"
+"cnt" "4"
+"model" "*38"
+}
+{
+"classname" "info_player_race"
+"origin" "1504.000000 1248.000000 544.000000"
+"target" "checkpoint00"
+}
+{
+"classname" "info_player_race"
+"origin" "1504.000000 1312.000000 544.000000"
+"target" "checkpoint00"
+}
+{
+"classname" "info_player_race"
+"origin" "1568.000000 1248.000000 544.000000"
+"target" "checkpoint00"
+}
+{
+"classname" "info_player_race"
+"origin" "1568.000000 1312.000000 544.000000"
+"target" "checkpoint00"
+}
+{
+"classname" "info_player_race"
+"origin" "3424.000000 992.000000 736.000000"
+"target" "checkpoint01"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "3488.000000 992.000000 736.000000"
+"target" "checkpoint01"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "3424.000000 928.000000 736.000000"
+"target" "checkpoint01"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "3488.000000 928.000000 736.000000"
+"target" "checkpoint01"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "4384.000000 5024.000000 992.000000"
+"target" "checkpoint02"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "4320.000000 5024.000000 992.000000"
+"target" "checkpoint02"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "4384.000000 5088.000000 992.000000"
+"target" "checkpoint02"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "4320.000000 5088.000000 992.000000"
+"target" "checkpoint02"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "5216.000000 2400.000000 1504.000000"
+"target" "checkpoint03"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "5280.000000 2400.000000 1504.000000"
+"target" "checkpoint03"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "5216.000000 2336.000000 1504.000000"
+"target" "checkpoint03"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "5280.000000 2336.000000 1504.000000"
+"target" "checkpoint03"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_race"
+"origin" "5664.000000 1888.000000 1504.000000"
+"target" "checkpoint04"
+}
+{
+"classname" "info_player_race"
+"origin" "5664.000000 1952.000000 1504.000000"
+"target" "checkpoint04"
+}
+{
+"classname" "info_player_race"
+"origin" "5728.000000 1888.000000 1504.000000"
+"target" "checkpoint04"
+}
+{
+"classname" "info_player_race"
+"origin" "5728.000000 1952.000000 1504.000000"
+"target" "checkpoint04"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "12"
+"mdl" "flamethrower"
+"movedir" "0 0 8"
+"model" "*39"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "12"
+"mdl" "flamethrower"
+"movedir" "0 0 8"
+"model" "*40"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "12"
+"mdl" "flamethrower"
+"movedir" "0 0 8"
+"model" "*41"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "12"
+"mdl" "flamethrower"
+"movedir" "0 0 8"
+"model" "*42"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "12"
+"mdl" "flamethrower"
+"movedir" "0 0 8"
+"model" "*43"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "12"
+"mdl" "flamethrower"
+"movedir" "0 0 8"
+"model" "*44"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "12"
+"mdl" "flamethrower"
+"movedir" "0 0 8"
+"model" "*45"
+}
+{
+"classname" "target_speaker"
+"origin" "1312.000000 1888.000000 640.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "13696.000000 1792.000000 2992.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+"volume" "0.75"
+}
+{
+"classname" "target_speaker"
+"origin" "1312.000000 672.000000 640.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "3904.000000 960.000000 736.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "4800.000000 5056.000000 992.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "5696.000000 2368.000000 1504.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "17056.000000 1184.000000 3200.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "17056.000000 2400.000000 3200.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "6144.000000 1920.000000 1344.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+"volume" "0.75"
+}
+{
+"classname" "target_speaker"
+"origin" "7168.000000 1280.000000 1600.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+"volume" "0.75"
+}
+{
+"classname" "target_speaker"
+"origin" "8576.000000 2304.000000 1856.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+"volume" "0.75"
+}
+{
+"classname" "target_speaker"
+"origin" "10496.000000 768.000000 1856.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+"volume" "0.75"
+}
+{
+"classname" "target_speaker"
+"origin" "12928.000000 2816.000000 2112.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+"volume" "0.75"
+}
+{
+"classname" "target_speaker"
+"origin" "14336.000000 1792.000000 2112.000000"
+"noise" "sound/cyberparcour01/rocket.ogg"
+"atten" "2"
+"volume" "0.75"
+}
