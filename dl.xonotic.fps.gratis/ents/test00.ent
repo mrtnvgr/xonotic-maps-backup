@@ -1,0 +1,91 @@
+{
+"classname" "worldspawn"
+"_ambient" "3"
+}
+{
+"classname" "info_player_race"
+"origin" "128 -1408 64"
+"angle" "90"
+"target" "finish"
+}
+{
+"classname" "info_player_race"
+"origin" "0 -1408 64"
+"angle" "90"
+"target" "finish"
+}
+{
+"classname" "info_player_race"
+"origin" "-128 -1408 64"
+"angle" "90"
+"target" "finish"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "0"
+"targetname" "finish"
+"target" "finish_items"
+"model" "*1"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "1"
+"targetname" "cp1"
+"message" "The roof will reflect anything touching it."
+"model" "*2"
+}
+{
+"classname" "info_player_race"
+"origin" "320 1920 128"
+"target" "cp1"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "2"
+"targetname" "cp2"
+"target" "cp2_items"
+"model" "*3"
+}
+{
+"classname" "info_player_race"
+"origin" "2176 1024 512"
+"angle" "90"
+"target" "cp2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp3"
+"target" "cp3_items"
+"cnt" "3"
+"model" "*4"
+}
+{
+"classname" "info_player_race"
+"origin" "2432 3136 128"
+"angle" "90"
+"target" "cp3"
+}
+{
+"classname" "target_items"
+"targetname" "finish_items"
+"message" "Welcome to Test Chamber 00!"
+"health" "100"
+"netname" "porto unlimited_ammo"
+"origin" "0 0 128"
+}
+{
+"classname" "target_items"
+"origin" "0 0 128"
+"message" "Be careful, slime is known to be unhealthy. Also, you get only one attempt."
+"health" "100"
+"netname" "porto"
+"targetname" "cp2_items"
+}
+{
+"classname" "target_items"
+"origin" "0 0 128"
+"netname" "porto unlimited_ammo"
+"health" "100"
+"message" "This tunnel is made out of reflectors."
+"targetname" "cp3_items"
+}
