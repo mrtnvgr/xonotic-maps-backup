@@ -1,0 +1,38 @@
+{
+"celshader" "cha0s_lw/ink"
+"classname" "worldspawn"
+"message" "Lick-Frags"
+"ambient" "5"
+"_blocksize" "4096"
+"gridsize" "2560000000000,2560000000000,5120000000000"
+"_lightmapscale" ".5"
+}
+{
+"target" "timer2_stop"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"origin" "-544 160 96"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "3648 -768 328"
+"targetname" "timer2_stop"
+"classname" "target_stopTimer"
+}
+{
+"classname" "target_startTimer"
+"origin" "-152 176 88"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*3"
+}
