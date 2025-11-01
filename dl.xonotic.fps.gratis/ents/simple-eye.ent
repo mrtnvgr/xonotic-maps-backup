@@ -1,0 +1,119 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"origin" "-268.799988 -179.199997 123.199997"
+"light" "50"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "50"
+"origin" "268.799988 -179.199997 123.199997"
+}
+{
+"origin" "268.799988 179.199997 123.199997"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-380.799988 0.000000 33.599998"
+"classname" "info_player_deathmatch"
+"angle" "360"
+}
+{
+"origin" "3360.000000 1299.199951 795.200012"
+"classname" "weapon_plasmagun"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_init"
+"targetname" "t1"
+"origin" "-134.399994 0.000000 89.599998"
+}
+{
+"classname" "target_starttimer"
+"targetname" "t1"
+"origin" "-89.599998 0.000000 89.599998"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_stoptimer"
+"targetname" "t2"
+"origin" "-1344.000000 1164.799927 1332.799927"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "target_position"
+"targetname" "t3"
+"angle" "360"
+"origin" "-380.799988 0.000000 44.799999"
+}
+{
+"classname" "target_init"
+"targetname" "t2"
+"origin" "-1344.000000 1198.400024 1332.799927"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_speaker"
+"targetname" "t4"
+"origin" "616.000000 0.000000 -246.399994"
+"noise" "*falling1.wav"
+"spawnflags" "8"
+}
+{
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*5"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t5"
+"origin" "-22.400000 89.599998 481.600006"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"origin" "257.600006 -33.599998 828.799988"
+"targetname" "t6"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "t1"
+"noise" "sound/feedback/fight.wav"
+"origin" "-44.799999 0.000000 89.599998"
+"classname" "target_speaker"
+}
+{
+"classname" "light"
+"light" "50"
+"origin" "-268.799988 179.199997 123.199997"
+}
