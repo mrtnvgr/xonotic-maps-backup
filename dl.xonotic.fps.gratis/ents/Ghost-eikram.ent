@@ -1,0 +1,167 @@
+{
+"classname" "worldspawn"
+"ambient" "10"
+"_lightmapscale" ".3"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000"
+}
+{
+"classname" "target_startTimer"
+"origin" "16 -72 -168"
+"targetname" "t1"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"classname" "info_player_start"
+"origin" "104 -176 32"
+"angle" "90"
+}
+{
+"classname" "target_location"
+"origin" "-64 304 -600"
+"targetname" "t3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-208 7136 -1024"
+"angle" "270"
+"targetname" "t5"
+}
+{
+"model" "*2"
+"classname" "trigger_teleport"
+"target" "t5"
+}
+{
+"classname" "target_stopTimer"
+"origin" "0 -152 -952"
+"targetname" "t6"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t6"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-64 1904 -1008"
+"angle" "270"
+"targetname" "t7"
+}
+{
+"model" "*4"
+"classname" "trigger_teleport"
+"target" "t7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-216 -216 24"
+"angle" "90"
+"targetname" "t8"
+}
+{
+"model" "*5"
+"classname" "trigger_teleport"
+"target" "t8"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-48 1584 -736"
+"angle" "90"
+"targetname" "t9"
+}
+{
+"model" "*6"
+"classname" "trigger_teleport"
+"target" "t9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-128 6992 -704"
+"targetname" "t10"
+}
+{
+"model" "*7"
+"classname" "trigger_teleport"
+"target" "t10"
+}
+{
+"model" "*8"
+"classname" "trigger_teleport"
+"target" "t10"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2560 7200 -1008"
+"angle" "180"
+"targetname" "t11"
+}
+{
+"model" "*9"
+"classname" "trigger_teleport"
+"target" "t11"
+}
+{
+"model" "*10"
+"classname" "trigger_teleport"
+"target" "t11"
+}
+{
+"targetname" "t12"
+"origin" "-88 1824 -456"
+"classname" "target_checkpoint"
+}
+{
+"model" "*11"
+"target" "t12"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t13"
+"origin" "-400 4960 -584"
+"classname" "target_checkpoint"
+}
+{
+"model" "*12"
+"target" "t13"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t14"
+"origin" "1720 7200 -520"
+"classname" "target_checkpoint"
+}
+{
+"model" "*13"
+"target" "t14"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t15"
+"origin" "-424 6464 -984"
+"classname" "target_checkpoint"
+}
+{
+"model" "*14"
+"target" "t15"
+"classname" "trigger_multiple"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-64 2872 -984"
+"targetname" "t16"
+}
+{
+"model" "*15"
+"classname" "trigger_multiple"
+"target" "t16"
+}
+{
+"model" "*16"
+"classname" "trigger_teleport"
+"target" "t5"
+}
