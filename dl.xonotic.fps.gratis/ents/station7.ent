@@ -1,0 +1,126 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"classname" "target_speaker"
+"targetname" "t9"
+"spawnflags" "4"
+"noise" "*falling1.wav"
+"origin" "1433.599976 0.000000 -268.799988"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "t9"
+}
+{
+"model" "*2"
+"classname" "trigger_hurt"
+"dmg" "200"
+"spawnflags" "12"
+}
+{
+"model" "*3"
+"classname" "trigger_teleport"
+"target" "t8"
+}
+{
+"classname" "misc_teleporter_dest"
+"targetname" "t8"
+"origin" "-1299.199951 0.000000 56.000000"
+}
+{
+"origin" "-112.000000 0.000000 974.399963"
+"targetname" "t5"
+"classname" "target_position"
+}
+{
+"model" "*4"
+"target" "t5"
+"classname" "trigger_push"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"target" "t4"
+}
+{
+"classname" "target_starttimer"
+"targetname" "t3"
+"origin" "-996.799988 0.000000 11.200000"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "t3"
+}
+{
+"model" "*7"
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "4"
+"targetname" "t4"
+}
+{
+"model" "*8"
+"classname" "func_door"
+"angle" "270"
+"spawnflags" "4"
+"targetname" "t4"
+}
+{
+"origin" "-448.000000 0.000000 1019.200012"
+"targetname" "t2"
+"classname" "target_position"
+}
+{
+"model" "*9"
+"target" "t2"
+"classname" "trigger_push"
+}
+{
+"origin" "89.599998 0.000000 1164.799927"
+"targetname" "t1"
+"classname" "target_position"
+}
+{
+"model" "*10"
+"target" "t1"
+"classname" "trigger_push"
+}
+{
+"origin" "-1299.199951 0.000000 56.000000"
+"classname" "info_player_start"
+}
+{
+"model" "*11"
+"target" "t6"
+"classname" "trigger_multiple"
+}
+{
+"origin" "3595.199951 0.000000 100.799995"
+"targetname" "t7"
+"classname" "target_stoptimer"
+}
+{
+"model" "*12"
+"target" "t7"
+"classname" "trigger_multiple"
+}
+{
+"model" "*13"
+"targetname" "t6"
+"spawnflags" "4"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*14"
+"targetname" "t6"
+"spawnflags" "4"
+"angle" "90"
+"classname" "func_door"
+}
