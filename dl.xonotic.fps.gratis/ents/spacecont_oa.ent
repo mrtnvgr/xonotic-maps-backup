@@ -1,0 +1,257 @@
+{
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"message" "space contact"
+"music" "music/oa06.ogg"
+"_q3map2_cmdline" "-flares -meta -patchmeta -verboseentities; -vis; -light -dark -fast -filter -patchshadows -dirty -bounce 8 -samplesize 8 -samples 3 -gamma 1.5; -scale 1.40"
+"_q3map2_version" "2.5.17n-git-1451c06"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"targetname" "invdoor"
+"wait" "3"
+"_receiveshadows;_rs" "1"
+"_castshadows;_cs" "0"
+"_lightmapscale" "1"
+"model" "*1"
+}
+{
+"classname" "func_button"
+"health" "1"
+"target" "invdoor"
+"angle" "270"
+"notbot" "1"
+"model" "*2"
+}
+{
+"classname" "func_button"
+"target" "invdoor"
+"notbot" "1"
+"model" "*3"
+}
+{
+"classname" "info_player_intermission"
+"origin" "582.399963 380.799988 -470.399994"
+"angle" "-90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_speaker1"
+"model" "*4"
+}
+{
+"classname" "target_speaker"
+"origin" "550.200012 -1576.400024 -2329.599854"
+"noise" "*falling1.wav"
+"spawnflags" "8"
+"targetname" "target_speaker1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_remove_powerups1"
+"model" "*5"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "-2843.399902 2844.800049 -2329.599854"
+"targetname" "target_remove_powerups1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"spawnflags" "8"
+"model" "*6"
+}
+{
+"classname" "info_player_start"
+"origin" "1792.000000 716.799988 44.799999"
+"angle" "-90"
+}
+{
+"classname" "trigger_push"
+"target" "target_position1"
+"model" "*7"
+}
+{
+"classname" "trigger_push"
+"target" "target_position2"
+"model" "*8"
+}
+{
+"classname" "target_position"
+"origin" "22.400000 -1254.400024 806.399963"
+"targetname" "target_position1"
+}
+{
+"classname" "target_position"
+"origin" "-537.599976 -336.000000 806.399963"
+"targetname" "target_position2"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-537.599976 -716.799988 44.799999"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "1747.199951 -672.000000 44.799999"
+}
+{
+"classname" "item_health_mega"
+"origin" "1792.000000 179.199997 44.799999"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "-492.799988 -1209.599976 582.399963"
+}
+{
+"classname" "weapon_shotgun"
+"origin" "-492.799988 1388.799927 -224.000000"
+}
+{
+"classname" "holdable_teleporter"
+"origin" "358.399994 672.000000 -537.599976"
+"notbot" "1"
+}
+{
+"classname" "weapon_bfg"
+"origin" "537.599976 -179.199997 -1120.000000"
+"team" "specials"
+"wait" "45"
+"notbot" "1"
+}
+{
+"classname" "item_flight"
+"origin" "537.599976 -179.199997 -1120.000000"
+"team" "specials"
+"wait" "45"
+"notbot" "1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-358.399994 1523.199951 -224.000000"
+}
+{
+"classname" "ammo_slugs"
+"origin" "-627.200012 1254.400024 -224.000000"
+}
+{
+"classname" "ammo_lightning"
+"origin" "1164.799927 1523.199951 -224.000000"
+}
+{
+"classname" "ammo_rockets"
+"origin" "358.399994 268.799988 -582.399963"
+}
+{
+"classname" "ammo_shells"
+"origin" "358.399994 -1881.599976 -582.399963"
+}
+{
+"classname" "ammo_slugs"
+"origin" "-896.000000 -1881.599976 -313.600006"
+}
+{
+"classname" "ammo_nails"
+"origin" "-1164.799927 -1612.799927 -313.600006"
+}
+{
+"classname" "ammo_lightning"
+"origin" "-896.000000 -627.200012 44.799999"
+}
+{
+"classname" "ammo_shells"
+"origin" "1881.599976 896.000000 44.799999"
+}
+{
+"classname" "ammo_nails"
+"origin" "1075.199951 806.399963 224.000000"
+}
+{
+"classname" "item_health"
+"origin" "-627.200012 -716.799988 582.399963"
+}
+{
+"classname" "item_health"
+"origin" "448.000000 -806.399963 44.799999"
+}
+{
+"classname" "item_health"
+"origin" "627.200012 -806.399963 44.799999"
+}
+{
+"classname" "item_health_large"
+"origin" "716.799988 1523.199951 -224.000000"
+}
+{
+"classname" "item_health"
+"origin" "-627.200012 179.199997 -582.399963"
+}
+{
+"classname" "item_armor_body"
+"origin" "537.599976 -89.599998 -190.399994"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "1792.000000 -358.399994 44.799999"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "1433.599976 -716.799988 44.799999"
+"angle" "-3.50824e-015"
+}
+{
+"classname" "info_player_start"
+"origin" "806.399963 -716.799988 44.799999"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "0.000000 -716.799988 44.799999"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "-179.199997 -1792.000000 -588.000000"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "0.000000 716.799988 44.799999"
+"angle" "-3.50824e-015"
+}
+{
+"classname" "info_player_start"
+"origin" "0.000000 1433.599976 -229.599991"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "1075.199951 1433.599976 -229.599991"
+"angle" "-3.50824e-015"
+}
+{
+"classname" "info_player_start"
+"origin" "515.200012 156.800003 -588.000000"
+"angle" "-180"
+}
+{
+"classname" "info_player_start"
+"origin" "537.599976 -716.799988 -588.000000"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "-537.599976 179.199997 -588.000000"
+"angle" "-1.4033e-014"
+}
+{
+"classname" "weapon_railgun"
+"origin" "537.599976 -179.199997 -582.399963"
+}
+{
+"classname" "weapon_lightning"
+"origin" "1075.199951 268.799988 224.000000"
+}
