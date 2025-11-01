@@ -1,0 +1,196 @@
+{
+"_q3map2_version" "2.5.17n-git-b25aa87"
+"_q3map2_cmdline" "-meta; -vis; -light -dirty -fast -samples 3"
+"ambient" "5"
+"_blocksize" "2048"
+"_lightmapscale" "0.125"
+"classname" "worldspawn"
+}
+{
+"target" "target_give1"
+"origin" "3088 9668 56"
+"angle" "180"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"wait" "-1"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "2920 9772 144"
+"targetname" "t2"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "target_kill1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_kill1"
+"origin" "1096 11368 144"
+"classname" "target_kill"
+}
+{
+"model" "*3"
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90"
+"targetname" "t1"
+"origin" "3184 11496 140"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "5569 12082 92"
+"classname" "target_stopTimer"
+}
+{
+"origin" "2687 9729 168"
+"targetname" "t50sadfg0"
+"target" "t11"
+"classname" "target_teleporter"
+}
+{
+"model" "*5"
+"target" "t50sadfg0"
+"lip" "3000"
+"wait" ".01"
+"speed" "5000"
+"angle" "-2"
+"health" "1"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"message" "/respawnpoint set"
+"targetname" "target_print2"
+"origin" "3052 9606 204"
+"classname" "target_print"
+}
+{
+"model" "*6"
+"target" "target_print2"
+"classname" "trigger_multiple"
+}
+{
+"angle" "180"
+"targetname" "t8"
+"origin" "3088 9606 222"
+"classname" "target_position"
+}
+{
+"model" "*7"
+"wait" "-1"
+"target" "t7"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90"
+"targetname" "t7"
+"origin" "2124 14416 140"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"wait" "-1"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-2956 9772 144"
+"targetname" "t4"
+"classname" "target_startTimer"
+}
+{
+"model" "*9"
+"target" "target_kill2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_kill2"
+"origin" "-1132 11368 144"
+"classname" "target_kill"
+}
+{
+"model" "*10"
+"wait" "-1"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90"
+"targetname" "t3"
+"origin" "-3220 11496 140"
+"classname" "target_checkpoint"
+}
+{
+"model" "*11"
+"target" "target_stopTimer2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer2"
+"origin" "-5605 12082 92"
+"classname" "target_stopTimer"
+}
+{
+"origin" "-2723 9729 168"
+"targetname" "t50sadfg2"
+"target" "t8"
+"classname" "target_teleporter"
+}
+{
+"model" "*12"
+"target" "t50sadfg2"
+"lip" "3000"
+"wait" ".01"
+"speed" "5000"
+"angle" "-2"
+"health" "1"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"message" "/respawnpoint set"
+"targetname" "target_print3"
+"origin" "-3088 9606 204"
+"classname" "target_print"
+}
+{
+"model" "*13"
+"target" "target_print3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t11"
+"origin" "-3124 9606 222"
+"classname" "target_position"
+}
+{
+"model" "*14"
+"wait" "-1"
+"target" "t10"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90"
+"targetname" "t10"
+"origin" "-2160 14416 140"
+"classname" "target_checkpoint"
+}
+{
+"target" "target_give2"
+"origin" "-3124 9668 56"
+"classname" "team_CTF_bluespawn"
+}
