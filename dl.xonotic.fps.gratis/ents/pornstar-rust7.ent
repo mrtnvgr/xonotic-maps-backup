@@ -1,0 +1,102 @@
+{
+"_ambient" "3"
+"_blocksize" "4096"
+"message" "^3Made By Pornstar"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "-96 1824 -40"
+"classname" "info_player_start"
+}
+{
+"targetname" "t5"
+"count" "200"
+"origin" "1344 -640 -1944"
+"classname" "weapon_rocketlauncher"
+}
+{
+"target" "t5"
+"targetname" "t4"
+"origin" "1264 -616 -1952"
+"classname" "target_give"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"classname" "item_enviro"
+"origin" "1408 -712 -1888"
+"spawnflags" "1"
+"count" "999"
+"targetname" "t5"
+}
+{
+"targetname" "t5"
+"count" "999"
+"spawnflags" "1"
+"origin" "1344 -576 -1984"
+"classname" "item_haste"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-14104 -768 -336"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-9080 -608 -304"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*3"
+}
+{
+"targetname" "t13"
+"origin" "-4344 -608 -752"
+"classname" "target_checkpoint"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-312 -608 -2224"
+"targetname" "t14"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"model" "*5"
+}
+{
+"targetname" "t15"
+"origin" "1032 -608 144"
+"classname" "target_checkpoint"
+}
+{
+"target" "t15"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"classname" "target_startTimer"
+"origin" "-80 1520 -8"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*7"
+}
