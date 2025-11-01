@@ -1,0 +1,117 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_stopTimer"
+"origin" "25448 -2400 -1336"
+"angle" "-2.64777"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-448 -64 96"
+"targetname" "t1"
+}
+{
+"classname" "info_player_start"
+"origin" "-494 -60 34"
+}
+{
+"classname" "trigger_hurt"
+"targetname" "trigger_hurt1"
+"dmg" "400"
+"model" "*2"
+}
+{
+"classname" "target_kill"
+"target" "trigger_hurt1"
+"origin" "-352 -48 200"
+}
+{
+"classname" "target_kill"
+"targetname" "target_kill1"
+"origin" "4912 -56 152"
+}
+{
+"classname" "trigger_hurt"
+"target" "target_kill1"
+"dmg" "400"
+"model" "*3"
+}
+{
+"classname" "target_kill"
+"target" "trigger_hurt2"
+"origin" "6856 -64 168"
+}
+{
+"classname" "trigger_hurt"
+"targetname" "trigger_hurt2"
+"dmg" "400"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*5"
+}
+{
+"classname" "target_kill"
+"origin" "11840 0 -1232"
+"target" "trigger_hurt3"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "400"
+"targetname" "trigger_hurt3"
+"model" "*6"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "22536 -2568 -1210"
+"count" "15"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "22536 -2184 -1210"
+"count" "15"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "24045 162 -1210"
+"count" "1"
+}
+{
+"classname" "item_health"
+"origin" "23689 -1142 -1510"
+"count" "45"
+}
+{
+"classname" "item_health"
+"origin" "23685 -1402 -1510"
+"count" "45"
+}
+{
+"classname" "item_health"
+"origin" "23687 -1652 -1510"
+"count" "45"
+}
+{
+"classname" "trigger_teleport"
+"target" "info_player_deathmatch1"
+"model" "*7"
+}
+{
+"classname" "info_player_intermission"
+"origin" "18712 -14 -1184"
+"targetname" "info_player_deathmatch1"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "22536 -2376 -1210"
+"count" "15"
+}
