@@ -1,0 +1,985 @@
+{
+"gridsize" "112 112 160"
+"_q3map2_version" "2.5.17n-git-2b06fe2"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4; -vis -saveprt; -light -fast -randomsamples -samples 4 -lightmapsize 512"
+"_blocksize" "2048 2048 2048"
+"_ambient" "15"
+"classname" "worldspawn"
+}
+{
+"target" "trigger_race_checkpoint1"
+"angle" "180.000000"
+"origin" "192.000000 -64.000000 192.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*1"
+"cnt" "0"
+"targetname" "trigger_race_checkpoint1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint2"
+"angle" "180.000000"
+"origin" "128.000000 3328.000000 192.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*2"
+"cnt" "1"
+"targetname" "trigger_race_checkpoint2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint3"
+"angle" "180.000000"
+"origin" "-3632.000000 3072.000000 0.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*3"
+"cnt" "2"
+"targetname" "trigger_race_checkpoint3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint4"
+"angle" "-90.000000"
+"origin" "-11264.000000 3536.000000 -2048.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*4"
+"cnt" "3"
+"targetname" "trigger_race_checkpoint4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint5"
+"origin" "-10192.000000 -6656.000000 -1664.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*5"
+"cnt" "4"
+"targetname" "trigger_race_checkpoint5"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint6"
+"origin" "-976.000000 -6656.000000 -1664.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*6"
+"cnt" "5"
+"targetname" "trigger_race_checkpoint6"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "-90.000000"
+"target" "trigger_race_checkpoint7"
+"origin" "-11136.000000 -8048.000000 -1088.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*7"
+"cnt" "6"
+"targetname" "trigger_race_checkpoint7"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "90.000000"
+"target" "trigger_race_checkpoint8"
+"origin" "-5376.000000 -7568.000000 -576.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*8"
+"cnt" "7"
+"targetname" "trigger_race_checkpoint8"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "180.000000"
+"target" "trigger_race_checkpoint9"
+"origin" "-4864.000000 -4032.000000 -480.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*9"
+"spawnflags" "1"
+"cnt" "8"
+"targetname" "trigger_race_checkpoint9"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*10"
+"target" "push1"
+"classname" "trigger_push"
+}
+{
+"target" "trigger_race_checkpoint9"
+"targetname" "push1"
+"origin" "-3840.000000 3072.000000 1472.000000"
+"classname" "target_position"
+}
+{
+"angle" "90.000000"
+"target" "trigger_race_checkpoint10"
+"origin" "-3840.000000 2624.000000 1184.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*11"
+"cnt" "9"
+"targetname" "trigger_race_checkpoint10"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*12"
+"spawnflags" "8"
+"cnt" "10"
+"targetname" "trigger_race_checkpoint11"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*13"
+"target" "bigpadfall"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "bigpadfall"
+"speed" "800"
+"angle" "180.000000"
+"origin" "-2496.000000 3328.000000 0.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*14"
+"target" "1stjump"
+"classname" "trigger_teleport"
+}
+{
+"speed" "800"
+"targetname" "1stjump"
+"origin" "-4320.000000 -6656.000000 -1664.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*15"
+"target" "roof"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "roof"
+"speed" "400"
+"angle" "180.000000"
+"origin" "-768.000000 -6016.000000 -1280.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*16"
+"target" "roof"
+"classname" "trigger_teleport"
+}
+{
+"angle" "-90.000000"
+"speed" "900"
+"targetname" "pads"
+"origin" "-11136.000000 -7808.000000 -1088.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*17"
+"target" "pads"
+"classname" "trigger_teleport"
+}
+{
+"model" "*18"
+"target" "turn"
+"classname" "trigger_teleport"
+}
+{
+"model" "*19"
+"target" "turn"
+"classname" "trigger_teleport"
+}
+{
+"speed" "700"
+"targetname" "turn"
+"angle" "90.000000"
+"origin" "-5376.000000 -7648.000000 -576.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*20"
+"target" "turn"
+"classname" "trigger_teleport"
+}
+{
+"model" "*21"
+"target" "finish"
+"classname" "trigger_teleport"
+}
+{
+"speed" "1000"
+"targetname" "finish"
+"origin" "-3456.000000 3072.000000 640.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "trigger_race_checkpoint11"
+"angle" "-90.000000"
+"origin" "0.000000 512.000000 640.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*22"
+"target" "pads"
+"classname" "trigger_teleport"
+}
+{
+"model" "*23"
+"classname" "func_ladder"
+}
+{
+"model" "*24"
+"target" "roof"
+"classname" "trigger_teleport"
+}
+{
+"model" "*25"
+"target" "turn"
+"classname" "trigger_teleport"
+}
+{
+"loddistance1" "800"
+"angle" "-135.000015"
+"model" "models/lights/xonlight01.md3"
+"origin" "109.490433 3434.509766 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-3392.000000 3248.000000 128.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-3392.000000 2992.000000 128.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-319.999969 3456.000000 317.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-319.999969 3200.000000 317.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-831.999939 3456.000000 271.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-831.999939 3200.000000 271.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1343.999878 3456.000000 225.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1343.999878 3200.000000 225.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2368.000000 3456.000000 133.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2368.000000 3200.000000 133.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "-135.000015"
+"model" "models/lights/xonlight01.md3"
+"origin" "-146.509964 3186.509766 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2880.000000 3376.000000 128.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2880.000000 3120.000000 128.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1856.000122 3456.000000 179.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1856.000122 3200.000000 179.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-3904.000000 3200.000000 128.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-3904.000000 2944.000000 128.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "-180.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-128.000000 -64.000008 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-180.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "128.000000 -63.999996 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-128.000000 448.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "128.000000 448.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-128.000000 960.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "128.000000 960.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-128.000000 1472.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "128.000000 1472.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-128.000000 1984.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "128.000000 1984.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-128.000000 2496.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "128.000000 2496.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"lodmodel1" "models/mapobjects/lights/light01_lod.md3"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-128.000000 3008.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "128.000000 3008.000000 320.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-9536.000977 -6783.998535 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-9536.000977 -6527.998535 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-9024.000977 -6783.998535 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-9024.000977 -6527.998535 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-8512.000977 -6783.998535 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-8512.000977 -6527.998535 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-960.001099 -6783.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-960.001038 -6527.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2880.001221 -6783.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-89.999992"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2880.001221 -6527.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-3328.001221 -6791.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-3328.001221 -6535.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-3776.001221 -6791.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-3776.001221 -6535.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-5696.000977 -6783.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-5696.000977 -6527.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-6144.000977 -6783.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-6144.000977 -6527.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-6592.000977 -6783.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-90.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-6592.000977 -6527.999023 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-180.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1279.999878 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-180.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1279.999878 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-180.000000"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1279.999878 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1527.999878 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1527.999878 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1527.999878 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1791.999878 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1791.999878 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-1791.999878 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2047.999878 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2047.999878 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2047.999878 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2304.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2304.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2304.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2560.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2560.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-2560.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4096.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4096.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4096.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4352.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4352.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4352.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4608.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4608.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4864.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-4864.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-5120.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-5120.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-5120.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-5376.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-5376.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-5376.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-6912.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-6912.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-6912.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7168.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7168.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7168.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7424.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7424.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7680.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7680.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7936.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7936.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-7936.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-8192.000000 -6144.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-8192.000000 -6656.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
+{
+"loddistance1" "800"
+"angle" "-179.999985"
+"model" "models/lights/xonlight01.md3"
+"origin" "-8192.000000 -7168.000000 -1536.000000"
+"classname" "misc_gamemodel"
+}
