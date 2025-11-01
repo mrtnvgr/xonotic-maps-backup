@@ -1,0 +1,122 @@
+{
+"classname" "worldspawn"
+"angle" "180"
+"lip" "0"
+"team" "door1"
+"wait" "5"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"wait" "2"
+"team" "door1"
+"lip" "0"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"wait" "2"
+"team" "door1"
+"lip" "0"
+"model" "*2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 176 -104"
+"angle" "90"
+"target" "target_give2"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"lip" "0"
+"wait" "2"
+"team" "door1"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"wait" "2"
+"angle" "180"
+"lip" "0"
+"team" "door1"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"lip" "0"
+"wait" "2"
+"team" "door1"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"lip" "0"
+"wait" "2"
+"team" "door1"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_give1"
+"model" "*7"
+}
+{
+"classname" "target_give"
+"origin" "-64 1656 -32"
+"target" "weapon_rocketlauncher1"
+"targetname" "target_give1"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-184 1736 -32"
+"targetname" "weapon_rocketlauncher1"
+"count" "1"
+}
+{
+"classname" "target_give"
+"origin" "160 200 -32"
+"target" "item_enviro1"
+"targetname" "target_give2"
+}
+{
+"classname" "item_enviro"
+"origin" "216 304 -32"
+"targetname" "item_enviro1"
+"count" "666"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*8"
+}
+{
+"classname" "target_startTimer"
+"origin" "0 408 -32"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "0 -608 -168"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*10"
+}
+{
+"classname" "target_stopTimer"
+"origin" "0 -7192 16"
+"targetname" "target_stopTimer1"
+}
