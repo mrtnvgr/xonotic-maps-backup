@@ -1,0 +1,139 @@
+{
+"classname" "worldspawn"
+"ambient" "25"
+}
+{
+"angle" "360"
+"origin" "-1224 -1944 600"
+"classname" "info_player_start"
+}
+{
+"angle" "180"
+"targetname" "tele1"
+"origin" "-264 3592 -328"
+"classname" "target_teleporter"
+}
+{
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"target" "tele1"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t3"
+"origin" "2368 4904 -328"
+"classname" "target_checkpoint"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-296 4456 176"
+"targetname" "t4"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t5"
+"origin" "-288 3672 48"
+"classname" "target_checkpoint"
+}
+{
+"random" "-1"
+"wait" "-1"
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t6"
+"origin" "-1072 -1824 632"
+"classname" "target_startTimer"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*9"
+}
+{
+"targetname" "t7"
+"origin" "4720 5472 -384"
+"classname" "target_stopTimer"
+}
+{
+"target" "t8"
+"classname" "trigger_teleport"
+"wait" "9999"
+"model" "*10"
+}
+{
+"targetname" "t8"
+"origin" "-1160 3960 112"
+"classname" "target_teleporter"
+"angle" "360"
+}
+{
+"classname" "target_teleporter"
+"origin" "2392 5696 -376"
+"targetname" "tele3"
+"angle" "270"
+}
+{
+"target" "tele3"
+"classname" "trigger_teleport"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*12"
+}
+{
+"wait" "12"
+"random" "-1"
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*13"
+}
+{
+"classname" "target_speaker"
+"origin" "-552 3904 424"
+"noise" "sound/world/button_zap"
+"targetname" "t10"
+"spawnflags" "8"
+}
+{
+"random" "-1"
+"wait" "12"
+"target" "screech1_sound"
+"classname" "trigger_multiple"
+"model" "*14"
+}
+{
+"targetname" "screech1_sound"
+"origin" "1864 5192 -392"
+"classname" "target_speaker"
+"noise" "sound/world/screech1"
+"spawnflags" "8"
+}
