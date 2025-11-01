@@ -1,0 +1,44 @@
+{
+"message" "First map by S4T4N"
+"gridsize" "215,160,000,000,000"
+"_blocksize" "4096"
+"_lightmapscale" "0.3"
+"ambient" "15"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "211 -214 144"
+}
+{
+"classname" "target_startTimer"
+"origin" "224 408 168"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"target" "t6"
+"noise" "pak0/sound/feedback/accuracy.wav"
+"targetname" "t4"
+"origin" "6772 4028 220"
+"classname" "target_stopTimer"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t5"
+"origin" "209 -214 127"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t5"
+"classname" "trigger_teleport"
+"model" "*3"
+}
