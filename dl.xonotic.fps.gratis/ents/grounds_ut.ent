@@ -1,0 +1,139 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"classname" "func_breakable"
+"type" "0"
+"health" "5"
+"model" "*1"
+}
+{
+"classname" "func_breakable"
+"health" "5"
+"type" "0"
+"model" "*2"
+}
+{
+"classname" "func_breakable"
+"type" "0"
+"health" "5"
+"model" "*3"
+}
+{
+"classname" "trigger_push"
+"model" "*4"
+}
+{
+"classname" "info_player_start"
+"origin" "-1041.599976 501.549988 -898.799988"
+}
+{
+"classname" "info_player_start"
+"origin" "213.661011 -184.449997 -27.299999"
+}
+{
+"classname" "info_player_start"
+"origin" "-2394.013916 -58.625000 -27.299999"
+}
+{
+"classname" "trigger_push"
+"targetname" "trigger_push2"
+"model" "*5"
+}
+{
+"classname" "target_position"
+"origin" "689.149963 296.449982 4.900000"
+"angle" "180"
+"target" "trigger_push2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2783.031982 207.199997 175.524994"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"targetname" "trigger_teleport1"
+"model" "*7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "453.424988 -140.524994 176.750000"
+"angle" "180"
+"target" "trigger_teleport1"
+}
+{
+"classname" "trigger_push"
+"target" "trigger_push5"
+"model" "*8"
+}
+{
+"classname" "trigger_push"
+"target" "trigger_push1"
+"model" "*9"
+}
+{
+"classname" "target_push"
+"origin" "-1469.117920 56.007000 -315.875000"
+"angle" "180"
+"targetname" "trigger_push1"
+}
+{
+"classname" "target_push"
+"origin" "-764.224976 56.000000 -303.100006"
+"targetname" "trigger_push5"
+}
+{
+"classname" "func_bobbing"
+"speed" "10"
+"height" "354.199982"
+"phase" "0.75"
+"model" "*10"
+}
+{
+"classname" "misc_portal_surface"
+"origin" "-2528.582031 59.149998 141.050003"
+"target" "cam3"
+}
+{
+"classname" "misc_portal_camera"
+"origin" "-600.578979 -275.904999 -551.737183"
+"angle" "34.5119"
+"target" "cam4"
+"targetname" "cam3"
+"roll" "180"
+}
+{
+"classname" "info_notnull"
+"origin" "-513.769165 -205.337997 -603.269836"
+"angle" "34.5119"
+"targetname" "cam4"
+}
+{
+"classname" "info_notnull"
+"origin" "-1806.895996 278.080597 -613.100586"
+"angle" "-158.535"
+"targetname" "camview3"
+}
+{
+"classname" "misc_portal_camera"
+"origin" "-1701.517944 323.909607 -554.860596"
+"angle" "-158.535"
+"targetname" "camview1"
+"target" "camview3"
+"roll" "180"
+}
+{
+"classname" "misc_portal_surface"
+"origin" "249.024994 -5.950000 153.649994"
+"target" "camview1"
+"angle" "180"
+}
