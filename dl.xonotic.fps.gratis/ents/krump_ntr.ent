@@ -1,0 +1,173 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_kill"
+"origin" "656 30 390"
+"targetname" "t1"
+}
+{
+"classname" "info_player_start"
+"origin" "528 -112 288"
+}
+{
+"wait" "-1"
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "784 352 368"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"wait" "-1"
+"model" "*3"
+}
+{
+"classname" "target_give"
+"origin" "672 1248 384"
+"targetname" "t3"
+"target" "t4"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "672 1312 432"
+"count" "2"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"wait" "-1"
+"model" "*6"
+}
+{
+"classname" "target_give"
+"origin" "648 -1984 128"
+"target" "t5"
+"targetname" "t6"
+}
+{
+"classname" "item_health_mega"
+"origin" "648 -1952 176"
+"targetname" "t5"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "648 -2000 208"
+"targetname" "t5"
+"count" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*7"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"spawnflags" "2"
+"targetname" "t7"
+"origin" "600 2168 920"
+"classname" "target_init"
+}
+{
+"speed" "999"
+"angle" "-2"
+"health" "1"
+"wait" "-1"
+"classname" "func_button"
+"model" "*9"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "t8"
+"origin" "-224 6304 80"
+"classname" "target_stopTimer"
+}
+{
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "t9"
+"origin" "656 2096 448"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*12"
+}
+{
+"classname" "target_checkpoint"
+"origin" "656 800 912"
+"targetname" "t10"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*13"
+}
+{
+"targetname" "t11"
+"origin" "656 -2032 96"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*14"
+}
+{
+"classname" "target_checkpoint"
+"origin" "880 1072 -336"
+"targetname" "t12"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*15"
+}
+{
+"targetname" "t13"
+"origin" "880 3104 -16"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"model" "*16"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-224 4560 -16"
+"targetname" "t14"
+}
