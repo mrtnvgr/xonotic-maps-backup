@@ -1,0 +1,297 @@
+{
+"message" "^1The ^3runrun"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-384 -64 96"
+}
+{
+"classname" "target_position"
+"origin" "-384 64 96"
+"angle" "360"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_give"
+"origin" "1632 -2848 320"
+"targetname" "t2"
+"target" "t3"
+}
+{
+"classname" "item_enviro"
+"origin" "1600 -2784 320"
+"count" "20"
+"targetname" "t3"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "1728 -2784 320"
+"count" "100"
+"targetname" "t3"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "1680 -3904 288"
+"count" "1"
+"wait" "10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"wait" "30"
+"model" "*2"
+}
+{
+"targetname" "t4"
+"angle" "270"
+"origin" "96 -608 1536"
+"classname" "target_position"
+}
+{
+"target" "t4"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"target" "t4"
+"classname" "trigger_teleport"
+"model" "*4"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "96 -9728 1280"
+"wait" "20"
+"count" "1"
+}
+{
+"classname" "item_health_mega"
+"origin" "96 -8992 1280"
+"count" "200"
+"wait" "20"
+}
+{
+"classname" "item_armor_combat"
+"origin" "96 -8352 1280"
+"count" "200"
+"wait" "20"
+}
+{
+"classname" "item_invis"
+"origin" "96 -7712 1280"
+"wait" "20"
+"count" "10"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"targetname" "t5"
+"model" "*5"
+}
+{
+"classname" "func_button"
+"target" "t5"
+"angle" "360"
+"wait" "10"
+"model" "*6"
+}
+{
+"classname" "item_health_mega"
+"origin" "-640 -9728 1888"
+"count" "200"
+"wait" "20"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "10000"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "10000"
+"model" "*8"
+}
+{
+"classname" "target_position"
+"origin" "-2528 -9664 -640"
+"targetname" "t6"
+}
+{
+"classname" "trigger_push"
+"target" "t6"
+"model" "*9"
+}
+{
+"classname" "target_give"
+"origin" "-2720 -9728 -576"
+"targetname" "t8"
+"target" "t9"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-2720 -9600 -576"
+"count" "10"
+"targetname" "t9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"wait" "30"
+"model" "*10"
+}
+{
+"classname" "target_give"
+"origin" "-3584 -9728 -576"
+"targetname" "t10"
+"target" "t11"
+}
+{
+"classname" "item_enviro"
+"origin" "-3584 -9600 -576"
+"count" "30"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"wait" "30"
+"model" "*11"
+}
+{
+"count" "200"
+"wait" "30"
+"origin" "-1456 -9708 2808"
+"classname" "item_health_mega"
+}
+{
+"classname" "target_position"
+"origin" "-1152 -192 896"
+"angle" "270"
+"targetname" "t12"
+}
+{
+"classname" "trigger_teleport"
+"target" "t12"
+"model" "*12"
+}
+{
+"classname" "trigger_teleport"
+"target" "t12"
+"model" "*13"
+}
+{
+"classname" "trigger_teleport"
+"target" "t12"
+"model" "*14"
+}
+{
+"classname" "target_position"
+"origin" "-1152 928 1344"
+"angle" "270"
+"targetname" "t13"
+}
+{
+"classname" "trigger_teleport"
+"target" "t13"
+"model" "*15"
+}
+{
+"classname" "target_give"
+"origin" "-1152 472 1344"
+"targetname" "t14"
+"target" "t15"
+}
+{
+"classname" "item_enviro"
+"origin" "-1216 464 1344"
+"count" "50"
+"targetname" "t15"
+}
+{
+"classname" "item_haste"
+"origin" "-1216 408 1344"
+"count" "10"
+"targetname" "t15"
+}
+{
+"classname" "ammo_cells"
+"origin" "-1152 208 1272"
+"count" "200"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"wait" "20"
+"model" "*16"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-3440 736 880"
+"targetname" "t16"
+}
+{
+"classname" "trigger_multiple"
+"target" "t16"
+"model" "*17"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1152 576 1344"
+"targetname" "t17"
+}
+{
+"classname" "trigger_multiple"
+"target" "t17"
+"model" "*18"
+}
+{
+"classname" "target_checkpoint"
+"origin" "112 -7024 1376"
+"targetname" "t18"
+}
+{
+"classname" "trigger_multiple"
+"target" "t18"
+"model" "*19"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1824 -9680 400"
+"targetname" "t19"
+}
+{
+"classname" "trigger_multiple"
+"target" "t19"
+"model" "*20"
+}
+{
+"classname" "target_print"
+"origin" "-272 64 208"
+"spawnflags" "4"
+"message" "made for Linear,ry,Asterix, by *THd*BlakDragon"
+"targetname" "t20"
+}
+{
+"classname" "trigger_multiple"
+"target" "t20"
+"wait" "-1"
+"model" "*21"
+}
+{
+"classname" "target_startTimer"
+"origin" "-64 -96 256"
+"targetname" "t21"
+}
+{
+"classname" "trigger_multiple"
+"target" "t21"
+"wait" "100"
+"model" "*22"
+}
