@@ -1,0 +1,4436 @@
+{
+"_q3map2_version" "2.5.17n-git-06afddf"
+"_q3map2_cmdline" "-bsp -meta -maxarea -samplesize 8 -mv 1000000 -mi 6000000 -metaadequatescore 99999 -metamaxbboxdistance 16 -np 0.1 -nosrgbtex -nosrgbcolor; -vis; -light -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill -bounce 8 -dirtscale 2 -bouncescale 1.15 -exposure 150 -areascale 1.25 -pointscale 1.4 -nosrgbtex -nosrgbcolor -nosrgblight"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a1"
+"angle" "180"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a1"
+"speed" "275"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_b1"
+"angle" "180"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_b1"
+"speed" "275"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a2"
+"angle" "270"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a2"
+"speed" "275"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a5"
+"angle" "180"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a5"
+"speed" "275"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"target" "door_a1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"target" "door_b1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"target" "door_a2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"target" "door_a5"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-2652.000000 1152.000000 80.000000"
+"classname" "item_armor_medium"
+}
+{
+"model" "*13"
+"targetname" "locker_1"
+"wait" "1"
+"lip" "32"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "-2656.000000 1184.000000 72.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-2656.000000 1120.000000 72.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*14"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_b2"
+"angle" "90"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*15"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_b2"
+"speed" "275"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*16"
+"target" "door_b2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*17"
+"origin" "-3136.000000 0.000000 136.000000"
+"targetname" "elevator_a1"
+"sounds" "1"
+"speed" "250"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*18"
+"origin" "-3136.000000 0.000000 152.000000"
+"targetname" "elevator_a1"
+"sounds" "1"
+"speed" "250"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*19"
+"origin" "-3136.000000 0.000000 472.000000"
+"targetname" "elevator_a2"
+"sounds" "1"
+"speed" "250"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*20"
+"origin" "-3136.000000 0.000000 488.000000"
+"targetname" "elevator_a2"
+"sounds" "1"
+"speed" "250"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*21"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_c1"
+"angle" "270"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*22"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_c1"
+"speed" "275"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*23"
+"target" "door_c1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*24"
+"speed" "2"
+"height" "32"
+"classname" "func_bobbing"
+}
+{
+"model" "*25"
+"speed" "4"
+"height" "32"
+"classname" "func_bobbing"
+}
+{
+"model" "*26"
+"speed" "8"
+"height" "32"
+"classname" "func_bobbing"
+}
+{
+"model" "*27"
+"target" "tele_1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "tele_1"
+"origin" "-4480.000000 0.000000 112.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*28"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a3"
+"angle" "180"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*29"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a3"
+"speed" "275"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*30"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_b3"
+"angle" "180"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*31"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_b3"
+"speed" "275"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*32"
+"target" "door_a3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*33"
+"target" "door_b3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*34"
+"target" "locker_1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*35"
+"target" "elevator_a1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*36"
+"target" "elevator_a2"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90.000000"
+"origin" "-2000.000000 432.000000 -80.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*37"
+"targetname" "locker_2"
+"wait" "1"
+"lip" "32"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*38"
+"target" "locker_2"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90.000000"
+"origin" "-2200.000000 360.000000 472.000000"
+"classname" "item_cells"
+}
+{
+"angle" "-90.000000"
+"origin" "-2248.000000 360.000000 472.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "-135.000000"
+"origin" "-3312.000000 143.999985 80.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "135.000000"
+"origin" "-3312.000000 -144.000122 80.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "135.000000"
+"origin" "-3376.000000 -207.999969 80.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "-135.000000"
+"origin" "-3376.000000 207.999985 80.000000"
+"classname" "item_cells"
+}
+{
+"origin" "-4864.000000 0.000000 -64.000000"
+"classname" "weapon_electro"
+}
+{
+"angle" "135.000000"
+"origin" "-4608.000000 96.000023 -64.000000"
+"classname" "item_shells"
+}
+{
+"angle" "-135.000000"
+"origin" "-4608.000000 -96.000023 -64.000000"
+"classname" "item_bullets"
+}
+{
+"team" "1"
+"origin" "-2800.000000 0.000000 -112.000000"
+"classname" "item_health_mega"
+}
+{
+"team" "1"
+"origin" "-2800.000000 0.000000 -112.000000"
+"classname" "item_armor_large"
+}
+{
+"origin" "-2032.000000 0.000000 -112.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"angle" "90.000000"
+"origin" "-2000.000000 -432.000000 -80.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-3168.000000 -1152.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-3168.000000 -1184.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-3136.000000 -1152.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-3200.000000 -1152.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-3168.000000 -1120.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "-3168.000000 1088.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "-3136.000000 1088.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "-3200.000000 1088.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-3008.000000 -224.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-3008.000000 -192.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-2976.000000 -224.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-3008.000000 224.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-3008.000000 192.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-2976.000000 224.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "0.000001"
+"origin" "-4928.000000 0.000000 -16.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-4448.000000 0.000000 112.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "-2624.000000 448.000000 448.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "-2624.000000 -448.000000 448.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "-2800.000000 -1104.000000 48.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90.000000"
+"origin" "-2800.000000 1104.000000 48.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*39"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a4"
+"angle" "270"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*40"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a4"
+"speed" "275"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*41"
+"target" "door_a4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*42"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_b4"
+"angle" "90"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*43"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_b4"
+"speed" "275"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*44"
+"target" "door_b4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*45"
+"target" "airlock_b1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*46"
+"origin" "-1048.000000 -736.000000 72.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_b1"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*47"
+"origin" "-1048.000000 -736.000000 88.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_b1"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*48"
+"origin" "-1048.000000 -736.000000 200.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_b1"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*49"
+"origin" "-1048.000000 -736.000000 216.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_b1"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*50"
+"target" "airlock_a2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*51"
+"origin" "-1816.000000 736.000000 72.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_a2"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*52"
+"origin" "-1816.000000 736.000000 88.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_a2"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*53"
+"origin" "-1816.000000 736.000000 200.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_a2"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*54"
+"origin" "-1816.000000 736.000000 216.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_a2"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"origin" "-304.000000 1168.000000 360.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "304.000000 -1168.000000 360.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180.000000"
+"origin" "-880.000000 -1136.000000 64.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "180.000000"
+"origin" "-816.000000 -1200.000000 64.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "544.000000 -768.000000 48.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"angle" "-90.000000"
+"origin" "-544.000000 -416.000000 64.000000"
+"classname" "item_armor_medium"
+}
+{
+"angle" "-90.000000"
+"origin" "-544.000000 -352.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-608.000000 -416.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "90.000000"
+"origin" "544.000000 416.000000 64.000000"
+"classname" "item_armor_medium"
+}
+{
+"angle" "90.000000"
+"origin" "544.000000 352.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "90.000000"
+"origin" "608.000000 416.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-576.000000 -416.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-544.000000 -384.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "90.000000"
+"origin" "544.000000 384.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "90.000000"
+"origin" "576.000000 416.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-848.000000 -320.000000 112.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*55"
+"spawnflags" "4"
+"impulse" "-1.25"
+"mdl" "red_smoke"
+"classname" "func_pointparticles"
+}
+{
+"model" "*56"
+"spawnflags" "4"
+"impulse" "-0.21"
+"mdl" "red_smoke"
+"classname" "func_pointparticles"
+}
+{
+"model" "*57"
+"spawnflags" "4"
+"impulse" "-0.56"
+"mdl" "red_smoke"
+"classname" "func_pointparticles"
+}
+{
+"model" "*58"
+"spawnflags" "4"
+"impulse" "-1.25"
+"mdl" "red_smoke"
+"classname" "func_pointparticles"
+}
+{
+"model" "*59"
+"spawnflags" "4"
+"impulse" "-0.42"
+"mdl" "red_smoke"
+"classname" "func_pointparticles"
+}
+{
+"model" "*60"
+"spawnflags" "4"
+"impulse" "-0.83"
+"mdl" "red_smoke"
+"classname" "func_pointparticles"
+}
+{
+"model" "*61"
+"spawnflags" "4"
+"impulse" "-0.19"
+"mdl" "red_smoke"
+"classname" "func_pointparticles"
+}
+{
+"atten" "2"
+"noise" "sound/city/city_night_loop.wav"
+"origin" "160.000000 224.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "160.000000 -224.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "608.000000 -224.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "0.000000 512.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/city/city_night_loop.wav"
+"origin" "-512.000000 512.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/city/city_night_loop.wav"
+"origin" "384.000000 768.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "-384.000000 -768.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/city/city_night_loop.wav"
+"origin" "256.000000 -768.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/city/city_night_loop.wav"
+"origin" "768.000000 -768.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/city/city_night_loop.wav"
+"origin" "-448.000000 -384.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/machine1.ogg"
+"origin" "-4608.000000 0.000000 112.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "-3232.000000 0.000000 224.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "-2880.000000 1088.000000 272.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "-2240.000000 768.000000 544.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "-3584.000000 -640.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "-2752.000000 0.000000 0.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/machine1.ogg"
+"origin" "-2656.000000 1152.000000 136.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "90.000000"
+"noise" "sound/ambient/machine1.ogg"
+"origin" "-2224.000000 352.000000 488.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/city/city_night_loop.wav"
+"origin" "32.000000 -1088.000000 384.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "-32.000000 1088.000000 384.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "-960.000000 192.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/city/city_night_loop.wav"
+"origin" "1152.000000 -256.000000 128.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "2"
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "512.000000 -768.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "light_1"
+"origin" "-400.000000 -320.000000 128.000000"
+"classname" "target_position"
+}
+{
+"targetname" "light_3"
+"origin" "-400.000000 320.000000 128.000000"
+"classname" "target_position"
+}
+{
+"targetname" "light_6"
+"origin" "400.000000 -320.000000 128.000000"
+"classname" "target_position"
+}
+{
+"targetname" "light_8"
+"origin" "400.000000 320.000000 128.000000"
+"classname" "target_position"
+}
+{
+"model" "*62"
+"message2" "was thrown too low by"
+"message" "went too low"
+"dmg" "10"
+"classname" "trigger_hurt"
+}
+{
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "-1048.000000 -736.000000 144.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "-1816.000000 736.000000 144.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*63"
+"spawnflags" "4"
+"velocity" "-5 -7 -4"
+"mdl" "pipe_smoke"
+"targetname" "particle_1"
+"impulse" "65"
+"classname" "func_pointparticles"
+}
+{
+"wait" "5"
+"target" "particle_1"
+"origin" "-1504.000000 -608.000000 192.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"model" "*64"
+"spawnflags" "6"
+"velocity" "2 6 -6"
+"mdl" "pipe_smoke"
+"targetname" "particle_2"
+"impulse" "65"
+"classname" "func_pointparticles"
+}
+{
+"wait" "2"
+"target" "particle_2"
+"origin" "-1376.000000 -848.000000 192.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"atten" "3"
+"targetname" "particle_2"
+"noise" "sound/map_red_planet/steam_burst.wav"
+"origin" "-1376.000000 -896.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "0.000003"
+"atten" "3"
+"targetname" "particle_1"
+"noise" "sound/map_red_planet/steam_fade.ogg"
+"origin" "-1504.000000 -560.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*65"
+"spawnflags" "4"
+"velocity" "5 -7 -4"
+"mdl" "pipe_smoke"
+"impulse" "50"
+"classname" "func_pointparticles"
+}
+{
+"noise" "sound/map_red_planet/steam_loop.wav"
+"origin" "-2016.000000 912.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "90.000000"
+"origin" "-1952.000000 -932.000000 112.000000"
+"classname" "item_cells"
+}
+{
+"origin" "-1696.000000 -536.000000 112.000000"
+"classname" "weapon_crylink"
+}
+{
+"angle" "-179.999985"
+"origin" "1264.000000 -32.000000 64.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "-736.000000 320.000000 64.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "1168.000000 48.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1072.000000 112.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "976.000000 176.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1360.000000 -80.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1456.000000 -144.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1552.000000 -208.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-1360.000000 80.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1456.000000 144.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1552.000000 208.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1168.000000 -48.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-1072.000000 -112.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-976.000000 -176.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"noise" "sound/ambient/machine2.ogg"
+"origin" "-1216.000000 0.000000 544.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "-3040.000000 0.000000 576.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*66"
+"classname" "func_ladder"
+}
+{
+"targetname" "camera_1"
+"angles" "25.000000 -90.000000 0.000000"
+"origin" "0.000000 1204.000000 530.000000"
+"classname" "target_position"
+}
+{
+"model" "*67"
+"target" "camera_1"
+"classname" "func_camera"
+}
+{
+"angle" "-90.000000"
+"origin" "-2424.000000 -356.000000 416.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "-90.000000"
+"origin" "-2472.000000 -356.000000 416.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "-90.000000"
+"noise" "sound/ambient/machine1.ogg"
+"origin" "-2448.000000 -352.000000 488.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*68"
+"lip" "32"
+"wait" "1"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"targetname" "locker_3"
+"classname" "func_door"
+}
+{
+"model" "*69"
+"target" "locker_3"
+"classname" "trigger_multiple"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "-3584.000000 640.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*70"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"speed" "275"
+"angle" "180"
+"targetname" "door_c2"
+"classname" "func_door"
+}
+{
+"model" "*71"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"angle" "0"
+"targetname" "door_c2"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*72"
+"target" "door_c2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-1456.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1544.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1632.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1720.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1888.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1664.000000 768.000000 480.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-1752.000000 768.000000 480.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-1840.000000 768.000000 480.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-1928.000000 768.000000 480.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*73"
+"origin" "-2240.000000 -320.000000 120.000000"
+"targetname" "elevator_a3"
+"sounds" "1"
+"speed" "250"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*74"
+"origin" "-2240.000000 -320.000000 136.000000"
+"targetname" "elevator_a3"
+"sounds" "1"
+"speed" "250"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*75"
+"target" "elevator_a3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*76"
+"target" "elevator_a4"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90.000000"
+"noise" "sound/ambient/fan4.ogg"
+"origin" "-2240.000000 -416.000000 208.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*77"
+"speed" "250"
+"lip" "8"
+"classname" "func_plat"
+}
+{
+"model" "*78"
+"speed" "250"
+"lip" "8"
+"classname" "func_plat"
+}
+{
+"model" "*79"
+"origin" "-1016.000000 1024.000000 456.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_c1"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*80"
+"origin" "-1016.000000 1024.000000 472.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_c1"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*81"
+"origin" "-1016.000000 1024.000000 584.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_c1"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*82"
+"origin" "-1016.000000 1024.000000 600.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_c1"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*83"
+"target" "airlock_c1"
+"classname" "trigger_multiple"
+}
+{
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "-1016.000000 1024.000000 528.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "-67.000626"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "26.000244 1104.000122 68.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*84"
+"origin" "-2240.000000 -320.000000 456.000000"
+"targetname" "elevator_a4"
+"sounds" "1"
+"speed" "250"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*85"
+"origin" "-2240.000000 -320.000000 472.000000"
+"targetname" "elevator_a4"
+"sounds" "1"
+"speed" "250"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*86"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a6"
+"angle" "270"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*87"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a6"
+"speed" "275"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*88"
+"target" "door_a6"
+"classname" "trigger_multiple"
+}
+{
+"message" " has captured the frontal control point"
+"origin" "-4096.000000 0.000000 80.000000"
+"classname" "dom_controlpoint"
+}
+{
+"origin" "-3712.000000 0.000000 208.000000"
+"model" "models/domination/dom_unclaimed.md3"
+"classname" "dom_team"
+}
+{
+"origin" "-3712.000000 0.000000 176.000000"
+"model" "models/domination/dom_blue.md3"
+"message" "Blue Team has captured a control point"
+"noise1" "domination/claim.wav"
+"noise" "domination/claim.wav"
+"cnt" "13"
+"netname" "^4blue team^3"
+"classname" "dom_team"
+}
+{
+"origin" "-3712.000000 0.000000 144.000000"
+"model" "models/domination/dom_red.md3"
+"message" "Red Team has captured a control point"
+"noise1" "domination/claim.wav"
+"noise" "domination/claim.wav"
+"cnt" "4"
+"netname" "^1red team^3"
+"classname" "dom_team"
+}
+{
+"origin" "-3712.000000 0.000000 80.000000"
+"model" "models/domination/dom_pink.md3"
+"message" "Pink Team has captured a control point"
+"noise1" "domination/claim.wav"
+"noise" "domination/claim.wav"
+"cnt" "9"
+"netname" "^6pink team^3"
+"classname" "dom_team"
+}
+{
+"origin" "-3712.000000 0.000000 112.000000"
+"model" "models/domination/dom_yellow.md3"
+"message" "Yellow Team has captured a control point"
+"noise1" "domination/claim.wav"
+"noise" "domination/claim.wav"
+"cnt" "12"
+"netname" "^6yellow team^3"
+"classname" "dom_team"
+}
+{
+"message" " has captured the basement control point"
+"origin" "-2560.000000 0.000000 -96.000000"
+"classname" "dom_controlpoint"
+}
+{
+"message" " has captured the outside control point"
+"origin" "-64.000000 128.000000 128.000000"
+"classname" "dom_controlpoint"
+}
+{
+"model" "*89"
+"classname" "func_ladder"
+}
+{
+"model" "*90"
+"classname" "func_ladder"
+}
+{
+"model" "*91"
+"classname" "func_ladder"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-1300.000000 1174.000000 518.500000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-82.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-2188.000000 104.000000 -128.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "7.999384"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-2999.999756 -1151.999878 0.000000"
+"classname" "misc_gamemodel"
+}
+{
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-2432.000000 -1112.000000 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-2903.999023 -1147.999756 0.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angles" "7.056433 -40.258350 -3.697009"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "187.131973 -830.919434 -423.652985"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-20.000000"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "384.000000 -912.000000 -424.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angles" "-1.283400 29.961384 5.793532"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "254.880096 -764.450989 -423.807098"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-2291.999756 768.000122 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "1648.000244 -1151.999878 32.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-67.000626"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "1648.000244 -505.999878 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-2731.999756 -295.999878 416.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-90.000000"
+"origin" "640.000000 -1036.000000 455.000000"
+"classname" "item_shells"
+}
+{
+"angle" "7.999371"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-3192.000000 1168.000000 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"origin" "-2472.000000 -360.000000 472.000000"
+"classname" "item_shells"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-2291.999756 -751.999878 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"origin" "-1808.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-32.000000 1168.000000 320.000000"
+"classname" "weapon_uzi"
+}
+{
+"origin" "32.000000 -1168.000000 320.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "640.000000 -224.000000 48.000000"
+"classname" "item_cells"
+}
+{
+"angle" "-7.000606"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "647.999939 -975.999756 448.000000"
+"classname" "misc_gamemodel"
+}
+{
+"origin" "0.000000 512.000000 32.000000"
+"classname" "weapon_minelayer"
+}
+{
+"origin" "-3456.000000 0.000000 72.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "-2800.000000 -448.000000 416.000000"
+"classname" "weapon_sniperrifle"
+}
+{
+"origin" "-2424.000000 -360.000000 472.000000"
+"classname" "item_cells"
+}
+{
+"angle" "-82.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-3024.000000 1168.000000 0.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-45"
+"origin" "-2624.000000 224.000000 448.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "45.000000"
+"origin" "-2624.000000 -224.000000 448.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "-2112.000000 -192.000000 448.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "880.000000 1136.000000 64.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "816.000000 1200.000000 64.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "-2200.000000 356.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-2248.000000 356.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "7.999371"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-612.000000 980.000000 448.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-87.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "-1296.000000 1176.000000 448.000000"
+"classname" "misc_gamemodel"
+}
+{
+"origin" "-1216.000000 1176.000000 448.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "-1152.000000 1176.000000 448.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "90.000000"
+"origin" "-640.000000 1044.000000 455.000000"
+"classname" "item_shells"
+}
+{
+"origin" "-4736.000000 0.000000 -64.000000"
+"classname" "item_flag_team1"
+}
+{
+"angle" "179.999985"
+"origin" "-2096.000000 160.000000 448.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "-90.000000"
+"origin" "-2528.000000 336.000000 448.000000"
+"classname" "info_player_team1"
+}
+{
+"targetname" "camera_2"
+"angles" "25.000000 53.000000 0.000000"
+"origin" "-2112.000000 -898.000000 286.000000"
+"classname" "target_position"
+}
+{
+"model" "*92"
+"target" "camera_2"
+"classname" "func_camera"
+}
+{
+"origin" "-2720.000000 -96.000000 448.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "90.000000"
+"origin" "-2000.000000 -384.000000 -80.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "-90.000000"
+"origin" "-2000.000000 384.000000 -80.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "90.000000"
+"origin" "-2352.000000 -224.000000 448.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-2664.000000 1176.000000 120.000000"
+"classname" "weapon_hagar"
+}
+{
+"model" "*93"
+"origin" "-2888.000000 1040.000000 440.000000"
+"targetname" "func_rotating1"
+"speed" "-20"
+"classname" "func_rotating"
+}
+{
+"model" "*94"
+"origin" "-2888.000000 -1040.000000 440.000000"
+"targetname" "func_rotating2"
+"speed" "-20"
+"classname" "func_rotating"
+}
+{
+"origin" "-2664.000000 1128.000000 120.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "90.000000"
+"origin" "-2448.000000 -976.000000 64.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-2800.000000 448.000000 416.000000"
+"classname" "item_bullets"
+}
+{
+"model" "*95"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a7"
+"angle" "0"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*96"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a7"
+"speed" "275"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*97"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_b5"
+"angle" "0"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*98"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_b5"
+"speed" "275"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*99"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a8"
+"angle" "90"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*100"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a8"
+"speed" "275"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*101"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a11"
+"angle" "0"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*102"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a11"
+"speed" "275"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*103"
+"target" "door_a7"
+"classname" "trigger_multiple"
+}
+{
+"model" "*104"
+"target" "door_b5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*105"
+"target" "door_a8"
+"classname" "trigger_multiple"
+}
+{
+"model" "*106"
+"target" "door_a11"
+"classname" "trigger_multiple"
+}
+{
+"origin" "2652.000000 -1152.000000 80.000000"
+"classname" "item_armor_medium"
+}
+{
+"model" "*107"
+"targetname" "locker_4"
+"wait" "1"
+"lip" "32"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "2656.000000 -1184.000000 72.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2656.000000 -1120.000000 72.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*108"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_b6"
+"angle" "270"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*109"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_b6"
+"speed" "275"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*110"
+"target" "door_b6"
+"classname" "trigger_multiple"
+}
+{
+"model" "*111"
+"origin" "3136.000000 0.000000 136.000000"
+"targetname" "elevator_a5"
+"sounds" "1"
+"speed" "250"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*112"
+"origin" "3136.000000 0.000000 152.000000"
+"targetname" "elevator_a5"
+"sounds" "1"
+"speed" "250"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*113"
+"origin" "3136.000000 0.000000 472.000000"
+"targetname" "elevator_a6"
+"sounds" "1"
+"speed" "250"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*114"
+"origin" "3136.000000 0.000000 488.000000"
+"targetname" "elevator_a6"
+"sounds" "1"
+"speed" "250"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*115"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_c3"
+"angle" "90"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*116"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_c3"
+"speed" "275"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*117"
+"target" "door_c3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*118"
+"speed" "2"
+"height" "32"
+"classname" "func_bobbing"
+}
+{
+"model" "*119"
+"speed" "4"
+"height" "32"
+"classname" "func_bobbing"
+}
+{
+"model" "*120"
+"speed" "8"
+"height" "32"
+"classname" "func_bobbing"
+}
+{
+"model" "*121"
+"target" "tele_2"
+"classname" "trigger_teleport"
+}
+{
+"angle" "180.000000"
+"targetname" "tele_2"
+"origin" "4480.000000 0.000000 112.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*122"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a9"
+"angle" "0"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*123"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a9"
+"speed" "275"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*124"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_b7"
+"angle" "0"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*125"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_b7"
+"speed" "275"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*126"
+"target" "door_a9"
+"classname" "trigger_multiple"
+}
+{
+"model" "*127"
+"target" "door_b7"
+"classname" "trigger_multiple"
+}
+{
+"model" "*128"
+"target" "locker_4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*129"
+"target" "elevator_a5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*130"
+"target" "elevator_a6"
+"classname" "trigger_multiple"
+}
+{
+"model" "*131"
+"targetname" "locker_5"
+"wait" "1"
+"lip" "32"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*132"
+"target" "locker_5"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90.000000"
+"origin" "2200.000000 -360.000000 472.000000"
+"classname" "item_cells"
+}
+{
+"angle" "-90.000000"
+"origin" "2248.000000 -360.000000 472.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "-135.000000"
+"origin" "3312.000000 -144.000000 80.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "135.000000"
+"origin" "3312.000488 143.999268 80.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "135.000000"
+"origin" "3376.000000 207.999756 80.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "-135.000000"
+"origin" "3376.000000 -208.000000 80.000000"
+"classname" "item_cells"
+}
+{
+"origin" "4864.000000 0.000000 -64.000000"
+"classname" "weapon_electro"
+}
+{
+"angle" "-45.000000"
+"origin" "4607.999512 -96.000435 -64.000000"
+"classname" "item_shells"
+}
+{
+"angle" "45.000000"
+"origin" "4607.998535 96.000069 -64.000000"
+"classname" "item_bullets"
+}
+{
+"team" "1"
+"origin" "2800.000000 0.000000 -112.000000"
+"classname" "item_health_mega"
+}
+{
+"team" "1"
+"origin" "2800.000000 0.000000 -112.000000"
+"classname" "item_armor_large"
+}
+{
+"origin" "2032.000000 0.000000 -112.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "3168.000000 1152.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "3168.000000 1184.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "3136.000000 1152.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "3200.000000 1152.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "3168.000000 1120.000000 64.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "3168.000000 -1088.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "3136.000000 -1088.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "3200.000000 -1088.000000 64.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "3008.000000 224.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "3008.000000 192.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2976.000000 224.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "3008.000000 -224.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "3008.000000 -192.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2976.000000 -224.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*133"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a10"
+"angle" "90"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*134"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a10"
+"speed" "275"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*135"
+"target" "door_a10"
+"classname" "trigger_multiple"
+}
+{
+"model" "*136"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_b8"
+"angle" "270"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*137"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_b8"
+"speed" "275"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*138"
+"target" "door_b8"
+"classname" "trigger_multiple"
+}
+{
+"model" "*139"
+"gametypefilter" "teamspawns"
+"target" "airlock_b2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*140"
+"origin" "1048.000000 736.000000 72.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_b2"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*141"
+"origin" "1048.000000 736.000000 88.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_b2"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*142"
+"origin" "1048.000000 736.000000 200.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_b2"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*143"
+"origin" "1048.000000 736.000000 216.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_b2"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*144"
+"gametypefilter" "teamspawns"
+"target" "airlock_a1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*145"
+"origin" "1816.000000 -736.000000 72.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_a1"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*146"
+"origin" "1816.000000 -736.000000 88.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_a1"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*147"
+"origin" "1816.000000 -736.000000 200.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_a1"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*148"
+"origin" "1816.000000 -736.000000 216.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_a1"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"noise" "sound/ambient/machine1.ogg"
+"origin" "4608.000000 0.000000 112.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "3232.000000 0.000000 224.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "2880.000000 -1088.000000 272.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "2240.000000 -768.000000 544.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "3584.000000 640.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "2752.000000 0.000000 0.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/machine1.ogg"
+"origin" "2656.000000 -1152.000000 136.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "90.000000"
+"noise" "sound/ambient/machine1.ogg"
+"origin" "2224.000000 -352.000000 488.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "1048.000000 736.000000 144.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "1816.000000 -736.000000 144.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*149"
+"spawnflags" "4"
+"velocity" "0 -8 -3"
+"mdl" "pipe_smoke"
+"targetname" "particle_3"
+"impulse" "65"
+"classname" "func_pointparticles"
+}
+{
+"wait" "5"
+"target" "particle_3"
+"origin" "1888.000000 864.000000 192.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"model" "*150"
+"spawnflags" "6"
+"velocity" "2 6 -6"
+"mdl" "pipe_smoke"
+"targetname" "particle_4"
+"impulse" "65"
+"classname" "func_pointparticles"
+}
+{
+"wait" "2"
+"target" "particle_4"
+"origin" "2016.000000 -848.000000 192.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"atten" "3"
+"targetname" "particle_4"
+"noise" "sound/map_red_planet/steam_burst.wav"
+"origin" "2016.000000 -896.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "0.000003"
+"atten" "3"
+"targetname" "particle_3"
+"noise" "sound/map_red_planet/steam_fade.ogg"
+"origin" "1888.000000 912.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*151"
+"spawnflags" "4"
+"velocity" "3 5 2"
+"mdl" "pipe_smoke"
+"impulse" "50"
+"classname" "func_pointparticles"
+}
+{
+"noise" "sound/map_red_planet/steam_loop.wav"
+"origin" "1504.000000 560.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "90.000000"
+"origin" "1952.000000 932.000000 112.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1696.000000 536.000000 112.000000"
+"classname" "weapon_crylink"
+}
+{
+"noise" "sound/ambient/machine2.ogg"
+"origin" "1216.000000 0.000000 544.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "3040.000000 0.000000 576.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*152"
+"classname" "func_ladder"
+}
+{
+"model" "*153"
+"target" "camera_3"
+"classname" "func_camera"
+}
+{
+"angle" "-90.000000"
+"origin" "2424.000000 356.000000 416.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "-90.000000"
+"origin" "2472.000000 356.000000 416.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "-90.000000"
+"noise" "sound/ambient/machine1.ogg"
+"origin" "2448.000000 352.000000 488.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*154"
+"lip" "32"
+"wait" "1"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"targetname" "locker_6"
+"classname" "func_door"
+}
+{
+"model" "*155"
+"target" "locker_6"
+"classname" "trigger_multiple"
+}
+{
+"noise" "sound/ambient/fan4.ogg"
+"origin" "3584.000000 -640.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*156"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"speed" "275"
+"angle" "0"
+"targetname" "door_c4"
+"classname" "func_door"
+}
+{
+"model" "*157"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"angle" "180"
+"targetname" "door_c4"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*158"
+"target" "door_c4"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1456.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1544.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1632.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1720.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1888.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1664.000000 -768.000000 480.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1752.000000 -768.000000 480.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1840.000000 -768.000000 480.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1928.000000 -768.000000 480.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*159"
+"origin" "2240.000000 320.000000 120.000000"
+"targetname" "elevator_a7"
+"sounds" "1"
+"speed" "250"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*160"
+"origin" "2240.000000 320.000000 136.000000"
+"targetname" "elevator_a7"
+"sounds" "1"
+"speed" "250"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*161"
+"target" "elevator_a7"
+"classname" "trigger_multiple"
+}
+{
+"model" "*162"
+"target" "elevator_a8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90.000000"
+"noise" "sound/ambient/fan4.ogg"
+"origin" "2240.000000 416.000000 208.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*163"
+"speed" "250"
+"lip" "8"
+"classname" "func_plat"
+}
+{
+"model" "*164"
+"speed" "250"
+"lip" "8"
+"classname" "func_plat"
+}
+{
+"model" "*165"
+"origin" "1016.000000 -1024.000000 456.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_c2"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*166"
+"origin" "1016.000000 -1024.000000 472.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_c2"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*167"
+"origin" "1016.000000 -1024.000000 584.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_c2"
+"speed" "200"
+"sounds" "1"
+"angle" "45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*168"
+"origin" "1016.000000 -1024.000000 600.000000"
+"wait" "0.25"
+"spawnflags" "4"
+"targetname" "airlock_c2"
+"speed" "200"
+"sounds" "1"
+"angle" "-45"
+"classname" "func_door_rotating"
+}
+{
+"model" "*169"
+"gametypefilter" "teamspawns"
+"target" "airlock_c2"
+"classname" "trigger_multiple"
+}
+{
+"noise" "sound/ambient/demonwind01.ogg"
+"origin" "1016.000000 -1024.000000 528.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*170"
+"origin" "2240.000000 320.000000 456.000000"
+"targetname" "elevator_a8"
+"sounds" "1"
+"speed" "250"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*171"
+"origin" "2240.000000 320.000000 472.000000"
+"targetname" "elevator_a8"
+"sounds" "1"
+"speed" "250"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*172"
+"noise1" "sound/doors/pneumatic_door_open.ogg"
+"targetname" "door_a12"
+"angle" "90"
+"speed" "275"
+"classname" "func_door"
+}
+{
+"model" "*173"
+"noise2" "sound/doors/pneumatic_door_close.ogg"
+"targetname" "door_a12"
+"speed" "275"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*174"
+"target" "door_a12"
+"classname" "trigger_multiple"
+}
+{
+"message" " has captured the frontal control point"
+"origin" "4096.000000 0.000000 80.000000"
+"classname" "dom_controlpoint"
+}
+{
+"origin" "3712.000000 0.000000 208.000000"
+"model" "models/domination/dom_unclaimed.md3"
+"classname" "dom_team"
+}
+{
+"origin" "3712.000000 0.000000 176.000000"
+"model" "models/domination/dom_blue.md3"
+"message" "Blue Team has captured a control point"
+"noise1" "domination/claim.wav"
+"noise" "domination/claim.wav"
+"cnt" "13"
+"netname" "^4blue team^3"
+"classname" "dom_team"
+}
+{
+"origin" "3712.000000 0.000000 144.000000"
+"model" "models/domination/dom_red.md3"
+"message" "Red Team has captured a control point"
+"noise1" "domination/claim.wav"
+"noise" "domination/claim.wav"
+"cnt" "4"
+"netname" "^1red team^3"
+"classname" "dom_team"
+}
+{
+"origin" "3712.000000 0.000000 80.000000"
+"model" "models/domination/dom_pink.md3"
+"message" "Pink Team has captured a control point"
+"noise1" "domination/claim.wav"
+"noise" "domination/claim.wav"
+"cnt" "9"
+"netname" "^6pink team^3"
+"classname" "dom_team"
+}
+{
+"origin" "3712.000000 0.000000 112.000000"
+"model" "models/domination/dom_yellow.md3"
+"message" "Yellow Team has captured a control point"
+"noise1" "domination/claim.wav"
+"noise" "domination/claim.wav"
+"cnt" "12"
+"netname" "^6yellow team^3"
+"classname" "dom_team"
+}
+{
+"message" " has captured the basement control point"
+"origin" "2560.000000 0.000000 -96.000000"
+"classname" "dom_controlpoint"
+}
+{
+"angle" "-82.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2283.999756 -72.000000 -136.000000"
+"classname" "misc_gamemodel"
+}
+{
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2496.000000 1176.000000 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-7.000606"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2880.000488 1151.999023 0.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2292.000000 -768.000488 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2652.000000 480.000000 416.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "97.999367"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "3159.999512 -1167.999512 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "90.000000"
+"origin" "2472.000000 360.000000 472.000000"
+"classname" "item_shells"
+}
+{
+"angle" "-7.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2216.000000 839.999512 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"origin" "1808.000000 0.000000 480.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "3456.000000 0.000000 72.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "2800.000000 448.000000 416.000000"
+"classname" "weapon_sniperrifle"
+}
+{
+"origin" "2424.000000 360.000000 472.000000"
+"classname" "item_cells"
+}
+{
+"angle" "-82.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2768.000000 -1167.999634 0.000000"
+"classname" "misc_gamemodel"
+}
+{
+"origin" "2200.000000 -356.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2248.000000 -356.000000 416.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "-87.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "1296.000000 -1176.000244 448.000000"
+"classname" "misc_gamemodel"
+}
+{
+"origin" "1216.000000 -1176.000000 448.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1152.000000 -1176.000000 448.000000"
+"classname" "item_armor_small"
+}
+{
+"targetname" "camera_4"
+"angles" "25 233 0"
+"origin" "2108.000000 898.000000 286.000000"
+"classname" "target_position"
+}
+{
+"model" "*175"
+"target" "camera_4"
+"classname" "func_camera"
+}
+{
+"origin" "2664.000000 -1176.000000 120.000000"
+"classname" "weapon_hagar"
+}
+{
+"model" "*176"
+"origin" "2888.000000 -1040.000000 440.000000"
+"targetname" "func_rotating3"
+"speed" "-20"
+"classname" "func_rotating"
+}
+{
+"model" "*177"
+"origin" "2888.000000 1040.000000 440.000000"
+"targetname" "func_rotating4"
+"speed" "-20"
+"classname" "func_rotating"
+}
+{
+"origin" "2664.000000 -1128.000000 120.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "90.000000"
+"origin" "2448.000000 976.000000 64.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "2800.000000 -448.000000 416.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "-179.999985"
+"origin" "4736.000000 0.000000 -64.000000"
+"classname" "item_flag_team2"
+}
+{
+"angles" "25 90 0"
+"targetname" "camera_3"
+"origin" "0.000000 -1204.000000 528.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"origin" "2000.000000 384.000000 -80.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "2000.000000 -384.000000 -80.000000"
+"classname" "info_player_team2"
+}
+{
+"model" "*178"
+"gametypefilter" "teamspawns"
+"classname" "func_wall"
+}
+{
+"model" "*179"
+"gametypefilter" "noteamspawns"
+"classname" "func_wall"
+}
+{
+"model" "*180"
+"gametypefilter" "noteamspawns"
+"classname" "func_clientillusionary"
+}
+{
+"model" "*181"
+"gametypefilter" "teamspawns"
+"classname" "func_clientillusionary"
+}
+{
+"model" "*182"
+"classname" "func_wall"
+}
+{
+"model" "*183"
+"gametypefilter" "teamspawns"
+"classname" "func_wall"
+}
+{
+"model" "*184"
+"gametypefilter" "noteamspawns"
+"classname" "func_wall"
+}
+{
+"gametypefilter" "noteamspawns"
+"angle" "127.999382"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "0"
+"model" "models/containers/crate01.md3"
+"origin" "879.999939 -1048.000244 448.000000"
+"classname" "misc_gamemodel"
+}
+{
+"gametypefilter" "noteamspawns"
+"angle" "-7.000615"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "0"
+"model" "models/containers/crate01.md3"
+"origin" "1663.999878 -751.999695 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*185"
+"gametypefilter" "noteamspawns"
+"classname" "func_wall"
+}
+{
+"targetname" "r_gen"
+"team" "5"
+"origin" "-4736.000000 0.000000 -64.000000"
+"classname" "onslaught_generator"
+}
+{
+"message" "Red Basement"
+"targetname" "r_cp1"
+"origin" "-2960.000000 0.000000 -128.000000"
+"classname" "onslaught_controlpoint"
+}
+{
+"message" "red room"
+"targetname" "r_cp2"
+"angle" "180.000000"
+"origin" "-2432.000000 0.000000 416.000000"
+"classname" "onslaught_controlpoint"
+}
+{
+"target" "r_cp1"
+"target2" "r_gen"
+"origin" "-2960.000000 0.000000 48.000000"
+"classname" "onslaught_link"
+}
+{
+"target" "r_cp2"
+"target2" "r_gen"
+"angle" "-179.999985"
+"origin" "-2432.000000 0.000000 592.000000"
+"classname" "onslaught_link"
+}
+{
+"message" "center south"
+"targetname" "n_cp1"
+"angle" "180.000000"
+"origin" "-192.000000 -1168.000000 320.000000"
+"classname" "onslaught_controlpoint"
+}
+{
+"message" "center north"
+"targetname" "n_cp2"
+"origin" "192.000000 1168.000000 320.000000"
+"classname" "onslaught_controlpoint"
+}
+{
+"target2" "r_cp2"
+"target" "n_cp1"
+"angle" "-179.999985"
+"origin" "-192.000000 -1168.000000 496.000000"
+"classname" "onslaught_link"
+}
+{
+"angle" "180.000000"
+"target2" "r_cp2"
+"target" "n_cp2"
+"origin" "192.000000 1168.000000 496.000000"
+"classname" "onslaught_link"
+}
+{
+"angle" "-179.999985"
+"targetname" "b_gen"
+"team" "14"
+"origin" "4736.000000 0.000000 -64.000000"
+"classname" "onslaught_generator"
+}
+{
+"message" "Blue Basement"
+"angle" "-179.999985"
+"targetname" "b_cp1"
+"origin" "2960.000000 0.000000 -128.000000"
+"classname" "onslaught_controlpoint"
+}
+{
+"message" "blue room"
+"targetname" "b_cp2"
+"angle" "0.000009"
+"origin" "2432.000000 0.000000 416.000000"
+"classname" "onslaught_controlpoint"
+}
+{
+"angle" "-179.999985"
+"target" "b_cp1"
+"target2" "b_gen"
+"origin" "2960.000000 0.000000 48.000000"
+"classname" "onslaught_link"
+}
+{
+"target" "b_cp2"
+"target2" "b_gen"
+"angle" "0.000009"
+"origin" "2432.000000 0.000000 592.000000"
+"classname" "onslaught_link"
+}
+{
+"target2" "b_cp2"
+"target" "n_cp1"
+"angle" "0.000009"
+"origin" "-192.000000 -1168.000000 528.000000"
+"classname" "onslaught_link"
+}
+{
+"target2" "b_cp2"
+"target" "n_cp2"
+"origin" "192.000000 1168.000000 528.000000"
+"classname" "onslaught_link"
+}
+{
+"model" "*186"
+"gametypefilter" "teamspawns"
+"classname" "func_wall"
+}
+{
+"model" "*187"
+"gametypefilter" "noteamspawns"
+"classname" "func_wall"
+}
+{
+"model" "*188"
+"gametypefilter" "teamspawns"
+"classname" "func_wall"
+}
+{
+"angle" "-97.000618"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2112.000000 -272.000000 416.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-52.000595"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castshadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "2656.000000 207.999908 416.000000"
+"classname" "misc_gamemodel"
+}
+{
+"gametypefilter" "+nexball"
+"modelscale" "1.250000"
+"angle" "90.000000"
+"model" "models/teleporters/gianttele.md3"
+"origin" "-4864.000000 0.000000 144.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*189"
+"spawnflags" "1"
+"classname" "nexball_redgoal"
+}
+{
+"gametypefilter" "+nexball"
+"modelscale" "1.250000"
+"angle" "-90.000000"
+"model" "models/teleporters/gianttele.md3"
+"origin" "4864.000000 0.000000 144.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*190"
+"spawnflags" "1"
+"classname" "nexball_bluegoal"
+}
+{
+"origin" "0.000000 0.000000 320.000000"
+"classname" "nexball_basketball"
+}
+{
+"angle" "90.000000"
+"origin" "2528.000000 -336.000000 448.000000"
+"classname" "info_player_team2"
+}
+{
+"origin" "2096.000000 -160.000000 448.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-90.000000"
+"origin" "2352.000000 224.000000 448.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-180.000000"
+"origin" "2720.000000 96.000000 448.000000"
+"classname" "info_player_team2"
+}
+{
+"model" "*191"
+"classname" "func_clientillusionary"
+}
+{
+"model" "*192"
+"classname" "func_wall"
+}
+{
+"model" "*193"
+"classname" "func_wall"
+}
+{
+"model" "*194"
+"gametypefilter" "teamspawns"
+"classname" "func_wall"
+}
+{
+"model" "*195"
+"gametypefilter" "noteamspawns"
+"classname" "func_wall"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-135.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2592.000000 -999.999878 0.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "59.999981"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2296.000000 -815.999878 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2560.000000 -992.000000 0.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2384.000000 -992.000122 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-30.000011"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2640.000000 1064.000000 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-90.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-3008.000000 -135.999969 -128.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "30.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-3000.000000 -96.000015 -128.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2200.000000 40.000000 -128.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2256.000000 -848.000122 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "1668.000000 -1144.000122 102.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "864.000000 -864.000122 -428.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-179.999985"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-659.999817 400.000031 28.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "1680.000000 -1104.000122 36.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "416.000000 1231.999878 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "120.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "384.000153 1215.999878 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "120.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-611.999878 399.999878 28.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-30.000011"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2272.000000 832.000061 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-179.999985"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-655.999817 -399.999969 48.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "150.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-1103.999878 1200.000000 448.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"gametypefilter" "noteamspawns"
+"angle" "45.000000"
+"_castshadows" "0"
+"model" "models/containers/barrel01.md3"
+"origin" "896.000122 -976.000000 448.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-3008.000000 -64.000000 -128.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-30.000011"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2160.000000 -439.999939 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "59.999981"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2532.000244 -327.999939 416.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "59.999981"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2540.000244 -359.999939 416.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-30.000038"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2536.000000 -363.999908 461.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-30.000011"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "-2264.000000 -815.999939 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "150.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "592.000122 -960.000000 448.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angles" "90.000000 0.000000 -24.999958"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2547.999756 977.999817 16.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2608.000000 784.000000 0.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2384.000000 991.999756 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-30.000011"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2399.999512 -1192.000732 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-90.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "1984.000000 488.000488 -128.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "30.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2624.000000 -112.000244 -136.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "90.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2168.000000 88.000000 -128.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-165.000015"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "1110.626709 -600.000000 456.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "3168.000000 -1168.000000 134.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "59.999981"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2660.000488 -216.000244 416.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "149.999985"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2104.000000 204.000061 416.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "59.999962"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2540.000244 359.999573 416.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"gametypefilter" "noteamspawns"
+"angle" "60.000000"
+"_castshadows" "0"
+"model" "models/containers/barrel01.md3"
+"origin" "1680.000000 -688.000122 68.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"gametypefilter" "noteamspawns"
+"angles" "90.000000 0.000000 -179.999985"
+"_castshadows" "0"
+"model" "models/containers/barrel01.md3"
+"origin" "1628.536011 -701.999939 80.000084"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2464.000000 1055.999756 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2200.000000 88.000000 -128.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2168.000000 56.000000 -128.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-179.999985"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2184.000000 72.000008 -83.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "3632.000000 704.000000 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"count" "1"
+"angle" "59.999981"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2304.000000 751.999756 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"count" "1"
+"angle" "60.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "1952.000000 591.999756 72.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"count" "1"
+"angle" "-30.000011"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2159.999756 439.999756 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"count" "1"
+"angle" "-30.000011"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "1991.999512 575.999756 72.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-30.000011"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "2272.000000 -832.000000 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"angle" "-179.999985"
+"target2" "r_cp1"
+"target" "n_cp2"
+"origin" "192.000000 1168.000000 560.000000"
+"classname" "onslaught_link"
+}
+{
+"target2" "b_cp1"
+"target" "n_cp2"
+"origin" "192.000000 1168.000000 592.000000"
+"classname" "onslaught_link"
+}
+{
+"target2" "r_cp1"
+"target" "n_cp1"
+"angle" "-179.999985"
+"origin" "-192.000000 -1168.000000 560.000000"
+"classname" "onslaught_link"
+}
+{
+"target2" "b_cp1"
+"target" "n_cp1"
+"angle" "0.000009"
+"origin" "-192.000000 -1168.000000 592.000000"
+"classname" "onslaught_link"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "120.000000"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "600.000122 -952.000122 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"noise" "sound/weapons/rocket_impact.ogg"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"dmg_edge" "25"
+"dmg" "75"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"angle" "-179.999985"
+"_castshadows" "1"
+"model" "models/containers/barrel01.md3"
+"origin" "560.000122 -936.000122 64.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"angles" "4.3560791 -135.082397 0"
+"origin" "709.499756 1161.31604 251.353851"
+"classname" "info_autoscreenshot"
+}
+{
+"angles" "7.92114258 147.299194 0"
+"origin" "-4155.74463 -247.083191 187.458908"
+"classname" "info_autoscreenshot"
+}
+{
+"angles" "8.97583008 -35.425415 0"
+"origin" "-3008.76221 217.35083 24.4751472"
+"classname" "info_autoscreenshot"
+}
