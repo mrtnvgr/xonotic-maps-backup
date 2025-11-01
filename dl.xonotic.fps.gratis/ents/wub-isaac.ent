@@ -1,0 +1,123 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "136 -256 112"
+}
+{
+"classname" "item_haste"
+"origin" "1376 -256 -472"
+"wait" "-1"
+"count" "15"
+"spawnflags" "1"
+}
+{
+"classname" "target_position"
+"origin" "3088 -256 416"
+"angle" "180"
+"targetname" "target_position1"
+}
+{
+"classname" "trigger_push"
+"target" "target_position1"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "544 -256 160"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "item_haste"
+"origin" "2080 -256 -472"
+"wait" "-1"
+"count" "15"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-1152 -256 672"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2560 -256 192"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-384 -256 -96"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-832 -256 -96"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "416 -256 -384"
+"targetname" "target_checkpoint4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint5"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "704 -256 -384"
+"targetname" "target_checkpoint5"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint6"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3088 -256 192"
+"targetname" "target_checkpoint6"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint7"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2864 -256 480"
+"targetname" "target_checkpoint7"
+}
