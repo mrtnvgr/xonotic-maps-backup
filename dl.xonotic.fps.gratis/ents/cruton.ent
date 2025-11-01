@@ -1,0 +1,143 @@
+{
+"gridsize" "80 64 128"
+"angle" "270"
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "13952 -10368 -96"
+"targetname" "t1"
+}
+{
+"target" "t3"
+"classname" "info_player_start"
+"origin" "1344 -1152 -272"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"wait" "-1"
+"model" "*2"
+}
+{
+"targetname" "t2"
+"origin" "1184 -960 -96"
+"classname" "target_startTimer"
+}
+{
+"target" "t4"
+"targetname" "t3"
+"origin" "1472 -992 0"
+"classname" "target_give"
+}
+{
+"count" "200"
+"targetname" "t4"
+"origin" "1536 -960 0"
+"classname" "item_enviro"
+}
+{
+"target" "t5"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t5"
+"origin" "6336 -10560 -96"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t6"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1824 -6848 -96"
+"targetname" "t6"
+}
+{
+"target" "t7"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t7"
+"origin" "2432 -1248 736"
+"classname" "target_checkpoint"
+}
+{
+"target" "t8"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t8"
+"origin" "-3104 -608 416"
+"classname" "target_checkpoint"
+}
+{
+"target" "t9"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t9"
+"origin" "-6016 -640 896"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t10"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-6464 448 448"
+"targetname" "t10"
+}
+{
+"target" "t11"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t11"
+"origin" "-2976 1152 0"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t12"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-7008 1568 0"
+"targetname" "t12"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "t13"
+"origin" "32 2112 -32"
+"classname" "target_kill"
+}
