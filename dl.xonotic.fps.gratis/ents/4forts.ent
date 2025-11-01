@@ -1,0 +1,3227 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4; -vis -saveprt; -light -randomsamples -samples 4 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid"
+"_noshadersun" "1"
+"_description" "remake of murderball2002"
+"message" "4forts by skyward fire"
+"author" "skyward fire"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"speed" "300"
+"spawnflags" "4"
+"classname" "func_plat"
+}
+{
+"model" "*2"
+"speed" "180"
+"targetname" "red_door_base"
+"dmg" "500"
+"health" "1"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"dmg" "500"
+"targetname" "red_door_plat2"
+"spawnflags" "1"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"speed" "300"
+"dmg" "500"
+"targetname" "red_door_plat"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"1408" "288"
+"288" "280"
+"common/trigger" "0"
+"0.015625" "0"
+"280" ")"
+"304" "408"
+"-0" ")"
+"0" "0"
+"408" ")"
+"1568" "296"
+")" ")"
+"296" "280"
+"(" "-0"
+"brushdef" "{"
+"trigger_push1" "{"
+"classname" "trigger_push"
+}
+{
+"model" "*5"
+"target" "red_door_plat"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"angle" "90"
+"speed" "180"
+"dmg" "500"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"target" "red_door_plat2"
+"classname" "trigger_multiple"
+}
+{
+"1408" "288"
+"288" "280"
+"common/trigger" "0"
+"0.015625" "0"
+"280" ")"
+"-0" ")"
+"0" "0"
+"408" ")"
+"1568" "304"
+")" ")"
+"304" "280"
+"(" "-0"
+"brushdef" "{"
+"target" "target_position1"
+"classname" "trigger_push"
+}
+{
+"model" "*8"
+"target" "red_door_base"
+"classname" "trigger_multiple"
+}
+{
+"respawntime" "60"
+"angle" "-90.000000"
+"origin" "-504.000000 1496.000000 280.000000"
+"classname" "weapon_rifle"
+}
+{
+"angle" "89.999992"
+"origin" "-664.000000 2072.000000 280.000000"
+"classname" "weapon_uzi"
+}
+{
+"angle" "89.999992"
+"origin" "0.000000 1848.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "89.999992"
+"origin" "-184.000000 2296.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "89.999992"
+"origin" "0.000000 2296.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "89.999992"
+"origin" "-184.000000 1848.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "89.999992"
+"origin" "0.000000 2168.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "89.999992"
+"origin" "0.000000 1912.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "89.999992"
+"origin" "0.000000 1976.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "89.999992"
+"origin" "0.000000 2232.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "89.999992"
+"origin" "-120.000000 2296.000000 40.000000"
+"classname" "item_cells"
+}
+{
+"angle" "89.999992"
+"origin" "-120.000000 1848.000000 40.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "89.999992"
+"origin" "0.000000 2040.000000 40.000000"
+"classname" "item_shells"
+}
+{
+"angle" "89.999992"
+"origin" "0.000000 2104.000000 40.000000"
+"classname" "item_rockets"
+}
+{
+"targetname" "target_position9"
+"angle" "179.999985"
+"origin" "-456.000000 1760.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position10"
+"angle" "179.999985"
+"origin" "-456.000000 1824.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position8"
+"angle" "0.000009"
+"origin" "-320.000000 1824.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position7"
+"angle" "0.000009"
+"origin" "-320.000000 1760.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position4"
+"angle" "-90.000000"
+"origin" "-88.000000 1904.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position5"
+"angle" "89.999992"
+"origin" "-152.000000 2040.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position6"
+"angle" "89.999992"
+"origin" "-88.000000 2040.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position3"
+"angle" "-90.000000"
+"origin" "-152.000000 1904.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position13"
+"angle" "-90.000000"
+"origin" "-88.000000 2096.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position14"
+"angle" "89.999992"
+"origin" "-152.000000 2232.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position11"
+"angle" "89.999992"
+"origin" "-88.000000 2232.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position12"
+"angle" "-90.000000"
+"origin" "-152.000000 2096.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position17"
+"angle" "179.999985"
+"origin" "-464.000000 1784.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position18"
+"angle" "0.000009"
+"origin" "-328.000000 1848.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position15"
+"angle" "0.000009"
+"origin" "-328.000000 1784.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position16"
+"angle" "179.999985"
+"origin" "-464.000000 1848.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position21"
+"angle" "179.999985"
+"origin" "-688.000000 1784.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position22"
+"angle" "0.000009"
+"origin" "-552.000000 1848.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position19"
+"angle" "0.000009"
+"origin" "-552.000000 1784.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position20"
+"angle" "179.999985"
+"origin" "-688.000000 1848.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position25"
+"angle" "89.999992"
+"origin" "-664.000000 2336.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position26"
+"angle" "-90.000000"
+"origin" "-600.000000 2200.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position23"
+"angle" "-90.000000"
+"origin" "-664.000000 2200.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position24"
+"angle" "89.999992"
+"origin" "-600.000000 2336.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position29"
+"angle" "0.000009"
+"origin" "-544.000000 1824.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position30"
+"angle" "179.999985"
+"origin" "-680.000000 1760.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position27"
+"angle" "179.999985"
+"origin" "-680.000000 1824.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position28"
+"angle" "0.000009"
+"origin" "-544.000000 1760.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position33"
+"angle" "89.999992"
+"origin" "-688.000000 2136.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position34"
+"angle" "-90.000000"
+"origin" "-624.000000 2000.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position31"
+"angle" "-90.000000"
+"origin" "-688.000000 2000.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position32"
+"angle" "89.999992"
+"origin" "-624.000000 2136.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position37"
+"angle" "89.999992"
+"origin" "-408.000000 2336.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position38"
+"angle" "-90.000000"
+"origin" "-344.000000 2200.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position35"
+"angle" "-90.000000"
+"origin" "-408.000000 2200.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position36"
+"angle" "89.999992"
+"origin" "-344.000000 2336.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position40"
+"angles" "-0.000000 89.999992 89.999992"
+"origin" "-472.000000 1544.000000 376.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position39"
+"angles" "-0.000000 89.999992 89.999992"
+"origin" "-536.000000 1544.000000 376.000000"
+"classname" "target_position"
+}
+{
+"angle" "89.999992"
+"targetname" "info_null2"
+"origin" "-440.000000 1344.000000 112.000000"
+"classname" "info_null"
+}
+{
+"angle" "89.999992"
+"targetname" "info_null1"
+"origin" "-568.000000 1344.000000 112.000000"
+"classname" "info_null"
+}
+{
+"angle" "89.999992"
+"targetname" "info_null3"
+"origin" "-568.000000 1200.000000 80.000000"
+"classname" "info_null"
+}
+{
+"angle" "89.999992"
+"targetname" "info_null4"
+"origin" "-440.000000 1200.000000 80.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position73"
+"angle" "179.999985"
+"origin" "1496.000000 120.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position87"
+"angle" "0.000009"
+"origin" "1536.000000 -352.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*9"
+"speed" "300"
+"spawnflags" "4"
+"classname" "func_plat"
+}
+{
+"model" "*10"
+"dmg" "500"
+"targetname" "red_door_plat3"
+"spawnflags" "1"
+"angle" "-180"
+"classname" "func_door"
+}
+{
+"targetname" "target_position58"
+"angle" "90.000008"
+"origin" "1344.000000 184.000000 392.000000"
+"classname" "target_position"
+}
+{
+"origin" "1408.000000 -504.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1472.000000 -504.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"targetname" "target_position50"
+"angle" "-179.999985"
+"origin" "1592.000000 -416.000000 136.000000"
+"classname" "target_position"
+}
+{
+"respawntime" "60"
+"angle" "-180.000000"
+"origin" "992.000000 0.000000 280.000000"
+"classname" "weapon_rifle"
+}
+{
+"targetname" "target_position69"
+"angle" "89.999992"
+"origin" "1256.000000 176.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position89"
+"angle" "-90.000000"
+"origin" "1256.000000 -184.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "info_null5"
+"origin" "840.000000 64.000000 112.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position48"
+"angle" "0.000016"
+"origin" "1728.000000 -416.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position72"
+"angle" "0.000009"
+"origin" "1632.000000 184.000000 200.000000"
+"classname" "target_position"
+}
+{
+"model" "*11"
+"speed" "180"
+"targetname" "yellow_door_base"
+"dmg" "500"
+"health" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"targetname" "target_position59"
+"angle" "90.000008"
+"origin" "1280.000000 184.000000 392.000000"
+"classname" "target_position"
+}
+{
+"origin" "1792.000000 -320.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1792.000000 -504.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1344.000000 -320.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1664.000000 -504.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*12"
+"target" "red_door_plat1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_position56"
+"angle" "-90.000000"
+"origin" "1280.000000 48.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position49"
+"angle" "-179.999985"
+"origin" "1592.000000 -352.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position68"
+"angle" "-179.999985"
+"origin" "1400.000000 -352.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position88"
+"angle" "0.000016"
+"origin" "1536.000000 -416.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*13"
+"target" "yellow_door_base"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"speed" "300"
+"dmg" "500"
+"targetname" "red_door_plat1"
+"angle" "-180"
+"classname" "func_door"
+}
+{
+"targetname" "target_position90"
+"angle" "-90.000000"
+"origin" "1320.000000 -184.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "info_null6"
+"origin" "840.000000 -64.000000 112.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position63"
+"angle" "0.000009"
+"origin" "1832.000000 160.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position61"
+"angle" "179.999985"
+"origin" "1696.000000 160.000000 392.000000"
+"classname" "target_position"
+}
+{
+"model" "*15"
+"target" "red_door_plat3"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1728.000000 -504.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1792.000000 -384.000000 40.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1568.000000 160.000000 280.000000"
+"classname" "weapon_uzi"
+}
+{
+"targetname" "target_position64"
+"angle" "179.999985"
+"origin" "1696.000000 96.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position65"
+"angle" "89.999992"
+"origin" "1320.000000 176.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position67"
+"angle" "-90.000000"
+"origin" "1320.000000 40.000000 200.000000"
+"classname" "target_position"
+}
+{
+"origin" "1600.000000 -504.000000 40.000000"
+"classname" "item_rockets"
+}
+{
+"targetname" "target_position91"
+"angle" "89.999992"
+"origin" "1256.000000 -48.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position60"
+"angle" "-90.000000"
+"origin" "1344.000000 48.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position62"
+"angle" "0.000009"
+"origin" "1832.000000 96.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position47"
+"angle" "89.999992"
+"origin" "1320.000000 -48.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position76"
+"angle" "0.000009"
+"origin" "1832.000000 -96.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position70"
+"angle" "179.999985"
+"origin" "1496.000000 184.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position75"
+"angle" "0.000009"
+"origin" "1832.000000 -160.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position71"
+"angle" "0.000009"
+"origin" "1632.000000 120.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position77"
+"angle" "179.999985"
+"origin" "1696.000000 -160.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position74"
+"angle" "179.999985"
+"origin" "1696.000000 -96.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "info_null7"
+"origin" "696.000000 64.000000 80.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position80"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "1040.000000 -32.000000 376.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position78"
+"angles" "90.000000 0.000000 -0.000000"
+"origin" "1040.000000 32.000000 376.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position66"
+"angle" "-90.000000"
+"origin" "1256.000000 40.000000 200.000000"
+"classname" "target_position"
+}
+{
+"origin" "1344.000000 -384.000000 40.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "1536.000000 -504.000000 40.000000"
+"classname" "item_shells"
+}
+{
+"targetname" "info_null8"
+"origin" "696.000000 -64.000000 80.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position51"
+"angle" "0.000009"
+"origin" "1728.000000 -352.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*16"
+"speed" "180"
+"dmg" "500"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"targetname" "target_position79"
+"angle" "-179.999985"
+"origin" "1400.000000 -416.000000 136.000000"
+"classname" "target_position"
+}
+{
+"origin" "1344.000000 -504.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"targetname" "target_position118"
+"angle" "89.999992"
+"origin" "-384.000000 -2000.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position132"
+"angle" "-90.000000"
+"origin" "-856.000000 -2040.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*17"
+"speed" "300"
+"spawnflags" "4"
+"classname" "func_plat"
+}
+{
+"model" "*18"
+"dmg" "500"
+"targetname" "red_door_plat5"
+"spawnflags" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"targetname" "target_position103"
+"angle" "0.000009"
+"origin" "-320.000000 -1848.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"origin" "-1008.000000 -1912.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-1008.000000 -1976.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"targetname" "target_position95"
+"angle" "90.000015"
+"origin" "-920.000000 -2096.000000 136.000000"
+"classname" "target_position"
+}
+{
+"respawntime" "60"
+"angle" "90.000000"
+"origin" "-504.000000 -1496.000000 280.000000"
+"classname" "weapon_rifle"
+}
+{
+"targetname" "target_position114"
+"angle" "0.000010"
+"origin" "-328.000000 -1760.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position134"
+"angle" "-179.999985"
+"origin" "-688.000000 -1760.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position98"
+"angle" "0.000009"
+"origin" "-544.000000 -1848.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null9"
+"origin" "-440.000000 -1344.000000 112.000000"
+"classname" "info_null"
+}
+{
+"angle" "0.000009"
+"origin" "1136.000000 -208.000000 136.000000"
+"classname" "weapon_minelayer"
+}
+{
+"targetname" "target_position93"
+"angle" "-90.000000"
+"origin" "-920.000000 -2232.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position117"
+"angle" "-90.000000"
+"origin" "-320.000000 -2136.000000 200.000000"
+"classname" "target_position"
+}
+{
+"model" "*19"
+"speed" "180"
+"targetname" "green_door_base"
+"dmg" "500"
+"health" "1"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"targetname" "target_position104"
+"angle" "0.000009"
+"origin" "-320.000000 -1784.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"origin" "-824.000000 -2296.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-1008.000000 -2296.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-824.000000 -1848.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-1008.000000 -2168.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*20"
+"target" "red_door_plat4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_position101"
+"angle" "-179.999985"
+"origin" "-456.000000 -1784.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position94"
+"angle" "90.000015"
+"origin" "-856.000000 -2096.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position97"
+"angle" "-179.999985"
+"origin" "-680.000000 -1784.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position113"
+"angle" "90.000015"
+"origin" "-856.000000 -1904.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position133"
+"angle" "-90.000000"
+"origin" "-920.000000 -2040.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*21"
+"target" "green_door_base"
+"classname" "trigger_multiple"
+}
+{
+"model" "*22"
+"speed" "300"
+"dmg" "500"
+"targetname" "red_door_plat4"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"targetname" "target_position135"
+"angle" "-179.999985"
+"origin" "-688.000000 -1824.000000 200.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null10"
+"origin" "-568.000000 -1344.000000 112.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position108"
+"angle" "-90.000000"
+"origin" "-344.000000 -2336.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position106"
+"angle" "89.999992"
+"origin" "-344.000000 -2200.000000 392.000000"
+"classname" "target_position"
+}
+{
+"model" "*23"
+"target" "red_door_plat5"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90.000000"
+"origin" "-1008.000000 -2232.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "-90.000000"
+"origin" "-888.000000 -2296.000000 40.000000"
+"classname" "item_cells"
+}
+{
+"targetname" "target_position99"
+"angle" "0.000009"
+"origin" "-544.000000 -1784.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"origin" "-344.000000 -2072.000000 280.000000"
+"classname" "weapon_uzi"
+}
+{
+"targetname" "target_position109"
+"angle" "89.999992"
+"origin" "-408.000000 -2200.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position110"
+"angle" "0.000010"
+"origin" "-328.000000 -1824.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position112"
+"angle" "-179.999985"
+"origin" "-464.000000 -1824.000000 200.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"origin" "-1008.000000 -2104.000000 40.000000"
+"classname" "item_rockets"
+}
+{
+"targetname" "target_position136"
+"angle" "0.000010"
+"origin" "-552.000000 -1760.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position105"
+"angle" "-179.999985"
+"origin" "-456.000000 -1848.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position107"
+"angle" "-90.000000"
+"origin" "-408.000000 -2336.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position92"
+"angle" "0.000010"
+"origin" "-552.000000 -1824.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position121"
+"angle" "-90.000000"
+"origin" "-600.000000 -2336.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position115"
+"angle" "89.999992"
+"origin" "-320.000000 -2000.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position120"
+"angle" "-90.000000"
+"origin" "-664.000000 -2336.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position116"
+"angle" "-90.000000"
+"origin" "-384.000000 -2136.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position122"
+"angle" "89.999992"
+"origin" "-664.000000 -2200.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position119"
+"angle" "89.999992"
+"origin" "-600.000000 -2200.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null11"
+"origin" "-440.000000 -1200.000000 80.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position127"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-560.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position125"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-536.000000 -1544.000000 376.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position123"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-472.000000 -1544.000000 376.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position111"
+"angle" "-179.999985"
+"origin" "-464.000000 -1760.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position130"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-656.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position128"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-464.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"origin" "-888.000000 -1848.000000 40.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "-90.000000"
+"origin" "-1008.000000 -2040.000000 40.000000"
+"classname" "item_shells"
+}
+{
+"targetname" "target_position129"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-368.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position100"
+"angle" "-179.999985"
+"origin" "-680.000000 -1848.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null12"
+"origin" "-568.000000 -1200.000000 80.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position96"
+"angle" "-90.000000"
+"origin" "-856.000000 -2232.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*24"
+"speed" "180"
+"dmg" "500"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"targetname" "target_position124"
+"angle" "90.000015"
+"origin" "-920.000000 -1904.000000 136.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"origin" "-1008.000000 -1848.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"targetname" "target_position163"
+"angle" "0.000010"
+"origin" "-2504.000000 -120.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position177"
+"angle" "179.999985"
+"origin" "-2544.000000 352.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*25"
+"speed" "300"
+"spawnflags" "4"
+"classname" "func_plat"
+}
+{
+"model" "*26"
+"dmg" "500"
+"targetname" "red_door_plat7"
+"spawnflags" "1"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"targetname" "target_position148"
+"angle" "-90.000000"
+"origin" "-2352.000000 -184.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"origin" "-2416.000000 504.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "179.999985"
+"origin" "-2480.000000 504.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"targetname" "target_position140"
+"angle" "0.000016"
+"origin" "-2600.000000 416.000000 136.000000"
+"classname" "target_position"
+}
+{
+"respawntime" "60"
+"angle" "0.000003"
+"origin" "-2000.000000 0.000000 280.000000"
+"classname" "weapon_rifle"
+}
+{
+"targetname" "target_position159"
+"angle" "-90.000000"
+"origin" "-2264.000000 -176.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position179"
+"angle" "90.000008"
+"origin" "-2264.000000 184.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position143"
+"angle" "-90.000000"
+"origin" "-2352.000000 40.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"targetname" "info_null13"
+"origin" "-1848.000000 -64.000000 112.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position138"
+"angle" "179.999985"
+"origin" "-2736.000000 416.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position162"
+"angle" "179.999985"
+"origin" "-2640.000000 -184.000000 200.000000"
+"classname" "target_position"
+}
+{
+"model" "*27"
+"speed" "180"
+"targetname" "blue_door_base"
+"dmg" "500"
+"health" "1"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"targetname" "target_position149"
+"angle" "-90.000000"
+"origin" "-2288.000000 -184.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"origin" "-2800.000000 320.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "179.999985"
+"origin" "-2800.000000 504.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "179.999985"
+"origin" "-2352.000000 320.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "179.999985"
+"origin" "-2672.000000 504.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*28"
+"target" "red_door_plat6"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_position146"
+"angle" "90.000008"
+"origin" "-2288.000000 -48.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position139"
+"angle" "0.000016"
+"origin" "-2600.000000 352.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position142"
+"angle" "90.000008"
+"origin" "-2288.000000 176.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position158"
+"angle" "0.000016"
+"origin" "-2408.000000 352.000000 136.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position178"
+"angle" "179.999985"
+"origin" "-2544.000000 416.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*29"
+"target" "blue_door_base"
+"classname" "trigger_multiple"
+}
+{
+"model" "*30"
+"speed" "300"
+"dmg" "500"
+"targetname" "red_door_plat6"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"targetname" "target_position180"
+"angle" "90.000008"
+"origin" "-2328.000000 184.000000 200.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"targetname" "info_null14"
+"origin" "-1848.000000 64.000000 112.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position153"
+"angle" "179.999985"
+"origin" "-2840.000000 -160.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position151"
+"angle" "0.000010"
+"origin" "-2704.000000 -160.000000 392.000000"
+"classname" "target_position"
+}
+{
+"model" "*31"
+"target" "red_door_plat7"
+"classname" "trigger_multiple"
+}
+{
+"angle" "179.999985"
+"origin" "-2736.000000 504.000000 40.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "179.999985"
+"origin" "-2800.000000 384.000000 40.000000"
+"classname" "item_cells"
+}
+{
+"targetname" "target_position144"
+"angle" "-90.000000"
+"origin" "-2288.000000 40.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"origin" "-2576.000000 -160.000000 280.000000"
+"classname" "weapon_uzi"
+}
+{
+"targetname" "target_position154"
+"angle" "0.000010"
+"origin" "-2704.000000 -96.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position155"
+"angle" "-90.000000"
+"origin" "-2328.000000 -176.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position157"
+"angle" "90.000008"
+"origin" "-2328.000000 -40.000000 200.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"origin" "-2608.000000 504.000000 40.000000"
+"classname" "item_rockets"
+}
+{
+"targetname" "target_position181"
+"angle" "-90.000000"
+"origin" "-2264.000000 48.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position150"
+"angle" "90.000008"
+"origin" "-2352.000000 -48.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position152"
+"angle" "179.999985"
+"origin" "-2840.000000 -96.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position137"
+"angle" "-90.000000"
+"origin" "-2328.000000 48.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position166"
+"angle" "179.999985"
+"origin" "-2840.000000 96.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position160"
+"angle" "0.000010"
+"origin" "-2504.000000 -184.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position165"
+"angle" "179.999985"
+"origin" "-2840.000000 160.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position161"
+"angle" "179.999985"
+"origin" "-2640.000000 -120.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position167"
+"angle" "0.000010"
+"origin" "-2704.000000 160.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position164"
+"angle" "0.000010"
+"origin" "-2704.000000 96.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"targetname" "info_null15"
+"origin" "-1704.000000 -64.000000 80.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position171"
+"angles" "-0.000000 89.999992 89.999992"
+"origin" "-688.000000 -1592.000000 192.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position172"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-560.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position170"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-2048.000000 32.000000 376.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position168"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-2048.000000 -32.000000 376.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position156"
+"angle" "90.000008"
+"origin" "-2264.000000 -40.000000 200.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position175"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-744.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position173"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-464.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"origin" "-2352.000000 384.000000 40.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "179.999985"
+"origin" "-2544.000000 504.000000 40.000000"
+"classname" "item_shells"
+}
+{
+"targetname" "target_position176"
+"angles" "-90.000000 0.000000 -180.000000"
+"origin" "1088.000000 -200.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position174"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-200.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position145"
+"angle" "90.000008"
+"origin" "-2352.000000 176.000000 392.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"targetname" "info_null16"
+"origin" "-1704.000000 64.000000 80.000000"
+"classname" "info_null"
+}
+{
+"targetname" "target_position141"
+"angle" "179.999985"
+"origin" "-2736.000000 352.000000 136.000000"
+"classname" "target_position"
+}
+{
+"model" "*32"
+"speed" "180"
+"dmg" "500"
+"angle" "-180"
+"classname" "func_door"
+}
+{
+"targetname" "target_position169"
+"angle" "0.000016"
+"origin" "-2408.000000 416.000000 136.000000"
+"classname" "target_position"
+}
+{
+"angle" "179.999985"
+"origin" "-2352.000000 504.000000 40.000000"
+"classname" "item_health_small"
+}
+{
+"targetname" "info_null23"
+"angle" "-90.000000"
+"origin" "-600.000000 40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null28"
+"angle" "-90.000000"
+"origin" "-424.000000 40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null27"
+"angle" "-90.000000"
+"origin" "-456.000000 40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null26"
+"angle" "-90.000000"
+"origin" "-496.000000 40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null25"
+"angle" "-90.000000"
+"origin" "-528.000000 40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null24"
+"angle" "-90.000000"
+"origin" "-568.000000 40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null19"
+"angle" "-90.000000"
+"origin" "-504.000000 -40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null21"
+"angle" "-90.000000"
+"origin" "-576.000000 -40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null17"
+"angle" "-90.000000"
+"origin" "-432.000000 -40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null22"
+"angle" "-90.000000"
+"origin" "-608.000000 -40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null18"
+"angle" "-90.000000"
+"origin" "-464.000000 -40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null20"
+"angle" "-90.000000"
+"origin" "-536.000000 -40.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null31"
+"origin" "-556.000000 16.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null33"
+"origin" "-556.000000 -56.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null35"
+"origin" "-476.000000 -88.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null39"
+"origin" "-476.000000 56.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null29"
+"origin" "-556.000000 88.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null34"
+"origin" "-556.000000 -88.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null30"
+"origin" "-556.000000 56.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null32"
+"origin" "-556.000000 -16.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null38"
+"origin" "-476.000000 16.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null36"
+"origin" "-476.000000 -56.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null40"
+"origin" "-476.000000 88.000000 48.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null37"
+"origin" "-476.000000 -16.000000 48.000000"
+"classname" "info_null"
+}
+{
+"angle" "-179.999985"
+"targetname" "info_null41"
+"origin" "-752.000000 768.000000 208.000000"
+"classname" "info_null"
+}
+{
+"angle" "89.999992"
+"targetname" "info_null42"
+"origin" "-1280.000000 232.000000 208.000000"
+"classname" "info_null"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null43"
+"origin" "-1280.000000 -264.000000 208.000000"
+"classname" "info_null"
+}
+{
+"angle" "-179.999985"
+"targetname" "info_null44"
+"origin" "-752.000000 -768.000000 208.000000"
+"classname" "info_null"
+}
+{
+"angle" "0.000010"
+"targetname" "info_null45"
+"origin" "-264.000000 -768.000000 208.000000"
+"classname" "info_null"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null46"
+"origin" "256.000000 -264.000000 208.000000"
+"classname" "info_null"
+}
+{
+"angle" "89.999992"
+"targetname" "info_null47"
+"origin" "256.000000 232.000000 208.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null48"
+"origin" "-264.000000 768.000000 208.000000"
+"classname" "info_null"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null51"
+"origin" "-1636.000000 1520.000000 64.000000"
+"classname" "info_null"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null49"
+"origin" "-1588.000000 1520.000000 64.000000"
+"classname" "info_null"
+}
+{
+"angle" "-90.000000"
+"targetname" "info_null50"
+"origin" "-1612.000000 1520.000000 64.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null54"
+"origin" "-2024.000000 -1132.000000 64.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null52"
+"origin" "-2024.000000 -1084.000000 64.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null53"
+"origin" "-2024.000000 -1108.000000 64.000000"
+"classname" "info_null"
+}
+{
+"angle" "90.000000"
+"targetname" "info_null57"
+"origin" "628.000000 -1520.000000 64.000000"
+"classname" "info_null"
+}
+{
+"angle" "90.000000"
+"targetname" "info_null55"
+"origin" "580.000000 -1520.000000 64.000000"
+"classname" "info_null"
+}
+{
+"angle" "90.000000"
+"targetname" "info_null56"
+"origin" "604.000000 -1520.000000 64.000000"
+"classname" "info_null"
+}
+{
+"angle" "-179.999985"
+"targetname" "info_null60"
+"origin" "1016.000000 1132.000000 64.000000"
+"classname" "info_null"
+}
+{
+"angle" "-179.999985"
+"targetname" "info_null58"
+"origin" "1016.000000 1084.000000 64.000000"
+"classname" "info_null"
+}
+{
+"angle" "-179.999985"
+"targetname" "info_null59"
+"origin" "1016.000000 1108.000000 64.000000"
+"classname" "info_null"
+}
+{
+"model" "*33"
+"gravity" "-1.5"
+"classname" "trigger_gravity"
+}
+{
+"origin" "-224.000000 -96.000000 1296.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"targetname" "info_null61"
+"origin" "-216.000000 0.000000 1368.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null62"
+"origin" "-872.000000 8.000000 1320.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null63"
+"origin" "-872.000000 0.000000 1320.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null65"
+"origin" "-880.000000 0.000000 1320.000000"
+"classname" "info_null"
+}
+{
+"targetname" "info_null64"
+"origin" "-880.000000 8.000000 1320.000000"
+"classname" "info_null"
+}
+{
+"model" "*34"
+"target" "target_position2"
+"speed" "50"
+"classname" "trigger_push"
+}
+{
+"model" "*35"
+"target_random" "1"
+"target4" "misc_teleporter_dest4"
+"target3" "misc_teleporter_dest3"
+"target2" "misc_teleporter_dest2"
+"target" "misc_teleporter_dest1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "misc_teleporter_dest1"
+"origin" "-1184.000000 672.000000 488.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*36"
+"target" "trigger_warpzone5"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*37"
+"targetname" "trigger_warpzone5"
+"classname" "trigger_warpzone"
+}
+{
+"origin" "-16.000000 -248.000000 1296.000000"
+"classname" "item_armor_big"
+}
+{
+"angle" "90.000000"
+"origin" "-2416.000000 -344.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2472.000000 -344.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2592.000000 -344.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2536.000000 -344.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2472.000000 -440.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2416.000000 -440.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2592.000000 -440.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2536.000000 -440.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2472.000000 -392.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2416.000000 -392.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2592.000000 -392.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "90.000000"
+"origin" "-2536.000000 -392.000000 312.000000"
+"classname" "info_player_team2"
+}
+{
+"origin" "-840.000000 1888.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-840.000000 2088.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-840.000000 2016.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-840.000000 1952.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-936.000000 1888.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-936.000000 2088.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-936.000000 1952.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-936.000000 2016.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-888.000000 1888.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-888.000000 2088.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-888.000000 1952.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"origin" "-888.000000 2016.000000 312.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "-90.000000"
+"origin" "1512.000000 440.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1448.000000 440.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1576.000000 440.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1392.000000 440.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1512.000000 384.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1448.000000 384.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1576.000000 384.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1392.000000 384.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1512.000000 336.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1448.000000 336.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1576.000000 336.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1392.000000 336.000000 312.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-179.999985"
+"origin" "-168.000000 -2088.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-168.000000 -1896.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-168.000000 -1960.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-168.000000 -2024.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-72.000000 -2088.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-72.000000 -1896.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-72.000000 -2024.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-72.000000 -1960.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-120.000000 -2088.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-120.000000 -1896.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-120.000000 -2024.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-179.999985"
+"origin" "-120.000000 -1960.000000 312.000000"
+"classname" "info_player_team4"
+}
+{
+"origin" "-504.000000 -1456.000000 504.000000"
+"classname" "weapon_hagar"
+}
+{
+"origin" "960.000000 -8.000000 504.000000"
+"classname" "weapon_hagar"
+}
+{
+"origin" "-504.000000 1464.000000 504.000000"
+"classname" "weapon_hagar"
+}
+{
+"origin" "-1968.000000 0.000000 504.000000"
+"classname" "weapon_hagar"
+}
+{
+"origin" "-224.000000 32.000000 1296.000000"
+"classname" "item_armor_big"
+}
+{
+"targetname" "target_position2"
+"angle" "-179.999985"
+"origin" "-896.000000 0.000000 1448.000000"
+"classname" "target_position"
+}
+{
+"angles" "-0.000017 -90.000000 -179.999985"
+"origin" "-3032.000000 -280.000000 0.000000"
+"classname" "item_health_large"
+}
+{
+"origin" "-200.000000 -2544.000000 0.000000"
+"classname" "item_health_large"
+}
+{
+"angles" "0.000010 90.000000 -179.999985"
+"origin" "2032.000000 280.000000 0.000000"
+"classname" "item_health_large"
+}
+{
+"angles" "-0.000017 0.000001 179.999985"
+"origin" "-784.000000 2528.000000 0.000000"
+"classname" "item_health_large"
+}
+{
+"targetname" "target_position57"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-368.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position102"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-272.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position147"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-656.000000 -2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position188"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-3064.000000 240.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position187"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-3064.000000 -304.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position184"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "-2096.000000 184.000000 192.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position186"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-3064.000000 -40.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position185"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-3064.000000 56.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position190"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-3064.000000 -136.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position182"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-3064.000000 -232.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position183"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "-3064.000000 152.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position197"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "-264.000000 2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position196"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "-808.000000 2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position193"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-320.000000 1592.000000 192.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position195"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "-544.000000 2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position194"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "-448.000000 2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position199"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "-640.000000 2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position191"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "-736.000000 2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position192"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "-352.000000 2560.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position206"
+"angles" "90.000000 0.000000 0.000004"
+"origin" "-136.000000 -1904.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position205"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "2056.000000 304.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position202"
+"angles" "-90.000000 0.000000 179.999985"
+"origin" "1088.000000 -184.000000 192.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position204"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "2056.000000 40.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position203"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "2056.000000 -56.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position208"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "2056.000000 136.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position200"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "2056.000000 232.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position201"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "2056.000000 -152.000000 56.000000"
+"classname" "target_position"
+}
+{
+"model" "*38"
+"gravity" "-0.7"
+"classname" "trigger_gravity"
+}
+{
+"angle" "-90.000000"
+"origin" "-704.000000 -1648.000000 136.000000"
+"classname" "weapon_minelayer"
+}
+{
+"targetname" "target_position41"
+"angles" "-0.000000 89.999992 89.999992"
+"origin" "-704.000000 -1592.000000 56.000000"
+"classname" "target_position"
+}
+{
+"angle" "-179.999985"
+"origin" "-2144.000000 208.000000 136.000000"
+"classname" "weapon_minelayer"
+}
+{
+"targetname" "target_position42"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "-2096.000000 200.000000 56.000000"
+"classname" "target_position"
+}
+{
+"angle" "90.000008"
+"origin" "-296.000000 1640.000000 136.000000"
+"classname" "weapon_minelayer"
+}
+{
+"targetname" "target_position43"
+"angles" "-0.000000 -90.000008 -90.000000"
+"origin" "-304.000000 1592.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position45"
+"angle" "90.000008"
+"origin" "1344.000000 -40.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position44"
+"angle" "-90.000000"
+"origin" "1280.000000 -176.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position46"
+"angle" "90.000008"
+"origin" "1280.000000 -40.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position81"
+"angle" "-90.000000"
+"origin" "1344.000000 -176.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position82"
+"angles" "90.000000 0.000000 0.000010"
+"origin" "2056.000000 -240.000000 56.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position83"
+"angles" "90.000000 0.000000 0.000004"
+"origin" "-136.000000 -2080.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position84"
+"angles" "90.000000 0.000000 0.000004"
+"origin" "-136.000000 -1992.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position85"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "1400.000000 368.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position86"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "1576.000000 368.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position126"
+"angles" "-0.000000 90.000000 90.000000"
+"origin" "1488.000000 368.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position131"
+"angles" "-90.000000 0.000000 -179.999985"
+"origin" "-872.000000 1904.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position189"
+"angles" "-90.000000 0.000000 -179.999985"
+"origin" "-872.000000 2080.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position198"
+"angles" "-90.000000 0.000000 -179.999985"
+"origin" "-872.000000 1992.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position207"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-2408.000000 -368.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position209"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-2584.000000 -368.000000 312.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position210"
+"angles" "-0.000000 -90.000000 -90.000000"
+"origin" "-2496.000000 -368.000000 312.000000"
+"classname" "target_position"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7tunnel"
+"origin" "2000.000000 304.000000 192.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7tunnel entrance"
+"origin" "400.000000 1232.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7tunnel"
+"origin" "1456.000000 528.000000 128.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7tunnel"
+"origin" "2000.000000 528.000000 192.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7tunnel"
+"origin" "1456.000000 1104.000000 128.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7tunnel"
+"origin" "1104.000000 1104.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7tunnel entrance"
+"origin" "944.000000 1104.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7base hiding spot"
+"origin" "1136.000000 -176.000000 192.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7tunnel entrance"
+"origin" "784.000000 784.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7entrance"
+"origin" "784.000000 400.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7entrance"
+"origin" "560.000000 -16.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^6pink ^7tunnel entrance"
+"origin" "768.000000 -816.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7entrance"
+"origin" "848.000000 -16.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7base"
+"origin" "1168.000000 -16.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7base"
+"origin" "2032.000000 208.000000 160.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow^7base item room"
+"origin" "1584.000000 -368.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7base hiding spot"
+"origin" "2032.000000 240.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7base hiding spot"
+"origin" "1136.000000 -176.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7base"
+"origin" "1776.000000 -16.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7base outlook post"
+"origin" "976.000000 -16.000000 336.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7base"
+"origin" "1264.000000 -16.000000 320.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7entrance"
+"origin" "-96.000000 -1296.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7tunnel"
+"origin" "608.000000 -1616.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7tunnel entrance"
+"origin" "608.000000 -1456.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7tunnel"
+"origin" "32.000000 -1968.000000 128.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base hiding spot"
+"origin" "-672.000000 -1648.000000 192.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7tunnel"
+"origin" "608.000000 -1968.000000 128.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7entrance"
+"origin" "-512.000000 -1072.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7tunnel entrance"
+"origin" "-1408.000000 -1248.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base"
+"origin" "-512.000000 -1776.000000 320.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base"
+"origin" "-512.000000 -2288.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base"
+"origin" "-288.000000 -2544.000000 160.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base"
+"origin" "-512.000000 -1680.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base item room"
+"origin" "-864.000000 -2096.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base hiding spot"
+"origin" "-256.000000 -2544.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7tunnel"
+"origin" "32.000000 -2512.000000 192.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base outlook post"
+"origin" "-512.000000 -1488.000000 336.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7entrance"
+"origin" "-1168.000000 -1296.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7tunnel entrance"
+"origin" "288.000000 -1296.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7entrance"
+"origin" "-512.000000 -1360.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7base hiding spot"
+"origin" "-672.000000 -1648.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "89.999992"
+"netname" "^6pink ^7tunnel"
+"origin" "-192.000000 -2512.000000 192.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base hiding spot"
+"origin" "-2144.000000 160.000000 192.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base"
+"origin" "-2272.000000 0.000000 320.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base hiding spot"
+"origin" "-2144.000000 160.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7tunnel entrance"
+"origin" "-1952.000000 -1120.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base item room"
+"origin" "-2592.000000 352.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base"
+"origin" "-2784.000000 0.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base"
+"origin" "-3040.000000 -224.000000 160.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7tunnel entrance"
+"origin" "-1792.000000 -800.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base"
+"origin" "-2176.000000 0.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1red ^7tunnel entrance"
+"origin" "-1792.000000 816.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7entrance"
+"origin" "-1568.000000 0.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7tunnel"
+"origin" "-2464.000000 -1120.000000 128.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7tunnel"
+"origin" "-2112.000000 -1120.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7tunnel"
+"origin" "-3008.000000 -320.000000 192.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7tunnel"
+"origin" "-2464.000000 -544.000000 128.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7tunnel"
+"origin" "-3008.000000 -544.000000 192.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base hiding spot"
+"origin" "-3040.000000 -256.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7entrance"
+"origin" "-1792.000000 -416.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7base outlook post"
+"origin" "-1984.000000 0.000000 336.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7entrance"
+"origin" "-1856.000000 0.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base hiding spot"
+"origin" "-336.000000 1632.000000 192.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base"
+"origin" "-496.000000 1760.000000 320.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base hiding spot"
+"origin" "-336.000000 1632.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7tunnel entrance"
+"origin" "-1616.000000 1440.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base item room"
+"origin" "-144.000000 2080.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base"
+"origin" "-496.000000 2272.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base"
+"origin" "-720.000000 2528.000000 160.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7tunnel entrance"
+"origin" "-1296.000000 1280.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base"
+"origin" "-496.000000 1664.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^4red ^7entrance"
+"origin" "160.000000 1280.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^4red ^7entrance"
+"origin" "-496.000000 1056.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7tunnel"
+"origin" "-1616.000000 1952.000000 128.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7tunnel"
+"origin" "-1616.000000 1600.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7tunnel"
+"origin" "-816.000000 2496.000000 192.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7tunnel"
+"origin" "-1040.000000 1952.000000 128.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7tunnel"
+"origin" "-1040.000000 2496.000000 192.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base"
+"origin" "-752.000000 2528.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7entrance"
+"origin" "-912.000000 1280.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^1red ^7base lookout post"
+"origin" "-496.000000 1472.000000 336.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "^4red ^7entrance"
+"origin" "-496.000000 1344.000000 64.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4blue ^7entrance"
+"origin" "-1792.000000 656.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform yellow-pink base"
+"origin" "352.000000 -864.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "^3yellow ^7entrance"
+"origin" "784.000000 -640.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000009 90.000000 179.999985"
+"netname" "center - near ^1red ^7base"
+"origin" "-48.000000 768.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "center - near ^1red ^7base"
+"origin" "-464.000000 800.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "center - near ^6pink ^7base"
+"origin" "16.000000 -768.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 -90.000000 -179.999985"
+"netname" "center - near ^6pink ^7base"
+"origin" "-976.000000 -752.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 -90.000000 -179.999985"
+"netname" "center - near ^4blue ^7base"
+"origin" "-1280.000000 -512.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 0.000001 179.999985"
+"netname" "inside central structure"
+"origin" "-800.000000 0.000000 1464.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 0.000001 -179.999985"
+"netname" "center - near ^1red ^7base"
+"origin" "-1040.000000 784.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "center - near ^3yellow ^7base"
+"origin" "256.000000 -464.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "center - near ^3yellow ^7base"
+"origin" "256.000000 0.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "center - near ^6pink ^7base"
+"origin" "-400.000000 -768.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "0.000010 179.999985 -179.999985"
+"netname" "center - near ^4blue ^7base"
+"origin" "-1248.000000 16.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 0.000001 179.999985"
+"netname" "center - near ^4blue ^7base"
+"origin" "-1280.000000 480.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 0.000001 179.999985"
+"netname" "underneath central structure"
+"origin" "-512.000000 0.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 0.000001 179.999985"
+"netname" "inside central structure"
+"origin" "-240.000000 0.000000 1464.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 0.000001 179.999985"
+"netname" "inside central structure"
+"origin" "-496.000000 0.000000 1464.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "center - near ^3yellow ^7base"
+"origin" "256.000000 528.000000 64.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform yellow-pink base"
+"origin" "144.000000 -864.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform yellow-pink base"
+"origin" "144.000000 -672.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform yellow-pink base"
+"origin" "352.000000 -672.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform red-yellow base"
+"origin" "352.000000 672.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform red-yellow base"
+"origin" "144.000000 864.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform red-yellow base"
+"origin" "352.000000 864.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform red-yellow base"
+"origin" "144.000000 672.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform blue-red base"
+"origin" "-1184.000000 672.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform blue-red base"
+"origin" "-1392.000000 864.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform blue-red base"
+"origin" "-1184.000000 864.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform blue-red base"
+"origin" "-1392.000000 672.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform pink-blue base"
+"origin" "-1184.000000 -864.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform pink-blue base"
+"origin" "-1392.000000 -672.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform pink-blue base"
+"origin" "-1184.000000 -672.000000 512.000000"
+"classname" "info_location"
+}
+{
+"angles" "-0.000017 90.000000 179.999985"
+"netname" "tower platform pink-blue base"
+"origin" "-1392.000000 -864.000000 512.000000"
+"classname" "info_location"
+}
+{
+"targetname" "misc_teleporter_dest2"
+"origin" "152.000000 -680.000000 488.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "misc_teleporter_dest3"
+"origin" "-1184.000000 -672.000000 488.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "misc_teleporter_dest4"
+"origin" "152.000000 664.000000 488.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "-552.000000 40.000000 448.000000"
+"classname" "weapon_crylink"
+}
+{
+"angle" "0.000009"
+"origin" "-1168.000000 656.000000 464.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "0.000009"
+"origin" "-1392.000000 880.000000 464.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "0.000009"
+"origin" "-1384.000000 656.000000 464.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-1392.000000 -880.000000 464.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "-1168.000000 -656.000000 464.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-1384.000000 -656.000000 464.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "-179.999985"
+"origin" "368.000000 -880.000000 464.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "-179.999985"
+"origin" "144.000000 -656.000000 464.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "-179.999985"
+"origin" "360.000000 -656.000000 464.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "-179.999985"
+"origin" "368.000000 880.000000 464.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "-179.999985"
+"origin" "144.000000 656.000000 464.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "-179.999985"
+"origin" "360.000000 656.000000 464.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-552.000000 -48.000000 448.000000"
+"classname" "item_jetpack"
+}
+{
+"origin" "384.000000 -8.000000 208.000000"
+"classname" "item_cells"
+}
+{
+"origin" "-488.000000 816.000000 208.000000"
+"classname" "item_cells"
+}
+{
+"origin" "-1288.000000 -8.000000 208.000000"
+"classname" "item_cells"
+}
+{
+"origin" "-488.000000 -760.000000 208.000000"
+"classname" "item_cells"
+}
