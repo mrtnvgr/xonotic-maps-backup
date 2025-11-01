@@ -1,0 +1,50 @@
+{
+"_q3map2_version" "2.5.17n-git-b25aa87"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -super 2 -filter -bounce 8; -light -fast -super 2 -filter -bounce 8; -light -fast -super 2 -filter -bounce 8; -light -fast -super 2 -filter -bounce 8; -light -fast -super 2 -filter -bounce 8; -light -fast -super 2 -filter -bounce 8; -light -fast -super 2 -filter -bounce 8"
+"classname" "worldspawn"
+}
+{
+"angle" "90.000000"
+"origin" "64.000000 -880.000000 -32.000000"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "64.000000 -632.000000 96.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "-3520.000000 -2808.000000 -736.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "-2816.000000 2024.000000 -320.000000"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "target_checkpoint2"
+"origin" "-640.000000 24.000000 352.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
