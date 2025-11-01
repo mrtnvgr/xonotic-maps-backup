@@ -1,0 +1,59 @@
+{
+"_color" "1 0.9 0.8"
+"classname" "worldspawn"
+"message" "Streifinkita sleikstynes.. [:"
+"_ambient" "50"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "120 64 48"
+}
+{
+"classname" "trigger_multiple"
+"target" "kill"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "fin"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*3"
+}
+{
+"classname" "target_kill"
+"origin" "256 64 48"
+"targetname" "kill"
+}
+{
+"targetname" "fin"
+"classname" "target_stopTimer"
+"origin" "216 64 8"
+}
+{
+"targetname" "start"
+"classname" "target_startTimer"
+"origin" "176 64 8"
+}
+{
+"target" "kill"
+"targetname" "fin"
+"origin" "192 40 8"
+"classname" "target_delay"
+}
+{
+"message" "^3Lie^2tu^1va"
+"targetname" "fin"
+"origin" "232 40 8"
+"classname" "target_print"
+}
+{
+"classname" "target_speaker"
+"origin" "152 10192 136"
+"noise" "sound/mtl/malda2.wav"
+"wait" "200"
+"random" "50"
+}
