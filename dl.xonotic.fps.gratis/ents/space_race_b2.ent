@@ -1,0 +1,253 @@
+{
+"gridsize" "96 96 160"
+"_q3map2_version" "2.5.17n-svn242"
+"_q3map2_cmdline" "-meta -mv 1000000 -mi 6000000; -vis -saveprt -fast; -light -deluxe -fast -samples 3 -filter"
+"_floodlight" "240 240 255 1024 150"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"message" "fell into space."
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"target" "t0"
+"targetname" "cp0"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*3"
+"target" "t0"
+"targetname" "cp1"
+"cnt" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp1"
+"origin" "3328.000000 0.000000 1312.000000"
+"classname" "info_player_race"
+}
+{
+"target" "cp0"
+"angle" "-90.000000"
+"origin" "256.000000 512.000000 1312.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*4"
+"target" "t0"
+"targetname" "cp2"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp2"
+"angle" "-90.000000"
+"origin" "3968.000000 -4704.000000 800.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*5"
+"target" "t0"
+"targetname" "cp6"
+"cnt" "6"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "90.000000"
+"target" "cp6"
+"origin" "2560.000000 -3328.000000 1824.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*6"
+"target" "t0"
+"targetname" "cp7"
+"cnt" "7"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "180.000000"
+"target" "cp7"
+"origin" "1536.000000 -8448.000000 288.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*7"
+"target" "t1"
+"targetname" "cp8"
+"cnt" "8"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp8"
+"angle" "90.000000"
+"origin" "1024.000000 -2880.000000 1312.000000"
+"classname" "info_player_race"
+}
+{
+"spawnflags" "2"
+"message" "Now head towards the roof of the goal platform! Be sure to touch the blue part."
+"targetname" "t2"
+"origin" "-7040.000000 -3328.000000 1408.000000"
+"classname" "target_items"
+}
+{
+"model" "*8"
+"target" "t0"
+"targetname" "cp3"
+"cnt" "3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp3"
+"angle" "90.000000"
+"origin" "2496.000000 -6464.000000 1184.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*9"
+"target" "t0"
+"targetname" "cp4"
+"cnt" "4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp4"
+"angle" "90.000000"
+"origin" "2496.000000 -6464.000000 1472.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*10"
+"target" "t0"
+"targetname" "cp5"
+"cnt" "5"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp5"
+"angle" "90.000000"
+"origin" "2496.000000 -6464.000000 1760.000000"
+"classname" "info_player_race"
+}
+{
+"netname" "jetpack fuel_regen"
+"spawnflags" "4"
+"targetname" "t0"
+"origin" "1792.000000 -3584.000000 1408.000000"
+"classname" "target_items"
+}
+{
+"model" "*11"
+"target" "t2"
+"targetname" "cp9"
+"cnt" "9"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target2" "t1"
+"target" "cp9"
+"angle" "180.000000"
+"origin" "1024.000000 -2304.000000 1408.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*12"
+"target" "t0"
+"targetname" "cp10"
+"cnt" "10"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp10"
+"angle" "90.000000"
+"origin" "128.000000 -768.000000 1824.000000"
+"classname" "info_player_race"
+}
+{
+"ammo_fuel" "20"
+"message" "You are now equipped with a jetpack. Land on the platform!"
+"netname" "jetpack fuel_regen"
+"targetname" "t1"
+"origin" "-1536.000000 -3712.000000 1408.000000"
+"classname" "target_items"
+}
+{
+"model" "*13"
+"target" "p1"
+"classname" "trigger_push"
+}
+{
+"targetname" "p1"
+"origin" "256.000000 -6144.000000 512.000000"
+"classname" "target_position"
+}
+{
+"model" "*14"
+"speed" "200"
+"target" "path9"
+"classname" "func_train"
+}
+{
+"speed" "2000"
+"targetname" "path9"
+"target" "path1"
+"origin" "256.000000 384.000000 -64.000000"
+"classname" "path_corner"
+}
+{
+"wait" "5"
+"targetname" "path1"
+"target" "path2"
+"origin" "256.000000 384.000000 1216.000000"
+"classname" "path_corner"
+}
+{
+"targetname" "path2"
+"target" "path3"
+"origin" "256.000000 1536.000000 1216.000000"
+"classname" "path_corner"
+}
+{
+"speed" "500"
+"targetname" "path3"
+"target" "path4"
+"origin" "4480.000000 1536.000000 1216.000000"
+"classname" "path_corner"
+}
+{
+"wait" "5"
+"targetname" "path4"
+"target" "path5"
+"origin" "4480.000000 512.000000 1216.000000"
+"classname" "path_corner"
+}
+{
+"targetname" "path5"
+"target" "path6"
+"origin" "5120.000000 512.000000 1216.000000"
+"classname" "path_corner"
+}
+{
+"speed" "500"
+"targetname" "path6"
+"target" "path7"
+"origin" "5120.000000 -4864.000000 1216.000000"
+"classname" "path_corner"
+}
+{
+"wait" "2"
+"targetname" "path7"
+"target" "path8"
+"origin" "4096.000000 -4864.000000 704.000000"
+"classname" "path_corner"
+}
+{
+"targetname" "path8"
+"target" "path9"
+"origin" "4096.000000 -4864.000000 -64.000000"
+"classname" "path_corner"
+}
