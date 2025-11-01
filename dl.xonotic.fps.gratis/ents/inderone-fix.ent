@@ -1,0 +1,37 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -152 32"
+"angle" "90"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "0 -88 32"
+"count" "1"
+"wait" "-1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"targetname" "t1"
+"origin" "-100 -112 144"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "t2"
+"origin" "92 8944 568"
+"angle" "90"
+}
