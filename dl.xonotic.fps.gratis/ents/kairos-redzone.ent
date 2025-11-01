@@ -1,0 +1,238 @@
+{
+"_q3map2_version" "2.5.17n-git-aa9e315"
+"_q3map2_cmdline" "-meta -v -maxarea -samplesize 8 -mv 1000000 -mi 6000000; -vis -saveprt; -light -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill"
+"_ambient" "16"
+"classname" "worldspawn"
+}
+{
+"origin" "-224.000000 0.000000 24.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"wait" "3"
+"message" "^7kairos' second accuracy map! /n ^1kairos-redzone"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"target" "start1"
+"target2" "cp0"
+"classname" "trigger_teleport"
+}
+{
+"model" "*3"
+"target" "cp1"
+"health" "5"
+"speed" "-1"
+"angle" "270"
+"wait" "0.01"
+"classname" "func_button"
+}
+{
+"model" "*4"
+"spawnflags" "1"
+"cnt" "1"
+"targetname" "cp1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*5"
+"cnt" "0"
+"targetname" "cp0"
+"spawnflags" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"targetname" "start1"
+"speed" "3000"
+"angle" "-90.000000"
+"origin" "1792.000000 0.000000 3456.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*6"
+"targetname" "cp2"
+"spawnflags" "1"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*7"
+"target" "cp2"
+"speed" "-1"
+"health" "5"
+"wait" "0.01"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*8"
+"target" "trigger_warpzone3"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*9"
+"target" "trigger_warpzone2"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*10"
+"targetname" "trigger_warpzone2"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*11"
+"targetname" "trigger_warpzone3"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*12"
+"target" "cp4"
+"health" "5"
+"wait" "0.01"
+"speed" "-1"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"origin" "256.000000 -64.000000 16.000000"
+"classname" "weapon_nex"
+}
+{
+"origin" "256.000000 64.000000 16.000000"
+"classname" "weapon_nex"
+}
+{
+"model" "*13"
+"target" "trigger_warpzone4"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*14"
+"targetname" "trigger_warpzone4"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*15"
+"target" "cp3"
+"health" "5"
+"wait" "0.01"
+"speed" "-1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*16"
+"targetname" "cp3"
+"cnt" "3"
+"spawnflags" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*17"
+"target" "target_position2"
+"classname" "trigger_push"
+}
+{
+"targetname" "target_position2"
+"origin" "-1152.000000 -1472.000000 3360.000000"
+"classname" "target_position"
+}
+{
+"model" "*18"
+"targetname" "trigger_warpzone5"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*19"
+"target" "trigger_warpzone5"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*20"
+"targetname" "cp4"
+"cnt" "4"
+"spawnflags" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*21"
+"cnt" "5"
+"targetname" "cp5"
+"spawnflags" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*22"
+"target" "cp5"
+"health" "5"
+"wait" "0.01"
+"speed" "-1"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*23"
+"target" "cp6"
+"health" "5"
+"speed" "-1"
+"angle" "90"
+"wait" "0.01"
+"classname" "func_button"
+}
+{
+"model" "*24"
+"spawnflags" "1"
+"cnt" "6"
+"targetname" "cp6"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*25"
+"target" "cp7"
+"health" "5"
+"wait" "0.01"
+"speed" "-1"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*26"
+"cnt" "7"
+"targetname" "cp7"
+"spawnflags" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*27"
+"target" "cp8"
+"health" "5"
+"wait" "0.01"
+"speed" "-1"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*28"
+"cnt" "8"
+"targetname" "cp8"
+"spawnflags" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*29"
+"target" "cp9"
+"health" "5"
+"wait" "0.01"
+"speed" "-1"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*30"
+"targetname" "cp9"
+"cnt" "9"
+"spawnflags" "9"
+"classname" "trigger_race_checkpoint"
+}
