@@ -1,0 +1,923 @@
+{
+"gridsize" "89.599998 89.599998 179.199997"
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-meta; -light -fast; -scale 1.40"
+"message" "interim_a1 by nemnemnem"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"trigger_only" "1"
+"targetname" "func_door6"
+"closewhenidle" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"trigger_only" "1"
+"targetname" "func_door5"
+"closewhenidle" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"trigger_only" "1"
+"team" "doors1"
+"closewhenidle" "1"
+"targetname" "func_door1"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"trigger_only" "1"
+"team" "doors1"
+"closewhenidle" "1"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"target" "func_door1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"trigger_only" "1"
+"targetname" "func_door2"
+"target" "trigger_multiple1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"target" "func_door2"
+"targetname" "trigger_multiple1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*8"
+"trigger_only" "1"
+"targetname" "func_door3"
+"target" "trigger_multiple2"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"target" "func_door3"
+"targetname" "trigger_multiple2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"trigger_only" "1"
+"targetname" "func_door4"
+"closewhenidle" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*11"
+"target" "func_door4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"target" "func_door5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*13"
+"target" "func_door6"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"trigger_only" "1"
+"targetname" "func_door7"
+"closewhenidle" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*15"
+"origin" "901.599976 336.000000 -359.799988"
+"targetname" "luxxxsettriggeronlyto0"
+"trigger_only" "1"
+"classname" "func_rotating_door"
+}
+{
+"model" "*16"
+"origin" "1388.799927 5.600000 -211.399994"
+"trigger_only" "1"
+"classname" "func_rotating_door"
+}
+{
+"model" "*17"
+"team" "zugauf"
+"trigger_only" "1"
+"targetname" "aufzug"
+"speed" "40"
+"dmg" "100"
+"spawnflags" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"wait" "-1"
+"angle" "90"
+"target" "aufzug"
+"classname" "func_button"
+}
+{
+"model" "*19"
+"wait" "-1"
+"angle" "0"
+"target" "aufzug"
+"classname" "func_button"
+}
+{
+"model" "*20"
+"wait" "-1"
+"angle" "0"
+"target" "aufzug"
+"classname" "func_button"
+}
+{
+"model" "*21"
+"wait" "-1"
+"angle" "0"
+"target" "aufzug"
+"classname" "func_button"
+}
+{
+"model" "*22"
+"targetname" "func_door8"
+"target" "trigger_multiple3"
+"angle" "90"
+"closewhenidle" "1"
+"trigger_only" "1"
+"team" "doorz"
+"classname" "func_door"
+}
+{
+"model" "*23"
+"angle" "270"
+"closewhenidle" "1"
+"trigger_only" "1"
+"team" "doorz"
+"classname" "func_door"
+}
+{
+"model" "*24"
+"target" "func_door8"
+"targetname" "trigger_multiple3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*25"
+"targetname" "func_door9"
+"target" "trigger_multiple4"
+"angle" "90"
+"closewhenidle" "1"
+"trigger_only" "1"
+"classname" "func_door"
+}
+{
+"model" "*26"
+"target" "func_door9"
+"classname" "trigger_multiple"
+}
+{
+"model" "*27"
+"targetname" "func_door10"
+"target" "trigger_multiple5"
+"angle" "0"
+"closewhenidle" "1"
+"trigger_only" "1"
+"team" "doory"
+"classname" "func_door"
+}
+{
+"model" "*28"
+"angle" "180"
+"closewhenidle" "1"
+"trigger_only" "1"
+"team" "doory"
+"classname" "func_door"
+}
+{
+"model" "*29"
+"target" "func_door10"
+"targetname" "trigger_multiple6"
+"classname" "trigger_multiple"
+}
+{
+"model" "*30"
+"targetname" "func_door11"
+"closewhenidle" "1"
+"trigger_only" "1"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*31"
+"target" "func_door11"
+"classname" "trigger_multiple"
+}
+{
+"model" "*32"
+"trigger_only" "1"
+"closewhenidle" "1"
+"targetname" "func_door12"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*33"
+"target" "func_door12"
+"classname" "trigger_multiple"
+}
+{
+"model" "*34"
+"origin" "-2958.199951 -4237.100098 -546.000000"
+"speed" "20"
+"classname" "func_rotating"
+}
+{
+"model" "*35"
+"angle" "-2"
+"trigger_only" "1"
+"targetname" "func_door13"
+"closewhenidle" "1"
+"classname" "func_door"
+}
+{
+"model" "*36"
+"target" "func_door13"
+"classname" "trigger_multiple"
+}
+{
+"notteam" "1"
+"origin" "-358.399994 -4760.000000 -302.399994"
+"classname" "info_player_deathmatch"
+}
+{
+"notteam" "1"
+"origin" "627.200012 -2788.800049 -392.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"notteam" "1"
+"origin" "168.000000 761.599976 -392.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"notteam" "1"
+"origin" "-728.000000 761.599976 -392.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"notteam" "1"
+"origin" "-246.399994 1512.000000 -302.399994"
+"classname" "info_player_deathmatch"
+}
+{
+"notteam" "1"
+"origin" "-1836.799927 -560.000000 -571.200012"
+"classname" "info_player_deathmatch"
+}
+{
+"notteam" "1"
+"origin" "-2340.800049 -1836.799927 -571.200012"
+"classname" "info_player_deathmatch"
+}
+{
+"notteam" "1"
+"origin" "-1892.799927 -2968.000000 -571.200012"
+"classname" "info_player_deathmatch"
+}
+{
+"notteam" "1"
+"origin" "-1142.400024 -1904.000000 -571.200012"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-44.799999 -268.799988 -358.399994"
+"classname" "info_player_deathmatch"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-705.599976 2105.599854 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-806.399963 2105.599854 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-705.599976 2105.599854 -112.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-806.399963 2105.599854 -112.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-705.599976 1937.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-806.399963 1937.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-705.599976 1937.599976 -112.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-806.399963 1937.599976 -112.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "817.599976 2105.599854 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "716.799988 2105.599854 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "817.599976 2105.599854 -112.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "716.799988 2105.599854 -112.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "817.599976 1937.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "716.799988 1937.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "817.599976 1937.599976 -112.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "716.799988 1937.599976 -112.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-190.399994 1321.599976 -369.600006"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-291.199982 1321.599976 -369.600006"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-190.399994 1153.599976 -369.600006"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-291.199982 1153.599976 -369.600006"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "179.999985"
+"origin" "526.399963 -4961.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "179.999985"
+"origin" "526.399963 -4860.799805 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "179.999985"
+"origin" "358.399994 -4961.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "179.999985"
+"origin" "358.399994 -4860.799805 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "179.999985"
+"origin" "526.399963 -4771.199707 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "179.999985"
+"origin" "526.399963 -4670.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "179.999985"
+"origin" "358.399994 -4771.199707 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "179.999985"
+"origin" "358.399994 -4670.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "0.000010"
+"origin" "-1388.799927 -4782.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "0.000010"
+"origin" "-1388.799927 -4883.199707 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "0.000010"
+"origin" "-1220.799927 -4782.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "0.000010"
+"origin" "-1220.799927 -4883.199707 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "0.000010"
+"origin" "-1388.799927 -4972.799805 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "0.000010"
+"origin" "-1388.799927 -5073.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "0.000010"
+"origin" "-1220.799927 -4972.799805 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "0.000010"
+"origin" "-1220.799927 -5073.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "90.000000"
+"origin" "-67.199997 -2968.000000 -560.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "90.000000"
+"origin" "33.599998 -2968.000000 -560.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "90.000000"
+"origin" "-67.199997 -2800.000000 -560.000000"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "3, 6, 7"
+"team" "red"
+"angle" "90.000000"
+"origin" "33.599998 -2800.000000 -560.000000"
+"classname" "info_ut_spawn"
+}
+{
+"model" "*37"
+"type" "5"
+"bombable" "1"
+"classname" "func_breakable"
+}
+{
+"angle" "-90.000000"
+"origin" "-492.799988 -1064.000000 -392.000000"
+"classname" "info_ut_bombsite"
+}
+{
+"model" "*38"
+"type" "5"
+"bombable" "1"
+"classname" "func_breakable"
+}
+{
+"angle" "-179.999985"
+"origin" "-1534.400024 -851.200012 -571.200012"
+"classname" "info_ut_bombsite"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-537.599976 1881.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-537.599976 1702.400024 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-358.399994 1881.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-358.399994 1702.400024 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-448.000000 1792.000000 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-89.599998 1881.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "-89.599998 1702.400024 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "89.599998 1881.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "89.599998 1702.400024 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "0.000000 1792.000000 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "358.399994 1881.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "358.399994 1702.400024 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "537.599976 1881.599976 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "537.599976 1702.400024 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "-90.000000"
+"origin" "448.000000 1792.000000 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "134.399994 -4457.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "134.399994 -4278.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-44.799999 -4457.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-44.799999 -4278.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "44.799999 -4368.000000 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-313.600006 -4457.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-313.600006 -4278.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-492.799988 -4457.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-492.799988 -4278.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-403.199982 -4368.000000 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-761.599976 -4457.600098 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-761.599976 -4278.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "blue"
+"angle" "90.000000"
+"origin" "-817.599976 -4603.199707 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-896.000000 -4278.399902 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"g_gametype" "4, 5, 8"
+"team" "red"
+"angle" "90.000000"
+"origin" "-851.200012 -4368.000000 -302.399994"
+"classname" "info_ut_spawn"
+}
+{
+"model" "*39"
+"classname" "trigger_location"
+}
+{
+"model" "*40"
+"message" "market"
+"classname" "trigger_location"
+}
+{
+"model" "*41"
+"message" "market"
+"classname" "trigger_location"
+}
+{
+"model" "*42"
+"message" "school"
+"classname" "trigger_location"
+}
+{
+"model" "*43"
+"message" "red spawn"
+"classname" "trigger_location"
+}
+{
+"model" "*44"
+"message" "first palace"
+"classname" "trigger_location"
+}
+{
+"model" "*45"
+"message" "garage"
+"classname" "trigger_location"
+}
+{
+"model" "*46"
+"message" "street"
+"classname" "trigger_location"
+}
+{
+"model" "*47"
+"message" "street"
+"classname" "trigger_location"
+}
+{
+"model" "*48"
+"message" "garden"
+"classname" "trigger_location"
+}
+{
+"model" "*49"
+"message" "buildings"
+"classname" "trigger_location"
+}
+{
+"model" "*50"
+"message" "backyard"
+"classname" "trigger_location"
+}
+{
+"model" "*51"
+"message" "backyard"
+"classname" "trigger_location"
+}
+{
+"origin" "-2318.399902 -2195.199951 -582.399963"
+"classname" "team_cah_capturepoint"
+}
+{
+"origin" "-2094.399902 403.199982 -582.399963"
+"classname" "team_cah_capturepoint"
+}
+{
+"origin" "-168.000000 -156.800003 -369.600006"
+"classname" "team_cah_capturepoint"
+}
+{
+"origin" "-168.000000 1601.599976 -313.600006"
+"classname" "team_cah_capturepoint"
+}
+{
+"origin" "123.199997 -1590.400024 -414.399994"
+"classname" "team_cah_capturepoint"
+}
+{
+"origin" "123.199997 -3270.399902 -392.000000"
+"classname" "team_cah_capturepoint"
+}
+{
+"origin" "-212.800003 -4558.399902 -313.600006"
+"classname" "team_cah_capturepoint"
+}
+{
+"origin" "683.200012 -3763.199951 -392.000000"
+"classname" "team_CTF_redflag"
+}
+{
+"origin" "-1500.799927 1052.799927 -436.799988"
+"classname" "team_CTF_blueflag"
+}
