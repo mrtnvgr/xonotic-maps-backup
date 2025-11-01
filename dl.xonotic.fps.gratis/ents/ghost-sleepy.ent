@@ -1,0 +1,81 @@
+{
+"classname" "worldspawn"
+"gridsize" "215,160,000,000,000,000,000"
+"message" "Made By Ghost"
+"_lightmapscale" ".3"
+"_blocksize" "4096"
+"ambient" "3"
+}
+{
+"classname" "info_player_start"
+"origin" "96 -24 24"
+"angle" "90"
+}
+{
+"classname" "target_kill"
+"origin" "80 3640 -32"
+"targetname" "t1"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"targetname" "t2"
+"angle" "270"
+"origin" "96 4960 -472"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*2"
+"target" "t2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "t4"
+"angle" "90"
+"origin" "80 -40 -712"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t3"
+"message" "^2Slide That Shit!"
+"origin" "144 0 -768"
+"classname" "target_print"
+}
+{
+"model" "*3"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"target" "t4"
+"classname" "trigger_teleport"
+}
+{
+"model" "*5"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t5"
+"origin" "208 48 -1280"
+"classname" "target_stopTimer"
+}
+{
+"model" "*6"
+"target" "t5"
+"classname" "trigger_multiple"
+}
+{
+"classname" "target_startTimer"
+"origin" "256 72 216"
+"targetname" "t6"
+}
+{
+"model" "*7"
+"classname" "trigger_multiple"
+"target" "t6"
+}
