@@ -1,0 +1,156 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "128 0 64"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location1"
+"model" "*2"
+}
+{
+"classname" "target_location"
+"origin" "6304 -1152 -400"
+"targetname" "target_location1"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location2"
+"model" "*3"
+}
+{
+"classname" "target_location"
+"origin" "9696 -512 48"
+"targetname" "target_location2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give1"
+"wait" "-1"
+"model" "*4"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "10592 -512 128"
+"targetname" "weapon_plasmagun1"
+"count" "50"
+}
+{
+"classname" "target_give"
+"origin" "10640 -512 128"
+"targetname" "target_give1"
+"target" "weapon_plasmagun1"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location2"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location2"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location2"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location2"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "9728 256 96"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*10"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 0 -16"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "200"
+"model" "*11"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "200"
+"model" "*12"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "200"
+"model" "*13"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "200"
+"model" "*14"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location1"
+"model" "*15"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location1"
+"model" "*16"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location1"
+"model" "*17"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location1"
+"model" "*18"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*19"
+}
+{
+"classname" "target_checkpoint"
+"origin" "6048 0 48"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*20"
+}
+{
+"classname" "target_checkpoint"
+"origin" "9344 -1280 -512"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "item_health_mega"
+"origin" "9792 -512 32"
+"wait" "2"
+}
