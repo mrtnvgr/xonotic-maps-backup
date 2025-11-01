@@ -1,0 +1,193 @@
+{
+"message" "As esu mapas"
+"music" "music\sonic5.wav"
+"classname" "worldspawn"
+}
+{
+"classname" "target_init"
+"targetname" "chkp5"
+"origin" "0 64 128"
+}
+{
+"classname" "trigger_multiple"
+"target" "kil1"
+"model" "*1"
+}
+{
+"classname" "target_delay"
+"target" "kil1"
+"targetname" "dr1"
+"origin" "40 104 128"
+}
+{
+"classname" "ammo_rockets"
+"origin" "580 2140 1024"
+"count" "9999"
+"wait" "5"
+}
+{
+"classname" "ammo_cells"
+"origin" "484 2140 1024"
+"count" "9999"
+"wait" "5"
+}
+{
+"classname" "ammo_rockets"
+"count" "999"
+"origin" "388 3492 -96"
+"wait" "5"
+}
+{
+"classname" "weapon_grenadelauncher"
+"count" "5"
+"origin" "344 3488 -96"
+}
+{
+"classname" "weapon_rocketlauncher"
+"count" "9999"
+"origin" "8 3152 -144"
+}
+{
+"classname" "ammo_cells"
+"count" "9999"
+"origin" "0 2560 -368"
+"wait" "5"
+}
+{
+"wait" "5"
+"classname" "item_enviro"
+"count" "9999"
+"origin" "32 2320 -416"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-32 2320 -416"
+}
+{
+"classname" "target_print"
+"targetname" "dr1"
+"message" "^3L^2T^1g ^74 EVER!!!"
+"origin" "64 56 128"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "dr1"
+"origin" "64 80 128"
+}
+{
+"classname" "target_startTimer"
+"targetname" "start"
+"origin" "64 104 128"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "chkp1"
+"origin" "-104 112 128"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*2"
+}
+{
+"targetname" "dr1"
+"angle" "90"
+"classname" "func_door"
+"dmg" "999"
+"wait" "1"
+"lip" "6"
+"model" "*3"
+}
+{
+"targetname" "dr1"
+"angle" "270"
+"classname" "func_door"
+"dmg" "999"
+"wait" "1"
+"lip" "6"
+"model" "*4"
+}
+{
+"target" "dr1"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"target" "chkp1"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"target" "chkp2"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"target" "chkp3"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"target" "chkp4"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"target" "chkp5"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"angle" "90"
+"origin" "0 64 48"
+"classname" "info_player_start"
+}
+{
+"origin" "-104 88 128"
+"targetname" "chkp2"
+"classname" "target_checkpoint"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "chkp3"
+"origin" "-104 64 128"
+}
+{
+"origin" "-104 40 128"
+"targetname" "chkp4"
+"classname" "target_checkpoint"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "chkp5"
+"origin" "-104 16 128"
+}
+{
+"origin" "0 2944 -416"
+"count" "9999"
+"classname" "ammo_cells"
+"wait" "5"
+}
+{
+"origin" "372 2420 832"
+"count" "999"
+"classname" "ammo_rockets"
+"wait" "5"
+}
+{
+"origin" "532 2140 1024"
+"classname" "ammo_cells"
+"count" "9999"
+"wait" "5"
+}
+{
+"origin" "628 2140 1024"
+"classname" "ammo_rockets"
+"count" "9999"
+"wait" "5"
+}
+{
+"targetname" "kil1"
+"origin" "40 80 128"
+"classname" "target_kill"
+}
