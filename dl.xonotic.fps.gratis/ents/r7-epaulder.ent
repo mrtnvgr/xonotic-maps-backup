@@ -1,0 +1,51 @@
+{
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "9999"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2000 32 8"
+"targetname" "t3"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t3"
+}
+{
+"classname" "target_startTimer"
+"origin" "224 32 128"
+"targetname" "t2"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t2"
+}
+{
+"classname" "item_armor_body"
+"angle" "315"
+"spawnflags" "1"
+"wait" "1"
+"origin" "-112 224 32"
+}
+{
+"classname" "target_stopTimer"
+"origin" "3952 32 -2344"
+"targetname" "t1"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"classname" "info_player_start"
+"angle" "45"
+"origin" "-120 -168 32"
+}
