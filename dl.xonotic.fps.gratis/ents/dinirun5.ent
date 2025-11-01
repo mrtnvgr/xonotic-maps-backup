@@ -1,0 +1,71 @@
+{
+"classname" "worldspawn"
+"_minlight" "18"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "32 256 96"
+"target" "target_give1"
+}
+{
+"classname" "target_give"
+"origin" "96 256 128"
+"targetname" "target_give1"
+"target" "item_haste1"
+}
+{
+"classname" "item_haste"
+"origin" "128 256 160"
+"targetname" "item_haste1"
+"count" "999999"
+}
+{
+"classname" "target_startTimer"
+"origin" "160 256 288"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "kill"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1152 1088 -64"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2432 8448 -256"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-2432 5248 -1344"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "target_kill"
+"origin" "128 192 256"
+"targetname" "kill"
+}
