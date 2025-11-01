@@ -1,0 +1,104 @@
+{
+"classname" "worldspawn"
+"_ambient" "20"
+}
+{
+"target" "t14"
+"classname" "info_player_deathmatch"
+"origin" "0 64 32"
+}
+{
+"classname" "target_position"
+"targetname" "t7"
+"origin" "4264 416 1044"
+}
+{
+"target" "t7"
+"classname" "trigger_push"
+"model" "*1"
+}
+{
+"dmg" "20"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t8"
+"origin" "0 224 192"
+"classname" "target_startTimer"
+}
+{
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t9"
+"origin" "4648 416 1104"
+"classname" "target_stopTimer"
+}
+{
+"count" "1"
+"origin" "4544 416 992"
+"classname" "weapon_plasmagun"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t11"
+"target" "t10"
+"origin" "1632 416 192"
+"classname" "target_give"
+}
+{
+"targetname" "t10"
+"count" "2"
+"origin" "1632 416 96"
+"classname" "weapon_rocketlauncher"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t12"
+"origin" "1888 416 512"
+"classname" "target_init"
+}
+{
+"targetname" "t14"
+"target" "t13"
+"origin" "64 64 32"
+"classname" "target_give"
+}
+{
+"targetname" "t13"
+"count" "2"
+"origin" "64 96 32"
+"classname" "weapon_plasmagun"
+}
+{
+"target" "t15"
+"classname" "trigger_teleport"
+"model" "*7"
+}
+{
+"targetname" "t15"
+"origin" "1376 416 120"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t13"
+"origin" "64 96 96"
+"classname" "item_armor_combat"
+}
