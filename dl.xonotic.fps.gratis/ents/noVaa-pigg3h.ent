@@ -1,0 +1,39 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_teleporter"
+"origin" "75 -125 -38"
+"targetname" "trans1"
+"target" "trans1"
+}
+{
+"angle" "90"
+"origin" "163 -115 -43"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "trans1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"classname" "target_startTimer"
+"origin" "153 128 119"
+"targetname" "t1"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-1674 2921 261"
+"targetname" "t2"
+}
