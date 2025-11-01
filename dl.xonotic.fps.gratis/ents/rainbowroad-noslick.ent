@@ -1,0 +1,125 @@
+{
+"_q3map2_version" "2.5.17n-git-b25aa87"
+"_q3map2_cmdline" "-meta"
+"_blocksize" "4096"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"wait" "-1"
+"target" "target_score1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_score1"
+"origin" "5376 15584 -160"
+"classname" "target_score"
+}
+{
+"targetname" "target_stopTimer2"
+"origin" "2368 4896 -1024"
+"classname" "target_stopTimer"
+}
+{
+"model" "*2"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"target" "target_speed2"
+"angle" "145"
+"origin" "-1056 -10851 356"
+"classname" "info_player_start"
+}
+{
+"targetname" "target_speed2"
+"origin" "-1248 -10944 416"
+"classname" "target_startTimer"
+}
+{
+"spawnflags" "12"
+"target" "target_stopTimer2"
+"targetname" "target_stopTimer1"
+"origin" "2384 4840 -1032"
+"classname" "target_fragsFilter"
+}
+{
+"target" "target_position1"
+"targetname" "target_stopTimer2"
+"origin" "2292 4728 -1136"
+"classname" "target_push"
+}
+{
+"targetname" "target_position1"
+"origin" "2292 3728 2384"
+"classname" "target_position"
+}
+{
+"model" "*3"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "-8048 4868 644"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90"
+"targetname" "target_checkpoint2"
+"origin" "-2352 -14640 644"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90"
+"targetname" "target_checkpoint3"
+"origin" "13860 2940 644"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "target_checkpoint4"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90"
+"targetname" "target_checkpoint4"
+"origin" "520 -7192 644"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"target" "target_checkpoint5"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90"
+"targetname" "target_checkpoint5"
+"origin" "6356 12576 644"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"target" "target_kill1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_kill1"
+"origin" "5850 -9248 -1309"
+"classname" "target_kill"
+}
+{
+"targetname" "target_checkpoint3"
+"origin" "13821 2846 644"
+"classname" "target_init"
+}
