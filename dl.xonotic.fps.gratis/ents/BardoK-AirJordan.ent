@@ -1,0 +1,151 @@
+{
+"classname" "worldspawn"
+"message" "Made By BardoK"
+"ambient" "15"
+"_lightmapscale" ".3"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000,000"
+}
+{
+"light" "100"
+"origin" "-32 -1152 320"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-256 3840 256"
+"light" "100"
+}
+{
+"light" "100"
+"origin" "192 3840 256"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "192 3520 256"
+"light" "100"
+}
+{
+"light" "100"
+"origin" "-256 3520 256"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-256 3136 320"
+"light" "100"
+}
+{
+"light" "100"
+"origin" "192 3136 320"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "192 2752 384"
+"light" "100"
+}
+{
+"light" "100"
+"origin" "-256 2752 384"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-256 2432 448"
+"light" "100"
+}
+{
+"light" "100"
+"origin" "192 2432 448"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "192 2048 448"
+"light" "100"
+}
+{
+"light" "100"
+"origin" "-256 2048 448"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-256 1728 448"
+"light" "100"
+}
+{
+"light" "100"
+"origin" "192 1728 448"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "192 1408 448"
+"light" "100"
+}
+{
+"light" "100"
+"origin" "-256 1408 448"
+"classname" "light"
+}
+{
+"classname" "info_player_start"
+"origin" "-32 -1280 32"
+"angle" "90"
+}
+{
+"classname" "misc_model"
+"origin" "-32 -1048 8"
+"model" "models/mapobjects/teleporter/teleporter.md3"
+"angle" "270"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-32 -192 32"
+"angle" "90"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "light"
+"origin" "-32 -1152 128"
+"light" "100"
+}
+{
+"classname" "target_startTimer"
+"origin" "-32 -1120 120"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-32 -1120 408"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-32 -192 32"
+"angle" "90"
+"targetname" "t4"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*4"
+}
