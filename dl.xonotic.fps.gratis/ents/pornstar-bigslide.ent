@@ -1,0 +1,115 @@
+{
+"classname" "worldspawn"
+"ambient" "15"
+"_lightmapscale" ".3"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000"
+"message" "Made by Pornstar"
+}
+{
+"origin" "1776 -368 216"
+"classname" "info_player_start"
+"angle" "90"
+}
+{
+"targetname" "t11"
+"origin" "1792 -168 336"
+"classname" "target_startTimer"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t12"
+"origin" "1688 -280 2272"
+"classname" "target_stopTimer"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"origin" "1496 2128 -576"
+"classname" "weapon_rocketlauncher"
+"wait" "-1"
+"count" "3"
+"spawnflags" "1"
+}
+{
+"count" "3"
+"wait" "-1"
+"classname" "weapon_rocketlauncher"
+"origin" "2064 2128 -576"
+"spawnflags" "1"
+}
+{
+"count" "3"
+"wait" "-1"
+"classname" "weapon_rocketlauncher"
+"origin" "1792 2128 -568"
+"spawnflags" "1"
+}
+{
+"classname" "item_enviro"
+"origin" "1784 -256 216"
+"spawnflags" "1"
+"count" "999"
+"wait" "-1"
+}
+{
+"classname" "item_haste"
+"origin" "1792 2176 -576"
+"spawnflags" "1"
+"wait" "-1"
+"count" "10"
+}
+{
+"count" "10"
+"wait" "-1"
+"spawnflags" "1"
+"origin" "1496 2176 -576"
+"classname" "item_haste"
+}
+{
+"classname" "item_haste"
+"origin" "2064 2176 -576"
+"spawnflags" "1"
+"wait" "-1"
+"count" "10"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "1728 4208 160"
+"spawnflags" "1"
+"count" "10"
+"wait" "-1"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "1800 4208 160"
+"spawnflags" "1"
+"wait" "-1"
+"count" "1337"
+}
+{
+"count" "10"
+"wait" "-1"
+"spawnflags" "1"
+"origin" "1760 4160 168"
+"classname" "item_haste"
+}
+{
+"classname" "target_kill"
+"origin" "1765 332 2134"
+"targetname" "t17"
+}
+{
+"classname" "trigger_hurt"
+"target" "t17"
+"spawnflags" "1"
+"dmg" "200"
+"model" "*3"
+}
