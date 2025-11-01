@@ -1,0 +1,64 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-1448 1056 120"
+"targetname" "t16"
+}
+{
+"classname" "trigger_multiple"
+"target" "t16"
+"model" "*1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2968 744 128"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1856 -3416 128"
+"targetname" "t6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1992 -608 128"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "256 0 128"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t1"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "999"
+"model" "*6"
+}
+{
+"origin" "0 0 24"
+"classname" "info_player_start"
+}
