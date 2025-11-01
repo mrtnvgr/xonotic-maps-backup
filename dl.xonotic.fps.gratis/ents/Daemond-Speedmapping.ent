@@ -1,0 +1,73 @@
+{
+"message" "SpeedMapping"
+"ambient" "3"
+"gridsize" "512 512 512"
+"_blocksize" "4096"
+"_lightmapscale" ".2"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "64 -256 736"
+"classname" "info_player_start"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "72 0 800"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "880 1456 480"
+"targetname" "t2"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t3"
+"origin" "1576 3184 640"
+"classname" "target_checkpoint"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t4"
+"origin" "-368 4960 640"
+"classname" "target_checkpoint"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t5"
+"origin" "-2200 2728 568"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "t6"
+"origin" "-1208 1536 632"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*6"
+}
