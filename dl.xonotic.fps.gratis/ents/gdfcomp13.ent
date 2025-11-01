@@ -1,0 +1,156 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_init"
+"targetname" "init"
+"spawnflags" "2"
+"origin" "-2888 72 88"
+}
+{
+"classname" "target_startTimer"
+"targetname" "start"
+"origin" "-3352 -40 136"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "start"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "check1"
+"origin" "-1416 24 136"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "check1"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "finish"
+"origin" "3448 40 488"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "finish"
+}
+{
+"classname" "item_armor_body"
+"wait" "2"
+"origin" "1568 -96 344"
+}
+{
+"classname" "ammo_cells"
+"count" "100"
+"wait" "2"
+"origin" "960 64 344"
+}
+{
+"model" "*4"
+"classname" "trigger_hurt"
+"dmg" "500"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "check2"
+"origin" "840 40 456"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"target" "check2"
+}
+{
+"classname" "light"
+"light" "150"
+"_color" "0.490196 0.745098 1.000000"
+"origin" "832 64 160"
+}
+{
+"classname" "item_health_mega"
+"count" "200"
+"wait" "1"
+"origin" "832 64 152"
+}
+{
+"classname" "target_give"
+"targetname" "give_armor"
+"target" "armor"
+"origin" "-552 72 -120"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "give_armor"
+}
+{
+"classname" "item_armor_body"
+"targetname" "armor"
+"wait" "1"
+"origin" "-1880 56 48"
+}
+{
+"model" "*7"
+"classname" "trigger_hurt"
+"dmg" "500"
+}
+{
+"classname" "item_health_mega"
+"wait" "2"
+"count" "200"
+"origin" "-3232 64 24"
+}
+{
+"classname" "weapon_plasmagun"
+"count" "200"
+"wait" "2"
+"origin" "-2208 64 56"
+}
+{
+"model" "*8"
+"classname" "trigger_hurt"
+"dmg" "500"
+}
+{
+"origin" "-3488 64 32"
+"classname" "info_player_start"
+}
+{
+"origin" "-536 72 -136"
+"target" "armor"
+"targetname" "give_armor"
+"classname" "target_give"
+}
+{
+"model" "*9"
+"dmg" "500"
+"classname" "trigger_hurt"
+}
+{
+"origin" "1568 224 344"
+"wait" "2"
+"classname" "item_armor_body"
+}
+{
+"model" "*10"
+"target" "init"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"classname" "trigger_hurt"
+"dmg" "500"
+}
+{
+"origin" "1376 -96 344"
+"wait" "2"
+"classname" "item_armor_body"
+}
+{
+"classname" "item_armor_body"
+"wait" "2"
+"origin" "1376 224 344"
+}
