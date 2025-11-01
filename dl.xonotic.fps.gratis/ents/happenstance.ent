@@ -1,0 +1,83 @@
+{
+"gridsize" "80 80 128"
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta -noob; -vis; -light"
+"_minlight" "18"
+"message" "happenstance of doom"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "-19320 -7568 -1728"
+"classname" "target_stopTimer"
+}
+{
+"origin" "-576 0 -32"
+"classname" "info_player_start"
+}
+{
+"model" "*2"
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "-320 -120 64"
+"classname" "target_startTimer"
+}
+{
+"targetname" "target_position2"
+"origin" "-1752 944 272"
+"classname" "target_position"
+}
+{
+"targetname" "target_position1"
+"origin" "-1752 1232 272"
+"classname" "target_position"
+}
+{
+"model" "*3"
+"target" "target_position2"
+"classname" "trigger_push"
+}
+{
+"model" "*4"
+"target" "target_position1"
+"classname" "trigger_push"
+}
+{
+"model" "*5"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "-3584 808 384"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint2"
+"origin" "-12760 496 -288"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint3"
+"origin" "-24496 -4600 -1056"
+"classname" "target_checkpoint"
+}
