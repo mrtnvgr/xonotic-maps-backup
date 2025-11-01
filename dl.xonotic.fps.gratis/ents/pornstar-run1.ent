@@ -1,0 +1,49 @@
+{
+"classname" "worldspawn"
+"ambient" "15"
+"_lightmapscale" ".3"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000"
+"message" "Made by Pornstar"
+}
+{
+"origin" "49 225 126"
+"classname" "info_player_start"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"targetname" "t1"
+"origin" "45 225 184"
+"classname" "target_position"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "4142 224 162"
+"spawnflags" "1"
+"count" "5"
+"wait" "-1"
+}
+{
+"classname" "target_startTimer"
+"origin" "216 228 276"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "7094 250 238"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
