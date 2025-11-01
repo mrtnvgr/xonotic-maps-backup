@@ -1,0 +1,111 @@
+{
+"classname" "worldspawn"
+"_ambient" "3"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2752 -768 496"
+"angle" "90"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-2816 -448 480"
+}
+{
+"origin" "-2752 -448 480"
+"classname" "ammo_rockets"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-2688 -448 480"
+}
+{
+"origin" "-2688 -512 480"
+"classname" "ammo_rockets"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-2752 -512 480"
+}
+{
+"origin" "-2816 -512 480"
+"classname" "ammo_rockets"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-2752 -576 496"
+}
+{
+"classname" "item_enviro"
+"origin" "-2752 -640 496"
+"count" "999"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-2672 720 448"
+"count" "999"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-2624 720 448"
+"count" "999"
+}
+{
+"classname" "trigger_multiple"
+"target" "removerox"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "giverox"
+"model" "*2"
+}
+{
+"classname" "target_give"
+"origin" "-2648 3064 1024"
+"targetname" "giverox"
+"target" "giverox1"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-2672 3152 1024"
+"targetname" "giverox1"
+"count" "999"
+"spawnflags" "1"
+}
+{
+"targetname" "removerox"
+"spawnflags" "11"
+"origin" "-2592 600 528"
+"classname" "target_init"
+}
+{
+"count" "999"
+"origin" "-2848 720 448"
+"classname" "weapon_grenadelauncher"
+}
+{
+"count" "999"
+"origin" "-2800 720 448"
+"classname" "weapon_plasmagun"
+}
+{
+"target" "finish"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "finish"
+"origin" "-2632 14048 800"
+"classname" "target_stopTimer"
+}
+{
+"target" "startas"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "startas"
+"origin" "-2648 -352 512"
+"classname" "target_startTimer"
+}
