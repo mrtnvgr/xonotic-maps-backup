@@ -1,0 +1,73 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "0 -32 24"
+"count" "9999"
+"wait" "1"
+"spawnflags" "1"
+"angle" "270"
+"classname" "item_enviro"
+}
+{
+"origin" "0 -216 32"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"dmg" "9999"
+"spawnflags" "12"
+"classname" "trigger_hurt"
+}
+{
+"targetname" "t3"
+"origin" "-56 288 8"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t1"
+"origin" "-2448 1440 2144"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"count" "999"
+"wait" "1"
+"spawnflags" "1"
+"origin" "0 384 32"
+"classname" "weapon_plasmagun"
+}
+{
+"model" "*4"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t2"
+"classname" "target_stopTimer"
+"origin" "-2464 416 2144"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-136 248 480"
+"spawnflags" "1"
+"wait" "1"
+"count" "999"
+}
+{
+"count" "999"
+"wait" "1"
+"spawnflags" "1"
+"origin" "128 712 1432"
+"classname" "weapon_plasmagun"
+}
