@@ -1,0 +1,139 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_give"
+"targetname" "give-suit1"
+"target" "give-suit1.1"
+"origin" "-3792 3688 8"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "1944 3648 -432"
+}
+{
+"origin" "2976 3224 392"
+"count" "9999"
+"classname" "item_haste"
+}
+{
+"origin" "2984 3304 400"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "3944 3360 -112"
+"classname" "item_enviro"
+}
+{
+"count" "9999"
+"classname" "weapon_plasmagun"
+"origin" "3920 3360 -112"
+}
+{
+"classname" "item_haste"
+"origin" "3968 3360 -112"
+}
+{
+"classname" "target_position"
+"targetname" "teleport1"
+"origin" "4000 3360 -88"
+"angle" "180"
+}
+{
+"classname" "trigger_teleport"
+"target" "teleport1"
+"model" "*1"
+}
+{
+"origin" "-3800 3560 16"
+"count" "2"
+"classname" "weapon_rocketlauncher"
+"targetname" "give-suit1.1"
+}
+{
+"origin" "-3816 3648 24"
+"angle" "360"
+"classname" "info_player_deathmatch"
+"target" "give-suit1"
+}
+{
+"classname" "item_enviro"
+"origin" "-3800 3736 16"
+"count" "9999"
+"targetname" "give-suit1.1"
+}
+{
+"count" "9999"
+"classname" "weapon_plasmagun"
+"origin" "2144 3648 16"
+}
+{
+"classname" "target_init"
+"targetname" "reinit"
+"origin" "3488 3464 232"
+}
+{
+"classname" "trigger_multiple"
+"target" "reinit"
+"model" "*2"
+}
+{
+"origin" "3488 3256 232"
+"targetname" "t2"
+"classname" "target_init"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"target" "end1"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"origin" "3032 2908 2128"
+"targetname" "end1"
+"classname" "target_stopTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"classname" "target_startTimer"
+"targetname" "t3"
+"origin" "-3552 3628 80"
+}
+{
+"classname" "trigger_multiple"
+"target" "ch1"
+"model" "*6"
+}
+{
+"origin" "2024 3620 240"
+"targetname" "ch1"
+"classname" "target_checkpoint"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t4"
+"origin" "3928 3308 232"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*8"
+}
+{
+"origin" "2984 3180 448"
+"targetname" "t5"
+"classname" "target_checkpoint"
+}
