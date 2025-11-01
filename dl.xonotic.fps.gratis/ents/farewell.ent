@@ -1,0 +1,402 @@
+{
+"_q3map2_version" "2.5.17n-svn402"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000; -vis -saveprt; -light -deluxe -patchshadows -samples 3 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid -dirty -dirtscale 2"
+"_lightmapscale" "0.25"
+"message" "Farewell - by Tymo"
+"classname" "worldspawn"
+}
+{
+"origin" "696 512 48"
+"classname" "item_armor_large"
+}
+{
+"origin" "320 576 360"
+"angle" "180"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "480 -368 216"
+"angle" "180"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-160 -656 208"
+"classname" "item_armor_small"
+}
+{
+"origin" "-352 -656 208"
+"classname" "item_armor_small"
+}
+{
+"origin" "-224 -656 208"
+"classname" "item_armor_small"
+}
+{
+"origin" "-288 -656 208"
+"classname" "item_armor_small"
+}
+{
+"origin" "64 384 48"
+"classname" "item_health_medium"
+}
+{
+"origin" "-968 -152 232"
+"message" "Stairs"
+"classname" "info_location"
+}
+{
+"origin" "-24 -376 248"
+"message" "Upper Atrium"
+"classname" "info_location"
+}
+{
+"origin" "248 40 40"
+"message" "Lower Atrium"
+"classname" "info_location"
+}
+{
+"origin" "616 488 104"
+"message" "Armor"
+"classname" "info_location"
+}
+{
+"origin" "568 -184 40"
+"message" "Teleporter"
+"classname" "info_location"
+}
+{
+"origin" "580 -152 248"
+"message" "Machinegun"
+"classname" "info_location"
+}
+{
+"message" "Rocketlauncher"
+"origin" "-456 -8 40"
+"classname" "info_location"
+}
+{
+"origin" "88 456 376"
+"message" "Grenadelauncher"
+"classname" "info_location"
+}
+{
+"origin" "-936 680 392"
+"message" "Crylink"
+"classname" "info_location"
+}
+{
+"origin" "-1224 248 248"
+"message" "Mega Health"
+"classname" "info_location"
+}
+{
+"origin" "-128 -504 408"
+"targetname" "int"
+"classname" "target_position"
+}
+{
+"origin" "-128 -608 432"
+"target" "int"
+"classname" "info_player_intermission"
+}
+{
+"angle" "90"
+"origin" "-704 -656 216"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1344 384 256"
+"classname" "item_health_mega"
+}
+{
+"origin" "64 448 352"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "-2040 -1272 -72"
+"classname" "trigger_always"
+}
+{
+"origin" "528 -408 24"
+"angle" "135"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-336 -528 216"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-736 48 24"
+"angle" "315"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-880 720 360"
+"angle" "225"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-416 464 288"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-704 0 16"
+"classname" "item_health_medium"
+}
+{
+"angle" "180"
+"origin" "320 720 352"
+"classname" "item_health_medium"
+}
+{
+"angle" "180"
+"origin" "320 640 352"
+"classname" "item_health_medium"
+}
+{
+"origin" "-496 0 208"
+"classname" "item_health_medium"
+}
+{
+"origin" "-496 -80 208"
+"classname" "item_health_medium"
+}
+{
+"origin" "-448 -64 16"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "-1264 -32 216"
+"angle" "45"
+"targetname" "t1"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*1"
+"target" "t1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "j2"
+"origin" "-960 376 440"
+"classname" "target_position"
+}
+{
+"model" "*2"
+"target" "j2"
+"classname" "trigger_push"
+}
+{
+"origin" "64 312 424"
+"targetname" "j1"
+"classname" "target_position"
+}
+{
+"model" "*3"
+"target" "j1"
+"classname" "trigger_push"
+}
+{
+"angle" "180"
+"origin" "336 128 24"
+"classname" "info_player_deathmatch"
+}
+{
+"message" "Lower Atrium"
+"origin" "-120 136 40"
+"classname" "info_location"
+}
+{
+"message" "Lower Atrium"
+"origin" "-72 -216 40"
+"classname" "info_location"
+}
+{
+"message" "Upper Atrium"
+"origin" "-424 -88 248"
+"classname" "info_location"
+}
+{
+"message" "Upper Atrium"
+"origin" "-232 -536 248"
+"classname" "info_location"
+}
+{
+"message" "Upper Atrium"
+"origin" "-424 392 328"
+"classname" "info_location"
+}
+{
+"message" "Upper Atrium"
+"origin" "-168 424 376"
+"classname" "info_location"
+}
+{
+"origin" "232 648 376"
+"message" "Upper Atrium"
+"classname" "info_location"
+}
+{
+"message" "Stairs"
+"origin" "-712 -136 120"
+"classname" "info_location"
+}
+{
+"message" "Stairs"
+"origin" "-728 -456 152"
+"classname" "info_location"
+}
+{
+"model" "*4"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"origin" "576 -92 208"
+"classname" "weapon_machinegun"
+}
+{
+"origin" "-204 436 48"
+"classname" "item_cells"
+}
+{
+"origin" "-872 -364 112"
+"classname" "item_cells"
+}
+{
+"angle" "90"
+"origin" "-232 664 352"
+"classname" "item_shells"
+}
+{
+"origin" "-40 -428 16"
+"classname" "item_bullets"
+}
+{
+"origin" "-792 -364 112"
+"classname" "item_rockets"
+}
+{
+"angle" "90"
+"origin" "-384 664 352"
+"classname" "item_rockets"
+}
+{
+"origin" "-1224 56 208"
+"classname" "item_cells"
+}
+{
+"origin" "-1288 56 208"
+"classname" "item_cells"
+}
+{
+"angle" "90"
+"origin" "-312 664 352"
+"classname" "item_rockets"
+}
+{
+"origin" "-416 192 216"
+"classname" "item_cells"
+}
+{
+"origin" "-416 128 216"
+"classname" "item_cells"
+}
+{
+"angle" "-90"
+"origin" "64 591 56"
+"classname" "item_rockets"
+}
+{
+"angle" "-90"
+"origin" "-112 591 56"
+"classname" "item_rockets"
+}
+{
+"origin" "-1024 704 360"
+"classname" "weapon_crylink"
+}
+{
+"origin" "-960 -368 112"
+"classname" "weapon_electro"
+}
+{
+"message" "Electro"
+"origin" "-960 -336 112"
+"classname" "info_location"
+}
+{
+"origin" "-232 -416 456"
+"targetname" "t3"
+"classname" "target_position"
+}
+{
+"targetname" "t2"
+"origin" "-120 -448 456"
+"classname" "target_position"
+}
+{
+"origin" "20 -444 84"
+"targetname" "t4"
+"classname" "target_position"
+}
+{
+"targetname" "t5"
+"origin" "-172 -444 84"
+"classname" "target_position"
+}
+{
+"origin" "-412 -124 84"
+"targetname" "t6"
+"classname" "target_position"
+}
+{
+"targetname" "t7"
+"origin" "-412 60 84"
+"classname" "target_position"
+}
+{
+"origin" "-704 20 124"
+"targetname" "t8"
+"classname" "target_position"
+}
+{
+"origin" "-72 324 116"
+"targetname" "t9"
+"classname" "target_position"
+}
+{
+"targetname" "t10"
+"origin" "64 388 116"
+"classname" "target_position"
+}
+{
+"origin" "196 324 116"
+"targetname" "t11"
+"classname" "target_position"
+}
+{
+"targetname" "t12"
+"origin" "152 572 116"
+"classname" "target_position"
+}
+{
+"origin" "-24 572 116"
+"targetname" "t13"
+"classname" "target_position"
+}
+{
+"origin" "-96 -416 456"
+"targetname" "t14"
+"classname" "target_position"
+}
+{
+"targetname" "t16"
+"origin" "340 -324 84"
+"classname" "target_position"
+}
+{
+"origin" "516 -148 84"
+"targetname" "t17"
+"classname" "target_position"
+}
