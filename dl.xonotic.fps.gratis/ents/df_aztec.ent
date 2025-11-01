@@ -1,0 +1,148 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "6236 -1128 -1092"
+"angle" "90"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"model" "*1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "20"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"targetname" "door1"
+"angle" "-1"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "door1"
+"model" "*5"
+}
+{
+"classname" "target_startTimer"
+"targetname" "t1"
+"origin" "6240 -936 -928"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*6"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "t2"
+"origin" "3808 3312 -1472"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t3"
+"origin" "-1968 -1400 -1032"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t4"
+"origin" "-1776 1160 -792"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t5"
+"origin" "-1720 -3216 -832"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t6"
+"origin" "-5656 -1032 -736"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"targetname" "func_door1"
+"model" "*13"
+}
+{
+"classname" "func_button"
+"target" "func_door1"
+"health" "1"
+"model" "*14"
+}
+{
+"classname" "func_button"
+"target" "target_speaker1"
+"angle" "90"
+"wait" "25"
+"model" "*15"
+}
+{
+"classname" "target_speaker"
+"origin" "4569 4328 -1488"
+"angle" "-90"
+"noise" "music/caramell.wav"
+"targetname" "target_speaker1"
+"spawnflags" "4"
+}
+{
+"classname" "trigger_multiple"
+"target" "func_door1"
+"model" "*16"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"model" "*17"
+}
+{
+"classname" "info_player_intermission"
+"origin" "6236 -1160 -1100"
+"angle" "90"
+"target" "target_position5"
+}
+{
+"classname" "target_position"
+"origin" "6236 -1084 -1100"
+"targetname" "target_position5"
+"angle" "90"
+}
