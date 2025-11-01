@@ -1,0 +1,148 @@
+{
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000,000,000,000,000"
+"_lightmapscale" ".0025"
+"ambient" "25"
+"message" "Made By BardoK"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "32 -288 32"
+"angle" "90"
+}
+{
+"classname" "target_startTimer"
+"origin" "32 -160 64"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-96 -256 64"
+"targetname" "t2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-32 1568 64"
+"targetname" "t3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"angle" "270"
+"origin" "1632 1632 64"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t4"
+"classname" "trigger_teleport"
+"model" "*4"
+}
+{
+"targetname" "t5"
+"angle" "270"
+"origin" "1632 1056 64"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t5"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"targetname" "t6"
+"origin" "1632 1056 96"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t7"
+"origin" "3104 736 96"
+"classname" "target_checkpoint"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t8"
+"angle" "270"
+"origin" "3104 672 64"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t9"
+"angle" "270"
+"origin" "3104 -96 64"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t9"
+"classname" "trigger_teleport"
+"model" "*8"
+}
+{
+"classname" "trigger_teleport"
+"target" "t8"
+"model" "*9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "3296 -224 64"
+"angle" "360"
+"targetname" "t10"
+}
+{
+"classname" "trigger_teleport"
+"target" "t10"
+"model" "*10"
+}
+{
+"targetname" "t11"
+"origin" "3872 -224 -56"
+"classname" "target_checkpoint"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "4896 -224 -192"
+"targetname" "t12"
+}
+{
+"classname" "trigger_teleport"
+"target" "t12"
+"model" "*12"
+}
+{
+"targetname" "t13"
+"origin" "6976 -224 -96"
+"classname" "target_stopTimer"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*13"
+}
