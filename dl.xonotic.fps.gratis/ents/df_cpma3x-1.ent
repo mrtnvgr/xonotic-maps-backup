@@ -1,0 +1,74 @@
+{
+"message" "cpma tricks 1 by RuSHeR"
+"origin" "0 0 0"
+"classname" "worldspawn"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "3992 1312 -3872"
+"targetname" "t2"
+"spawnflags" "4"
+"angle" "270"
+}
+{
+"angle" "270"
+"origin" "3992 1312 -3872"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3992 608 -3872"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "4"
+"targetname" "t2"
+"origin" "3992 608 -3872"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t2"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"target" "start"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "start"
+"origin" "3776 972 -3764"
+"classname" "target_startTimer"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t1"
+"origin" "-2144 1296 -3768"
+"classname" "target_checkpoint"
+}
+{
+"target" "ch1"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "ch1"
+"origin" "-1656 2400 -3512"
+"classname" "target_checkpoint"
+}
+{
+"target" "stop"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "stop"
+"origin" "3860 1344 -3280"
+"classname" "target_stopTimer"
+}
