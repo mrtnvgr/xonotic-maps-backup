@@ -1,0 +1,254 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-138.879990 -197.119995 369.600006"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "2"
+"model" "*1"
+}
+{
+"classname" "func_rotating"
+"origin" "134.399994 224.000000 224.000000"
+"speed" "-30"
+"model" "*2"
+}
+{
+"classname" "func_rotating"
+"speed" "30"
+"origin" "134.399994 224.000000 1072.400024"
+"model" "*3"
+}
+{
+"classname" "func_rotating"
+"speed" "30"
+"origin" "134.399994 224.000000 487.199982"
+"model" "*4"
+}
+{
+"classname" "func_rotating"
+"speed" "-30"
+"origin" "134.399994 224.000000 649.599976"
+"model" "*5"
+}
+{
+"classname" "func_rotating"
+"speed" "30"
+"origin" "145.599991 224.000000 1601.599976"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"angle" "280"
+"targetname" "pieu"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "pieu"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"wait" "-1"
+"targetname" "pieu"
+"spawnflags" "4"
+"dmg" "3"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"angle" "315"
+"wait" "-1"
+"spawnflags" "4"
+"targetname" "pieu"
+"dmg" "3"
+"model" "*10"
+}
+{
+"classname" "func_door"
+"wait" "-1"
+"spawnflags" "4"
+"angle" "270"
+"targetname" "pieu"
+"dmg" "3"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "pff"
+"wait" "60"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"targetname" "pff"
+"wait" "60"
+"model" "*13"
+}
+{
+"classname" "trigger_multiple"
+"target" "pff"
+"model" "*14"
+}
+{
+"classname" "func_rotating"
+"origin" "145.599991 224.000000 845.599976"
+"speed" "30"
+"model" "*15"
+}
+{
+"classname" "func_rotating"
+"speed" "40"
+"origin" "145.599991 224.000000 2083.199951"
+"model" "*16"
+}
+{
+"classname" "func_button"
+"target" "tt"
+"angle" "360"
+"wait" "60"
+"model" "*17"
+}
+{
+"classname" "target_score"
+"origin" "-11.200000 235.199997 2486.399902"
+"targetname" "tt"
+"count" "500"
+}
+{
+"classname" "func_rotating"
+"origin" "145.599991 224.000000 67.199997"
+"speed" "15"
+"model" "*18"
+}
+{
+"classname" "target_print"
+"origin" "-11.200000 268.799988 2508.800049"
+"message" "!!bravo!! vous avez fini la map!!!!"
+"targetname" "tt"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 2520.000000"
+"message" "la derniere chambre"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 89.599998"
+"message" "chambre 1"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 2296.000000"
+"message" "chambre 13"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 2116.800049"
+"message" "chambre 11"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 1892.799927"
+"message" "chambre 10"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 907.200012"
+"message" "chambre 5"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 683.200012"
+"message" "chambre 4"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 504.000000"
+"message" "chambre 3"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 280.000000"
+"message" "chambre 2"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 1713.599976"
+"message" "chambre 9"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 1489.599976"
+"message" "chambre 8"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 1310.400024"
+"message" "chambre 7"
+}
+{
+"classname" "target_location"
+"origin" "145.599991 224.000000 1086.400024"
+"message" "chambre 6"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "459.199982 -179.199997 11.200000"
+"angle" "180"
+"team" "red"
+"group" "2"
+"g_gametype" "0,1,2,3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "459.199982 -179.199997 257.600006"
+"angle" "180"
+"team" "blue"
+"group" "1"
+"g_gametype" "0,1,2,3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "-212.800003 -179.199997 257.600006"
+"angle" "-1.40334e-014"
+"team" "blue"
+"group" "1"
+"g_gametype" "0,1,2,3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "-212.800003 -179.199997 11.200000"
+"angle" "-1.40334e-014"
+"team" "red"
+"group" "2"
+"g_gametype" "0,1,2,3,4,5,6,7,8"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter1"
+"wait" "60"
+"model" "*19"
+}
+{
+"classname" "target_teleporter"
+"origin" "0.000000 22.400000 67.199997"
+"angle" "90"
+"targetname" "target_teleporter1"
+}
+{
+"classname" "target_print"
+"origin" "134.399994 -179.199997 201.599991"
+"message" "attends une minute pour puvoir te téléporter!!!:)"
+"targetname" "pprint"
+}
