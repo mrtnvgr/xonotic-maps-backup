@@ -1,0 +1,191 @@
+{
+"_lightmapscale" "0.5"
+"classname" "worldspawn"
+}
+{
+"targetname" "1to2"
+"origin" "-704 0 -168"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "start"
+}
+{
+"classname" "target_startTimer"
+"origin" "3072 192 -448"
+"targetname" "start"
+}
+{
+"wait" "1"
+"count" "1000"
+"origin" "-704 0 -176"
+"classname" "weapon_plasmagun"
+}
+{
+"target" "bezsm"
+"targetname" "st_give2"
+"origin" "2752 192 -384"
+"classname" "target_give"
+}
+{
+"count" "1000"
+"targetname" "bezsm"
+"origin" "2904 192 -384"
+"classname" "item_enviro"
+}
+{
+"model" "*2"
+"lip" "1"
+"health" "1"
+"angle" "0"
+"classname" "func_button"
+}
+{
+"wait" "2"
+"count" "1"
+"origin" "544 -288 272"
+"classname" "weapon_grenadelauncher"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "544 288 272"
+"count" "1"
+"wait" "3"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "otb00001"
+}
+{
+"classname" "target_init"
+"origin" "496 -256 480"
+"targetname" "otb00001"
+"spawnflags" "8"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "544 288 272"
+"count" "1"
+"wait" "2"
+}
+{
+"model" "*4"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "8"
+"targetname" "t1"
+"origin" "496 256 480"
+"classname" "target_init"
+}
+{
+"model" "*5"
+"classname" "func_button"
+"angle" "45"
+"health" "1"
+"lip" "0"
+}
+{
+"model" "*6"
+"classname" "trigger_teleport"
+"target" "telep989"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "544 -224 280"
+"targetname" "telep989"
+"angle" "270"
+}
+{
+"model" "*7"
+"target" "t2"
+"classname" "trigger_teleport"
+}
+{
+"angle" "90"
+"targetname" "t2"
+"origin" "544 224 280"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*8"
+"classname" "trigger_teleport"
+"target" "4-rd"
+}
+{
+"classname" "info_player_start"
+"origin" "2688 192 -488"
+"target" "st_give2"
+}
+{
+"model" "*9"
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "8"
+}
+{
+"model" "*10"
+"target" "1to2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "4-rd"
+"origin" "-736 1728 -1320"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*11"
+"target" "4-rd"
+"classname" "trigger_teleport"
+}
+{
+"model" "*12"
+"classname" "trigger_teleport"
+"target" "4-rd"
+}
+{
+"model" "*13"
+"target" "vg2"
+"classname" "trigger_multiple"
+}
+{
+"target" "pl332"
+"targetname" "vg2"
+"origin" "-576 1792 -1312"
+"classname" "target_give"
+}
+{
+"count" "20"
+"targetname" "pl332"
+"origin" "-576 1664 -1312"
+"classname" "weapon_plasmagun"
+}
+{
+"model" "*14"
+"target" "finn"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "finn"
+"origin" "6016 1728 -896"
+"classname" "target_stopTimer"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-480 1728 -1280"
+"targetname" "vg2"
+}
+{
+"model" "*15"
+"classname" "trigger_multiple"
+"target" "check1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-576 0 -160"
+"targetname" "check1"
+}
