@@ -1,0 +1,168 @@
+{
+"ambient" "10"
+"_noshadersun" "1"
+"_lightmapscale" "4"
+"_blocksize" "8192"
+"gridsize" "1024 1024 1024"
+"classname" "worldspawn"
+}
+{
+"target" "t12"
+"classname" "info_player_start"
+"origin" "-40096 0 -3152"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-39736 -16 -2624"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-31360 2048 -4224"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"wait" "-1"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-22272 3840 -3584"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"wait" "-1"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-9984 0 -3584"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"wait" "-1"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "6912 0 -4096"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"wait" "-1"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1408 0 2176"
+"targetname" "t6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"wait" "-1"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-12288 0 2688"
+"targetname" "t7"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"wait" "-1"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-25600 0 2432"
+"targetname" "t8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t9"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-40960 0 -512"
+"targetname" "t9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*10"
+}
+{
+"classname" "target_teleporter"
+"origin" "12160 0 -1536"
+"targetname" "t10"
+"target" "t11"
+"spawnflags" "1"
+}
+{
+"angle" "180"
+"classname" "misc_teleporter_dest"
+"origin" "12608 0 -320"
+"targetname" "t11"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "200"
+"model" "*11"
+}
+{
+"target" "t13"
+"targetname" "t12"
+"origin" "-40000 0 -3136"
+"classname" "target_give"
+}
+{
+"count" "99999"
+"targetname" "t13"
+"origin" "-39936 0 -3136"
+"classname" "item_enviro"
+}
+{
+"target" "t14"
+"classname" "trigger_multiple"
+"model" "*12"
+}
+{
+"target" "t15"
+"targetname" "t14"
+"origin" "12224 64 -256"
+"classname" "target_give"
+}
+{
+"targetname" "t15"
+"count" "200"
+"origin" "12160 128 -256"
+"classname" "weapon_rocketlauncher"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*13"
+}
