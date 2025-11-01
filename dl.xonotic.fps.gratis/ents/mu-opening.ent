@@ -1,0 +1,189 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "1552 -64 1112"
+"classname" "info_player_start"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_smallprint"
+"origin" "1776 -240 1144"
+"spawnflags" "4"
+"message" "^1Don't try this again!"
+"targetname" "t1"
+"wait" "10"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+"model" "*2"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+"model" "*6"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*9"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*11"
+}
+{
+"classname" "target_smallprint"
+"origin" "1384 -200 1312"
+"spawnflags" "4"
+"message" "^1Don't go any further!"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*12"
+}
+{
+"classname" "target_smallprint"
+"origin" "1360 -216 1336"
+"spawnflags" "4"
+"message" "^1I told you so!"
+"targetname" "t2"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+"model" "*13"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*14"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*15"
+}
+{
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*16"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+"model" "*17"
+}
+{
+"dmg" "999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*18"
+}
+{
+"wait" "-1"
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*19"
+}
+{
+"targetname" "t4"
+"origin" "1656 -52 1404"
+"classname" "target_startTimer"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*20"
+}
+{
+"classname" "target_checkpoint"
+"origin" "7264 -76 1192"
+"targetname" "t5"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*21"
+}
+{
+"targetname" "t6"
+"origin" "1676 356 804"
+"classname" "target_checkpoint"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*22"
+}
+{
+"targetname" "t7"
+"origin" "6692 332 1128"
+"classname" "target_checkpoint"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*23"
+}
+{
+"targetname" "t8"
+"origin" "6752 -448 1332"
+"classname" "target_checkpoint"
+}
+{
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*24"
+}
+{
+"targetname" "t9"
+"origin" "1432 -436 1428"
+"classname" "target_stopTimer"
+}
