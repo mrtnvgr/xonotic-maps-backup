@@ -1,0 +1,105 @@
+{
+"_q3map2_version" "2.5.17n-svn393"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000; -vis -saveprt; -light -deluxe -exposure 250 -patchshadows -samples 3 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid -bouncescale 1"
+"classname" "worldspawn"
+}
+{
+"target" "trigger_race_checkpoint1"
+"angle" "90.000000"
+"origin" "256.000000 -448.000000 928.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*1"
+"cnt" "0"
+"targetname" "trigger_race_checkpoint1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*2"
+"target" "misc_teleporter_dest1"
+"speed" "400"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "misc_teleporter_dest1"
+"speed" "400"
+"angle" "90.000000"
+"origin" "256.000000 -448.000000 928.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "trigger_race_checkpoint2"
+"angle" "90.000000"
+"origin" "0.000000 1696.000000 928.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*3"
+"cnt" "1"
+"targetname" "trigger_race_checkpoint2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint3"
+"angle" "90.000000"
+"origin" "0.000000 4544.000000 928.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*4"
+"cnt" "2"
+"targetname" "trigger_race_checkpoint3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint4"
+"origin" "480.000000 3584.000000 1184.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*5"
+"cnt" "3"
+"targetname" "trigger_race_checkpoint4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint5"
+"origin" "7904.000000 4224.000000 160.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*6"
+"spawnflags" "8"
+"cnt" "4"
+"targetname" "trigger_race_checkpoint5"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*7"
+"target" "starttele"
+"classname" "trigger_teleport"
+}
+{
+"model" "*8"
+"target" "starttele"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "starttele"
+"speed" "-1"
+"angle" "90.000000"
+"origin" "256.000000 -448.000000 928.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*9"
+"target" "misc_teleporter_dest2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "misc_teleporter_dest2"
+"speed" "875"
+"origin" "1600.000000 3968.000000 64.000000"
+"classname" "misc_teleporter_dest"
+}
