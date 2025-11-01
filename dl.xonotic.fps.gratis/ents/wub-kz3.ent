@@ -1,0 +1,117 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -super 2 -filter -bounce 4"
+"classname" "worldspawn"
+}
+{
+"angle" "0.000009"
+"origin" "64.000000 -416.000000 48.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"target" "target_startTimer1"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "96.000000 -352.000000 16.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"dmg" "500"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+}
+{
+"model" "*3"
+"target" "target_location1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "target_location1"
+"origin" "-160.000000 416.000000 32.000000"
+"classname" "target_location"
+}
+{
+"model" "*4"
+"target" "target_location2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "target_location2"
+"origin" "96.000000 1760.000000 256.000000"
+"classname" "target_location"
+}
+{
+"targetname" "target_location3"
+"origin" "896.000000 3136.000000 64.000000"
+"classname" "target_location"
+}
+{
+"model" "*5"
+"target" "target_location3"
+"classname" "trigger_teleport"
+}
+{
+"model" "*6"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "1920.000000 3136.000000 336.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*7"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "1632.000000 -64.000000 384.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint2"
+"origin" "-144.000000 176.000000 352.000000"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "target_checkpoint3"
+"origin" "128.000000 768.000000 272.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*9"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"target" "target_checkpoint4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint4"
+"origin" "1056.000000 2112.000000 224.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*11"
+"target" "target_checkpoint5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint5"
+"origin" "1792.000000 3136.000000 64.000000"
+"classname" "target_checkpoint"
+}
