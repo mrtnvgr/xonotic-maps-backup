@@ -1,0 +1,180 @@
+{
+"_q3map2_version" "2.5.17n-git-db1787b"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -super 2 -filter -bounce 8"
+"classname" "worldspawn"
+}
+{
+"spawnflags" "1"
+"wait" "0.1"
+"count" "15"
+"origin" "7280.000000 -11344.000000 -56.000000"
+"classname" "item_enviro"
+}
+{
+"count" "7"
+"wait" "0.1"
+"spawnflags" "1"
+"origin" "7272.000000 -11344.000000 -32.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"model" "*1"
+"target" "misc_teleporter_dest2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "misc_teleporter_dest2"
+"angle" "90.000000"
+"origin" "7280.000000 -11360.000000 -40.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "6464.000000 -11376.000000 -48.000000"
+"classname" "info_player_start"
+}
+{
+"model" "*2"
+"target" "misc_teleporter_dest1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "misc_teleporter_dest1"
+"origin" "7648.000000 -11344.000000 -736.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "8360.000000 -10664.000000 -752.000000"
+"classname" "item_armor_shard"
+}
+{
+"origin" "7656.000000 -10520.000000 -752.000000"
+"classname" "item_armor_shard"
+}
+{
+"origin" "7656.000000 -11120.000000 -752.000000"
+"classname" "item_armor_shard"
+}
+{
+"origin" "8360.000000 -10976.000000 -752.000000"
+"classname" "item_armor_shard"
+}
+{
+"origin" "8360.000000 -11272.000000 -752.000000"
+"classname" "item_armor_shard"
+}
+{
+"wait" "0.1"
+"count" "50"
+"origin" "7784.000000 -10600.000000 -744.000000"
+"classname" "weapon_plasmagun"
+}
+{
+"wait" "0.1"
+"origin" "7640.000000 -10280.000000 -296.000000"
+"classname" "item_health_mega"
+}
+{
+"count" "1"
+"wait" "0.1"
+"origin" "8384.000000 -10280.000000 -88.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"count" "30"
+"origin" "8304.000000 -10280.000000 -88.000000"
+"classname" "ammo_cells"
+}
+{
+"wait" "0.1"
+"origin" "8376.000000 -10280.000000 -504.000000"
+"classname" "item_armor_combat"
+}
+{
+"wait" "0.1"
+"origin" "8336.000000 -10280.000000 -88.000000"
+"classname" "item_health_mega"
+}
+{
+"origin" "7656.000000 -10824.000000 -752.000000"
+"classname" "item_armor_shard"
+}
+{
+"model" "*3"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"targetname" "target_startTimer1"
+"angle" "90"
+"origin" "6536.000000 -10984.000000 -32.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*4"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"angles" "90.000000 0.000000 -90.000000"
+"origin" "7280.000000 -11360.000000 -400.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint2"
+"angle" "-270"
+"origin" "7272.000000 8608.000000 -448.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint3"
+"origin" "7752.000000 -11344.000000 -712.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"target" "target_checkpoint4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint4"
+"angle" "-270"
+"origin" "7656.000000 -10504.000000 -712.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*9"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"wait" "0.1"
+"origin" "8360.000000 -10280.000000 -88.000000"
+"classname" "item_armor_body"
+}
+{
+"targetname" "target_stopTimer1"
+"angles" "-90.000000 0.000000 0.000005"
+"origin" "8392.000000 -10264.000000 1008.000000"
+"classname" "target_stopTimer"
+}
+{
+"wait" "0.1"
+"origin" "7640.000000 -10280.000000 -288.000000"
+"classname" "item_armor_combat"
+}
