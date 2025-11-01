@@ -1,0 +1,3656 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"vertexremapshader6" "textures/q3f_canalzon/mapred;textures/q3f_canalzon/vertexred"
+"vertexremapshader3" "textures/q3f_canalzon/mapblue;textures/q3f_canalzon/vertexblue"
+"vertexremapshader4" "textures/q3f_canalzon/glogo_white;textures/q3f_canalzon/vertexwhite"
+"vertexremapshader5" "textures/q3f_canalzon/glogo_red;textures/q3f_canalzon/vertexred"
+"vertexremapshader2" "textures/q3f_canalzon/glogo_blue;textures/q3f_canalzon/vertexblue"
+"vertexremapshader1" "textures/q3f_canalzon/arrow_red;textures/q3f_canalzon/vertexred"
+"vertexremapshader0" "textures/q3f_canalzon/arrow_blue;textures/q3f_canalzon/vertexblue"
+"classname" "worldspawn"
+"message" "canalzone"
+}
+{
+"classname" "info_notnull"
+"groupname" "reddoortimer1"
+"wait" "10"
+"origin" "-3180.800049 -4121.600098 -828.799988"
+"activetarget" "red_door_opener"
+"inactivetarget" "reddoortimer"
+"gameindex" "1"
+}
+{
+"inactivetarget" "bluedoortimer"
+"activetarget" "blue_door_opener"
+"origin" "-3203.199951 -4121.600098 -828.799988"
+"wait" "10"
+"groupname" "bluedoortimer1"
+"classname" "info_notnull"
+"gameindex" "1"
+}
+{
+"initialstate" "disabled"
+"classname" "info_notnull"
+"groupname" "bluedoortimer,doortimer"
+"wait" "10"
+"origin" "-3203.199951 -4144.000000 -828.799988"
+"activetarget" "blue_door_opener"
+"inactivetarget" "bluedoortimer1"
+"gameindex" "1"
+}
+{
+"initialstate" "disabled"
+"inactivetarget" "reddoortimer1"
+"activetarget" "red_door_opener"
+"origin" "-3180.800049 -4144.000000 -828.799988"
+"wait" "10"
+"groupname" "reddoortimer,doortimer"
+"classname" "info_notnull"
+"gameindex" "1"
+}
+{
+"wait" "5"
+"active_message" "healthpad activated by cp"
+"groupname" "redhealthpadmsg"
+"origin" "-3281.599854 -4256.000000 -705.599976"
+"classname" "info_notnull"
+"allowteams" "red"
+}
+{
+"wait" "5"
+"classname" "info_notnull"
+"origin" "-3259.199951 -4256.000000 -705.599976"
+"groupname" "bluehealthpadmsg"
+"active_message" "healthpad activated by cp"
+"allowteams" "blue"
+}
+{
+"model" "*1"
+"groupname" "blue_cp4_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*2"
+"groupname" "blue_cp1_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*3"
+"groupname" "blue_cp2_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*4"
+"groupname" "blue_cp5_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*5"
+"groupname" "blue_cp6_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*6"
+"groupname" "blue_cp3_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*7"
+"groupname" "blue_cp7_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*8"
+"groupname" "blue_cp8_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*9"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp8_flag"
+"gameindex" "1"
+}
+{
+"model" "*10"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp7_flag"
+"gameindex" "1"
+}
+{
+"model" "*11"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp3_flag"
+"gameindex" "1"
+}
+{
+"model" "*12"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp6_flag"
+"gameindex" "1"
+}
+{
+"model" "*13"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp5_flag"
+"gameindex" "1"
+}
+{
+"model" "*14"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp2_flag"
+"gameindex" "1"
+}
+{
+"model" "*15"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp1_flag"
+"gameindex" "1"
+}
+{
+"model" "*16"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp4_flag"
+"gameindex" "1"
+}
+{
+"origin" "806.399963 -3281.599854 -56.000000"
+"classname" "info_player_start"
+"angle" "180"
+"allowteams" "blue"
+}
+{
+"angle" "180"
+"classname" "info_player_start"
+"origin" "806.399963 -3080.000000 -56.000000"
+"allowteams" "blue"
+}
+{
+"angle" "180"
+"classname" "info_player_start"
+"origin" "806.399963 4099.199707 -56.000000"
+"allowteams" "red"
+}
+{
+"origin" "806.399963 3897.599854 -56.000000"
+"classname" "info_player_start"
+"angle" "180"
+"allowteams" "red"
+}
+{
+"model" "*17"
+"wait" "-1"
+"angle" "90"
+"speed" "999"
+"classname" "func_door"
+"lip" "0"
+}
+{
+"model" "*18"
+"classname" "func_door"
+"speed" "999"
+"angle" "270"
+"wait" "-1"
+"lip" "0"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/hum6.wav"
+"origin" "828.799988 380.799988 -324.799988"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/frogs.wav"
+"origin" "2374.399902 4222.399902 -369.600006"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"origin" "2587.199951 2060.800049 -369.600006"
+"noise" "sound/world/frogs.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/frogs.wav"
+"origin" "-918.399963 2049.599854 -347.199982"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"origin" "-907.200012 -1232.000000 -358.399994"
+"noise" "sound/world/frogs.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"origin" "2408.000000 -3416.000000 -369.600006"
+"noise" "sound/world/frogs.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/frogs.wav"
+"origin" "2598.399902 -1243.199951 -369.600006"
+"spawnflags" "1"
+}
+{
+"origin" "369.600006 649.599976 67.199997"
+"noise" "sound/world/fire_large1.wav"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"message" "^1red^* base respawn"
+"origin" "1209.599976 4177.600098 -294.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1355.199951 3808.000000 -294.000000"
+"message" "^1red^* base respawn"
+}
+{
+"message" "^1red^* base basement corridor"
+"origin" "1355.199951 3528.000000 -294.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1758.400024 3528.000000 -294.000000"
+"message" "^1red^* base basement entrance"
+}
+{
+"message" "^1red^* base balcony"
+"origin" "1849.400024 3357.199951 -60.200001"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1871.799927 2808.399902 -60.200001"
+"message" "^1red^* base balcony"
+}
+{
+"message" "^1red^* base balcony"
+"origin" "1401.400024 2819.599854 -60.200001"
+"classname" "target_location"
+}
+{
+"message" "^4blue^* base main entrance"
+"origin" "1211.000000 -2024.400024 -194.599991"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1244.599976 -1442.000000 -127.400002"
+"message" "^4blue^* base bridge"
+}
+{
+"message" "^4blue^* base balcony"
+"origin" "1849.400024 -2461.199951 -60.200001"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1849.400024 -1957.199951 -60.200001"
+"message" "^4blue^* base balcony"
+}
+{
+"message" "^4blue^* base balcony"
+"origin" "1412.599976 -1934.799927 -60.200001"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "2742.599854 1332.799927 -338.799988"
+"message" "red side building -near corridor-"
+}
+{
+"message" "red side building -near health-"
+"origin" "2328.199951 1467.199951 -338.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1813.000000 1232.000000 -338.799988"
+"message" "red side building -near fountain-"
+}
+{
+"spawnflags" "1"
+"origin" "-1120.000000 -1736.000000 369.600006"
+"noise" "sound/world/fan_med1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_med1.wav"
+"origin" "-1131.199951 -1635.199951 369.600006"
+"spawnflags" "1"
+}
+{
+"message" "library entrance"
+"origin" "337.399994 -75.599998 85.400002"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-659.399963 -75.599998 85.400002"
+"message" "library near canal balcony"
+}
+{
+"message" "library near canal balcony"
+"origin" "-670.599976 518.000000 85.400002"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-872.200012 327.600006 85.400002"
+"message" "library balcony (over canal)"
+}
+{
+"message" "library"
+"origin" "-390.600006 361.199982 85.400002"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-21.000000 316.399994 85.400002"
+"message" "library"
+}
+{
+"classname" "target_location"
+"origin" "-54.599998 428.399994 387.799988"
+"message" "library roof"
+}
+{
+"message" "library"
+"origin" "718.200012 170.800003 85.400002"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "987.000000 529.200012 85.400002"
+"message" "library near balcony"
+}
+{
+"message" "library balcony (over fountain)"
+"origin" "1334.199951 338.799988 85.400002"
+"classname" "target_location"
+}
+{
+"message" "jammed door corridor"
+"origin" "-9.800000 226.800003 -239.399994"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-9.800000 -154.000000 -239.399994"
+"message" "jammed door corridor"
+}
+{
+"message" "restroom -near canal-"
+"origin" "-760.200012 182.000000 -261.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-368.199982 182.000000 -273.000000"
+"message" "restroom"
+}
+{
+"message" "small courtyard near boathouse"
+"origin" "-2093.000000 943.599976 -127.400002"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1779.400024 798.000000 -127.400002"
+"message" "middle street near bridge"
+}
+{
+"message" "middle street bridge"
+"origin" "-1096.199951 809.200012 -127.400002"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-357.000000 809.200012 -194.599991"
+"message" "middle street near bridge"
+}
+{
+"classname" "target_location"
+"origin" "953.399963 1302.000000 -194.599991"
+"message" "balcony room -entrance corridor-"
+}
+{
+"message" "middle street near balcony room"
+"origin" "863.799988 898.799988 -194.599991"
+"classname" "target_location"
+}
+{
+"message" "middle street"
+"origin" "393.399994 798.000000 -194.599991"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1334.199951 809.200012 -194.599991"
+"message" "middle street near fountain plaza"
+}
+{
+"classname" "target_location"
+"origin" "2342.199951 831.599976 -172.199997"
+"message" "fountain plaza -cp5-"
+}
+{
+"message" "fountain plaza -cp5-"
+"origin" "1793.400024 294.000000 -172.199997"
+"classname" "target_location"
+}
+{
+"message" "^4blue^* base docks  (under bridge)"
+"origin" "1222.199951 -1789.199951 -317.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1222.199951 -1061.199951 -317.799988"
+"message" "^4blue^* docks  (under bridge)"
+}
+{
+"message" "^4blue^* alley  towards library entrance"
+"origin" "-267.399994 -355.600006 -306.600006"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-267.399994 -1050.000000 -306.600006"
+"message" "^4blue^* alley  towards library entrance (fluffy_gimp)"
+}
+{
+"message" "small warehouse corridor -near fountain-"
+"origin" "2742.599854 548.799988 -338.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "2328.199951 -526.399963 -114.799995"
+"message" "small warehouse -cp4-"
+}
+{
+"classname" "target_location"
+"origin" "2742.599854 -78.400002 -338.799988"
+"message" "small warehouse corridor"
+}
+{
+"message" "small warehouse alley near canal"
+"origin" "2742.599854 -1030.400024 -338.799988"
+"classname" "target_location"
+}
+{
+"message" "canal near ^1red^* base"
+"origin" "2041.199951 2249.800049 -616.000000"
+"classname" "target_location"
+}
+{
+"message" "canal near ^1red^* base"
+"origin" "2370.199951 2546.599854 -669.200012"
+"classname" "target_location"
+}
+{
+"message" "canal near ^1red^* base"
+"origin" "2430.399902 3186.399902 -599.200012"
+"classname" "target_location"
+}
+{
+"message" "^1red^* base near shops"
+"origin" "2765.000000 2777.599854 -338.799988"
+"classname" "target_location"
+}
+{
+"message" "next to ^1red^* base"
+"origin" "2042.599976 2797.199951 -282.799988"
+"classname" "target_location"
+}
+{
+"message" "^1red^* base near basement door"
+"origin" "2038.400024 3852.800049 -294.000000"
+"classname" "target_location"
+}
+{
+"message" "^1red^* base near shops"
+"origin" "2772.000000 4044.599854 -273.000000"
+"classname" "target_location"
+}
+{
+"message" "between ^4blue^* base and ^4blue^* warehouse"
+"origin" "0.000000 -2212.000000 -30.799999"
+"classname" "target_location"
+}
+{
+"origin" "-660.799988 -2956.800049 -375.199982"
+"classname" "item_health"
+}
+{
+"gameindex" "1"
+"activetarget" "flagreturner,cp8statusflag"
+"wait" "30"
+"pulseteamscore" "1"
+"active_all_message" "~%n[%t] has claimed the ^1red^* warehouse - cp8"
+"initialstate" "inactive"
+"groupname" "cp8,cp"
+"classname" "func_commandpoint"
+"origin" "-3326.399902 -4188.799805 -649.599976"
+}
+{
+"model" "*19"
+"groupname" "boathousedoor"
+"gameindex" "1"
+"speed" "75"
+"targetname" "boathousedoor"
+"classname" "func_door"
+"angle" "-1"
+}
+{
+"width" "290"
+"height" "134.399994"
+"distance" "600"
+"origin" "1232.000000 -2486.399902 89.599998"
+"classname" "panel_scoresummary"
+}
+{
+"classname" "panel_scoresummary"
+"origin" "1232.000000 3337.599854 89.599998"
+"distance" "600"
+"height" "134.399994"
+"width" "290"
+}
+{
+"model" "*20"
+"gameindex" "1"
+"give" "health=+10"
+"wait" "2"
+"checkstate" "blue_cp1_flag=inactive"
+"allowteams" "blue"
+"classname" "trigger_multiple"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "bluehealthpadmsg"
+}
+{
+"model" "*21"
+"gameindex" "1"
+"give" "health=+10"
+"classname" "trigger_multiple"
+"allowteams" "red"
+"checkstate" "red_cp1_flag=inactive"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "redhealthpadmsg"
+}
+{
+"model" "*22"
+"gameindex" "1"
+"give" "health=+10"
+"wait" "2"
+"checkstate" "red_cp2_flag=inactive"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "redhealthpadmsg"
+}
+{
+"model" "*23"
+"gameindex" "1"
+"give" "health=+10"
+"classname" "trigger_multiple"
+"allowteams" "blue"
+"checkstate" "blue_cp2_flag=inactive"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "bluehealthpadmsg"
+}
+{
+"model" "*24"
+"gameindex" "1"
+"give" "health=+10"
+"wait" "2"
+"checkstate" "red_cp8_flag=inactive"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "redhealthpadmsg"
+}
+{
+"model" "*25"
+"gameindex" "1"
+"give" "health=+10"
+"classname" "trigger_multiple"
+"allowteams" "blue"
+"checkstate" "blue_cp8_flag=inactive"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "bluehealthpadmsg"
+}
+{
+"model" "*26"
+"classname" "func_wall"
+"groupname" "libraryfire"
+}
+{
+"origin" "1892.799927 -1915.199951 -61.599998"
+"targetname" "t25"
+"classname" "info_notnull"
+}
+{
+"model" "*27"
+"gameindex" "1"
+"allowteams" "blue"
+"targetname" "bluelowerdoors"
+"classname" "trigger_multiple"
+"target" "blowerdoors"
+}
+{
+"model" "*28"
+"gameindex" "1"
+"allowteams" "blue"
+"classname" "trigger_multiple"
+"target" "bbalcdoors"
+}
+{
+"model" "*29"
+"gameindex" "1"
+"allowteams" "blue"
+"targetname" "bluemaindoors"
+"classname" "trigger_multiple"
+"target" "bmaindoors"
+}
+{
+"origin" "-492.799988 -313.600006 56.000000"
+"classname" "item_health_mega"
+}
+{
+"model" "*30"
+"allowclasses" "recon,sniper,soldier,grenadier,paramedic,minigunner,agent,engineer"
+"groupname" "libraryfire"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+}
+{
+"model" "*31"
+"gameindex" "1"
+"classname" "func_button"
+"angle" "270"
+"target" "bluesecdoor1"
+"health" "10"
+"activetarget" "bluesecdoor1"
+"wait" "-1"
+"lip" "5.600000"
+"speed" "20"
+}
+{
+"model" "*32"
+"activetarget" "bluesecdoor1"
+"gameindex" "1"
+"classname" "func_button"
+"health" "10"
+"angle" "-1"
+"target" "bluesecdoor1"
+"wait" "-1"
+"speed" "20"
+"lip" "5.600000"
+}
+{
+"model" "*33"
+"gameindex" "1"
+"classname" "func_button"
+"angle" "-1"
+"health" "10"
+"target" "bluesecdoor2"
+"lip" "5.600000"
+"activetarget" "bluesecdoor2"
+"speed" "20"
+"wait" "1"
+}
+{
+"model" "*34"
+"gameindex" "1"
+"speed" "75"
+"angle" "-1"
+"classname" "func_door"
+"targetname" "bluesecdoor2"
+}
+{
+"model" "*35"
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"lip" "57.399998"
+}
+{
+"model" "*36"
+"gameindex" "1"
+"team" "bcsdoors"
+"groupname" "bluedoors,bluecsdoors"
+"classname" "func_door"
+"angle" "180"
+"targetname" "bcsdoors"
+}
+{
+"model" "*37"
+"gameindex" "1"
+"team" "bcsdoors"
+"groupname" "bluedoors,bluecsdoors"
+"classname" "func_door"
+"angle" "360"
+"targetname" "bcsdoors"
+}
+{
+"model" "*38"
+"gameindex" "1"
+"team" "bbalcdoors"
+"groupname" "bluedoors,bluebalcdoors"
+"classname" "func_door"
+"angle" "360"
+"lip" "22.400000"
+"targetname" "bbalcdoors"
+}
+{
+"model" "*39"
+"gameindex" "1"
+"team" "bbalcdoors"
+"groupname" "bluedoors,bluebalcdoors"
+"classname" "func_door"
+"angle" "180"
+"lip" "22.400000"
+"targetname" "bbalcdoors"
+}
+{
+"model" "*40"
+"gameindex" "1"
+"team" "bmaindoor"
+"groupname" "bluedoors,bluemaindoors"
+"classname" "func_door"
+"angle" "-1"
+"lip" "33.599998"
+"targetname" "bmaindoors"
+}
+{
+"model" "*41"
+"gameindex" "1"
+"groupname" "bluedoors,bluelowerdoors"
+"classname" "func_door"
+"lip" "33.599998"
+"angle" "-1"
+"targetname" "blowerdoors"
+}
+{
+"model" "*42"
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"lip" "57.399998"
+}
+{
+"model" "*43"
+"gameindex" "1"
+"speed" "75"
+"angle" "-1"
+"classname" "func_door"
+"targetname" "bluesecdoor1"
+}
+{
+"model" "*44"
+"gameindex" "1"
+"classname" "trigger_multiple"
+"active_message" "~the door is locked"
+"groupname" "doormsg"
+}
+{
+"gameindex" "1"
+"origin" "179.199997 224.000000 -380.799988"
+"groupname" "librarycharge"
+"activetarget" "librarydoor=~invisible,librarydebris=~inactive,librarycharge=~invisible,doormsg=~invisible"
+"flags" "chargeable"
+"classname" "info_notnull"
+}
+{
+"model" "*45"
+"reachstart_sound" "sound/player/tankjr/pain75_1.wav"
+"reachend_sound" "sound/player/tankjr/pain75_1.wav"
+"leaveend_sound" "sound/player/tankjr/taunt.wav"
+"leavestart_sound" "sound/player/tankjr/taunt.wav"
+"lip" "-716.799988"
+"angle" "-1"
+"classname" "func_door"
+"speed" "75"
+}
+{
+"model" "*46"
+"inactivetarget" "libraryfire=~inactive"
+"activetarget" "libraryfire=~disabled"
+"classname" "func_door"
+"health" "1"
+"angle" "-1"
+"speed" "50"
+}
+{
+"model" "*47"
+"groupname" "libraryfire"
+"classname" "func_wall"
+}
+{
+"model" "*48"
+"gameindex" "1"
+"classname" "func_wall"
+"groupname" "librarydoor"
+}
+{
+"model" "*49"
+"gameindex" "1"
+"classname" "func_wall"
+"groupname" "librarydebris"
+"initialstate" "invisible"
+}
+{
+"model" "*50"
+"health" "10"
+"lip" "-89.599998"
+"wait" "4"
+"sounds" "1"
+"speed" "100"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"wait" "10"
+"classname" "item_health_mega"
+"origin" "1780.799927 -834.399963 -375.199982"
+}
+{
+"model" "*51"
+"gameindex" "1"
+"groupname" "reddoors,redlowerdoors"
+"angle" "-1"
+"lip" "33.599998"
+"classname" "func_door"
+"targetname" "rlowerdoors"
+}
+{
+"model" "*52"
+"gameindex" "1"
+"groupname" "reddoors,redmaindoors"
+"lip" "33.599998"
+"angle" "-1"
+"classname" "func_door"
+"targetname" "rmaindoors"
+}
+{
+"model" "*53"
+"gameindex" "1"
+"groupname" "reddoors,redbalcdoors"
+"team" "rbalcdoors"
+"angle" "180"
+"classname" "func_door"
+"targetname" "rbalcdoors"
+"lip" "22.400000"
+}
+{
+"model" "*54"
+"gameindex" "1"
+"groupname" "reddoors,redbalcdoors"
+"team" "rbalcdoors"
+"angle" "360"
+"classname" "func_door"
+"targetname" "rbalcdoors"
+"lip" "22.400000"
+}
+{
+"model" "*55"
+"gameindex" "1"
+"groupname" "reddoors,redcsdoors"
+"team" "rcsdoors"
+"angle" "360"
+"classname" "func_door"
+"targetname" "rcsdoors"
+}
+{
+"model" "*56"
+"gameindex" "1"
+"groupname" "reddoors,redcsdoors"
+"team" "rcsdoors"
+"angle" "180"
+"classname" "func_door"
+"targetname" "rcsdoors"
+}
+{
+"model" "*57"
+"activetarget" "boathousedoor"
+"wait" "-1"
+"lip" "5.600000"
+"speed" "20"
+"gameindex" "1"
+"target" "boathousedoor"
+"health" "10"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*58"
+"gameindex" "1"
+"target" "bluesecdoor2"
+"health" "10"
+"angle" "90"
+"classname" "func_button"
+"activetarget" "bluesecdoor2"
+"wait" "-1"
+"speed" "20"
+"lip" "5.600000"
+}
+{
+"model" "*59"
+"gameindex" "1"
+"health" "10"
+"target" "boathousedoor"
+"angle" "90"
+"classname" "func_button"
+"lip" "5.600000"
+"wait" "-1"
+"speed" "20"
+"activetarget" "boathousedoor"
+}
+{
+"model" "*60"
+"gameindex" "1"
+"allowteams" "blue"
+"classname" "trigger_multiple"
+"allowclasses" "grenadier"
+"give" "ammo_charge=0"
+"active_message" "~no friendly he charges allowed."
+"wait" "5"
+}
+{
+"model" "*61"
+"initialstate" "invisible"
+"groupname" "bluebasecp"
+"gameindex" "1"
+"activetarget" "bluebasepoint,basepoint"
+"holding" "smflag"
+"classname" "trigger_multiple"
+"allowteams" "red"
+"active_all_message" "~^1red^* team wins!!"
+"active_all_sound" "sound/world/bell.wav"
+}
+{
+"model" "*62"
+"gameindex" "1"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"activetarget" "blue_door_opener"
+"allowclasses" "agent"
+"wait" "3"
+}
+{
+"gameindex" "1"
+"carriedtarget" "bluehud"
+"origin" "1030.400024 -3472.000000 -22.400000"
+"classname" "func_goalitem"
+"groupname" "flag,blue_flag_4,blueflag"
+"allowteams" "blue"
+"model" "models/flags/b_flag.md3"
+"flags" "showcarry,revealagent"
+"carried_flaginfo" "%n is carrying a ^4blue^* flag!"
+"wait" "0"
+"color" "0 0 1"
+"light" "150"
+"speedscale" ".5"
+"notholding" "flag"
+}
+{
+"gameindex" "1"
+"carriedtarget" "bluehud"
+"light" "150"
+"color" "0 0 1"
+"wait" "0"
+"carried_flaginfo" "%n is carrying a ^4blue^* flag!"
+"flags" "showcarry,revealagent"
+"model" "models/flags/b_flag.md3"
+"allowteams" "blue"
+"groupname" "flag,blue_flag_3,blueflag"
+"classname" "func_goalitem"
+"origin" "1254.400024 -3472.000000 -22.400000"
+"speedscale" ".5"
+"notholding" "flag"
+}
+{
+"gameindex" "1"
+"carriedtarget" "bluehud"
+"origin" "1702.400024 -3472.000000 -22.400000"
+"classname" "func_goalitem"
+"groupname" "flag,blue_flag_1,blueflag"
+"allowteams" "blue"
+"model" "models/flags/b_flag.md3"
+"flags" "showcarry,revealagent"
+"carried_flaginfo" "%n is carrying a ^4blue^* flag!"
+"wait" "0"
+"color" "0 0 1"
+"light" "150"
+"speedscale" ".5"
+"notholding" "flag"
+}
+{
+"gameindex" "1"
+"carriedtarget" "bluehud"
+"light" "150"
+"color" "0 0 1"
+"wait" "0"
+"carried_flaginfo" "%n is carrying a ^4blue^* flag!"
+"flags" "showcarry,revealagent"
+"model" "models/flags/b_flag.md3"
+"allowteams" "blue"
+"groupname" "flag,blue_flag_2,blueflag"
+"classname" "func_goalitem"
+"origin" "1478.400024 -3472.000000 -22.400000"
+"speedscale" ".5"
+"notholding" "flag"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"flags" "chargeable"
+"activetarget" "resetbluecp"
+"origin" "1523.199951 -2990.399902 11.200000"
+"allowteams" "red"
+"groupname" "cscharge"
+"active_all_message" "~%n destroys the ^4blue^* command center."
+"give" "score=+10"
+}
+{
+"model" "*63"
+"gameindex" "1"
+"wait" "3"
+"allowteams" "blue"
+"active_message" "~central command center.  you're looking at a map."
+"classname" "trigger_multiple"
+}
+{
+"angle" "90"
+"clientstats" "armor<!"
+"classname" "func_goalinfo"
+"origin" "1489.599976 -3180.800049 -380.799988"
+"model" "models/powerups/armor/armor_red.md3"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"flags" ",hideactive"
+"give" "armor=+50"
+"wait" "4"
+"allowteams" "blue"
+}
+{
+"angle" "90"
+"allowteams" "blue"
+"wait" "4"
+"give" "ammo_rockets=+20,ammo_cells=+20,ammo_shells=+25,ammo_nails=+25,ammo_medkit=+20"
+"flags" ",hideactive"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"model" "models/objects/backpack/backpack.md3"
+"origin" "1243.199951 -3180.800049 -380.799988"
+"classname" "func_goalinfo"
+"active_message" "~ammunition!"
+}
+{
+"model" "*64"
+"wait" "2"
+"give" "health=+50"
+"allowteams" "blue"
+"classname" "trigger_multiple"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+}
+{
+"model" "*65"
+"classname" "trigger_multiple"
+"allowteams" "blue"
+"give" "health=+50"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+}
+{
+"angle" "90"
+"clientstats" "armor<!"
+"classname" "func_goalinfo"
+"origin" "828.799988 -2262.399902 -67.199997"
+"model" "models/powerups/armor/armor_red.md3"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"flags" ",hideactive"
+"give" "armor=+50"
+"wait" "5"
+"allowteams" "blue"
+}
+{
+"angle" "90"
+"clientstats" "armor<!"
+"allowteams" "blue"
+"wait" "5"
+"give" "armor=+50"
+"flags" ",hideactive"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"model" "models/powerups/armor/armor_red.md3"
+"origin" "828.799988 -2408.000000 -67.199997"
+"classname" "func_goalinfo"
+}
+{
+"angle" "90"
+"classname" "func_goalinfo"
+"origin" "448.000000 -2486.399902 -67.199997"
+"model" "models/objects/backpack/backpack.md3"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"flags" ",hideactive"
+"give" "ammo_rockets=+20,ammo_cells=+20,ammo_shells=+25,ammo_nails=+25,ammo_medkit=+20"
+"wait" "5"
+"allowteams" "blue"
+"active_message" "~ammunition!"
+}
+{
+"model" "*66"
+"classname" "func_wall"
+"groupname" "blueexplosives"
+}
+{
+"model" "*67"
+"active_sound" "sound/misc/am_pkup.wav"
+"give" "gren1=+2,gren2=+1,ammo_charge=1"
+"inactivetarget" "blueexplosives=~inactive"
+"wait" "10"
+"activetarget" "blueexplosives=~invisible"
+"allowteams" "blue"
+"classname" "trigger_multiple"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"active_message" "~crate of explosive devices"
+}
+{
+"origin" "985.599976 -3382.399902 -358.399994"
+"classname" "info_player_start"
+"angle" "360"
+"allowteams" "blue"
+}
+{
+"angle" "360"
+"classname" "info_player_start"
+"origin" "985.599976 -3180.800049 -358.399994"
+"allowteams" "blue"
+}
+{
+"origin" "985.599976 -2979.199951 -358.399994"
+"classname" "info_player_start"
+"angle" "360"
+"allowteams" "blue"
+}
+{
+"allowteams" "blue"
+"angle" "180"
+"classname" "info_player_start"
+"origin" "1758.400024 -2979.199951 -358.399994"
+}
+{
+"allowteams" "blue"
+"origin" "1758.400024 -3180.800049 -358.399994"
+"classname" "info_player_start"
+"angle" "180"
+}
+{
+"allowteams" "blue"
+"angle" "180"
+"classname" "info_player_start"
+"origin" "1758.400024 -3382.399902 -358.399994"
+}
+{
+"model" "*68"
+"gameindex" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"active_message" "~the ^4blue^* warehouse - cp1"
+}
+{
+"clientstats" "armor<!"
+"classname" "func_goalinfo"
+"origin" "-1400.000000 -1825.599976 44.799999"
+"model" "models/powerups/armor/armor_red.md3"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"flags" ",hideactive"
+"give" "armor=+200"
+"wait" "20"
+}
+{
+"gameindex" "1"
+"model" "models/flags/r_flag.md3"
+"initialstate" "invisible"
+"groupname" "red_cp1_flag"
+"origin" "-1478.400024 -2083.199951 -156.800003"
+"classname" "func_goalinfo"
+}
+{
+"gameindex" "1"
+"classname" "func_goalinfo"
+"origin" "-1478.400024 -2083.199951 -156.800003"
+"groupname" "blue_cp1_flag"
+"initialstate" "invisible"
+"model" "models/flags/b_flag.md3"
+}
+{
+"model" "*69"
+"gameindex" "1"
+"activetarget" "cp1"
+"holding" "flag"
+"wait" ".001"
+"classname" "trigger_multiple"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"checkstate" "red_cp1_flag=inactive"
+"groupname" "resetredcp"
+"origin" "-3371.199951 -4032.000000 -828.799988"
+"activetarget" "cp1=~invisible,red_cp1_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3371.199951 -4054.399902 -828.799988"
+"groupname" "resetredcp"
+"checkstate" "red_cp2_flag=inactive"
+"classname" "info_notnull"
+"activetarget" "cp2=~invisible,red_cp2_flag=~invisible"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"checkstate" "red_cp3_flag=inactive"
+"groupname" "resetredcp"
+"origin" "-3371.199951 -4076.800049 -828.799988"
+"activetarget" "cp3=~invisible,red_cp3_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3371.199951 -4099.199707 -828.799988"
+"groupname" "resetredcp"
+"checkstate" "red_cp4_flag=inactive"
+"classname" "info_notnull"
+"activetarget" "cp4=~invisible,red_cp4_flag=~invisible"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"checkstate" "red_cp5_flag=inactive"
+"groupname" "resetredcp"
+"origin" "-3371.199951 -4121.600098 -828.799988"
+"activetarget" "cp5=~invisible,red_cp5_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3371.199951 -4144.000000 -828.799988"
+"groupname" "resetredcp"
+"checkstate" "red_cp6_flag=inactive"
+"classname" "info_notnull"
+"activetarget" "cp6=~invisible,red_cp6_flag=~invisible"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"checkstate" "red_cp8_flag=inactive"
+"groupname" "resetredcp"
+"origin" "-3371.199951 -4188.799805 -828.799988"
+"activetarget" "cp8=~invisible,red_cp8_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3371.199951 -4166.399902 -828.799988"
+"groupname" "resetredcp"
+"checkstate" "red_cp7_flag=inactive"
+"classname" "info_notnull"
+"activetarget" "cp7=~invisible,red_cp7_flag=~invisible"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"checkstate" "blue_cp7_flag=inactive"
+"groupname" "resetbluecp"
+"origin" "-3393.599854 -4166.399902 -828.799988"
+"activetarget" "cp7=~invisible,blue_cp7_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3393.599854 -4188.799805 -828.799988"
+"groupname" "resetbluecp"
+"checkstate" "blue_cp8_flag=inactive"
+"classname" "info_notnull"
+"activetarget" "cp8=~invisible,blue_cp8_flag=~invisible"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"checkstate" "blue_cp6_flag=inactive"
+"groupname" "resetbluecp"
+"origin" "-3393.599854 -4144.000000 -828.799988"
+"activetarget" "cp6=~invisible,blue_cp6_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3393.599854 -4121.600098 -828.799988"
+"groupname" "resetbluecp"
+"checkstate" "blue_cp5_flag=inactive"
+"classname" "info_notnull"
+"activetarget" "cp5=~invisible,blue_cp5_flag=~invisible"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"checkstate" "blue_cp4_flag=inactive"
+"groupname" "resetbluecp"
+"origin" "-3393.599854 -4099.199707 -828.799988"
+"activetarget" "cp4=~invisible,blue_cp4_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3393.599854 -4076.800049 -828.799988"
+"groupname" "resetbluecp"
+"checkstate" "blue_cp3_flag=inactive"
+"classname" "info_notnull"
+"activetarget" "cp3=~invisible,blue_cp3_flag=~invisible"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"checkstate" "blue_cp2_flag=inactive"
+"groupname" "resetbluecp"
+"origin" "-3393.599854 -4054.399902 -828.799988"
+"activetarget" "cp2=~invisible,blue_cp2_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3203.199951 -4054.399902 -828.799988"
+"classname" "func_commandpoint"
+"groupname" "redbasepoint,basepoint"
+"initialstate" "invisible"
+"activetarget" "flagreturner,intermission1=~disabled,intermission2=~inactive,endgame"
+"active_all_sound" "sound/teamplay/flagcap_blu.wav"
+"active_sound" "sound/teamplay/flagcap_blu.wav"
+}
+{
+"gameindex" "1"
+"active_all_message" "^1red^* base is open to attack!"
+"classname" "info_notnull"
+"origin" "-3472.000000 -4256.000000 -828.799988"
+"groupname" "red_door_opener"
+"activetarget" "reddoors=~active"
+}
+{
+"gameindex" "1"
+"message" "intermission"
+"origin" "-3180.800049 -4032.000000 -828.799988"
+"wait" "120"
+"groupname" "endgame"
+"classname" "target_command"
+}
+{
+"gameindex" "1"
+"groupname" "flagreturner"
+"origin" "-3180.800049 -4256.000000 -828.799988"
+"inactive_all_message" "^4blue^* controls all of the command points."
+"checkstate" "blue_cp1_flag=inactive,blue_cp2_flag=inactive,blue_cp3_flag=inactive,blue_cp4_flag=inactive,blue_cp5_flag=inactive,blue_cp6_flag=inactive,blue_cp7_flag=inactive,blue_cp8_flag=inactive"
+"classname" "info_notnull"
+"inactivetarget" "flag=~invisible,bluesmflag=~active,smtimer=~active,reddoortimer=~inactive,redbasepoint=~inactive,cscharge=~invisible,redbasecp=~inactive"
+"wait" "1"
+}
+{
+"gameindex" "1"
+"groupname" "cp8statusflag"
+"activetarget" "red_cp8_flag=~inactive,blue_cp8_flag=~invisible"
+"classname" "info_notnull"
+"origin" "-3326.399902 -4188.799805 -672.000000"
+"failtarget" "blue_cp8_flag=~inactive,red_cp8_flag=~invisible"
+"allowteams" "red"
+}
+{
+"gameindex" "1"
+"groupname" "cp7statusflag"
+"activetarget" "red_cp7_flag=~inactive,blue_cp7_flag=~invisible"
+"classname" "info_notnull"
+"origin" "-3326.399902 -4166.399902 -672.000000"
+"failtarget" "blue_cp7_flag=~inactive,red_cp7_flag=~invisible"
+"allowteams" "red"
+}
+{
+"gameindex" "1"
+"origin" "-3326.399902 -4166.399902 -649.599976"
+"classname" "func_commandpoint"
+"groupname" "cp7,cp"
+"initialstate" "inactive"
+"active_all_message" "~%n[%t] has claimed the boat house - cp7"
+"pulseteamscore" "1"
+"wait" "30"
+"activetarget" "flagreturner,cp7statusflag"
+}
+{
+"gameindex" "1"
+"groupname" "cp6statusflag"
+"activetarget" "red_cp6_flag=~inactive,blue_cp6_flag=~invisible"
+"classname" "info_notnull"
+"origin" "-3326.399902 -4144.000000 -672.000000"
+"failtarget" "blue_cp6_flag=~inactive,red_cp6_flag=~invisible"
+"allowteams" "red"
+}
+{
+"gameindex" "1"
+"origin" "-3326.399902 -4144.000000 -649.599976"
+"classname" "func_commandpoint"
+"groupname" "cp6,cp"
+"initialstate" "inactive"
+"active_all_message" "~%n[%t] has claimed the balcony room - cp6"
+"pulseteamscore" "1"
+"wait" "30"
+"activetarget" "flagreturner,cp6statusflag"
+}
+{
+"gameindex" "1"
+"groupname" "cp5statusflag"
+"activetarget" "red_cp5_flag=~inactive,blue_cp5_flag=~invisible"
+"classname" "info_notnull"
+"origin" "-3326.399902 -4121.600098 -672.000000"
+"failtarget" "blue_cp5_flag=~inactive,red_cp5_flag=~invisible"
+"allowteams" "red"
+}
+{
+"gameindex" "1"
+"origin" "-3326.399902 -4121.600098 -649.599976"
+"classname" "func_commandpoint"
+"groupname" "cp5,cp"
+"initialstate" "inactive"
+"active_all_message" "~%n[%t] has claimed the fountain plaza - cp5"
+"pulseteamscore" "1"
+"wait" "30"
+"activetarget" "flagreturner,cp5statusflag"
+}
+{
+"gameindex" "1"
+"groupname" "cp4statusflag"
+"activetarget" "red_cp4_flag=~inactive,blue_cp4_flag=~invisible"
+"classname" "info_notnull"
+"origin" "-3326.399902 -4099.199707 -672.000000"
+"failtarget" "blue_cp4_flag=~inactive,red_cp4_flag=~invisible"
+"allowteams" "red"
+}
+{
+"gameindex" "1"
+"origin" "-3326.399902 -4099.199707 -649.599976"
+"classname" "func_commandpoint"
+"groupname" "cp4,cp"
+"initialstate" "inactive"
+"active_all_message" "~%n[%t] has claimed the small warehouse - cp4"
+"pulseteamscore" "1"
+"wait" "30"
+"activetarget" "flagreturner,cp4statusflag"
+}
+{
+"gameindex" "1"
+"groupname" "cp3statusflag"
+"activetarget" "red_cp3_flag=~inactive,blue_cp3_flag=~invisible"
+"classname" "info_notnull"
+"origin" "-3326.399902 -4076.800049 -672.000000"
+"failtarget" "blue_cp3_flag=~inactive,red_cp3_flag=~invisible"
+"allowteams" "red"
+}
+{
+"gameindex" "1"
+"origin" "-3326.399902 -4076.800049 -649.599976"
+"classname" "func_commandpoint"
+"groupname" "cp3,cp"
+"initialstate" "inactive"
+"active_all_message" "~%n[%t] has claimed the library - cp3"
+"pulseteamscore" "1"
+"wait" "30"
+"activetarget" "flagreturner,cp3statusflag"
+}
+{
+"gameindex" "1"
+"activetarget" "flagreturner,cp2statusflag"
+"wait" "30"
+"pulseteamscore" "1"
+"active_all_message" "~%n[%t] has claimed the arch room - cp2"
+"initialstate" "inactive"
+"groupname" "cp2,cp"
+"classname" "func_commandpoint"
+"origin" "-3326.399902 -4054.399902 -649.599976"
+}
+{
+"gameindex" "1"
+"allowteams" "red"
+"failtarget" "blue_cp2_flag=~inactive,red_cp2_flag=~invisible"
+"origin" "-3326.399902 -4054.399902 -672.000000"
+"classname" "info_notnull"
+"activetarget" "red_cp2_flag=~inactive,blue_cp2_flag=~invisible"
+"groupname" "cp2statusflag"
+}
+{
+"gameindex" "1"
+"inactive_model" "models/flags/r_flag.md3"
+"classname" "func_hud"
+"holding" "redflag,redsmflag"
+"allowteams" "red"
+"slot" "2"
+"origin" "-3472.000000 -4032.000000 -828.799988"
+"groupname" "redhud"
+}
+{
+"gameindex" "1"
+"groupname" "cp1statusflag"
+"activetarget" "red_cp1_flag=~inactive,blue_cp1_flag=~invisible"
+"classname" "info_notnull"
+"origin" "-3326.399902 -4032.000000 -672.000000"
+"failtarget" "blue_cp1_flag=~inactive,red_cp1_flag=~invisible"
+"allowteams" "red"
+}
+{
+"gameindex" "1"
+"active_nonteam_sound" "sound/teamplay/flagret_blu.wav"
+"active_team_sound" "sound/teamplay/flagret_blu.wav"
+"active_sound" "sound/teamplay/flagret_blu.wav"
+"origin" "-3494.399902 -4032.000000 -828.799988"
+"holding" "blue_flag_1"
+"groupname" "flagreturner"
+"classname" "info_notnull"
+"activetarget" "blue_flag_1=~inactive"
+}
+{
+"gameindex" "1"
+"active_nonteam_sound" "sound/teamplay/flagret_blu.wav"
+"active_team_sound" "sound/teamplay/flagret_blu.wav"
+"active_sound" "sound/teamplay/flagret_blu.wav"
+"origin" "-3494.399902 -4054.399902 -828.799988"
+"classname" "info_notnull"
+"groupname" "flagreturner"
+"holding" "blue_flag_2"
+"activetarget" "blue_flag_2=~inactive"
+}
+{
+"gameindex" "1"
+"active_nonteam_sound" "sound/teamplay/flagret_blu.wav"
+"active_team_sound" "sound/teamplay/flagret_blu.wav"
+"active_sound" "sound/teamplay/flagret_blu.wav"
+"origin" "-3494.399902 -4076.800049 -828.799988"
+"holding" "blue_flag_3"
+"groupname" "flagreturner"
+"classname" "info_notnull"
+"activetarget" "blue_flag_3=~inactive"
+}
+{
+"gameindex" "1"
+"active_nonteam_sound" "sound/teamplay/flagret_blu.wav"
+"active_team_sound" "sound/teamplay/flagret_blu.wav"
+"active_sound" "sound/teamplay/flagret_blu.wav"
+"origin" "-3494.399902 -4099.199707 -828.799988"
+"classname" "info_notnull"
+"groupname" "flagreturner"
+"holding" "blue_flag_4"
+"activetarget" "blue_flag_4=~inactive"
+}
+{
+"gameindex" "1"
+"active_nonteam_sound" "sound/teamplay/flagret_blu.wav"
+"active_team_sound" "sound/teamplay/flagret_blu.wav"
+"active_sound" "sound/teamplay/flagret_blu.wav"
+"origin" "-3494.399902 -4121.600098 -828.799988"
+"holding" "red_flag_4"
+"groupname" "flagreturner"
+"classname" "info_notnull"
+"activetarget" "red_flag_4=~inactive"
+}
+{
+"gameindex" "1"
+"active_nonteam_sound" "sound/teamplay/flagret_blu.wav"
+"active_team_sound" "sound/teamplay/flagret_blu.wav"
+"active_sound" "sound/teamplay/flagret_blu.wav"
+"origin" "-3494.399902 -4144.000000 -828.799988"
+"classname" "info_notnull"
+"groupname" "flagreturner"
+"holding" "red_flag_3"
+"activetarget" "red_flag_3=~inactive"
+}
+{
+"gameindex" "1"
+"active_nonteam_sound" "sound/teamplay/flagret_blu.wav"
+"active_team_sound" "sound/teamplay/flagret_blu.wav"
+"active_sound" "sound/teamplay/flagret_blu.wav"
+"origin" "-3494.399902 -4166.399902 -828.799988"
+"holding" "red_flag_2"
+"groupname" "flagreturner"
+"classname" "info_notnull"
+"activetarget" "red_flag_2=~inactive"
+}
+{
+"gameindex" "1"
+"origin" "-3326.399902 -4032.000000 -649.599976"
+"classname" "func_commandpoint"
+"groupname" "cp1,cp"
+"initialstate" "inactive"
+"active_all_message" "~%n[%t] has claimed the ^4blue^* warehouse - cp1"
+"pulseteamscore" "1"
+"wait" "30"
+"activetarget" "flagreturner,cp1statusflag"
+}
+{
+"gameindex" "1"
+"active_nonteam_sound" "sound/teamplay/flagret_blu.wav"
+"active_team_sound" "sound/teamplay/flagret_blu.wav"
+"active_sound" "sound/teamplay/flagret_blu.wav"
+"origin" "-3494.399902 -4188.799805 -828.799988"
+"classname" "info_notnull"
+"groupname" "flagreturner"
+"holding" "red_flag_1"
+"activetarget" "red_flag_1=~inactive"
+"wait" ".001"
+}
+{
+"gameindex" "1"
+"inactive_model" "models/flags/b_flag.md3"
+"origin" "-3472.000000 -4054.399902 -828.799988"
+"slot" "2"
+"holding" "blueflag,bluesmflag"
+"classname" "func_hud"
+"groupname" "bluehud"
+}
+{
+"gameindex" "1"
+"active_all_message" "^4blue^* base is open to attack!"
+"activetarget" "bluedoors=~active"
+"groupname" "blue_door_opener"
+"origin" "-3494.399902 -4256.000000 -828.799988"
+"classname" "info_notnull"
+}
+{
+"gameindex" "1"
+"active_all_message" "~^3storm mode!^*"
+"inactivetarget" "resetbluecp=~active,resetredcp=~active,smflag=~invisible,flag=~active,doortimer=~disabled,basepoint=~invisible,cscharge=~inactive,redbasecp=~invisible,bluebasecp=~invisible"
+"classname" "info_notnull"
+"groupname" "smtimer"
+"wait" "120"
+"origin" "-3180.800049 -4200.000000 -828.799988"
+"inactive_all_message" "~^3end of storm mode^*"
+"active_all_sound" "sound/misc/q3f_alarm.wav"
+"active_sound" "sound/misc/q3f_alarm.wav"
+}
+{
+"gameindex" "1"
+"origin" "-3393.599854 -4032.000000 -828.799988"
+"groupname" "resetbluecp"
+"checkstate" "blue_cp1_flag=inactive"
+"classname" "info_notnull"
+"activetarget" "cp1=~invisible,blue_cp1_flag=~invisible"
+}
+{
+"gameindex" "1"
+"origin" "-3180.800049 -4054.399902 -828.799988"
+"classname" "func_commandpoint"
+"groupname" "bluebasepoint,basepoint"
+"initialstate" "invisible"
+"activetarget" "flagreturner,intermission1=~disabled,intermission2=~inactive,endgame"
+"active_all_sound" "sound/teamplay/flagcap_blu.wav"
+"active_sound" "sound/teamplay/flagcap_blu.wav"
+}
+{
+"model" "*70"
+"gameindex" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"active_message" "~the boat house - cp7"
+}
+{
+"model" "*71"
+"gameindex" "1"
+"wait" "3"
+"active_message" "~the arch room - cp2"
+"classname" "trigger_multiple"
+}
+{
+"gameindex" "1"
+"classname" "info_notnull"
+"flags" "chargeable"
+"activetarget" "boathousedebris=~invisible, boathousecharge=~invisible"
+"groupname" "boathousecharge"
+"origin" "-1243.199951 2262.399902 -560.000000"
+}
+{
+"angle" "180"
+"wait" "30"
+"give" "armor=+50,aclass_fire=1"
+"flags" ",hideactive"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"model" "models/powerups/armor/armor_red.md3"
+"origin" "-1579.199951 1153.599976 56.000000"
+"classname" "func_goalinfo"
+"active_message" "~flame-retardant armor"
+}
+{
+"model" "*72"
+"give" "health=+10"
+"wait" "2"
+"checkstate" "red_cp7_flag=inactive"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "redhealthpadmsg"
+}
+{
+"model" "*73"
+"give" "health=+10"
+"classname" "trigger_multiple"
+"allowteams" "blue"
+"checkstate" "blue_cp7_flag=inactive"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "bluehealthpadmsg"
+}
+{
+"gameindex" "1"
+"model" "models/flags/r_flag.md3"
+"initialstate" "invisible"
+"groupname" "red_cp7_flag"
+"origin" "-1612.799927 2284.800049 -112.000000"
+"classname" "func_goalinfo"
+}
+{
+"gameindex" "1"
+"classname" "func_goalinfo"
+"origin" "-1612.799927 2284.800049 -112.000000"
+"groupname" "blue_cp7_flag"
+"initialstate" "invisible"
+"model" "models/flags/b_flag.md3"
+}
+{
+"model" "*74"
+"gameindex" "1"
+"activetarget" "cp7"
+"holding" "flag"
+"wait" ".001"
+"classname" "trigger_multiple"
+}
+{
+"model" "*75"
+"gameindex" "1"
+"classname" "trigger_multiple"
+"wait" ".001"
+"holding" "flag"
+"activetarget" "cp2"
+}
+{
+"gameindex" "1"
+"model" "models/flags/b_flag.md3"
+"initialstate" "invisible"
+"groupname" "blue_cp2_flag"
+"origin" "-2284.800049 -616.000000 67.199997"
+"classname" "func_goalinfo"
+}
+{
+"gameindex" "1"
+"classname" "func_goalinfo"
+"origin" "-2284.800049 -616.000000 67.199997"
+"groupname" "red_cp2_flag"
+"initialstate" "invisible"
+"model" "models/flags/r_flag.md3"
+}
+{
+"model" "*76"
+"classname" "func_button"
+"angle" "90"
+"active_message" "~the button is broken.  try opening the boathouse door another way."
+}
+{
+"gameindex" "1"
+"origin" "-1467.199951 2262.399902 -560.000000"
+"groupname" "boathousecharge"
+"activetarget" "boathousedebris=~invisible, boathousecharge=~invisible"
+"flags" "chargeable"
+"classname" "info_notnull"
+}
+{
+"model" "*77"
+"gameindex" "1"
+"wait" "3"
+"active_message" "~the ^1red^* warehouse - cp8"
+"classname" "trigger_multiple"
+}
+{
+"gameindex" "1"
+"model" "models/flags/r_flag.md3"
+"initialstate" "invisible"
+"groupname" "red_cp8_flag"
+"origin" "-1478.400024 2934.399902 -156.800003"
+"classname" "func_goalinfo"
+}
+{
+"gameindex" "1"
+"classname" "func_goalinfo"
+"origin" "-1478.400024 2934.399902 -156.800003"
+"groupname" "blue_cp8_flag"
+"initialstate" "invisible"
+"model" "models/flags/b_flag.md3"
+}
+{
+"model" "*78"
+"activetarget" "cp8"
+"holding" "flag"
+"wait" ".001"
+"classname" "trigger_multiple"
+}
+{
+"model" "*79"
+"gameindex" "1"
+"wait" "3"
+"active_message" "~the small warehouse - cp4"
+"classname" "trigger_multiple"
+}
+{
+"gameindex" "1"
+"model" "models/flags/r_flag.md3"
+"initialstate" "invisible"
+"groupname" "red_cp4_flag"
+"origin" "1612.799927 -448.000000 -380.799988"
+"classname" "func_goalinfo"
+}
+{
+"gameindex" "1"
+"classname" "func_goalinfo"
+"origin" "1612.799927 -448.000000 -380.799988"
+"groupname" "blue_cp4_flag"
+"initialstate" "invisible"
+"model" "models/flags/b_flag.md3"
+}
+{
+"model" "*80"
+"gameindex" "1"
+"activetarget" "cp4"
+"holding" "flag"
+"wait" ".001"
+"classname" "trigger_multiple"
+}
+{
+"target" "t25"
+"classname" "info_player_intermission"
+"angle" "225"
+"origin" "2643.199951 -1120.000000 112.000000"
+"groupname" "intermission1"
+}
+{
+"classname" "item_health_mega"
+"origin" "-134.399994 -89.599998 336.000000"
+}
+{
+"origin" "56.000000 -571.200012 -22.400000"
+"classname" "item_health"
+}
+{
+"angle" "270"
+"clientstats" "armor<!"
+"classname" "func_goalinfo"
+"origin" "-761.599976 -313.600006 44.799999"
+"model" "models/powerups/armor/armor_red.md3"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"flags" ",hideactive"
+"give" "armor=+200"
+"wait" "20"
+"allowteams" "blue"
+}
+{
+"classname" "item_health"
+"origin" "-100.799995 -571.200012 -22.400000"
+}
+{
+"classname" "item_health"
+"origin" "-784.000000 604.799988 -358.399994"
+}
+{
+"model" "*81"
+"gameindex" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"active_message" "~the library - cp3"
+}
+{
+"model" "*82"
+"gameindex" "1"
+"give" "health=+10"
+"wait" "2"
+"checkstate" "blue_cp3_flag=inactive"
+"allowteams" "blue"
+"classname" "trigger_multiple"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "bluehealthpadmsg"
+}
+{
+"angle" "270"
+"classname" "func_goalinfo"
+"origin" "110.599998 614.599976 56.000000"
+"model" "models/powerups/armor/armor_red.md3"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"flags" ",hideactive"
+"give" "aclass_bullet=1,armor=+50"
+"wait" "30"
+"active_message" "~nail-resistant armor"
+}
+{
+"gameindex" "1"
+"model" "models/flags/r_flag.md3"
+"initialstate" "invisible"
+"groupname" "red_cp3_flag"
+"origin" "420.000000 268.799988 50.399998"
+"classname" "func_goalinfo"
+}
+{
+"gameindex" "1"
+"classname" "func_goalinfo"
+"origin" "420.000000 268.799988 50.399998"
+"groupname" "blue_cp3_flag"
+"initialstate" "invisible"
+"model" "models/flags/b_flag.md3"
+}
+{
+"model" "*83"
+"gameindex" "1"
+"activetarget" "cp3"
+"holding" "flag"
+"wait" ".001"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90"
+"classname" "func_goalinfo"
+"origin" "-89.599998 537.599976 313.600006"
+"model" "models/powerups/ammo/rocketam.md3"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"flags" ",hideactive"
+"give" "ammo_rockets=+25"
+"wait" "20"
+}
+{
+"origin" "2363.199951 1747.199951 -263.199982"
+"classname" "item_health"
+}
+{
+"model" "*84"
+"gameindex" "1"
+"classname" "trigger_multiple"
+"wait" ".001"
+"holding" "flag"
+"activetarget" "cp5"
+}
+{
+"gameindex" "1"
+"model" "models/flags/b_flag.md3"
+"initialstate" "invisible"
+"groupname" "blue_cp5_flag"
+"origin" "2060.800049 537.599976 -319.199982"
+"classname" "func_goalinfo"
+}
+{
+"gameindex" "1"
+"classname" "func_goalinfo"
+"origin" "2060.800049 537.599976 -319.199982"
+"groupname" "red_cp5_flag"
+"initialstate" "invisible"
+"model" "models/flags/r_flag.md3"
+}
+{
+"model" "*85"
+"gameindex" "1"
+"give" "health=+10"
+"wait" "2"
+"checkstate" "blue_cp5_flag=inactive"
+"allowteams" "blue"
+"classname" "trigger_multiple"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "bluehealthpadmsg"
+}
+{
+"model" "*86"
+"gameindex" "1"
+"give" "health=+10"
+"classname" "trigger_multiple"
+"allowteams" "red"
+"checkstate" "red_cp5_flag=inactive"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "redhealthpadmsg"
+}
+{
+"classname" "func_goalinfo"
+"origin" "1500.799927 1691.199951 39.200001"
+"model" "models/powerups/armor/armor_red.md3"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"flags" ",hideactive"
+"give" "armor=+50,aclass_flame=1"
+"wait" "30"
+"active_message" "~flame-retardant armor"
+}
+{
+"angle" "360"
+"wait" "20"
+"give" "ammo_rockets=+25"
+"flags" ",hideactive"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"model" "models/powerups/ammo/rocketam.md3"
+"origin" "2688.000000 -89.599998 0.000000"
+"classname" "func_goalinfo"
+}
+{
+"angle" "90"
+"classname" "func_goalinfo"
+"origin" "2809.800049 -89.599998 0.000000"
+"model" "models/powerups/ammo/machinegunam.md3"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"flags" ",hideactive"
+"give" "ammo_nails=+25"
+"wait" "20"
+}
+{
+"classname" "item_health"
+"origin" "2430.399902 1747.199951 -263.199982"
+}
+{
+"model" "*87"
+"gameindex" "1"
+"wait" "3"
+"active_message" "~the fountain plaza - cp5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*88"
+"gameindex" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"active_message" "~the balcony room - cp6"
+}
+{
+"model" "*89"
+"gameindex" "1"
+"give" "health=+10"
+"classname" "trigger_multiple"
+"allowteams" "blue"
+"checkstate" "blue_cp6_flag=inactive"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "bluehealthpadmsg"
+}
+{
+"model" "*90"
+"clientstats" "health<!"
+"gameindex" "1"
+"give" "health=+10"
+"wait" "2"
+"checkstate" "red_cp6_flag=inactive"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"active_sound" "sound/items/regen.wav"
+"failtarget" "redhealthpadmsg"
+}
+{
+"origin" "-403.199982 1030.400024 33.599998"
+"classname" "item_health_mega"
+}
+{
+"gameindex" "1"
+"classname" "func_goalinfo"
+"origin" "750.399963 1500.799927 28.000000"
+"groupname" "red_cp6_flag"
+"initialstate" "invisible"
+"model" "models/flags/r_flag.md3"
+}
+{
+"gameindex" "1"
+"model" "models/flags/b_flag.md3"
+"initialstate" "invisible"
+"groupname" "blue_cp6_flag"
+"origin" "750.399963 1500.799927 28.000000"
+"classname" "func_goalinfo"
+}
+{
+"model" "*91"
+"gameindex" "1"
+"classname" "trigger_multiple"
+"wait" ".001"
+"holding" "flag"
+"activetarget" "cp6"
+}
+{
+"model" "*92"
+"classname" "trigger_multiple"
+"allowteams" "red"
+"give" "health=+50"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+}
+{
+"angle" "270"
+"classname" "func_goalinfo"
+"origin" "1243.199951 3998.399902 -380.799988"
+"model" "models/objects/backpack/backpack.md3"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"flags" ",hideactive"
+"give" "ammo_rockets=+20,ammo_cells=+20,ammo_shells=+25,ammo_nails=+25,ammo_medkit=+20"
+"wait" "4"
+"allowteams" "red"
+"active_message" "~ammunition!"
+}
+{
+"angle" "270"
+"clientstats" "armor<!"
+"allowteams" "red"
+"wait" "4"
+"give" "armor=+50"
+"flags" ",hideactive"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"model" "models/powerups/armor/armor_red.md3"
+"origin" "1489.599976 3998.399902 -380.799988"
+"classname" "func_goalinfo"
+}
+{
+"allowteams" "red"
+"angle" "180"
+"classname" "info_player_start"
+"origin" "1758.400024 3830.399902 -358.399994"
+}
+{
+"allowteams" "red"
+"origin" "1758.400024 4032.000000 -358.399994"
+"classname" "info_player_start"
+"angle" "180"
+}
+{
+"allowteams" "red"
+"angle" "180"
+"classname" "info_player_start"
+"origin" "1758.400024 4233.600098 -358.399994"
+}
+{
+"origin" "985.599976 4233.600098 -358.399994"
+"classname" "info_player_start"
+"angle" "360"
+"allowteams" "red"
+}
+{
+"angle" "360"
+"classname" "info_player_start"
+"origin" "985.599976 4032.000000 -358.399994"
+"allowteams" "red"
+}
+{
+"origin" "985.599976 3830.399902 -358.399994"
+"classname" "info_player_start"
+"angle" "360"
+"allowteams" "red"
+}
+{
+"angle" "270"
+"classname" "func_goalinfo"
+"origin" "470.399994 3360.000000 -61.599998"
+"model" "models/objects/backpack/backpack.md3"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"flags" ",hideactive"
+"give" "ammo_rockets=+20,ammo_cells=+20,ammo_shells=+25,ammo_nails=+25,ammo_medkit=+20"
+"wait" "5"
+"allowteams" "red"
+"active_message" "~ammunition!"
+}
+{
+"angle" "270"
+"clientstats" "armor<!"
+"allowteams" "red"
+"wait" "5"
+"give" "armor=+50"
+"flags" ",hideactive"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"model" "models/powerups/armor/armor_red.md3"
+"origin" "806.399963 3124.800049 -61.599998"
+"classname" "func_goalinfo"
+}
+{
+"angle" "270"
+"clientstats" "armor<!"
+"classname" "func_goalinfo"
+"origin" "806.399963 3270.399902 -61.599998"
+"model" "models/powerups/armor/armor_red.md3"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"flags" ",hideactive"
+"give" "armor=+50"
+"wait" "5"
+"allowteams" "red"
+}
+{
+"model" "*93"
+"classname" "trigger_multiple"
+"allowteams" "red"
+"give" "health=+50"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+}
+{
+"model" "*94"
+"gameindex" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"active_message" "~their central command center.  a he charge should do the trick."
+"allowteams" "blue"
+}
+{
+"model" "*95"
+"gameindex" "1"
+"wait" "3"
+"allowteams" "red"
+"active_message" "~central command center.  you're looking at a map."
+"classname" "trigger_multiple"
+}
+{
+"model" "*96"
+"gameindex" "1"
+"active_message" "~no friendly he charges allowed."
+"allowteams" "red"
+"classname" "trigger_multiple"
+"allowclasses" "grenadier"
+"give" "ammo_charge=0"
+"wait" "5"
+}
+{
+"model" "*97"
+"active_sound" "sound/misc/am_pkup.wav"
+"give" "gren1=+2,gren2=+1,ammo_charge=1"
+"inactivetarget" "redexplosives=~inactive"
+"wait" "10"
+"activetarget" "redexplosives=~invisible"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"active_all_sound" "sound/misc/am_pkup.wav"
+"active_message" "~crate of explosive devices"
+}
+{
+"model" "*98"
+"classname" "func_wall"
+"groupname" "redexplosives"
+}
+{
+"gameindex" "1"
+"active_all_message" "~%n destroys the ^1red^* command center."
+"groupname" "cscharge"
+"allowteams" "blue"
+"classname" "info_notnull"
+"flags" "chargeable"
+"activetarget" "resetredcp"
+"origin" "1534.400024 3836.000000 11.200000"
+"teamscore" "50"
+}
+{
+"model" "*99"
+"initialstate" "invisible"
+"groupname" "redbasecp"
+"gameindex" "1"
+"active_all_message" "~^4blue^* team wins!!"
+"activetarget" "redbasepoint,basepoint"
+"holding" "smflag"
+"classname" "trigger_multiple"
+"allowteams" "blue"
+"active_all_sound" "sound/world/bell.wav"
+}
+{
+"gameindex" "1"
+"notholding" "flag"
+"speedscale" ".5"
+"light" "150"
+"color" "1 0 0"
+"wait" "0"
+"carried_flaginfo" "%n is carrying a ^1red^* flag!"
+"flags" "showcarry,revealagent"
+"model" "models/flags/r_flag.md3"
+"allowteams" "red"
+"groupname" "flag,red_flag_3,redflag"
+"classname" "func_goalitem"
+"origin" "1478.400024 4323.199707 -33.599998"
+"carriedtarget" "redhud"
+}
+{
+"gameindex" "1"
+"notholding" "flag"
+"speedscale" ".5"
+"origin" "1702.400024 4323.199707 -33.599998"
+"classname" "func_goalitem"
+"groupname" "flag,red_flag_4,redflag"
+"allowteams" "red"
+"model" "models/flags/r_flag.md3"
+"flags" "showcarry,revealagent"
+"carried_flaginfo" "%n is carrying a ^1red^* flag!"
+"wait" "0"
+"color" "1 0 0"
+"light" "150"
+"carriedtarget" "redhud"
+}
+{
+"gameindex" "1"
+"notholding" "flag"
+"speedscale" ".5"
+"light" "150"
+"color" "1 0 0"
+"wait" "0"
+"carried_flaginfo" "%n is carrying a ^1red^* flag!"
+"flags" "showcarry,revealagent"
+"model" "models/flags/r_flag.md3"
+"allowteams" "red"
+"groupname" "flag,red_flag_2,redflag"
+"classname" "func_goalitem"
+"origin" "1254.400024 4323.199707 -33.599998"
+"carriedtarget" "redhud"
+}
+{
+"gameindex" "1"
+"notholding" "flag"
+"speedscale" ".5"
+"origin" "1030.400024 4323.199707 -33.599998"
+"classname" "func_goalitem"
+"groupname" "flag,red_flag_1,redflag"
+"allowteams" "red"
+"model" "models/flags/r_flag.md3"
+"flags" "showcarry,revealagent"
+"carried_flaginfo" "%n is carrying a ^1red^* flag!"
+"wait" "0"
+"color" "1 0 0"
+"light" "150"
+"carriedtarget" "redhud"
+}
+{
+"model" "*100"
+"gameindex" "1"
+"wait" "3"
+"allowclasses" "agent"
+"activetarget" "red_door_opener"
+"classname" "trigger_multiple"
+"allowteams" "blue"
+}
+{
+"origin" "-571.200012 3808.000000 -380.799988"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "-672.000000 3808.000000 -380.799988"
+}
+{
+"model" "*101"
+"gameindex" "1"
+"wait" "3"
+"allowteams" "red"
+"active_message" "~their central command center.  a he charge should do the trick."
+"classname" "trigger_multiple"
+}
+{
+"model" "*102"
+"gameindex" "1"
+"allowteams" "blue"
+"classname" "trigger_multiple"
+"targetname" "bluecsdoors"
+"target" "bcsdoors"
+}
+{
+"model" "*103"
+"gameindex" "1"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"target" "rcsdoors"
+}
+{
+"model" "*104"
+"gameindex" "1"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"target" "rmaindoors"
+}
+{
+"model" "*105"
+"gameindex" "1"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"target" "rbalcdoors"
+}
+{
+"model" "*106"
+"gameindex" "1"
+"allowteams" "red"
+"classname" "trigger_multiple"
+"target" "rlowerdoors"
+}
+{
+"clientstats" "armor<!"
+"wait" "20"
+"give" "armor=+200"
+"flags" ",hideactive"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"model" "models/powerups/armor/armor_red.md3"
+"origin" "-1400.000000 2688.000000 44.799999"
+"classname" "func_goalinfo"
+}
+{
+"angle" "360"
+"clientstats" "armor<!"
+"classname" "func_goalinfo"
+"origin" "-2150.399902 2273.599854 -369.600006"
+"model" "models/powerups/armor/armor_red.md3"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"flags" "hideactive"
+"give" "armor=+200"
+"wait" "20"
+}
+{
+"model" "*107"
+"gameindex" "1"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "blue_cp4_flag"
+}
+{
+"model" "*108"
+"gameindex" "1"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "blue_cp1_flag"
+}
+{
+"model" "*109"
+"gameindex" "1"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "blue_cp2_flag"
+}
+{
+"model" "*110"
+"gameindex" "1"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "blue_cp5_flag"
+}
+{
+"model" "*111"
+"gameindex" "1"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "blue_cp6_flag"
+}
+{
+"model" "*112"
+"gameindex" "1"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "blue_cp7_flag"
+}
+{
+"model" "*113"
+"gameindex" "1"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "blue_cp8_flag"
+}
+{
+"model" "*114"
+"gameindex" "1"
+"groupname" "red_cp8_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+}
+{
+"model" "*115"
+"gameindex" "1"
+"groupname" "red_cp7_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+}
+{
+"model" "*116"
+"gameindex" "1"
+"groupname" "red_cp6_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+}
+{
+"model" "*117"
+"gameindex" "1"
+"groupname" "red_cp5_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+}
+{
+"model" "*118"
+"gameindex" "1"
+"groupname" "red_cp2_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+}
+{
+"model" "*119"
+"gameindex" "1"
+"groupname" "red_cp1_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+}
+{
+"model" "*120"
+"gameindex" "1"
+"groupname" "red_cp4_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+}
+{
+"model" "*121"
+"gameindex" "1"
+"give" "health=+10"
+"classname" "trigger_multiple"
+"allowteams" "red"
+"checkstate" "red_cp3_flag=inactive"
+"wait" "2"
+"active_sound" "sound/items/regen.wav"
+"clientstats" "health<!"
+"failtarget" "redhealthpadmsg"
+}
+{
+"model" "*122"
+"gameindex" "1"
+"groupname" "boathousedebris"
+"classname" "func_wall"
+"initialstate" "inactive"
+}
+{
+"angle" "270"
+"active_message" "~kevlar armor"
+"wait" "30"
+"give" "aclass_shell=1,armor=+50"
+"flags" "hideactive"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"model" "models/powerups/armor/armor_red.md3"
+"origin" "749.000000 1768.199951 56.000000"
+"classname" "func_goalinfo"
+}
+{
+"model" "*123"
+"targetname" "rresupdoors"
+"wait" "-1"
+"classname" "func_door"
+"angle" "180"
+"team" "rresupdoors"
+}
+{
+"model" "*124"
+"targetname" "rresupdoors"
+"wait" "-1"
+"classname" "func_door"
+"angle" "360"
+"team" "rresupdoors"
+}
+{
+"model" "*125"
+"targetname" "bresupdoor"
+"team" "bresupdoors"
+"angle" "360"
+"classname" "func_door"
+"wait" "-1"
+}
+{
+"model" "*126"
+"targetname" "bresupdoor"
+"team" "bresupdoors"
+"angle" "180"
+"classname" "func_door"
+"wait" "-1"
+}
+{
+"classname" "item_health"
+"origin" "-560.000000 -2956.800049 -375.199982"
+}
+{
+"origin" "-784.000000 -156.800003 -358.399994"
+"classname" "item_health"
+}
+{
+"classname" "target_location"
+"origin" "1332.799927 -3494.399902 -368.199982"
+"message" "^4blue^* base respawn"
+}
+{
+"classname" "target_location"
+"origin" "1356.599976 -2912.000000 -368.199982"
+"message" "^4blue^* base respawn"
+}
+{
+"classname" "target_location"
+"origin" "1180.199951 -2368.800049 -189.000000"
+"message" "^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "1535.799927 -2226.000000 -60.200001"
+"message" "^4blue^* base near balcony"
+}
+{
+"classname" "target_location"
+"origin" "672.000000 -2426.199951 -54.599998"
+"message" "^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "1383.199951 -2679.599854 -368.199982"
+"message" "^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "1041.599976 -2674.000000 -43.399998"
+"message" "^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "1465.799927 -2681.000000 -43.399998"
+"message" "^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "1271.199951 -3113.599854 -43.399998"
+"message" "^4blue^* base command center"
+}
+{
+"classname" "target_location"
+"origin" "1671.599976 -3120.599854 -43.399998"
+"message" "^4blue^* base command center"
+}
+{
+"classname" "target_location"
+"origin" "-44.799999 -3140.199951 -390.600006"
+"message" "between ^4blue^* base and ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-19.600000 -2448.599854 -390.600006"
+"message" "between ^4blue^* base and ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-11.200000 -1820.000000 -390.600006"
+"message" "between ^4blue^* base and ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "21.000000 -3242.399902 25.199999"
+"message" "between ^4blue^* base and ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-802.200012 -3239.599854 33.599998"
+"message" "^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-728.000000 -2450.000000 60.200001"
+"message" "^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1544.199951 -2170.000000 -9.800000"
+"message" "^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1538.599976 -2895.199951 37.799999"
+"message" "^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1471.400024 -2107.000000 -144.199997"
+"message" "^4blue^* warehouse cap point"
+}
+{
+"classname" "target_location"
+"origin" "-631.399963 -3256.399902 -368.199982"
+"message" "^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1706.599976 -2409.399902 -368.199982"
+"message" "^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1955.799927 -2471.000000 -368.199982"
+"message" "behind ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-2111.199951 -3389.399902 -236.599991"
+"message" "behind ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-2132.199951 -1750.000000 -368.199982"
+"message" "behind ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1471.400024 -1541.400024 -368.199982"
+"message" "^4blue^* warehouse secret"
+}
+{
+"classname" "target_location"
+"origin" "-1475.599976 -1226.400024 -368.199982"
+"message" "path between ^4blue^* warehouse and archroom"
+}
+{
+"classname" "target_location"
+"origin" "-1527.400024 -567.000000 -368.199982"
+"message" "path between ^4blue^* warehouse and archroom"
+}
+{
+"classname" "target_location"
+"origin" "-2077.599854 -1281.000000 -368.199982"
+"message" "path between ^4blue^* warehouse and archroom"
+}
+{
+"classname" "target_location"
+"origin" "-2115.399902 -1538.599976 -368.199982"
+"message" "path between ^4blue^* warehouse and archroom"
+}
+{
+"classname" "target_location"
+"origin" "-1751.400024 -133.000000 -368.199982"
+"message" "archroom (1st floor)"
+}
+{
+"classname" "target_location"
+"origin" "-1974.000000 -642.599976 -368.199982"
+"message" "archroom (1st floor)"
+}
+{
+"classname" "target_location"
+"origin" "-1794.799927 -1050.000000 -189.000000"
+"message" "archroom (2nd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-2290.399902 -1023.399963 -189.000000"
+"message" "archroom (2nd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-2304.399902 158.199997 -189.000000"
+"message" "archroom (2nd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-1475.599976 -617.399963 78.400002"
+"message" "archroom (3rd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-1465.799927 -1120.000000 78.400002"
+"message" "archroom (3rd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-2315.599854 -1083.599976 78.400002"
+"message" "archroom (3rd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-2297.399902 -267.399994 78.400002"
+"message" "archroom (3rd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-1509.199951 498.399994 78.400002"
+"message" "archroom (3rd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-2189.599854 385.000000 78.400002"
+"message" "archroom (3rd floor)"
+}
+{
+"classname" "target_location"
+"origin" "-2269.399902 -627.200012 84.000000"
+"message" "archroom cap point"
+}
+{
+"classname" "target_location"
+"origin" "-1064.000000 -1649.199951 56.000000"
+"message" "^4blue^* warehouse ledge"
+}
+{
+"classname" "target_location"
+"origin" "-1321.599976 -1253.000000 56.000000"
+"message" "archroom ledge"
+}
+{
+"classname" "target_location"
+"origin" "-1321.599976 -716.799988 56.000000"
+"message" "archroom ledge"
+}
+{
+"classname" "target_location"
+"origin" "-1302.000000 -37.799999 78.400002"
+"message" "archroom ledge"
+}
+{
+"classname" "target_location"
+"origin" "2749.599854 -3193.399902 -273.000000"
+"message" "^4blue^* base near shops"
+}
+{
+"classname" "target_location"
+"origin" "2016.000000 -3001.599854 -294.000000"
+"message" "^4blue^* base near basement door"
+}
+{
+"classname" "target_location"
+"origin" "2020.199951 -1946.000000 -282.799988"
+"message" "next to ^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "2742.599854 -1926.400024 -338.799988"
+"message" "^4blue^* base near shops"
+}
+{
+"classname" "target_location"
+"origin" "2408.000000 -2335.199951 -599.200012"
+"message" "canal near ^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "2347.800049 -1695.400024 -669.200012"
+"message" "canal near ^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "2018.799927 -1398.599976 -616.000000"
+"message" "canal near ^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "1292.199951 -1425.199951 -660.799988"
+"message" "canal near ^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "383.600006 -1457.400024 -718.200012"
+"message" "canal near ^4blue^* base"
+}
+{
+"classname" "target_location"
+"origin" "-421.399994 -1468.599976 -490.000000"
+"message" "canal near ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1180.199951 -1383.199951 -519.399963"
+"message" "canal near ^4blue^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1166.199951 -733.599976 -518.000000"
+"message" "canal near archroom"
+}
+{
+"classname" "target_location"
+"origin" "-1087.799927 89.599998 -501.199982"
+"message" "canal near library"
+}
+{
+"classname" "target_location"
+"origin" "-707.000000 -855.399963 56.000000"
+"message" "mega and armor attic"
+}
+{
+"classname" "target_location"
+"origin" "-585.200012 -971.599976 56.000000"
+"message" "mega and armor attic"
+}
+{
+"classname" "target_location"
+"origin" "-637.000000 -379.399994 56.000000"
+"message" "mega and armor attic"
+}
+{
+"message" "^4blue^* base bridge"
+"origin" "1211.000000 -803.599976 -60.200001"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1211.000000 -42.000000 -60.200001"
+"message" "^4blue^* main street near fountain plaza"
+}
+{
+"message" "^4blue^* main street (near library entrance)"
+"origin" "897.399963 -546.000000 -60.200001"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "348.600006 -366.799988 130.199997"
+"message" "library stairway"
+}
+{
+"classname" "target_location"
+"origin" "303.799988 -355.600006 -194.599991"
+"message" "^4blue^* alley (under library stairway)"
+}
+{
+"message" "^4blue^* balcony (near library stairway)"
+"origin" "-21.000000 -803.599976 7.000000"
+"classname" "target_location"
+}
+{
+"message" "jammed door corridor"
+"origin" "-9.800000 596.399963 -261.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "729.399963 -53.200001 -194.599991"
+"message" "library elevator"
+}
+{
+"message" "library roof"
+"origin" "617.399963 -53.200001 387.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "404.600006 798.000000 152.599991"
+"message" "library secret attic over middle street"
+}
+{
+"active_message" "the boat house -cp7-"
+"classname" "target_location"
+"origin" "-2261.000000 1794.799927 -127.400002"
+"message" "small courtyard near boathouse"
+}
+{
+"message" "small courtyard near boathouse"
+"origin" "-2193.800049 2679.599854 -127.400002"
+"classname" "target_location"
+"active_message" "the boat house -cp7-"
+}
+{
+"message" "small courtyard near boathouse"
+"origin" "-2496.199951 1839.599976 -631.399963"
+"classname" "target_location"
+"active_message" "the boat house  (under water)"
+}
+{
+"active_message" "the boat house  (under water)"
+"classname" "target_location"
+"origin" "-2104.199951 2567.599854 -631.399963"
+"message" "small courtyard near boathouse"
+}
+{
+"classname" "target_location"
+"origin" "-903.000000 2319.800049 -490.000000"
+"message" "canal near ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "372.399994 2286.199951 -718.200012"
+"message" "canal near ^1red^* base"
+}
+{
+"classname" "target_location"
+"origin" "1281.000000 2254.000000 -660.799988"
+"message" "canal near ^1red^* base"
+}
+{
+"classname" "target_location"
+"origin" "-2154.599854 2825.199951 -368.199982"
+"message" "behind ^1red^* warehouse (near the boat house)"
+}
+{
+"classname" "target_location"
+"origin" "-2122.399902 4218.199707 -236.599991"
+"message" "behind ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1967.000000 3299.800049 -368.199982"
+"message" "behind ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-642.599976 4085.199951 -368.199982"
+"message" "^1red^* warehouse -ground floor entrance-"
+}
+{
+"classname" "target_location"
+"origin" "-1482.599976 2935.800049 -144.199997"
+"message" " ^1red^* warehouse cap point"
+}
+{
+"classname" "target_location"
+"origin" "-1549.799927 3724.000000 37.799999"
+"message" " ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1555.400024 2998.800049 -9.800000"
+"message" " ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-813.399963 4068.399902 33.599998"
+"message" " ^1red^* warehouse -1st floor-"
+}
+{
+"classname" "target_location"
+"origin" "9.800000 4071.199951 25.199999"
+"message" "bridge between ^1red^* base and ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-22.400000 2648.800049 -390.600006"
+"message" "between ^1red^* base and ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-30.799999 3277.399902 -390.600006"
+"message" "between ^1red^* base and ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-56.000000 3969.000000 -390.600006"
+"message" "between ^1red^* base and ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "1660.400024 3949.399902 -43.399998"
+"message" "^1red^* base command center"
+}
+{
+"classname" "target_location"
+"origin" "1260.000000 3942.399902 -43.399998"
+"message" "^1red^* base command center"
+}
+{
+"classname" "target_location"
+"origin" "1454.599976 3509.800049 -43.399998"
+"message" "^1red^* base"
+}
+{
+"classname" "target_location"
+"origin" "1030.400024 3502.800049 -43.399998"
+"message" "^1red^* base"
+}
+{
+"classname" "target_location"
+"origin" "660.799988 3255.000000 -54.599998"
+"message" "^1red^* base"
+}
+{
+"classname" "target_location"
+"origin" "1524.599976 3054.800049 -60.200001"
+"message" "^1red^* base near balcony"
+}
+{
+"classname" "target_location"
+"origin" "1169.000000 3197.599854 -189.000000"
+"message" "^1red^* base"
+}
+{
+"message" "between ^1red^* base and ^1red^* warehouse"
+"origin" "-11.200000 3040.800049 -30.799999"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1211.000000 1890.000000 -317.799988"
+"message" "^1red^* docks  (under bridge)"
+}
+{
+"message" "^1red^* base docks  (under bridge)"
+"origin" "1211.000000 2618.000000 -317.799988"
+"classname" "target_location"
+}
+{
+"message" " ^1red^* warehouse -1st floor-"
+"origin" "-603.399963 2707.599854 68.599998"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1129.799927 2528.399902 68.599998"
+"message" " ^1red^* warehouse -roof entrance"
+}
+{
+"message" "^1red^* base rear entrance"
+"origin" "625.799988 3858.399902 25.199999"
+"classname" "target_location"
+}
+{
+"message" "canal near ^1red^* warehouse"
+"origin" "-275.799988 2241.399902 -490.000000"
+"classname" "target_location"
+}
+{
+"message" "canal near the boat house"
+"origin" "-1171.799927 2151.800049 -490.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1171.799927 1524.599976 -490.000000"
+"message" "canal near the boat house"
+}
+{
+"message" "canal near the boat house"
+"origin" "-1071.000000 1076.599976 -490.000000"
+"classname" "target_location"
+}
+{
+"message" "small courtyard -armor attic-"
+"origin" "-1575.000000 1121.400024 126.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-2283.399902 1234.799927 119.000000"
+"message" "small courtyard balcony"
+}
+{
+"classname" "target_location"
+"origin" "-712.599976 1334.199951 126.000000"
+"message" "balcony room -secret corridor over the canal-"
+}
+{
+"message" "balcony room -secret corridor over the canal-"
+"origin" "-1071.000000 987.000000 126.000000"
+"classname" "target_location"
+}
+{
+"message" "balcony room -secret corridor over the canal-"
+"origin" "-600.599976 1692.599976 126.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-376.600006 1502.199951 126.000000"
+"message" "balcony room -secret corridor megahealth-"
+}
+{
+"message" "balcony room -ground floor-"
+"origin" "519.399963 1401.400024 -266.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "351.399994 1681.400024 -266.000000"
+"message" "balcony room -ground floor-"
+}
+{
+"classname" "target_location"
+"origin" "149.800003 1278.199951 -266.000000"
+"message" "balcony room -ground floor-"
+}
+{
+"classname" "target_location"
+"origin" "71.400002 1692.599976 -187.599991"
+"message" "balcony room -stairway-"
+}
+{
+"message" "balcony room -stairway-"
+"origin" "-51.799999 1535.799927 -187.599991"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-7.000000 1110.199951 -187.599991"
+"message" "balcony room -stairway-"
+}
+{
+"message" "balcony room -stairway-"
+"origin" "239.399994 1065.400024 -187.599991"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "485.799988 1065.400024 -19.600000"
+"message" "balcony room -stairway-"
+}
+{
+"message" "balcony room -cp6-"
+"origin" "754.599976 1233.400024 58.799999"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "754.599976 1670.199951 58.799999"
+"message" "balcony room -cp6-"
+}
+{
+"classname" "target_location"
+"origin" "1101.799927 1065.400024 58.799999"
+"message" "balcony room near balcony"
+}
+{
+"message" "balcony room -balcony over fountain plaza-"
+"origin" "1303.400024 1031.799927 58.799999"
+"classname" "target_location"
+}
+{
+"message" "balcony room -balcony over red main street-"
+"origin" "1101.799927 1267.000000 58.799999"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "978.599976 1558.199951 58.799999"
+"message" "balcony room -balcony over red main street-"
+}
+{
+"message" "^1red^* base bridge"
+"origin" "1225.000000 2241.399902 -109.199997"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1236.199951 2812.599854 -165.199997"
+"message" "^1red^* base main entrance"
+}
+{
+"classname" "target_location"
+"origin" "1225.000000 1670.199951 -109.199997"
+"message" "^1red^* main street near bridge"
+}
+{
+"message" "^1red^* main street"
+"origin" "1527.400024 1412.599976 -131.599991"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1527.400024 1065.400024 -131.599991"
+"message" "^1red^* main street near fountain plaza"
+}
+{
+"message" "^4blue^* main street near fountain plaza"
+"origin" "1479.799927 327.600006 -161.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "2017.400024 -53.200001 -205.800003"
+"message" "^4blue^* main street near fountain plaza"
+}
+{
+"classname" "target_location"
+"origin" "2465.399902 81.199997 -183.399994"
+"message" "fountain plaza -cp5-"
+}
+{
+"classname" "target_location"
+"origin" "1796.199951 1423.799927 58.799999"
+"message" "^1red^* building deck over fountain plaza-"
+}
+{
+"message" "^1red^* building deck over fountain plaza-"
+"origin" "1941.799927 1110.199951 58.799999"
+"classname" "target_location"
+}
+{
+"message" "^1red^* building deck over fountain plaza-"
+"origin" "2121.000000 1289.400024 58.799999"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "2378.599854 1222.199951 58.799999"
+"message" "^1red^* building -1st floor-"
+}
+{
+"message" "^1red^* building -corridor-"
+"origin" "2748.199951 1244.599976 58.799999"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "2748.199951 1513.400024 58.799999"
+"message" "^1red^* building -balcony over docks-"
+}
+{
+"classname" "target_location"
+"origin" "2748.199951 796.599976 58.799999"
+"message" "^1red^* building -corridor-"
+}
+{
+"classname" "target_location"
+"origin" "2748.199951 79.799995 58.799999"
+"message" "^1red^* building -corridor with ammunitions-"
+}
+{
+"message" "^1red^* building -corridor balcony over fountain plaza-"
+"origin" "2591.399902 539.000000 58.799999"
+"classname" "target_location"
+}
+{
+"origin" "-1120.000000 2497.599854 369.600006"
+"noise" "sound/world/fan_med1.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_med1.wav"
+"origin" "-1120.000000 2564.800049 358.399994"
+}
+{
+"spawnflags" "1"
+"origin" "1355.199951 -582.399963 190.399994"
+"noise" "sound/world/fan_med1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fan_med1.wav"
+"origin" "1400.000000 -582.399963 190.399994"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"origin" "2542.399902 -582.399963 190.399994"
+"noise" "sound/world/fan_med1.wav"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/fan_med1.wav"
+"origin" "2587.199951 -582.399963 179.199997"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/world/sewers1.wav"
+"origin" "-2195.199951 2576.000000 -459.199982"
+}
+{
+"origin" "-2452.800049 1612.799927 -459.199982"
+"noise" "sound/world/sewers1.wav"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/rain_loop1.wav"
+"origin" "2060.800049 537.599976 -156.800003"
+"spawnflags" "1"
+}
+{
+"message" " ^1red^* warehouse -1st floor-"
+"origin" "-544.599976 3217.199951 33.599998"
+"classname" "target_location"
+}
+{
+"message" " ^1red^* warehouse"
+"origin" "-1152.199951 3626.000000 -289.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-849.799988 3088.399902 -289.799988"
+"message" " ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1566.599976 3222.800049 -289.799988"
+"message" " ^1red^* warehouse"
+}
+{
+"classname" "target_location"
+"origin" "-1667.400024 3973.199951 -289.799988"
+"message" " ^1red^* warehouse"
+}
+{
+"message" " ^1red^* warehouse"
+"origin" "-525.000000 2752.399902 -289.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "2731.399902 2049.599854 -338.799988"
+"message" "^1red^* base near shops"
+}
+{
+"spawnflags" "1"
+"origin" "526.399963 627.200012 -324.799988"
+"noise" "sound/world/hum6.wav"
+"classname" "target_speaker"
+}
+{
+"message" "library elevator room"
+"origin" "527.799988 350.000000 -284.199982"
+"classname" "target_location"
+}
+{
+"gameindex" "1"
+"groupname" "flagreturner"
+"origin" "-3214.399902 -4256.000000 -828.799988"
+"inactive_all_message" "^1red^* controls all of the command points."
+"checkstate" "red_cp1_flag=inactive,red_cp2_flag=inactive,red_cp3_flag=inactive,red_cp4_flag=inactive,red_cp5_flag=inactive,red_cp6_flag=inactive,red_cp7_flag=inactive,red_cp8_flag=inactive"
+"classname" "info_notnull"
+"inactivetarget" "flag=~invisible,redsmflag=~active,smtimer=~active,bluedoortimer=~inactive,bluebasepoint=~inactive,cscharge=~invisible,bluebasecp=~inactive"
+"wait" "1"
+}
+{
+"model" "*127"
+"target" "rresupdoors"
+"classname" "trigger_multiple"
+}
+{
+"model" "*128"
+"target" "bresupdoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*129"
+"groupname" "blue_cp3_flag"
+"classname" "func_wall"
+"initialstate" "invisible"
+"gameindex" "1"
+}
+{
+"model" "*130"
+"initialstate" "invisible"
+"classname" "func_wall"
+"groupname" "red_cp3_flag"
+"gameindex" "1"
+}
+{
+"angle" "180"
+"active_message" "~blast armor"
+"wait" "30"
+"give" "armor=+50,aclass_explosive=1"
+"flags" ",hideactive"
+"active_all_sound" "sound/misc/ar2_pkup.wav"
+"model" "models/powerups/armor/armor_red.md3"
+"origin" "1780.799927 -739.200012 -358.399994"
+"classname" "func_goalinfo"
+}
+{
+"initialstate" "invisible"
+"carried_message" "~hurry! capture the ^4blue^* base to win!"
+"carriedtarget" "redhud"
+"light" "150"
+"color" "1 0 0"
+"wait" "0"
+"carried_flaginfo" "%n is carrying a ^1red^* flag!"
+"flags" "showcarry,revealagent"
+"model" "models/flags/r_flag.md3"
+"allowteams" "red"
+"groupname" "smflag,redsmflag"
+"classname" "func_goalitem"
+"origin" "1030.400024 4323.199707 -33.599998"
+"notholding" "smflag"
+"gameindex" "1"
+}
+{
+"initialstate" "invisible"
+"carried_message" "~hurry! capture the ^4blue^* base to win!"
+"carriedtarget" "redhud"
+"origin" "1254.400024 4323.199707 -33.599998"
+"classname" "func_goalitem"
+"groupname" "smflag,redsmflag"
+"allowteams" "red"
+"model" "models/flags/r_flag.md3"
+"flags" "showcarry,revealagent"
+"carried_flaginfo" "%n is carrying a ^1red^* flag!"
+"wait" "0"
+"color" "1 0 0"
+"light" "150"
+"notholding" "smflag"
+"gameindex" "1"
+}
+{
+"initialstate" "invisible"
+"carried_message" "~hurry! capture the ^4blue^* base to win!"
+"carriedtarget" "redhud"
+"light" "150"
+"color" "1 0 0"
+"wait" "0"
+"carried_flaginfo" "%n is carrying a ^1red^* flag!"
+"flags" "showcarry,revealagent"
+"model" "models/flags/r_flag.md3"
+"allowteams" "red"
+"groupname" "smflag,redsmflag"
+"classname" "func_goalitem"
+"origin" "1702.400024 4323.199707 -33.599998"
+"notholding" "smflag"
+"gameindex" "1"
+}
+{
+"initialstate" "invisible"
+"carried_message" "~hurry! capture the ^4blue^* base to win!"
+"carriedtarget" "redhud"
+"origin" "1478.400024 4323.199707 -33.599998"
+"classname" "func_goalitem"
+"groupname" "smflag,redsmflag"
+"allowteams" "red"
+"model" "models/flags/r_flag.md3"
+"flags" "showcarry,revealagent"
+"carried_flaginfo" "%n is carrying a ^1red^* flag!"
+"wait" "0"
+"color" "1 0 0"
+"light" "150"
+"notholding" "smflag"
+"gameindex" "1"
+}
+{
+"initialstate" "invisible"
+"carried_message" "~hurry! capture the ^1red^* base to win!"
+"notholding" "smflag"
+"origin" "1478.400024 -3472.000000 -22.400000"
+"classname" "func_goalitem"
+"groupname" "smflag,bluesmflag"
+"allowteams" "blue"
+"model" "models/flags/b_flag.md3"
+"flags" "showcarry,revealagent"
+"carried_flaginfo" "%n is carrying a ^4blue^* flag!"
+"wait" "0"
+"color" "0 0 1"
+"light" "150"
+"carriedtarget" "bluehud"
+"gameindex" "1"
+}
+{
+"initialstate" "invisible"
+"carried_message" "~hurry! capture the ^1red^* base to win!"
+"notholding" "smflag"
+"light" "150"
+"color" "0 0 1"
+"wait" "0"
+"carried_flaginfo" "%n is carrying a ^4blue^* flag!"
+"flags" "showcarry,revealagent"
+"model" "models/flags/b_flag.md3"
+"allowteams" "blue"
+"groupname" "smflag,bluesmflag"
+"classname" "func_goalitem"
+"origin" "1702.400024 -3472.000000 -22.400000"
+"carriedtarget" "bluehud"
+"gameindex" "1"
+}
+{
+"initialstate" "invisible"
+"carried_message" "~hurry! capture the ^1red^* base to win!"
+"notholding" "smflag"
+"origin" "1254.400024 -3472.000000 -22.400000"
+"classname" "func_goalitem"
+"groupname" "smflag,bluesmflag"
+"allowteams" "blue"
+"model" "models/flags/b_flag.md3"
+"flags" "showcarry,revealagent"
+"carried_flaginfo" "%n is carrying a ^4blue^* flag!"
+"wait" "0"
+"color" "0 0 1"
+"light" "150"
+"carriedtarget" "bluehud"
+"gameindex" "1"
+}
+{
+"initialstate" "invisible"
+"carried_message" "~hurry! capture the ^1red^* base to win!"
+"notholding" "smflag"
+"light" "150"
+"color" "0 0 1"
+"wait" "0"
+"carried_flaginfo" "%n is carrying a ^4blue^* flag!"
+"flags" "showcarry,revealagent"
+"model" "models/flags/b_flag.md3"
+"allowteams" "blue"
+"groupname" "smflag,bluesmflag"
+"classname" "func_goalitem"
+"origin" "1030.400024 -3472.000000 -22.400000"
+"carriedtarget" "bluehud"
+"gameindex" "1"
+}
