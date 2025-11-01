@@ -1,0 +1,118 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "752.000000 -1472.000000 112.000000"
+"targetname" "target_startTimer1"
+"angle" "0.000009"
+}
+{
+"classname" "info_player_start"
+"origin" "796.000000 -1516.000000 -64.000000"
+"angle" "135.000015"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "800.000000 -1392.000000 -112.000000"
+"wait" "-1"
+"count" "1"
+"spawnflags" "1"
+"angle" "180.000000"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "999"
+"model" "*2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*3"
+}
+{
+"classname" "weapon_rocketlauncher"
+"count" "1"
+"origin" "2096.000000 672.000000 24.000000"
+"wait" "3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*4"
+}
+{
+"classname" "target_location"
+"origin" "2040.000000 640.000000 -4.000000"
+"targetname" "t2"
+}
+{
+"classname" "item_enviro"
+"origin" "2096.000000 608.000000 24.000000"
+"wait" "-1"
+"count" "3600"
+}
+{
+"classname" "ammo_rockets"
+"origin" "2732.000000 616.000000 16.000000"
+"wait" "3"
+"count" "1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "3692.000000 616.000000 16.000000"
+"wait" "3"
+"count" "1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "3692.000000 664.000000 16.000000"
+"wait" "3"
+"count" "1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "2732.000000 664.000000 16.000000"
+"wait" "3"
+"count" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"wait" "-1"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2040.000000 640.000000 52.000000"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "ammo_rockets"
+"origin" "5100.000000 664.000000 16.000000"
+"wait" "3"
+"count" "1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "5100.000000 616.000000 16.000000"
+"wait" "3"
+"count" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*6"
+}
+{
+"classname" "target_stopTimer"
+"origin" "6872.000000 640.000000 48.000000"
+"targetname" "target_stopTimer1"
+}
