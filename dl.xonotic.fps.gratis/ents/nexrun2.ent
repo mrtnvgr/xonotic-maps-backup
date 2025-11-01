@@ -1,0 +1,224 @@
+{
+"classname" "worldspawn"
+"_lightmapscale" "0.5"
+"target" "hagar1"
+"_floodlight" "240 240 255 1024 230"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambient/water.wav"
+"origin" "-664 632 32"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambient/water.wav"
+"origin" "-248 320 32"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambient/water.wav"
+"origin" "-632 352 32"
+}
+{
+"classname" "target_position"
+"origin" "-144 -104 3890"
+"targetname" "t4"
+}
+{
+"classname" "target_position"
+"targetname" "t5"
+"origin" "-82 -140 3890"
+}
+{
+"classname" "target_position"
+"origin" "-58 -108 3890"
+"targetname" "t14"
+}
+{
+"classname" "trigger_hurt"
+"model" "*1"
+}
+{
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"model" "*3"
+}
+{
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"model" "*6"
+}
+{
+"classname" "trigger_hurt"
+"model" "*7"
+}
+{
+"classname" "trigger_hurt"
+"model" "*8"
+}
+{
+"classname" "info_player_race"
+"origin" "-648 768 48"
+"target" "cp0"
+"angle" "-90"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "0"
+"targetname" "cp0"
+"model" "*9"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp1"
+"cnt" "1"
+"target" "give_mortar"
+"model" "*10"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp2"
+"cnt" "2"
+"target" "give_hagar"
+"model" "*11"
+}
+{
+"classname" "info_player_race"
+"origin" "-600 168 640"
+"target" "cp2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "3"
+"targetname" "cp3"
+"target" "give_null"
+"model" "*12"
+}
+{
+"classname" "info_player_race"
+"origin" "-88 -304 1928"
+"target" "cp3"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp4"
+"cnt" "4"
+"target" "give_mortar1"
+"model" "*13"
+}
+{
+"classname" "info_player_race"
+"origin" "-96 -784 2152"
+"target" "cp4"
+}
+{
+"classname" "info_player_race"
+"origin" "224 -472 3192"
+"target" "cp5"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp5"
+"cnt" "5"
+"model" "*14"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp6"
+"cnt" "6"
+"target" "give_null1"
+"model" "*15"
+}
+{
+"classname" "info_player_race"
+"origin" "1064 440 2736"
+"target" "cp6"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-656 616 56"
+"targetname" "start"
+"angle" "90"
+}
+{
+"classname" "info_player_race"
+"origin" "-96 -312 264"
+"target" "cp1"
+}
+{
+"classname" "target_items"
+"origin" "-696 560 32"
+"ammo_rockets" "3"
+"netname" "grenadelauncher"
+"targetname" "give_mortar"
+}
+{
+"classname" "target_items"
+"origin" "-672 560 32"
+"ammo_rockets" "42"
+"netname" "hagar invincible"
+"targetname" "give_hagar"
+"health" "300"
+}
+{
+"classname" "target_items"
+"origin" "-648 560 32"
+"targetname" "give_mortar1"
+"netname" "grenadelauncher"
+"health" "150"
+"ammo_rockets" "3"
+}
+{
+"classname" "target_items"
+"origin" "-616 560 32"
+"ammo_rockets" "42"
+"netname" "rocketlauncher invincible"
+"targetname" "give_rl"
+}
+{
+"classname" "trigger_multiple"
+"target" "give_rl"
+"model" "*16"
+}
+{
+"classname" "target_items"
+"origin" "-720 560 32"
+"ammo_rockets" "42"
+"netname" "hagar invincible"
+"targetname" "give_hagar1"
+}
+{
+"classname" "trigger_multiple"
+"target" "give_hagar1"
+"model" "*17"
+}
+{
+"classname" "target_items"
+"origin" "-720 536 24"
+"ammo_rockets" "0"
+"targetname" "give_null1"
+}
+{
+"classname" "target_items"
+"origin" "-696 536 24"
+"ammo_rockets" "0"
+"targetname" "give_null"
+}
+{
+"classname" "trigger_teleport"
+"target" "start"
+"model" "*18"
+}
