@@ -1,0 +1,46 @@
+{
+"classname" "worldspawn"
+}
+{
+"targetname" "t3"
+"classname" "info_player_deathmatch"
+"origin" "7128 -80 -152"
+"angle" "90"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t2"
+"origin" "6960 176 -40"
+"classname" "target_startTimer"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t1"
+"origin" "-6496 -216 0"
+"classname" "target_stopTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"wait" "3"
+"count" "2"
+"origin" "3424 -146 -80"
+"classname" "weapon_rocketlauncher"
+}
+{
+"wait" "3"
+"count" "2"
+"classname" "weapon_rocketlauncher"
+"origin" "3424 54 -80"
+}
