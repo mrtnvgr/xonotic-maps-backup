@@ -1,0 +1,2626 @@
+{
+"_q3map2_version" "2.5.17n-git-c35fdee"
+"_q3map2_cmdline" "-meta -keepLights -v; -vis -fast -saveprt; -light -cheapgrid -faster"
+"_ambient" "20"
+"classname" "worldspawn"
+}
+{
+"target2" "music_main"
+"origin" "-2567.520264 -3254.880127 -1579.520264"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"noise1" "map_bobomb/crank.wav"
+"lip" "-8"
+"targetname" "bars"
+"wait" "-1"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"lip" "0"
+"target" "bars"
+"wait" "-1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"speed" "50"
+"platmovetype" "1 1"
+"spawnflags" "1"
+"target" "p1"
+"classname" "func_train"
+}
+{
+"curvetarget" "curve2"
+"wait" "-1"
+"target" "p2"
+"targetname" "p1"
+"angle" "-179.999985"
+"origin" "896.000000 -2518.000000 -1318.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "p3"
+"targetname" "p2"
+"angle" "-179.999985"
+"origin" "896.000000 -2518.000000 -1542.000000"
+"classname" "path_corner"
+}
+{
+"curvetarget" "curve1"
+"wait" "-1"
+"target" "p4"
+"targetname" "p3"
+"angle" "-179.999985"
+"origin" "896.000000 -2408.000000 -1542.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "p1"
+"targetname" "p4"
+"angle" "-179.999985"
+"origin" "896.000000 -2408.000000 -1318.000000"
+"classname" "path_corner"
+}
+{
+"model" "*4"
+"speed" "50"
+"platmovetype" "1 1"
+"spawnflags" "1"
+"target" "p3"
+"classname" "func_train"
+}
+{
+"targetname" "curve1"
+"angle" "-179.999985"
+"origin" "896.000000 -2464.000000 -1622.000000"
+"classname" "target_position"
+}
+{
+"targetname" "curve2"
+"angle" "-179.999985"
+"origin" "896.000000 -2464.000000 -1272.000000"
+"classname" "target_position"
+}
+{
+"model" "*5"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "Is this the real life? Is this just fantasy?"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "Nope, this is definitely fantasy."
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*7"
+"noise" "map_bobomb/blockbreak.wav"
+"target" "block1"
+"health" "100"
+"classname" "func_breakable"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_armor_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block1"
+"origin" "-1440.000000 -3360.000000 -1568.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block1"
+"origin" "-1440.000000 -3312.000000 -1568.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block1"
+"origin" "-1440.000000 -3344.000000 -1600.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*8"
+"noise" "map_bobomb/blockbreak.wav"
+"target" "block2"
+"health" "100"
+"classname" "func_breakable"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block2"
+"origin" "-1440.000000 -3456.000000 -1568.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block2"
+"origin" "-1440.000000 -3408.000000 -1568.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_armor_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block2"
+"origin" "-1440.000000 -3440.000000 -1600.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*9"
+"origin" "784.000000 168.000000 -1176.000000"
+"spawnflags" "64"
+"target" "pushy"
+"strength" "320"
+"classname" "trigger_impulse"
+}
+{
+"targetname" "pushy"
+"angle" "-179.999985"
+"origin" "-256.000000 96.000000 -1608.000000"
+"classname" "target_position"
+}
+{
+"model" "*10"
+"origin" "264.000000 -608.000000 -1368.000000"
+"spawnflags" "64"
+"target" "pushy1"
+"strength" "320"
+"classname" "trigger_impulse"
+}
+{
+"targetname" "pushy1"
+"angle" "-179.999985"
+"origin" "-376.000000 -672.000000 -1608.000000"
+"classname" "target_position"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-32.000000 -2896.000000 -1624.000000"
+"classname" "item_health_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "160.000000 -2896.000000 -1624.000000"
+"classname" "item_health_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "352.000000 -2896.000000 -1624.000000"
+"classname" "item_health_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "256.000000 -2896.000000 -1624.000000"
+"classname" "item_armor_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "64.000000 -2896.000000 -1624.000000"
+"classname" "item_armor_medium"
+}
+{
+"model" "*11"
+"damageforcescale" "3"
+"takedamage" "1"
+"geomtype" "4"
+"movetype" "3"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"origin" "1313.681396 2986.867432 -591.584412"
+"spawnflags" "64"
+"target" "pushy2"
+"strength" "320"
+"classname" "trigger_impulse"
+}
+{
+"angles" "10.297181 -155.280777 3.084170"
+"targetname" "pushy2"
+"origin" "-420.857147 2119.716553 -1093.911743"
+"classname" "target_position"
+}
+{
+"model" "*13"
+"target" "t2_port"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "t1_port"
+"origin" "1072.000000 -3352.000000 -1264.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*14"
+"target" "t1_port"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "t2_port"
+"origin" "-2432.000000 1880.000000 -1168.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*15"
+"target" "top1_port"
+"classname" "trigger_teleport"
+}
+{
+"speed" "-1"
+"angles" "0 116 0"
+"targetname" "top2_port"
+"origin" "416.000000 2008.000000 -440.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*16"
+"target" "top2_port"
+"classname" "trigger_teleport"
+}
+{
+"speed" "-1"
+"angles" "0 116 0"
+"targetname" "top1_port"
+"origin" "896.000000 2056.000000 68.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*17"
+"spawnflags" "16384"
+"target" "bridge"
+"classname" "trigger_multiple"
+}
+{
+"model" "*18"
+"spawnflags" "16384"
+"trigger_reverse" "1"
+"target" "bridge"
+"classname" "trigger_multiple"
+}
+{
+"model" "*19"
+"origin" "-794.840149 -861.946716 -1309.500000"
+"spawnflags" "138"
+"angles" "0 50 0"
+"angle" "-2"
+"targetname" "bridge"
+"classname" "func_door_rotating"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-2560.000000 1896.000000 -1192.000000"
+"classname" "item_health_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-2520.000000 1824.000000 -1192.000000"
+"classname" "item_armor_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-2416.000000 1800.000000 -1192.000000"
+"classname" "item_health_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-2552.000000 1968.000000 -1184.000000"
+"classname" "item_armor_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-2344.000000 1864.000000 -1176.000000"
+"classname" "item_armor_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-2344.000000 1944.000000 -1192.000000"
+"classname" "item_health_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-2400.000000 2016.000000 -1184.000000"
+"classname" "item_armor_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-2480.000000 2016.000000 -1192.000000"
+"classname" "item_health_medium"
+}
+{
+"model" "*20"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"target" "coin_counter"
+"classname" "trigger_once"
+}
+{
+"model" "*21"
+"target" "1up_coins"
+"targetname" "coin_counter"
+"spawnflags" "1"
+"count" "8"
+"classname" "trigger_counter"
+}
+{
+"model" "*22"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"target" "coin_counter"
+"classname" "trigger_once"
+}
+{
+"model" "*23"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"target" "coin_counter"
+"classname" "trigger_once"
+}
+{
+"model" "*24"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"target" "coin_counter"
+"classname" "trigger_once"
+}
+{
+"model" "*25"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"target" "coin_counter"
+"classname" "trigger_once"
+}
+{
+"model" "*26"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"target" "coin_counter"
+"classname" "trigger_once"
+}
+{
+"model" "*27"
+"spawnflags" "16384"
+"target" "coin_counter"
+"classname" "trigger_once"
+}
+{
+"model" "*28"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"target" "coin_counter"
+"classname" "trigger_once"
+}
+{
+"count" "1"
+"targetname" "1up_coins"
+"message" "origin $self.origin classname weapon_mortar $ spawnfunc_weapon_mortar"
+"origin" "-2424.000000 1960.000000 -1168.000000"
+"classname" "target_spawn"
+}
+{
+"gametypefilter" "-cts"
+"origin" "-856.000000 1248.000000 -1632.000000"
+"classname" "weapon_electro"
+}
+{
+"model" "*29"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "You can grab onto cliffs with the grappling hook if you have it."
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*30"
+"noise" "map_bobomb/blockbreak.wav"
+"target" "block3"
+"health" "100"
+"classname" "func_breakable"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "936.000000 600.000000 -352.000000"
+"classname" "item_health_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "1016.000000 568.000000 -352.000000"
+"classname" "item_armor_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "1152.000000 520.000000 -352.000000"
+"classname" "item_armor_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "1080.000000 544.000000 -352.000000"
+"classname" "item_health_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "1216.000000 488.000000 -352.000000"
+"classname" "item_health_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "2200.000000 720.000000 -272.000000"
+"classname" "item_health_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "2264.000000 760.000000 -280.000000"
+"classname" "item_armor_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "2344.000000 808.000000 -280.000000"
+"classname" "item_health_medium"
+}
+{
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "2416.000000 864.000000 -280.000000"
+"classname" "item_armor_medium"
+}
+{
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "2488.000000 912.000000 -280.000000"
+"classname" "item_health_medium"
+}
+{
+"model" "*31"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "Collect as many coins as possible! They'll refill your Power Meter."
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"health" "5"
+"max_health" "150"
+"respawntime" "0.3"
+"model" "models/map_bobomb/heart.md3"
+"origin" "1730.000000 2706.000000 -51.000000"
+"classname" "item_health_small"
+}
+{
+"model" "*32"
+"origin" "1072.000000 120.000000 -992.000000"
+"spawnflags" "64"
+"target" "pushy3"
+"strength" "320"
+"classname" "trigger_impulse"
+}
+{
+"targetname" "pushy3"
+"angle" "-179.999985"
+"origin" "-216.000000 144.000000 -1600.000000"
+"classname" "target_position"
+}
+{
+"model" "*33"
+"origin" "1168.000000 144.000000 -960.000000"
+"spawnflags" "64"
+"target" "pushy4"
+"strength" "320"
+"classname" "trigger_impulse"
+}
+{
+"targetname" "pushy4"
+"angle" "-179.999985"
+"origin" "-216.000000 152.000000 -1568.000000"
+"classname" "target_position"
+}
+{
+"model" "*34"
+"origin" "1232.000000 80.000000 -912.000000"
+"spawnflags" "64"
+"target" "pushy5"
+"strength" "320"
+"classname" "trigger_impulse"
+}
+{
+"targetname" "pushy5"
+"angle" "-179.999985"
+"origin" "-216.000000 0.000000 -1584.000000"
+"classname" "target_position"
+}
+{
+"model" "*35"
+"origin" "1488.000000 -88.000000 -888.000000"
+"spawnflags" "64"
+"target" "pushy6"
+"strength" "320"
+"classname" "trigger_impulse"
+}
+{
+"targetname" "pushy6"
+"angle" "-179.999985"
+"origin" "-304.000000 -104.000000 -1584.000000"
+"classname" "target_position"
+}
+{
+"model" "*36"
+"origin" "384.000000 -256.000000 -1368.000000"
+"spawnflags" "64"
+"target" "pushy7"
+"strength" "320"
+"classname" "trigger_impulse"
+}
+{
+"targetname" "pushy7"
+"angle" "-179.999985"
+"origin" "-256.000000 -320.000000 -1608.000000"
+"classname" "target_position"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block3"
+"origin" "3272.000000 2368.000000 -704.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_armor_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block3"
+"origin" "3272.000000 2416.000000 -704.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "block3"
+"origin" "3272.000000 2384.000000 -736.000000"
+"classname" "target_spawn"
+}
+{
+"target2" "music_main"
+"angle" "90.000000"
+"origin" "-1921.119873 -1927.520264 -1227.520264"
+"classname" "info_player_deathmatch"
+}
+{
+"target2" "music_main"
+"angle" "0.000010"
+"origin" "-2071.520264 2329.119873 -1259.520264"
+"classname" "info_player_deathmatch"
+}
+{
+"target2" "music_main"
+"angle" "179.999985"
+"origin" "2263.520264 -385.119873 -1283.520264"
+"classname" "info_player_deathmatch"
+}
+{
+"target2" "music_main"
+"angle" "-90.000000"
+"origin" "3425.119873 2815.520264 -627.520264"
+"classname" "info_player_deathmatch"
+}
+{
+"target2" "music_main"
+"angle" "-179.999985"
+"origin" "3167.520264 -2937.119873 -1179.520264"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "models/map_bobomb/extralife.md3"
+"item_pickupsound" "sound/map_bobomb/extralife.wav"
+"origin" "-872.000000 1432.000000 -1624.000000"
+"classname" "item_health_mega"
+}
+{
+"gametypefilter" "-cts"
+"origin" "-496.000000 -376.000000 -1608.000000"
+"classname" "monster_mage"
+}
+{
+"gametypefilter" "-cts"
+"origin" "-976.000000 -1144.000000 -1592.000000"
+"classname" "monster_mage"
+}
+{
+"gametypefilter" "-cts"
+"angle" "-90.000000"
+"origin" "-2072.000000 -2296.000000 -1600.000000"
+"classname" "monster_zombie"
+}
+{
+"gametypefilter" "-cts"
+"origin" "424.000000 -2168.000000 -1568.000000"
+"classname" "monster_mage"
+}
+{
+"gametypefilter" "-cts"
+"angle" "-90.000000"
+"target" "gate"
+"health" "700"
+"spawnflags" "84"
+"monster_moveflags" "3"
+"origin" "648.000000 -896.000000 -1232.000000"
+"classname" "monster_shambler"
+}
+{
+"model" "*37"
+"cvarfilter" "+g_monsters>=1"
+"noise1" "map_bobomb/crank.wav"
+"lip" "-8"
+"targetname" "gate"
+"wait" "-1"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"gametypefilter" "-cts"
+"origin" "925.000000 -548.000000 -1286.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"gametypefilter" "-cts"
+"origin" "832.000000 -496.000000 -1288.000000"
+"classname" "item_rockets"
+}
+{
+"gametypefilter" "-cts"
+"origin" "1008.000000 -600.000000 -1288.000000"
+"classname" "item_rockets"
+}
+{
+"count" "1"
+"targetname" "reward"
+"message" "origin $self.origin classname weapon_nex $ spawnfunc_weapon_nex"
+"origin" "1456.000000 1712.000000 304.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*38"
+"cvarfilter" "+g_monsters>=1"
+"gametypefilter" "-rc,cts"
+"targetname" "battle_kill"
+"target" "music_battle"
+"classname" "trigger_multiple"
+}
+{
+"noise" "map_bobomb/music_main.wav"
+"origin" "512.000000 -1128.000000 368.000000"
+"classname" "target_music"
+}
+{
+"targetname" "music_main"
+"noise" "map_bobomb/music_main.wav"
+"origin" "512.000000 -1152.000000 368.000000"
+"classname" "target_music"
+}
+{
+"targetname" "music_battle"
+"noise" "map_bobomb/music_battle.wav"
+"origin" "512.000000 -1176.000000 368.000000"
+"classname" "target_music"
+}
+{
+"targetname" "music_race"
+"noise" "map_bobomb/music_race.wav"
+"origin" "512.000000 -1200.000000 368.000000"
+"classname" "target_music"
+}
+{
+"model" "*39"
+"target" "skyisland"
+"classname" "trigger_push"
+}
+{
+"targetname" "skyisland"
+"angle" "-90.000000"
+"origin" "2392.000000 -1736.000000 264.000000"
+"classname" "target_position"
+}
+{
+"model" "*40"
+"target" "overshoot"
+"classname" "trigger_push"
+}
+{
+"targetname" "overshoot"
+"angle" "90.000000"
+"origin" "2130.000000 -815.000000 369.000000"
+"classname" "target_position"
+}
+{
+"gametypefilter" "-rc,cts"
+"turret_scale_health" "0.5"
+"target_range" "6000"
+"target_range_min" "3500"
+"spawnflags" "17"
+"target" "defend_1"
+"turret_scale_refire" "1.2"
+"turret_scale_damage" "0.1"
+"angle" "-114.999992"
+"origin" "816.000000 633.000000 -358.000000"
+"classname" "turret_hk"
+}
+{
+"targetname" "defend_1"
+"origin" "-2315.000000 253.000000 -1149.000000"
+"classname" "target_position"
+}
+{
+"gametypefilter" "-rc,cts"
+"turret_scale_health" "0.5"
+"target_range" "6000"
+"target_range_min" "3500"
+"spawnflags" "17"
+"target" "defend_2"
+"turret_scale_refire" "1.2"
+"turret_scale_damage" "0.1"
+"angle" "-114.999992"
+"origin" "816.000000 633.000000 -308.000000"
+"classname" "turret_hk"
+}
+{
+"targetname" "defend_2"
+"origin" "1760.000000 -2360.000000 -1184.000000"
+"classname" "target_position"
+}
+{
+"targetname" "reward"
+"noise" "map_bobomb/music_main.wav"
+"origin" "512.000000 -1248.000000 368.000000"
+"classname" "target_music"
+}
+{
+"model" "*41"
+"target" "wall"
+"classname" "trigger_push"
+}
+{
+"targetname" "wall"
+"origin" "-455.000000 1772.000000 -226.000000"
+"classname" "target_position"
+}
+{
+"model" "*42"
+"target" "levelup"
+"classname" "trigger_push"
+}
+{
+"targetname" "levelup"
+"origin" "2520.000000 2416.000000 -56.000000"
+"classname" "target_position"
+}
+{
+"model" "*43"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "It's a good idea to bind your weapon keys close to your movement keys."
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*44"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "There are special items inside coloured boxes, jump up under them to get your reward!"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*45"
+"gametypefilter" "-cts"
+"spawnflags" "4"
+"targetname" "block_4"
+"lip" "1"
+"wait" "0.1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"gametypefilter" "-cts"
+"wait" "0.7"
+"targetname" "block_4"
+"target" "coin_1"
+"origin" "432.000000 -3272.000000 -1456.000000"
+"classname" "trigger_delay"
+}
+{
+"gametypefilter" "-cts"
+"message" "origin $self.origin noalign -1 respawntime 1 respawntimejitter 1 $ spawnfunc_item_jetpack velocity $activator.velocity velocity_z 300 movetype 3 noalign -1 classname droppedweapon"
+"targetname" "coin_1"
+"angle" "-179.999985"
+"origin" "432.000000 -3272.000000 -1496.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*46"
+"gametypefilter" "-cts"
+"targetname" "block_1"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"gametypefilter" "-cts"
+"wait" "0.7"
+"targetname" "block_1"
+"target" "coin_2"
+"origin" "2032.000000 -1208.000000 -112.000000"
+"classname" "trigger_delay"
+}
+{
+"gametypefilter" "-cts"
+"message" "origin $self.origin noalign -1 respawntime 1 respawntimejitter 1 $ spawnfunc_item_jetpack velocity $activator.velocity velocity_z 300 movetype 3 noalign -1 classname droppedweapon"
+"targetname" "coin_2"
+"angle" "-179.999985"
+"origin" "2032.000000 -1208.000000 -152.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*47"
+"gametypefilter" "-cts"
+"targetname" "block_2"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"gametypefilter" "-cts"
+"wait" "0.7"
+"targetname" "block_2"
+"target" "coin_3"
+"origin" "2656.000000 -896.000000 -112.000000"
+"classname" "trigger_delay"
+}
+{
+"gametypefilter" "-cts"
+"message" "origin $self.origin noalign -1 colormap $activator.colormap $ spawnfunc_weapon_arc velocity $activator.velocity velocity_z 300 movetype 3 noalign -1 classname droppedweapon"
+"targetname" "coin_3"
+"angle" "-179.999985"
+"origin" "2656.000000 -896.000000 -152.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*48"
+"gametypefilter" "-cts"
+"targetname" "block_3"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"gametypefilter" "-cts"
+"wait" "0.7"
+"targetname" "block_3"
+"target" "coin_4"
+"origin" "-2720.000000 -112.000000 -1016.000000"
+"classname" "trigger_delay"
+}
+{
+"gametypefilter" "-cts"
+"message" "origin $self.origin noalign -1 respawntime 1 respawntimejitter 1 $ spawnfunc_item_jetpack velocity $activator.velocity velocity_z 300 movetype 3 noalign -1 classname droppedweapon"
+"targetname" "coin_4"
+"angle" "-179.999985"
+"origin" "-2720.000000 -112.000000 -1056.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*49"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"wait" "10"
+"target" "block_4"
+"delay" "0.2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1560.000000 2424.000000 248.000000"
+"classname" "item_armor_medium"
+}
+{
+"gametypefilter" "-cts"
+"origin" "1544.000000 1024.000000 248.000000"
+"classname" "item_shells"
+}
+{
+"origin" "1464.000000 1104.000000 248.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1624.000000 1104.000000 248.000000"
+"classname" "item_bullets"
+}
+{
+"gametypefilter" "-cts"
+"origin" "1544.000000 1184.000000 248.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "1544.000000 1104.000000 248.000000"
+"classname" "item_health_medium"
+}
+{
+"gametypefilter" "-cts"
+"origin" "1720.000000 -3328.000000 -1264.000000"
+"classname" "monster_zombie"
+}
+{
+"gametypefilter" "-cts"
+"origin" "2136.000000 -3080.000000 -1240.000000"
+"classname" "monster_zombie"
+}
+{
+"gametypefilter" "-cts"
+"origin" "2216.000000 -3360.000000 -1264.000000"
+"classname" "monster_zombie"
+}
+{
+"gametypefilter" "-cts"
+"origin" "2072.000000 -3240.000000 -1264.000000"
+"classname" "monster_mage"
+}
+{
+"model" "*50"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "You can press SHIFT to crouch, this makes you a harder target to hit!"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*51"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "No visitors allowed, by decree of the Big Bob-Omb - I shall never surrender my Vortex!"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"gametypefilter" "-cts"
+"origin" "3120.000000 264.000000 -1168.000000"
+"classname" "monster_zombie"
+}
+{
+"gametypefilter" "-cts"
+"origin" "2872.000000 384.000000 -1168.000000"
+"classname" "monster_zombie"
+}
+{
+"gametypefilter" "-cts"
+"origin" "3008.000000 120.000000 -1168.000000"
+"classname" "monster_zombie"
+}
+{
+"gametypefilter" "-cts"
+"origin" "-2360.000000 32.000000 -1088.000000"
+"classname" "monster_zombie"
+}
+{
+"gametypefilter" "-cts"
+"origin" "-2576.000000 336.000000 -1088.000000"
+"classname" "monster_zombie"
+}
+{
+"model" "*52"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "If you take the Jet Pack, you can fly!"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*53"
+"damageforcescale" "3"
+"takedamage" "1"
+"geomtype" "4"
+"movetype" "3"
+"classname" "func_wall"
+}
+{
+"model" "*54"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "I'll bet you thought there would be a Star Shadow here!"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"gametypefilter" "+rc,cts"
+"solid" "2"
+"angle" "-90.000000"
+"frame" "0"
+"model" "models/monsters/shambler.mdl"
+"origin" "-1799.999756 -2560.000000 -1584.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*55"
+"target" "music_race"
+"targetname" "race_1"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target2" "music_main"
+"target" "race_1"
+"angle" "90.000015"
+"origin" "-1760.000000 -3184.000000 -1560.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "music_main"
+"target" "race_1"
+"angle" "90.000015"
+"origin" "-1992.000000 -3320.000000 -1520.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "music_main"
+"target" "race_1"
+"angle" "0.000016"
+"origin" "-2608.000000 -2664.000000 -1560.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "music_main"
+"target" "race_1"
+"angle" "0.000016"
+"origin" "-2376.000000 -3208.000000 -1496.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*56"
+"gametypefilter" "+rc,cts"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"classname" "func_wall"
+}
+{
+"model" "*57"
+"target" "music_main"
+"cnt" "3"
+"spawnflags" "8"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*58"
+"targetname" "race_2"
+"cnt" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target2" "music_main"
+"target" "race_2"
+"angle" "25.000004"
+"origin" "-1234.802612 1540.813232 -1208.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "music_main"
+"target" "race_2"
+"angle" "25.000004"
+"origin" "-1112.388428 1240.895630 -1152.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*59"
+"targetname" "race_3"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "-179.999985"
+"target2" "music_main"
+"target" "race_3"
+"origin" "2280.000000 2432.000000 -104.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*60"
+"gametypefilter" "+rc,cts"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"classname" "func_wall"
+}
+{
+"gametypefilter" "-cts"
+"spawnflags" "4"
+"targetname" "block_5"
+"lip" "1"
+"wait" "0.1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*61"
+"gametypefilter" "+cts"
+"classname" "func_clientillusionary"
+}
+{
+"gametypefilter" "-cts"
+"targetname" "block_6"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*62"
+"gametypefilter" "+cts"
+"classname" "func_clientillusionary"
+}
+{
+"gametypefilter" "-cts"
+"targetname" "block_7"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*63"
+"gametypefilter" "+cts"
+"classname" "func_clientillusionary"
+}
+{
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"model" "*64"
+"origin" "431.500000 -3271.500000 -1528.000000"
+"speed" "150"
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"model" "*65"
+"origin" "-2719.500000 -111.500000 -1088.000000"
+"speed" "150"
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"model" "*66"
+"origin" "2032.500000 -1207.500000 -184.000000"
+"speed" "150"
+"gametypefilter" "+cts"
+"classname" "func_rotating"
+}
+{
+"gametypefilter" "-cts"
+"origin" "640.000000 -3432.000000 -1272.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "632.000000 -3320.000000 -1272.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "744.000000 -3440.000000 -1272.000000"
+"classname" "item_rockets"
+}
+{
+"gametypefilter" "-cts"
+"origin" "-1024.000000 -680.000000 -1616.000000"
+"classname" "weapon_crylink"
+}
+{
+"origin" "-1032.000000 -784.000000 -1616.000000"
+"classname" "item_cells"
+}
+{
+"origin" "-856.000000 -680.000000 -1616.000000"
+"classname" "item_cells"
+}
+{
+"origin" "424.000000 792.000000 -360.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "544.000000 752.000000 -360.000000"
+"classname" "item_rockets"
+}
+{
+"fade_start" "800"
+"fade_end" "1200"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "976.000000 -640.000000 -120.000000"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "800"
+"fade_end" "1200"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "976.000000 -712.000000 -176.000000"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "800"
+"fade_end" "1200"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "976.000000 -840.000000 -40.000000"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "800"
+"fade_end" "1200"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "976.000000 -624.000000 -32.000000"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "800"
+"fade_end" "1200"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "976.000000 -720.000000 32.000000"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "800"
+"fade_end" "1200"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "976.000000 -808.000000 24.000000"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "800"
+"fade_end" "1200"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "976.000000 -840.000000 -104.000000"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "800"
+"fade_end" "1200"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "976.000000 -808.000000 -168.000000"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "547.714294 -616.000000 -19.502773"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "524.047729 -688.000000 -70.256004"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "581.523804 -816.000000 53.001846"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "584.904724 -600.000000 60.252312"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "611.952271 -696.000000 118.256004"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "611.952271 -784.000000 110.256004"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "554.476196 -816.000000 -5.001848"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "527.428650 -784.000000 -63.005547"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "67.714294 -592.000000 156.497223"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "44.047729 -664.000000 105.743988"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "101.523804 -792.000000 229.001846"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "104.904724 -576.000000 236.252319"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "131.952271 -672.000000 294.256012"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "131.952271 -752.000000 286.256012"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "74.476196 -792.000000 170.998154"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "47.428650 -760.000000 112.994446"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-444.285706 -456.000000 332.497223"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-467.952271 -528.000000 281.743988"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-410.476196 -656.000000 405.001831"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-407.095276 -440.000000 412.252319"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-380.047729 -536.000000 470.256012"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-380.047729 -616.000000 462.256012"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-437.523804 -656.000000 346.998169"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-464.571350 -624.000000 288.994446"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-780.285706 -368.000000 468.497223"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-803.952271 -440.000000 417.743988"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-746.476196 -568.000000 541.001831"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-743.095276 -352.000000 548.252319"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-716.047729 -448.000000 606.255981"
+"classname" "item_health_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-716.047729 -536.000000 598.255981"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"armorvalue" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-773.523804 -568.000000 482.998169"
+"classname" "item_armor_medium"
+}
+{
+"fade_start" "300"
+"fade_end" "800"
+"angles" "25.000000 0.000000 0.000000"
+"spawnflags" "1"
+"health" "15"
+"model" "models/map_bobomb/coin.md3"
+"item_pickupsound" "sound/map_bobomb/coin.wav"
+"origin" "-800.571350 -536.000000 424.994446"
+"classname" "item_health_medium"
+}
+{
+"model" "*67"
+"spawnflags" "16384"
+"target" "skycounter"
+"classname" "trigger_once"
+}
+{
+"model" "*68"
+"spawnflags" "16384"
+"target" "skycounter"
+"classname" "trigger_once"
+}
+{
+"model" "*69"
+"spawnflags" "16384"
+"target" "skycounter"
+"classname" "trigger_once"
+}
+{
+"model" "*70"
+"spawnflags" "16384"
+"target" "skycounter"
+"classname" "trigger_once"
+}
+{
+"model" "*71"
+"spawnflags" "16384"
+"target" "skycounter"
+"classname" "trigger_once"
+}
+{
+"model" "*72"
+"gametypefilter" "-rc,cts"
+"target" "skyvictory"
+"targetname" "skycounter"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"count" "1"
+"targetname" "skyvictory"
+"message" "origin $self.origin classname weapon_nex $ spawnfunc_weapon_nex"
+"origin" "1856.000000 -728.000000 -256.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*73"
+"targetname" "thewalls"
+"classname" "func_wall"
+}
+{
+"model" "*74"
+"target" "cannonfodder1"
+"classname" "trigger_push"
+}
+{
+"targetname" "cannonfodder1"
+"origin" "-2192.000000 -2864.000000 -408.000000"
+"classname" "target_position"
+}
+{
+"spawnflags" "1"
+"fade_end" "550"
+"fade_start" "350"
+"model" "models/map_bobomb/extralife.md3"
+"item_pickupsound" "sound/map_bobomb/extralife.wav"
+"origin" "-2192.000000 -2864.000000 -432.000000"
+"classname" "item_health_mega"
+}
+{
+"model" "*75"
+"killtarget" "thewalls"
+"gametypefilter" "+rc,cts"
+"targetname" "skycounter"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*76"
+"targetname" "thewalls"
+"classname" "func_wall"
+}
+{
+"model" "*77"
+"target" "cannonfodder2"
+"classname" "trigger_push"
+}
+{
+"targetname" "cannonfodder2"
+"origin" "776.000000 -1032.000000 592.000000"
+"classname" "target_position"
+}
+{
+"spawnflags" "1"
+"fade_end" "550"
+"fade_start" "350"
+"model" "models/map_bobomb/extralife.md3"
+"item_pickupsound" "sound/map_bobomb/extralife.wav"
+"origin" "768.000000 -1032.000000 568.000000"
+"classname" "item_health_mega"
+}
+{
+"model" "*78"
+"spawnflags" "16384"
+"target2" "reward_1"
+"wait" "0.3"
+"target" "spinner_1"
+"classname" "trigger_multiple"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward1"
+"angle" "-90.000000"
+"origin" "-2488.000000 -1560.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward1"
+"angle" "-90.000000"
+"origin" "-2512.000000 -1640.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward1"
+"angle" "-90.000000"
+"origin" "-2608.000000 -1680.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward1"
+"angle" "-90.000000"
+"origin" "-2696.000000 -1640.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward1"
+"angle" "-90.000000"
+"origin" "-2720.000000 -1560.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward1"
+"angle" "-90.000000"
+"origin" "-2704.000000 -1480.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward1"
+"angle" "-90.000000"
+"origin" "-2616.000000 -1456.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward1"
+"angle" "-90.000000"
+"origin" "-2520.000000 -1488.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin classname weapon_fireball $ spawnfunc_weapon_fireball"
+"targetname" "rocketwin"
+"angle" "-90.000000"
+"origin" "-2359.000000 -1901.000000 -1267.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*79"
+"target" "runrunrun"
+"targetname" "spinner_1"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*80"
+"spawnflags" "16384"
+"target2" "reward_6"
+"wait" "0.3"
+"target" "spinner_2"
+"classname" "trigger_multiple"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward2"
+"angle" "-90.000000"
+"origin" "-2040.000000 -1560.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward2"
+"angle" "-90.000000"
+"origin" "-2064.000000 -1640.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward2"
+"angle" "-90.000000"
+"origin" "-2160.000000 -1680.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward2"
+"angle" "-90.000000"
+"origin" "-2248.000000 -1640.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward2"
+"angle" "-90.000000"
+"origin" "-2272.000000 -1560.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward2"
+"angle" "-90.000000"
+"origin" "-2256.000000 -1480.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward2"
+"angle" "-90.000000"
+"origin" "-2168.000000 -1456.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward2"
+"angle" "-90.000000"
+"origin" "-2072.000000 -1488.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*81"
+"target" "runrunrun"
+"targetname" "spinner_2"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*82"
+"spawnflags" "16384"
+"target2" "reward_3"
+"wait" "0.3"
+"target" "spinner_3"
+"classname" "trigger_multiple"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward3"
+"angle" "-90.000000"
+"origin" "-2480.000000 -1088.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward3"
+"angle" "-90.000000"
+"origin" "-2504.000000 -1168.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward3"
+"angle" "-90.000000"
+"origin" "-2600.000000 -1208.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward3"
+"angle" "-90.000000"
+"origin" "-2688.000000 -1168.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward3"
+"angle" "-90.000000"
+"origin" "-2712.000000 -1088.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward3"
+"angle" "-90.000000"
+"origin" "-2696.000000 -1008.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward3"
+"angle" "-90.000000"
+"origin" "-2608.000000 -984.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward3"
+"angle" "-90.000000"
+"origin" "-2512.000000 -1016.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*83"
+"target" "runrunrun"
+"targetname" "spinner_3"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*84"
+"spawnflags" "16384"
+"target2" "reward_4"
+"wait" "0.3"
+"target" "spinner_4"
+"classname" "trigger_multiple"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward4"
+"angle" "-90.000000"
+"origin" "-2032.000000 -1088.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward4"
+"angle" "-90.000000"
+"origin" "-2056.000000 -1168.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward4"
+"angle" "-90.000000"
+"origin" "-2152.000000 -1208.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward4"
+"angle" "-90.000000"
+"origin" "-2240.000000 -1168.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward4"
+"angle" "-90.000000"
+"origin" "-2264.000000 -1088.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward4"
+"angle" "-90.000000"
+"origin" "-2248.000000 -1008.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward4"
+"angle" "-90.000000"
+"origin" "-2160.000000 -984.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward4"
+"angle" "-90.000000"
+"origin" "-2064.000000 -1016.000000 -1280.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*85"
+"target" "runrunrun"
+"targetname" "spinner_4"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*86"
+"gametypefilter" "-cts"
+"target" "rocketwin"
+"targetname" "runrunrun"
+"count" "4"
+"classname" "trigger_counter"
+}
+{
+"origin" "-2485.000000 -1312.000000 -1267.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-2253.000000 -1320.000000 -1267.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-2373.000000 -1240.000000 -1267.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-2365.000000 -1432.000000 -1267.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-1328.000000 -528.000000 -1288.000000"
+"classname" "item_cells"
+}
+{
+"model" "*87"
+"spawnflags" "16384"
+"wait" "0.3"
+"target" "spinner_5"
+"classname" "trigger_multiple"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward6"
+"angle" "-90.000000"
+"origin" "568.000000 -1272.000000 -1274.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward6"
+"angle" "-90.000000"
+"origin" "544.000000 -1352.000000 -1274.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward6"
+"angle" "-90.000000"
+"origin" "448.000000 -1392.000000 -1274.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward6"
+"angle" "-90.000000"
+"origin" "360.000000 -1352.000000 -1274.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward6"
+"angle" "-90.000000"
+"origin" "336.000000 -1272.000000 -1274.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward6"
+"angle" "-90.000000"
+"origin" "352.000000 -1192.000000 -1274.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward6"
+"angle" "-90.000000"
+"origin" "440.000000 -1168.000000 -1274.000000"
+"classname" "target_spawn"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_bobomb/coin.wav model models/map_bobomb/coin.md3 classname item_health_small $ spawnfunc_item_health_small"
+"targetname" "reward6"
+"angle" "-90.000000"
+"origin" "536.000000 -1200.000000 -1274.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*88"
+"gametypefilter" "-cts"
+"target" "reward6"
+"targetname" "spinner_5"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*89"
+"target" "reward2"
+"targetname" "reward_6"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*90"
+"target" "reward1"
+"targetname" "reward_1"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*91"
+"target" "reward3"
+"targetname" "reward_3"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*92"
+"target" "reward4"
+"targetname" "reward_4"
+"spawnflags" "1"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"model" "*93"
+"gametypefilter" "-cts"
+"spawnflags" "16384"
+"noise" "map_bobomb/coin1.wav"
+"target" "nex_counter0"
+"killtarget" "coin6"
+"classname" "trigger_once"
+}
+{
+"model" "*94"
+"gametypefilter" "-cts"
+"targetname" "coin6"
+"_ambient" "120"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"geomtype" "1"
+"classname" "func_wall"
+}
+{
+"model" "*95"
+"target" "nex_appear0"
+"targetname" "nex_counter0"
+"count" "8"
+"classname" "trigger_counter"
+}
+{
+"message" "origin $self.origin classname weapon_nex $ spawnfunc_weapon_nex"
+"targetname" "nex_appear0"
+"angle" "-90.000000"
+"origin" "-2368.000000 -1345.000000 -1253.000000"
+"classname" "target_spawn"
+}
+{
+"model" "*96"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"noise" "map_bobomb/coin1.wav"
+"target" "nex_counter0"
+"killtarget" "coin1"
+"classname" "trigger_once"
+}
+{
+"model" "*97"
+"gametypefilter" "-cts"
+"targetname" "coin1"
+"_ambient" "120"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"geomtype" "1"
+"classname" "func_wall"
+}
+{
+"model" "*98"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"noise" "map_bobomb/coin1.wav"
+"target" "nex_counter0"
+"killtarget" "coin2"
+"classname" "trigger_once"
+}
+{
+"model" "*99"
+"gametypefilter" "-cts"
+"targetname" "coin2"
+"_ambient" "120"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"geomtype" "1"
+"classname" "func_wall"
+}
+{
+"model" "*100"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"noise" "map_bobomb/coin1.wav"
+"target" "nex_counter0"
+"killtarget" "coin3"
+"classname" "trigger_once"
+}
+{
+"model" "*101"
+"gametypefilter" "-cts"
+"targetname" "coin3"
+"_ambient" "120"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"geomtype" "1"
+"classname" "func_wall"
+}
+{
+"model" "*102"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"noise" "map_bobomb/coin1.wav"
+"target" "nex_counter0"
+"killtarget" "coin4"
+"classname" "trigger_once"
+}
+{
+"model" "*103"
+"gametypefilter" "-cts"
+"targetname" "coin4"
+"_ambient" "120"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"geomtype" "1"
+"classname" "func_wall"
+}
+{
+"model" "*104"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"noise" "map_bobomb/coin1.wav"
+"target" "nex_counter0"
+"killtarget" "coin5"
+"classname" "trigger_once"
+}
+{
+"model" "*105"
+"gametypefilter" "-cts"
+"targetname" "coin5"
+"_ambient" "120"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"geomtype" "1"
+"classname" "func_wall"
+}
+{
+"model" "*106"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"noise" "map_bobomb/coin1.wav"
+"target" "nex_counter0"
+"killtarget" "coin7"
+"classname" "trigger_once"
+}
+{
+"model" "*107"
+"gametypefilter" "-cts"
+"target" "nex_counter0"
+"targetname" "coin7"
+"_ambient" "120"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"geomtype" "1"
+"classname" "func_wall"
+}
+{
+"model" "*108"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"noise" "map_bobomb/coin1.wav"
+"target" "nex_counter0"
+"killtarget" "coin8"
+"classname" "trigger_once"
+}
+{
+"model" "*109"
+"gametypefilter" "-cts"
+"target" "nex_counter1"
+"targetname" "coin8"
+"_ambient" "120"
+"_receiveshadows" "0"
+"_castshadows" "0"
+"geomtype" "1"
+"classname" "func_wall"
+}
+{
+"model" "*110"
+"spawnflags" "16384"
+"noise" "map_bobomb/sign.wav"
+"message" "BEWARE OF CHAIN SHAMBLER!"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"gametypefilter" "-cts"
+"origin" "704.000000 688.000000 -360.000000"
+"classname" "weapon_hagar"
+}
+{
+"model" "*111"
+"spawnflags" "16384"
+"wait" "10"
+"gametypefilter" "-cts"
+"target" "block_1"
+"delay" "0.2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*112"
+"spawnflags" "16384"
+"wait" "10"
+"gametypefilter" "-cts"
+"target" "block_3"
+"delay" "0.2"
+"classname" "trigger_multiple"
+}
+{
+"gametypefilter" "-rc,cts"
+"killtarget" "battle_kill"
+"scale" "3"
+"target" "reward"
+"monster_moveflags" "3"
+"target_range" "750"
+"health" "1500"
+"spawnflags" "68"
+"angle" "-90.000000"
+"origin" "960.000000 1344.000000 376.000000"
+"classname" "monster_shambler"
+}
+{
+"gametypefilter" "-cts"
+"origin" "-2832.000000 -3488.000000 -1608.000000"
+"classname" "weapon_uzi"
+}
+{
+"origin" "-2824.000000 -3400.000000 -1608.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "-2736.000000 -3488.000000 -1608.000000"
+"classname" "item_bullets"
+}
+{
+"target" "music_main1"
+"cnt" "3"
+"spawnflags" "8"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*113"
+"target" "reset_player"
+"gametypefilter" "+rc"
+"classname" "trigger_teleport"
+}
+{
+"gametypefilter" "+rc"
+"targetname" "reset_player"
+"origin" "-2568.000000 -3256.000000 -1424.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"message" " has captured the ^1Starting Area"
+"origin" "-2776.000000 -2464.000000 -1616.000000"
+"classname" "dom_controlpoint"
+}
+{
+"message" " has captured the ^5Island in the Sky"
+"origin" "2448.000000 -1176.000000 -264.000000"
+"classname" "dom_controlpoint"
+}
+{
+"message" " has captured the ^2Northen Greens"
+"origin" "3272.000000 2024.000000 -736.000000"
+"classname" "dom_controlpoint"
+}
+{
+"message" " has captured the ^6Flower Bed"
+"origin" "-2552.000000 696.000000 -1168.000000"
+"classname" "dom_controlpoint"
+}
+{
+"noise" "domination/claim.wav"
+"noise1" "map_bobomb/dom_redcap.wav"
+"netname" "Red Team"
+"cnt" "4"
+"model" "models/domination/dom_red.md3"
+"origin" "-3224.000000 416.000000 -136.000000"
+"classname" "dom_team"
+}
+{
+"noise" "domination/claim.wav"
+"noise1" "map_bobomb/dom_bluecap.wav"
+"netname" "Blue Team"
+"cnt" "13"
+"model" "models/domination/dom_blue.md3"
+"origin" "-3224.000000 456.000000 -136.000000"
+"classname" "dom_team"
+}
+{
+"noise" "domination/claim.wav"
+"origin" "-3224.000000 504.000000 -136.000000"
+"classname" "dom_team"
+}
+{
+"target2" "music_main"
+"origin" "-1976.000000 -3416.000000 -1576.000000"
+"classname" "info_player_team1"
+}
+{
+"target2" "music_main"
+"origin" "-2128.000000 -3184.000000 -1520.000000"
+"classname" "info_player_team1"
+}
+{
+"target2" "music_main"
+"origin" "-2360.000000 -3424.000000 -1536.000000"
+"classname" "info_player_team1"
+}
+{
+"target2" "music_main"
+"angle" "-90.000000"
+"origin" "-1328.000000 -2104.000000 -1568.000000"
+"classname" "info_player_team1"
+}
+{
+"target2" "music_main"
+"angle" "90.000000"
+"origin" "-1040.000000 -3416.000000 -1544.000000"
+"classname" "info_player_team1"
+}
+{
+"target2" "music_main"
+"angle" "90.000000"
+"origin" "-248.000000 -3336.000000 -1560.000000"
+"classname" "info_player_team1"
+}
+{
+"target2" "music_main"
+"angle" "-90.000000"
+"origin" "304.000000 -1864.000000 -1560.000000"
+"classname" "info_player_team1"
+}
+{
+"target2" "music_main"
+"angle" "-90.000000"
+"origin" "-2520.000000 2560.000000 -1192.000000"
+"classname" "info_player_team2"
+}
+{
+"target2" "music_main"
+"angle" "179.999985"
+"origin" "-1864.000000 2352.000000 -1224.000000"
+"classname" "info_player_team2"
+}
+{
+"target2" "music_main"
+"angle" "179.999985"
+"origin" "-608.000000 1184.000000 -1176.000000"
+"classname" "info_player_team2"
+}
+{
+"target2" "music_main"
+"angle" "-90.000000"
+"origin" "-1528.000000 1128.000000 -1176.000000"
+"classname" "info_player_team2"
+}
+{
+"max_armorvalue" "100"
+"health" "5"
+"respawntime" "0.3"
+"model" "models/map_bobomb/greenheart.md3"
+"origin" "442.000000 1850.000000 77.000000"
+"classname" "item_armor_small"
+}
+{
+"model" "*114"
+"wait" "10"
+"spawnflags" "16384"
+"gametypefilter" "-cts"
+"target" "block_2"
+"delay" "0.2"
+"classname" "trigger_multiple"
+}
