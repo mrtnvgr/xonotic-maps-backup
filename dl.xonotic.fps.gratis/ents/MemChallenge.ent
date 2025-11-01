@@ -1,0 +1,50 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-232 -56 32"
+}
+{
+"classname" "target_print"
+"origin" "-168 -56 64"
+"targetname" "t1"
+"message" "Welcome to the Maze. Test your memory skills."
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-112 -56 88"
+"targetname" "t2"
+"count" "-1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_print"
+"origin" "2688 1880 88"
+"targetname" "t4"
+"message" "You have finished The Maze. Now finish it fast."
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "2688 1840 104"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*4"
+}
