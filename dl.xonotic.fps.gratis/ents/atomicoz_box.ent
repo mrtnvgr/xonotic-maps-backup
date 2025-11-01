@@ -1,0 +1,56 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-492 -1316 264"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-368 -1176 648"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "-480 -1232 392"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-472 -872 448"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "25"
+"target" "target_speaker1"
+"model" "*4"
+}
+{
+"classname" "target_speaker"
+"origin" "-8 -1320 48"
+"noise" "sound/americandad.wav"
+"targetname" "target_speaker1"
+"angle" "180"
+}
+{
+"classname" "target_speaker"
+"origin" "-104 -1320 48"
+"noise" "sound/americandad.wav"
+"targetname" "target_speaker1"
+}
