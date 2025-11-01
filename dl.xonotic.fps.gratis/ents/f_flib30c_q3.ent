@@ -1,0 +1,499 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"atmosphere" "t=rain,b=5 10,c=0.5,g=0.5 2,bv=30,gv=10 100,w=1 2,n=300"
+"red_name" "red forces"
+"blue_name" "blue forces"
+"classname" "worldspawn"
+"message" "mr. flibbles bases [2000-05-21]"
+}
+{
+"classname" "info_player_intermission"
+"angle" "270"
+"origin" "-750.399963 1243.199951 257.600006"
+}
+{
+"origin" "-1198.400024 -1288.000000 -392.000000"
+"_color" "0.9 0.9 0.6"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "84.000000 -2884.000000 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "67.199997 -2721.599854 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-302.399994 -2710.399902 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-308.000000 -2884.000000 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-688.799988 -2884.000000 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-694.399963 -2710.399902 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-980.000000 -2884.000000 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-996.799988 -2710.399902 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-806.399963 -2385.599854 22.400000"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-1534.400024 -2156.000000 95.199997"
+"_color" "1 1 0.8"
+"light" "100"
+"classname" "light"
+}
+{
+"classname" "func_goalinfo"
+"model" "models/objects/backpack/backpack.md3"
+"give" "ammo_shells=+100,ammo_bullets=+100,ammo_rockets=+100,ammo_cells=+100,gren1=+2,gren2=+1,ammo_medikit=+100"
+"wait" "1"
+"allowteams" "blue"
+"flags" "hideactive,rotating,chargeable"
+"origin" "-2486.399902 -2223.199951 44.799999"
+"active_all_sound" "sound/misc/am_pkup.wav"
+}
+{
+"classname" "func_hud"
+"holding" "blueflag"
+"inactive_model" "models/flags/b_flag.md3"
+"slot" "1"
+"origin" "16.799999 -3852.800049 100.799995"
+}
+{
+"flags" "hideactive,rotating,chargeable"
+"give" "health=+100,armor=+300,ammo_shells=+100,ammo_bullets=+100,ammo_rockets=+100,ammo_cells=+100,gren1=+2,gren2=+1,ammo_medikit=+100,ammo_detpack=+1"
+"classname" "func_goalinfo"
+"holding" "redflag"
+"teamscore" "10"
+"active_team_sound" "sound/teamplay/gimme.wav"
+"active_sound" "sound/teamplay/gimme.wav"
+"activetarget" "redflag=~inactive"
+"active_all_message" "~ %n captured the ^1red^* flag!"
+"origin" "-408.799988 -1517.599976 84.000000"
+}
+{
+"classname" "func_goalitem"
+"carried_sound" "sound/misc/q3f_alarm.wav"
+"carried_all_sound" "sound/misc/q3f_alarm.wav"
+"carried_message" "~you have the ^4blue^* flag."
+"carried_all_message" "%n has taken the ^4blue^* flag."
+"groupname" "blueflag"
+"allowteams" "red"
+"origin" "-1164.799927 -3231.199951 -464.799988"
+"model" "models/flags/b_flag.md3"
+"light" "150"
+"_color" "0.4 0.4 1"
+"wait" "60"
+"carried_flaginfo" "%n is carrying the ^4blue^* flag!"
+"inactive_flaginfo" "the ^4blue^* flag is in the basement."
+"active_flaginfo" "the ^4blue^* flag has been dropped somewhere."
+"flags" "revealagent,showcarry"
+"inactive_all_message" "the ^4blue^* flag has been returned to the basement."
+"active_all_message" "the ^4blue^* flag was dropped somewhere."
+}
+{
+"_color" "0.488095 0.476190 1.000000"
+"classname" "light"
+"origin" "-2161.599854 -2133.599854 89.599998"
+"light" "200"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"wait" "1"
+"allowteams" "blue"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"height" "245.000000"
+"model" "*2"
+}
+{
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"allowteams" "blue"
+"model" "*3"
+}
+{
+"origin" "-2486.399902 -2088.800049 44.799999"
+"flags" "hideactive,rotating"
+"allowteams" "blue"
+"wait" "1"
+"give" "health=+100,armor=+100"
+"model" "models/powerups/armor/armor_red.md3"
+"classname" "func_goalinfo"
+"active_all_sound" "sound/misc/ar3_pkup.wav"
+}
+{
+"origin" "-806.399963 -2150.399902 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-806.399963 -1971.199951 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-459.199982 -2150.399902 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-459.199982 -1982.400024 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-100.799995 -2385.599854 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-100.799995 -2161.599854 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-100.799995 -1982.400024 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-459.199982 -2396.800049 89.599998"
+"classname" "light"
+"spawnflags" "1"
+"_color" "1 1 0.8"
+}
+{
+"origin" "268.799988 -2884.000000 89.599998"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "257.600006 -2721.599854 89.599998"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "168.000000 -2385.599854 22.400000"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "168.000000 -2161.599854 22.400000"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "168.000000 -1982.400024 22.400000"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "84.000000 3220.000000 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "67.199997 3057.599854 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-302.399994 3046.399902 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-308.000000 3220.000000 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-688.799988 3220.000000 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-694.399963 3046.399902 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-980.000000 3220.000000 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-996.799988 3046.399902 89.599998"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "-806.399963 2721.599854 22.400000"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-1534.400024 2492.000000 95.199997"
+"_color" "1 1 0.8"
+"light" "100"
+"classname" "light"
+}
+{
+"classname" "func_goalinfo"
+"model" "models/objects/backpack/backpack.md3"
+"give" "ammo_shells=+100,ammo_bullets=+100,ammo_rockets=+100,ammo_cells=+100,gren1=+2,gren2=+1,ammo_medikit=+100"
+"wait" "1"
+"allowteams" "red"
+"flags" "hideactive,rotating,chargeable"
+"origin" "-2486.399902 2559.199951 44.799999"
+"active_all_sound" "sound/misc/am_pkup.wav"
+}
+{
+"classname" "func_hud"
+"holding" "redflag"
+"inactive_model" "models/flags/r_flag.md3"
+"slot" "1"
+"origin" "16.799999 4188.799805 100.799995"
+}
+{
+"flags" "hideactive,rotating,chargeable"
+"give" "health=+100,armor=+300,ammo_shells=+100,ammo_bullets=+100,ammo_rockets=+100,ammo_cells=+100,gren1=+2,gren2=+1,ammo_medikit=+100,ammo_detpack=+1"
+"classname" "func_goalinfo"
+"holding" "blueflag"
+"teamscore" "10"
+"active_team_sound" "sound/teamplay/gimme.wav"
+"active_sound" "sound/teamplay/gimme.wav"
+"activetarget" "blueflag=~inactive"
+"active_all_message" "~ %n captured the ^4blue^* flag!"
+"origin" "-408.799988 1853.599976 84.000000"
+}
+{
+"classname" "func_goalitem"
+"carried_sound" "sound/misc/q3f_alarm.wav"
+"carried_all_sound" "sound/misc/q3f_alarm.wav"
+"carried_message" "~you have the ^1red^* flag."
+"carried_all_message" "%n has taken the ^1red^* flag."
+"groupname" "redflag"
+"allowteams" "blue"
+"origin" "-1164.799927 3567.199951 -464.799988"
+"model" "models/flags/r_flag.md3"
+"light" "150"
+"_color" "1 0.4 0.4"
+"wait" "60"
+"carried_flaginfo" "%n is carrying the ^1red^* flag!"
+"inactive_flaginfo" "the ^1red^* flag is in the basement."
+"active_flaginfo" "the ^1red^* flag has been dropped somewhere."
+"flags" "revealagent,showcarry"
+"inactive_all_message" "the ^1red^* flag has been returned to the basement."
+"active_all_message" "the ^1red^* flag was dropped somewhere."
+}
+{
+"_color" "1.000000 0.488095 0.476190"
+"classname" "light"
+"origin" "-2161.599854 2469.599854 89.599998"
+"light" "200"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"wait" "1"
+"allowteams" "red"
+"model" "*4"
+}
+{
+"classname" "func_plat"
+"height" "245.000000"
+"model" "*5"
+}
+{
+"angle" "270"
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "-2184.000000 2833.599854 39.200001"
+}
+{
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"allowteams" "red"
+"model" "*6"
+}
+{
+"angle" "270"
+"origin" "-2363.199951 2833.599854 39.200001"
+"classname" "info_player_start"
+"allowteams" "red"
+}
+{
+"angle" "270"
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "-2027.199951 2833.599854 39.200001"
+}
+{
+"angle" "90"
+"origin" "-2363.199951 2161.599854 39.200001"
+"classname" "info_player_start"
+"allowteams" "red"
+}
+{
+"angle" "90"
+"allowteams" "red"
+"classname" "info_player_start"
+"origin" "-2027.199951 2161.599854 39.200001"
+}
+{
+"angle" "90"
+"origin" "-2178.399902 2167.199951 39.200001"
+"classname" "info_player_start"
+"allowteams" "red"
+}
+{
+"origin" "-2486.399902 2424.800049 44.799999"
+"flags" "hideactive,rotating"
+"allowteams" "red"
+"wait" "1"
+"give" "health=+100,armor=+100"
+"model" "models/powerups/armor/armor_red.md3"
+"classname" "func_goalinfo"
+"active_all_sound" "sound/misc/ar3_pkup.wav"
+}
+{
+"origin" "-806.399963 2486.399902 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-806.399963 2307.199951 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-459.199982 2486.399902 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-459.199982 2318.399902 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-100.799995 2721.599854 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-100.799995 2497.599854 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-100.799995 2318.399902 22.400000"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "-459.199982 2732.800049 89.599998"
+"classname" "light"
+"spawnflags" "1"
+"_color" "1 1 0.8"
+}
+{
+"origin" "268.799988 3220.000000 89.599998"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"origin" "257.600006 3057.599854 89.599998"
+"classname" "light"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "168.000000 2721.599854 22.400000"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "168.000000 2497.599854 22.400000"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"origin" "168.000000 2318.399902 22.400000"
+"_color" "1 1 0.8"
+}
+{
+"classname" "light"
+"_color" "0.9 0.9 0.6"
+"origin" "-1198.400024 1635.199951 -392.000000"
+}
+{
+"origin" "-2184.000000 -1825.599976 39.200001"
+"classname" "info_player_start"
+"allowteams" "blue"
+"angle" "270"
+}
+{
+"allowteams" "blue"
+"classname" "info_player_start"
+"origin" "-2363.199951 -1825.599976 39.200001"
+"angle" "270"
+}
+{
+"origin" "-2027.199951 -1825.599976 39.200001"
+"classname" "info_player_start"
+"allowteams" "blue"
+"angle" "270"
+}
+{
+"allowteams" "blue"
+"classname" "info_player_start"
+"origin" "-2363.199951 -2497.599854 39.200001"
+"angle" "90"
+}
+{
+"origin" "-2027.199951 -2497.599854 39.200001"
+"classname" "info_player_start"
+"allowteams" "blue"
+"angle" "90"
+}
+{
+"allowteams" "blue"
+"classname" "info_player_start"
+"origin" "-2178.399902 -2492.000000 39.200001"
+"angle" "90"
+}
