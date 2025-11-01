@@ -1,0 +1,440 @@
+{
+"target" "tt"
+"classname" "worldspawn"
+"angle" "225"
+}
+{
+"classname" "target_startTimer"
+"targetname" "start"
+"origin" "1488 -1568 384"
+}
+{
+"classname" "info_player_start"
+"origin" "2048 -1896 264"
+"angle" "135"
+}
+{
+"targetname" "t"
+"origin" "3992 -1496 232"
+"classname" "misc_teleporter_dest"
+"angle" "270"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "2624 1128 680"
+}
+{
+"origin" "2736 408 648"
+"light" "1000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "2728 -248 672"
+}
+{
+"origin" "2720 -952 672"
+"light" "1000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "2984 -1480 680"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "stop"
+"origin" "1128 -2688 648"
+}
+{
+"model" "*1"
+"wait" "10"
+"classname" "trigger_multiple"
+"target" "stop"
+}
+{
+"origin" "-2896 1320 1056"
+"targetname" "ch2"
+"classname" "target_checkpoint"
+}
+{
+"model" "*2"
+"target" "ch2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-1760 -808 312"
+"targetname" "ch1"
+"classname" "target_checkpoint"
+}
+{
+"model" "*3"
+"target" "ch1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"target" "start"
+"classname" "trigger_multiple"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "504 -2680 1000"
+"_color" "0.500000 0.000000 1.000000"
+}
+{
+"classname" "light"
+"light" "750"
+"origin" "1816 -2480 952"
+}
+{
+"classname" "light"
+"light" "750"
+"origin" "2424 -2440 928"
+}
+{
+"classname" "light"
+"light" "750"
+"origin" "3152 -2432 912"
+}
+{
+"angle" "270"
+"classname" "misc_teleporter_dest"
+"origin" "3632 -2656 592"
+"targetname" "t6"
+}
+{
+"model" "*5"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "9999"
+}
+{
+"model" "*6"
+"target" "t"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-2960 1576 992"
+"angle" "270"
+"model" "models/mapobj~1/telepo~1/telepo~1.md3"
+"classname" "misc_model"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-2976 -824 1304"
+}
+{
+"classname" "target_teleporter"
+"targetname" "telep"
+"origin" "-3272 -760 1000"
+"angle" "90"
+}
+{
+"model" "*7"
+"classname" "trigger_teleport"
+"target" "telep"
+}
+{
+"model" "*8"
+"target" "0001"
+"classname" "trigger_push"
+}
+{
+"origin" "-2160 -1064 992"
+"targetname" "0001"
+"classname" "target_position"
+}
+{
+"origin" "1168 -1392 456"
+"light" "100"
+"classname" "light"
+"_color" "0.000000 0.000000 1.000000"
+}
+{
+"origin" "1896 -1744 448"
+"light" "100"
+"classname" "light"
+"_color" "0.500000 0.000000 1.000000"
+"target" "t2"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "1544 -1760 616"
+}
+{
+"classname" "target_teleporter"
+"targetname" "t1"
+"origin" "1920 -1744 248"
+}
+{
+"model" "*9"
+"classname" "trigger_teleport"
+"target" "t1"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "232 -1776 592"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-1264 -1792 616"
+}
+{
+"origin" "-1216 -864 624"
+"light" "600"
+"classname" "light"
+}
+{
+"origin" "-144 -904 576"
+"light" "600"
+"classname" "light"
+}
+{
+"origin" "1272 -944 624"
+"light" "600"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "560 -1128 408"
+"_color" "0.000000 0.000000 1.000000"
+}
+{
+"origin" "-264 -1048 392"
+"light" "100"
+"classname" "light"
+"_color" "0.000000 0.000000 1.000000"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-960 -960 432"
+"_color" "0.000000 0.000000 1.000000"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1712 -832 544"
+"_color" "0.501961 0.000000 1.000000"
+"target" "t3"
+}
+{
+"origin" "-2248 -832 776"
+"light" "1000"
+"classname" "light"
+"_color" "0.000000 0.501961 1.000000"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-2240 -536 1512"
+}
+{
+"origin" "-2960 208 1280"
+"light" "1000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-2936 1168 1280"
+}
+{
+"origin" "648 -2904 216"
+"light" "50"
+"classname" "light"
+"_color" "1.000000 0.000000 0.000000"
+}
+{
+"origin" "3648 -2184 1200"
+"light" "5"
+"classname" "light"
+"_color" "0.501961 0.000000 1.000000"
+}
+{
+"_color" "0.501961 0.000000 1.000000"
+"classname" "light"
+"light" "5"
+"origin" "3320 -2184 1200"
+}
+{
+"origin" "2992 -2192 1200"
+"light" "5"
+"classname" "light"
+"_color" "0.501961 0.000000 1.000000"
+}
+{
+"_color" "0.501961 0.000000 1.000000"
+"classname" "light"
+"light" "5"
+"origin" "2312 -2208 1200"
+}
+{
+"origin" "1960 -2208 1200"
+"light" "5"
+"classname" "light"
+"_color" "0.501961 0.000000 1.000000"
+}
+{
+"_color" "0.501961 0.000000 1.000000"
+"classname" "light"
+"light" "5"
+"origin" "1664 -2232 1200"
+}
+{
+"origin" "1664 -3160 1200"
+"light" "5"
+"classname" "light"
+"_color" "0.501961 0.000000 1.000000"
+}
+{
+"_color" "0.501961 0.000000 1.000000"
+"classname" "light"
+"light" "5"
+"origin" "1952 -3144 1200"
+}
+{
+"origin" "2280 -3152 1200"
+"light" "5"
+"classname" "light"
+"_color" "0.501961 0.000000 1.000000"
+}
+{
+"_color" "0.501961 0.000000 1.000000"
+"classname" "light"
+"light" "5"
+"origin" "2648 -3144 1200"
+}
+{
+"origin" "2960 -3128 1200"
+"light" "5"
+"classname" "light"
+"_color" "0.501961 0.000000 1.000000"
+}
+{
+"_color" "0.501961 0.000000 1.000000"
+"classname" "light"
+"light" "5"
+"origin" "3296 -3136 1200"
+}
+{
+"origin" "3648 -3144 1208"
+"light" "5"
+"classname" "light"
+"_color" "0.501961 0.000000 1.000000"
+}
+{
+"origin" "2632 -2192 1192"
+"light" "5"
+"classname" "light"
+"_color" "0.501961 0.000000 1.000000"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-3256 200 1272"
+}
+{
+"origin" "-2640 192 1280"
+"light" "500"
+"classname" "light"
+}
+{
+"origin" "-3184 1160 1280"
+"light" "500"
+"classname" "light"
+}
+{
+"origin" "-2632 1160 1272"
+"light" "500"
+"classname" "light"
+}
+{
+"origin" "3160 -2960 912"
+"light" "750"
+"classname" "light"
+}
+{
+"origin" "2432 -2888 920"
+"light" "750"
+"classname" "light"
+}
+{
+"origin" "1808 -2880 960"
+"light" "750"
+"classname" "light"
+}
+{
+"model" "*10"
+"classname" "trigger_multiple"
+"target" "start"
+}
+{
+"model" "*11"
+"wait" "10"
+"classname" "trigger_multiple"
+"target" "stop"
+}
+{
+"model" "*12"
+"wait" "10"
+"classname" "trigger_multiple"
+"target" "stop"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"classname" "light"
+"light" "50"
+"origin" "649 -2445 211"
+}
+{
+"origin" "3616 -1472 664"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "2616 1424 192"
+"angle" "270"
+"model" "models/mapobj~1/telepo~1/telepo~1.md3"
+"classname" "misc_model"
+}
+{
+"model" "*13"
+"target" "t6"
+"classname" "trigger_teleport"
+}
+{
+"origin" "3888 -1488 216"
+"targetname" "tt"
+"classname" "target_teleporter"
+}
+{
+"model" "*14"
+"target" "tt"
+"classname" "trigger_teleport"
+}
+{
+"model" "*15"
+"target" "tt"
+"classname" "trigger_teleport"
+}
+{
+"model" "*16"
+"target" "chek3"
+"classname" "trigger_multiple"
+}
+{
+"origin" "2616 1208 288"
+"targetname" "chek3"
+"classname" "target_checkpoint"
+}
