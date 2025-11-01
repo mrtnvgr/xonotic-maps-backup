@@ -1,0 +1,166 @@
+{
+"classname" "worldspawn"
+"_color" "0.000000 0.361334 1.000000"
+"_lightmapscale" "0.3"
+}
+{
+"classname" "info_player_start"
+"origin" "-256 -312 32"
+"angle" "90"
+}
+{
+"classname" "target_teleporter"
+"origin" "160 752 168"
+"angle" "90"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-152 -152 88"
+"targetname" "t7"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-352 184 960"
+"targetname" "t8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "408 1360 520"
+"targetname" "t11"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1232 -264 952"
+"targetname" "t13"
+}
+{
+"classname" "trigger_multiple"
+"target" "t13"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-256 1480 944"
+"targetname" "t14"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"model" "*6"
+}
+{
+"classname" "target_teleporter"
+"origin" "-624 1136 328"
+"targetname" "target_teleporter1"
+"angle" "-90"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter1"
+"model" "*7"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"speed" "200"
+"origin" "436 -16 -760"
+"model" "*8"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"speed" "-200"
+"origin" "444 72 -816"
+"model" "*9"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"speed" "200"
+"origin" "436 -16 -880"
+"model" "*10"
+}
+{
+"classname" "target_kill"
+"origin" "440 24 -672"
+"targetname" "target_kill1"
+}
+{
+"classname" "trigger_hurt"
+"target" "target_kill1"
+"model" "*11"
+}
+{
+"classname" "target_teleporter"
+"origin" "-1248 -264 864"
+"angle" "90.0544"
+"targetname" "target_teleporter2"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter2"
+"model" "*12"
+}
+{
+"classname" "target_kill"
+"origin" "-128 -160 176"
+"targetname" "target_kill2"
+}
+{
+"classname" "func_plat"
+"height" "224"
+"targetname" "func_button1"
+"speed" "50"
+"model" "*13"
+}
+{
+"classname" "func_button"
+"angle" "-2"
+"speed" "0"
+"target" "func_button1"
+"health" "15"
+"lip" "16"
+"model" "*14"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-584 1072 392"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*15"
+}
+{
+"classname" "target_kill"
+"origin" "-864 984 640"
+"targetname" "target_kill3"
+}
+{
+"classname" "trigger_hurt"
+"target" "target_kill3"
+"model" "*16"
+}
