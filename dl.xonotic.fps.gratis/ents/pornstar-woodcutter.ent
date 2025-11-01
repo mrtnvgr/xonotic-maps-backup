@@ -1,0 +1,112 @@
+{
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000"
+"_lightmapscale" ".3"
+"message" "Made by Pornstar"
+"ambient" "15"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-384 96 32"
+"classname" "info_player_start"
+}
+{
+"wait" "5"
+"count" "3"
+"spawnflags" "1"
+"origin" "800 2600 40"
+"classname" "weapon_rocketlauncher"
+}
+{
+"count" "20"
+"spawnflags" "1"
+"origin" "800 2560 40"
+"classname" "item_enviro"
+}
+{
+"count" "5"
+"spawnflags" "1"
+"origin" "800 2512 40"
+"classname" "item_haste"
+}
+{
+"targetname" "t14"
+"origin" "2304 -296 400"
+"classname" "misc_teleporter_dest"
+"angle" "90"
+}
+{
+"target" "t14"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"classname" "target_kill"
+"origin" "2341 1196 934"
+"targetname" "t17"
+}
+{
+"classname" "trigger_hurt"
+"target" "t17"
+"spawnflags" "1"
+"dmg" "200"
+"model" "*2"
+}
+{
+"targetname" "t11"
+"origin" "-232 80 168"
+"classname" "target_startTimer"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t12"
+"origin" "1816 3976 376"
+"classname" "target_stopTimer"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t10"
+"origin" "816 1784 144"
+"classname" "target_checkpoint"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "816 1784 800"
+"targetname" "t18"
+}
+{
+"classname" "trigger_multiple"
+"target" "t18"
+"model" "*6"
+}
+{
+"targetname" "t19"
+"origin" "2352 1640 480"
+"classname" "target_checkpoint"
+}
+{
+"target" "t19"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"wait" "5"
+"count" "20"
+"spawnflags" "1"
+"origin" "2304 -232 384"
+"classname" "weapon_plasmagun"
+}
