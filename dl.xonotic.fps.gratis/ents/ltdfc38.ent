@@ -1,0 +1,225 @@
+{
+"_color" "1 0.6 0.4"
+"music" "music/sonic5.wav"
+"message" "ltgm_UglyPlasmyShit"
+"classname" "worldspawn"
+"ambient" "70"
+}
+{
+"classname" "target_print"
+"targetname" "stop"
+"message" "Rasykit konsolej /kill."
+"origin" "-16 96 4032"
+}
+{
+"classname" "misc_teleporter_dest"
+"targetname" "tlp3"
+"origin" "-1680 1984 216"
+}
+{
+"model" "*1"
+"classname" "trigger_teleport"
+"target" "tlp3"
+}
+{
+"model" "*2"
+"classname" "trigger_teleport"
+"target" "tlp2"
+}
+{
+"origin" "8 96 72"
+"targetname" "ch4"
+"classname" "target_checkpoint"
+}
+{
+"model" "*3"
+"target" "ch4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"target" "ch3"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-1552 1984 272"
+"target" "give3b"
+"targetname" "give3"
+"classname" "target_give"
+}
+{
+"model" "*5"
+"target" "give3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"target" "ch2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*7"
+"target" "ch1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*8"
+"classname" "trigger_multiple"
+"target" "stop"
+}
+{
+"classname" "ammo_cells"
+"count" "999"
+"origin" "-1596 1980 224"
+"wait" "1"
+}
+{
+"classname" "ammo_cells"
+"count" "999"
+"origin" "1108 2332 1224"
+"wait" "1"
+"spawnflags" "1"
+}
+{
+"origin" "1192 2304 1184"
+"targetname" "tlp1"
+"angle" "180"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "88 0 88"
+"targetname" "stop"
+"classname" "target_stopTimer"
+}
+{
+"origin" "64 0 88"
+"targetname" "start"
+"classname" "target_startTimer"
+}
+{
+"model" "*9"
+"target" "start"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"target" "tlp1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*11"
+"target" "tlp2"
+"classname" "trigger_teleport"
+}
+{
+"target" "give"
+"angle" "90"
+"origin" "0 -104 72"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "give"
+"target" "give1"
+"origin" "-64 0 80"
+"classname" "target_give"
+}
+{
+"count" "9999"
+"targetname" "give1"
+"origin" "-64 40 80"
+"classname" "item_enviro"
+}
+{
+"count" "9999"
+"targetname" "give1"
+"origin" "-32 40 80"
+"classname" "item_haste"
+}
+{
+"count" "999"
+"targetname" "give1"
+"origin" "0 40 80"
+"classname" "weapon_plasmagun"
+}
+{
+"model" "*12"
+"target" "kill"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "kill"
+"origin" "0 720 32"
+"classname" "target_kill"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1248 2304 192"
+"angle" "180"
+"targetname" "tlp2"
+}
+{
+"origin" "1108 2276 1224"
+"count" "999"
+"classname" "ammo_cells"
+"wait" "1"
+"spawnflags" "1"
+}
+{
+"origin" "-1372 2332 208"
+"count" "999"
+"classname" "ammo_cells"
+"wait" "1"
+}
+{
+"classname" "ammo_cells"
+"count" "999"
+"origin" "-1372 2276 208"
+"wait" "1"
+}
+{
+"wait" "1"
+"origin" "-1372 2332 2464"
+"count" "999"
+"classname" "ammo_cells"
+}
+{
+"wait" "1"
+"classname" "ammo_cells"
+"count" "999"
+"origin" "-1372 2276 2464"
+}
+{
+"targetname" "give3b"
+"origin" "-1596 1980 280"
+"count" "999"
+"classname" "ammo_cells"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "ch3"
+"origin" "32 96 72"
+}
+{
+"origin" "56 96 72"
+"targetname" "ch2"
+"classname" "target_checkpoint"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "ch1"
+"origin" "80 96 72"
+}
+{
+"spawnflags" "1"
+"wait" "1"
+"origin" "-1252 2332 1224"
+"count" "999"
+"classname" "ammo_cells"
+}
+{
+"spawnflags" "1"
+"wait" "1"
+"classname" "ammo_cells"
+"count" "999"
+"origin" "-1252 2276 1224"
+}
