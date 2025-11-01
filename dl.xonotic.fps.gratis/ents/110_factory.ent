@@ -1,0 +1,4169 @@
+{
+"gridsize" "80.079994 80.079994 128.127991"
+"ambient" "10"
+"classname" "worldspawn"
+"mapcoordsmins" "0 14848"
+"mapcoordsmaxs" "14848 0"
+"health" "15"
+"_q3map2_cmdline" "-scale 1.40; -scale 0.715 0.715 0.715"
+"_q3map2_version" "2.5.17n-git-a7e6001"
+}
+{
+"scriptname" "game_manager"
+"origin" "3588.584961 8662.653320 479.478973"
+"classname" "script_multiplayer"
+}
+{
+"angle" "270"
+"classname" "info_spawn_wolfenstein"
+"origin" "3588.584961 8662.653320 415.414978"
+}
+{
+"type" "5"
+"classname" "func_door_rotating"
+"origin" "3659.655762 7531.523438 120.119995"
+"model" "*1"
+}
+{
+"classname" "func_door_rotating"
+"type" "5"
+"origin" "3595.591797 6826.819824 120.119995"
+"model" "*2"
+}
+{
+"classname" "corona"
+"origin" "3587.583984 6918.911621 192.191986"
+"_color" "1.000000 0.100000 0.100000"
+}
+{
+"targetname" "submarine_wobj"
+"description" "submarine"
+"classname" "team_wolf_objective"
+"origin" "3574.570801 7300.292969 328.327972"
+"spawnflags" "2"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3550.546631 7260.252930 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"_color" "1.000000 0.100000 0.100000"
+"origin" "3587.583984 7047.039551 192.191986"
+"classname" "corona"
+}
+{
+"_color" "1.000000 0.100000 0.100000"
+"origin" "3587.583984 7303.295410 192.191986"
+"classname" "corona"
+}
+{
+"classname" "corona"
+"origin" "3587.583984 7431.423340 192.191986"
+"_color" "1.000000 0.100000 0.100000"
+}
+{
+"_color" "1.000000 0.100000 0.100000"
+"origin" "3587.583984 7687.679688 192.191986"
+"classname" "corona"
+}
+{
+"_color" "1.000000 0.100000 0.100000"
+"origin" "3587.583984 6726.719727 192.191986"
+"classname" "corona"
+}
+{
+"classname" "path_corner"
+"origin" "3515.511719 6854.847656 272.271973"
+"targetname" "balloon_p0"
+}
+{
+"targetname" "balloon_p1"
+"origin" "3515.511719 6854.847656 1065.063965"
+"classname" "path_corner"
+}
+{
+"classname" "target_script_trigger"
+"origin" "3515.511719 6854.847656 384.383972"
+"targetname" "balloon_launch_tst"
+"scriptname" "balloon_launch_tst"
+"target" "run"
+}
+{
+"spawnflags" "2"
+"scriptname" "balloon1"
+"targetname" "balloon1"
+"classname" "script_mover"
+"origin" "1977.975830 7367.359863 272.271973"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "balloon_launch_tm"
+"scriptname" "balloon_launch_tm"
+"target" "balloon_launch_tst"
+"model" "*4"
+}
+{
+"classname" "target_effect"
+"origin" "8784.775391 10970.959961 96.095993"
+"targetname" "plane4_engine2_te"
+"spawnflags" "1"
+"dmg" "800"
+}
+{
+"classname" "path_corner"
+"origin" "5021.015625 6342.335449 1065.063965"
+"targetname" "balloon_p5"
+}
+{
+"targetname" "balloon_p4"
+"origin" "4796.791504 6854.847656 1065.063965"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "5053.047363 7239.231445 1065.063965"
+"targetname" "balloon_p3"
+}
+{
+"targetname" "balloon_p2"
+"origin" "4796.791504 7623.615234 1065.063965"
+"classname" "path_corner"
+}
+{
+"classname" "script_mover"
+"targetname" "balloon2"
+"scriptname" "balloon2"
+"spawnflags" "2"
+"origin" "1977.975830 6854.847656 272.271973"
+"model" "*5"
+}
+{
+"spawnflags" "2"
+"scriptname" "balloon3"
+"targetname" "balloon3"
+"classname" "script_mover"
+"origin" "1977.975830 6342.335449 272.271973"
+"model" "*6"
+}
+{
+"classname" "script_mover"
+"targetname" "balloon4"
+"scriptname" "balloon4"
+"spawnflags" "2"
+"origin" "1985.983765 5821.815918 272.271973"
+"model" "*7"
+}
+{
+"targetname" "balloon_green_sign"
+"classname" "func_static"
+"model" "*8"
+}
+{
+"classname" "func_static"
+"targetname" "balloon_red_sign"
+"model" "*9"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "10890.879883 7863.855469 81.081001"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"angles" "-15 90 00"
+"targetname" "mg_1"
+"scriptname" "mg_1"
+}
+{
+"scriptname" "mg_1"
+"targetname" "mg_1"
+"angles" "-15 90 00"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"origin" "12172.159180 7607.599609 81.081001"
+"classname" "misc_gamemodel"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "10890.879883 6710.703613 104.103989"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"angles" "-15 90 00"
+"targetname" "mg_1"
+"scriptname" "mg_1"
+}
+{
+"scriptname" "mg_1"
+"targetname" "mg_1"
+"angles" "-15 90 00"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"origin" "12172.159180 6454.447754 104.103989"
+"classname" "misc_gamemodel"
+}
+{
+"targetname" "crane1_p0"
+"origin" "12172.159180 6118.111816 304.303986"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "12172.159180 10794.783203 304.303986"
+"targetname" "crane1_p1"
+}
+{
+"classname" "path_corner"
+"origin" "10890.879883 6118.111816 304.303986"
+"targetname" "crane2_p0"
+}
+{
+"targetname" "crane2_p1"
+"origin" "10890.879883 10794.783203 304.303986"
+"classname" "path_corner"
+}
+{
+"scriptname" "truck_1"
+"targetname" "truck_1"
+"model" "models/mapobjects/blitz_sd/blitzbody3_mm.md3"
+"origin" "10884.873047 11527.515625 6.006000"
+"classname" "misc_gamemodel"
+"angle" "180"
+}
+{
+"scriptname" "mg_1"
+"targetname" "mg_1"
+"angles" "-15 90 00"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"origin" "10458.448242 4980.975586 104.103989"
+"classname" "misc_gamemodel"
+}
+{
+"origin" "10838.828125 12235.221680 62.061993"
+"targetname" "lever1_up"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"targetname" "lever1_down"
+"origin" "10838.828125 12235.221680 48.047997"
+}
+{
+"targetname" "lever1_tst"
+"origin" "10830.819336 12188.175781 104.103989"
+"classname" "target_script_trigger"
+"scriptname" "lever1_tst"
+"target" "main"
+}
+{
+"scriptname" "door1_right"
+"targetname" "door1_right"
+"spawnflags" "2"
+"classname" "script_mover"
+"origin" "11547.535156 12268.255859 192.191986"
+"model" "*10"
+}
+{
+"spawnflags" "2"
+"targetname" "door1_left"
+"scriptname" "door1_left"
+"classname" "script_mover"
+"origin" "11515.502930 12268.255859 192.191986"
+"model" "*11"
+}
+{
+"targetname" "door1_left_closed"
+"origin" "11515.502930 12268.255859 192.191986"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "11051.040039 12268.255859 192.191986"
+"targetname" "door1_left_open"
+}
+{
+"targetname" "door1_right_open"
+"origin" "12012.000000 12268.255859 192.191986"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "11547.535156 12268.255859 192.191986"
+"targetname" "door1_right_closed"
+}
+{
+"_color" "0.900000 0.900000  1.000000"
+"classname" "corona"
+"origin" "11275.263672 12212.199219 424.423981"
+}
+{
+"origin" "11787.775391 12212.199219 424.423981"
+"classname" "corona"
+"_color" "0.900000 0.900000  1.000000"
+}
+{
+"classname" "func_explosive"
+"spawnflags" "4"
+"type" "glass"
+"health" "15"
+"model" "*12"
+}
+{
+"health" "15"
+"type" "glass"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*13"
+}
+{
+"classname" "func_explosive"
+"spawnflags" "4"
+"type" "glass"
+"health" "15"
+"model" "*14"
+}
+{
+"angle" "90"
+"scriptname" "axisteamdoor1_fd"
+"classname" "func_door"
+"type" "5"
+"allowteams" "axis"
+"targetname" "axisteamdoor1_fd"
+"speed" "50"
+"model" "*15"
+}
+{
+"spawnflags" "4"
+"targetname" "axisteamdoor1"
+"scriptname" "axisteamdoor1"
+"classname" "func_constructible"
+"track" "axisteamdoor1_track"
+"origin" "11903.890625 4804.799805 24.023998"
+"model" "*16"
+}
+{
+"classname" "script_mover"
+"scriptname" "axisteamdoor1_fake"
+"targetname" "axisteamdoor1_fake"
+"track" "axisteamdoor1_track"
+"spawnflags" "2"
+"origin" "11903.890625 4804.799805 40.039997"
+"model" "*17"
+}
+{
+"shortname" "compound door"
+"spawnflags" "1"
+"classname" "trigger_objective_info"
+"target" "axisteamdoor1"
+"track" "the compound door"
+"targetname" "axisteamdoor1_toi"
+"origin" "11819.806641 4956.951660 24.023998"
+"model" "*18"
+}
+{
+"skin" "models/mapobjects/cmarker/axis_crates.skin"
+"angle" "270"
+"classname" "misc_gamemodel"
+"origin" "11827.815430 4934.929688 0.000000"
+"model" "models/mapobjects/cmarker/cmarker_crates.md3"
+"targetname" "axisteamdoor1_materials"
+}
+{
+"targetname" "axisteamdoor1_flag"
+"angle" "45"
+"skin" "models/mapobjects/cmarker/axis_cflag.skin"
+"model" "models/mapobjects/cmarker/cmarker_flag.md3"
+"origin" "11797.786133 4978.974121 48.047997"
+"classname" "misc_gamemodel"
+"modelscale" "0.4"
+"spawnflags" "2"
+"frames" "190"
+}
+{
+"scriptname" "axisteamdoor1_clip"
+"targetname" "axisteamdoor1_clip"
+"classname" "script_mover"
+"spawnflags" "2"
+"origin" "11843.831055 4932.927734 48.047997"
+"model" "*19"
+}
+{
+"health" "15"
+"type" "glass"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*20"
+}
+{
+"classname" "func_explosive"
+"spawnflags" "4"
+"type" "glass"
+"health" "15"
+"model" "*21"
+}
+{
+"health" "15"
+"type" "glass"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*22"
+}
+{
+"scriptname" "mg41_a"
+"targetname" "mg41_a"
+"classname" "misc_gamemodel"
+"origin" "11344.333008 4917.912598 17.016998"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"angles" "0 180 90"
+}
+{
+"targetname" "mg41_b"
+"scriptname" "mg41_b"
+"angles" "0 165 90"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"origin" "11352.339844 4901.896484 17.016998"
+"classname" "misc_gamemodel"
+}
+{
+"model" "models/mapobjects/portable_radar_sd/portable_radar_box.md3"
+"scriptname" "radar_pickup"
+"origin" "11323.311523 4372.367676 64.063995"
+"classname" "team_CTF_redflag"
+"message" "the radar parts"
+}
+{
+"target" "radar_mcm"
+"shortname" "radar parts"
+"track" "the radar parts"
+"scriptname" "radar_toi"
+"targetname" "radar_toi"
+"spawnflags" "17"
+"classname" "trigger_objective_info"
+"customaxisimage" "gfx/limbo/cm_radarbox.tga"
+"customalliesimage" "gfx/limbo/cm_radarbox.tga"
+"model" "*23"
+}
+{
+"targetname" "radar_mcm"
+"origin" "11323.311523 4372.367676 176.175995"
+"classname" "misc_commandmap_marker"
+}
+{
+"targetname" "radar_dropoff_mcm"
+"origin" "9553.542969 10346.334961 224.223999"
+"classname" "misc_commandmap_marker"
+}
+{
+"angle" "90"
+"classname" "misc_gamemodel"
+"origin" "9553.542969 10346.334961 40.039997"
+"model" "models/mapobjects/portable_radar_sd/portable_radar_box_tr.md3"
+"targetname" "radar_dropoff_trans"
+}
+{
+"customalliesimage" "gfx/limbo/cm_radarbox.tga"
+"customaxisimage" "gfx/limbo/cm_radarbox.tga"
+"classname" "trigger_objective_info"
+"spawnflags" "1"
+"targetname" "radar_dropoff_toi"
+"scriptname" "radar_dropoff_toi"
+"track" "the radar parts dropoff"
+"shortname" "radar parts dropoff"
+"target" "radar_dropoff_mcm"
+"model" "*24"
+}
+{
+"targetname" "radar_dropoff"
+"model" "models/mapobjects/portable_radar_sd/portable_radar_box.md3"
+"origin" "9553.542969 10346.334961 40.039997"
+"classname" "misc_gamemodel"
+"angle" "90"
+}
+{
+"classname" "trigger_flagonly_multiple"
+"spawnflags" "1"
+"targetname" "radar_dropoff_tfm"
+"scriptname" "radar_dropoff_tfm"
+"model" "*25"
+}
+{
+"origin" "11275.263672 3355.351807 424.423981"
+"classname" "corona"
+"_color" "1.000000 0.100000  0.100000"
+}
+{
+"_color" "1.000000 0.100000  0.100000"
+"classname" "corona"
+"origin" "11787.775391 3355.351807 424.423981"
+}
+{
+"spawnflags" "2"
+"targetname" "crane1"
+"scriptname" "crane1"
+"classname" "script_mover"
+"origin" "12172.159180 10794.783203 304.303986"
+"model" "*26"
+}
+{
+"scriptname" "crane2"
+"targetname" "crane2"
+"spawnflags" "2"
+"classname" "script_mover"
+"origin" "10890.879883 10794.783203 304.303986"
+"model" "*27"
+}
+{
+"classname" "trigger_multiple"
+"spawnflags" "2"
+"targetname" "crane1_tm"
+"scriptname" "crane1_tm"
+"target" "crane1_tst"
+"model" "*28"
+}
+{
+"scriptname" "crane1_tst"
+"target" "run"
+"classname" "target_script_trigger"
+"origin" "12684.670898 10314.303711 528.528015"
+"targetname" "crane1_tst"
+}
+{
+"target" "crane2_tst"
+"scriptname" "crane2_tm"
+"targetname" "crane2_tm"
+"spawnflags" "2"
+"classname" "trigger_multiple"
+"model" "*29"
+}
+{
+"targetname" "crane2_tst"
+"origin" "10538.527344 10314.303711 528.528015"
+"classname" "target_script_trigger"
+"target" "run"
+"scriptname" "crane2_tst"
+}
+{
+"health" "15"
+"scriptname" "plane1_engine1"
+"targetname" "plane1_engine1"
+"spawnflags" "10"
+"classname" "script_mover"
+"origin" "10786.775391 6574.567871 88.087997"
+"model" "*30"
+}
+{
+"targetname" "plane1_engine1_smoke"
+"spawnflags" "1"
+"origin" "10786.775391 6558.551758 112.112000"
+"classname" "target_smoke"
+}
+{
+"spawnflags" "1"
+"targetname" "plane1_engine1_te"
+"origin" "10786.775391 6558.551758 88.087997"
+"classname" "target_effect"
+"dmg" "800"
+}
+{
+"scriptname" "plane1_engine2"
+"targetname" "plane1_engine2"
+"spawnflags" "10"
+"health" "15"
+"classname" "script_mover"
+"origin" "10994.983398 6574.567871 88.087997"
+"model" "*31"
+}
+{
+"classname" "target_smoke"
+"origin" "10994.983398 6558.551758 112.112000"
+"spawnflags" "1"
+"targetname" "plane1_engine2_smoke"
+}
+{
+"classname" "target_effect"
+"origin" "10994.983398 6558.551758 88.087997"
+"targetname" "plane1_engine2_te"
+"spawnflags" "1"
+"dmg" "800"
+}
+{
+"classname" "script_mover"
+"spawnflags" "10"
+"targetname" "plane2_engine1"
+"scriptname" "plane2_engine1"
+"health" "15"
+"origin" "12068.055664 6318.311523 88.087997"
+"model" "*32"
+}
+{
+"classname" "script_mover"
+"health" "15"
+"spawnflags" "10"
+"targetname" "plane2_engine2"
+"scriptname" "plane2_engine2"
+"origin" "12276.263672 6318.311523 88.087997"
+"model" "*33"
+}
+{
+"classname" "target_smoke"
+"origin" "12068.055664 6302.295410 112.112000"
+"spawnflags" "1"
+"targetname" "plane2_engine1_smoke"
+}
+{
+"targetname" "plane2_engine2_smoke"
+"spawnflags" "1"
+"origin" "12276.263672 6302.295410 112.112000"
+"classname" "target_smoke"
+}
+{
+"classname" "target_effect"
+"origin" "12068.055664 6302.295410 88.087997"
+"targetname" "plane2_engine1_te"
+"spawnflags" "1"
+"dmg" "800"
+}
+{
+"spawnflags" "1"
+"targetname" "plane2_engine2_te"
+"origin" "12276.263672 6302.295410 88.087997"
+"classname" "target_effect"
+"dmg" "800"
+}
+{
+"classname" "script_mover"
+"spawnflags" "10"
+"targetname" "plane3_engine1"
+"scriptname" "plane3_engine1"
+"health" "15"
+"origin" "10354.343750 4844.839844 88.087997"
+"model" "*34"
+}
+{
+"classname" "script_mover"
+"health" "15"
+"spawnflags" "10"
+"targetname" "plane3_engine2"
+"scriptname" "plane3_engine2"
+"origin" "10562.551758 4844.839844 88.087997"
+"model" "*35"
+}
+{
+"classname" "target_effect"
+"origin" "10354.343750 4828.823730 88.087997"
+"targetname" "plane3_engine1_te"
+"spawnflags" "1"
+"dmg" "800"
+}
+{
+"spawnflags" "1"
+"targetname" "plane3_engine2_te"
+"origin" "10562.551758 4828.823730 88.087997"
+"classname" "target_effect"
+"dmg" "800"
+}
+{
+"classname" "target_smoke"
+"origin" "10354.343750 4828.823730 112.112000"
+"spawnflags" "1"
+"targetname" "plane3_engine1_smoke"
+}
+{
+"targetname" "plane3_engine2_smoke"
+"spawnflags" "1"
+"origin" "10562.551758 4828.823730 112.112000"
+"classname" "target_smoke"
+}
+{
+"angles" "0 180 90"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"origin" "11856.844727 7736.728516 17.016998"
+"classname" "misc_gamemodel"
+"targetname" "mg41_a"
+"scriptname" "mg41_a"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "11864.851562 7720.712891 17.016998"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"angles" "0 165 90"
+"scriptname" "mg41_b"
+"targetname" "mg41_b"
+}
+{
+"classname" "trigger_heal"
+"targetname" "first_trigger_heal"
+"scriptname" "first_trigger_heal"
+"target" "first_healthcabinet"
+"healtotal" "400"
+"model" "*36"
+}
+{
+"classname" "trigger_ammo"
+"scriptname" "first_trigger_ammo"
+"targetname" "first_trigger_ammo"
+"ammorate" "1"
+"ammototal" "20"
+"target" "first_ammocabinet"
+"model" "*37"
+}
+{
+"classname" "misc_cabinet_health"
+"origin" "11567.554688 8476.467773 16.015999"
+"targetname" "first_healthcabinet"
+"angle" "180"
+"scriptname" "first_healthcabinet"
+}
+{
+"classname" "misc_cabinet_supply"
+"origin" "11563.551758 8364.355469 17.016998"
+"targetname" "first_ammocabinet"
+"angle" "180"
+"scriptname" "first_ammocabinet"
+}
+{
+"classname" "script_mover"
+"spawnflags" "2"
+"scriptname" "first_ammocabinet_clip"
+"targetname" "first_ammocabinet_clip"
+"origin" "11569.557617 8364.355469 80.079994"
+"model" "*38"
+}
+{
+"classname" "script_mover"
+"spawnflags" "2"
+"scriptname" "first_healthcabinet_clip"
+"targetname" "first_healthcabinet_clip"
+"origin" "11559.547852 8476.467773 76.075996"
+"model" "*39"
+}
+{
+"classname" "misc_commandmap_marker"
+"origin" "11549.538086 8420.411133 142.141998"
+"targetname" "first_hacabinet_cm_marker"
+"scriptname" "first_hacabinet_cm_marker"
+}
+{
+"classname" "trigger_objective_info"
+"spawnflags" "35"
+"shortname" "health and ammo cabinets"
+"track" "the health and ammo cabinets"
+"target" "first_hacabinet_cm_marker"
+"customimage" "gfx/limbo/cm_healthammo"
+"targetname" "first_hacabinet_toi"
+"scriptname" "first_hacabinet_toi"
+"model" "*40"
+}
+{
+"targetname" "alliedconstruct2"
+"classname" "func_constructible"
+"scriptname" "alliedconstruct2"
+"track" "alliedconstruct2_track"
+"spawnflags" "8"
+"origin" "5605.599609 8144.135254 568.567993"
+"model" "*41"
+}
+{
+"targetname" "alliedconstruct2_toi"
+"track" "the assault ramp"
+"target" "alliedconstruct2"
+"classname" "trigger_objective_info"
+"spawnflags" "1"
+"shortname" "assault ramp"
+"origin" "6654.647949 8296.288086 744.743958"
+"model" "*42"
+}
+{
+"targetname" "alliedconstruct2_materials"
+"model" "models/mapobjects/cmarker/cmarker_crates.md3"
+"origin" "6646.639648 8274.265625 720.719971"
+"classname" "misc_gamemodel"
+"angle" "90"
+"skin" "models/mapobjects/cmarker/allied_crates.skin"
+}
+{
+"frames" "190"
+"spawnflags" "2"
+"modelscale" "0.4"
+"classname" "misc_gamemodel"
+"origin" "6676.669922 8318.309570 768.767944"
+"model" "models/mapobjects/cmarker/cmarker_flag.md3"
+"skin" "models/mapobjects/cmarker/allied_cflag.skin"
+"angle" "90"
+"targetname" "alliedconstruct2_flag"
+}
+{
+"spawnflags" "2"
+"classname" "script_mover"
+"targetname" "alliedconstruct2_clip"
+"scriptname" "alliedconstruct2_clip"
+"origin" "6630.623535 8276.267578 768.767944"
+"model" "*43"
+}
+{
+"targetname" "lever1_fiu"
+"scriptname" "lever1_fiu"
+"target" "lever1_tst"
+"cursorhint" "hint_button"
+"classname" "func_invisible_user"
+"ainame" "player"
+"model" "*44"
+}
+{
+"classname" "script_mover"
+"targetname" "lever1"
+"scriptname" "lever1"
+"origin" "10838.828125 12235.221680 62.061993"
+"model" "*45"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "8888.879883 10810.799805 104.103989"
+"model" "models/mapobjects/tanks_sd/mg42.md3"
+"angles" "-15 270 00"
+"targetname" "mg_1"
+"scriptname" "mg_1"
+}
+{
+"health" "15"
+"scriptname" "plane4_engine1"
+"targetname" "plane4_engine1"
+"spawnflags" "10"
+"classname" "script_mover"
+"origin" "8992.983398 10946.935547 88.087997"
+"model" "*46"
+}
+{
+"scriptname" "plane4_engine2"
+"targetname" "plane4_engine2"
+"spawnflags" "10"
+"health" "15"
+"classname" "script_mover"
+"origin" "8784.775391 10946.935547 88.087997"
+"model" "*47"
+}
+{
+"targetname" "plane4_engine1_smoke"
+"spawnflags" "1"
+"origin" "8992.983398 10962.951172 112.112000"
+"classname" "target_smoke"
+}
+{
+"classname" "target_smoke"
+"origin" "8784.775391 10962.951172 112.112000"
+"spawnflags" "1"
+"targetname" "plane4_engine2_smoke"
+}
+{
+"scriptname" "forward_bunker_flag"
+"targetname" "forward_bunker_flag"
+"target" "forward_bunker_spawns"
+"spawnflags" "1"
+"origin" "4228.224121 12860.846680 480.479980"
+"classname" "team_wolf_checkpoint"
+}
+{
+"classname" "team_wolf_objective"
+"origin" "4191.186523 12857.844727 544.543945"
+"spawnflags" "1"
+"description" "forward bunker"
+"targetname" "forward_bunker_wobj"
+"scriptname" "forward_bunker_wobj"
+}
+{
+"spawnflags" "3"
+"origin" "4159.154785 14299.284180 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4180.175781 14310.295898 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"targetname" "balloon_p10"
+"origin" "7751.743652 7743.735352 1065.063965"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "7903.895508 7263.255371 1065.063965"
+"targetname" "balloon_p11"
+}
+{
+"targetname" "balloon_p12"
+"origin" "7911.903320 6718.711426 1065.063965"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "7983.975098 6238.231445 1065.063965"
+"targetname" "balloon_p13"
+}
+{
+"classname" "path_corner"
+"origin" "7751.743652 7743.735352 -80.079994"
+"targetname" "balloon_p20"
+}
+{
+"targetname" "balloon_p21"
+"origin" "7903.895508 7263.255371 -144.143982"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "7911.903320 6718.711426 -160.159988"
+"targetname" "balloon_p22"
+}
+{
+"targetname" "balloon_p23"
+"origin" "7983.975098 6238.231445 -96.095993"
+"classname" "path_corner"
+}
+{
+"targetname" "south_factory_wobj"
+"description" "south factory"
+"classname" "team_wolf_objective"
+"origin" "11526.514648 3832.828857 376.375946"
+"spawnflags" "1"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "11270.258789 3888.884766 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "axisteamdoor2_fd"
+"allowteams" "axis"
+"type" "5"
+"classname" "func_door_rotating"
+"scriptname" "axisteamdoor2_fd"
+"origin" "9493.483398 9305.294922 48.047997"
+"model" "*48"
+}
+{
+"track" "axisteamdoor2_track"
+"classname" "func_constructible"
+"scriptname" "axisteamdoor2"
+"targetname" "axisteamdoor2"
+"spawnflags" "4"
+"origin" "9493.483398 9337.328125 8.007999"
+"model" "*49"
+}
+{
+"spawnflags" "2"
+"track" "axisteamdoor2_track"
+"targetname" "axisteamdoor2_fake"
+"scriptname" "axisteamdoor2_fake"
+"classname" "script_mover"
+"origin" "9493.483398 9337.328125 24.023998"
+"model" "*50"
+}
+{
+"targetname" "axisteamdoor2_toi"
+"track" "the side entrance"
+"target" "axisteamdoor2"
+"classname" "trigger_objective_info"
+"spawnflags" "1"
+"shortname" "side entrance"
+"origin" "9665.655273 9337.328125 24.023998"
+"model" "*51"
+}
+{
+"targetname" "axisteamdoor2_materials"
+"model" "models/mapobjects/cmarker/cmarker_crates.md3"
+"origin" "9673.663086 9315.305664 0.000000"
+"classname" "misc_gamemodel"
+"angle" "270"
+"skin" "models/mapobjects/cmarker/axis_crates.skin"
+}
+{
+"frames" "190"
+"spawnflags" "2"
+"modelscale" "0.4"
+"classname" "misc_gamemodel"
+"origin" "9643.633789 9359.349609 48.047997"
+"model" "models/mapobjects/cmarker/cmarker_flag.md3"
+"skin" "models/mapobjects/cmarker/axis_cflag.skin"
+"angle" "45"
+"targetname" "axisteamdoor2_flag"
+}
+{
+"spawnflags" "2"
+"classname" "script_mover"
+"targetname" "axisteamdoor2_clip"
+"scriptname" "axisteamdoor2_clip"
+"origin" "9689.679688 9313.303711 48.047997"
+"model" "*52"
+}
+{
+"dmg" "800"
+"spawnflags" "1"
+"targetname" "plane4_engine1_te"
+"origin" "8992.983398 10970.959961 96.095993"
+"classname" "target_effect"
+}
+{
+"target" "axis_intermission_t"
+"spawnflags" "1"
+"origin" "8888.879883 11227.214844 304.303986"
+"classname" "info_player_intermission"
+}
+{
+"targetname" "allied_intermission_t"
+"origin" "9593.583008 10282.271484 112.112000"
+"classname" "info_notnull"
+}
+{
+"classname" "info_notnull"
+"origin" "8888.879883 11131.119141 256.255981"
+"targetname" "axis_intermission_t"
+}
+{
+"classname" "info_player_intermission"
+"origin" "9705.695312 9817.807617 320.319977"
+"spawnflags" "2"
+"target" "allied_intermission_t"
+}
+{
+"target" "intermission_neutral_t"
+"origin" "3587.583984 8608.599609 424.423981"
+"classname" "info_player_intermission"
+}
+{
+"targetname" "intermission_neutral_t"
+"origin" "3587.583984 8520.511719 428.427979"
+"classname" "info_notnull"
+}
+{
+"classname" "func_door_rotating"
+"type" "5"
+"origin" "3851.847656 12876.863281 540.539978"
+"model" "*53"
+}
+{
+"type" "5"
+"classname" "func_door_rotating"
+"origin" "4604.599609 12876.863281 540.539978"
+"model" "*54"
+}
+{
+"classname" "corona"
+"origin" "4740.735840 13709.695312 596.595947"
+}
+{
+"origin" "4740.735840 14094.079102 596.595947"
+"classname" "corona"
+}
+{
+"classname" "corona"
+"origin" "4740.735840 14478.462891 596.595947"
+}
+{
+"origin" "4228.224121 14478.462891 596.595947"
+"classname" "corona"
+}
+{
+"classname" "corona"
+"origin" "3715.711670 14478.462891 596.595947"
+}
+{
+"origin" "4228.224121 14094.079102 596.595947"
+"classname" "corona"
+}
+{
+"classname" "corona"
+"origin" "3715.711670 14094.079102 596.595947"
+}
+{
+"origin" "3715.711670 13709.695312 596.595947"
+"classname" "corona"
+}
+{
+"classname" "corona"
+"origin" "4228.224121 13709.695312 596.595947"
+}
+{
+"origin" "4116.111816 12924.911133 628.627991"
+"classname" "corona"
+}
+{
+"classname" "corona"
+"origin" "4340.335938 12924.911133 628.627991"
+}
+{
+"origin" "4340.335938 12764.750977 628.627991"
+"classname" "corona"
+}
+{
+"classname" "corona"
+"origin" "4116.111816 12764.750977 628.627991"
+}
+{
+"mass" "600"
+"targetname" "gate"
+"type" "metal"
+"scriptname" "gate"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*55"
+}
+{
+"scriptname" "gate_toi"
+"targetname" "gate_toi"
+"target" "gate"
+"objflags" "4"
+"spawnflags" "1"
+"track" "the main entrance"
+"classname" "trigger_objective_info"
+"shortname" "main entrance"
+"model" "*56"
+}
+{
+"classname" "func_door_rotating"
+"type" "5"
+"allowteams" "axis"
+"origin" "8444.435547 11539.527344 48.047997"
+"model" "*57"
+}
+{
+"classname" "func_static"
+"spawnflags" "1"
+"targetname" "gate_bits"
+"model" "*58"
+}
+{
+"classname" "trigger_heal"
+"targetname" "second_trigger_heal"
+"scriptname" "second_trigger_heal"
+"target" "second_healthcabinet"
+"healtotal" "400"
+"model" "*59"
+}
+{
+"classname" "trigger_ammo"
+"scriptname" "second_trigger_ammo"
+"targetname" "second_trigger_ammo"
+"ammorate" "1"
+"ammototal" "20"
+"target" "second_ammocabinet"
+"model" "*60"
+}
+{
+"classname" "misc_cabinet_health"
+"origin" "4184.179688 13977.962891 480.479980"
+"targetname" "second_healthcabinet"
+"angle" "90"
+"scriptname" "second_healthcabinet"
+}
+{
+"classname" "misc_cabinet_supply"
+"origin" "4072.067627 13981.966797 481.480957"
+"targetname" "second_ammocabinet"
+"angle" "270"
+"scriptname" "second_ammocabinet"
+}
+{
+"classname" "script_mover"
+"spawnflags" "2"
+"scriptname" "second_ammocabinet_clip"
+"targetname" "second_ammocabinet_clip"
+"origin" "4072.067627 13974.960938 544.543945"
+"model" "*61"
+}
+{
+"classname" "script_mover"
+"spawnflags" "2"
+"scriptname" "second_healthcabinet_clip"
+"targetname" "second_healthcabinet_clip"
+"origin" "4184.179688 13985.970703 540.539978"
+"model" "*62"
+}
+{
+"classname" "misc_commandmap_marker"
+"origin" "4128.124023 13995.980469 606.605957"
+"targetname" "second_hacabinet_cm_marker"
+"scriptname" "second_hacabinet_cm_marker"
+}
+{
+"classname" "trigger_objective_info"
+"spawnflags" "35"
+"shortname" "health and ammo cabinets"
+"track" "the health and ammo cabinets"
+"target" "second_hacabinet_cm_marker"
+"customimage" "gfx/limbo/cm_healthammo"
+"targetname" "second_hacabinet_toi"
+"scriptname" "second_hacabinet_toi"
+"model" "*63"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3598.594971 7260.252930 88.087997"
+"spawnflags" "3"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3646.642578 7324.316406 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3598.594971 7324.316406 88.087997"
+"spawnflags" "3"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3550.546631 7324.316406 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3550.546631 7372.364746 88.087997"
+"spawnflags" "3"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3646.642578 7372.364746 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3630.626709 7420.413086 88.087997"
+"spawnflags" "3"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3582.578857 7420.413086 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3534.530762 7420.413086 88.087997"
+"spawnflags" "3"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3550.546631 7468.460449 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3646.642578 7468.460449 88.087997"
+"spawnflags" "3"
+"angle" "270"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "3550.546631 7084.076660 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3598.594971 7084.076660 88.087997"
+"spawnflags" "3"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "3646.642578 7084.076660 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3646.642578 7036.028320 88.087997"
+"spawnflags" "3"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "3598.594971 7036.028320 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3550.546631 7036.028320 88.087997"
+"spawnflags" "3"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "3550.546631 6987.980469 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3598.594971 6987.980469 88.087997"
+"spawnflags" "3"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "3646.642578 6987.980469 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3646.642578 6939.933105 88.087997"
+"spawnflags" "3"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "3598.594971 6939.933105 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3550.546631 6939.933105 88.087997"
+"spawnflags" "3"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "3550.546631 6891.884766 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3598.594971 6891.884766 88.087997"
+"spawnflags" "3"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "3646.642578 6891.884766 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3646.642578 7260.252930 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3598.594971 7372.364746 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3598.594971 7468.460449 88.087997"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"targetname" "submarine_spawns"
+"classname" "team_CTF_bluespawn"
+"origin" "3550.546631 7180.172852 92.091995"
+"spawnflags" "3"
+"angle" "90"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "3630.626709 7180.172852 92.091995"
+"classname" "team_CTF_bluespawn"
+"targetname" "submarine_spawns"
+}
+{
+"target" "truck_p1"
+"targetname" "truck_p0"
+"origin" "10506.495117 2946.943848 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "10250.239258 2946.943848 4.004000"
+"targetname" "truck_p1"
+"target" "truck_p2"
+}
+{
+"targetname" "truck_engine"
+"scriptname" "truck_engine"
+"origin" "8664.655273 3011.007568 72.071991"
+"classname" "target_speaker"
+"noise" "sound/player/default/blank.wav"
+}
+{
+"model2" "models/mapobjects/blitz_sd/blitzbody.md3"
+"classname" "script_mover"
+"scriptname" "truck"
+"targetname" "truck"
+"spawnflags" "2"
+"origin" "8712.703125 3019.015869 4.004000"
+"model" "*64"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "8776.767578 3019.015869 23.022999"
+"model" "models/mapobjects/blitz_sd/blitzwheelsb.md3"
+"targetname" "truck_bwheel2"
+"scriptname" "truck_bwheel2"
+}
+{
+"scriptname" "truck_fwheel"
+"targetname" "truck_fwheel"
+"classname" "misc_gamemodel"
+"origin" "8952.943359 3019.015869 21.021000"
+"model" "models/mapobjects/blitz_sd/blitzwheelsf.md3"
+}
+{
+"classname" "info_limbo_camera"
+"origin" "8024.015137 12172.159180 192.191986"
+"target" "limbo1"
+"objective" "1"
+}
+{
+"classname" "info_notnull"
+"origin" "8408.399414 11915.903320 80.079994"
+"targetname" "limbo1"
+}
+{
+"classname" "info_limbo_camera"
+"origin" "11531.519531 4612.607422 144.143982"
+"target" "limbo2"
+"objective" "2"
+}
+{
+"classname" "info_notnull"
+"origin" "11355.343750 4404.399902 80.079994"
+"targetname" "limbo2"
+}
+{
+"classname" "info_limbo_camera"
+"origin" "9721.711914 10538.527344 192.191986"
+"target" "limbo3"
+"objective" "3"
+}
+{
+"classname" "info_notnull"
+"origin" "9641.631836 10410.399414 112.112000"
+"targetname" "limbo3"
+}
+{
+"classname" "info_limbo_camera"
+"origin" "4228.224121 12380.367188 560.559998"
+"target" "limbo4"
+"objective" "4"
+}
+{
+"classname" "info_notnull"
+"origin" "4228.224121 12780.766602 560.559998"
+"targetname" "limbo4"
+}
+{
+"classname" "info_limbo_camera"
+"origin" "9177.167969 9529.519531 128.127991"
+"target" "limbo5"
+"objective" "5"
+}
+{
+"classname" "info_notnull"
+"origin" "9449.439453 9369.359375 72.071991"
+"targetname" "limbo5"
+}
+{
+"classname" "info_limbo_camera"
+"origin" "12060.046875 4596.591797 232.231979"
+"target" "limbo6"
+"objective" "6"
+}
+{
+"classname" "info_notnull"
+"origin" "11939.926758 4756.751465 120.119995"
+"targetname" "limbo6"
+}
+{
+"classname" "info_limbo_camera"
+"origin" "7015.007812 8456.448242 1081.079956"
+"target" "limbo7"
+"objective" "7"
+}
+{
+"classname" "info_notnull"
+"origin" "6630.623535 8296.288086 836.835999"
+"targetname" "limbo7"
+}
+{
+"classname" "info_limbo_camera"
+"origin" "3587.583984 8200.191406 360.359985"
+"target" "limbo0"
+"objective" "0"
+}
+{
+"classname" "info_notnull"
+"origin" "3587.583984 8007.999512 320.319977"
+"targetname" "limbo0"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4223.218750 14299.284180 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4244.239746 14310.295898 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4287.282715 14299.284180 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4308.303711 14310.295898 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4095.090820 14299.284180 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4116.111816 14310.295898 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4031.026611 14299.284180 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4052.047607 14310.295898 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4351.346680 14299.284180 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4372.367676 14310.295898 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4415.410645 14299.284180 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4436.431641 14310.295898 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "3966.962646 14299.284180 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "3987.983887 14310.295898 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4191.186523 14363.348633 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4212.207520 14374.359375 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4255.250977 14363.348633 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4276.271484 14374.359375 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4319.314941 14363.348633 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4340.335938 14374.359375 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4127.122559 14363.348633 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4148.144043 14374.359375 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4063.058838 14363.348633 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4084.079834 14374.359375 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4383.378906 14363.348633 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4404.399902 14374.359375 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4447.442871 14363.348633 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4468.463867 14374.359375 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "3998.994873 14363.348633 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4020.015869 14374.359375 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"spawnflags" "3"
+"origin" "4159.154785 14427.412109 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4180.175781 14438.422852 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4223.218750 14427.412109 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4244.239746 14438.422852 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4287.282715 14427.412109 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4308.303711 14438.422852 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4095.090820 14427.412109 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4116.111816 14438.422852 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4031.026611 14427.412109 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4052.047607 14438.422852 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4351.346680 14427.412109 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4372.367676 14438.422852 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4415.410645 14427.412109 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4436.431641 14438.422852 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "3966.962646 14427.412109 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "3987.983887 14438.422852 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4191.186523 14491.475586 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4212.207520 14502.487305 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4255.250977 14491.475586 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4276.271484 14502.487305 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4319.314941 14491.475586 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4340.335938 14502.487305 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4127.122559 14491.475586 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4148.144043 14502.487305 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4063.058838 14491.475586 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4084.079834 14502.487305 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "4383.378906 14491.475586 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4404.399902 14502.487305 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"angle" "270"
+"targetname" "forward_bunker_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "4447.442871 14491.475586 504.503967"
+"spawnflags" "3"
+}
+{
+"targetname" "forward_bunker_spawns"
+"origin" "4468.463867 14502.487305 504.503967"
+"classname" "team_CTF_bluespawn"
+"spawnflags" "1"
+"angle" "270"
+}
+{
+"spawnflags" "3"
+"origin" "3998.994873 14491.475586 504.503967"
+"classname" "team_CTF_redspawn"
+"targetname" "forward_bunker_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "team_CTF_bluespawn"
+"origin" "4020.015869 14502.487305 504.503967"
+"targetname" "forward_bunker_spawns"
+}
+{
+"target" "truck_p3"
+"targetname" "truck_p2"
+"origin" "9097.087891 2946.943848 4.004000"
+"classname" "info_train_spline_main"
+"control" "truck_p2_c"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "8712.703125 3331.327637 4.004000"
+"targetname" "truck_p3"
+"target" "truck_p4"
+}
+{
+"classname" "info_train_spline_control"
+"origin" "8712.703125 2946.943848 0.000000"
+"targetname" "truck_p2_c"
+}
+{
+"target" "truck_p5"
+"targetname" "truck_p4"
+"origin" "8712.703125 3715.711670 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "8712.703125 9609.599609 4.004000"
+"targetname" "truck_p5"
+"target" "truck_p6"
+}
+{
+"target" "truck_p7"
+"targetname" "truck_p6"
+"origin" "8712.703125 9993.983398 4.004000"
+"classname" "info_train_spline_main"
+"control" "truck_p6_c"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "9097.087891 10378.368164 4.004000"
+"targetname" "truck_p7"
+"target" "truck_p8"
+"control" "truck_p7_c"
+}
+{
+"classname" "info_train_spline_control"
+"origin" "8712.703125 10378.368164 0.000000"
+"targetname" "truck_p6_c"
+}
+{
+"target" "truck_p9"
+"targetname" "truck_p8"
+"origin" "9481.471680 10762.751953 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"targetname" "truck_p7_c"
+"origin" "9417.408203 10346.334961 0.000000"
+"classname" "info_train_spline_control"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "9481.471680 11147.134766 4.004000"
+"targetname" "truck_p9"
+"target" "truck_p10"
+"control" "truck_p9_c"
+}
+{
+"target" "truck_p11"
+"targetname" "truck_p10"
+"origin" "9097.087891 11531.519531 4.004000"
+"classname" "info_train_spline_main"
+"control" "truck_p10_c"
+}
+{
+"classname" "info_train_spline_control"
+"origin" "9481.471680 11531.519531 0.000000"
+"targetname" "truck_p9_c"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "8712.703125 11915.903320 4.004000"
+"targetname" "truck_p11"
+"target" "truck_p12"
+"control" "truck_p11_c"
+}
+{
+"target" "truck_p13"
+"targetname" "truck_p12"
+"origin" "9097.087891 12300.287109 4.004000"
+"classname" "info_train_spline_main"
+"control" "truck_p12_c"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "9481.471680 11915.903320 4.004000"
+"targetname" "truck_p13"
+"target" "truck_p14"
+}
+{
+"target" "truck_p15"
+"targetname" "truck_p14"
+"origin" "9481.471680 11531.519531 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"targetname" "truck_p10_c"
+"origin" "8712.703125 11531.519531 0.000000"
+"classname" "info_train_spline_control"
+}
+{
+"classname" "info_train_spline_control"
+"origin" "8712.703125 12300.287109 0.000000"
+"targetname" "truck_p11_c"
+}
+{
+"targetname" "truck_p12_c"
+"origin" "9481.471680 12300.287109 0.000000"
+"classname" "info_train_spline_control"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "9481.471680 11147.134766 4.004000"
+"targetname" "truck_p15"
+"target" "truck_p16"
+}
+{
+"control" "truck_p7_c"
+"target" "truck_p17"
+"targetname" "truck_p16"
+"origin" "9481.471680 10762.751953 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"control" "truck_p6_c"
+"classname" "info_train_spline_main"
+"origin" "9097.087891 10378.368164 4.004000"
+"targetname" "truck_p17"
+"target" "truck_p18"
+}
+{
+"target" "truck_p19"
+"targetname" "truck_p18"
+"origin" "8712.703125 9993.983398 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"classname" "info_train_spline_main"
+"origin" "8712.703125 9609.599609 4.004000"
+"targetname" "truck_p19"
+"target" "truck_p20"
+}
+{
+"target" "truck_p21"
+"targetname" "truck_p20"
+"origin" "8712.703125 2946.943848 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"control" "truck_p21_c"
+"classname" "info_train_spline_main"
+"origin" "8712.703125 2562.559814 4.004000"
+"targetname" "truck_p21"
+"target" "truck_p22"
+}
+{
+"target" "truck_p23"
+"targetname" "truck_p22"
+"origin" "9097.087891 2178.175781 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"control" "truck_p23_c"
+"classname" "info_train_spline_main"
+"origin" "10506.495117 2178.175781 4.004000"
+"targetname" "truck_p23"
+"target" "truck_p24"
+}
+{
+"control" "truck_p24_c"
+"target" "truck_p0"
+"targetname" "truck_p24"
+"origin" "10890.879883 2562.559814 4.004000"
+"classname" "info_train_spline_main"
+}
+{
+"targetname" "truck_p21_c"
+"origin" "8712.703125 2178.175781 0.000000"
+"classname" "info_train_spline_control"
+}
+{
+"classname" "info_train_spline_control"
+"origin" "10890.879883 2178.175781 0.000000"
+"targetname" "truck_p23_c"
+}
+{
+"targetname" "truck_p24_c"
+"origin" "10890.879883 2946.943848 0.000000"
+"classname" "info_train_spline_control"
+}
+{
+"classname" "func_explosive"
+"spawnflags" "4"
+"type" "glass"
+"health" "15"
+"model" "*65"
+}
+{
+"health" "15"
+"type" "glass"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*66"
+}
+{
+"classname" "func_explosive"
+"spawnflags" "4"
+"type" "glass"
+"health" "15"
+"model" "*67"
+}
+{
+"angle" "90"
+"classname" "misc_gamemodel"
+"origin" "12680.666992 3673.669922 6.006000"
+"model" "models/mapobjects/blitz_sd/blitzbody3_mm.md3"
+"targetname" "truck_1"
+"scriptname" "truck_1"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10957.946289 3912.908936 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"target" "truck_go"
+"ainame" "player"
+"cursorhint" "hint_button"
+"scriptname" "truck_fiu"
+"targetname" "truck_fiu"
+"classname" "func_invisible_user"
+"model" "*68"
+}
+{
+"classname" "target_script_trigger"
+"origin" "10330.319336 2946.943848 192.191986"
+"targetname" "truck_go"
+"scriptname" "truck_go"
+"target" "main"
+}
+{
+"track" "allied_cp_track"
+"scriptname" "allied_cp_open_model"
+"targetname" "allied_cp_open_model"
+"modelscale" "1.5"
+"angle" "360"
+"classname" "misc_gamemodel"
+"origin" "10265.254883 13368.354492 256.255981"
+"model" "models/mapobjects/radios_sd/compostalliedopened.md3"
+"skin" "models/mapobjects/radios_sd/compostalliedopened.skin"
+}
+{
+"track" "allied_cp_track"
+"spawnflags" "8"
+"classname" "func_constructible"
+"scriptname" "allied_cp_open"
+"targetname" "allied_cp_open"
+"origin" "10258.248047 13309.295898 370.369995"
+"model" "*69"
+}
+{
+"modelscale" "1.5"
+"angle" "360"
+"classname" "misc_gamemodel"
+"origin" "10265.254883 13368.354492 256.255981"
+"model" "models/mapobjects/radios_sd/compostallieddamaged.md3"
+"skin" "models/mapobjects/radios_sd/compostallieddamaged.skin"
+"targetname" "allied_cp_damaged_model"
+"scriptname" "allied_cp_damaged_model"
+}
+{
+"classname" "script_mover"
+"targetname" "allied_cp_damaged"
+"scriptname" "allied_cp_damaged"
+"spawnflags" "2"
+"origin" "10258.248047 13325.310547 370.369995"
+"model" "*70"
+}
+{
+"spawnflags" "64"
+"track" "the allied command post"
+"shortname" "allied command post"
+"classname" "trigger_objective_info"
+"targetname" "allied_cp_toi"
+"scriptname" "allied_cp_toi"
+"target" "allied_cp_open"
+"origin" "10274.263672 13309.295898 370.369995"
+"model" "*71"
+}
+{
+"model" "models/mapobjects/radios_sd/compostalliedclosed.md3"
+"origin" "10265.254883 13368.354492 256.255981"
+"classname" "misc_gamemodel"
+"angle" "360"
+"modelscale" "1.5"
+"skin" "models/mapobjects/radios_sd/compostalliedclosed.skin"
+"scriptname" "allied_cp_closed_model"
+"targetname" "allied_cp_closed_model"
+}
+{
+"classname" "script_mover"
+"scriptname" "allied_cp_closed"
+"targetname" "allied_cp_closed"
+"spawnflags" "2"
+"origin" "10274.263672 13325.310547 370.369995"
+"model" "*72"
+}
+{
+"spawnflags" "2"
+"classname" "script_mover"
+"scriptname" "allied_cp_clip"
+"origin" "10266.254883 13365.350586 370.369995"
+"model" "*73"
+}
+{
+"track" "axis_cp_track"
+"scriptname" "axis_cp_open_model"
+"targetname" "axis_cp_open_model"
+"modelscale" "1.5"
+"angle" "360"
+"classname" "misc_gamemodel"
+"origin" "4731.726562 14569.554688 482.481964"
+"model" "models/mapobjects/radios_sd/compostaxisopened.md3"
+"skin" "models/mapobjects/radios_sd/compostaxisopened.skin"
+}
+{
+"track" "axis_cp_track"
+"spawnflags" "4"
+"classname" "func_constructible"
+"scriptname" "axis_cp_open"
+"targetname" "axis_cp_open"
+"origin" "4724.719727 14510.496094 596.595947"
+"model" "*74"
+}
+{
+"modelscale" "1.5"
+"angle" "360"
+"classname" "misc_gamemodel"
+"origin" "4731.726562 14569.554688 482.481964"
+"model" "models/mapobjects/radios_sd/compostaxisdamaged.md3"
+"skin" "models/mapobjects/radios_sd/compostaxisdamaged.skin"
+"targetname" "axis_cp_damaged_model"
+"scriptname" "axis_cp_damaged_model"
+}
+{
+"classname" "script_mover"
+"targetname" "axis_cp_damaged"
+"scriptname" "axis_cp_damaged"
+"spawnflags" "2"
+"origin" "4724.719727 14526.510742 596.595947"
+"model" "*75"
+}
+{
+"spawnflags" "64"
+"track" "the axis command post"
+"shortname" "axis command post"
+"classname" "trigger_objective_info"
+"targetname" "axis_cp_toi"
+"scriptname" "axis_cp_toi"
+"target" "axis_cp_open"
+"origin" "4740.735840 14510.496094 596.595947"
+"model" "*76"
+}
+{
+"model" "models/mapobjects/radios_sd/compostaxisclosed.md3"
+"origin" "4731.726562 14569.554688 482.481964"
+"classname" "misc_gamemodel"
+"angle" "360"
+"modelscale" "1.5"
+"skin" "models/mapobjects/radios_sd/compostaxisclosed.skin"
+"scriptname" "axis_cp_closed_model"
+"targetname" "axis_cp_closed_model"
+}
+{
+"classname" "script_mover"
+"scriptname" "axis_cp_closed"
+"targetname" "axis_cp_closed"
+"spawnflags" "2"
+"origin" "4740.735840 14526.510742 596.595947"
+"model" "*77"
+}
+{
+"spawnflags" "2"
+"classname" "script_mover"
+"scriptname" "axis_cp_clip"
+"origin" "4732.727539 14566.550781 596.595947"
+"model" "*78"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11270.258789 3824.820801 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "11270.258789 3760.756836 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11206.194336 3792.788818 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "11206.194336 3856.852539 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11206.194336 3920.916748 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11142.129883 3888.884766 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "11142.129883 3824.820801 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11142.129883 3760.756836 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "11078.066406 3792.788818 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11078.066406 3856.852539 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "11078.066406 3920.916748 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "11014.002930 3888.884766 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11014.002930 3824.820801 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "11014.002930 3760.756836 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10949.938477 3792.788818 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "10949.938477 3856.852539 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10949.938477 3920.916748 360.359985"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11782.770508 3888.884766 360.359985"
+"spawnflags" "1"
+"angle" "360"
+}
+{
+"angle" "360"
+"spawnflags" "1"
+"origin" "11782.770508 3824.820801 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11782.770508 3760.756836 360.359985"
+"spawnflags" "1"
+"angle" "360"
+}
+{
+"angle" "360"
+"spawnflags" "1"
+"origin" "11846.834961 3920.916748 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11846.834961 3856.852539 360.359985"
+"spawnflags" "1"
+"angle" "360"
+}
+{
+"angle" "360"
+"spawnflags" "1"
+"origin" "11846.834961 3792.788818 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11910.898438 3888.884766 360.359985"
+"spawnflags" "1"
+"angle" "360"
+}
+{
+"angle" "360"
+"spawnflags" "1"
+"origin" "11910.898438 3824.820801 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11910.898438 3760.756836 360.359985"
+"spawnflags" "1"
+"angle" "360"
+}
+{
+"angle" "360"
+"spawnflags" "1"
+"origin" "11974.961914 3920.916748 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "11974.961914 3856.852539 360.359985"
+"spawnflags" "1"
+"angle" "360"
+}
+{
+"angle" "360"
+"spawnflags" "1"
+"origin" "11974.961914 3792.788818 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"targetname" "south_factory_axis_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "12039.025391 3888.884766 360.359985"
+"spawnflags" "1"
+"angle" "360"
+}
+{
+"angle" "360"
+"spawnflags" "1"
+"origin" "12039.025391 3824.820801 360.359985"
+"classname" "team_CTF_redspawn"
+"targetname" "south_factory_axis_spawns"
+}
+{
+"scriptname" "tibet"
+"targetname" "tibet"
+"classname" "script_mover"
+"origin" "8888.879883 4116.111816 784.783936"
+"model" "*79"
+}
+{
+"targetname" "tibet_p2"
+"origin" "3587.583984 5381.375977 496.495941"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "3587.583984 5381.375977 -448.447998"
+"targetname" "tibet_p1"
+}
+{
+"classname" "path_corner"
+"origin" "8888.879883 4116.111816 -448.447998"
+"targetname" "tibet_p0"
+}
+{
+"dmg" "800"
+"spawnflags" "1"
+"targetname" "plane5_engine2_te"
+"origin" "9297.288086 5845.839844 88.087997"
+"classname" "target_effect"
+}
+{
+"classname" "script_mover"
+"spawnflags" "10"
+"targetname" "plane5_engine1"
+"scriptname" "plane5_engine1"
+"health" "15"
+"origin" "9505.495117 5821.815918 80.079994"
+"model" "*80"
+}
+{
+"classname" "script_mover"
+"health" "15"
+"spawnflags" "10"
+"targetname" "plane5_engine2"
+"scriptname" "plane5_engine2"
+"origin" "9297.288086 5821.815918 80.079994"
+"model" "*81"
+}
+{
+"classname" "target_smoke"
+"origin" "9505.495117 5837.831543 104.103989"
+"spawnflags" "1"
+"targetname" "plane5_engine1_smoke"
+}
+{
+"targetname" "plane5_engine2_smoke"
+"spawnflags" "1"
+"origin" "9297.288086 5837.831543 104.103989"
+"classname" "target_smoke"
+}
+{
+"classname" "target_effect"
+"origin" "9505.495117 5845.839844 88.087997"
+"targetname" "plane5_engine1_te"
+"spawnflags" "1"
+"dmg" "800"
+}
+{
+"scriptname" "truck_1"
+"targetname" "truck_1"
+"model" "models/mapobjects/blitz_sd/blitzbody3_mm.md3"
+"origin" "8532.523438 5211.205566 6.006000"
+"classname" "misc_gamemodel"
+"angle" "90"
+}
+{
+"shortname" "barbed wire"
+"spawnflags" "2"
+"classname" "trigger_objective_info"
+"target" "axisconstruct1"
+"track" "the front barbed wire"
+"targetname" "axisconstruct1_toi"
+"origin" "3883.879883 12348.335938 384.383972"
+"model" "*82"
+}
+{
+"skin" "models/mapobjects/cmarker/axis_crates.skin"
+"angle" "90"
+"classname" "misc_gamemodel"
+"origin" "3875.871826 12326.313477 356.355988"
+"model" "models/mapobjects/cmarker/cmarker_crates.md3"
+"targetname" "axisconstruct1_materials"
+}
+{
+"targetname" "axisconstruct1_flag"
+"angle" "90"
+"skin" "models/mapobjects/cmarker/axis_cflag.skin"
+"model" "models/mapobjects/cmarker/cmarker_flag.md3"
+"origin" "3905.901611 12370.357422 404.403961"
+"classname" "misc_gamemodel"
+"modelscale" "0.4"
+"spawnflags" "2"
+"frames" "190"
+}
+{
+"scriptname" "axisconstruct1_clip"
+"targetname" "axisconstruct1_clip"
+"classname" "script_mover"
+"spawnflags" "2"
+"origin" "3859.855713 12328.315430 404.403961"
+"model" "*83"
+}
+{
+"spawnflags" "4"
+"scriptname" "axisconstruct1"
+"targetname" "axisconstruct1"
+"classname" "func_constructible"
+"origin" "3855.851807 12216.203125 420.419983"
+"model" "*84"
+}
+{
+"classname" "trigger_hurt"
+"targetname" "axisconstruct1_hurt"
+"spawnflags" "16"
+"dmg" "40"
+"model" "*85"
+}
+{
+"scriptname" "axisconstruct2"
+"targetname" "axisconstruct2"
+"spawnflags" "4"
+"classname" "func_constructible"
+"origin" "3251.247559 12876.863281 576.575928"
+"model" "*86"
+}
+{
+"targetname" "axisconstruct2_toi"
+"track" "the side barbed wire"
+"target" "axisconstruct2"
+"classname" "trigger_objective_info"
+"spawnflags" "2"
+"shortname" "barbed wire"
+"origin" "3483.479980 13021.006836 496.495941"
+"model" "*87"
+}
+{
+"targetname" "axisconstruct2_materials"
+"model" "models/mapobjects/cmarker/cmarker_crates.md3"
+"origin" "3475.471680 12998.985352 468.467987"
+"classname" "misc_gamemodel"
+"angle" "90"
+"skin" "models/mapobjects/cmarker/axis_crates.skin"
+}
+{
+"frames" "190"
+"spawnflags" "2"
+"modelscale" "0.4"
+"classname" "misc_gamemodel"
+"origin" "3505.501709 13043.029297 516.515930"
+"model" "models/mapobjects/cmarker/cmarker_flag.md3"
+"skin" "models/mapobjects/cmarker/axis_cflag.skin"
+"angle" "90"
+"targetname" "axisconstruct2_flag"
+}
+{
+"spawnflags" "2"
+"classname" "script_mover"
+"targetname" "axisconstruct2_clip"
+"scriptname" "axisconstruct2_clip"
+"origin" "3459.455811 13000.987305 516.515930"
+"model" "*88"
+}
+{
+"spawnflags" "16"
+"dmg" "40"
+"targetname" "axisconstruct2_hurt"
+"classname" "trigger_hurt"
+"model" "*89"
+}
+{
+"spawnflags" "1"
+"origin" "9828.818359 9486.476562 56.056000"
+"classname" "team_wolf_objective"
+"description" "west factory"
+"targetname" "west_factory_wobj"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9796.786133 9286.276367 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "9844.834961 9286.276367 24.023998"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9892.882812 9286.276367 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "9892.882812 9334.324219 24.023998"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9892.882812 9382.373047 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "9892.882812 9446.436523 24.023998"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9844.834961 9446.436523 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "9796.786133 9446.436523 24.023998"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9812.802734 9494.484375 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "9860.850586 9494.484375 24.023998"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9908.898438 9494.484375 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "9892.882812 9542.533203 24.023998"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9844.834961 9542.533203 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "9796.786133 9542.533203 24.023998"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9796.786133 9590.580078 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "9844.834961 9590.580078 24.023998"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"angle" "90"
+"spawnflags" "1"
+"origin" "9892.882812 9590.580078 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10069.058594 9350.339844 24.023998"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "10053.042969 9398.388672 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10069.058594 9446.436523 24.023998"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "10053.042969 9494.484375 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10069.058594 9542.533203 24.023998"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "10117.106445 9526.516602 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10117.106445 9478.468750 24.023998"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "10133.123047 9430.419922 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10117.106445 9382.373047 24.023998"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "10133.123047 9334.324219 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10165.154297 9382.373047 24.023998"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "10181.169922 9446.436523 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10181.169922 9494.484375 24.023998"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "10165.154297 9542.533203 24.023998"
+"classname" "team_CTF_redspawn"
+"targetname" "west_factory_spawns"
+}
+{
+"targetname" "west_factory_spawns"
+"classname" "team_CTF_redspawn"
+"origin" "10229.218750 9510.500000 24.023998"
+"spawnflags" "1"
+"angle" "180"
+}
+{
+"origin" "8512.502930 5353.347656 104.103989"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "8512.502930 5321.315918 104.103989"
+}
+{
+"origin" "8512.502930 5289.283691 104.103989"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "8512.502930 5257.251465 104.103989"
+}
+{
+"origin" "8512.502930 5225.219727 104.103989"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "8552.542969 5353.347656 104.103989"
+}
+{
+"origin" "8552.542969 5321.315918 104.103989"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "8552.542969 5289.283691 104.103989"
+}
+{
+"origin" "8552.542969 5257.251465 104.103989"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "8552.542969 5225.219727 104.103989"
+}
+{
+"classname" "script_mover"
+"spawnflags" "2"
+"targetname" "factory_lift"
+"scriptname" "factory_lift"
+"origin" "11531.519531 3635.631836 336.335999"
+"model" "*90"
+}
+{
+"classname" "path_corner"
+"origin" "11531.519531 3635.631836 208.207977"
+"targetname" "factory_lift_p1"
+}
+{
+"targetname" "factory_lift_p0"
+"origin" "11531.519531 3635.631836 336.335999"
+"classname" "path_corner"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "factory_lift_tm"
+"scriptname" "factory_lift_tm"
+"target" "factory_lift_tst"
+"model" "*91"
+}
+{
+"classname" "target_script_trigger"
+"origin" "11531.519531 3523.519775 376.375946"
+"targetname" "factory_lift_tst"
+"scriptname" "factory_lift_tst"
+"target" "run"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "10957.946289 3848.844971 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10957.946289 3784.780762 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "11022.009766 3896.892578 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11022.009766 3832.828857 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "11022.009766 3768.764893 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11086.074219 3784.780762 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "11086.074219 3848.844971 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11086.074219 3912.908936 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "11150.138672 3896.892578 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11150.138672 3832.828857 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "11150.138672 3768.764893 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11214.203125 3784.780762 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "11214.203125 3848.844971 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11214.203125 3912.908936 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "11278.266602 3896.892578 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11278.266602 3832.828857 360.359985"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "180"
+"spawnflags" "1"
+"origin" "11278.266602 3768.764893 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11774.761719 3896.892578 360.359985"
+"spawnflags" "1"
+"angle" "360"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "360"
+"spawnflags" "1"
+"origin" "11774.761719 3832.828857 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11774.761719 3768.764893 360.359985"
+"spawnflags" "1"
+"angle" "360"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "360"
+"spawnflags" "1"
+"origin" "11838.826172 3784.780762 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11838.826172 3848.844971 360.359985"
+"spawnflags" "1"
+"angle" "360"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "360"
+"spawnflags" "1"
+"origin" "11838.826172 3912.908936 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11902.890625 3896.892578 360.359985"
+"spawnflags" "1"
+"angle" "360"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "360"
+"spawnflags" "1"
+"origin" "11902.890625 3832.828857 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11902.890625 3768.764893 360.359985"
+"spawnflags" "1"
+"angle" "360"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "360"
+"spawnflags" "1"
+"origin" "11966.954102 3784.780762 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "11966.954102 3848.844971 360.359985"
+"spawnflags" "1"
+"angle" "360"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "360"
+"spawnflags" "1"
+"origin" "11966.954102 3912.908936 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "12031.018555 3896.892578 360.359985"
+"spawnflags" "1"
+"angle" "360"
+"targetname" "south_factory_allied_spawns"
+}
+{
+"targetname" "south_factory_allied_spawns"
+"angle" "360"
+"spawnflags" "1"
+"origin" "12031.018555 3832.828857 360.359985"
+"classname" "team_CTF_bluespawn"
+}
+{
+"dmg" "20000"
+"targetname" "compound_wire_hurt"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+"model" "*92"
+}
+{
+"classname" "path_corner"
+"targetname" "lever_elec_up"
+"origin" "11231.219727 4275.270996 62.061993"
+}
+{
+"origin" "11231.219727 4275.270996 48.047997"
+"targetname" "lever_elec_down"
+"classname" "path_corner"
+}
+{
+"target" "main"
+"scriptname" "lever_elec_tst"
+"classname" "target_script_trigger"
+"origin" "11231.219727 4308.303711 104.103989"
+"targetname" "lever_elec_tst"
+}
+{
+"ainame" "player"
+"classname" "func_invisible_user"
+"cursorhint" "hint_button"
+"target" "lever_elec_tst"
+"scriptname" "lever_elec_fiu"
+"targetname" "lever_elec_fiu"
+"model" "*93"
+}
+{
+"scriptname" "lever_elec"
+"targetname" "lever_elec"
+"classname" "script_mover"
+"origin" "11231.219727 4275.270996 62.061993"
+"model" "*94"
+}
+{
+"classname" "path_corner"
+"origin" "9593.583008 9601.591797 1065.063965"
+"targetname" "balloon_p30"
+}
+{
+"targetname" "balloon_p40"
+"origin" "9593.583008 9601.591797 234.233994"
+"classname" "path_corner"
+}
+{
+"targetname" "balloon_p31"
+"origin" "9369.359375 8320.311523 1065.063965"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "9369.359375 8320.311523 44.043999"
+"targetname" "balloon_p41"
+}
+{
+"classname" "path_corner"
+"origin" "9497.487305 6910.903320 1065.063965"
+"targetname" "balloon_p32"
+}
+{
+"targetname" "balloon_p42"
+"origin" "9497.487305 6910.903320 320.319977"
+"classname" "path_corner"
+}
+{
+"targetname" "balloon_p33"
+"origin" "9193.183594 5773.767578 1065.063965"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "9193.183594 5773.767578 120.119995"
+"targetname" "balloon_p43"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "16"
+"targetname" "compound_wire_hurt"
+"dmg" "20000"
+"model" "*95"
+}
+{
+"dmg" "20000"
+"targetname" "compound_wire_hurt"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+"model" "*96"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "16"
+"targetname" "compound_wire_hurt"
+"dmg" "20000"
+"model" "*97"
+}
+{
+"scriptname" "north_factory_wobj"
+"targetname" "north_factory_wobj"
+"description" "north factory"
+"classname" "team_wolf_objective"
+"origin" "10170.159180 13341.327148 168.167999"
+"spawnflags" "2"
+}
+{
+"angle" "180"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10426.415039 13165.150391 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10426.415039 13245.230469 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "180"
+}
+{
+"angle" "180"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10442.431641 13453.439453 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10394.383789 13533.519531 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "225"
+}
+{
+"angle" "225"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10330.319336 13517.502930 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10330.319336 13421.407227 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "225"
+}
+{
+"angle" "225"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10330.319336 13341.327148 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10330.319336 13261.247070 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "225"
+}
+{
+"angle" "225"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10282.271484 13165.150391 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10234.223633 13517.502930 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "225"
+}
+{
+"angle" "270"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10202.191406 13437.422852 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10202.191406 13341.327148 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10170.159180 13245.230469 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10106.094727 13197.183594 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10074.063477 13309.295898 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10106.094727 13389.375977 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10106.094727 13469.456055 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10170.159180 13165.150391 280.279999"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10346.334961 13213.199219 280.279999"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10218.208008 13181.166992 280.279999"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10234.223633 13133.119141 280.279999"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10234.223633 13229.215820 280.279999"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10298.288086 13181.166992 280.279999"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10394.383789 13229.215820 280.279999"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10378.368164 13165.150391 280.279999"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10026.015625 13517.502930 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "315"
+}
+{
+"angle" "315"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "10010.000000 13437.422852 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "9945.935547 13517.502930 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "315"
+}
+{
+"angle" "315"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "9961.951172 13373.359375 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "9865.855469 13485.470703 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "315"
+}
+{
+"angle" "315"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "9865.855469 13421.407227 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "9865.855469 13341.327148 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_allied_spawns"
+"angle" "315"
+}
+{
+"angle" "315"
+"targetname" "north_factory_allied_spawns"
+"spawnflags" "1"
+"origin" "9881.871094 13277.263672 88.087997"
+"classname" "team_CTF_bluespawn"
+}
+{
+"objective" "8"
+"target" "limbo8"
+"origin" "10362.351562 12988.975586 328.327972"
+"classname" "info_limbo_camera"
+}
+{
+"targetname" "limbo8"
+"origin" "10266.254883 13301.287109 312.311981"
+"classname" "info_notnull"
+}
+{
+"classname" "shooter_rocket"
+"origin" "3515.511719 6918.911621 1041.039917"
+"targetname" "balloon_fire1"
+"target" "balloon_fire1_t"
+}
+{
+"scriptname" "balloon_fire1_t"
+"classname" "info_notnull"
+"origin" "3515.511719 6998.991699 1041.039917"
+"targetname" "balloon_fire1_t"
+}
+{
+"target" "balloon_fire2_t"
+"targetname" "balloon_fire2"
+"origin" "4796.791504 7687.679688 1041.039917"
+"classname" "shooter_rocket"
+}
+{
+"targetname" "balloon_fire2_t"
+"origin" "4796.791504 7767.759766 1041.039917"
+"classname" "info_notnull"
+"scriptname" "balloon_fire2_t"
+}
+{
+"classname" "shooter_rocket"
+"origin" "5053.047363 7303.295410 1041.039917"
+"targetname" "balloon_fire3"
+"target" "balloon_fire3_t"
+}
+{
+"scriptname" "balloon_fire3_t"
+"classname" "info_notnull"
+"origin" "5053.047363 7383.375488 1041.039917"
+"targetname" "balloon_fire3_t"
+}
+{
+"target" "balloon_fire4_t"
+"targetname" "balloon_fire4"
+"origin" "4796.791504 6918.911621 1041.039917"
+"classname" "shooter_rocket"
+}
+{
+"targetname" "balloon_fire4_t"
+"origin" "4796.791504 6998.991699 1041.039917"
+"classname" "info_notnull"
+"scriptname" "balloon_fire4_t"
+}
+{
+"classname" "shooter_rocket"
+"origin" "5021.015625 6406.399902 1041.039917"
+"targetname" "balloon_fire5"
+"target" "balloon_fire5_t"
+}
+{
+"scriptname" "balloon_fire5_t"
+"classname" "info_notnull"
+"origin" "5021.015625 6486.479980 1041.039917"
+"targetname" "balloon_fire5_t"
+}
+{
+"classname" "path_corner"
+"origin" "3475.471680 12876.863281 480.479980"
+"targetname" "gunfire_t0"
+}
+{
+"targetname" "gunfire_t1"
+"origin" "3875.871826 12252.239258 416.415955"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "4868.863770 12588.576172 480.479980"
+"targetname" "gunfire_t2"
+}
+{
+"targetname" "gunfire_t3"
+"origin" "4324.319824 11691.679688 368.367981"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"origin" "5317.311523 9513.502930 704.703979"
+"targetname" "gunfire_t4"
+}
+{
+"classname" "path_corner"
+"origin" "6022.015137 9953.943359 640.639954"
+"targetname" "gunfire_t5"
+}
+{
+"classname" "script_mover"
+"targetname" "dinghy1"
+"scriptname" "dinghy1"
+"model2" "models/mapobjects/dinghy_sd/dinghy.md3"
+"spawnflags" "2"
+"origin" "2386.383789 8136.127930 170.169998"
+"model" "*98"
+}
+{
+"classname" "path_corner"
+"origin" "2386.383789 8136.127930 170.169998"
+"targetname" "dinghy1_p0"
+}
+{
+"targetname" "dinghy1_p1"
+"origin" "2386.383789 10130.119141 170.169998"
+"classname" "path_corner"
+}
+{
+"targetname" "dinghy1_sub_fiu"
+"scriptname" "dinghy1_sub_fiu"
+"target" "dinghy1_sub_tst"
+"cursorhint" "hint_button"
+"classname" "func_invisible_user"
+"ainame" "player"
+"model" "*99"
+}
+{
+"target" "main"
+"scriptname" "dinghy1_sub_tst"
+"classname" "target_script_trigger"
+"origin" "2386.383789 8136.127930 256.255981"
+"targetname" "dinghy1_sub_tst"
+}
+{
+"ainame" "player"
+"classname" "func_invisible_user"
+"cursorhint" "hint_button"
+"target" "dinghy1_beach_tst"
+"scriptname" "dinghy1_beach_fiu"
+"targetname" "dinghy1_beach_fiu"
+"model" "*100"
+}
+{
+"targetname" "dinghy1_beach_tst"
+"origin" "2386.383789 10130.119141 256.255981"
+"classname" "target_script_trigger"
+"scriptname" "dinghy1_beach_tst"
+"target" "main"
+}
+{
+"targetname" "dinghy1_ladder"
+"classname" "func_static"
+"model" "*101"
+}
+{
+"track" "alliedconstruct_mg42_track"
+"angle" "90"
+"origin" "1737.735840 8044.035156 363.362976"
+"classname" "misc_mg42"
+"targetname" "alliedconstruct_mg42_mg42"
+}
+{
+"shortname" "island mg42"
+"classname" "trigger_objective_info"
+"target" "alliedconstruct_mg42"
+"track" "the island mg42"
+"targetname" "alliedconstruct_mg42_toi"
+"spawnflags" "2"
+"origin" "1617.615845 7999.991699 368.367981"
+"model" "*102"
+}
+{
+"skin" "models/mapobjects/cmarker/allied_crates.skin"
+"angle" "270"
+"classname" "misc_gamemodel"
+"origin" "1625.623779 7977.969727 344.343994"
+"model" "models/mapobjects/cmarker/cmarker_crates.md3"
+"targetname" "alliedconstruct_mg42_materials"
+}
+{
+"targetname" "alliedconstruct_mg42_flag"
+"angle" "360"
+"skin" "models/mapobjects/cmarker/allied_cflag.skin"
+"model" "models/mapobjects/cmarker/cmarker_flag.md3"
+"origin" "1595.593872 8022.013184 392.391968"
+"classname" "misc_gamemodel"
+"modelscale" "0.4"
+"spawnflags" "2"
+"frames" "190"
+}
+{
+"scriptname" "alliedconstruct_mg42_clip"
+"targetname" "alliedconstruct_mg42_clip"
+"classname" "script_mover"
+"spawnflags" "2"
+"origin" "1641.639893 7975.967773 392.391968"
+"model" "*103"
+}
+{
+"spawnflags" "8"
+"track" "alliedconstruct_mg42_track"
+"scriptname" "alliedconstruct_mg42"
+"classname" "func_constructible"
+"targetname" "alliedconstruct_mg42"
+"origin" "1737.735840 8040.031738 356.355988"
+"model" "*104"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10434.422852 13157.143555 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "180"
+}
+{
+"angle" "180"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10434.422852 13237.223633 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10450.439453 13445.430664 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "180"
+}
+{
+"angle" "225"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10402.391602 13525.510742 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10338.328125 13509.496094 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "225"
+}
+{
+"angle" "225"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10338.328125 13413.399414 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10338.328125 13333.319336 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "225"
+}
+{
+"angle" "225"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10338.328125 13253.239258 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10290.279297 13157.143555 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "225"
+}
+{
+"angle" "225"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10242.231445 13509.496094 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10210.199219 13429.416016 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10210.199219 13333.319336 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10178.167969 13237.223633 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10114.103516 13189.175781 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10082.071289 13301.287109 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10114.103516 13381.367188 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10114.103516 13461.447266 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10178.167969 13157.143555 280.279999"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10354.343750 13205.190430 280.279999"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10226.214844 13173.159180 280.279999"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10242.231445 13125.110352 280.279999"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10242.231445 13221.207031 280.279999"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10306.294922 13173.159180 280.279999"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "270"
+}
+{
+"angle" "270"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10402.391602 13221.207031 280.279999"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10386.375000 13157.143555 280.279999"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "270"
+}
+{
+"angle" "315"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "10034.023438 13509.496094 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "10018.007812 13429.416016 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "315"
+}
+{
+"angle" "315"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "9953.943359 13509.496094 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "9969.959961 13365.350586 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "315"
+}
+{
+"angle" "315"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "9873.863281 13477.462891 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "9873.863281 13413.399414 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "315"
+}
+{
+"angle" "315"
+"targetname" "north_factory_axis_spawns"
+"spawnflags" "1"
+"origin" "9873.863281 13333.319336 88.087997"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "9889.879883 13269.255859 88.087997"
+"spawnflags" "1"
+"targetname" "north_factory_axis_spawns"
+"angle" "315"
+}
+{
+"spawnflags" "8"
+"track" "alliedconstruct3_track"
+"scriptname" "alliedconstruct3"
+"classname" "func_constructible"
+"targetname" "alliedconstruct3"
+"origin" "11163.151367 3707.703857 192.191986"
+"model" "*105"
+}
+{
+"shortname" "escape ladder"
+"spawnflags" "1"
+"classname" "trigger_objective_info"
+"target" "alliedconstruct3"
+"track" "the escape ladder"
+"targetname" "alliedconstruct3_toi"
+"origin" "11043.031250 3443.439941 24.023998"
+"model" "*106"
+}
+{
+"skin" "models/mapobjects/cmarker/allied_crates.skin"
+"angle" "90"
+"classname" "misc_gamemodel"
+"origin" "11035.023438 3421.417725 0.000000"
+"model" "models/mapobjects/cmarker/cmarker_crates.md3"
+"targetname" "alliedconstruct3_materials"
+}
+{
+"targetname" "alliedconstruct3_flag"
+"angle" "90"
+"skin" "models/mapobjects/cmarker/allied_cflag.skin"
+"model" "models/mapobjects/cmarker/cmarker_flag.md3"
+"origin" "11065.053711 3465.461670 48.047997"
+"classname" "misc_gamemodel"
+"modelscale" "0.4"
+"spawnflags" "2"
+"frames" "190"
+}
+{
+"scriptname" "alliedconstruct3_clip"
+"targetname" "alliedconstruct3_clip"
+"classname" "script_mover"
+"spawnflags" "2"
+"origin" "11019.007812 3423.419922 48.047997"
+"model" "*107"
+}
+{
+"spawnflags" "2"
+"scriptname" "balloon5"
+"targetname" "balloon5"
+"classname" "script_mover"
+"origin" "1985.983765 5309.303711 272.271973"
+"model" "*108"
+}
+{
+"angle" "90"
+"classname" "misc_gamemodel"
+"origin" "9637.627930 11249.237305 6.006000"
+"model" "models/mapobjects/blitz_sd/blitzbody3_mm.md3"
+"targetname" "truck_1"
+"scriptname" "truck_1"
+}
+{
+"classname" "func_static"
+"targetname" "airstrip_wall"
+"model" "*109"
+}
+{
+"health" "150"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*110"
+}
+{
+"health" "150"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*111"
+}
+{
+"health" "150"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*112"
+}
+{
+"health" "150"
+"spawnflags" "4"
+"classname" "func_explosive"
+"model" "*113"
+}
