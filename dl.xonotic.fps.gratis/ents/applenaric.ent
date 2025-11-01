@@ -1,0 +1,254 @@
+{
+"gridsize" "80 80 144"
+"classname" "worldspawn"
+"message" "^7For Apple^2*"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-352 -288 -40"
+"speed" "1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-144 -320 0"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_startTimer1"
+"model" "*4"
+}
+{
+"classname" "func_pendulum"
+"speed" "50"
+"origin" "0 600 1024"
+"model" "*5"
+}
+{
+"classname" "item_armor_shard"
+"origin" "1024 -1344 -264"
+}
+{
+"classname" "item_armor_shard"
+"origin" "1024 -1984 -264"
+}
+{
+"classname" "item_armor_shard"
+"origin" "1024 -1856 -264"
+}
+{
+"classname" "item_armor_shard"
+"origin" "1024 -1728 -264"
+}
+{
+"classname" "item_armor_shard"
+"origin" "1024 -1600 -264"
+}
+{
+"classname" "item_armor_shard"
+"origin" "1024 -1472 -264"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "800 800 -80"
+"spawnflags" "1"
+"count" "1"
+}
+{
+"classname" "ammo_cells"
+"origin" "1656 -3760 -168"
+"spawnflags" "1"
+"count" "180"
+}
+{
+"classname" "target_push"
+"origin" "2832 -2016 528"
+"target" "target_push3"
+"targetname" "target_push1"
+}
+{
+"classname" "info_notnull"
+"origin" "2832 -1952 576"
+"targetname" "target_push3"
+}
+{
+"classname" "trigger_push"
+"target" "target_push1"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give1"
+"model" "*7"
+}
+{
+"classname" "target_give"
+"origin" "2112 -2760 8"
+"targetname" "target_give1"
+"target" "orozje"
+}
+{
+"classname" "item_enviro"
+"origin" "2120 -2760 128"
+"targetname" "orozje"
+}
+{
+"classname" "item_haste"
+"origin" "2160 -2760 96"
+"targetname" "orozje"
+}
+{
+"classname" "func_bobbing"
+"origin" "1792 -1128 -256"
+"model" "*8"
+}
+{
+"classname" "func_bobbing"
+"origin" "1616 -24 544"
+"model" "*9"
+}
+{
+"classname" "func_bobbing"
+"origin" "1504 1024 1032"
+"model" "*10"
+}
+{
+"classname" "func_rotating"
+"origin" "5600 -736 416"
+"model" "*11"
+}
+{
+"classname" "func_rotating"
+"speed" "150"
+"origin" "5600 -736 416"
+"model" "*12"
+}
+{
+"classname" "func_rotating"
+"speed" "90"
+"origin" "5600 -736 416"
+"model" "*13"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "8"
+"speed" "6"
+"origin" "1696 4212 2728"
+"model" "*14"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "8"
+"speed" "20"
+"origin" "1696 4252 2728"
+"model" "*15"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give2"
+"model" "*16"
+}
+{
+"classname" "target_give"
+"origin" "2024 1816 672"
+"targetname" "target_give2"
+"target" "item_haste1"
+}
+{
+"classname" "item_haste"
+"origin" "2136 1888 672"
+"targetname" "item_haste1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "200"
+"model" "*17"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*18"
+}
+{
+"classname" "target_stopTimer"
+"origin" "64 1768 528"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*19"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1056 -1136 -216"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*20"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2176 -2576 -216"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*21"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1872 1704 584"
+"targetname" "target_checkpoint4"
+"angle" "-90"
+}
+{
+"classname" "func_bobbing"
+"speed" "500"
+"height" "1024"
+"origin" "-1712 3040 2280"
+"model" "*22"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*23"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2048 -2688 -168"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest2"
+"model" "*24"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2736 816 624"
+"angle" "90"
+"targetname" "misc_teleporter_dest2"
+}
