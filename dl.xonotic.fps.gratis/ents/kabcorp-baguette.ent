@@ -1,0 +1,118 @@
+{
+"classname" "worldspawn"
+"light" "1500"
+}
+{
+"classname" "info_player_start"
+"origin" "-96 -96 48"
+"angle" "17.6436"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "148 192 -172"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give1"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "target_give"
+"origin" "-1792 4672 -192"
+"targetname" "target_give1"
+"target" "weapon_plasmagun1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_give2"
+"model" "*3"
+}
+{
+"classname" "target_give"
+"origin" "-48 -32 96"
+"targetname" "target_give2"
+"target" "weapon_plasmagun2"
+}
+{
+"classname" "item_enviro"
+"origin" "0 0 64"
+"targetname" "weapon_plasmagun2"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-1792 4672 -256"
+"targetname" "weapon_plasmagun1"
+"count" "20"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-2152 -9768 -1664"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_give3"
+"model" "*6"
+}
+{
+"classname" "target_give"
+"origin" "256 200 48"
+"targetname" "target_give3"
+"target" "weapon_plasmagun3"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "256 224 48"
+"count" "2"
+"targetname" "weapon_plasmagun3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-768 2720 128"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1760 4928 -864"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1984 1856 -2784"
+"targetname" "target_checkpoint3"
+}
