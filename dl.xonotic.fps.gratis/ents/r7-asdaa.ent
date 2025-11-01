@@ -1,0 +1,44 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_stopTimer"
+"origin" "3480 3264 320"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "656 3024 200"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "128 352 200"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*3"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "999"
+"model" "*4"
+}
+{
+"origin" "128 24 32"
+"angle" "90"
+"classname" "info_player_start"
+}
