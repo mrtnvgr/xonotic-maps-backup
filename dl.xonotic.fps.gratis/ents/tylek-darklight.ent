@@ -1,0 +1,60 @@
+{
+"classname" "worldspawn"
+"angle" "135"
+}
+{
+"classname" "info_player_start"
+"angle" "180"
+"origin" "-1232 288 424"
+}
+{
+"classname" "target_position"
+"origin" "2488 -1872 208"
+"targetname" "t2"
+}
+{
+"classname" "target_position"
+"origin" "2264 -1872 208"
+"targetname" "t1"
+}
+{
+"classname" "trigger_push"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "trigger_push"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "target_startTimer"
+"origin" "-1400 288 480"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "272 -2016 -960"
+"targetname" "t4"
+}
+{
+"classname" "trigger_teleport"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2376 -1976 -912"
+"angle" "-90"
+"targetname" "t5"
+}
