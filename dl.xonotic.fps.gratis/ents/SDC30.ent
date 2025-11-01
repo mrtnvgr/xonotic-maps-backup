@@ -1,0 +1,58 @@
+{
+"gridsize" "96 80 144"
+"_color" "0.000000 0.498314 1.000000"
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "152 -4160 920"
+"targetname" "start"
+}
+{
+"classname" "item_enviro"
+"origin" "-80 -4848 720"
+"count" "999"
+"wait" "3"
+}
+{
+"count" "999"
+"wait" "3"
+"origin" "80 -4848 720"
+"classname" "weapon_rocketlauncher"
+}
+{
+"angle" "90"
+"classname" "info_player_deathmatch"
+"origin" "0 -4848 728"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "999"
+"model" "*2"
+}
+{
+"target" "finishas"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "finishas"
+"origin" "0 27328 240"
+"classname" "target_stopTimer"
+}
+{
+"target" "gy"
+"classname" "trigger_push"
+"model" "*4"
+}
+{
+"targetname" "gy"
+"origin" "-32 33320 224"
+"classname" "target_position"
+}
