@@ -1,0 +1,134 @@
+{
+"gridsize" "215,160,000,000,000,000,000,000,000,000"
+"_blocksize" "4096"
+"_lightmapscale" ".3"
+"ambient" "15"
+"message" "Made By BardoK"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-32 -96 32"
+"angle" "90"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-160 -96 64"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "288 1320 0"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "416 1504 -64"
+"targetname" "t3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1888 224 -640"
+"targetname" "t4"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "600 800 0"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1632 224 -376"
+"targetname" "t6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*6"
+}
+{
+"classname" "target_startTimer"
+"origin" "-32 32 64"
+"targetname" "t8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"model" "*7"
+}
+{
+"targetname" "t9"
+"origin" "2784 736 -640"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t9"
+"classname" "trigger_teleport"
+"model" "*8"
+}
+{
+"targetname" "t10"
+"origin" "2856 744 -552"
+"classname" "target_checkpoint"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t11"
+"angle" "270"
+"origin" "4704 736 -640"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t11"
+"classname" "trigger_teleport"
+"model" "*10"
+}
+{
+"targetname" "t12"
+"origin" "3168 -240 -504"
+"classname" "target_stopTimer"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "t13"
+"origin" "4392 728 -560"
+"classname" "target_checkpoint"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*12"
+}
