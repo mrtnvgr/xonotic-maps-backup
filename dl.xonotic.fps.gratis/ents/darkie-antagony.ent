@@ -1,0 +1,105 @@
+{
+"classname" "worldspawn"
+}
+{
+"angle" "-90.000000"
+"origin" "-416.000000 800.000000 32.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t1"
+"message" "You found Secret #1! \n Boxxy forever <3"
+"origin" "-224 352 152"
+"classname" "target_print"
+}
+{
+"targetname" "t2"
+"spawnflags" "4"
+"angle" "90"
+"classname" "func_door"
+"model" "*2"
+}
+{
+"target" "t2"
+"angle" "270"
+"health" "1"
+"classname" "func_button"
+"model" "*3"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t3"
+"message" "WOOT! Secret #2!"
+"origin" "-216 224 568"
+"classname" "target_print"
+}
+{
+"targetname" "t4"
+"angle" "360"
+"classname" "func_door"
+"model" "*5"
+}
+{
+"target" "t4"
+"angle" "180"
+"health" "1"
+"classname" "func_button"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"message" "Congratulations! \n You found the last secret!"
+"origin" "808 520 832"
+"classname" "target_print"
+}
+{
+"target" "t5"
+"angle" "180"
+"health" "1"
+"classname" "func_button"
+"model" "*8"
+}
+{
+"target" "t6"
+"targetname" "t5"
+"origin" "-216 -144 80"
+"classname" "target_teleporter"
+}
+{
+"targetname" "t6"
+"angle" "90"
+"origin" "576 256 384"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t7"
+"origin" "152 40 464"
+"classname" "target_stopTimer"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "t8"
+"origin" "-424 288 96"
+"classname" "target_startTimer"
+}
