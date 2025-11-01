@@ -1,0 +1,42 @@
+{
+"classname" "worldspawn"
+"ambient" "5"
+}
+{
+"classname" "info_player_start"
+"origin" "32 80 32"
+"angle" "90"
+}
+{
+"classname" "func_pendulum"
+"speed" "30"
+"dmg" "0"
+"angle" "1"
+"origin" "32 864 -36"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "-40 96 80"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "48 1632 56"
+"targetname" "t2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*4"
+}
