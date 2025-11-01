@@ -1,0 +1,143 @@
+{
+"angle" "270"
+"classname" "worldspawn"
+}
+{
+"target" "t12"
+"classname" "info_player_start"
+"origin" "23792 -5792 -176"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "23424 -5824 -64"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "8288 4832 -576"
+"targetname" "t2"
+}
+{
+"target" "t3"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t3"
+"origin" "18240 -5312 64"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "14592 -3392 64"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "13760 -6912 64"
+"targetname" "t5"
+}
+{
+"target" "t6"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t6"
+"origin" "7552 -6848 64"
+"classname" "target_checkpoint"
+}
+{
+"target" "t7"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t7"
+"origin" "5440 -3776 64"
+"classname" "target_checkpoint"
+}
+{
+"target" "t8"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t8"
+"origin" "5992 -3424 -380"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t9"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3360 -1024 64"
+"targetname" "t9"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t10"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5472 4608 64"
+"targetname" "t10"
+}
+{
+"angle" "180"
+"origin" "23104 -5760 -64"
+"classname" "info_player_intermission"
+}
+{
+"targetname" "t12"
+"target" "t11"
+"origin" "23616 -5760 -160"
+"classname" "target_give"
+}
+{
+"targetname" "t11"
+"count" "200"
+"origin" "23552 -5728 -160"
+"classname" "item_enviro"
+}
+{
+"targetname" "t11"
+"count" "9"
+"origin" "23520 -5824 -160"
+"classname" "weapon_rocketlauncher"
+}
