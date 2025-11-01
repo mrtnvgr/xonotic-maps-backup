@@ -1,0 +1,116 @@
+{
+"classname" "worldspawn"
+"_floodlight" "240 240 255 1024 230"
+}
+{
+"classname" "info_player_race"
+"origin" "-256 624 -296"
+"target" "cp0"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "1"
+"targetname" "cp1"
+"target" "give_null"
+"angle" "180"
+"model" "*1"
+}
+{
+"classname" "target_items"
+"origin" "-296 -152 -344"
+"netname" "hlac invincible"
+"targetname" "give_hlac"
+"health" "300"
+"ammo_cells" "150"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "0"
+"targetname" "cp0"
+"target" "give_hlac"
+"model" "*2"
+}
+{
+"classname" "target_items"
+"origin" "-328 -152 -352"
+"targetname" "give_null"
+"netname" "null"
+}
+{
+"classname" "info_player_race"
+"origin" "2464 440 -192"
+"target" "cp1"
+}
+{
+"classname" "trigger_push"
+"target" "p1"
+"model" "*3"
+}
+{
+"classname" "target_position"
+"origin" "14600 408 -1384"
+"targetname" "p1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999999999999"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999999999999"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*6"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "96 256 -280"
+"angle" "180"
+"targetname" "t1"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "2"
+"targetname" "cp2"
+"angle" "180"
+"model" "*7"
+}
+{
+"classname" "info_player_race"
+"origin" "6824 440 -184"
+"target" "cp2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "4"
+"targetname" "cp4"
+"angle" "180"
+"model" "*8"
+}
+{
+"classname" "info_player_race"
+"origin" "13864 440 -1408"
+"target" "cp4"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "3"
+"targetname" "cp3"
+"angle" "180"
+"model" "*9"
+}
+{
+"classname" "info_player_race"
+"origin" "8624 416 -824"
+"target" "cp3"
+"angle" "180"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "99999999999999"
+"model" "*10"
+}
