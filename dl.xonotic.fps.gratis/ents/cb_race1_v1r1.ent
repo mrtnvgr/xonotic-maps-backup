@@ -1,0 +1,321 @@
+{
+"_q3map2_version" "2.5.17n-svn359"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000; -vis -saveprt; -light -deluxe -patchshadows -samples 3 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid -dirty -dirtscale 2"
+"_description" "Very small, 1on1 race map."
+"author" "C.Brutail"
+"message" "Leave'em behind by C.Brutail"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "target_position3"
+"classname" "trigger_push"
+}
+{
+"model" "*2"
+"target" "misc_teleporter_dest1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "misc_teleporter_dest1"
+"angle" "-90.000000"
+"origin" "1184.000000 832.000000 128.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "misc_teleporter_dest2"
+"angle" "90.000000"
+"origin" "-1184.000000 -832.000000 128.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*3"
+"target" "misc_teleporter_dest2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*4"
+"target" "target_position1"
+"classname" "trigger_push"
+}
+{
+"model" "*5"
+"target" "target_position2"
+"classname" "trigger_push"
+}
+{
+"model" "*6"
+"target" "target_position4"
+"classname" "trigger_push"
+}
+{
+"targetname" "target_position1"
+"origin" "1184.000000 -800.000000 416.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position2"
+"origin" "1616.000000 528.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position3"
+"origin" "-1616.000000 -528.000000 392.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position4"
+"origin" "-1184.000000 800.000000 416.000000"
+"classname" "target_position"
+}
+{
+"model" "*7"
+"targetname" "trigger_race_checkpoint8"
+"cnt" "7"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*8"
+"targetname" "trigger_race_checkpoint1"
+"cnt" "0"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*9"
+"targetname" "trigger_race_checkpoint2"
+"cnt" "1"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*10"
+"targetname" "trigger_race_checkpoint3"
+"cnt" "2"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*11"
+"targetname" "trigger_race_checkpoint4"
+"cnt" "3"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*12"
+"targetname" "trigger_race_checkpoint5"
+"cnt" "4"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*13"
+"targetname" "trigger_race_checkpoint6"
+"cnt" "5"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*14"
+"targetname" "trigger_race_checkpoint7"
+"cnt" "6"
+"spawnflags" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "target_position5"
+"spawnflags" "1"
+"origin" "-1032.000000 -176.000000 92.000000"
+"classname" "misc_laser"
+}
+{
+"targetname" "target_position5"
+"origin" "-1336.000000 -176.000000 92.000000"
+"classname" "target_position"
+}
+{
+"angle" "90.000000"
+"target" "target_position6"
+"spawnflags" "1"
+"origin" "1640.000000 600.000000 372.000000"
+"classname" "misc_laser"
+}
+{
+"angle" "90.000000"
+"targetname" "target_position6"
+"origin" "1640.000000 456.000000 372.000000"
+"classname" "target_position"
+}
+{
+"race_place" "5"
+"target" "trigger_race_checkpoint1"
+"angle" "90.000000"
+"origin" "-1280.000000 -784.000000 128.000000"
+"classname" "info_player_race"
+}
+{
+"race_place" "1"
+"target" "trigger_race_checkpoint1"
+"angle" "90.000000"
+"origin" "-1184.000000 -784.000000 128.000000"
+"classname" "info_player_race"
+}
+{
+"race_place" "3"
+"target" "trigger_race_checkpoint1"
+"angle" "90.000000"
+"origin" "-1232.000000 -784.000000 128.000000"
+"classname" "info_player_race"
+}
+{
+"race_place" "2"
+"target" "trigger_race_checkpoint1"
+"angle" "90.000000"
+"origin" "-1136.000000 -784.000000 128.000000"
+"classname" "info_player_race"
+}
+{
+"race_place" "4"
+"target" "trigger_race_checkpoint1"
+"angle" "90.000000"
+"origin" "-1088.000000 -784.000000 128.000000"
+"classname" "info_player_race"
+}
+{
+"target" "target_position7"
+"spawnflags" "1"
+"origin" "-1032.000000 -176.000000 116.000000"
+"classname" "misc_laser"
+}
+{
+"targetname" "target_position7"
+"origin" "-1336.000000 -176.000000 116.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"target" "target_position8"
+"spawnflags" "1"
+"origin" "-1008.000000 1032.000000 372.000000"
+"classname" "misc_laser"
+}
+{
+"angle" "-90.000000"
+"targetname" "target_position8"
+"origin" "-1008.000000 1336.000000 372.000000"
+"classname" "target_position"
+}
+{
+"angle" "180.000000"
+"target" "target_position9"
+"spawnflags" "1"
+"origin" "-152.000000 -304.000000 372.000000"
+"classname" "misc_laser"
+}
+{
+"angle" "180.000000"
+"targetname" "target_position9"
+"origin" "152.000000 -304.000000 372.000000"
+"classname" "target_position"
+}
+{
+"angle" "180.000000"
+"target" "target_position10"
+"spawnflags" "1"
+"origin" "1032.000000 -1008.000000 372.000000"
+"classname" "misc_laser"
+}
+{
+"angle" "180.000000"
+"targetname" "target_position10"
+"origin" "1336.000000 -1008.000000 372.000000"
+"classname" "target_position"
+}
+{
+"angle" "90.000000"
+"target" "target_position11"
+"spawnflags" "1"
+"origin" "1008.000000 152.000000 116.000000"
+"classname" "misc_laser"
+}
+{
+"angle" "90.000000"
+"targetname" "target_position11"
+"origin" "1008.000000 -152.000000 116.000000"
+"classname" "target_position"
+}
+{
+"angle" "90.000000"
+"target" "target_position12"
+"spawnflags" "1"
+"origin" "-1008.000000 152.000000 116.000000"
+"classname" "misc_laser"
+}
+{
+"angle" "90.000000"
+"targetname" "target_position12"
+"origin" "-1008.000000 -152.000000 116.000000"
+"classname" "target_position"
+}
+{
+"angle" "-90.000000"
+"target" "target_position13"
+"spawnflags" "1"
+"origin" "-1664.000000 -600.000000 372.000000"
+"classname" "misc_laser"
+}
+{
+"angle" "-90.000000"
+"targetname" "target_position13"
+"origin" "-1664.000000 -456.000000 372.000000"
+"classname" "target_position"
+}
+{
+"target" "trigger_race_checkpoint2"
+"origin" "-1184.000000 1184.000000 352.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint3"
+"angle" "-90.000000"
+"origin" "0.000000 1184.000000 368.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint4"
+"origin" "0.000000 -1184.000000 368.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint5"
+"angle" "90.000000"
+"origin" "1184.000000 -800.000000 416.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint6"
+"angle" "180.000000"
+"origin" "1200.000000 0.000000 112.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint7"
+"angle" "180.000000"
+"origin" "-320.000000 0.000000 112.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint8"
+"angle" "180.000000"
+"origin" "-1600.000000 -528.000000 352.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint1"
+"race_place" "0"
+"angle" "90.000000"
+"origin" "-1184.000000 -848.000000 128.000000"
+"classname" "info_player_race"
+}
