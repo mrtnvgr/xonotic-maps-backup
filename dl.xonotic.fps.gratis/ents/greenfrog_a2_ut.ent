@@ -1,0 +1,1144 @@
+{
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"message" "greenfrog by ccc"
+"_blocksize" "2024"
+"_q3map2_cmdline" "-meta; -vis; -light -fast -patchshadows -samples 3 -bounce 8; -scale 1.40"
+"_q3map2_version" "2.5.17n-git-a7e6001"
+}
+{
+"classname" "info_player_start"
+"origin" "268.799988 -537.599976 123.199997"
+"angle" "90"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"wait" "-1"
+"lip" "-974.399963"
+"speed" "150"
+"closewhenidle" "1"
+"trigger_only" "1"
+"targetname" "func_door1"
+"pos1" "sound/ktsdm3/air.wav"
+"pos2" "none"
+"model" "*1"
+}
+{
+"classname" "ut_weapon_beretta"
+"origin" "22.400000 -145.599991 224.000000"
+"angle" "-90"
+"wait" "1"
+}
+{
+"classname" "ut_item_extraammo"
+"origin" "-11.200000 -145.599991 224.000000"
+"count" "1039"
+"wait" "1"
+"angle" "-90"
+}
+{
+"classname" "ut_weapon_beretta"
+"origin" "-145.599991 -11.200000 224.000000"
+"angle" "180"
+"wait" "1"
+}
+{
+"classname" "ut_item_extraammo"
+"origin" "-145.599991 22.400000 224.000000"
+"count" "1039"
+"wait" "1"
+"angle" "180"
+}
+{
+"classname" "ut_weapon_beretta"
+"origin" "-22.400000 145.599991 224.000000"
+"angle" "90"
+"wait" "1"
+}
+{
+"classname" "ut_item_extraammo"
+"origin" "11.200000 145.599991 224.000000"
+"count" "1039"
+"wait" "1"
+"angle" "90"
+}
+{
+"classname" "ut_weapon_beretta"
+"origin" "134.399994 22.400000 224.000000"
+"angle" "-1.40334e-014"
+"wait" "1"
+}
+{
+"classname" "ut_item_extraammo"
+"origin" "134.399994 -11.200000 224.000000"
+"count" "1039"
+"wait" "1"
+"angle" "-1.40334e-014"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"wait" "-1"
+"speed" "10000"
+"lip" "22.400000"
+"health" "1"
+"target" "target_delay1"
+"model" "*2"
+}
+{
+"classname" "target_delay"
+"origin" "0.000000 1433.599976 324.799988"
+"wait" "3"
+"angle" "-90"
+"targetname" "target_delay1"
+"target" "func_door1"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*3"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "100"
+"model" "*4"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2240.000000 2374.399902 627.200012"
+"angle" "90"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1344.000000 2374.399902 627.200012"
+"angle" "90"
+"targetname" "misc_teleporter_dest4"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-448.000000 2374.399902 627.200012"
+"angle" "90"
+"targetname" "misc_teleporter_dest5"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "448.000000 2374.399902 627.200012"
+"angle" "90"
+"targetname" "misc_teleporter_dest6"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1344.000000 2374.399902 627.200012"
+"angle" "90"
+"targetname" "misc_teleporter_dest7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2240.000000 2374.399902 627.200012"
+"angle" "90"
+"targetname" "misc_teleporter_dest8"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest4"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest5"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest6"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest7"
+"model" "*8"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest8"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*10"
+}
+{
+"classname" "target_print"
+"origin" "-448.000000 2598.399902 492.799988"
+"angle" "90"
+"targetname" "target_print1"
+"message" "^1 10"
+}
+{
+"classname" "target_delay"
+"origin" "-414.399994 2598.399902 492.799988"
+"angle" "90"
+"wait" "1"
+"target" "target_print15"
+"targetname" "target_print1"
+}
+{
+"classname" "target_delay"
+"origin" "-380.799988 2598.399902 492.799988"
+"angle" "90"
+"wait" "2"
+"target" "target_print14"
+"targetname" "target_print1"
+}
+{
+"classname" "target_delay"
+"origin" "-347.199982 2598.399902 492.799988"
+"angle" "90"
+"wait" "3"
+"target" "target_print13"
+"targetname" "target_print1"
+}
+{
+"classname" "target_delay"
+"origin" "-313.600006 2598.399902 492.799988"
+"angle" "90"
+"wait" "4"
+"target" "target_print12"
+"targetname" "target_print1"
+}
+{
+"classname" "target_delay"
+"origin" "-280.000000 2598.399902 492.799988"
+"angle" "90"
+"wait" "5"
+"target" "target_print11"
+"targetname" "target_print1"
+}
+{
+"classname" "target_delay"
+"origin" "-246.399994 2598.399902 492.799988"
+"angle" "90"
+"target" "target_print10"
+"targetname" "target_print1"
+"wait" "6"
+}
+{
+"classname" "target_delay"
+"origin" "-212.800003 2598.399902 492.799988"
+"angle" "90"
+"wait" "7"
+"target" "target_print9"
+"targetname" "target_print1"
+}
+{
+"classname" "target_delay"
+"origin" "-179.199997 2598.399902 492.799988"
+"angle" "90"
+"wait" "8"
+"target" "target_print8"
+"targetname" "target_print1"
+}
+{
+"classname" "target_delay"
+"origin" "-145.599991 2598.399902 492.799988"
+"angle" "90"
+"wait" "9"
+"target" "target_print7"
+"targetname" "target_print1"
+}
+{
+"classname" "target_delay"
+"origin" "-112.000000 2598.399902 492.799988"
+"angle" "90"
+"target" "target_print6"
+"wait" "10"
+"targetname" "target_print1"
+}
+{
+"classname" "target_print"
+"origin" "-112.000000 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 go!"
+"targetname" "target_print6"
+}
+{
+"classname" "target_print"
+"origin" "-145.599991 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 1"
+"targetname" "target_print7"
+}
+{
+"classname" "target_print"
+"origin" "-179.199997 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 2"
+"targetname" "target_print8"
+}
+{
+"classname" "target_print"
+"origin" "-212.800003 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 3"
+"targetname" "target_print9"
+}
+{
+"classname" "target_print"
+"origin" "-246.399994 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 4"
+"targetname" "target_print10"
+}
+{
+"classname" "target_print"
+"origin" "-280.000000 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 5"
+"targetname" "target_print11"
+}
+{
+"classname" "target_print"
+"origin" "-313.600006 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 6"
+"targetname" "target_print12"
+}
+{
+"classname" "target_print"
+"origin" "-347.199982 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 7"
+"targetname" "target_print13"
+}
+{
+"classname" "target_print"
+"origin" "-380.799988 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 8"
+"targetname" "target_print14"
+}
+{
+"classname" "target_print"
+"origin" "-414.399994 2676.800049 492.799988"
+"angle" "90"
+"message" "^1 9"
+"targetname" "target_print15"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"lip" "-179.199997"
+"wait" "-1"
+"pos2" "none"
+"pos1" "none"
+"targetname" "trap1"
+"closewhenidle" "1"
+"trigger_only" "1"
+"speed" "50"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"target" "func_door5"
+"closewhenidle" "1"
+"model" "*12"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_delay2"
+"wait" "15"
+"model" "*13"
+}
+{
+"classname" "target_delay"
+"origin" "-324.799988 18547.199219 156.800003"
+"wait" "3"
+"target" "trap1"
+"targetname" "target_delay2"
+}
+{
+"classname" "target_speaker"
+"origin" "-246.399994 18547.199219 156.800003"
+"targetname" "trap1"
+"noise" "sound/misc/laugh.wav"
+"spawnflags" "4"
+}
+{
+"classname" "target_speaker"
+"origin" "-268.799988 18726.400391 156.800003"
+"noise" "sound/ctf/capture-red.wav"
+"targetname" "target_delay2"
+"spawnflags" "4"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest2"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"angle" "0"
+"wait" "-1"
+"speed" "150"
+"trigger_only" "1"
+"closewhenidle" "1"
+"lip" "-974.399963"
+"pos1" "sound/ktsdm3/air.wav"
+"pos2" "none"
+"targetname" "func_door3"
+"model" "*15"
+}
+{
+"classname" "func_door"
+"wait" "-1"
+"angle" "180"
+"pos1" "sound/ktsdm3/air.wav"
+"pos2" "none"
+"closewhenidle" "1"
+"trigger_only" "1"
+"lip" "-974.399963"
+"targetname" "func_door2"
+"speed" "150"
+"model" "*16"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"wait" "-1"
+"pos1" "sound/ktsdm3/air.wav"
+"pos2" "none"
+"closewhenidle" "1"
+"trigger_only" "1"
+"lip" "-974.399963"
+"speed" "150"
+"targetname" "func_door4"
+"model" "*17"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "0.000000 -235.199997 660.799988"
+"targetname" "misc_teleporter_dest2"
+"angle" "90"
+}
+{
+"classname" "func_button"
+"lip" "22.400000"
+"wait" "-1"
+"speed" "10000"
+"health" "1"
+"angle" "0"
+"target" "target_delay3"
+"model" "*18"
+}
+{
+"classname" "target_delay"
+"origin" "-1523.199951 0.000000 324.799988"
+"wait" "3"
+"targetname" "target_delay3"
+"target" "func_door2"
+}
+{
+"classname" "func_button"
+"angle" "180"
+"wait" "-1"
+"speed" "10000"
+"lip" "22.400000"
+"health" "1"
+"target" "target_delay4"
+"model" "*19"
+}
+{
+"classname" "target_delay"
+"origin" "1433.599976 0.000000 324.799988"
+"wait" "3"
+"targetname" "target_delay4"
+"target" "func_door3"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"wait" "-1"
+"speed" "10000"
+"lip" "22.400000"
+"health" "1"
+"target" "target_delay5"
+"model" "*20"
+}
+{
+"classname" "target_delay"
+"origin" "0.000000 -1433.599976 324.799988"
+"wait" "3"
+"targetname" "target_delay5"
+"target" "func_door4"
+}
+{
+"classname" "info_player_start"
+"origin" "0.000000 -537.599976 123.199997"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "-268.799988 -537.599976 123.199997"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "537.599976 268.799988 123.199997"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "537.599976 0.000000 123.199997"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "537.599976 -268.799988 123.199997"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "-268.799988 537.599976 123.199997"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "0.000000 537.599976 123.199997"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "268.799988 537.599976 123.199997"
+"angle" "-90"
+}
+{
+"classname" "info_player_start"
+"origin" "-537.599976 -268.799988 123.199997"
+}
+{
+"classname" "info_player_start"
+"origin" "-537.599976 0.000000 123.199997"
+}
+{
+"classname" "info_player_start"
+"origin" "-537.599976 268.799988 123.199997"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "-448.000000 268.799988 123.199997"
+"angle" "0"
+"team" "red"
+"g_gametype" "3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "-448.000000 -268.799988 123.199997"
+"angle" "0"
+"team" "red"
+"g_gametype" "3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "-448.000000 0.000000 123.199997"
+"angle" "0"
+"team" "red"
+"g_gametype" "3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "-268.799988 -448.000000 123.199997"
+"angle" "90"
+"team" "red"
+"g_gametype" "3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "268.799988 -448.000000 123.199997"
+"angle" "90"
+"team" "red"
+"g_gametype" "3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "0.000000 -448.000000 123.199997"
+"angle" "90"
+"team" "red"
+"g_gametype" "3,4,5,6,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "268.799988 448.000000 123.199997"
+"angle" "-90"
+"g_gametype" "3,4,5,6,7,8"
+"team" "blue"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "-268.799988 448.000000 123.199997"
+"angle" "-90"
+"g_gametype" "3,4,5,6,7,8"
+"team" "blue"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "0.000000 448.000000 123.199997"
+"angle" "-90"
+"g_gametype" "3,4,5,6,7,8"
+"team" "blue"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "448.000000 -268.799988 123.199997"
+"angle" "180"
+"g_gametype" "3,4,5,6,7,8"
+"team" "blue"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "448.000000 268.799988 123.199997"
+"angle" "180"
+"g_gametype" "3,4,5,6,7,8"
+"team" "blue"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "448.000000 0.000000 123.199997"
+"angle" "180"
+"g_gametype" "3,4,5,6,7,8"
+"team" "blue"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 0.000000 403.199982"
+"message" "spawn room"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 18368.000000 537.599976"
+"message" "simple run"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 19331.199219 44.799999"
+"message" "simple run finish"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest9"
+"model" "*21"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "0.000000 -582.399963 448.000000"
+"angle" "90"
+"targetname" "misc_teleporter_dest9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-582.399963 0.000000 448.000000"
+"targetname" "misc_teleporter_dest9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "0.000000 582.399963 448.000000"
+"angle" "-90"
+"targetname" "misc_teleporter_dest9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "582.399963 0.000000 448.000000"
+"angle" "180"
+"targetname" "misc_teleporter_dest9"
+}
+{
+"classname" "trigger_multiple"
+"target" "func_door6"
+"model" "*22"
+}
+{
+"classname" "func_door"
+"targetname" "func_door6"
+"speed" "1000"
+"angle" "-1"
+"lip" "-1433.599976"
+"wait" "-1"
+"trigger_only" "1"
+"closewhenidle" "1"
+"pos1" "none"
+"pos2" "none"
+"model" "*23"
+}
+{
+"classname" "target_speaker"
+"origin" "2240.000000 2968.000000 492.799988"
+"angle" "90"
+"targetname" "target_print6"
+"noise" "sound/ctf/stolen.wav"
+}
+{
+"classname" "func_door"
+"lip" "-39.200001"
+"closewhenidle" "1"
+"angle" "-1"
+"pos1" "none"
+"pos2" "none"
+"speed" "10000"
+"trigger_only" "1"
+"wait" "-1"
+"targetname" "func_door5"
+"model" "*24"
+}
+{
+"classname" "func_door"
+"closewhenidle" "1"
+"angle" "-2"
+"lip" "-7000.000000"
+"pos1" "none"
+"pos2" "none"
+"speed" "3000"
+"targetname" "target_print6"
+"trigger_only" "1"
+"wait" "-1"
+"model" "*25"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "-1"
+"lip" "-89.599998"
+"closewhenidle" "1"
+"trigger_only" "1"
+"pos1" "none"
+"pos2" "none"
+"targetname" "func_door7"
+"model" "*26"
+}
+{
+"classname" "target_delay"
+"origin" "-358.399994 18726.400391 156.800003"
+"wait" "25"
+"targetname" "target_delay2"
+"target" "func_door7"
+}
+{
+"classname" "target_speaker"
+"origin" "448.000000 2968.000000 492.799988"
+"angle" "90"
+"targetname" "target_print6"
+"noise" "sound/ctf/stolen.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "-448.000000 2968.000000 492.799988"
+"angle" "90"
+"targetname" "target_print6"
+"noise" "sound/ctf/stolen.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "-1344.000000 2968.000000 492.799988"
+"angle" "90"
+"targetname" "target_print6"
+"noise" "sound/ctf/stolen.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "-2240.000000 2968.000000 492.799988"
+"angle" "90"
+"targetname" "target_print6"
+"noise" "sound/ctf/stolen.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "1344.000000 2968.000000 492.799988"
+"angle" "90"
+"targetname" "target_print6"
+"noise" "sound/ctf/stolen.wav"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-3180.800049 2240.000000 627.200012"
+"angle" "180"
+"targetname" "misc_teleporter_dest14"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-3180.800049 1344.000000 627.200012"
+"angle" "180"
+"targetname" "misc_teleporter_dest13"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-3180.800049 448.000000 627.200012"
+"angle" "180"
+"targetname" "misc_teleporter_dest12"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-3180.800049 -448.000000 627.200012"
+"angle" "180"
+"targetname" "misc_teleporter_dest11"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-3180.800049 -1344.000000 627.200012"
+"angle" "180"
+"targetname" "misc_teleporter_dest10"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-3180.800049 -2240.000000 627.200012"
+"angle" "180"
+"targetname" "misc_teleporter_dest3"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest3"
+"model" "*27"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest10"
+"model" "*28"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest11"
+"model" "*29"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest12"
+"model" "*30"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest13"
+"model" "*31"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest14"
+"model" "*32"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"closewhenidle" "1"
+"lip" "-7000.000000"
+"pos1" "none"
+"pos2" "none"
+"speed" "3000"
+"trigger_only" "1"
+"wait" "-1"
+"targetname" "target_print2"
+"model" "*33"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print3"
+"model" "*34"
+}
+{
+"classname" "target_print"
+"origin" "-3404.800049 -448.000000 492.799988"
+"angle" "180"
+"targetname" "target_print3"
+"message" "^4 10"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -414.399994 492.799988"
+"angle" "180"
+"message" "^4 9"
+"targetname" "target_print4"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -414.399994 492.799988"
+"angle" "180"
+"wait" "1"
+"targetname" "target_print3"
+"target" "target_print4"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -380.799988 492.799988"
+"angle" "180"
+"message" "^4 8"
+"targetname" "target_print5"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -380.799988 492.799988"
+"angle" "180"
+"wait" "2"
+"targetname" "target_print3"
+"target" "target_print5"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -347.199982 492.799988"
+"angle" "180"
+"message" "^4 7"
+"targetname" "target_print16"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -347.199982 492.799988"
+"angle" "180"
+"wait" "3"
+"targetname" "target_print3"
+"target" "target_print16"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -313.600006 492.799988"
+"angle" "180"
+"message" "^4 6"
+"targetname" "target_print17"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -313.600006 492.799988"
+"angle" "180"
+"wait" "4"
+"targetname" "target_print3"
+"target" "target_print17"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -280.000000 492.799988"
+"angle" "180"
+"message" "^4 5"
+"targetname" "target_print18"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -280.000000 492.799988"
+"angle" "180"
+"wait" "5"
+"targetname" "target_print3"
+"target" "target_print18"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -246.399994 492.799988"
+"angle" "180"
+"message" "^4 4"
+"targetname" "target_print19"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -246.399994 492.799988"
+"angle" "180"
+"wait" "6"
+"targetname" "target_print3"
+"target" "target_print19"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -212.800003 492.799988"
+"angle" "180"
+"message" "^4 3"
+"targetname" "target_print20"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -212.800003 492.799988"
+"angle" "180"
+"wait" "7"
+"targetname" "target_print3"
+"target" "target_print20"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -179.199997 492.799988"
+"angle" "180"
+"message" "^4 2"
+"targetname" "target_print21"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -179.199997 492.799988"
+"angle" "180"
+"wait" "8"
+"targetname" "target_print3"
+"target" "target_print21"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -112.000000 492.799988"
+"angle" "180"
+"targetname" "target_print2"
+"message" "^4 go!"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -112.000000 492.799988"
+"angle" "180"
+"wait" "10"
+"target" "target_print2"
+"targetname" "target_print3"
+}
+{
+"classname" "target_print"
+"origin" "-3505.599854 -145.599991 492.799988"
+"angle" "180"
+"message" "^4 1"
+"targetname" "target_print22"
+}
+{
+"classname" "target_delay"
+"origin" "-3404.800049 -145.599991 492.799988"
+"angle" "180"
+"wait" "9"
+"targetname" "target_print3"
+"target" "target_print22"
+}
+{
+"classname" "target_speaker"
+"origin" "-3774.399902 -448.000000 492.799988"
+"angle" "180"
+"noise" "sound/ctf/stolen.wav"
+"targetname" "target_print2"
+}
+{
+"classname" "target_speaker"
+"origin" "-3774.399902 -1344.000000 492.799988"
+"angle" "180"
+"noise" "sound/ctf/stolen.wav"
+"targetname" "target_print2"
+}
+{
+"classname" "target_speaker"
+"origin" "-3774.399902 -2240.000000 492.799988"
+"angle" "180"
+"noise" "sound/ctf/stolen.wav"
+"targetname" "target_print2"
+}
+{
+"classname" "target_speaker"
+"origin" "-3774.399902 448.000000 492.799988"
+"angle" "180"
+"noise" "sound/ctf/stolen.wav"
+"targetname" "target_print2"
+}
+{
+"classname" "target_speaker"
+"origin" "-3774.399902 1344.000000 492.799988"
+"angle" "180"
+"noise" "sound/ctf/stolen.wav"
+"targetname" "target_print2"
+}
+{
+"classname" "target_speaker"
+"origin" "-3774.399902 2240.000000 492.799988"
+"angle" "180"
+"noise" "sound/ctf/stolen.wav"
+"targetname" "target_print2"
+}
+{
+"classname" "func_door"
+"closewhenidle" "1"
+"angle" "-1"
+"trigger_only" "1"
+"pos1" "none"
+"pos2" "none"
+"speed" "10000"
+"wait" "-1"
+"lip" "-212.800003"
+"targetname" "func_door8"
+"model" "*35"
+}
+{
+"classname" "trigger_multiple"
+"target" "func_door8"
+"model" "*36"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "100"
+"model" "*37"
+}
+{
+"classname" "func_door"
+"closewhenidle" "1"
+"angle" "-1"
+"lip" "-1433.599976"
+"pos2" "none"
+"speed" "1000"
+"pos1" "none"
+"trigger_only" "1"
+"wait" "-1"
+"targetname" "func_door9"
+"model" "*38"
+}
+{
+"classname" "trigger_multiple"
+"target" "func_door9"
+"model" "*39"
+}
+{
+"classname" "target_location"
+"origin" "-17886.400391 0.000000 44.799999"
+"message" "ice finish"
+}
+{
+"classname" "target_location"
+"origin" "-16486.400391 0.000000 537.599976"
+"message" "ice"
+}
+{
+"classname" "func_door"
+"lip" "-179.199997"
+"closewhenidle" "1"
+"angle" "-2"
+"pos1" "none"
+"pos2" "none"
+"speed" "50"
+"trigger_only" "1"
+"wait" "-1"
+"targetname" "func_door10"
+"model" "*40"
+}
+{
+"classname" "target_delay"
+"origin" "-16878.400391 0.000000 123.199997"
+"wait" "3"
+"targetname" "target_delay6"
+"target" "func_door10"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_delay6"
+"model" "*41"
+}
+{
+"classname" "target_speaker"
+"origin" "-16878.400391 -67.199997 123.199997"
+"targetname" "func_door10"
+"noise" "sound/misc/laugh.wav"
+"spawnflags" "4"
+}
+{
+"classname" "target_speaker"
+"origin" "-17024.000000 0.000000 123.199997"
+"noise" "sound/ctf/capture-red.wav"
+"spawnflags" "4"
+"targetname" "target_delay6"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest15"
+"model" "*42"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "235.199997 0.000000 660.799988"
+"angle" "180"
+"targetname" "misc_teleporter_dest15"
+}
