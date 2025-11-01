@@ -1,0 +1,1651 @@
+{
+"_q3map2_version" "2.5.17n-git-06afddf"
+"_q3map2_cmdline" "-bsp -meta -maxarea -samplesize 8 -mv 1000000 -mi 6000000 -np 45 -sRGBtex -sRGBcolor; -vis; -light -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill -dirtscale 1.5 -bounce 8 -sphericalscale 0.9 -spotscale 0.9 -areascale 0.9 -skyscale 0.9 -sRGBtex -sRGBcolor -sRGBlight"
+"message" "Darkzone"
+"_description" "Xonotic remake of a classic map from Quake1: Q1DM6. Recommended for cut-throat duels."
+"author" "Cortez, C.Brutail, SavageX"
+"gridsize" "64.000000 64.000000 128.000000"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"speed" "200"
+"spawnflags" "4"
+"lip" "32"
+"angle" "180"
+"classname" "func_door_secret"
+}
+{
+"targetname" "teletarget1"
+"origin" "-744.000000 -800.000000 112.000000"
+"angle" "360"
+"classname" "info_teleport_destination"
+}
+{
+"targetname" "teletarget2"
+"origin" "-1000.000000 208.000000 392.000000"
+"angle" "270"
+"classname" "info_teleport_destination"
+}
+{
+"targetname" "teletarget4"
+"origin" "120.000000 -64.000000 8.000000"
+"lip" "32"
+"angle" "360"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*2"
+"target" "teletarget1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*3"
+"target" "teletarget2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*4"
+"target" "teletarget1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*5"
+"target" "teletarget4"
+"classname" "trigger_teleport"
+}
+{
+"origin" "720.000000 828.000000 27.000000"
+"noalign" "1"
+"classname" "weapon_rocketlauncher"
+}
+{
+"targetname" "t2"
+"origin" "368.000000 -368.000000 96.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t3"
+"origin" "-240.000000 -368.000000 96.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t4"
+"origin" "-240.000000 240.000000 96.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t323"
+"origin" "1088.000000 160.000000 96.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t324"
+"origin" "1088.000000 352.000000 96.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t332"
+"origin" "1088.000000 672.000000 96.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t333"
+"origin" "1088.000000 864.000000 96.000000"
+"classname" "info_null"
+}
+{
+"origin" "64.000000 272.000000 304.000000"
+"angle" "-90.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "-552.000000 -88.000000 264.000000"
+"angle" "-45.000008"
+"classname" "item_health_medium"
+}
+{
+"origin" "1008.000000 1104.000000 256.000000"
+"angle" "225"
+"classname" "item_rockets"
+}
+{
+"origin" "-944.000000 -1128.000000 144.000000"
+"angle" "90"
+"classname" "item_rockets"
+}
+{
+"origin" "1088.000000 -72.000000 48.000000"
+"angle" "-90.000000"
+"classname" "item_shells"
+}
+{
+"origin" "64.000000 -736.000000 48.000000"
+"classname" "weapon_electro"
+}
+{
+"origin" "64.000000 -616.000000 64.000000"
+"angle" "270"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "t340"
+"origin" "-488.000000 -1024.000000 304.000000"
+"classname" "info_null"
+}
+{
+"origin" "1120.000000 1024.000000 256.000000"
+"classname" "item_armor_large"
+}
+{
+"origin" "360.000000 -64.000000 272.000000"
+"classname" "item_cells"
+}
+{
+"targetname" "t341"
+"origin" "-640.000000 -1176.000000 296.000000"
+"classname" "info_null"
+}
+{
+"origin" "-1000.000000 -144.000000 320.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "-928.000000 -216.000000 320.000000"
+"angle" "90.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-1072.000000 -216.000000 320.000000"
+"angle" "90.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-1224.000000 -64.000000 488.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-544.000000 -1120.000000 168.000000"
+"classname" "weapon_hagar"
+}
+{
+"origin" "-768.000000 -448.000000 64.000000"
+"angle" "180"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "t342"
+"origin" "462.000000 1140.000000 384.000000"
+"classname" "info_null"
+}
+{
+"spawnflags" "2"
+"origin" "-1000.000000 -216.000000 320.000000"
+"angle" "90.000000"
+"classname" "item_health_mega"
+}
+{
+"origin" "416.000000 784.000000 240.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "32.000000 768.000000 48.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "692.000000 104.000000 64.000000"
+"classname" "item_cells"
+}
+{
+"origin" "64.000000 -424.000000 304.000000"
+"angle" "90.000000"
+"classname" "item_health_medium"
+}
+{
+"targetname" "t347"
+"origin" "-960.000000 -1200.000000 296.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t348"
+"origin" "-1136.000000 -1024.000000 296.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t349"
+"origin" "-1136.000000 -768.000000 296.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t350"
+"origin" "-960.000000 -592.000000 296.000000"
+"classname" "info_null"
+}
+{
+"origin" "-544.000000 -1152.000000 40.000000"
+"angle" "90"
+"classname" "item_health_medium"
+}
+{
+"origin" "431.000000 -72.000000 315.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "1384.000000 1016.000000 248.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*6"
+"origin" "632.000000 413.000000 528.000000"
+"speed" "20"
+"targetname" "t5"
+"spawnflags" "8"
+"classname" "func_rotating"
+}
+{
+"model" "*7"
+"origin" "968.000000 413.000000 528.000000"
+"speed" "20"
+"targetname" "t6"
+"spawnflags" "8"
+"classname" "func_rotating"
+}
+{
+"model" "*8"
+"origin" "800.000000 413.000000 528.000000"
+"speed" "20"
+"targetname" "t7"
+"spawnflags" "8"
+"classname" "func_rotating"
+}
+{
+"origin" "-448.000000 -64.000000 -368.000000"
+"classname" "item_cells"
+}
+{
+"origin" "-688.000000 -64.000000 -368.000000"
+"classname" "weapon_crylink"
+}
+{
+"targetname" "t345"
+"origin" "-436.000000 76.000000 -280.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t346"
+"origin" "-436.000000 -204.000000 -280.000000"
+"classname" "info_null"
+}
+{
+"angle" "-179.999985"
+"origin" "-184.000000 -64.000000 -288.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "t1"
+"origin" "368.000000 240.000000 96.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t9"
+"origin" "-528.000000 -64.000000 152.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t10"
+"origin" "-648.000000 -64.000000 160.000000"
+"classname" "info_null"
+}
+{
+"origin" "536.000000 1088.000000 240.000000"
+"classname" "item_bullets"
+}
+{
+"targetname" "t8"
+"origin" "-400.000000 -64.000000 152.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t15"
+"origin" "64.000000 416.000000 120.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t16"
+"origin" "64.000000 608.000000 120.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t17"
+"origin" "64.000000 800.000000 120.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t18"
+"origin" "288.000000 800.000000 120.000000"
+"classname" "info_null"
+}
+{
+"angle" "-2.000607"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castShadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "427.999817 616.000000 32.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-2.000607"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castShadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "507.999817 576.000000 32.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-2.000607"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castShadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "459.999817 568.000000 102.000000"
+"classname" "misc_gamemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"dmg_force" "600"
+"dmg_radius" "150"
+"dmg_edge" "25"
+"dmg" "25"
+"noise" "sound/weapons/rocket_impact.ogg"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"angles" "90.000000 0.000000 0.000003"
+"model" "models/containers/barrel01.md3"
+"origin" "417.999969 636.000061 117.999977"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"dmg_force" "600"
+"dmg_radius" "150"
+"dmg_edge" "25"
+"dmg" "25"
+"noise" "sound/weapons/rocket_impact.ogg"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"angle" "90.000000"
+"model" "models/containers/barrel01.md3"
+"origin" "519.999939 632.000000 32.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"dmg_force" "600"
+"dmg_radius" "150"
+"dmg_edge" "25"
+"dmg" "25"
+"noise" "sound/weapons/rocket_impact.ogg"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"angle" "90.000000"
+"model" "models/containers/barrel01.md3"
+"origin" "487.999939 640.000000 32.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"angle" "-2.000607"
+"loddistance1" "450"
+"lodmodel1" "models/containers/crate01_lod.md3"
+"_castShadows" "1"
+"model" "models/containers/crate01.md3"
+"origin" "507.999817 488.000000 32.000000"
+"classname" "misc_gamemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"dmg_force" "600"
+"dmg_radius" "150"
+"dmg_edge" "25"
+"dmg" "25"
+"noise" "sound/weapons/rocket_impact.ogg"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"angle" "90.000000"
+"model" "models/containers/barrel01.md3"
+"origin" "503.999939 640.000000 80.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"dmg_force" "600"
+"dmg_radius" "150"
+"dmg_edge" "25"
+"dmg" "25"
+"noise" "sound/weapons/rocket_impact.ogg"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"angle" "90.000000"
+"model" "models/containers/barrel01.md3"
+"origin" "407.999939 608.000000 102.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"dmg_force" "600"
+"dmg_radius" "150"
+"dmg_edge" "25"
+"dmg" "25"
+"noise" "sound/weapons/rocket_impact.ogg"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"angle" "90.000000"
+"model" "models/containers/barrel01.md3"
+"origin" "493.999939 508.000000 102.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"dmg_force" "600"
+"dmg_radius" "150"
+"dmg_edge" "25"
+"dmg" "25"
+"noise" "sound/weapons/rocket_impact.ogg"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"angle" "90.000000"
+"model" "models/containers/barrel01.md3"
+"origin" "527.999939 496.000000 102.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"respawntimejitter" "10"
+"respawntime" "40"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debristimejitter" "2"
+"debristime" "6"
+"debrissolid" "0"
+"message2" "was killed with an explosive barrel by"
+"message" "was killed by an explosive barrel"
+"dmg_force" "600"
+"dmg_radius" "150"
+"dmg_edge" "25"
+"dmg" "25"
+"noise" "sound/weapons/rocket_impact.ogg"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"count" "1"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"health" "25"
+"angle" "90.000000"
+"model" "models/containers/barrel01.md3"
+"origin" "499.999939 474.000000 102.000000"
+"classname" "misc_breakablemodel"
+}
+{
+"origin" "672.000000 560.000000 64.000000"
+"classname" "weapon_uzi"
+}
+{
+"angle" "90.000000"
+"targetname" "t12"
+"origin" "704.000000 1080.000000 96.000000"
+"classname" "info_null"
+}
+{
+"angle" "90.000000"
+"targetname" "t11"
+"origin" "896.000000 1080.000000 96.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t13"
+"origin" "1134.000000 1140.000000 384.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t14"
+"origin" "64.000000 -544.000000 120.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t19"
+"origin" "64.000000 -736.000000 120.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t20"
+"origin" "-128.000000 -736.000000 120.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t21"
+"origin" "-352.000000 -736.000000 120.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t23"
+"origin" "-544.000000 -64.000000 328.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t24"
+"origin" "-544.000000 -416.000000 328.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t25"
+"origin" "-544.000000 -224.000000 328.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t29"
+"origin" "-416.000000 -64.000000 328.000000"
+"classname" "info_null"
+}
+{
+"angle" "-90.000000"
+"targetname" "t30"
+"origin" "608.000000 -64.000000 96.000000"
+"classname" "info_null"
+}
+{
+"angle" "-90.000000"
+"targetname" "t31"
+"origin" "800.000000 -64.000000 96.000000"
+"classname" "info_null"
+}
+{
+"model" "*9"
+"origin" "883.000000 320.000000 284.000000"
+"speed" "30"
+"spawnflags" "4"
+"classname" "func_rotating"
+}
+{
+"targetname" "t32"
+"origin" "-720.000000 -592.000000 296.000000"
+"classname" "info_null"
+}
+{
+"model" "*10"
+"origin" "882.000000 192.000000 280.000000"
+"spawnflags" "4"
+"classname" "func_rotating"
+}
+{
+"targetname" "t33"
+"origin" "-480.000000 -704.000000 344.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t22"
+"origin" "504.000000 -64.000000 320.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t26"
+"origin" "768.000000 -64.000000 312.000000"
+"classname" "info_null"
+}
+{
+"targetname" "t28"
+"origin" "1088.000000 240.000000 312.000000"
+"classname" "info_null"
+}
+{
+"origin" "-152.000000 96.000000 64.000000"
+"angle" "315"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1248.000000 64.000000 256.000000"
+"classname" "item_health_large"
+}
+{
+"model" "*11"
+"origin" "-128.000000 -468.000000 344.000000"
+"classname" "func_bobbing"
+}
+{
+"model" "*12"
+"origin" "-64.000000 -468.000000 344.000000"
+"classname" "func_bobbing"
+}
+{
+"model" "*13"
+"origin" "192.000000 -468.000000 344.000000"
+"classname" "func_bobbing"
+}
+{
+"model" "*14"
+"origin" "256.000000 -468.000000 344.000000"
+"classname" "func_bobbing"
+}
+{
+"model" "*15"
+"origin" "256.000000 340.000000 344.000000"
+"classname" "func_bobbing"
+}
+{
+"model" "*16"
+"origin" "192.000000 340.000000 344.000000"
+"classname" "func_bobbing"
+}
+{
+"model" "*17"
+"origin" "-64.000000 340.000000 344.000000"
+"classname" "func_bobbing"
+}
+{
+"model" "*18"
+"origin" "-128.000000 340.000000 344.000000"
+"classname" "func_bobbing"
+}
+{
+"targetname" "t27"
+"origin" "1120.000000 -64.000000 312.000000"
+"classname" "info_null"
+}
+{
+"origin" "-1056.000000 -1120.000000 144.000000"
+"classname" "item_armor_big"
+}
+{
+"origin" "-632.000000 -1120.000000 168.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "96.000000 832.000000 48.000000"
+"classname" "item_health_medium"
+}
+{
+"targetname" "misc_gamemodel1"
+"angle" "89.999992"
+"model" "models/industrial/cogwheel1.obj"
+"origin" "296.000000 -440.000000 -8.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-179.999985"
+"spawnflags" "1"
+"killtarget" "func_rotating1"
+"target" "misc_gamemodel1"
+"origin" "304.000000 -356.000000 -8.000000"
+"classname" "misc_follow"
+}
+{
+"model" "*19"
+"origin" "296.000000 -434.000000 -8.000000"
+"speed" "-100"
+"spawnflags" "8"
+"targetname" "func_rotating1"
+"classname" "func_rotating"
+}
+{
+"angle" "89.999992"
+"model" "models/industrial/bigbolt.obj"
+"origin" "296.000031 -430.000031 -8.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-179.999985"
+"targetname" "horizwheels"
+"model" "models/industrial/cogwheel2.obj"
+"origin" "296.000000 -480.000000 96.000000"
+"classname" "misc_gamemodel"
+}
+{
+"angle" "-179.999985"
+"targetname" "horizwheels1"
+"model" "models/industrial/cogwheel2.obj"
+"origin" "296.000000 -480.000000 32.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*20"
+"origin" "296.000000 -480.000000 76.000000"
+"targetname" "func_rotating2"
+"classname" "func_rotating"
+}
+{
+"angle" "-179.999985"
+"spawnflags" "1"
+"killtarget" "func_rotating2"
+"target" "horizwheels"
+"origin" "292.000000 -404.000000 76.000000"
+"classname" "misc_follow"
+}
+{
+"angle" "-179.999985"
+"targetname" "gizmo1"
+"model" "models/industrial/gizmo1.obj"
+"origin" "296.000000 -480.000000 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*21"
+"origin" "296.000000 -480.000000 56.000000"
+"targetname" "func_rotating3"
+"speed" "-100"
+"classname" "func_rotating"
+}
+{
+"angle" "-179.999985"
+"killtarget" "func_rotating3"
+"target" "gizmo1"
+"origin" "328.000000 -404.000000 76.000000"
+"classname" "misc_follow"
+}
+{
+"targetname" "misc_gamemodel2"
+"modelscale" "1.250000"
+"angle" "89.999992"
+"model" "models/industrial/gizmo1.obj"
+"origin" "296.000031 -480.000061 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*22"
+"origin" "296.000000 -480.000000 56.000000"
+"targetname" "func_rotating4"
+"speed" "-150"
+"classname" "func_rotating"
+}
+{
+"angle" "-179.999985"
+"target" "misc_gamemodel2"
+"spawnflags" "1"
+"killtarget" "func_rotating4"
+"origin" "260.000000 -404.000000 76.000000"
+"classname" "misc_follow"
+}
+{
+"angle" "-179.999985"
+"target" "horizwheels1"
+"spawnflags" "1"
+"killtarget" "func_rotating2"
+"origin" "292.000000 -404.000000 48.000000"
+"classname" "misc_follow"
+}
+{
+"targetname" "misc_gamemodel3"
+"angle" "-90.000000"
+"model" "models/industrial/cogwheel1.obj"
+"origin" "295.999969 312.000000 -8.000000"
+"classname" "misc_gamemodel"
+}
+{
+"spawnflags" "1"
+"killtarget" "func_rotating5"
+"target" "misc_gamemodel3"
+"origin" "288.000000 228.000000 -8.000000"
+"classname" "misc_follow"
+}
+{
+"model" "*23"
+"origin" "296.000000 306.000000 -8.000000"
+"spawnflags" "8"
+"targetname" "func_rotating5"
+"classname" "func_rotating"
+}
+{
+"angle" "-90.000000"
+"model" "models/industrial/bigbolt.obj"
+"origin" "295.999969 302.000000 -8.000000"
+"classname" "misc_gamemodel"
+}
+{
+"targetname" "horizwheels2"
+"model" "models/industrial/cogwheel2.obj"
+"origin" "296.000000 352.000000 96.000000"
+"classname" "misc_gamemodel"
+}
+{
+"targetname" "horizwheels3"
+"model" "models/industrial/cogwheel2.obj"
+"origin" "296.000000 352.000000 32.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*24"
+"origin" "296.000000 352.000000 76.000000"
+"targetname" "func_rotating6"
+"classname" "func_rotating"
+}
+{
+"spawnflags" "1"
+"killtarget" "func_rotating6"
+"target" "horizwheels2"
+"origin" "300.000000 276.000000 76.000000"
+"classname" "misc_follow"
+}
+{
+"targetname" "gizmo2"
+"model" "models/industrial/gizmo1.obj"
+"origin" "296.000000 352.000000 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*25"
+"origin" "296.000000 352.000000 56.000000"
+"targetname" "func_rotating7"
+"speed" "-100"
+"classname" "func_rotating"
+}
+{
+"killtarget" "func_rotating7"
+"target" "gizmo2"
+"origin" "264.000000 276.000000 76.000000"
+"classname" "misc_follow"
+}
+{
+"targetname" "misc_gamemodel4"
+"modelscale" "1.25"
+"angle" "-90.000000"
+"model" "models/industrial/gizmo1.obj"
+"origin" "296.000000 352.000031 64.000000"
+"classname" "misc_gamemodel"
+}
+{
+"model" "*26"
+"origin" "296.000000 352.000000 56.000000"
+"targetname" "func_rotating8"
+"speed" "-150"
+"classname" "func_rotating"
+}
+{
+"target" "misc_gamemodel4"
+"spawnflags" "1"
+"killtarget" "func_rotating8"
+"origin" "332.000000 276.000000 76.000000"
+"classname" "misc_follow"
+}
+{
+"target" "horizwheels3"
+"spawnflags" "1"
+"killtarget" "func_rotating6"
+"origin" "300.000000 276.000000 48.000000"
+"classname" "misc_follow"
+}
+{
+"volume" "0.70"
+"noise" "sound/machines/Gas_Generator.wav"
+"origin" "296.000000 -440.000000 48.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "sound/machines/Gas_Generator.wav"
+"origin" "920.000000 250.000000 280.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "sound/machines/pumps_looped.ogg"
+"origin" "224.000000 352.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/Electric-Arcs1.wav"
+"volume" "0.25"
+"origin" "1120.000000 600.000000 216.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "sound/machines/pumps_looped.ogg"
+"origin" "-96.000000 352.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "sound/machines/pumps_looped.ogg"
+"origin" "224.000000 -480.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "sound/machines/pumps_looped.ogg"
+"origin" "-96.000000 -480.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-960.000000 -1200.000000 432.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "-800.000000 -448.000000 152.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-544.000000 -64.000000 368.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-544.000000 -224.000000 368.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-544.000000 -416.000000 368.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-720.000000 -592.000000 432.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-960.000000 -592.000000 432.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-1136.000000 -768.000000 432.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-1136.000000 -1024.000000 432.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-464.000000 -704.000000 432.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-464.000000 -1024.000000 432.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-640.000000 -1200.000000 432.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-416.000000 -64.000000 368.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "512.000000 -64.000000 368.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "768.000000 -64.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "1120.000000 -64.000000 336.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "976.000000 1408.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "462.000000 1140.000000 240.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "64.000000 800.000000 164.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "64.000000 608.000000 164.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-240.000000 -368.000000 -48.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "-648.000000 -64.000000 192.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "64.000000 -736.000000 152.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "-128.000000 -736.000000 160.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "832.000000 460.000000 324.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "2"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "-416.000000 -224.000000 -368.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "800.000000 -168.000000 96.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "1192.000000 160.000000 96.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "1192.000000 352.000000 96.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "1192.000000 672.000000 96.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "1192.000000 864.000000 96.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "896.000000 1192.000000 96.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "704.000000 1192.000000 96.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "64.000000 328.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "-400.000000 -64.000000 184.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "-528.000000 -64.000000 184.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "-1000.000000 -248.000000 512.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "2"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "-416.000000 96.000000 -368.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "-90.000000"
+"volume" "0.10"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "-768.000000 -800.000000 136.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "-90.000000"
+"volume" "0.10"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "-832.000000 -800.000000 136.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.10"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "-1000.000000 288.000000 436.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.10"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "-1000.000000 224.000000 436.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "-90.000000"
+"volume" "0.10"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "-784.000000 -64.000000 -308.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "-90.000000"
+"volume" "0.10"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "32.000000 -64.000000 44.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "-352.000000 -736.000000 160.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "1088.000000 240.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "1408.000000 976.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "1408.000000 1136.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "1408.000000 1296.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "1296.000000 1408.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "1136.000000 1408.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.70"
+"noise" "sound/machines/Gas_Generator.wav"
+"origin" "296.000000 312.000000 48.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "0.000010"
+"targetname" "lavahiss6"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "80.000000 784.000000 48.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "0.000010"
+"target_random" "1"
+"target2" "lavahiss6"
+"wait" "40"
+"spawnflags" "1"
+"target" "lavahiss5"
+"origin" "144.000000 768.000000 48.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "0.000010"
+"targetname" "lavahiss5"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "80.000000 752.000000 48.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss8"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "-582.000000 -80.000000 -376.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "179.999985"
+"target_random" "1"
+"target2" "lavahiss8"
+"wait" "25"
+"spawnflags" "1"
+"target" "lavahiss7"
+"origin" "-646.000000 -64.000000 -376.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss7"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "-582.000000 -48.000000 -376.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "-179.999985"
+"targetname" "lavahiss2"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "-776.000000 -464.000000 32.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "-179.999985"
+"target_random" "1"
+"target2" "lavahiss2"
+"wait" "45"
+"spawnflags" "1"
+"target" "lavahiss1"
+"origin" "-840.000000 -448.000000 32.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "-179.999985"
+"targetname" "lavahiss1"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "-776.000000 -432.000000 32.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "89.999992"
+"targetname" "lavahiss10"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "-152.000000 -418.000000 16.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "89.999992"
+"target_random" "1"
+"target2" "lavahiss10"
+"wait" "45"
+"spawnflags" "1"
+"target" "lavahiss9"
+"origin" "-136.000000 -354.000000 16.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "89.999992"
+"targetname" "lavahiss9"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "-120.000000 -418.000000 16.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss12"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "386.000000 168.000000 16.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "179.999985"
+"target_random" "1"
+"target2" "lavahiss12"
+"wait" "40"
+"spawnflags" "1"
+"target" "lavahiss11"
+"origin" "322.000000 184.000000 16.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss11"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "386.000000 200.000000 16.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss14"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "1090.000000 -88.000000 48.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "179.999985"
+"target_random" "1"
+"target2" "lavahiss14"
+"wait" "40"
+"spawnflags" "1"
+"target" "lavahiss13"
+"origin" "1026.000000 -72.000000 48.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss13"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "1090.000000 -56.000000 48.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss16"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "834.000000 816.000000 48.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "179.999985"
+"target_random" "1"
+"target2" "lavahiss16"
+"wait" "50"
+"spawnflags" "1"
+"target" "lavahiss15"
+"origin" "770.000000 832.000000 48.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss15"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "834.000000 848.000000 48.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "-90.000000"
+"target_random" "1"
+"target2" "lavahiss18"
+"wait" "30"
+"spawnflags" "1"
+"target" "lavahiss17"
+"origin" "-104.000000 210.000000 16.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "-90.000000"
+"targetname" "lavahiss18"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "-88.000000 274.000000 16.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "-90.000000"
+"targetname" "lavahiss17"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "-120.000000 274.000000 16.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "89.999992"
+"targetname" "lavahiss20"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "-152.000000 -818.000000 32.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "89.999992"
+"target_random" "1"
+"target2" "lavahiss20"
+"wait" "45"
+"spawnflags" "1"
+"target" "lavahiss19"
+"origin" "-136.000000 -754.000000 32.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "89.999992"
+"targetname" "lavahiss19"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "-120.000000 -818.000000 32.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "-90.000000"
+"volume" "0.10"
+"noise" "sound/machines/portal_idle.wav"
+"origin" "96.000000 -64.000000 44.000000"
+"classname" "target_speaker"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss4"
+"noise" "sound/lava/lavahiss2.ogg"
+"origin" "386.000000 -376.000000 16.000000"
+"classname" "target_speaker"
+}
+{
+"angle" "179.999985"
+"target_random" "1"
+"target2" "lavahiss4"
+"wait" "25"
+"spawnflags" "1"
+"target" "lavahiss3"
+"origin" "322.000000 -360.000000 16.000000"
+"classname" "trigger_multivibrator"
+}
+{
+"volume" "0.30"
+"angle" "179.999985"
+"targetname" "lavahiss3"
+"noise" "sound/lava/lavahiss1.ogg"
+"origin" "386.000000 -344.000000 16.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "64.000000 -544.000000 156.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "288.000000 800.000000 164.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "400.000000 768.000000 372.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "1134.000000 1140.000000 240.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "608.000000 -168.000000 96.000000"
+"classname" "target_speaker"
+}
+{
+"atten" "3"
+"volume" "9.5"
+"noise" "sound/machines/fluorescent_mono_looped.ogg"
+"origin" "64.000000 -456.000000 352.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "9.5"
+"origin" "64.000000 416.000000 164.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "-240.000000 240.000000 -48.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "368.000000 240.000000 -48.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/machines/light_mono_looped.ogg"
+"volume" "2"
+"origin" "368.000000 -368.000000 -48.000000"
+"classname" "target_speaker"
+}
+{
+"angles" "10.2941895 -44.1705322 0"
+"origin" "-251.635574 255.234192 141.794449"
+"classname" "info_autoscreenshot"
+}
+{
+"angles" "22.7032471 -34.6673584 0"
+"origin" "574.986084 1037.46997 384.281616"
+"classname" "info_autoscreenshot"
+}
+{
+"angles" "7.92114258 137.493896 0"
+"origin" "-506.150299 -1166.13342 277.222076"
+"classname" "info_autoscreenshot"
+}
