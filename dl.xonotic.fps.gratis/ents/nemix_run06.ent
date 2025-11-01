@@ -1,0 +1,57 @@
+{
+"message" "Explode with the light by NemiX"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "208 352 24"
+"angle" "180"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "-32 352 56"
+"targetname" "t1"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-8 352 16"
+"wait" "5"
+"count" "50"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1088 -32 584"
+"targetname" "t2"
+}
+{
+"classname" "item_enviro"
+"origin" "48 352 16"
+"count" "10"
+"wait" "5"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*4"
+}
+{
+"classname" "target_position"
+"origin" "992 -32 392"
+"angle" "360"
+"targetname" "t3"
+}
