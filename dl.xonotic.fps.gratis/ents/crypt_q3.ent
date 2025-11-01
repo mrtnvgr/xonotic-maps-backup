@@ -1,0 +1,302 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"message" "the crypt (q3crypt)"
+"ambient" "15"
+"_color" "1.000000 0.501961 0.000000"
+}
+{
+"origin" "599.200012 -957.599976 554.399963"
+"light" "150"
+"_color" "1.000000 0.501961 0.000000"
+"classname" "light"
+}
+{
+"origin" "-1131.199951 448.000000 324.799988"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1254.400024 0.000000 33.599998"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-627.200012 0.000000 89.599998"
+"targetname" "delay"
+"wait" "6"
+"target" "floor"
+"classname" "target_delay"
+}
+{
+"wait" "12"
+"target" "delay"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"wait" "6"
+"targetname" "floor"
+"angle" "-2"
+"classname" "func_door"
+"model" "*2"
+}
+{
+"wait" "6"
+"targetname" "floor"
+"angle" "-2"
+"classname" "func_door"
+"model" "*3"
+}
+{
+"classname" "target_teleporter"
+"angle" "180"
+"targetname" "tele02"
+"origin" "448.000000 -806.399963 414.399994"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele02"
+"model" "*4"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele01"
+"model" "*5"
+}
+{
+"classname" "target_teleporter"
+"origin" "-1702.400024 806.399963 414.399994"
+"targetname" "tele01"
+"angle" "360"
+}
+{
+"classname" "ammo_cells"
+"origin" "-1456.000000 -246.399994 22.400000"
+}
+{
+"classname" "ammo_slugs"
+"origin" "-1456.000000 246.399994 22.400000"
+}
+{
+"classname" "weapon_shotgun"
+"origin" "-268.799988 560.000000 22.400000"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-985.599976 560.000000 22.400000"
+}
+{
+"classname" "weapon_rocketlauncher"
+"spawnflags" "1"
+"origin" "-627.200012 0.000000 22.400000"
+}
+{
+"classname" "weapon_shotgun"
+"origin" "-1702.400024 -806.399963 425.600006"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "448.000000 806.399963 425.600006"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-627.200012 806.399963 313.600006"
+}
+{
+"classname" "ammo_rockets"
+"origin" "22.400000 582.399963 873.599976"
+}
+{
+"classname" "ammo_grenades"
+"origin" "-1276.799927 582.399963 873.599976"
+}
+{
+"classname" "ammo_shells"
+"origin" "-1478.400024 0.000000 873.599976"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-627.200012 -582.399963 873.599976"
+}
+{
+"classname" "weapon_railgun"
+"origin" "-627.200012 582.399963 873.599976"
+}
+{
+"classname" "ammo_shells"
+"origin" "-627.200012 448.000000 313.600006"
+}
+{
+"target" "jumppad"
+"classname" "trigger_push"
+"model" "*6"
+}
+{
+"origin" "-817.599976 0.000000 896.000000"
+"targetname" "jumppad"
+"classname" "target_location"
+}
+{
+"origin" "-716.799988 0.000000 896.000000"
+"spawnflags" "1"
+"classname" "ammo_cells"
+}
+{
+"origin" "-537.599976 0.000000 896.000000"
+"spawnflags" "1"
+"classname" "ammo_slugs"
+}
+{
+"angle" "180"
+"origin" "716.799988 0.000000 504.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "trigger_push"
+"target" "t1"
+"model" "*7"
+}
+{
+"classname" "target_location"
+"targetname" "t1"
+"origin" "-1444.799927 -548.799988 896.000000"
+}
+{
+"classname" "trigger_push"
+"target" "t2"
+"model" "*8"
+}
+{
+"classname" "target_location"
+"targetname" "t2"
+"origin" "-436.799988 0.000000 896.000000"
+}
+{
+"target" "t3"
+"classname" "trigger_push"
+"model" "*9"
+}
+{
+"origin" "-1444.799927 548.799988 896.000000"
+"targetname" "t3"
+"classname" "target_location"
+}
+{
+"origin" "-627.200012 -448.000000 313.600006"
+"classname" "ammo_shells"
+}
+{
+"origin" "224.000000 0.000000 873.599976"
+"classname" "ammo_shells"
+}
+{
+"origin" "22.400000 -582.399963 873.599976"
+"classname" "ammo_grenades"
+}
+{
+"origin" "-1276.799927 -582.399963 873.599976"
+"classname" "ammo_rockets"
+}
+{
+"origin" "-627.200012 -806.399963 313.600006"
+"classname" "ammo_rockets"
+}
+{
+"origin" "-268.799988 -560.000000 22.400000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "-985.599976 -560.000000 22.400000"
+"classname" "weapon_shotgun"
+}
+{
+"origin" "201.599991 -246.399994 22.400000"
+"classname" "ammo_slugs"
+}
+{
+"origin" "201.599991 246.399994 22.400000"
+"classname" "ammo_cells"
+}
+{
+"target" "t4"
+"classname" "trigger_push"
+"model" "*10"
+}
+{
+"origin" "190.399994 548.799988 896.000000"
+"targetname" "t4"
+"classname" "target_location"
+}
+{
+"classname" "trigger_push"
+"target" "t5"
+"model" "*11"
+}
+{
+"classname" "target_location"
+"targetname" "t5"
+"origin" "190.399994 -548.799988 896.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1971.199951 0.000000 504.000000"
+"angle" "360"
+}
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "0.000000 0.000000 33.599998"
+}
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "-123.199997 448.000000 324.799988"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1131.199951 -448.000000 324.799988"
+}
+{
+"origin" "-123.199997 -448.000000 324.799988"
+"classname" "info_player_deathmatch"
+"angle" "180"
+}
+{
+"origin" "-627.200012 -683.200012 33.599998"
+"classname" "info_player_deathmatch"
+"angle" "90"
+}
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "-627.200012 683.200012 33.599998"
+}
+{
+"classname" "light"
+"_color" "1.000000 0.501961 0.000000"
+"light" "150"
+"origin" "-1853.599976 -957.599976 554.399963"
+}
+{
+"origin" "-1853.599976 957.599976 554.399963"
+"light" "150"
+"_color" "1.000000 0.501961 0.000000"
+"classname" "light"
+}
+{
+"classname" "light"
+"_color" "1.000000 0.501961 0.000000"
+"light" "150"
+"origin" "599.200012 957.599976 554.399963"
+}
+{
+"origin" "-1467.199951 -571.200012 884.799988"
+"classname" "info_player_deathmatch"
+"angle" "45"
+}
+{
+"angle" "225"
+"classname" "info_player_deathmatch"
+"origin" "212.800003 571.200012 884.799988"
+}
