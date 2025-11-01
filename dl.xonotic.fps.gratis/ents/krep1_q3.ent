@@ -1,0 +1,3062 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"ambient" "6"
+"scoreboardmusic" "music/krep1/scoreboard.wav"
+"music" "music/krep1/music_3.wav"
+"message" "carmack fortress"
+"classname" "worldspawn"
+"deathmusic" "music/krep1/gameover.wav"
+}
+{
+"count" "3"
+"classname" "info_player_start"
+"origin" "-4704.000000 -2508.800049 -5342.399902"
+}
+{
+"clientname" "biker"
+"deathtarget" "room3done"
+"health" "500"
+"angle" "-90"
+"origin" "4032.000000 89.599998 -392.000000"
+"classname" "target_botspawn"
+"targetname" "room3logic_bot"
+"spawnflags" "16"
+"target" "room3bot1waypoint_a"
+}
+{
+"classname" "trigger_multiple"
+"target" "main_elevator"
+"wait" "1"
+"target2" "text_intro_1"
+"model" "*1"
+}
+{
+"sounds" "4"
+"classname" "func_plat"
+"angle" "-1"
+"speed" "60"
+"lip" "0"
+"targetname" "main_elevator"
+"height" "2867.199951"
+"wait" "-1"
+"model" "*2"
+}
+{
+"targetname" "main_elevator_start"
+"noise" "sound/krep1/text_intro.wav"
+"origin" "-4928.000000 -2464.000000 -5286.399902"
+"classname" "target_speaker"
+"spawnflags" "4"
+}
+{
+"spawnflags" "4"
+"classname" "target_speaker"
+"origin" "-4928.000000 -2553.599854 -5286.399902"
+"noise" "sound/krep1/main-platform.wav"
+"targetname" "main_elevator_start"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "300"
+"wait" "-2"
+"team" "main_door"
+"targetname" "main_door"
+"light" "20"
+"color" "0.89 0.66 0.31"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"target" "main_elevator_entrance"
+"model" "*4"
+}
+{
+"lip" "0"
+"targetname" "main_door_block"
+"sounds" "1"
+"wait" "-2"
+"speed" "1000"
+"angle" "-2"
+"classname" "func_door"
+"startsound" "sound/krep1/silent.wav"
+"endsound" "sound/krep1/silent.wav"
+"model" "*5"
+}
+{
+"origin" "-4569.600098 -2598.399902 -5331.199707"
+"classname" "ammo_bullets"
+"wait" "-1"
+"target" "points_5"
+}
+{
+"spawnflags" "4"
+"dmg" "45"
+"color" "0.25 0.72 0.76"
+"light" "20"
+"targetname" "secondary_door"
+"speed" "20"
+"wait" "6"
+"team" "secondary_door"
+"angle" "-90"
+"classname" "func_door"
+"model" "*6"
+}
+{
+"spawnflags" "4"
+"dmg" "45"
+"color" "0.25 0.72 0.76"
+"light" "20"
+"targetname" "secondary_door"
+"speed" "20"
+"wait" "6"
+"team" "secondary_door"
+"angle" "90"
+"classname" "func_door"
+"model" "*7"
+}
+{
+"light" "20"
+"target" "secondary_door"
+"wait" "18"
+"classname" "func_button"
+"model" "*8"
+}
+{
+"classname" "target_speaker"
+"origin" "-2643.199951 -2508.800049 -2273.599854"
+"noise" "sound/krep1/secondary_door_full.wav"
+"targetname" "secondary_door"
+}
+{
+"wait" "-1"
+"origin" "-2044.000000 -2312.800049 -2396.800049"
+"classname" "item_health_small"
+"target" "points_5"
+}
+{
+"wait" "-1"
+"classname" "item_health_small"
+"origin" "-2044.000000 -2704.800049 -2396.800049"
+"target" "points_5"
+}
+{
+"wait" "-1"
+"classname" "item_armor_vest"
+"origin" "-1926.400024 -2867.199951 -2307.199951"
+"target" "points_15"
+}
+{
+"angle" "-90"
+"team" "main_door"
+"wait" "-2"
+"speed" "300"
+"targetname" "main_door"
+"light" "20"
+"color" "0.89 0.66 0.31"
+"classname" "func_door"
+"model" "*9"
+}
+{
+"wait" "-1"
+"origin" "-2329.599854 -2150.399902 -2396.800049"
+"classname" "item_health"
+}
+{
+"health" "1"
+"spawnflags" "4"
+"dmg" "45"
+"speed" "20"
+"wait" "-2"
+"angle" "90"
+"classname" "func_door"
+"lip" "44.799999"
+"model" "*10"
+}
+{
+"target" "points_50"
+"wait" "-1"
+"classname" "item_health_mega"
+"origin" "-3270.399902 -2060.800049 -2396.800049"
+}
+{
+"classname" "target_secret"
+"origin" "-3360.000000 -2083.199951 -2374.399902"
+"targetname" "secret_door_secret"
+}
+{
+"classname" "trigger_multiple"
+"target" "secret_door_secret"
+"model" "*11"
+}
+{
+"wait" "-1"
+"classname" "item_armor_shard"
+"origin" "-2475.199951 -2923.199951 -2396.800049"
+"target" "points_5"
+}
+{
+"wait" "-1"
+"origin" "-2116.800049 -2923.199951 -2396.800049"
+"classname" "item_armor_shard"
+"target" "points_5"
+}
+{
+"classname" "func_door"
+"wait" "3"
+"team" "side_door"
+"speed" "300"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "300"
+"team" "side_door"
+"wait" "3"
+"model" "*13"
+}
+{
+"spawnflags" "1"
+"noise" "sound/world/drone6.wav"
+"origin" "-2329.599854 -1612.799927 -1971.199951"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-2329.599854 -627.200012 -1971.199951"
+"noise" "sound/world/demonwind01.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-2150.399902 -2508.800049 -2150.399902"
+"noise" "sound/world/tim_comp_hum3.wav"
+"spawnflags" "1"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "300"
+"team" "outside_door"
+"wait" "3"
+"nobots" "1"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"speed" "300"
+"team" "outside_door"
+"wait" "3"
+"nobots" "1"
+"model" "*15"
+}
+{
+"targetname" "fortress_door"
+"message" "door is locked."
+"origin" "414.399994 1702.400024 -985.599976"
+"classname" "target_print"
+}
+{
+"wait" "6"
+"target" "fortress_door"
+"classname" "trigger_multiple"
+"nobots" "1"
+"model" "*16"
+}
+{
+"classname" "target_print"
+"origin" "-4972.799805 -2508.800049 -5286.399902"
+"message" "hey!  you there? ... marine! ... ahh, good."
+"targetname" "text_start"
+"wait" "6"
+}
+{
+"wait" "6"
+"targetname" "text_intro_2"
+"message" "alright marine, this is it.  you've reached carmack's domain./nwe call it the carmack fortress."
+"origin" "-4972.799805 -2732.800049 -5152.000000"
+"classname" "target_print"
+"spawnflags" "8"
+}
+{
+"classname" "target_delay"
+"origin" "-4972.799805 -2732.800049 -5196.799805"
+"targetname" "text_start"
+"wait" "6"
+"target" "text_intro_2"
+}
+{
+"classname" "target_relay"
+"origin" "-4972.799805 -2508.800049 -5241.600098"
+"targetname" "main_elevator"
+"target" "text_start"
+}
+{
+"target" "text_intro_3"
+"wait" "12"
+"targetname" "text_start"
+"origin" "-4972.799805 -2688.000000 -5196.799805"
+"classname" "target_delay"
+}
+{
+"classname" "target_print"
+"origin" "-4972.799805 -2688.000000 -5152.000000"
+"message" "your mission is to enter the carmack fortress/nand destroy all enenies within."
+"targetname" "text_intro_3"
+"wait" "5"
+"spawnflags" "8"
+}
+{
+"classname" "target_print"
+"origin" "-4972.799805 -2643.199951 -5152.000000"
+"message" "yes, dr. carmack--you remember him, right?"
+"targetname" "text_intro_4"
+"wait" "4"
+"spawnflags" "8"
+}
+{
+"target" "text_intro_4"
+"wait" "17"
+"targetname" "text_start"
+"origin" "-4972.799805 -2643.199951 -5196.799805"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "-4972.799805 -2598.399902 -5196.799805"
+"targetname" "text_start"
+"wait" "21"
+"target" "text_intro_5"
+}
+{
+"wait" "5"
+"targetname" "text_intro_5"
+"message" "well, he went rogue and took all uac research with him-- /n --started up his show."
+"origin" "-4972.799805 -2598.399902 -5152.000000"
+"classname" "target_print"
+"spawnflags" "8"
+}
+{
+"target" "text_intro_6"
+"wait" "26"
+"targetname" "text_start"
+"origin" "-4972.799805 -2553.599854 -5196.799805"
+"classname" "target_delay"
+}
+{
+"classname" "target_print"
+"origin" "-4972.799805 -2553.599854 -5152.000000"
+"message" "since then, no one has heard from him--until now."
+"targetname" "text_intro_6"
+"wait" "4"
+"spawnflags" "8"
+}
+{
+"classname" "target_delay"
+"origin" "-4972.799805 -2508.800049 -5196.799805"
+"targetname" "text_start"
+"wait" "30"
+"target" "text_intro_7"
+}
+{
+"wait" "4"
+"targetname" "text_intro_7"
+"message" "we received reports of his location, and what he's been up to."
+"origin" "-4972.799805 -2508.800049 -5152.000000"
+"classname" "target_print"
+"spawnflags" "8"
+}
+{
+"target" "text_intro_8"
+"wait" "34"
+"targetname" "text_start"
+"origin" "-4972.799805 -2464.000000 -5196.799805"
+"classname" "target_delay"
+}
+{
+"classname" "target_print"
+"origin" "-4972.799805 -2464.000000 -5152.000000"
+"message" "we know carmack has been experimenting with human genetics-- /n --creating super humans, cyborgs, and other strange looking beings."
+"targetname" "text_intro_8"
+"wait" "6"
+"spawnflags" "8"
+}
+{
+"wait" "6"
+"targetname" "text_intro_9"
+"message" "we know that these beings are alive and dangerous./nthey are your enemy, my friend."
+"origin" "-4972.799805 -2419.199951 -5152.000000"
+"classname" "target_print"
+"spawnflags" "8"
+}
+{
+"classname" "target_delay"
+"origin" "-4972.799805 -2419.199951 -5196.799805"
+"targetname" "text_start"
+"wait" "40"
+"target" "text_intro_9"
+}
+{
+"classname" "target_print"
+"origin" "-4972.799805 -2374.399902 -5152.000000"
+"message" "you are to eliminate these enemies,/ncapture dr. carmack--if possible,/nand return to base."
+"targetname" "text_intro_10"
+"wait" "6"
+"spawnflags" "8"
+}
+{
+"target" "text_intro_10"
+"wait" "46"
+"targetname" "text_start"
+"origin" "-4972.799805 -2374.399902 -5196.799805"
+"classname" "target_delay"
+}
+{
+"wait" "6"
+"targetname" "text_intro_11"
+"message" "be careful, marine.  this place is not like any ordinary place-- /n --it's heavily guarded and booby trapped."
+"origin" "-4972.799805 -2329.599854 -5152.000000"
+"classname" "target_print"
+"spawnflags" "8"
+}
+{
+"classname" "target_delay"
+"origin" "-4972.799805 -2329.599854 -5196.799805"
+"targetname" "text_start"
+"wait" "52"
+"target" "text_intro_11"
+}
+{
+"classname" "target_print"
+"origin" "-4972.799805 -2284.800049 -5152.000000"
+"message" "good luck, soldier."
+"targetname" "text_intro_12"
+"wait" "4"
+"spawnflags" "8"
+}
+{
+"target" "text_intro_12"
+"wait" "58"
+"targetname" "text_start"
+"origin" "-4972.799805 -2284.800049 -5196.799805"
+"classname" "target_delay"
+}
+{
+"classname" "trigger_multiple"
+"target" "objective_entry"
+"wait" "-1"
+"model" "*17"
+}
+{
+"spawnflags" "1"
+"classname" "target_objective"
+"origin" "-3102.399902 1758.400024 4267.199707"
+"targetname" "objective_entry"
+"message" "gain access to the main elevator."
+}
+{
+"classname" "target_speaker"
+"origin" "896.000000 1702.400024 -660.799988"
+"targetname" "main_window"
+"noise" "sound/krep1/glass_break.wav"
+}
+{
+"noise" "sound/krep1/key-try.wav"
+"targetname" "fortress_door"
+"origin" "347.199982 1478.400024 -1097.599976"
+"classname" "target_speaker"
+}
+{
+"classname" "target_position"
+"origin" "1411.199951 -291.199982 2867.199951"
+"targetname" "building_roof_right"
+}
+{
+"targetname" "building_roof_left"
+"origin" "1411.199951 3696.000000 2867.199951"
+"classname" "target_position"
+}
+{
+"classname" "target_position"
+"origin" "336.000000 2083.199951 -1097.599976"
+"targetname" "building_entrance_left"
+}
+{
+"targetname" "building_entrance_right"
+"origin" "336.000000 1321.599976 -1097.599976"
+"classname" "target_position"
+}
+{
+"nobots" "1"
+"target" "main_gate"
+"light" "20"
+"angle" "-90"
+"classname" "func_button"
+"model" "*18"
+}
+{
+"wait" "-2"
+"angle" "-1"
+"light" "20"
+"speed" "120"
+"spawnflags" "4"
+"targetname" "main_gate"
+"classname" "func_door"
+"model" "*19"
+}
+{
+"classname" "target_position"
+"origin" "1411.199951 -291.199982 -1097.599976"
+"targetname" "building_side_right"
+}
+{
+"targetname" "building_side_left"
+"origin" "1411.199951 3696.000000 -1097.599976"
+"classname" "target_position"
+}
+{
+"classname" "func_door"
+"targetname" "gate_1_door"
+"angle" "-1"
+"lip" "11.200000"
+"wait" "-2"
+"model" "*20"
+}
+{
+"classname" "func_door"
+"targetname" "gate_0_door"
+"lip" "11.200000"
+"wait" "-2"
+"angle" "-1"
+"model" "*21"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "gate_2_door"
+"lip" "11.200000"
+"wait" "-2"
+"model" "*22"
+}
+{
+"classname" "func_door"
+"targetname" "gate_3_door"
+"lip" "11.200000"
+"wait" "-2"
+"angle" "-1"
+"model" "*23"
+}
+{
+"classname" "func_door"
+"wait" "-2"
+"lip" "11.200000"
+"targetname" "level_1_gate"
+"angle" "-1"
+"model" "*24"
+}
+{
+"nobots" "1"
+"wait" "-1"
+"origin" "2867.199951 89.599998 -582.399963"
+"classname" "weapon_rocketlauncher"
+"target" "room3_rocket_pickup"
+}
+{
+"nobots" "1"
+"count" "10"
+"wait" "-1"
+"origin" "3091.199951 89.599998 -582.399963"
+"classname" "ammo_rockets"
+}
+{
+"nobots" "1"
+"count" "10"
+"classname" "ammo_rockets"
+"origin" "2643.199951 89.599998 -582.399963"
+"wait" "-1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "20"
+"lip" "-5.600000"
+"targetname" "room3done"
+"wait" "-2"
+"model" "*25"
+}
+{
+"classname" "func_button"
+"wait" "-2"
+"target" "gate_3"
+"light" "20"
+"model" "*26"
+}
+{
+"classname" "func_door"
+"wait" "1"
+"speed" "300"
+"team" "room3predoor"
+"angle" "90"
+"lip" "5.600000"
+"model" "*27"
+}
+{
+"classname" "func_door"
+"team" "room3predoor"
+"wait" "1"
+"speed" "300"
+"angle" "-90"
+"lip" "5.600000"
+"model" "*28"
+}
+{
+"classname" "target_logic"
+"origin" "2688.000000 1702.400024 -1097.599976"
+"target" "level_1"
+"targetname" "level_1_logic"
+}
+{
+"nobots" "1"
+"classname" "func_button"
+"target" "gate_1_elevator"
+"wait" "-2"
+"light" "20"
+"model" "*29"
+}
+{
+"nobots" "1"
+"classname" "func_button"
+"angle" "180"
+"light" "20"
+"wait" "-2"
+"target" "gate_0_elevator"
+"model" "*30"
+}
+{
+"nobots" "1"
+"classname" "func_button"
+"target" "gate_3_elevator"
+"wait" "-2"
+"light" "20"
+"angle" "-90"
+"model" "*31"
+}
+{
+"nobots" "1"
+"classname" "func_button"
+"angle" "90"
+"target" "gate_2_elevator"
+"wait" "-2"
+"light" "20"
+"model" "*32"
+}
+{
+"classname" "trigger_multiple"
+"target" "outside"
+"wait" "-1"
+"nobots" "1"
+"model" "*33"
+}
+{
+"spawnflags" "1"
+"origin" "-2620.800049 -498.399994 -1976.799927"
+"noise" "sound/world/fire1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fire1.wav"
+"origin" "-2184.000000 -543.200012 -2066.399902"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"origin" "-2396.800049 -16.799999 -1887.199951"
+"noise" "sound/world/fire1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fire1.wav"
+"origin" "-2172.800049 487.199982 -1708.000000"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"origin" "-2441.599854 666.399963 -1635.199951"
+"noise" "sound/world/fire1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fire1.wav"
+"origin" "-2184.000000 845.599976 -1568.000000"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"origin" "-2430.399902 1114.400024 -1500.799927"
+"noise" "sound/world/fire1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fire1.wav"
+"origin" "-2240.000000 1629.599976 -1120.000000"
+"spawnflags" "1"
+}
+{
+"health" "15"
+"clientname" "orbb"
+"spawnflags" "2"
+"targetname" "outside"
+"angle" "180"
+"origin" "-1097.599976 1747.199951 -1108.799927"
+"classname" "target_botspawn"
+"target" "outside_waypoint_1"
+}
+{
+"classname" "target_botspawn"
+"origin" "-1097.599976 1568.000000 -1108.799927"
+"angle" "180"
+"targetname" "outside"
+"spawnflags" "2"
+"clientname" "orbb"
+"health" "15"
+"target" "outside_waypoint_1"
+}
+{
+"classname" "info_waypoint"
+"origin" "-2262.399902 1568.000000 -1198.400024"
+"targetname" "outside_waypoint_1"
+"target" "outside_waypoint_2"
+}
+{
+"targetname" "outside_waypoint_2"
+"origin" "-2016.000000 1747.199951 -1176.000000"
+"classname" "info_waypoint"
+"target" "outside_waypoint_3"
+}
+{
+"target" "outside_waypoint_1"
+"classname" "info_waypoint"
+"origin" "-1568.000000 1523.199951 -1108.799927"
+"targetname" "outside_waypoint_3"
+}
+{
+"health" "15"
+"clientname" "orbb"
+"spawnflags" "2"
+"targetname" "outside"
+"angle" "180"
+"origin" "-963.200012 1747.199951 -1108.799927"
+"classname" "target_botspawn"
+"target" "outside_waypoint_1"
+}
+{
+"classname" "target_botspawn"
+"origin" "-963.200012 1568.000000 -1108.799927"
+"angle" "180"
+"targetname" "outside"
+"spawnflags" "2"
+"clientname" "orbb"
+"health" "15"
+"target" "outside_waypoint_1"
+}
+{
+"target" "outside_2_waypoint_1"
+"health" "15"
+"clientname" "orbb"
+"spawnflags" "2"
+"targetname" "outside_2"
+"angle" "180"
+"origin" "582.399963 1568.000000 -660.799988"
+"classname" "target_botspawn"
+}
+{
+"target" "outside_2_waypoint_1"
+"health" "15"
+"clientname" "orbb"
+"spawnflags" "2"
+"targetname" "outside_2"
+"angle" "180"
+"origin" "582.399963 1657.599976 -660.799988"
+"classname" "target_botspawn"
+}
+{
+"targetname" "outside_2_waypoint_1"
+"origin" "582.399963 1366.400024 -660.799988"
+"classname" "info_waypoint"
+"target" "outside_2_waypoint_2"
+}
+{
+"target" "outside_2_waypoint_3"
+"classname" "info_waypoint"
+"origin" "358.399994 1366.400024 -660.799988"
+"targetname" "outside_2_waypoint_2"
+}
+{
+"targetname" "outside_2_waypoint_3"
+"origin" "313.600006 1366.400024 -1108.799927"
+"classname" "info_waypoint"
+"target" "outside_2_waypoint_4"
+}
+{
+"target" "outside_waypoint_3"
+"classname" "info_waypoint"
+"origin" "0.000000 1523.199951 -1108.799927"
+"targetname" "outside_2_waypoint_4"
+}
+{
+"classname" "target_botspawn"
+"origin" "582.399963 1747.199951 -660.799988"
+"angle" "180"
+"targetname" "outside_2"
+"spawnflags" "2"
+"clientname" "orbb"
+"health" "15"
+"target" "outside_2b_waypoint_1"
+}
+{
+"target" "outside_2b_waypoint_1"
+"health" "15"
+"clientname" "orbb"
+"spawnflags" "2"
+"targetname" "outside_2"
+"angle" "180"
+"origin" "582.399963 1836.799927 -660.799988"
+"classname" "target_botspawn"
+}
+{
+"target" "outside_2b_waypoint_2"
+"classname" "info_waypoint"
+"origin" "582.399963 2038.400024 -660.799988"
+"targetname" "outside_2b_waypoint_1"
+}
+{
+"targetname" "outside_2b_waypoint_2"
+"origin" "358.399994 2038.400024 -660.799988"
+"classname" "info_waypoint"
+"target" "outside_2b_waypoint_3"
+}
+{
+"target" "outside_2b_waypoint_4"
+"classname" "info_waypoint"
+"origin" "313.600006 2038.400024 -1108.799927"
+"targetname" "outside_2b_waypoint_3"
+}
+{
+"targetname" "outside_2b_waypoint_4"
+"origin" "0.000000 1792.000000 -1108.799927"
+"classname" "info_waypoint"
+"target" "outside_waypoint_3b"
+}
+{
+"targetname" "outside_waypoint_3b"
+"origin" "-1568.000000 1724.799927 -1108.799927"
+"classname" "info_waypoint"
+"target" "outside_waypoint_1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "outside_2"
+"nobots" "1"
+"model" "*34"
+}
+{
+"endsound" "sound/krep1/silent.wav"
+"startsound" "sound/krep1/silent.wav"
+"classname" "func_door"
+"targetname" "room3relay_done"
+"lip" "-5.600000"
+"model" "*35"
+}
+{
+"endsound" "sound/krep1/silent.wav"
+"startsound" "sound/krep1/silent.wav"
+"classname" "func_door"
+"targetname" "room3relay_done"
+"lip" "-5.600000"
+"model" "*36"
+}
+{
+"endsound" "sound/krep1/silent.wav"
+"startsound" "sound/krep1/silent.wav"
+"classname" "func_door"
+"lip" "-5.600000"
+"targetname" "room3relay_done"
+"model" "*37"
+}
+{
+"lip" "11.200000"
+"targetname" "room_gates_door_3"
+"angle" "-1"
+"wait" "-2"
+"classname" "func_door"
+"model" "*38"
+}
+{
+"lip" "11.200000"
+"targetname" "room_gates_door_2"
+"angle" "-1"
+"wait" "-2"
+"classname" "func_door"
+"model" "*39"
+}
+{
+"lip" "11.200000"
+"targetname" "room_gates_door_1"
+"angle" "-1"
+"wait" "-2"
+"classname" "func_door"
+"model" "*40"
+}
+{
+"classname" "target_speaker"
+"origin" "2688.000000 1702.400024 -1008.000000"
+"noise" "sound/krep1/fusein.wav"
+"targetname" "gate_unlocked"
+}
+{
+"targetname" "gate_0_elevator"
+"target" "room_gates"
+"origin" "2374.399902 1702.400024 -1064.000000"
+"classname" "target_relay"
+}
+{
+"nobots" "1"
+"origin" "851.200012 1500.799927 -1120.000000"
+"classname" "ammo_bullets"
+"target" "points_5"
+}
+{
+"classname" "target_variable"
+"origin" "-4345.600098 -2508.800049 -5241.600098"
+"key" "main_elevator_active"
+"value" "1"
+"targetname" "main_elevator"
+}
+{
+"classname" "target_variable"
+"origin" "-4345.600098 -2508.800049 -2419.199951"
+"spawnflags" "1"
+"key" "main_elevator_active"
+"value" "1"
+"target" "main_elevator_reset"
+"targetname" "main_elevator_entrance"
+}
+{
+"value" "0"
+"key" "main_elevator_active"
+"origin" "-4300.799805 -2508.800049 -2419.199951"
+"classname" "target_variable"
+"targetname" "main_elevator_reset"
+}
+{
+"target" "main_door_block"
+"targetname" "main_elevator_reset"
+"count" "1"
+"origin" "-4345.600098 -2508.800049 -2464.000000"
+"classname" "target_relay"
+}
+{
+"classname" "target_relay"
+"origin" "-4390.399902 -2508.800049 -5196.799805"
+"target" "main_door_block"
+"targetname" "main_elevator"
+}
+{
+"targetname" "main_elevator_entrance"
+"target" "main_door_trigger"
+"value" "1"
+"key" "main_door_triggered"
+"origin" "-4345.600098 -2508.800049 -2374.399902"
+"classname" "target_variable"
+"spawnflags" "2"
+}
+{
+"targetname" "main_door_trigger"
+"classname" "target_variable"
+"origin" "-4300.799805 -2508.800049 -2374.399902"
+"key" "main_door_triggered"
+"value" "1"
+}
+{
+"target" "main_door"
+"targetname" "main_door_trigger"
+"origin" "-4345.600098 -2508.800049 -2329.599854"
+"classname" "target_relay"
+}
+{
+"classname" "target_score"
+"origin" "-3102.399902 1467.199951 3976.000000"
+"targetname" "points_15"
+"count" "15"
+}
+{
+"classname" "target_score"
+"origin" "-3192.000000 1467.199951 3976.000000"
+"targetname" "points_5"
+"count" "5"
+"wait" "-1"
+}
+{
+"classname" "info_camera"
+"origin" "-806.399963 1657.599976 -1008.000000"
+"targetname" "outside_camera"
+"spawnflags" "1"
+"target" "outside_camera_b"
+"wait" "3"
+}
+{
+"origin" "-806.399963 1657.599976 -795.200012"
+"classname" "info_camera"
+"targetname" "outside_camera_b"
+"wait" "0"
+}
+{
+"classname" "target_cutscene"
+"origin" "-806.399963 1657.599976 -1052.799927"
+"target" "outside_camera"
+"targetname" "outside_scene"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"nobots" "1"
+"target" "outside_scene"
+"model" "*41"
+}
+{
+"classname" "target_speaker"
+"origin" "-806.399963 1657.599976 -750.399963"
+"spawnflags" "4"
+"noise" "sound/krep1/outside-cutscene.wav"
+"targetname" "outside_scene"
+}
+{
+"classname" "info_null"
+"origin" "4032.000000 89.599998 -392.000000"
+"target" "room3done"
+}
+{
+"wait" "3"
+"targetname" "gate_0_camera"
+"origin" "2464.000000 1702.400024 -1041.599976"
+"classname" "info_camera"
+"angle" "180"
+}
+{
+"targetname" "gate_0_scene"
+"target" "gate_0_camera"
+"origin" "2464.000000 1702.400024 -1086.400024"
+"classname" "target_cutscene"
+}
+{
+"classname" "target_relay"
+"origin" "2464.000000 1702.400024 -1131.199951"
+"target" "gate_0_scene"
+"targetname" "gate_0"
+}
+{
+"targetname" "gate_0"
+"target" "gate_0_door"
+"origin" "2240.000000 1702.400024 -963.200012"
+"classname" "target_delay"
+"wait" "1"
+}
+{
+"targetname" "room_gates"
+"target" "room_gates_scene"
+"origin" "2016.000000 1209.599976 -1131.199951"
+"classname" "target_relay"
+}
+{
+"classname" "target_cutscene"
+"origin" "2016.000000 1209.599976 -1086.400024"
+"target" "room_gates_camera"
+"targetname" "room_gates_scene"
+}
+{
+"target" "room_gates_camera_2"
+"angle" "45"
+"classname" "info_camera"
+"origin" "3348.800049 1097.599976 -1041.599976"
+"targetname" "room_gates_camera"
+"wait" "3"
+}
+{
+"wait" "7"
+"classname" "target_delay"
+"origin" "1926.400024 940.799988 -963.200012"
+"target" "room_gates_door_3"
+"targetname" "room_gates"
+}
+{
+"target" "room_gates_camera_3"
+"wait" "3"
+"targetname" "room_gates_camera_2"
+"origin" "2016.000000 2195.199951 -1041.599976"
+"classname" "info_camera"
+"angle" "80"
+}
+{
+"angle" "-80"
+"classname" "info_camera"
+"origin" "2016.000000 1209.599976 -1041.599976"
+"targetname" "room_gates_camera_3"
+"wait" "3"
+}
+{
+"targetname" "room_gates"
+"target" "room_gates_door_2"
+"origin" "2016.000000 2464.000000 -963.200012"
+"classname" "target_delay"
+"wait" "4"
+}
+{
+"targetname" "room_gates"
+"target" "room_gates_door_1"
+"origin" "3449.599854 1702.400024 -963.200012"
+"classname" "target_delay"
+"wait" "1"
+}
+{
+"target" "room_3_text_intro_3"
+"wait" "11"
+"targetname" "room_3_text_start_"
+"origin" "4177.600098 44.799999 -739.200012"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "4177.600098 89.599998 -739.200012"
+"targetname" "room_3_text_start"
+"wait" "5"
+"target" "room_3_text_intro_2"
+}
+{
+"classname" "target_delay"
+"origin" "4177.600098 134.399994 -739.200012"
+"targetname" "room_3_text_start"
+"wait" "0"
+"target" "room_3_text_intro"
+}
+{
+"spawnflags" "8"
+"classname" "target_print"
+"origin" "4177.600098 44.799999 -694.399963"
+"message" "biker is an ugly foe equipped with a shotgun, and has 400 health."
+"targetname" "room_3_text_intro_3"
+"wait" "4"
+}
+{
+"spawnflags" "8"
+"wait" "5"
+"targetname" "room_3_text_intro_2"
+"message" "carmack sacrificed appearance for power and therefore created-- /n --what we call--biker."
+"origin" "4177.600098 89.599998 -694.399963"
+"classname" "target_print"
+}
+{
+"spawnflags" "8"
+"wait" "6"
+"targetname" "room_3_text_intro"
+"message" "alright, carmack's 3rd-gen super-human creation."
+"origin" "4177.600098 134.399994 -694.399963"
+"classname" "target_print"
+}
+{
+"target" "room_3_text_start"
+"targetname" "room3begin"
+"origin" "4177.600098 89.599998 -784.000000"
+"classname" "target_relay"
+}
+{
+"wait" "1"
+"classname" "target_delay"
+"origin" "2688.000000 1299.199951 -963.200012"
+"target" "gate_3_door"
+"targetname" "gate_3"
+}
+{
+"targetname" "gate_3"
+"target" "gate_3_scene"
+"origin" "2688.000000 1523.199951 -1108.799927"
+"classname" "target_relay"
+}
+{
+"classname" "target_cutscene"
+"origin" "2688.000000 1523.199951 -1064.000000"
+"target" "gate_3_camera"
+"targetname" "gate_3_scene"
+}
+{
+"angle" "-90"
+"classname" "info_camera"
+"origin" "2688.000000 1523.199951 -1019.200012"
+"targetname" "gate_3_camera"
+"wait" "3"
+}
+{
+"classname" "target_relay"
+"origin" "3001.599854 1702.400024 -1097.599976"
+"target" "level_1_logic"
+"targetname" "gate_1_elevator"
+}
+{
+"targetname" "gate_1_elevator"
+"target" "gate_unlocked"
+"origin" "3001.599854 1702.400024 -1008.000000"
+"classname" "target_relay"
+}
+{
+"classname" "weapon_shotgun"
+"origin" "4390.399902 1702.400024 -582.399963"
+"wait" "-1"
+"target" "room1_shotgun_pickup"
+}
+{
+"count" "20"
+"classname" "ammo_shells"
+"origin" "4614.399902 1702.400024 -582.399963"
+"wait" "-1"
+}
+{
+"count" "20"
+"wait" "-1"
+"origin" "4166.399902 1702.400024 -582.399963"
+"classname" "ammo_shells"
+}
+{
+"targetname" "room1done"
+"lip" "-5.600000"
+"endsound" "sound/krep1/silent.wav"
+"startsound" "sound/krep1/silent.wav"
+"classname" "func_door"
+"model" "*42"
+}
+{
+"targetname" "room1done"
+"lip" "-5.600000"
+"endsound" "sound/krep1/silent.wav"
+"startsound" "sound/krep1/silent.wav"
+"classname" "func_door"
+"model" "*43"
+}
+{
+"targetname" "room1done"
+"lip" "-5.600000"
+"endsound" "sound/krep1/silent.wav"
+"startsound" "sound/krep1/silent.wav"
+"classname" "func_door"
+"model" "*44"
+}
+{
+"angle" "-90"
+"lip" "5.600000"
+"speed" "300"
+"wait" "3"
+"team" "room1predoor"
+"classname" "func_door"
+"model" "*45"
+}
+{
+"wait" "3"
+"speed" "300"
+"team" "room1predoor"
+"lip" "5.600000"
+"angle" "90"
+"classname" "func_door"
+"model" "*46"
+}
+{
+"targetname" "room1won"
+"noise" "sound/krep1/combat-won.wav"
+"origin" "4872.000000 1702.400024 -918.399963"
+"classname" "target_speaker"
+}
+{
+"targetname" "room1relay_door"
+"target" "room1door"
+"origin" "4872.000000 1702.400024 -806.399963"
+"classname" "target_relay"
+}
+{
+"classname" "target_delay"
+"origin" "4872.000000 1702.400024 -1075.199951"
+"target" "room1door"
+"targetname" "room1begin"
+"wait" "4"
+}
+{
+"classname" "target_delay"
+"origin" "4872.000000 1702.400024 -761.599976"
+"wait" "0"
+"targetname" "room1done"
+"target" "room1relay_door"
+}
+{
+"targetname" "room1combat"
+"noise" "sound/krep1/combat_loop.wav"
+"origin" "4872.000000 1702.400024 -963.200012"
+"classname" "target_speaker"
+"spawnflags" "2"
+}
+{
+"classname" "target_delay"
+"origin" "4872.000000 1702.400024 -1030.400024"
+"targetname" "room1begin_relay"
+"target" "room1door_block"
+"wait" "4"
+}
+{
+"target" "room1door_block"
+"targetname" "room1done"
+"wait" "0"
+"origin" "4872.000000 1702.400024 -851.200012"
+"classname" "target_delay"
+}
+{
+"targetname" "gate_1"
+"target" "gate_1_door"
+"origin" "3136.000000 1702.400024 -963.200012"
+"classname" "target_delay"
+"wait" "1"
+}
+{
+"classname" "target_relay"
+"origin" "2867.199951 1702.400024 -1108.799927"
+"target" "gate_1_scene"
+"targetname" "gate_1"
+}
+{
+"targetname" "gate_1_scene"
+"target" "gate_1_camera"
+"origin" "2867.199951 1702.400024 -1064.000000"
+"classname" "target_cutscene"
+}
+{
+"wait" "3"
+"targetname" "gate_1_camera"
+"origin" "2867.199951 1702.400024 -1019.200012"
+"classname" "info_camera"
+}
+{
+"targetname" "gate_3_elevator"
+"target" "level_1_logic"
+"origin" "2688.000000 1388.799927 -1097.599976"
+"classname" "target_relay"
+}
+{
+"classname" "target_relay"
+"origin" "2688.000000 1388.799927 -1008.000000"
+"target" "gate_unlocked"
+"targetname" "gate_3_elevator"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "room1door"
+"model" "*47"
+}
+{
+"classname" "func_door"
+"targetname" "room1door"
+"team" "room1door"
+"wait" "-2"
+"lip" "5.600000"
+"angle" "-90"
+"model" "*48"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"wait" "-2"
+"lip" "5.600000"
+"targetname" "room1door"
+"team" "room1door"
+"model" "*49"
+}
+{
+"nobots" "1"
+"classname" "func_door"
+"targetname" "room1door_block"
+"angle" "-2"
+"wait" "-2"
+"speed" "300"
+"spawnflags" "1"
+"lip" "0"
+"model" "*50"
+}
+{
+"wait" "-1"
+"target" "room2door"
+"classname" "trigger_multiple"
+"model" "*51"
+}
+{
+"lip" "-5.600000"
+"targetname" "room2done"
+"classname" "func_door"
+"startsound" "sound/krep1/silent.wav"
+"endsound" "sound/krep1/silent.wav"
+"model" "*52"
+}
+{
+"lip" "-5.600000"
+"targetname" "room2done"
+"classname" "func_door"
+"startsound" "sound/krep1/silent.wav"
+"endsound" "sound/krep1/silent.wav"
+"model" "*53"
+}
+{
+"targetname" "room2done"
+"lip" "-5.600000"
+"classname" "func_door"
+"startsound" "sound/krep1/silent.wav"
+"endsound" "sound/krep1/silent.wav"
+"model" "*54"
+}
+{
+"angle" "-90"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "room2door"
+"wait" "-2"
+"speed" "300"
+"team" "room2door"
+"model" "*55"
+}
+{
+"angle" "90"
+"lip" "5.600000"
+"classname" "func_door"
+"targetname" "room2door"
+"wait" "-2"
+"speed" "300"
+"team" "room2door"
+"model" "*56"
+}
+{
+"wait" "-1"
+"classname" "trigger_multiple"
+"target" "room2begin_relay"
+"model" "*57"
+}
+{
+"wait" "-2"
+"targetname" "room2done"
+"lip" "-5.600000"
+"speed" "20"
+"angle" "-1"
+"classname" "func_door"
+"model" "*58"
+}
+{
+"light" "20"
+"target" "gate_2"
+"wait" "-2"
+"classname" "func_button"
+"model" "*59"
+}
+{
+"wait" "-1"
+"origin" "2867.199951 3315.199951 -582.399963"
+"classname" "weapon_grenadelauncher"
+"target" "room2_grenade_pickup"
+}
+{
+"count" "10"
+"wait" "-1"
+"origin" "3091.199951 3315.199951 -582.399963"
+"classname" "ammo_grenades"
+}
+{
+"count" "10"
+"classname" "ammo_grenades"
+"origin" "2643.199951 3315.199951 -582.399963"
+"wait" "-1"
+}
+{
+"target" "room2bot1waypoint_a"
+"targetname" "room2logic_bot"
+"classname" "target_botspawn"
+"origin" "3763.199951 3584.000000 -392.000000"
+"angle" "-90"
+"health" "500"
+"deathtarget" "room2done"
+"clientname" "grunt"
+"spawnflags" "8"
+}
+{
+"spawnflags" "2"
+"targetname" "room2combat"
+"noise" "sound/krep1/combat_loop.wav"
+"origin" "3763.199951 3729.599854 -963.200012"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "4177.600098 3315.199951 -918.399963"
+"noise" "sound/krep1/combat-won.wav"
+"targetname" "room2won"
+}
+{
+"targetname" "room2won"
+"noise" "sound/krep1/combat-won.wav"
+"origin" "3348.800049 3315.199951 -918.399963"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "3763.199951 3729.599854 -918.399963"
+"noise" "sound/krep1/combat-won.wav"
+"targetname" "room2won"
+}
+{
+"targetname" "room2won"
+"noise" "sound/krep1/combat-won.wav"
+"origin" "3763.199951 2900.800049 -918.399963"
+"classname" "target_speaker"
+}
+{
+"classname" "target_relay"
+"origin" "3763.199951 3315.199951 -1075.199951"
+"target" "room2combat"
+"targetname" "room2relay_combat"
+}
+{
+"targetname" "room2relay_won"
+"target" "room2won"
+"origin" "3763.199951 3315.199951 -761.599976"
+"classname" "target_relay"
+}
+{
+"targetname" "room2relay_bot"
+"target" "room2bot"
+"origin" "4088.000000 3315.199951 -739.200012"
+"classname" "target_relay"
+}
+{
+"classname" "target_relay"
+"origin" "3763.199951 3315.199951 -851.200012"
+"target" "room2combat"
+"targetname" "room2relay_done"
+}
+{
+"targetname" "room2relay_door"
+"target" "room2door"
+"origin" "3348.800049 3315.199951 -806.399963"
+"classname" "target_relay"
+}
+{
+"classname" "target_delay"
+"origin" "3348.800049 3315.199951 -1075.199951"
+"target" "room2door"
+"targetname" "room2begin"
+"wait" "4"
+}
+{
+"target" "room2relay_bot"
+"targetname" "room2begin"
+"wait" "14"
+"origin" "4088.000000 3315.199951 -784.000000"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "3763.199951 3315.199951 -1120.000000"
+"wait" "7"
+"targetname" "room2begin"
+"target" "room2relay_combat"
+}
+{
+"target" "room2relay_done"
+"targetname" "room2done"
+"wait" "0"
+"origin" "3763.199951 3315.199951 -806.399963"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "3763.199951 3315.199951 -716.799988"
+"wait" "0"
+"targetname" "room2done"
+"target" "room2relay_won"
+}
+{
+"classname" "target_delay"
+"origin" "3348.800049 3315.199951 -761.599976"
+"wait" "0"
+"targetname" "room2done"
+"target" "room2relay_door"
+}
+{
+"targetname" "room2begin"
+"spawnflags" "4"
+"noise" "sound/krep1/text_grunt.wav"
+"origin" "3763.199951 3315.199951 -963.200012"
+"classname" "target_speaker"
+}
+{
+"targetname" "room2combat"
+"noise" "sound/krep1/combat_loop.wav"
+"origin" "3348.800049 3315.199951 -963.200012"
+"classname" "target_speaker"
+"spawnflags" "2"
+}
+{
+"targetname" "room2combat"
+"noise" "sound/krep1/combat_loop.wav"
+"origin" "3763.199951 2900.800049 -963.200012"
+"classname" "target_speaker"
+"spawnflags" "2"
+}
+{
+"spawnflags" "2"
+"classname" "target_speaker"
+"origin" "4177.600098 3315.199951 -963.200012"
+"noise" "sound/krep1/combat_loop.wav"
+"targetname" "room2combat"
+"wait" "3"
+}
+{
+"classname" "target_speaker"
+"origin" "3763.199951 3315.199951 -1008.000000"
+"noise" "sound/krep1/combat-prepare_long.wav"
+"targetname" "room2begin"
+"spawnflags" "4"
+}
+{
+"classname" "target_speaker"
+"origin" "4032.000000 3315.199951 -784.000000"
+"noise" "sound/player/grunt/taunt.wav"
+"targetname" "room2bot"
+}
+{
+"target" "room2done"
+"origin" "3763.199951 3584.000000 -392.000000"
+"classname" "info_null"
+}
+{
+"target" "room2begin"
+"targetname" "room2begin_relay"
+"origin" "3584.000000 3315.199951 -1008.000000"
+"classname" "target_relay"
+}
+{
+"classname" "target_delay"
+"origin" "3348.800049 3315.199951 -1030.400024"
+"targetname" "room2begin_relay"
+"target" "room2door_block"
+"wait" "4"
+}
+{
+"target" "room2door_block"
+"targetname" "room2done"
+"wait" "0"
+"origin" "3348.800049 3315.199951 -851.200012"
+"classname" "target_delay"
+}
+{
+"targetname" "room2begin"
+"target" "room2begin_scene"
+"origin" "3584.000000 3315.199951 -1108.799927"
+"classname" "target_relay"
+}
+{
+"classname" "target_cutscene"
+"origin" "3628.800049 3315.199951 -1108.799927"
+"target" "room2begin_camera"
+"targetname" "room2begin_scene"
+}
+{
+"classname" "info_camera"
+"origin" "3673.599854 3315.199951 -1108.799927"
+"targetname" "room2begin_camera"
+"wait" "3"
+"target" "room2begin_camera_2"
+"spawnflags" "1"
+}
+{
+"wait" "0"
+"targetname" "room2begin_camera_2"
+"origin" "3673.599854 3315.199951 -1064.000000"
+"classname" "info_camera"
+"target" "room2begin_camera_3"
+}
+{
+"angle" "180"
+"classname" "info_camera"
+"origin" "3628.800049 3315.199951 -1064.000000"
+"targetname" "room2begin_camera_3"
+"wait" "3"
+}
+{
+"classname" "target_delay"
+"origin" "4177.600098 3270.399902 -739.200012"
+"targetname" "room2_text_start_"
+"wait" "11"
+"target" "room2_text_intro"
+}
+{
+"target" "room2_text_intro_2"
+"wait" "5"
+"targetname" "room2_text_start"
+"origin" "4177.600098 3315.199951 -739.200012"
+"classname" "target_delay"
+}
+{
+"target" "room2_text_intro_3"
+"wait" "0"
+"targetname" "room2_text_start"
+"origin" "4177.600098 3360.000000 -739.200012"
+"classname" "target_delay"
+}
+{
+"wait" "5"
+"targetname" "room2_text_intro"
+"message" "grunt is equipped with a machinegun, and has 250 health."
+"origin" "4177.600098 3270.399902 -694.399963"
+"classname" "target_print"
+"spawnflags" "8"
+}
+{
+"classname" "target_print"
+"origin" "4177.600098 3315.199951 -694.399963"
+"message" "we call it grunt, and it's a step-up from anarki only by the fact that /n it looks more human-like."
+"targetname" "room2_text_intro_2"
+"wait" "6"
+"spawnflags" "8"
+}
+{
+"classname" "target_print"
+"origin" "4177.600098 3360.000000 -694.399963"
+"message" "okay marine, this is supposedly one of /n carmack's next-gen super-human creations."
+"targetname" "room2_text_intro_3"
+"wait" "5"
+"spawnflags" "8"
+}
+{
+"classname" "target_relay"
+"origin" "4177.600098 3315.199951 -784.000000"
+"targetname" "room2begin"
+"target" "room2_text_start"
+}
+{
+"classname" "target_logic"
+"origin" "3942.399902 3315.199951 -492.799988"
+"targetname" "room2bot"
+"spawnflags" "4"
+"target" "room2logic_bot"
+}
+{
+"target" "room2bot1waypoint_a"
+"clientname" "grunt"
+"deathtarget" "room2done"
+"health" "500"
+"angle" "-90"
+"origin" "3763.199951 3046.399902 -392.000000"
+"classname" "target_botspawn"
+"targetname" "room2logic_bot"
+"spawnflags" "8"
+}
+{
+"classname" "info_null"
+"origin" "3763.199951 3046.399902 -392.000000"
+"target" "room2done"
+}
+{
+"classname" "target_relay"
+"origin" "2688.000000 1881.599976 -1108.799927"
+"target" "gate_2_scene"
+"targetname" "gate_2"
+}
+{
+"targetname" "gate_2_scene"
+"target" "gate_2_camera"
+"origin" "2688.000000 1881.599976 -1064.000000"
+"classname" "target_cutscene"
+}
+{
+"wait" "3"
+"targetname" "gate_2_camera"
+"origin" "2688.000000 1881.599976 -1019.200012"
+"classname" "info_camera"
+"angle" "90"
+}
+{
+"classname" "target_relay"
+"origin" "2688.000000 2016.000000 -1097.599976"
+"target" "level_1_logic"
+"targetname" "gate_2_elevator"
+}
+{
+"targetname" "gate_2_elevator"
+"target" "gate_unlocked"
+"origin" "2688.000000 2016.000000 -1008.000000"
+"classname" "target_relay"
+}
+{
+"targetname" "gate_2"
+"target" "gate_2_door"
+"origin" "2688.000000 2105.599854 -963.200012"
+"classname" "target_delay"
+"wait" "1"
+}
+{
+"targetname" "level_1"
+"target" "level_1_scene"
+"origin" "3158.399902 1702.400024 -1131.199951"
+"classname" "target_relay"
+}
+{
+"classname" "target_cutscene"
+"origin" "3158.399902 1702.400024 -1086.400024"
+"target" "level_1_camera"
+"targetname" "level_1_scene"
+}
+{
+"classname" "info_camera"
+"origin" "3158.399902 1702.400024 -1041.599976"
+"targetname" "level_1_camera"
+"wait" "3"
+"angle" "180"
+}
+{
+"classname" "target_delay"
+"origin" "2732.800049 1702.400024 -1052.799927"
+"target" "level_1_gate"
+"targetname" "level_1"
+"wait" "1"
+}
+{
+"targetname" "room3_rocket_text"
+"message" "you found rocketlauncher!"
+"origin" "2822.399902 89.599998 -1064.000000"
+"classname" "target_print"
+}
+{
+"target" "room3_rocket_noise"
+"targetname" "room3_rocket_pickup"
+"origin" "2912.000000 89.599998 -1019.200012"
+"classname" "target_relay"
+}
+{
+"classname" "target_relay"
+"origin" "2822.399902 89.599998 -1019.200012"
+"targetname" "room3_rocket_pickup"
+"target" "room3_rocket_text"
+}
+{
+"classname" "target_speaker"
+"origin" "2912.000000 89.599998 -1064.000000"
+"targetname" "room3_rocket_noise"
+"spawnflags" "4"
+"noise" "sound/krep1/item-pickup.wav"
+}
+{
+"target" "room3logic_bot"
+"spawnflags" "4"
+"targetname" "room3bot"
+"origin" "3763.199951 89.599998 -492.799988"
+"classname" "target_logic"
+}
+{
+"targetname" "room3logic_bot"
+"classname" "target_botspawn"
+"origin" "3763.199951 -179.199997 -392.000000"
+"angle" "-90"
+"health" "500"
+"deathtarget" "room3done"
+"clientname" "biker"
+"spawnflags" "16"
+"target" "room3bot1waypoint_a"
+}
+{
+"target" "room3done"
+"origin" "3763.199951 -179.199997 -392.000000"
+"classname" "info_null"
+}
+{
+"clientname" "biker"
+"deathtarget" "room3done"
+"health" "500"
+"angle" "-90"
+"origin" "3763.199951 358.399994 -392.000000"
+"classname" "target_botspawn"
+"targetname" "room3logic_bot"
+"spawnflags" "16"
+"target" "room3bot1waypoint_a"
+}
+{
+"classname" "info_null"
+"origin" "3763.199951 358.399994 -392.000000"
+"target" "room3done"
+}
+{
+"targetname" "room3logic_bot"
+"classname" "target_botspawn"
+"origin" "3494.399902 89.599998 -392.000000"
+"angle" "-90"
+"health" "500"
+"deathtarget" "room3done"
+"clientname" "biker"
+"spawnflags" "16"
+"target" "room3bot1waypoint_a"
+}
+{
+"target" "room3done"
+"origin" "3494.399902 89.599998 -392.000000"
+"classname" "info_null"
+}
+{
+"height" "985.599976"
+"sounds" "4"
+"angle" "-1"
+"speed" "50"
+"lip" "0"
+"targetname" "level_1_elevator"
+"wait" "-1"
+"classname" "func_plat"
+"model" "*60"
+}
+{
+"lip" "5.600000"
+"angle" "90"
+"team" "room2predoor"
+"speed" "300"
+"wait" "1"
+"classname" "func_door"
+"model" "*61"
+}
+{
+"lip" "5.600000"
+"angle" "-90"
+"speed" "300"
+"wait" "1"
+"team" "room2predoor"
+"classname" "func_door"
+"model" "*62"
+}
+{
+"classname" "holdable_key_green"
+"origin" "4300.799805 985.599976 -1405.599976"
+}
+{
+"nobots" "1"
+"spawnflags" "8"
+"classname" "trigger_lock"
+"target" "gate_0"
+"lockedsound" "sound/krep1/key-try.wav"
+"message" "switch is locked."
+"model" "*63"
+}
+{
+"spawnflags" "2"
+"classname" "target_variable"
+"origin" "-4928.000000 -2508.800049 -5331.199707"
+"key" "main_elevator_triggered"
+"value" "1"
+"target" "main_elevator_trigger"
+"targetname" "main_elevator"
+}
+{
+"value" "1"
+"key" "main_elevator_triggered"
+"origin" "-4972.799805 -2508.800049 -5331.199707"
+"classname" "target_variable"
+"targetname" "main_elevator_trigger"
+}
+{
+"classname" "target_relay"
+"origin" "-4928.000000 -2508.800049 -5286.399902"
+"targetname" "main_elevator_trigger"
+"target" "main_elevator_start"
+}
+{
+"classname" "target_script"
+"origin" "-3192.000000 1624.000000 4020.800049"
+"targetname" "death_restart"
+"script" "krep1-restart.cfg"
+}
+{
+"nobots" "1"
+"classname" "trigger_death"
+"origin" "-3192.000000 1624.000000 3976.000000"
+"notbots" "1"
+"count" "1"
+"target" "death"
+}
+{
+"script" "krep1-start.cfg"
+"targetname" "main_elevator_start"
+"origin" "-4928.000000 -2508.800049 -5241.600098"
+"classname" "target_script"
+}
+{
+"target" "level_1_elevator"
+"classname" "trigger_multiple"
+"model" "*64"
+}
+{
+"targetname" "level_1_elevator"
+"target" "level_1_trigger"
+"value" "1"
+"key" "level_1_triggered"
+"origin" "2665.599854 1702.400024 -918.399963"
+"classname" "target_variable"
+"spawnflags" "2"
+}
+{
+"targetname" "level_1_trigger"
+"classname" "target_variable"
+"origin" "2620.800049 1702.400024 -918.399963"
+"key" "level_1_triggered"
+"value" "1"
+}
+{
+"target" "level_1_start"
+"targetname" "level_1_trigger"
+"origin" "2665.599854 1702.400024 -873.599976"
+"classname" "target_relay"
+}
+{
+"lip" "5.600000"
+"startsound" "sound/movers/switches/butn2.wav"
+"classname" "func_door"
+"angle" "180"
+"targetname" "gate_0"
+"speed" "40"
+"wait" "-2"
+"model" "*65"
+}
+{
+"random" "0"
+"targetname" "basement_platform_1_timer"
+"target" "basement_platform_1_door"
+"wait" "2"
+"origin" "3696.000000 985.599976 -1388.799927"
+"classname" "func_timer"
+}
+{
+"startsound" "sound/krep1/silent.wav"
+"spawnflags" "1"
+"lip" "11.200000"
+"targetname" "basement_platform_1_door"
+"light" "20"
+"wait" "-2"
+"speed" "300"
+"angle" "-2"
+"classname" "func_door"
+"model" "*66"
+}
+{
+"startsound" "sound/krep1/silent.wav"
+"spawnflags" "1"
+"lip" "11.200000"
+"wait" "-2"
+"light" "20"
+"angle" "-2"
+"speed" "300"
+"targetname" "basement_platform_2_door"
+"classname" "func_door"
+"model" "*67"
+}
+{
+"startsound" "sound/krep1/silent.wav"
+"spawnflags" "1"
+"lip" "11.200000"
+"light" "20"
+"angle" "-2"
+"speed" "300"
+"targetname" "basement_platform_3_door"
+"wait" "-2"
+"classname" "func_door"
+"model" "*68"
+}
+{
+"random" "0"
+"targetname" "basement_platform_2_timer"
+"classname" "func_timer"
+"origin" "3897.599854 985.599976 -1388.799927"
+"wait" "2"
+"target" "basement_platform_2_door"
+}
+{
+"random" "0"
+"targetname" "basement_platform_3_timer"
+"target" "basement_platform_3_door"
+"wait" "2"
+"origin" "4099.199707 985.599976 -1388.799927"
+"classname" "func_timer"
+}
+{
+"wait" "2"
+"target" "basement_platform_2_timer"
+"targetname" "basement_platform"
+"origin" "3897.599854 985.599976 -1344.000000"
+"classname" "target_delay"
+}
+{
+"classname" "trigger_always"
+"origin" "3897.599854 985.599976 -1276.799927"
+"target" "basement_platform"
+}
+{
+"wait" "3"
+"classname" "target_delay"
+"origin" "4099.199707 985.599976 -1344.000000"
+"targetname" "basement_platform"
+"target" "basement_platform_3_timer"
+}
+{
+"spawnflags" "1"
+"noise" "sound/world/fan4.wav"
+"origin" "4211.199707 985.599976 -1075.199951"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "3897.599854 1209.599976 -1500.799927"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"noise" "sound/world/lava_amb_01_quiet.wav"
+"origin" "3897.599854 761.599976 -1500.799927"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "sound/world/tim_comp_hum3.wav"
+"origin" "2688.000000 1702.400024 -963.200012"
+"classname" "target_speaker"
+}
+{
+"dmg" "5"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+"model" "*69"
+}
+{
+"wait" "1"
+"classname" "target_delay"
+"origin" "3696.000000 985.599976 -1344.000000"
+"targetname" "basement_platform"
+"target" "basement_platform_1_timer"
+}
+{
+"nobots" "1"
+"spawnflags" "1"
+"classname" "func_door"
+"angle" "-2"
+"speed" "300"
+"wait" "-2"
+"targetname" "room2door_block"
+"lip" "0"
+"model" "*70"
+}
+{
+"targetname" "level_1_elevator"
+"value" "1"
+"key" "level_1_elevator_active"
+"origin" "2710.399902 1702.400024 -358.399994"
+"classname" "target_variable"
+}
+{
+"targetname" "level_1_elevator"
+"target" "level_1_door_block"
+"origin" "2665.599854 1702.400024 -313.600006"
+"classname" "target_relay"
+}
+{
+"endsound" "sound/krep1/silent.wav"
+"startsound" "sound/krep1/silent.wav"
+"classname" "func_door"
+"angle" "-2"
+"speed" "1000"
+"wait" "-2"
+"sounds" "1"
+"targetname" "level_1_door_block"
+"lip" "0"
+"model" "*71"
+}
+{
+"nobots" "1"
+"lip" "5.600000"
+"angle" "90"
+"team" "backhallwaydoor"
+"speed" "300"
+"wait" "1"
+"classname" "func_door"
+"model" "*72"
+}
+{
+"nobots" "1"
+"lip" "5.600000"
+"angle" "-90"
+"speed" "300"
+"wait" "1"
+"team" "backhallwaydoor"
+"classname" "func_door"
+"model" "*73"
+}
+{
+"target" "outside_2_text_intro_2"
+"wait" "5"
+"targetname" "outside_2_text_start"
+"origin" "-1545.599976 1657.599976 -873.599976"
+"classname" "target_delay"
+}
+{
+"target" "outside_2_text_intro"
+"wait" "0"
+"targetname" "outside_2_text_start"
+"origin" "-1545.599976 1702.400024 -873.599976"
+"classname" "target_delay"
+}
+{
+"classname" "target_print"
+"origin" "-1545.599976 1657.599976 -828.799988"
+"message" "however, they are mounted with machineguns; so you'll want to kill them as quickly as possible."
+"targetname" "outside_2_text_intro_2"
+"wait" "4"
+"spawnflags" "8"
+}
+{
+"classname" "target_print"
+"origin" "-1545.599976 1702.400024 -828.799988"
+"message" "pay little attention to those orbbs, marine.  they're extremely weak."
+"targetname" "outside_2_text_intro"
+"wait" "5"
+"spawnflags" "8"
+}
+{
+"classname" "target_delay"
+"origin" "-1545.599976 1680.000000 -918.399963"
+"targetname" "outside_2_"
+"target" "outside_2_text_start"
+"wait" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "-4435.199707 -2508.800049 -2475.199951"
+"spawnflags" "2"
+"targetname" "checkpoint_1"
+}
+{
+"target" "checkpoint_1"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*74"
+}
+{
+"targetname" "checkpoint_2"
+"spawnflags" "2"
+"origin" "896.000000 1702.400024 -1108.799927"
+"classname" "info_player_start"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "checkpoint_2"
+"model" "*75"
+}
+{
+"classname" "target_print"
+"origin" "4345.600098 1702.400024 -1064.000000"
+"message" "you found shotgun!"
+"targetname" "room1_shotgun_text"
+}
+{
+"classname" "target_relay"
+"origin" "4435.199707 1702.400024 -1019.200012"
+"targetname" "room1_shotgun_pickup"
+"target" "room1_shotgun_noise"
+}
+{
+"target" "room1_shotgun_text"
+"targetname" "room1_shotgun_pickup"
+"origin" "4345.600098 1702.400024 -1019.200012"
+"classname" "target_relay"
+}
+{
+"noise" "sound/krep1/item-pickup.wav"
+"spawnflags" "4"
+"targetname" "room1_shotgun_noise"
+"origin" "4435.199707 1702.400024 -1064.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "room2_grenade_text"
+"message" "you found grenadelauncher!"
+"origin" "2822.399902 3315.199951 -1064.000000"
+"classname" "target_print"
+}
+{
+"target" "room2_grenade_noise"
+"targetname" "room2_grenade_pickup"
+"origin" "2912.000000 3315.199951 -1019.200012"
+"classname" "target_relay"
+}
+{
+"classname" "target_relay"
+"origin" "2822.399902 3315.199951 -1019.200012"
+"targetname" "room2_grenade_pickup"
+"target" "room2_grenade_text"
+}
+{
+"classname" "target_speaker"
+"origin" "2912.000000 3315.199951 -1064.000000"
+"targetname" "room2_grenade_noise"
+"spawnflags" "4"
+"noise" "sound/krep1/item-pickup.wav"
+}
+{
+"nobots" "1"
+"classname" "item_health"
+"origin" "1657.599976 2755.199951 -1120.000000"
+}
+{
+"nobots" "1"
+"origin" "1657.599976 649.599976 -1120.000000"
+"classname" "item_health"
+}
+{
+"nobots" "1"
+"origin" "3718.399902 2732.800049 -1120.000000"
+"classname" "item_health"
+}
+{
+"nobots" "1"
+"classname" "item_health"
+"origin" "3718.399902 672.000000 -1120.000000"
+}
+{
+"wait" "-1"
+"nobots" "1"
+"classname" "item_health"
+"origin" "1747.199951 3360.000000 201.599991"
+}
+{
+"wait" "-1"
+"nobots" "1"
+"origin" "1747.199951 44.799999 201.599991"
+"classname" "item_health"
+}
+{
+"nobots" "1"
+"target" "points_5"
+"origin" "1993.599976 3360.000000 -1120.000000"
+"classname" "item_armor_shard"
+}
+{
+"nobots" "1"
+"target" "points_5"
+"classname" "item_armor_shard"
+"origin" "2083.199951 3449.599854 -1120.000000"
+}
+{
+"nobots" "1"
+"target" "points_5"
+"origin" "2083.199951 -44.799999 -1120.000000"
+"classname" "item_armor_shard"
+}
+{
+"nobots" "1"
+"target" "points_5"
+"classname" "item_armor_shard"
+"origin" "1993.599976 44.799999 -1120.000000"
+}
+{
+"targetname" "room3bot1waypoint_a"
+"origin" "4032.000000 89.599998 -1108.799927"
+"classname" "info_waypoint"
+"target" "room3bot1waypoint_b"
+}
+{
+"target" "room3bot1waypoint_c"
+"classname" "info_waypoint"
+"origin" "3942.399902 403.199982 -1108.799927"
+"targetname" "room3bot1waypoint_b"
+}
+{
+"targetname" "room3bot1waypoint_c"
+"origin" "3942.399902 -224.000000 -1108.799927"
+"classname" "info_waypoint"
+"target" "room3bot1waypoint_a"
+}
+{
+"classname" "trigger_multiple"
+"target" "room3door"
+"wait" "-1"
+"model" "*76"
+}
+{
+"team" "room3door"
+"speed" "300"
+"wait" "-2"
+"targetname" "room3door"
+"classname" "func_door"
+"lip" "5.600000"
+"angle" "-90"
+"model" "*77"
+}
+{
+"team" "room3door"
+"speed" "300"
+"wait" "-2"
+"targetname" "room3door"
+"classname" "func_door"
+"lip" "5.600000"
+"angle" "90"
+"model" "*78"
+}
+{
+"target" "room3begin_relay"
+"classname" "trigger_multiple"
+"wait" "-1"
+"model" "*79"
+}
+{
+"classname" "target_speaker"
+"origin" "3763.199951 504.000000 -963.200012"
+"noise" "sound/krep1/combat_loop.wav"
+"targetname" "room3combat"
+"spawnflags" "2"
+}
+{
+"targetname" "room3won"
+"noise" "sound/krep1/combat-won.wav"
+"origin" "4177.600098 89.599998 -918.399963"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "3348.800049 89.599998 -918.399963"
+"noise" "sound/krep1/combat-won.wav"
+"targetname" "room3won"
+}
+{
+"targetname" "room3won"
+"noise" "sound/krep1/combat-won.wav"
+"origin" "3763.199951 504.000000 -918.399963"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "3763.199951 -324.799988 -918.399963"
+"noise" "sound/krep1/combat-won.wav"
+"targetname" "room3won"
+}
+{
+"targetname" "room3relay_combat"
+"target" "room3combat"
+"origin" "3763.199951 89.599998 -1075.199951"
+"classname" "target_relay"
+}
+{
+"classname" "target_relay"
+"origin" "3763.199951 89.599998 -739.200012"
+"target" "room3won"
+"targetname" "room3relay_won"
+}
+{
+"classname" "target_relay"
+"origin" "3819.199951 89.599998 -739.200012"
+"target" "room3bot"
+"targetname" "room3relay_bot"
+}
+{
+"targetname" "room3relay_done"
+"target" "room3combat"
+"origin" "3763.199951 89.599998 -873.599976"
+"classname" "target_relay"
+}
+{
+"classname" "target_relay"
+"origin" "3348.800049 89.599998 -806.399963"
+"target" "room3door"
+"targetname" "room3relay_door"
+}
+{
+"wait" "4"
+"targetname" "room3begin"
+"target" "room3door"
+"origin" "3348.800049 89.599998 -1052.799927"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "3819.199951 89.599998 -784.000000"
+"wait" "14"
+"targetname" "room3begin"
+"target" "room3relay_bot"
+}
+{
+"target" "room3relay_combat"
+"targetname" "room3begin"
+"wait" "7"
+"origin" "3763.199951 89.599998 -1120.000000"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "3763.199951 89.599998 -828.799988"
+"wait" "0"
+"targetname" "room3done"
+"target" "room3relay_done"
+}
+{
+"target" "room3relay_won"
+"targetname" "room3done"
+"wait" "0"
+"origin" "3763.199951 89.599998 -694.399963"
+"classname" "target_delay"
+}
+{
+"target" "room3relay_door"
+"targetname" "room3done"
+"wait" "0"
+"origin" "3348.800049 89.599998 -761.599976"
+"classname" "target_delay"
+}
+{
+"classname" "target_speaker"
+"origin" "3763.199951 89.599998 -963.200012"
+"noise" "sound/krep1/text_biker.wav"
+"spawnflags" "4"
+"targetname" "room3begin"
+}
+{
+"spawnflags" "2"
+"classname" "target_speaker"
+"origin" "3348.800049 89.599998 -963.200012"
+"noise" "sound/krep1/combat_loop.wav"
+"targetname" "room3combat"
+}
+{
+"spawnflags" "2"
+"classname" "target_speaker"
+"origin" "3763.199951 -324.799988 -963.200012"
+"noise" "sound/krep1/combat_loop.wav"
+"targetname" "room3combat"
+}
+{
+"wait" "3"
+"targetname" "room3combat"
+"noise" "sound/krep1/combat_loop.wav"
+"origin" "4177.600098 89.599998 -963.200012"
+"classname" "target_speaker"
+"spawnflags" "2"
+}
+{
+"spawnflags" "4"
+"targetname" "room3begin"
+"noise" "sound/krep1/combat-prepare_long.wav"
+"origin" "3763.199951 89.599998 -1008.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "room3bot"
+"noise" "sound/player/biker/taunt.wav"
+"origin" "3763.199951 89.599998 -784.000000"
+"classname" "target_speaker"
+}
+{
+"classname" "target_relay"
+"origin" "3584.000000 89.599998 -1008.000000"
+"targetname" "room3begin_relay"
+"target" "room3begin"
+}
+{
+"wait" "4"
+"target" "room3door_block"
+"targetname" "room3begin_relay"
+"origin" "3348.800049 89.599998 -1008.000000"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "3348.800049 89.599998 -851.200012"
+"wait" "0"
+"targetname" "room3done"
+"target" "room3door_block"
+}
+{
+"classname" "target_relay"
+"origin" "3584.000000 89.599998 -1108.799927"
+"target" "room3begin_scene"
+"targetname" "room3begin"
+}
+{
+"targetname" "room3begin_scene"
+"target" "room3begin_camera"
+"origin" "3628.800049 89.599998 -1108.799927"
+"classname" "target_cutscene"
+}
+{
+"spawnflags" "1"
+"target" "room3begin_camera_2"
+"wait" "3"
+"targetname" "room3begin_camera"
+"origin" "3673.599854 89.599998 -1108.799927"
+"classname" "info_camera"
+}
+{
+"target" "room3begin_camera_3"
+"classname" "info_camera"
+"origin" "3673.599854 89.599998 -1064.000000"
+"targetname" "room3begin_camera_2"
+"wait" "0"
+}
+{
+"wait" "3"
+"targetname" "room3begin_camera_3"
+"origin" "3628.800049 89.599998 -1064.000000"
+"classname" "info_camera"
+"angle" "180"
+}
+{
+"lip" "0"
+"targetname" "room3door_block"
+"wait" "-2"
+"speed" "300"
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "1"
+"nobots" "1"
+"model" "*80"
+}
+{
+"classname" "info_player_start"
+"origin" "3360.000000 89.599998 -1019.200012"
+"spawnflags" "2"
+"targetname" "room3checkpoint"
+}
+{
+"target" "room3checkpoint"
+"targetname" "room3begin_relay"
+"origin" "3494.399902 89.599998 -1052.799927"
+"classname" "target_relay"
+}
+{
+"targetname" "room1checkpoint"
+"spawnflags" "2"
+"origin" "4883.199707 1702.400024 -1019.200012"
+"classname" "info_player_start"
+}
+{
+"classname" "info_player_start"
+"origin" "3360.000000 3315.199951 -1019.200012"
+"spawnflags" "2"
+"targetname" "room2checkpoint"
+}
+{
+"target" "room2checkpoint"
+"targetname" "room2begin_relay"
+"origin" "3494.399902 3315.199951 -1052.799927"
+"classname" "target_relay"
+}
+{
+"count" "25"
+"targetname" "points_25"
+"origin" "-3057.599854 1467.199951 3976.000000"
+"classname" "target_score"
+}
+{
+"count" "50"
+"targetname" "points_50"
+"origin" "-3012.800049 1467.199951 3976.000000"
+"classname" "target_score"
+}
+{
+"spawnflags" "4"
+"noise" "sound/krep1/death_check.wav"
+"targetname" "death_check"
+"origin" "-3012.800049 1624.000000 3976.000000"
+"classname" "target_speaker"
+}
+{
+"target" "death_check"
+"targetname" "death"
+"origin" "-3102.399902 1624.000000 3976.000000"
+"classname" "target_relay"
+}
+{
+"target" "points_5"
+"classname" "ammo_bullets"
+"origin" "3270.399902 1299.199951 -1411.199951"
+"nobots" "1"
+}
+{
+"nobots" "1"
+"origin" "3270.399902 672.000000 -1411.199951"
+"classname" "ammo_bullets"
+"target" "points_5"
+}
+{
+"classname" "trigger_always"
+"origin" "-4704.000000 -2777.599854 -5331.199707"
+"target" "start"
+}
+{
+"classname" "target_script"
+"origin" "-4748.799805 -2777.599854 -5331.199707"
+"script" "krep1-start.cfg"
+"targetname" "start"
+}
+{
+"wait" "-1"
+"classname" "trigger_multiple"
+"target" "stage2"
+"model" "*81"
+}
+{
+"targetname" "stage2"
+"mapname" "krep1b"
+"origin" "2732.800049 1702.400024 -896.000000"
+"classname" "target_mapchange"
+}
+{
+"target" "room1bot1waypoint_a"
+"spawnflags" "4"
+"clientname" "anarki"
+"deathtarget" "room1done"
+"health" "250"
+"angle" "-90"
+"origin" "5555.199707 1702.400024 -392.000000"
+"classname" "target_botspawn"
+"targetname" "room1bot"
+}
+{
+"classname" "target_speaker"
+"origin" "5286.399902 2116.800049 -963.200012"
+"noise" "sound/krep1/combat_loop.wav"
+"targetname" "room1combat"
+"spawnflags" "2"
+}
+{
+"targetname" "room1won"
+"noise" "sound/krep1/combat-won.wav"
+"origin" "5700.799805 1702.400024 -918.399963"
+"classname" "target_speaker"
+}
+{
+"targetname" "room1won"
+"noise" "sound/krep1/combat-won.wav"
+"origin" "5286.399902 2116.800049 -918.399963"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "5286.399902 1288.000000 -918.399963"
+"noise" "sound/krep1/combat-won.wav"
+"targetname" "room1won"
+}
+{
+"targetname" "room1relay_combat"
+"target" "room1combat"
+"origin" "5286.399902 1702.400024 -1075.199951"
+"classname" "target_relay"
+}
+{
+"classname" "target_relay"
+"origin" "5286.399902 1702.400024 -761.599976"
+"target" "room1won"
+"targetname" "room1relay_won"
+}
+{
+"classname" "target_relay"
+"origin" "5555.199707 1702.400024 -739.200012"
+"target" "room1bot"
+"targetname" "room1relay_bot"
+}
+{
+"targetname" "room1relay_done"
+"target" "room1combat"
+"origin" "5286.399902 1702.400024 -851.200012"
+"classname" "target_relay"
+}
+{
+"classname" "target_delay"
+"origin" "5611.199707 1702.400024 -784.000000"
+"wait" "14"
+"targetname" "room1begin"
+"target" "room1relay_bot"
+}
+{
+"target" "room1relay_combat"
+"targetname" "room1begin"
+"wait" "7"
+"origin" "5286.399902 1702.400024 -1120.000000"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "5286.399902 1702.400024 -806.399963"
+"wait" "0"
+"targetname" "room1done"
+"target" "room1relay_done"
+}
+{
+"target" "room1relay_won"
+"targetname" "room1done"
+"wait" "0"
+"origin" "5286.399902 1702.400024 -716.799988"
+"classname" "target_delay"
+}
+{
+"classname" "target_speaker"
+"origin" "5286.399902 1702.400024 -963.200012"
+"noise" "sound/krep1/text_anarki.wav"
+"spawnflags" "4"
+"targetname" "room1begin"
+}
+{
+"spawnflags" "2"
+"classname" "target_speaker"
+"origin" "5286.399902 1288.000000 -963.200012"
+"noise" "sound/krep1/combat_loop.wav"
+"targetname" "room1combat"
+}
+{
+"wait" "3"
+"targetname" "room1combat"
+"noise" "sound/krep1/combat_loop.wav"
+"origin" "5700.799805 1702.400024 -963.200012"
+"classname" "target_speaker"
+"spawnflags" "2"
+}
+{
+"spawnflags" "4"
+"targetname" "room1begin"
+"noise" "sound/krep1/combat-prepare_long.wav"
+"origin" "5286.399902 1702.400024 -1008.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "room1bot"
+"noise" "sound/player/anarki/taunt.wav"
+"origin" "5555.199707 1702.400024 -784.000000"
+"classname" "target_speaker"
+}
+{
+"classname" "info_null"
+"origin" "5555.199707 1702.400024 -392.000000"
+"target" "room1done"
+}
+{
+"classname" "target_relay"
+"origin" "5107.199707 1702.400024 -1008.000000"
+"targetname" "room1begin_relay"
+"target" "room1begin"
+}
+{
+"classname" "target_relay"
+"origin" "5107.199707 1702.400024 -1108.799927"
+"target" "room1begin_scene"
+"targetname" "room1begin"
+}
+{
+"targetname" "room1begin_scene"
+"target" "room1begin_camera"
+"origin" "5152.000000 1702.400024 -1108.799927"
+"classname" "target_cutscene"
+}
+{
+"spawnflags" "1"
+"target" "room1begin_camera_2"
+"wait" "3"
+"targetname" "room1begin_camera"
+"origin" "5196.799805 1702.400024 -1108.799927"
+"classname" "info_camera"
+}
+{
+"target" "room1begin_camera_3"
+"classname" "info_camera"
+"origin" "5196.799805 1702.400024 -1064.000000"
+"targetname" "room1begin_camera_2"
+"wait" "0"
+}
+{
+"wait" "3"
+"targetname" "room1begin_camera_3"
+"origin" "5152.000000 1702.400024 -1064.000000"
+"classname" "info_camera"
+"angle" "180"
+}
+{
+"target" "room1_text_intro"
+"wait" "11"
+"targetname" "room1_text_start_"
+"origin" "5700.799805 1657.599976 -739.200012"
+"classname" "target_delay"
+}
+{
+"classname" "target_delay"
+"origin" "5700.799805 1702.400024 -739.200012"
+"targetname" "room1_text_start"
+"wait" "6"
+"target" "room1_text_intro_2"
+}
+{
+"classname" "target_delay"
+"origin" "5700.799805 1747.199951 -739.200012"
+"targetname" "room1_text_start"
+"wait" "0"
+"target" "room1_text_intro_3"
+}
+{
+"spawnflags" "8"
+"classname" "target_print"
+"origin" "5700.799805 1657.599976 -694.399963"
+"message" "anarki is equipped with a machinegun, and has 125 health."
+"targetname" "room1_text_intro"
+"wait" "4"
+}
+{
+"spawnflags" "8"
+"wait" "5"
+"targetname" "room1_text_intro_2"
+"message" "we call it anarki, and it rides a hover board and wears a visor."
+"origin" "5700.799805 1702.400024 -694.399963"
+"classname" "target_print"
+}
+{
+"spawnflags" "8"
+"wait" "6"
+"targetname" "room1_text_intro_3"
+"message" "alright marine, this abomination is supposedly one of /n carmack's first super-human creations."
+"origin" "5700.799805 1747.199951 -694.399963"
+"classname" "target_print"
+}
+{
+"target" "room1_text_start"
+"targetname" "room1begin"
+"origin" "5700.799805 1702.400024 -784.000000"
+"classname" "target_relay"
+}
+{
+"target" "room1begin_relay"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*82"
+}
+{
+"lip" "-5.600000"
+"angle" "-1"
+"speed" "20"
+"wait" "-2"
+"targetname" "room1done"
+"classname" "func_door"
+"model" "*83"
+}
+{
+"target" "gate_1"
+"light" "20"
+"wait" "-2"
+"classname" "func_button"
+"model" "*84"
+}
+{
+"target" "room1checkpoint"
+"targetname" "room1begin_relay"
+"origin" "5017.600098 1702.400024 -1052.799927"
+"classname" "target_relay"
+}
+{
+"classname" "func_door"
+"targetname" "room1done"
+"wait" "-2"
+"speed" "40"
+"angle" "-1"
+"lip" "-5.600000"
+"model" "*85"
+}
+{
+"health" "20"
+"count" "6"
+"spawnflags" "64"
+"targetname" "main_window"
+"classname" "func_breakable"
+"model" "*86"
+}
+{
+"spawnflags" "3"
+"message" "enter the carmack fortress"
+"targetname" "objective_start"
+"origin" "-3147.199951 1758.400024 4267.199707"
+"classname" "target_objective"
+}
+{
+"classname" "target_objective"
+"origin" "-3192.000000 1758.400024 4267.199707"
+"targetname" "objective_start"
+"message" "capture dr. carmack."
+"spawnflags" "2"
+}
+{
+"target" "room1bot1waypoint_b"
+"classname" "info_waypoint"
+"origin" "5555.199707 1702.400024 -1108.799927"
+"targetname" "room1bot1waypoint_a"
+}
+{
+"targetname" "room1bot1waypoint_b"
+"origin" "5286.399902 2060.800049 -1108.799927"
+"classname" "info_waypoint"
+"target" "room1bot1waypoint_c"
+}
+{
+"target" "room1bot1waypoint_a"
+"classname" "info_waypoint"
+"origin" "5286.399902 1344.000000 -1108.799927"
+"targetname" "room1bot1waypoint_d"
+}
+{
+"target" "room1bot1waypoint_d"
+"classname" "info_waypoint"
+"origin" "5017.600098 1702.400024 -1108.799927"
+"targetname" "room1bot1waypoint_c"
+}
+{
+"targetname" "room2bot1waypoint_a"
+"origin" "4032.000000 3315.199951 -1108.799927"
+"classname" "info_waypoint"
+"target" "room2bot1waypoint_b"
+}
+{
+"target" "room2bot1waypoint_c"
+"classname" "info_waypoint"
+"origin" "3763.199951 3673.599854 -1108.799927"
+"targetname" "room2bot1waypoint_b"
+}
+{
+"targetname" "room2bot1waypoint_d"
+"origin" "3763.199951 2956.800049 -1108.799927"
+"classname" "info_waypoint"
+"target" "room2bot1waypoint_a"
+}
+{
+"targetname" "room2bot1waypoint_c"
+"origin" "3494.399902 3315.199951 -1108.799927"
+"classname" "info_waypoint"
+"target" "room2bot1waypoint_d"
+}
+{
+"targetname" "main_elevator"
+"target" "objective_start"
+"origin" "-4345.600098 -2508.800049 -5196.799805"
+"classname" "target_relay"
+}
