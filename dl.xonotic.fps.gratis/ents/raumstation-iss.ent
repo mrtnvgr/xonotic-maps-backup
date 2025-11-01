@@ -1,0 +1,85 @@
+{
+"_q3map2_version" "2.5.17n-git-b25aa87"
+"_q3map2_cmdline" "-meta; -vis; -light -fast -filter"
+"ambient" "2"
+"_lightmapscale" ".3"
+"gridsize" "2560000000000,2560000000000,5120000000000"
+"_blocksize" "4096"
+"classname" "worldspawn"
+}
+{
+"origin" "-9752 324 208"
+"targetname" "t3"
+"classname" "target_startTimer"
+}
+{
+"model" "*1"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"model" "*3"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"model" "*4"
+"target" "t5"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-2064 524 208"
+"targetname" "t5"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "t6"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t6"
+"origin" "5248 524 208"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "t7"
+"classname" "trigger_multiple"
+}
+{
+"origin" "8952 508 -112"
+"targetname" "t7"
+"classname" "target_checkpoint"
+}
+{
+"angle" "-3.50835e-015"
+"origin" "-10040 484 88"
+"classname" "info_player_start"
+}
+{
+"angle" "-90"
+"origin" "-9996 692 88"
+"classname" "team_CTF_bluespawn"
+}
+{
+"angle" "90"
+"origin" "-9996 268 88"
+"classname" "team_CTF_bluespawn"
+}
+{
+"model" "*7"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90"
+"targetname" "t1"
+"origin" "10288 1636 -672"
+"classname" "target_stopTimer"
+}
