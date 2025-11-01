@@ -1,0 +1,74 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-256 0 32"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "120 32 256"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3608 -176 -32"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-2208 -584 -1896"
+"targetname" "t3"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t4"
+"origin" "408 2144 -1136"
+"classname" "target_checkpoint"
+}
+{
+"dmg" "88"
+"classname" "trigger_hurt"
+"model" "*5"
+}
+{
+"dmg" "88"
+"classname" "trigger_hurt"
+"model" "*6"
+}
+{
+"dmg" "88"
+"classname" "trigger_hurt"
+"model" "*7"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t5"
+"message" "^1wrong way scrub :P"
+"origin" "-1000 1704 -400"
+"classname" "target_print"
+}
