@@ -1,0 +1,152 @@
+{
+"classname" "worldspawn"
+"_lightmapscale" ".3"
+"ambient" "15"
+"message" "Made By Pornstar"
+"_color" "0.584028 0.907371 1.000000"
+"_blocksize" "4096"
+"gridsize" "512 512 512"
+}
+{
+"classname" "info_player_start"
+"origin" "-128 272 -304"
+"angle" "270"
+}
+{
+"classname" "item_haste"
+"origin" "-128 128 -336"
+"spawnflags" "1"
+"count" "999"
+}
+{
+"angle" "270"
+"classname" "misc_teleporter_dest"
+"origin" "-128 232 -344"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*4"
+}
+{
+"angle" "90"
+"classname" "misc_teleporter_dest"
+"origin" "-128 6240 -756"
+"targetname" "t2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*5"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-216 12736 -784"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*6"
+}
+{
+"classname" "target_startTimer"
+"origin" "-32 48 -232"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*7"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*9"
+}
+{
+"targetname" "t36455"
+"origin" "-128 3384 -624"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push"
+"target" "t36455"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "592 -2096 -144"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*11"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*12"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-120 -288 -496"
+"targetname" "t36456"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36456"
+"model" "*13"
+}
+{
+"targetname" "t36457"
+"origin" "-632 2656 -496"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36457"
+"classname" "trigger_multiple"
+"model" "*14"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-104 4816 -576"
+"targetname" "t36458"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36458"
+"model" "*15"
+}
+{
+"targetname" "t36459"
+"origin" "-104 9424 -576"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36459"
+"classname" "trigger_multiple"
+"model" "*16"
+}
