@@ -1,0 +1,82 @@
+{
+"classname" "worldspawn"
+"_lightmapscale" ".25"
+"message" ":>"
+}
+{
+"classname" "info_player_start"
+"origin" "160 16 32"
+"angle" "90"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "9999"
+"model" "*1"
+}
+{
+"dmg" "9999"
+"spawnflags" "12"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "9999"
+"model" "*3"
+}
+{
+"dmg" "9999"
+"spawnflags" "12"
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "160 232 120"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*5"
+}
+{
+"origin" "4176 3528 120"
+"classname" "weapon_plasmagun"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "4176 3584 120"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t11"
+"origin" "5848 5976 -280"
+"classname" "target_stopTimer"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2888 3560 128"
+"targetname" "t12"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5880 6176 -280"
+"targetname" "t13"
+}
+{
+"classname" "trigger_multiple"
+"target" "t13"
+"model" "*8"
+}
