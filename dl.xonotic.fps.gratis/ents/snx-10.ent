@@ -1,0 +1,106 @@
+{
+"message" "NEMESIS"
+"classname" "worldspawn"
+}
+{
+"origin" "-480 0 80"
+"classname" "info_player_start"
+}
+{
+"classname" "trigger_teleport"
+"target" "pradzia"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "pradzia"
+"model" "*2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-480 0 72"
+"targetname" "pradzia"
+}
+{
+"target" "pradzia"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "antras"
+"model" "*4"
+}
+{
+"target" "antras"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "6656 64 176"
+"angle" "270"
+"targetname" "antras"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*6"
+}
+{
+"classname" "target_startTimer"
+"origin" "-280 -184 160"
+"targetname" "start"
+}
+{
+"classname" "trigger_multiple"
+"target" "1st"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5576 -48 248"
+"targetname" "1st"
+}
+{
+"classname" "trigger_teleport"
+"target" "ties-pabaiga"
+"model" "*8"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "6120 -152 176"
+"targetname" "ties-pabaiga"
+}
+{
+"classname" "trigger_teleport"
+"target" "visaj-pabaiga"
+"model" "*9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "6208 -624 472"
+"angle" "270"
+"targetname" "visaj-pabaiga"
+}
+{
+"classname" "trigger_multiple"
+"target" "stop"
+"model" "*10"
+}
+{
+"classname" "target_stopTimer"
+"origin" "6208 -2024 568"
+"targetname" "stop"
+}
+{
+"target" "stound"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"noise" "sound/feedback/excellent_a.wav"
+"targetname" "stound"
+"origin" "6160 -2008 576"
+"classname" "target_speaker"
+}
