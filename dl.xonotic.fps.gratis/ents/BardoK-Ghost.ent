@@ -1,0 +1,189 @@
+{
+"classname" "worldspawn"
+"message" "Made By BardoK"
+"ambient" "15"
+"_minlight" "50"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000,000,000"
+}
+{
+"angle" "90"
+"origin" "32 -160 32"
+"classname" "info_player_start"
+}
+{
+"wait" "3"
+"count" "200"
+"spawnflags" "1"
+"origin" "32 96 40"
+"classname" "weapon_rocketlauncher"
+}
+{
+"classname" "target_startTimer"
+"origin" "32 -64 64"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"target" "t3"
+"targetname" "t2"
+"origin" "1088 672 768"
+"classname" "target_give"
+}
+{
+"targetname" "t3"
+"count" "200"
+"wait" "4"
+"spawnflags" "1"
+"origin" "960 576 768"
+"classname" "weapon_bfg"
+}
+{
+"targetname" "t3"
+"wait" "4"
+"count" "4"
+"spawnflags" "1"
+"origin" "960 768 768"
+"classname" "item_enviro"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"wait" "4"
+"model" "*2"
+}
+{
+"classname" "target_init"
+"origin" "-192 672 816"
+"targetname" "t4"
+"spawnflags" "3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-896 672 816"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*4"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "288 672 376"
+"targetname" "t6"
+"angle" "180"
+}
+{
+"classname" "trigger_teleport"
+"target" "t6"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-5216 672 400"
+"targetname" "t7"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*6"
+}
+{
+"classname" "target_give"
+"origin" "-3936 648 504"
+"targetname" "t8"
+"target" "t9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"wait" "3"
+"model" "*7"
+}
+{
+"classname" "target_print"
+"origin" "-3936 696 504"
+"message" "Picked Up A Mega Health"
+"targetname" "t8"
+}
+{
+"classname" "item_health_mega"
+"origin" "-3872 672 504"
+"spawnflags" "1"
+"count" "200"
+"wait" "3"
+"targetname" "t9"
+}
+{
+"classname" "item_armor_shard"
+"origin" "960 736 768"
+"spawnflags" "1"
+"targetname" "t3"
+"wait" "4"
+}
+{
+"classname" "item_armor_shard"
+"origin" "960 672 768"
+"spawnflags" "1"
+"targetname" "t3"
+"wait" "4"
+}
+{
+"spawnflags" "1"
+"origin" "960 608 768"
+"classname" "item_armor_shard"
+"targetname" "t3"
+"wait" "4"
+}
+{
+"targetname" "t10"
+"spawnflags" "19"
+"origin" "-320 672 384"
+"classname" "target_init"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t11"
+"origin" "-1056 384 368"
+"classname" "target_checkpoint"
+}
+{
+"target" "t11"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t12"
+"angle" "270"
+"origin" "32 928 728"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t12"
+"classname" "trigger_teleport"
+"model" "*10"
+}
+{
+"targetname" "t13"
+"origin" "32 928 688"
+"classname" "target_stopTimer"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*11"
+}
