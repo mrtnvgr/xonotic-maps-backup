@@ -1,0 +1,100 @@
+{
+"_q3map2_version" "2.5.17n-git-2b06fe2"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast -super 2 -filter -bounce 8"
+"classname" "worldspawn"
+}
+{
+"target" "target_give4"
+"targetname" "info_player_deathmatch1"
+"origin" "2368.000000 -13568.000000 -3776.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"target" "START0"
+"classname" "trigger_multiple"
+}
+{
+"angle" "179.999985"
+"targetname" "START0"
+"origin" "2256.000000 -13936.000000 -3672.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "END1"
+"classname" "trigger_multiple"
+}
+{
+"angle" "0.000009"
+"targetname" "END1"
+"origin" "872.000000 -24272.000000 -3704.000000"
+"classname" "target_stopTimer"
+}
+{
+"target" "item_haste1"
+"targetname" "target_give4"
+"origin" "2368.000000 -13696.000000 -3776.000000"
+"classname" "target_give"
+}
+{
+"count" "999"
+"targetname" "item_haste1"
+"origin" "2304.000000 -13696.000000 -3776.000000"
+"classname" "item_haste"
+}
+{
+"model" "*3"
+"target" "CHECK0"
+"classname" "trigger_multiple"
+}
+{
+"angles" "-0.000000 90.000015 0.000010"
+"targetname" "CHECK0"
+"origin" "1200.000000 -17392.000000 -3288.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "CHECK1"
+"classname" "trigger_multiple"
+}
+{
+"angles" "0.000010 0.000016 0.000000"
+"targetname" "CHECK1"
+"origin" "336.000000 -20272.000000 -3608.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "CHECK2"
+"classname" "trigger_multiple"
+}
+{
+"angles" "0.000010 0.000016 0.000000"
+"targetname" "CHECK2"
+"origin" "-1584.000000 -20272.000000 -3544.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "CHECK3"
+"classname" "trigger_multiple"
+}
+{
+"angles" "-0.000000 -90.000000 0.000010"
+"targetname" "CHECK3"
+"origin" "-2800.000000 -21776.000000 -3032.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"target" "CHECK4"
+"classname" "trigger_multiple"
+}
+{
+"angles" "0.000010 179.999985 0.000000"
+"targetname" "CHECK4"
+"origin" "-1168.000000 -24464.000000 -3672.000000"
+"classname" "target_checkpoint"
+}
