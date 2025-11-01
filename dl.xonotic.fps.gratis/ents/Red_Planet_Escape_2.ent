@@ -1,0 +1,445 @@
+{
+"_minvertexlight" "5"
+"classname" "worldspawn"
+"_blocksize" "4096"
+"gridsize" "256 256 512"
+"_farplanedist" "5000"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "550"
+"team" "1"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "0"
+"speed" "550"
+"team" "1"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "550"
+"team" "1"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "550"
+"team" "1"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"targetname" "door1"
+"lip" "256"
+"spawnflags" "4"
+"speed" "300"
+"angle" "-1"
+"model" "*5"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "64 -80 24"
+"target" "t40"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*6"
+}
+{
+"classname" "target_kill"
+"targetname" "t2"
+"origin" "928 1824 72"
+}
+{
+"classname" "trigger_push"
+"target" "t3"
+"model" "*7"
+}
+{
+"classname" "target_position"
+"targetname" "t3"
+"origin" "-5656 4224 0"
+}
+{
+"classname" "trigger_push"
+"target" "t4"
+"model" "*8"
+}
+{
+"classname" "target_position"
+"origin" "-3288 4256 -288"
+"targetname" "t4"
+}
+{
+"classname" "func_door"
+"targetname" "door2"
+"team" "2"
+"angle" "180"
+"lip" "66"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"targetname" "door2"
+"team" "2"
+"lip" "66"
+"angle" "0"
+"model" "*10"
+}
+{
+"classname" "trigger_push"
+"target" "t5"
+"model" "*11"
+}
+{
+"classname" "target_position"
+"origin" "-7104 3864 0"
+"targetname" "t5"
+}
+{
+"classname" "trigger_push"
+"target" "t6"
+"model" "*12"
+}
+{
+"classname" "target_position"
+"targetname" "t6"
+"origin" "-8920 5760 -64"
+}
+{
+"classname" "func_rotating"
+"speed" "50"
+"origin" "-10304 5888 -304"
+"model" "*13"
+}
+{
+"classname" "func_rotating"
+"speed" "-50"
+"origin" "-10304 5888 -336"
+"model" "*14"
+}
+{
+"classname" "func_rotating"
+"speed" "50"
+"origin" "-10304 5888 232"
+"model" "*15"
+}
+{
+"classname" "func_rotating"
+"speed" "-50"
+"origin" "-10304 5888 200"
+"model" "*16"
+}
+{
+"classname" "func_rotating"
+"speed" "-500"
+"origin" "-10304 5888 960"
+"model" "*17"
+}
+{
+"classname" "trigger_multiple"
+"target" "door1"
+"model" "*18"
+}
+{
+"classname" "trigger_multiple"
+"target" "door2"
+"model" "*19"
+}
+{
+"classname" "path_corner"
+"origin" "896 -128 1696"
+"target" "t7"
+"targetname" "t10"
+}
+{
+"classname" "path_corner"
+"origin" "896 4864 1696"
+"targetname" "t7"
+"target" "t8"
+}
+{
+"classname" "path_corner"
+"origin" "896 4736 -1504"
+"targetname" "t8"
+"target" "t9"
+}
+{
+"classname" "path_corner"
+"origin" "896 -2240 -1184"
+"targetname" "t9"
+"target" "t10"
+"wait" "30"
+}
+{
+"classname" "func_train"
+"targetname" "train"
+"target" "t10"
+"speed" "1000"
+"origin" "896 -256 1720"
+"model" "*20"
+}
+{
+"classname" "func_train"
+"speed" "1000"
+"targetname" "t11"
+"target" "t15"
+"origin" "2560 4160 1496"
+"model" "*21"
+}
+{
+"classname" "path_corner"
+"origin" "2176 4160 1472"
+"target" "t12"
+"targetname" "t15"
+}
+{
+"classname" "path_corner"
+"origin" "-9344 4192 480"
+"targetname" "t12"
+"target" "t13"
+}
+{
+"classname" "path_corner"
+"origin" "-9312 4192 -1728"
+"targetname" "t13"
+"target" "t14"
+}
+{
+"classname" "path_corner"
+"origin" "3008 4192 -1952"
+"targetname" "t14"
+"target" "t15"
+}
+{
+"classname" "target_position"
+"origin" "-7296 4064 128"
+"targetname" "t25"
+}
+{
+"classname" "target_position"
+"targetname" "t26"
+"origin" "-7296 3840 128"
+}
+{
+"classname" "target_position"
+"origin" "-7488 3840 128"
+"targetname" "t27"
+}
+{
+"classname" "target_position"
+"targetname" "t28"
+"origin" "-7488 4064 128"
+}
+{
+"classname" "target_position"
+"origin" "-7968 4064 128"
+"targetname" "t29"
+}
+{
+"classname" "target_position"
+"targetname" "t30"
+"origin" "-7488 4288 128"
+}
+{
+"classname" "target_position"
+"origin" "-7296 4288 128"
+"targetname" "t31"
+}
+{
+"classname" "target_position"
+"targetname" "t32"
+"origin" "-7104 4288 128"
+}
+{
+"classname" "target_position"
+"origin" "-6912 4288 128"
+"targetname" "t33"
+}
+{
+"classname" "target_position"
+"targetname" "t34"
+"origin" "-6720 4272 128"
+}
+{
+"classname" "target_position"
+"origin" "-6528 4208 128"
+"targetname" "t35"
+}
+{
+"classname" "target_position"
+"targetname" "t36"
+"origin" "-6336 4144 128"
+}
+{
+"classname" "target_position"
+"origin" "-6144 4080 128"
+"targetname" "t37"
+}
+{
+"targetname" "t38"
+"origin" "-2976 4016 -328"
+"classname" "target_position"
+}
+{
+"classname" "trigger_multiple"
+"target" "t39"
+"model" "*22"
+}
+{
+"classname" "target_kill"
+"origin" "64 32 -224"
+"targetname" "t39"
+}
+{
+"classname" "target_init"
+"origin" "80 16 96"
+"spawnflags" "32"
+"targetname" "t40"
+}
+{
+"classname" "trigger_multiple"
+"target" "t41"
+"model" "*23"
+}
+{
+"classname" "target_startTimer"
+"origin" "64 136 128"
+"targetname" "t41"
+}
+{
+"classname" "trigger_multiple"
+"target" "t42"
+"model" "*24"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-32 3656 160"
+"targetname" "t42"
+}
+{
+"classname" "trigger_multiple"
+"target" "t43"
+"model" "*25"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-3448 3992 -200"
+"targetname" "t43"
+}
+{
+"classname" "trigger_multiple"
+"target" "t44"
+"model" "*26"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-5864 4032 136"
+"targetname" "t44"
+}
+{
+"classname" "trigger_multiple"
+"target" "t45"
+"model" "*27"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-7816 4752 -240"
+"targetname" "t45"
+}
+{
+"classname" "trigger_multiple"
+"target" "t46"
+"model" "*28"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-10192 6016 960"
+"targetname" "t46"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "10"
+"model" "*29"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "20"
+"model" "*30"
+}
+{
+"height" "45"
+"speed" "4.09"
+"classname" "func_bobbing"
+"model" "*31"
+}
+{
+"classname" "func_pendulum"
+"speed" "15"
+"origin" "484 2528 208"
+"model" "*32"
+}
+{
+"classname" "trigger_push"
+"target" "t47"
+"model" "*33"
+}
+{
+"classname" "target_position"
+"origin" "864 2400 888"
+"targetname" "t47"
+}
+{
+"targetname" "t48"
+"origin" "-9952 12576 -192"
+"classname" "target_position"
+}
+{
+"target" "t48"
+"classname" "trigger_teleport"
+"model" "*34"
+}
+{
+"classname" "target_position"
+"origin" "-10304 5888 -120"
+"targetname" "t49"
+}
+{
+"classname" "trigger_teleport"
+"target" "t49"
+"model" "*35"
+}
+{
+"target" "t49"
+"classname" "trigger_teleport"
+"model" "*36"
+}
+{
+"classname" "trigger_teleport"
+"target" "t49"
+"model" "*37"
+}
+{
+"target" "t49"
+"classname" "trigger_teleport"
+"model" "*38"
+}
+{
+"classname" "func_plat"
+"height" "1900"
+"speed" "2000"
+"model" "*39"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "10"
+"model" "*40"
+}
