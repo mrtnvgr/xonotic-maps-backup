@@ -1,0 +1,124 @@
+{
+"classname" "worldspawn"
+"ambient" "15"
+"_lightmapscale" ".3"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000,000,000"
+"message" "Made By Ghost"
+}
+{
+"classname" "target_kill"
+"origin" "10544 3984 -1432"
+"targetname" "target_kill1"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "target_kill1"
+}
+{
+"classname" "info_player_start"
+"origin" "-88 0 37"
+}
+{
+"classname" "target_startTimer"
+"origin" "120 216 24"
+"targetname" "t1"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "400 2936 24"
+"targetname" "t2"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3576 1600 24"
+"targetname" "t3"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "t3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "12760 1352 24"
+"targetname" "t4"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"target" "t4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "17648 1672 24"
+"targetname" "t5"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "t5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "16880 7440 24"
+"targetname" "t6"
+}
+{
+"model" "*7"
+"classname" "trigger_multiple"
+"target" "t6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "11328 9576 24"
+"targetname" "t7"
+}
+{
+"model" "*8"
+"classname" "trigger_multiple"
+"target" "t7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5136 9232 24"
+"targetname" "t8"
+}
+{
+"model" "*9"
+"classname" "trigger_multiple"
+"target" "t8"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-3112 9504 -8"
+"targetname" "t9"
+}
+{
+"model" "*10"
+"classname" "trigger_multiple"
+"target" "t9"
+}
+{
+"model" "*11"
+"classname" "trigger_multiple"
+"target" "t70"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "8"
+"origin" "64 656 -312"
+"noise" "*falling1.wav"
+"targetname" "t70"
+}
