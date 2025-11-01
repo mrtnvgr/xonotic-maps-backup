@@ -1,0 +1,138 @@
+{
+"classname" "worldspawn"
+"_blocksize" "0 0 0"
+"_celshader" "cyberparcour02_shaders/celshader"
+"_floodlight" "255 255 255 1024 32"
+"message" "CyberParcour02 by sev"
+"author" "sev"
+"license" "GNU GPL version 2 or any later version"
+"_q3map2_cmdline" "-meta -samplesize 4; -light -patchshadows -fast -deluxe -filter -samples 3"
+"_q3map2_version" "2.5.17n-svn383"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "sparks"
+"impulse" "4"
+"model" "*1"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "32"
+"mdl" "flamethrower"
+"movedir" "0 0 16"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"model" "*3"
+}
+{
+"classname" "target_speaker"
+"origin" "0.000000 0.000000 608.000000"
+"noise" "sound/cyberparcour02/rocket.ogg"
+"atten" "2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "0"
+"targetname" "checkpoint0"
+"model" "*4"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "checkpoint1"
+"cnt" "1"
+"model" "*5"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "checkpoint2"
+"cnt" "2"
+"model" "*6"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "checkpoint3"
+"cnt" "3"
+"model" "*7"
+}
+{
+"classname" "info_player_race"
+"origin" "0.000000 768.000000 544.000000"
+"angle" "-90.000000"
+"target" "checkpoint0"
+}
+{
+"classname" "info_player_race"
+"origin" "1792.000000 256.000000 544.000000"
+"angle" "90.000000"
+"target" "checkpoint1"
+}
+{
+"classname" "info_player_race"
+"origin" "2304.000000 1792.000000 544.000000"
+"angle" "90.000000"
+"target" "checkpoint2"
+}
+{
+"classname" "info_player_race"
+"origin" "-2048.000000 768.000000 544.000000"
+"angle" "-90.000000"
+"target" "checkpoint3"
+}
+{
+"classname" "trigger_hurt"
+"model" "*8"
+}
+{
+"classname" "trigger_push"
+"target" "push1"
+"model" "*9"
+}
+{
+"classname" "target_position"
+"origin" "1792.000000 -2048.000000 3584.000000"
+"targetname" "push1"
+}
+{
+"classname" "trigger_push"
+"target" "push2"
+"model" "*10"
+}
+{
+"classname" "target_position"
+"origin" "-1536.000000 -256.000000 3584.000000"
+"targetname" "push2"
+}
+{
+"classname" "trigger_push"
+"target" "push3"
+"model" "*11"
+}
+{
+"classname" "target_position"
+"origin" "2048.000000 1024.000000 3584.000000"
+"targetname" "push3"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "4"
+"targetname" "checkpoint4"
+"model" "*12"
+}
+{
+"classname" "info_player_race"
+"origin" "-512.000000 1024.000000 544.000000"
+"target" "checkpoint4"
+"angle" "90.000000"
+}
+{
+"classname" "trigger_push"
+"target" "push4"
+"model" "*13"
+}
+{
+"classname" "target_position"
+"origin" "-1792.000000 -2048.000000 3584.000000"
+"targetname" "push4"
+}
