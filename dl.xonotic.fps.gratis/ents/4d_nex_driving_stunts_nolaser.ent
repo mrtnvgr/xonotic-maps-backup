@@ -1,0 +1,147 @@
+{
+"_q3map2_version" "2.5.17n-svn383"
+"_q3map2_cmdline" "-bsp -meta -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000 -samplesize 32; -scale 2.5; -light -deluxe -patchshadows -samples 3 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid -dirty -fast -filter -bounce 0"
+"origin" "0 0 0"
+"_blocksize" "1024 1024 1024"
+"gridsize" "1280.000000 1280.000000 1280.000000"
+"_keeplights" "1"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"origin" "0 0 0"
+"targetname" "trigger_race_checkpoint1"
+"cnt" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"origin" "-4800.000000 -320.000000 504.000000"
+"target" "trigger_race_checkpoint1"
+"angle" "90.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*2"
+"origin" "0 0 0"
+"cnt" "2"
+"targetname" "trigger_race_checkpoint2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"origin" "-6880.000000 960.000000 504.000000"
+"target" "trigger_race_checkpoint2"
+"angle" "180.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*3"
+"origin" "0 0 0"
+"targetname" "cp3"
+"cnt" "3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"origin" "4800.000000 -2240.000000 24.000000"
+"target2" "cp3"
+"target" "cp3"
+"angle" "-90.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*4"
+"origin" "0 0 0"
+"targetname" "trigger_race_checkpoint3"
+"cnt" "4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"origin" "5500.000000 -9200.000000 104.000000"
+"target" "trigger_race_checkpoint3"
+"classname" "info_player_race"
+}
+{
+"model" "*5"
+"origin" "0 0 0"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*6"
+"origin" "0 0 0"
+"cnt" "3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*7"
+"origin" "0 0 0"
+"cnt" "4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*8"
+"origin" "5440.000000 320.000000 0.000000"
+"message2" "did the 9/11 for"
+"message" "did the 9/11"
+"classname" "trigger_hurt"
+}
+{
+"model" "*9"
+"origin" "-4293.750000 -2880.000000 426.796875"
+"classname" "func_rotating"
+}
+{
+"model" "*10"
+"origin" "-4800.000000 -6080.000000 0.000000"
+"targetname" "finish"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*11"
+"origin" "-4800.000000 -6080.000000 0.000000"
+"race_penalty" "5"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"origin" "-4880.000000 -6420.000000 24.000000"
+"race_place" "0"
+"target" "finish"
+"angle" "90.000000"
+"classname" "info_player_race"
+}
+{
+"origin" "-4720.000000 -6380.000000 24.000000"
+"race_place" "5"
+"target" "finish"
+"angle" "90.000000"
+"classname" "info_player_race"
+}
+{
+"origin" "-4720.000000 -6140.000000 24.000000"
+"race_place" "1"
+"target" "finish"
+"angle" "90.000000"
+"classname" "info_player_race"
+}
+{
+"origin" "-4880.000000 -6180.000000 24.000000"
+"race_place" "2"
+"target" "finish"
+"angle" "90.000000"
+"classname" "info_player_race"
+}
+{
+"origin" "-4720.000000 -6260.000000 24.000000"
+"race_place" "3"
+"target" "finish"
+"angle" "90.000000"
+"classname" "info_player_race"
+}
+{
+"origin" "-4880.000000 -6300.000000 24.000000"
+"race_place" "4"
+"target" "finish"
+"angle" "90.000000"
+"classname" "info_player_race"
+}
