@@ -1,0 +1,147 @@
+{
+"classname" "worldspawn"
+"_minlight" "10"
+"_q3map2_cmdline" "-meta; -light -fast"
+"_q3map2_version" "2.5.17n"
+}
+{
+"classname" "info_player_start"
+"origin" "0.000000 128.000000 48.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-304.000000 240.000000 352.000000"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "56.000000 128.000000 352.000000"
+"wait" "-1"
+"count" "6"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "56.000000 192.000000 352.000000"
+"count" "6"
+"wait" "-1"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "56.000000 64.000000 48.000000"
+"wait" "-1"
+"count" "6"
+}
+{
+"classname" "item_enviro"
+"origin" "0.000000 128.000000 112.000000"
+"count" "6"
+"wait" "-1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_init1"
+"model" "*2"
+}
+{
+"classname" "target_init"
+"origin" "-592.000000 192.000000 736.000000"
+"targetname" "target_init1"
+}
+{
+"classname" "item_flight"
+"origin" "-576.000000 128.000000 744.000000"
+"wait" "-1"
+"count" "6"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "666"
+"model" "*3"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "666"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "666"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "666"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1888.000000 128.000000 -496.000000"
+"angle" "-179.999985"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "weapon_bfg"
+"origin" "1776.000000 128.000000 -544.000000"
+"count" "6"
+"wait" "-1"
+}
+{
+"classname" "item_enviro"
+"origin" "1784.000000 128.000000 -544.000000"
+"wait" "-1"
+"count" "6"
+}
+{
+"classname" "item_quad"
+"origin" "1784.000000 128.000000 -544.000000"
+"count" "6"
+"wait" "-1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1352.000000 224.000000 2016.000000"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1792.000000 240.000000 -480.000000"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_init2"
+"model" "*11"
+}
+{
+"classname" "target_init"
+"origin" "88.000000 136.000000 960.000000"
+"targetname" "target_init2"
+}
