@@ -1,0 +1,82 @@
+{
+"classname" "worldspawn"
+"angle" "-2"
+}
+{
+"origin" "-3632 3360 3840"
+"_color" "1.000000 0.000000 0.000000"
+"light" "25"
+"classname" "light"
+}
+{
+"model" "*1"
+"target" "t6"
+}
+{
+"origin" "-3632 3392 3784"
+"model" "models/mapobj~1/skel/skel02~1.md3"
+"angle" "270"
+"classname" "misc_model"
+}
+{
+"classname" "info_player_deathmatch"
+"spawnflags" "1"
+"origin" "-4040 -3648 3816"
+}
+{
+"model" "*2"
+"dmg" "9999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-3632 2560 3736"
+"spawnflags" "4"
+"noise" "sounds\feedback\mk\laugh.wav"
+"targetname" "t5"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"target" "t5"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-3568 2816 3784"
+"targetname" "t3"
+"spawnflags" "4"
+"noise" "sounds\feedback\mk\excellent.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "-3696 2816 3784"
+"targetname" "t3"
+"classname" "target_stopTimer"
+}
+{
+"model" "*4"
+"targetname" "t4"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-3576 -3512 3784"
+"targetname" "t2"
+"classname" "target_startTimer"
+}
+{
+"model" "*5"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"target" "t1"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-4040 -3648 3816"
+"targetname" "t1"
+"angle" "360"
+"classname" "misc_teleporter_dest"
+}
