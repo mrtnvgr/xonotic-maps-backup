@@ -1,0 +1,54 @@
+{
+"classname" "worldspawn"
+"_ambient" "14"
+"_lightmapscale" ".5"
+"_blocksize" "4096"
+"gridsize" "512 512 512"
+"message" "Made by Daemond"
+}
+{
+"classname" "info_player_start"
+"origin" "32 -32 24"
+"angle" "90"
+}
+{
+"wait" "-1"
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "56 192 240"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-8712 -3248 120"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-7464 448 176"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-5264 1880 240"
+"targetname" "t4"
+}
