@@ -1,0 +1,169 @@
+{
+"gridsize" "80 80 144"
+"classname" "worldspawn"
+"_q3map2_cmdline" "-noob; -light -scale 1.5"
+"_q3map2_version" "2.5.17n"
+}
+{
+"classname" "info_player_start"
+"origin" "-3520 0 36"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-3072 -256 0"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1280 -1664 64"
+"targetname" "target_checkpoint1"
+"angle" "-90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-13184 -6144 0"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "target_speaker"
+"origin" "-1280 -1536 64"
+"targetname" "target_checkpoint1"
+"spawnflags" "8"
+"noise" "sound/kabcorp/checkpoint.wav"
+"wait" "-1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint10"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2176 1408 64"
+"targetname" "target_checkpoint10"
+"angle" "-90"
+}
+{
+"classname" "target_speaker"
+"origin" "-2176 1536 64"
+"targetname" "target_checkpoint10"
+"spawnflags" "8"
+"noise" "sound/kabcorp/checkpoint.wav"
+"wait" "-1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint11"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-4352 -1152 64"
+"targetname" "target_checkpoint11"
+"angle" "-1.40334e-014"
+}
+{
+"classname" "target_speaker"
+"origin" "-4480 -1152 64"
+"targetname" "target_checkpoint11"
+"spawnflags" "8"
+"noise" "sound/kabcorp/checkpoint.wav"
+"wait" "-1"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint12"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-7168 -3072 64"
+"targetname" "target_checkpoint12"
+"angle" "-90"
+}
+{
+"classname" "target_speaker"
+"origin" "-7168 -2944 64"
+"targetname" "target_checkpoint12"
+"spawnflags" "8"
+"noise" "sound/kabcorp/checkpoint.wav"
+"wait" "-1"
+"angle" "-1.40334e-014"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint13"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-12032 -4992 64"
+"targetname" "target_checkpoint13"
+"angle" "-1.40334e-014"
+}
+{
+"classname" "target_speaker"
+"origin" "-12160 -4992 64"
+"targetname" "target_checkpoint13"
+"spawnflags" "8"
+"noise" "sound/kabcorp/checkpoint.wav"
+"wait" "-1"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint14"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-13696 -7808 64"
+"targetname" "target_checkpoint14"
+"angle" "-90"
+}
+{
+"classname" "target_speaker"
+"origin" "-13696 -7680 64"
+"targetname" "target_checkpoint14"
+"spawnflags" "8"
+"noise" "sound/kabcorp/checkpoint.wav"
+"wait" "-1"
+"angle" "-1.40334e-014"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint15"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-14720 -4480 64"
+"targetname" "target_checkpoint15"
+"angle" "90"
+}
+{
+"classname" "target_speaker"
+"origin" "-14720 -4608 64"
+"targetname" "target_checkpoint15"
+"spawnflags" "8"
+"noise" "sound/kabcorp/checkpoint.wav"
+"wait" "-1"
+"angle" "180"
+}
