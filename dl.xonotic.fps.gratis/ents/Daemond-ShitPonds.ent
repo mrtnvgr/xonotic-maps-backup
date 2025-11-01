@@ -1,0 +1,101 @@
+{
+"message" "^2Short Little Shit Ponds"
+"ambient" "6"
+"gridsize" "512 512 512"
+"_blocksize" "4096"
+"_lightmapscale" ".3"
+"classname" "worldspawn"
+}
+{
+"origin" "-64 -352 24"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"origin" "-576 -352 24"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"target" "t1"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"origin" "-256 -288 32"
+"targetname" "t1"
+"classname" "target_startTimer"
+}
+{
+"target" "t2"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"origin" "-728 2984 216"
+"angle" "90"
+"targetname" "t2"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"origin" "-720 3200 384"
+"targetname" "t3"
+"classname" "target_checkpoint"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t4"
+"origin" "224 6744 384"
+"classname" "target_checkpoint"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"origin" "2096 7960 384"
+"targetname" "t5"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t6"
+"origin" "1048 9048 384"
+"classname" "target_checkpoint"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t7"
+"origin" "4008 6480 288"
+"classname" "target_stopTimer"
+}
+{
+"target" "t8"
+"classname" "trigger_teleport"
+"model" "*8"
+}
+{
+"targetname" "t8"
+"angle" "90"
+"origin" "-320 -416 696"
+"classname" "misc_teleporter_dest"
+}
