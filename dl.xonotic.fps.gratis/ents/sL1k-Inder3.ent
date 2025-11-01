@@ -1,0 +1,72 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "136 -56 152"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "32 -64 144"
+"count" "5"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_give"
+"origin" "64 -64 144"
+"targetname" "t1"
+"target" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "352 80 144"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1152 224 192"
+"targetname" "t4"
+}
+{
+"spawnflags" "12"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t5"
+"origin" "704 1792 192"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t6"
+"origin" "1408 1216 192"
+"classname" "target_checkpoint"
+}
