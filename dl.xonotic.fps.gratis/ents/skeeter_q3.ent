@@ -1,0 +1,496 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"targetname" "goto1_3"
+"origin" "22.400000 -1164.799927 526.399963"
+"classname" "target_position"
+}
+{
+"classname" "target_position"
+"origin" "481.600006 -1164.799927 526.399963"
+"targetname" "goto1"
+}
+{
+"classname" "trigger_push"
+"target" "goto1"
+"model" "*1"
+}
+{
+"classname" "item_invis"
+"spawnflags" "1"
+"origin" "179.199997 212.800003 1164.799927"
+"team" "goodies"
+"wait" "60"
+}
+{
+"classname" "item_health_large"
+"notbot" "1"
+"origin" "-89.599998 -1092.000000 296.799988"
+}
+{
+"classname" "trigger_multiple"
+"wait" "29"
+"target" "giveitup"
+"model" "*2"
+}
+{
+"origin" "-56.000000 -1120.000000 481.600006"
+"targetname" "given"
+"classname" "item_quad"
+}
+{
+"origin" "-67.199997 -1120.000000 604.799988"
+"target" "given"
+"targetname" "giveitup"
+"classname" "target_give"
+}
+{
+"origin" "985.599976 134.399994 1075.199951"
+"light" "1000"
+"classname" "light"
+}
+{
+"target" "heresammo"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"origin" "-470.399994 134.399994 369.600006"
+"target" "heresarail"
+"targetname" "givearail"
+"classname" "target_give"
+}
+{
+"count" "200"
+"origin" "-470.399994 134.399994 33.599998"
+"targetname" "heresarail"
+"classname" "weapon_railgun"
+}
+{
+"target" "givearail"
+"origin" "-470.399994 134.399994 571.200012"
+"classname" "info_player_start"
+}
+{
+"origin" "-190.399994 89.599998 1030.400024"
+"targetname" "upp_2"
+"classname" "target_position"
+}
+{
+"origin" "145.599991 89.599998 1164.799927"
+"targetname" "upp_1"
+"classname" "target_position"
+}
+{
+"origin" "212.800003 179.199997 1164.799927"
+"targetname" "upp"
+"classname" "target_position"
+}
+{
+"target" "upp"
+"classname" "trigger_push"
+"model" "*4"
+}
+{
+"classname" "trigger_push"
+"target" "upp_1"
+"model" "*5"
+}
+{
+"target" "upp_2"
+"classname" "trigger_push"
+"model" "*6"
+}
+{
+"classname" "trigger_push"
+"target" "upp_3"
+"model" "*7"
+}
+{
+"classname" "target_position"
+"targetname" "upp_3"
+"origin" "548.799988 179.199997 1030.400024"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-22.400000 134.399994 571.200012"
+"target" "givearail_1"
+}
+{
+"count" "200"
+"classname" "weapon_railgun"
+"targetname" "heresarail_1"
+"origin" "-22.400000 134.399994 33.599998"
+}
+{
+"classname" "target_give"
+"targetname" "givearail_1"
+"target" "heresarail_1"
+"origin" "-22.400000 134.399994 369.600006"
+}
+{
+"origin" "380.799988 134.399994 369.600006"
+"target" "heresarail_2"
+"targetname" "givearail_2"
+"classname" "target_give"
+}
+{
+"count" "200"
+"origin" "380.799988 134.399994 33.599998"
+"targetname" "heresarail_2"
+"classname" "weapon_railgun"
+}
+{
+"angle" "180"
+"target" "givearail_2"
+"origin" "380.799988 134.399994 571.200012"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "828.799988 134.399994 582.399963"
+"target" "givearail_3"
+"angle" "180"
+}
+{
+"count" "200"
+"classname" "weapon_railgun"
+"targetname" "heresarail_3"
+"origin" "828.799988 134.399994 44.799999"
+}
+{
+"classname" "target_give"
+"targetname" "givearail_3"
+"target" "heresarail_3"
+"origin" "828.799988 134.399994 380.799988"
+}
+{
+"origin" "649.599976 134.399994 380.799988"
+"target" "heresarail_4"
+"targetname" "heresammo"
+"classname" "target_give"
+}
+{
+"origin" "649.599976 134.399994 44.799999"
+"targetname" "heresarail_4"
+"classname" "ammo_slugs"
+}
+{
+"classname" "trigger_multiple"
+"target" "heresammo"
+"model" "*8"
+}
+{
+"target" "heresammo"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"classname" "item_haste"
+"targetname" "given"
+"origin" "56.000000 -1120.000000 481.600006"
+}
+{
+"origin" "414.399994 -1120.000000 481.600006"
+"targetname" "given_4"
+"classname" "item_haste"
+}
+{
+"classname" "target_give"
+"targetname" "giveitup_4"
+"target" "given_4"
+"origin" "291.199982 -1120.000000 604.799988"
+}
+{
+"classname" "item_quad"
+"targetname" "given_4"
+"origin" "302.399994 -1120.000000 481.600006"
+}
+{
+"target" "giveitup_4"
+"wait" "29"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"origin" "268.799988 -1092.000000 296.799988"
+"notbot" "1"
+"classname" "item_health_large"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-627.200012 134.399994 1075.199951"
+}
+{
+"team" "goodies"
+"origin" "179.199997 56.000000 1164.799927"
+"spawnflags" "1"
+"classname" "item_quad"
+"wait" "60"
+}
+{
+"classname" "item_health_large"
+"notbot" "1"
+"origin" "89.599998 -1092.000000 296.799988"
+}
+{
+"classname" "trigger_multiple"
+"wait" "29"
+"target" "giveitup_1"
+"model" "*11"
+}
+{
+"origin" "123.199997 -1120.000000 481.600006"
+"targetname" "given_1"
+"classname" "item_quad"
+}
+{
+"origin" "112.000000 -1120.000000 604.799988"
+"target" "given_1"
+"targetname" "giveitup_1"
+"classname" "target_give"
+}
+{
+"classname" "item_haste"
+"targetname" "given_1"
+"origin" "235.199997 -1120.000000 481.600006"
+}
+{
+"classname" "trigger_multiple"
+"wait" "29"
+"target" "giveitup_2"
+"model" "*12"
+}
+{
+"origin" "380.799988 -1187.199951 481.600006"
+"targetname" "given_2"
+"classname" "item_quad"
+}
+{
+"origin" "369.600006 -1187.199951 604.799988"
+"target" "given_2"
+"targetname" "giveitup_2"
+"classname" "target_give"
+}
+{
+"classname" "item_haste"
+"targetname" "given_2"
+"origin" "492.799988 -1187.199951 481.600006"
+}
+{
+"origin" "0.000000 -1187.199951 481.600006"
+"targetname" "given_3"
+"classname" "item_haste"
+}
+{
+"classname" "target_give"
+"targetname" "giveitup_3"
+"target" "given_3"
+"origin" "-123.199997 -1187.199951 604.799988"
+}
+{
+"classname" "item_quad"
+"targetname" "given_3"
+"origin" "-112.000000 -1187.199951 481.600006"
+}
+{
+"target" "giveitup_3"
+"wait" "29"
+"classname" "trigger_multiple"
+"model" "*13"
+}
+{
+"classname" "item_health_large"
+"notbot" "1"
+"origin" "448.000000 -1092.000000 296.799988"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "179.199997 -268.799988 896.000000"
+}
+{
+"origin" "179.199997 -716.799988 985.599976"
+"light" "350"
+"classname" "light"
+}
+{
+"target" "goto1_1"
+"classname" "trigger_push"
+"model" "*14"
+}
+{
+"targetname" "goto1_1"
+"origin" "336.000000 -1164.799927 526.399963"
+"classname" "target_position"
+}
+{
+"classname" "target_position"
+"origin" "179.199997 -1164.799927 526.399963"
+"targetname" "goto1_2"
+}
+{
+"classname" "trigger_push"
+"target" "goto1_2"
+"model" "*15"
+}
+{
+"classname" "trigger_push"
+"target" "goto1_3"
+"model" "*16"
+}
+{
+"target" "goto1_4"
+"classname" "trigger_push"
+"model" "*17"
+}
+{
+"targetname" "goto1_4"
+"origin" "-123.199997 -1164.799927 526.399963"
+"classname" "target_position"
+}
+{
+"origin" "-22.400000 -22.400000 369.600006"
+"target" "heresarail_5"
+"targetname" "givearail_4"
+"classname" "target_give"
+}
+{
+"origin" "-22.400000 -22.400000 33.599998"
+"targetname" "heresarail_5"
+"classname" "weapon_railgun"
+"count" "200"
+}
+{
+"target" "givearail_4"
+"origin" "-22.400000 -22.400000 571.200012"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-22.400000 291.199982 571.200012"
+"target" "givearail_5"
+}
+{
+"count" "200"
+"classname" "weapon_railgun"
+"targetname" "heresarail_6"
+"origin" "-22.400000 291.199982 33.599998"
+}
+{
+"classname" "target_give"
+"targetname" "givearail_5"
+"target" "heresarail_6"
+"origin" "-22.400000 291.199982 369.600006"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "380.799988 291.199982 571.200012"
+"target" "givearail_6"
+"angle" "180"
+}
+{
+"classname" "weapon_railgun"
+"targetname" "heresarail_7"
+"origin" "380.799988 291.199982 33.599998"
+"count" "200"
+}
+{
+"classname" "target_give"
+"targetname" "givearail_6"
+"target" "heresarail_7"
+"origin" "380.799988 291.199982 369.600006"
+}
+{
+"origin" "380.799988 -22.400000 369.600006"
+"target" "heresarail_8"
+"targetname" "givearail_7"
+"classname" "target_give"
+}
+{
+"count" "200"
+"origin" "380.799988 -22.400000 33.599998"
+"targetname" "heresarail_8"
+"classname" "weapon_railgun"
+}
+{
+"angle" "180"
+"target" "givearail_7"
+"origin" "380.799988 -22.400000 571.200012"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "828.799988 -22.400000 380.799988"
+"target" "heresarail_9"
+"targetname" "givearail_8"
+"classname" "target_give"
+}
+{
+"origin" "828.799988 -22.400000 44.799999"
+"targetname" "heresarail_9"
+"classname" "weapon_railgun"
+"count" "200"
+}
+{
+"angle" "180"
+"target" "givearail_8"
+"origin" "828.799988 -22.400000 582.399963"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "828.799988 291.199982 582.399963"
+"target" "givearail_9"
+"angle" "180"
+}
+{
+"count" "200"
+"classname" "weapon_railgun"
+"targetname" "heresarail_10"
+"origin" "828.799988 291.199982 44.799999"
+}
+{
+"classname" "target_give"
+"targetname" "givearail_9"
+"target" "heresarail_10"
+"origin" "828.799988 291.199982 380.799988"
+}
+{
+"classname" "info_player_start"
+"origin" "-470.399994 -22.400000 571.200012"
+"target" "givearail_10"
+}
+{
+"classname" "weapon_railgun"
+"targetname" "heresarail_11"
+"origin" "-470.399994 -22.400000 33.599998"
+"count" "200"
+}
+{
+"classname" "target_give"
+"targetname" "givearail_10"
+"target" "heresarail_11"
+"origin" "-470.399994 -22.400000 369.600006"
+}
+{
+"origin" "-470.399994 291.199982 369.600006"
+"target" "heresarail_12"
+"targetname" "givearail_11"
+"classname" "target_give"
+}
+{
+"count" "200"
+"origin" "-470.399994 291.199982 33.599998"
+"targetname" "heresarail_12"
+"classname" "weapon_railgun"
+}
+{
+"target" "givearail_11"
+"origin" "-470.399994 291.199982 571.200012"
+"classname" "info_player_start"
+}
