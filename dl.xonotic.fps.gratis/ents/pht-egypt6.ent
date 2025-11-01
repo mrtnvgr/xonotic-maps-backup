@@ -1,0 +1,139 @@
+{
+"classname" "worldspawn"
+"light" "1000"
+}
+{
+"targetname" "t1"
+"origin" "2000 -80 0"
+"classname" "target_checkpoint"
+}
+{
+"origin" "0 0 32"
+"classname" "item_health_mega"
+}
+{
+"targetname" "t4"
+"origin" "6552 -16 -1000"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "t3"
+"origin" "8592 -96 -784"
+"classname" "target_stopTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 32"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "1500"
+"targetname" "t1"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "152 -40 80"
+"targetname" "t2"
+}
+{
+"classname" "light"
+"origin" "320 0 184"
+"light" "300"
+}
+{
+"light" "1000"
+"origin" "1216 0 -8"
+"classname" "light"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*6"
+}
+{
+"classname" "light"
+"origin" "3096 -8 -184"
+"light" "1000"
+}
+{
+"light" "1000"
+"origin" "4872 -16 -184"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "6600 -56 -192"
+"light" "1000"
+}
+{
+"light" "1000"
+"origin" "7520 -16 -352"
+"classname" "light"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*7"
+}
+{
+"light" "300"
+"origin" "1632 0 -80"
+"classname" "light"
+}
+{
+"health" "1"
+"classname" "func_button"
+"target" "t6"
+"angle" "360"
+"speed" "1500"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*9"
+}
+{
+"classname" "target_print"
+"origin" "-816 48 128"
+"targetname" "t5"
+"message" "I don't know, just another simple secret room :F ~Phantasm"
+}
+{
+"origin" "-992 16 112"
+"classname" "misc_teleporter_dest"
+"targetname" "t7"
+}
+{
+"classname" "light"
+"origin" "-768 0 96"
+"light" "1000"
+}
+{
+"classname" "target_teleporter"
+"origin" "8256 72 88"
+"targetname" "t6"
+"target" "t7"
+}
