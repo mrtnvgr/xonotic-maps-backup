@@ -1,0 +1,196 @@
+{
+"gridsize" "80 64 128"
+"classname" "worldspawn"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1216 192 32"
+"angle" "-90"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*1"
+}
+{
+"classname" "info_player_start"
+"origin" "-1216 192 40"
+"angle" "-90"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1600 1664 56"
+"angle" "180"
+"targetname" "misc_teleporter_dest6"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "3136 1728 56"
+"angle" "180"
+"targetname" "misc_teleporter_dest7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "4672 1792 56"
+"angle" "180"
+"targetname" "misc_teleporter_dest8"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "6208 1824 56"
+"angle" "180"
+"targetname" "misc_teleporter_dest9"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest6"
+"model" "*2"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest7"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest8"
+"model" "*4"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest9"
+"model" "*5"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1760 -3776 128"
+"targetname" "misc_teleporter_dest10"
+"angle" "-90"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest10"
+"model" "*6"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-96 1024 64"
+"targetname" "misc_teleporter_dest2"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest2"
+"model" "*7"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*8"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*10"
+}
+{
+"classname" "target_startTimer"
+"targetname" "t1"
+"origin" "-640 0 128"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4480 0 80"
+"targetname" "target_checkpoint1"
+"angle" "-90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"targetname" "trigger_multiple1"
+"model" "*12"
+}
+{
+"classname" "target_checkpoint"
+"origin" "8096 0 480"
+"targetname" "target_checkpoint2"
+"angle" "-90"
+"target" "trigger_multiple1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*13"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1696 -3968 176"
+"targetname" "target_checkpoint3"
+"angle" "-90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*14"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4096 -2616 176"
+"targetname" "target_checkpoint4"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint5"
+"model" "*15"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1048 -4864 176"
+"targetname" "target_checkpoint5"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint6"
+"model" "*16"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-4736 -3328 -1936"
+"targetname" "target_checkpoint6"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint7"
+"model" "*17"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-5312 -6656 -1936"
+"targetname" "target_checkpoint7"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*18"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-1032 -5760 -1936"
+"targetname" "target_stopTimer1"
+"angle" "90"
+}
