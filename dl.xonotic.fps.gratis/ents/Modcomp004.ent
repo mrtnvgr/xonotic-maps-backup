@@ -1,0 +1,162 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "1848 -322 298"
+"angle" "180"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-3152 -400 168"
+}
+{
+"classname" "ammo_cells"
+"origin" "-3152 -352 168"
+"count" "200"
+}
+{
+"classname" "item_enviro"
+"origin" "-3152 -304 168"
+"count" "200"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"targetname" "t1"
+"angle" "270"
+"origin" "-5968 -992 -624"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t2"
+"angle" "90"
+"origin" "-5928 504 -632"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t2"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"origin" "-5960 -1064 -632"
+"classname" "weapon_grenadelauncher"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-5936 592 -656"
+}
+{
+"origin" "1800 -320 312"
+"targetname" "t3"
+"classname" "target_startTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "t5"
+"origin" "-7384 664 -592"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2528 -304 168"
+"targetname" "target_checkpoint1"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t8"
+"origin" "-4208 1344 -240"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t9"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-4248 -2048 -240"
+"targetname" "t9"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t10"
+"origin" "-5848 -240 -224"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-6416 632 -232"
+"targetname" "t11"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "t12"
+"origin" "-6480 -1128 -288"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_init1"
+"model" "*11"
+}
+{
+"classname" "target_init"
+"origin" "-5696 -640 -248"
+"targetname" "target_init1"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*12"
+}
+{
+"targetname" "t13"
+"origin" "-5688 416 -304"
+"classname" "target_init"
+}
+{
+"origin" "-7431 -1096 -592"
+"targetname" "t14"
+"classname" "target_stopTimer"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"model" "*13"
+}
