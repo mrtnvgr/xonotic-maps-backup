@@ -1,0 +1,121 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -160 32"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "256 -176 128"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-4752 1536 -448"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give1"
+"wait" "-1"
+"model" "*3"
+}
+{
+"classname" "target_give"
+"origin" "2560 8192 0"
+"targetname" "target_give1"
+"target" "weapon_rocketlauncher1"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "3072 8192 0"
+"count" "-1"
+"targetname" "weapon_rocketlauncher1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-1344 1536 -512"
+"wait" "-1"
+"count" "1"
+"targetname" "ammo_rockets1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give2"
+"wait" "-1"
+"model" "*4"
+}
+{
+"classname" "target_give"
+"origin" "-1472 1536 -512"
+"targetname" "target_give2"
+"target" "ammo_rockets1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "672 992 224"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1920 2784 224"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "384 5856 -672"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2944 5952 -672"
+"targetname" "target_checkpoint4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint5"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "544 3328 -352"
+"targetname" "target_checkpoint5"
+"angle" "-90"
+}
