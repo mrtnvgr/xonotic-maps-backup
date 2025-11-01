@@ -1,0 +1,71 @@
+{
+"gridsize" "80 80 128"
+"_ambient" "30"
+"classname" "worldspawn"
+}
+{
+"angle" "180"
+"classname" "info_player_start"
+"origin" "29728 128 44984"
+}
+{
+"target" "go"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "go"
+"origin" "29624 128 45048"
+"classname" "target_startTimer"
+}
+{
+"target" "end"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "end"
+"origin" "-19752 128 816"
+"classname" "target_stopTimer"
+}
+{
+"targetname" "door1"
+"team" "d1"
+"angle" "90"
+"classname" "func_door"
+"model" "*3"
+}
+{
+"targetname" "door1"
+"team" "d2"
+"angle" "270"
+"classname" "func_door"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "ch"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-176 232 384"
+"targetname" "ch"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "29688 112 44976"
+"count" "3"
+"wait" "999"
+}
+{
+"classname" "item_enviro"
+"origin" "29688 144 44976"
+"wait" "999"
+"count" "999"
+}
+{
+"target" "door1"
+"classname" "trigger_multiple"
+"model" "*6"
+}
