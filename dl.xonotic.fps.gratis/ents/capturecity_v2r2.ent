@@ -1,0 +1,2665 @@
+{
+"classname" "worldspawn"
+"gridsize" "128 128 128"
+"color" "1 1 1"
+"_minLight" "2"
+"_blocksize" "512 512 16384"
+"message" "CaptureCity"
+}
+{
+"classname" "trigger_push"
+"target" "red_entrance_hydrant"
+"model" "*1"
+}
+{
+"classname" "target_position"
+"origin" "-1472 -160 528"
+"targetname" "red_entrance_hydrant"
+}
+{
+"classname" "func_bobbing"
+"height" "1528"
+"speed" "10"
+"model" "*2"
+}
+{
+"classname" "func_ladder"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "red_dest_flag"
+"model" "*4"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2560 2560 1752"
+"angle" "-45"
+"targetname" "red_dest_flag"
+}
+{
+"classname" "item_flag_team1"
+"origin" "-2048 2048 1744"
+}
+{
+"classname" "func_plat"
+"model" "*5"
+}
+{
+"classname" "func_train"
+"height" "1528"
+"speed" "500"
+"target" "red_corner1"
+"model" "*6"
+}
+{
+"classname" "path_corner"
+"origin" "-896 0 1712"
+"targetname" "red_corner2"
+"target" "red_corner3"
+}
+{
+"classname" "path_corner"
+"origin" "-896 640 1712"
+"targetname" "red_corner1"
+"target" "red_corner2"
+"angle" "-90"
+}
+{
+"classname" "path_corner"
+"origin" "-2816 0 3120"
+"targetname" "red_corner3"
+"target" "red_corner4"
+}
+{
+"classname" "path_corner"
+"origin" "-2816 -640 3120"
+"targetname" "red_corner4"
+"target" "red_corner5"
+}
+{
+"classname" "path_corner"
+"origin" "-2816 128 1712"
+"targetname" "red_corner5"
+"target" "red_corner6"
+}
+{
+"classname" "path_corner"
+"origin" "-2816 640 1712"
+"targetname" "red_corner6"
+"target" "red_corner9"
+}
+{
+"classname" "path_corner"
+"origin" "-2816 640 320"
+"targetname" "red_corner9"
+"target" "red_corner10"
+}
+{
+"classname" "trigger_push"
+"target" "red_tower_hydrant"
+"model" "*7"
+}
+{
+"classname" "target_position"
+"origin" "2240 2368 1536"
+"targetname" "red_tower_hydrant"
+}
+{
+"classname" "target_position"
+"origin" "1920 1728 1984"
+"targetname" "red_target_position1"
+}
+{
+"classname" "trigger_push"
+"target" "red_target_position1"
+"model" "*8"
+}
+{
+"classname" "target_position"
+"origin" "1536 2176 2304"
+"targetname" "red_target_position2"
+}
+{
+"classname" "trigger_push"
+"target" "red_target_position2"
+"model" "*9"
+}
+{
+"classname" "target_position"
+"origin" "2272 1952 1504"
+"targetname" "red_tower_hydrant1"
+}
+{
+"classname" "trigger_push"
+"target" "red_tower_hydrant1"
+"model" "*10"
+}
+{
+"classname" "target_position"
+"origin" "640 1920 2944"
+"targetname" "red_target_position3"
+}
+{
+"classname" "trigger_push"
+"target" "red_target_position3"
+"model" "*11"
+}
+{
+"classname" "trigger_push"
+"target" "red_target_position5"
+"model" "*12"
+}
+{
+"classname" "target_position"
+"origin" "1088 1728 2752"
+"targetname" "red_target_position5"
+}
+{
+"classname" "path_corner"
+"origin" "-896 640 320"
+"targetname" "red_corner10"
+"target" "red_corner12"
+}
+{
+"classname" "path_corner"
+"origin" "-896 640 64"
+"targetname" "red_corner12"
+"target" "red_corner1"
+"wait" "3"
+}
+{
+"classname" "target_position"
+"origin" "-640 2176 1216"
+"targetname" "red_target_position4"
+}
+{
+"classname" "trigger_push"
+"target" "red_target_position4"
+"model" "*13"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "448 1728 2944"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_health25"
+"origin" "832 2368 1920"
+}
+{
+"classname" "item_rockets"
+"origin" "1088 1856 2560"
+"angle" "-90"
+}
+{
+"classname" "item_rockets"
+"origin" "960 1728 2560"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_rockets"
+"origin" "1216 1728 2560"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "1088 1600 2560"
+"angle" "90"
+}
+{
+"classname" "item_armor1"
+"origin" "960 1856 2560"
+}
+{
+"classname" "item_armor1"
+"origin" "960 1600 2560"
+"angle" "90"
+}
+{
+"classname" "item_armor1"
+"origin" "1216 1600 2560"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "1216 1856 2560"
+"angle" "-90"
+}
+{
+"classname" "item_armor25"
+"origin" "-832 1728 1664"
+"angle" "180"
+}
+{
+"classname" "item_armor25"
+"origin" "-192 1728 1408"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "-512 2432 1152"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "-512 2304 1152"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "-384 2304 1152"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "-384 2432 1152"
+"angle" "180"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-2304 2048 1792"
+"angle" "180"
+}
+{
+"classname" "weapon_electro"
+"origin" "-2048 1792 1792"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "-2048 1856 1792"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "-2048 1920 1792"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "-2048 1984 1792"
+"angle" "180"
+}
+{
+"classname" "item_bullets"
+"origin" "-2048 2112 1792"
+"angle" "180"
+}
+{
+"classname" "item_bullets"
+"origin" "-2048 2176 1792"
+"angle" "180"
+}
+{
+"classname" "item_bullets"
+"origin" "-2048 2240 1792"
+"angle" "180"
+}
+{
+"classname" "item_bullets"
+"origin" "-2048 2368 1792"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "-2048 1728 1792"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "-2112 2048 1792"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "-2176 2048 1792"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "-2240 2048 1792"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "-2368 2048 1792"
+"angle" "180"
+}
+{
+"classname" "item_health25"
+"origin" "-2368 1728 1792"
+"angle" "180"
+}
+{
+"classname" "item_health25"
+"origin" "-2368 2368 1792"
+"angle" "180"
+}
+{
+"classname" "item_health25"
+"origin" "-2560 2240 1792"
+"angle" "180"
+}
+{
+"classname" "item_health25"
+"origin" "-2560 1856 1792"
+"angle" "180"
+}
+{
+"classname" "item_strength"
+"origin" "-2048 -320 3200"
+"angle" "90"
+}
+{
+"classname" "weapon_crylink"
+"origin" "-1152 384 1792"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "-1984 384 1792"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "-1600 384 1792"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "-3712 1408 128"
+}
+{
+"classname" "item_shells"
+"origin" "-3712 1920 128"
+}
+{
+"classname" "item_shells"
+"origin" "-3712 2432 128"
+}
+{
+"classname" "item_shells"
+"origin" "-3712 2944 128"
+}
+{
+"classname" "item_shells"
+"origin" "-3712 3456 128"
+}
+{
+"classname" "info_player_team1"
+"origin" "-3712 1664 88"
+}
+{
+"classname" "info_player_team1"
+"origin" "-3712 2176 88"
+}
+{
+"classname" "info_player_team1"
+"origin" "-3712 2688 88"
+}
+{
+"classname" "info_player_team1"
+"origin" "-3712 3200 88"
+}
+{
+"classname" "item_shells"
+"origin" "-3456 3712 128"
+"angle" "-90"
+}
+{
+"classname" "item_shells"
+"origin" "-2944 3712 128"
+"angle" "-90"
+}
+{
+"classname" "item_shells"
+"origin" "-2432 3712 128"
+"angle" "-90"
+}
+{
+"classname" "item_shells"
+"origin" "-1920 3712 128"
+"angle" "-90"
+}
+{
+"classname" "item_shells"
+"origin" "-1408 3712 128"
+"angle" "-90"
+}
+{
+"classname" "info_player_team1"
+"origin" "-3200 3712 88"
+"angle" "-90"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2688 3712 88"
+"angle" "-90"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2176 3712 88"
+"angle" "-90"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1664 3712 88"
+"angle" "-90"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-3072 3072 128"
+"angle" "-90"
+}
+{
+"classname" "item_health25"
+"origin" "-3072 1024 64"
+"angle" "90"
+}
+{
+"classname" "weapon_hagar"
+"origin" "-1664 1024 128"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1728 1024 128"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1600 1024 128"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1664 1088 128"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1664 960 128"
+"angle" "90"
+}
+{
+"classname" "item_health100"
+"origin" "3584 3072 128"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 2560 192"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 2048 192"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 1536 192"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "2560 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "2560 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "2048 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "1536 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "1024 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "512 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "0 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-512 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-1024 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-2048 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-2560 1024 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 1536 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 2048 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 2560 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-2560 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-2048 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-1664 2560 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-1024 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-512 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "0 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "512 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "1024 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "1536 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "2048 3072 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-1664 2048 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-1664 1536 192"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-576 256 1408"
+}
+{
+"classname" "item_rockets"
+"origin" "-576 -448 2048"
+"angle" "-90"
+}
+{
+"classname" "item_rockets"
+"origin" "-960 -448 2048"
+"angle" "-90"
+}
+{
+"classname" "item_cells"
+"origin" "2240 2048 128"
+}
+{
+"classname" "item_cells"
+"origin" "1600 2048 128"
+}
+{
+"classname" "item_cells"
+"origin" "960 2048 128"
+}
+{
+"classname" "item_cells"
+"origin" "320 2048 128"
+}
+{
+"classname" "item_cells"
+"origin" "-320 2048 128"
+}
+{
+"classname" "item_health100"
+"origin" "-1088 2368 1920"
+"angle" "180"
+}
+{
+"classname" "weapon_electro"
+"origin" "-1024 -64 192"
+}
+{
+"classname" "trigger_push"
+"target" "blue_entrance_hydrant"
+"model" "*14"
+}
+{
+"classname" "target_position"
+"origin" "1472 160 528"
+"targetname" "blue_entrance_hydrant"
+"angle" "180"
+}
+{
+"classname" "func_bobbing"
+"height" "1528"
+"speed" "10"
+"model" "*15"
+}
+{
+"classname" "func_ladder"
+"model" "*16"
+}
+{
+"classname" "trigger_teleport"
+"target" "blue_dest_flag"
+"model" "*17"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2560 -2560 1752"
+"angle" "135"
+"targetname" "blue_dest_flag"
+}
+{
+"classname" "func_plat"
+"model" "*18"
+}
+{
+"classname" "func_train"
+"height" "1528"
+"speed" "500"
+"target" "blue_corner1"
+"model" "*19"
+}
+{
+"classname" "path_corner"
+"origin" "768 -128 1712"
+"targetname" "blue_corner4"
+"target" "blue_corner5"
+"angle" "180"
+}
+{
+"classname" "path_corner"
+"origin" "768 -768 1712"
+"targetname" "blue_corner1"
+"target" "blue_corner4"
+"angle" "90"
+}
+{
+"classname" "path_corner"
+"origin" "2688 -128 3120"
+"targetname" "blue_corner5"
+"target" "blue_corner6"
+"angle" "180"
+}
+{
+"classname" "path_corner"
+"origin" "2688 512 3120"
+"targetname" "blue_corner6"
+"target" "blue_corner9"
+"angle" "180"
+}
+{
+"classname" "path_corner"
+"origin" "2688 -256 1712"
+"targetname" "blue_corner9"
+"target" "blue_corner10"
+"angle" "180"
+}
+{
+"classname" "path_corner"
+"origin" "2688 -768 1712"
+"targetname" "blue_corner10"
+"target" "blue_corner12"
+"angle" "180"
+}
+{
+"classname" "path_corner"
+"origin" "2688 -768 320"
+"targetname" "blue_corner12"
+"target" "blue_corner2"
+"angle" "180"
+}
+{
+"classname" "trigger_push"
+"target" "blue_tower_hydrant"
+"model" "*20"
+}
+{
+"classname" "target_position"
+"origin" "-2240 -2368 1536"
+"targetname" "blue_tower_hydrant"
+"angle" "180"
+}
+{
+"classname" "target_position"
+"origin" "-1920 -1728 1984"
+"targetname" "blue_target_position1"
+"angle" "180"
+}
+{
+"classname" "trigger_push"
+"target" "blue_target_position1"
+"model" "*21"
+}
+{
+"classname" "target_position"
+"origin" "-1536 -2176 2304"
+"targetname" "blue_target_position2"
+"angle" "180"
+}
+{
+"classname" "trigger_push"
+"target" "blue_target_position2"
+"model" "*22"
+}
+{
+"classname" "target_position"
+"origin" "-2272 -1952 1504"
+"targetname" "blue_tower_hydrant1"
+"angle" "180"
+}
+{
+"classname" "trigger_push"
+"target" "blue_tower_hydrant1"
+"model" "*23"
+}
+{
+"classname" "target_position"
+"origin" "-640 -1920 2944"
+"targetname" "blue_target_position3"
+"angle" "180"
+}
+{
+"classname" "trigger_push"
+"target" "blue_target_position3"
+"model" "*24"
+}
+{
+"classname" "trigger_push"
+"target" "blue_target_position5"
+"model" "*25"
+}
+{
+"classname" "target_position"
+"origin" "-1088 -1728 2752"
+"targetname" "blue_target_position5"
+"angle" "180"
+}
+{
+"classname" "path_corner"
+"origin" "768 -768 320"
+"targetname" "blue_corner2"
+"target" "blue_corner3"
+"angle" "180"
+}
+{
+"classname" "path_corner"
+"origin" "768 -768 64"
+"targetname" "blue_corner3"
+"target" "blue_corner1"
+"angle" "180"
+"wait" "3"
+}
+{
+"classname" "target_position"
+"origin" "640 -2176 1216"
+"targetname" "blue_target_position4"
+"angle" "180"
+}
+{
+"classname" "trigger_push"
+"target" "blue_target_position4"
+"model" "*26"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-448 -1728 2944"
+"angle" "180"
+}
+{
+"classname" "item_health25"
+"origin" "-832 -2368 1920"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "-1088 -1856 2560"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-960 -1728 2560"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "-1216 -1728 2560"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_rockets"
+"origin" "-1088 -1600 2560"
+"angle" "-90"
+}
+{
+"classname" "item_armor1"
+"origin" "-960 -1856 2560"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-960 -1600 2560"
+"angle" "-90"
+}
+{
+"classname" "item_armor1"
+"origin" "-1216 -1600 2560"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_armor1"
+"origin" "-1216 -1856 2560"
+"angle" "90"
+}
+{
+"classname" "item_armor25"
+"origin" "832 -1728 1664"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_armor25"
+"origin" "192 -1728 1408"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_shells"
+"origin" "512 -2432 1152"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_shells"
+"origin" "512 -2304 1152"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_shells"
+"origin" "384 -2304 1152"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_shells"
+"origin" "384 -2432 1152"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "2304 -2048 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "weapon_electro"
+"origin" "2048 -1792 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_cells"
+"origin" "2048 -1856 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_cells"
+"origin" "2048 -1920 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_cells"
+"origin" "2048 -1984 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_bullets"
+"origin" "2048 -2112 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_bullets"
+"origin" "2048 -2176 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_bullets"
+"origin" "2048 -2240 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_bullets"
+"origin" "2048 -2368 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_cells"
+"origin" "2048 -1728 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_rockets"
+"origin" "2112 -2048 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_rockets"
+"origin" "2176 -2048 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_rockets"
+"origin" "2240 -2048 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_rockets"
+"origin" "2368 -2048 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_health25"
+"origin" "2368 -1728 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_health25"
+"origin" "2368 -2368 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_health25"
+"origin" "2560 -2240 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_health25"
+"origin" "2560 -1856 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_strength"
+"origin" "2048 320 3200"
+"angle" "-90"
+}
+{
+"classname" "weapon_crylink"
+"origin" "1152 -384 1792"
+"angle" "-90"
+}
+{
+"classname" "item_cells"
+"origin" "1984 -384 1792"
+"angle" "-90"
+}
+{
+"classname" "item_cells"
+"origin" "1600 -384 1792"
+"angle" "-90"
+}
+{
+"classname" "item_shells"
+"origin" "3712 -1408 128"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "3712 -1920 128"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "3712 -2432 128"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "3712 -2944 128"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "3712 -3456 128"
+"angle" "180"
+}
+{
+"classname" "item_shells"
+"origin" "3456 -3712 128"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "2944 -3712 128"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "2432 -3712 128"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "1920 -3712 128"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "1408 -3712 128"
+"angle" "90"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "3072 -3072 128"
+"angle" "90"
+}
+{
+"classname" "item_health25"
+"origin" "3072 -1024 64"
+"angle" "-90"
+}
+{
+"classname" "weapon_hagar"
+"origin" "1664 -1024 128"
+"angle" "-90"
+}
+{
+"classname" "item_rockets"
+"origin" "1728 -1024 128"
+"angle" "-90"
+}
+{
+"classname" "item_rockets"
+"origin" "1600 -1024 128"
+"angle" "-90"
+}
+{
+"classname" "item_rockets"
+"origin" "1664 -1088 128"
+"angle" "-90"
+}
+{
+"classname" "item_rockets"
+"origin" "1664 -960 128"
+"angle" "-90"
+}
+{
+"classname" "item_health100"
+"origin" "-3584 -3072 128"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 -2560 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 -2048 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 -1536 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-2560 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-2560 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-2048 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-1536 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-1024 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-512 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "0 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "512 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "1024 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "2048 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "2560 -1024 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 -1536 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 -2048 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 -2560 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "2560 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "2048 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "1664 -2560 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "1024 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "512 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "0 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-512 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-1024 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-1536 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "-2048 -3072 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "1664 -2048 192"
+"angle" "180"
+}
+{
+"classname" "item_armor1"
+"origin" "1664 -1536 192"
+"angle" "180"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "576 -256 1408"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "576 448 2048"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "960 448 2048"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "-2240 -2048 128"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "-1600 -2048 128"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "-960 -2048 128"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "-320 -2048 128"
+"angle" "180"
+}
+{
+"classname" "item_cells"
+"origin" "320 -2048 128"
+"angle" "180"
+}
+{
+"classname" "item_health100"
+"origin" "1088 -2368 1920"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "weapon_electro"
+"origin" "1024 64 128"
+"angle" "180"
+}
+{
+"classname" "item_flag_team2"
+"origin" "2048 -2048 1744"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "3712 -1664 88"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "3712 -2176 88"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "3712 -2688 88"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "3712 -3200 88"
+"angle" "180"
+}
+{
+"classname" "info_player_team2"
+"origin" "3200 -3712 88"
+"angle" "90"
+}
+{
+"classname" "info_player_team2"
+"origin" "2688 -3712 88"
+"angle" "90"
+}
+{
+"classname" "info_player_team2"
+"origin" "2176 -3712 88"
+"angle" "90"
+}
+{
+"classname" "info_player_team2"
+"origin" "1664 -3712 88"
+"angle" "90"
+}
+{
+"classname" "item_bullets"
+"origin" "1280 -384 256"
+"angle" "-90"
+}
+{
+"classname" "item_bullets"
+"origin" "1152 -512 256"
+"angle" "-90"
+}
+{
+"classname" "item_bullets"
+"origin" "1280 -512 256"
+"angle" "-90"
+}
+{
+"classname" "item_health1"
+"origin" "1408 -384 256"
+"angle" "-90"
+}
+{
+"classname" "item_health1"
+"origin" "1408 -512 256"
+"angle" "-90"
+}
+{
+"classname" "item_armor1"
+"origin" "1536 -384 256"
+"angle" "-90"
+}
+{
+"classname" "item_armor1"
+"origin" "1536 -512 256"
+"angle" "-90"
+}
+{
+"classname" "item_bullets"
+"origin" "-1280 384 256"
+"angle" "90"
+}
+{
+"classname" "item_bullets"
+"origin" "-1152 512 256"
+"angle" "90"
+}
+{
+"classname" "item_bullets"
+"origin" "-1280 512 256"
+"angle" "90"
+}
+{
+"classname" "item_health1"
+"origin" "-1408 384 256"
+"angle" "90"
+}
+{
+"classname" "item_health1"
+"origin" "-1408 512 256"
+"angle" "90"
+}
+{
+"classname" "item_armor1"
+"origin" "-1536 384 256"
+"angle" "90"
+}
+{
+"classname" "item_armor1"
+"origin" "-1536 512 256"
+"angle" "90"
+}
+{
+"classname" "item_health25"
+"origin" "1536 320 512"
+"angle" "180"
+}
+{
+"classname" "weapon_hagar"
+"origin" "1792 320 512"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "1920 256 512"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "1920 384 512"
+"angle" "180"
+}
+{
+"classname" "item_rockets"
+"origin" "-1920 -256 512"
+}
+{
+"classname" "item_health25"
+"origin" "-1536 -320 512"
+}
+{
+"classname" "weapon_hagar"
+"origin" "-1792 -320 512"
+}
+{
+"classname" "item_rockets"
+"origin" "-1920 -384 512"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 512 192"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 0 192"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 512 192"
+}
+{
+"classname" "item_armor1"
+"origin" "3072 -512 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 512 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 0 192"
+}
+{
+"classname" "item_armor1"
+"origin" "-3072 -512 192"
+}
+{
+"classname" "info_location"
+"origin" "-768 -448 2016"
+"netname" "^1on TCG's Bob Tower"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2304 2048 1760"
+"netname" "^1on the base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1088 2368 1888"
+"netname" "^1on the Quack Hospital"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-448 2368 1120"
+"netname" "^1on 31337 Warez"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "192 2368 3296"
+"netname" "^1on the Church of Communism"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "832 2368 1888"
+"netname" "^1on the Cosa Nostra's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1472 2368 2144"
+"netname" "^1on JumpTower IV"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "2112 2368 1248"
+"netname" "^1on Saladdabai's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "2368 1728 1376"
+"netname" "^1on JumpTower II"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1728 1728 1760"
+"netname" "^1on JumpTower III"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1088 1728 2528"
+"netname" "^1on Rupt Bank"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "448 1728 2912"
+"netname" "^1on JumpTower V"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-192 1728 1376"
+"netname" "^1on Freud's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-832 1728 1632"
+"netname" "^1on the Unnamed Building"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-576 256 1376"
+"netname" "^1on TCG's front tower"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1792 384 1760"
+"netname" "^1on TCG's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2048 -320 3168"
+"netname" "^1on TCG's Strengthhouse"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-3072 -320 256"
+"netname" "^1in front of TCG's Strengthhouse"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-3072 3072 256"
+"netname" "^1NW of base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-3072 2048 256"
+"netname" "^1W of base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2304 3072 256"
+"netname" "^1N of base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1088 3072 256"
+"netname" "^1in front of the Quack Hospital"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-448 3072 256"
+"netname" "^1in front of 31337 Warez"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "832 3072 256"
+"netname" "^1in front of the Cosa Nostra's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1472 3072 256"
+"netname" "^1in front of JumpTower IV"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "2112 3072 256"
+"netname" "^1N of Saladdabai's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "3072 3072 256"
+"netname" "^1NE of Saladdabai's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "3072 2368 256"
+"netname" "^1in the no parking zone"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "3072 1728 256"
+"netname" "^1in front of JumpTower II"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "2368 1024 256"
+"netname" "^1S of JumpTower II"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "3072 1024 256"
+"netname" "^1SE of JumpTower II"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1728 1024 256"
+"netname" "^1in front of JumpTower III"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1088 1024 256"
+"netname" "^1in front of Rupt Bank"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "448 1024 256"
+"netname" "^1in front of JumpTower V"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "0 448 256"
+"netname" "^1an der Mauer"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-576 -192 256"
+"netname" "^1behind the Bob Tower"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1664 3072 256"
+"netname" "^1Rothenburgweg X Lange Strasse"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-192 1024 256"
+"netname" "^1in front of Freud's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2304 2048 128"
+"netname" "^1inside the base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1088 2048 256"
+"netname" "^1behind the Quack Hospital"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-832 2048 256"
+"netname" "^1behind the Unnamed Tower"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-448 2048 256"
+"netname" "^1behind 31337 Warez"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-192 2048 256"
+"netname" "^1behind Freud's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "192 2048 256"
+"netname" "^1behind the Church of Communism"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "448 2048 256"
+"netname" "^1behind JumpTower V"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "832 2048 256"
+"netname" "^1behind the Cosa Nostra's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1088 2048 256"
+"netname" "^1behind Rupt Bank"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1472 2048 256"
+"netname" "^1behind JumpTower IV"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "1728 2048 256"
+"netname" "^1behind JumpTower III"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "2112 2048 256"
+"netname" "^1behind Saladdabai's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-832 1024 256"
+"netname" "^1in front of the Unnamed Building"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-832 384 256"
+"netname" "^1in front of TCG's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1024 -64 256"
+"netname" "^1where the Sun don't shine"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1792 384 256"
+"netname" "^1inside TCG's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2496 64 256"
+"netname" "^1at the Elevator"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1216 -448 256"
+"netname" "^1where it bobs"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1472 64 256"
+"netname" "^1at the Pad"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1920 -320 512"
+"netname" "^1inside the TCG's Strengthhouse"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1664 2048 256"
+"netname" "^1Rothenburgweg"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2112 2624 128"
+"netname" "^1at a base entrance"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2496 1600 128"
+"netname" "^1inside the base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2496 2496 128"
+"netname" "^1inside the base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2112 2496 128"
+"netname" "^1inside the base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1664 1024 256"
+"netname" "^1Rothenburgweg X Karl-Marx-Strasse"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2304 1024 256"
+"netname" "^1S of base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2112 1600 128"
+"netname" "^1inside the base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-1984 1600 128"
+"netname" "^1at a base entrance"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2496 1472 128"
+"netname" "^1at a base entrance"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-2624 2496 128"
+"netname" "^1at a base entrance"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-3072 1024 256"
+"netname" "^1SW of base"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "-3072 448 256"
+"netname" "^1W of TCG's"
+"angle" "180"
+}
+{
+"classname" "info_location"
+"origin" "768 448 2016"
+"netname" "^4on the MAFIA's Bob Tower"
+}
+{
+"classname" "info_location"
+"origin" "2304 -2048 1760"
+"netname" "^4on the base"
+}
+{
+"classname" "info_location"
+"origin" "1088 -2368 1888"
+"netname" "^4on Dr. Charlatan's"
+}
+{
+"classname" "info_location"
+"origin" "448 -2368 1120"
+"netname" "^4on Pirates Stay Here"
+}
+{
+"classname" "info_location"
+"origin" "-192 -2368 3296"
+"netname" "^4on MORS"
+}
+{
+"classname" "info_location"
+"origin" "-832 -2368 1888"
+"netname" "^4on the BoLV"
+}
+{
+"classname" "info_location"
+"origin" "-1472 -2368 2144"
+"netname" "^4on JumpTower IV"
+}
+{
+"classname" "info_location"
+"origin" "-2112 -2368 1248"
+"netname" "^4on Cannibal Bactor's"
+}
+{
+"classname" "info_location"
+"origin" "-2368 -1728 1376"
+"netname" "^4on JumpTower II"
+}
+{
+"classname" "info_location"
+"origin" "-1728 -1728 1760"
+"netname" "^4on JumpTower III"
+}
+{
+"classname" "info_location"
+"origin" "-1088 -1728 2528"
+"netname" "^4on Shark Loans"
+}
+{
+"classname" "info_location"
+"origin" "-448 -1728 2912"
+"netname" "^4on JumpTower V"
+}
+{
+"classname" "info_location"
+"origin" "192 -1728 1376"
+"netname" "^4on Kleptor's"
+}
+{
+"classname" "info_location"
+"origin" "832 -1728 1632"
+"netname" "^4on the Unnamed Building"
+}
+{
+"classname" "info_location"
+"origin" "576 -256 1376"
+"netname" "^4on the MAFIA's front tower"
+}
+{
+"classname" "info_location"
+"origin" "1792 -384 1760"
+"netname" "^4on the MAFIA's"
+}
+{
+"classname" "info_location"
+"origin" "2048 320 3168"
+"netname" "^4on the MAFIA's Strengthhouse"
+}
+{
+"classname" "info_location"
+"origin" "3072 320 256"
+"netname" "^4in front of the MAFIA's Strengthhouse"
+}
+{
+"classname" "info_location"
+"origin" "3072 -3072 256"
+"netname" "^4SE of base"
+}
+{
+"classname" "info_location"
+"origin" "3072 -2048 256"
+"netname" "^4E of base"
+}
+{
+"classname" "info_location"
+"origin" "2304 -3072 256"
+"netname" "^4S of base"
+}
+{
+"classname" "info_location"
+"origin" "1088 -3072 256"
+"netname" "^4in front of Dr. Charlatan's"
+}
+{
+"classname" "info_location"
+"origin" "448 -3072 256"
+"netname" "^4in front of Pirates Stay Here"
+}
+{
+"classname" "info_location"
+"origin" "-192 -3072 256"
+"netname" "^4in front of MORS"
+}
+{
+"classname" "info_location"
+"origin" "-832 -3072 256"
+"netname" "^4in front of the BoLV"
+}
+{
+"classname" "info_location"
+"origin" "-1472 -3072 256"
+"netname" "^4in front of JumpTower IV"
+}
+{
+"classname" "info_location"
+"origin" "-2112 -3072 256"
+"netname" "^4S of Cannibal Bactor's"
+}
+{
+"classname" "info_location"
+"origin" "-3072 -3072 256"
+"netname" "^4SW of Cannibal Bactor's"
+}
+{
+"classname" "info_location"
+"origin" "-3072 -2368 256"
+"netname" "^4where the drunk park"
+}
+{
+"classname" "info_location"
+"origin" "-3072 -1728 256"
+"netname" "^4in front of JumpTower II"
+}
+{
+"classname" "info_location"
+"origin" "-2368 -1024 256"
+"netname" "^4N of JumpTower II"
+}
+{
+"classname" "info_location"
+"origin" "-3072 -1024 256"
+"netname" "^4NW of JumpTower II"
+}
+{
+"classname" "info_location"
+"origin" "-1728 -1024 256"
+"netname" "^4in front of JumpTower III"
+}
+{
+"classname" "info_location"
+"origin" "-1088 -1024 256"
+"netname" "^4in front of Shark Loans"
+}
+{
+"classname" "info_location"
+"origin" "-448 -1024 256"
+"netname" "^4in front of JumpTower V"
+}
+{
+"classname" "info_location"
+"origin" "0 -448 256"
+"netname" "^4an der Mauer"
+}
+{
+"classname" "info_location"
+"origin" "576 192 256"
+"netname" "^4behind the Bob Tower"
+}
+{
+"classname" "info_location"
+"origin" "1664 -3072 256"
+"netname" "^4Blauhimmelsweg X Lange Strasse"
+}
+{
+"classname" "info_location"
+"origin" "192 -1024 256"
+"netname" "^4in front of Kleptor's"
+}
+{
+"classname" "info_location"
+"origin" "2304 -2048 128"
+"netname" "^4inside the base"
+}
+{
+"classname" "info_location"
+"origin" "1088 -2048 256"
+"netname" "^4behind Dr. Charlatan's"
+}
+{
+"classname" "info_location"
+"origin" "832 -2048 256"
+"netname" "^4behind the Unnamed Tower"
+}
+{
+"classname" "info_location"
+"origin" "448 -2048 256"
+"netname" "^4behind Pirates Stay Here"
+}
+{
+"classname" "info_location"
+"origin" "192 -2048 256"
+"netname" "^4behind Kleptor's"
+}
+{
+"classname" "info_location"
+"origin" "-192 -2048 256"
+"netname" "^4behind MORS"
+}
+{
+"classname" "info_location"
+"origin" "-448 -2048 256"
+"netname" "^4behind JumpTower V"
+}
+{
+"classname" "info_location"
+"origin" "-832 -2048 256"
+"netname" "^4behind the BoLV"
+}
+{
+"classname" "info_location"
+"origin" "-1088 -2048 256"
+"netname" "^4behind Shark Loans"
+}
+{
+"classname" "info_location"
+"origin" "-1472 -2048 256"
+"netname" "^4behind JumpTower IV"
+}
+{
+"classname" "info_location"
+"origin" "-1728 -2048 256"
+"netname" "^4behind JumpTower III"
+}
+{
+"classname" "info_location"
+"origin" "-2112 -2048 256"
+"netname" "^4behind Cannibal Bactor's"
+}
+{
+"classname" "info_location"
+"origin" "832 -1024 256"
+"netname" "^4in front of the Unnamed Building"
+}
+{
+"classname" "info_location"
+"origin" "832 -384 256"
+"netname" "^4in front of the MAFIA's"
+}
+{
+"classname" "info_location"
+"origin" "1024 64 256"
+"netname" "^4where the Sun don't shine"
+}
+{
+"classname" "info_location"
+"origin" "1792 -384 256"
+"netname" "^4inside the MAFIA's"
+}
+{
+"classname" "info_location"
+"origin" "2496 -64 256"
+"netname" "^4at the Elevator"
+}
+{
+"classname" "info_location"
+"origin" "1216 448 256"
+"netname" "^4where it bobs"
+}
+{
+"classname" "info_location"
+"origin" "1472 -64 256"
+"netname" "^4at the Pad"
+}
+{
+"classname" "info_location"
+"origin" "1920 320 512"
+"netname" "^4inside the MAFIA's Strengthhouse"
+}
+{
+"classname" "info_location"
+"origin" "1664 -2048 256"
+"netname" "^4Blauhimmelsweg"
+}
+{
+"classname" "info_location"
+"origin" "2112 -2624 128"
+"netname" "^4at a base entrance"
+}
+{
+"classname" "info_location"
+"origin" "2496 -1600 128"
+"netname" "^4inside the base"
+}
+{
+"classname" "info_location"
+"origin" "2496 -2496 128"
+"netname" "^4inside the base"
+}
+{
+"classname" "info_location"
+"origin" "2112 -2496 128"
+"netname" "^4inside the base"
+}
+{
+"classname" "info_location"
+"origin" "1664 -1024 256"
+"netname" "^4Blauhimmelsweg X Smithstrasse"
+}
+{
+"classname" "info_location"
+"origin" "2304 -1024 256"
+"netname" "^4N of base"
+}
+{
+"classname" "info_location"
+"origin" "2112 -1600 128"
+"netname" "^4inside the base"
+}
+{
+"classname" "info_location"
+"origin" "1984 -1600 128"
+"netname" "^4at a base entrance"
+}
+{
+"classname" "info_location"
+"origin" "2496 -1472 128"
+"netname" "^4at a base entrance"
+}
+{
+"classname" "info_location"
+"origin" "2624 -2496 128"
+"netname" "^4at a base entrance"
+}
+{
+"classname" "info_location"
+"origin" "3072 -1024 256"
+"netname" "^4NE of base"
+}
+{
+"classname" "info_location"
+"origin" "3072 -448 256"
+"netname" "^4E of the MAFIA's"
+}
+{
+"classname" "weapon_uzi"
+"origin" "-2048 2304 1792"
+"angle" "180"
+}
+{
+"classname" "weapon_uzi"
+"origin" "2048 -2304 1792"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "weapon_uzi"
+"origin" "1152 -384 256"
+"angle" "-90"
+}
+{
+"classname" "weapon_uzi"
+"origin" "-1152 384 256"
+"angle" "90"
+}
+{
+"classname" "weapon_hlac"
+"origin" "-2432 384 1792"
+"angle" "90"
+}
+{
+"classname" "weapon_hlac"
+"origin" "2432 -384 1792"
+"angle" "-90"
+}
+{
+"classname" "weapon_seeker"
+"origin" "768 448 2048"
+"angle" "180"
+}
+{
+"classname" "weapon_seeker"
+"origin" "-768 -448 2048"
+}
+{
+"classname" "item_bullets"
+"origin" "-192 -2240 3328"
+"angle" "180"
+}
+{
+"classname" "item_bullets"
+"origin" "-192 -2496 3328"
+"angle" "180"
+}
+{
+"classname" "weapon_campingrifle"
+"origin" "-192 -2368 3328"
+"angle" "180"
+}
+{
+"classname" "item_bullets"
+"origin" "192 2240 3328"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "item_bullets"
+"origin" "192 2496 3328"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "weapon_campingrifle"
+"origin" "192 2368 3328"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "info_location"
+"origin" "192 3072 256"
+"netname" "^1in front of the Church of Communism"
+"angle" "180"
+}
+{
+"classname" "weapon_porto"
+"origin" "-192 -3072 128"
+"angle" "-1.4033e-14"
+}
+{
+"classname" "weapon_porto"
+"origin" "192 3072 128"
+"angle" "180"
+}
+{
+"angle" "90"
+"origin" "1664 -2800 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "-1152 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "-640 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "-128 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "384 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "896 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "1408 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "1920 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "2432 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "2944 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "3456 3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 3456 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 2944 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 2432 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 1920 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 1408 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 896 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 384 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 -128 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 -640 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "3712 -1152 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "1152 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "640 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "128 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-384 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-896 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-1408 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-1920 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-2432 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-2944 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-3456 -3712 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 -3456 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 -2944 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 -2432 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 -1920 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 -1408 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 -896 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 -384 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 128 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 640 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-3712 1152 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "2816 -1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "-256 -1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "1792 -1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "1664 -1280 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "1536 -1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-2816 -1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "0 -768 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "256 -1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "-1664 2800 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-1664 1280 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-3.50835e-15"
+"origin" "256 1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-2816 1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "-256 1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "2816 1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-1.40334e-14"
+"origin" "-1536 1024 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90"
+"origin" "0 768 88"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "-1792 1024 88"
+"classname" "info_player_deathmatch"
+}
