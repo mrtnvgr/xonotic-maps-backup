@@ -1,0 +1,397 @@
+{
+"gridsize" "96 80 144"
+"classname" "worldspawn"
+"_blocksize" "2048 2048 2048"
+"_ambient" "14"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "0"
+"targetname" "finish"
+"target" "laser"
+"model" "*1"
+}
+{
+"classname" "info_player_race"
+"origin" "512 1004 328"
+"angle" "-90"
+"target" "finish"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "1"
+"targetname" "cp1"
+"model" "*2"
+}
+{
+"classname" "info_player_race"
+"origin" "512 3392 -448"
+"angle" "90"
+"target" "cp1"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "2"
+"targetname" "cp2"
+"target" "giveportal"
+"model" "*3"
+}
+{
+"classname" "info_player_race"
+"origin" "512 3136 -3264"
+"angle" "-90"
+"target" "cp2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp3"
+"target" "giverl"
+"cnt" "3"
+"model" "*4"
+}
+{
+"classname" "info_player_race"
+"origin" "512 -192 -1920"
+"angle" "-90"
+"target" "cp3"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp4"
+"target" "givehook"
+"cnt" "4"
+"model" "*5"
+}
+{
+"classname" "info_player_race"
+"origin" "512 -736 -1760"
+"angle" "-90"
+"target" "cp4"
+}
+{
+"classname" "target_items"
+"origin" "0 0 128"
+"message" "Be careful with the port-o-launch."
+"health" "100"
+"netname" "porto unlimited_ammo"
+"targetname" "giveportal"
+}
+{
+"classname" "target_items"
+"origin" "0 0 128"
+"message" "Here's a difficult one where you have to use the hook. Feel free to give up."
+"health" "100"
+"netname" "hook porto unlimited_superweapons"
+"targetname" "givehook"
+}
+{
+"classname" "target_items"
+"origin" "0 0 128"
+"message" "You got a rocketlauncher and 500 HP. The floor absorbs rockets. Mwahaha!"
+"health" "500"
+"netname" "rocketlauncher unlimited_ammo"
+"ammo_rockets" "42"
+"targetname" "giverl"
+}
+{
+"classname" "trigger_hurt"
+}
+{
+"classname" "trigger_hurt"
+"message" "fell for it."
+"model" "*6"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*7"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*8"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*9"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*10"
+}
+{
+"classname" "trigger_hurt"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*11"
+}
+{
+"classname" "trigger_hurt"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*12"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*13"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*14"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*15"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*16"
+}
+{
+"classname" "trigger_hurt"
+"message" "died the dark death"
+"model" "*17"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "5"
+"targetname" "cp5"
+"target" "givehagar"
+"model" "*18"
+}
+{
+"classname" "info_player_race"
+"origin" "-32 -1216 -1504"
+"angle" "90"
+"target" "cp5"
+}
+{
+"classname" "target_items"
+"origin" "0 0 128"
+"message" "Hagar and 300 hp given. Feel free to use all HP."
+"health" "300"
+"netname" "hagar unlimited_ammo"
+"ammo_rockets" "42"
+"targetname" "givehagar"
+}
+{
+"classname" "func_plat"
+"spawnflags" "4"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"angle" "-1"
+"targetname" "nocakeforyou"
+"wait" "1"
+"model" "*19"
+}
+{
+"classname" "trigger_multiple"
+"target" "nocakeforyou"
+"model" "*20"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "5"
+"target" "givehagar"
+"targetname" "cp5"
+"model" "*21"
+}
+{
+"classname" "trigger_hurt"
+"message" "got no cake. :("
+"model" "*22"
+}
+{
+"classname" "trigger_teleport"
+"target" "cake"
+"model" "*23"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "512 960 384"
+"angle" "-90"
+"targetname" "cake"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -3200"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-3712 -3456 -1280"
+"angle" "90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-2688 -2688 -1280"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-3968 -3072 -1280"
+"angle" "-1.4033e-14"
+}
+{
+"classname" "trigger_race_checkpoint"
+"target" "turretporto"
+"cnt" "6"
+"targetname" "cp6"
+"model" "*24"
+}
+{
+"classname" "info_player_race"
+"origin" "1536 -3072 -736"
+"angle" "180"
+"target" "cp6"
+}
+{
+"classname" "turret_plasma"
+"origin" "-3712 -2688 -1280"
+"angle" "-90"
+}
+{
+"classname" "target_items"
+"origin" "0 0 128"
+"message" "I really hope you didn't waste all your health when hagarclimbing. Oh well."
+"netname" "porto unlimited_ammo"
+"targetname" "turretporto"
+}
+{
+"classname" "trigger_multiple"
+"message" "Welcome to the EVIL test chamber number 99."
+"wait" "999"
+"model" "*25"
+}
+{
+"classname" "trigger_multiple"
+"message" "Who's there?"
+"model" "*26"
+}
+{
+"classname" "target_items"
+"origin" "0 0 128"
+"message" "Good luck..."
+"health" "150"
+"netname" "laser unlimited_ammo"
+"targetname" "laser"
+}
+{
+"classname" "func_plat"
+"speed" "15"
+"spawnflags" "4"
+"message" "got killed by the n00blift."
+"model" "*27"
+}
+{
+"classname" "turret_plasma"
+"origin" "-2688 -3456 -1280"
+"angle" "90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -3200"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -1152"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -1152"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -1408"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -1408"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -1664"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -1664"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -1920"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -1920"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -2176"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -2176"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -2432"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -2432"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -2688"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -2688"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1536 576 -2944"
+"angle" "-90"
+}
+{
+"classname" "turret_plasma"
+"origin" "-1152 576 -2944"
+"angle" "-90"
+}
+{
+"classname" "trigger_push"
+"target" "nubs"
+"model" "*28"
+}
+{
+"classname" "target_position"
+"origin" "-4608 0 -768"
+"targetname" "nubs"
+}
