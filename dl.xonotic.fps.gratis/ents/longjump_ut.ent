@@ -1,0 +1,124 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-56.000000 145.599991 212.800003"
+"angle" "90"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location1"
+"model" "*1"
+}
+{
+"classname" "target_location"
+"origin" "11.200000 134.399994 44.799999"
+"angle" "90"
+"targetname" "target_location1"
+"target" "trigger_teleport2"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter1"
+"model" "*2"
+}
+{
+"classname" "target_teleporter"
+"origin" "0.000000 2004.799927 1433.599976"
+"angle" "90"
+"targetname" "target_teleporter1"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter2"
+"model" "*3"
+}
+{
+"classname" "target_teleporter"
+"origin" "278.600006 4396.000000 1640.799927"
+"targetname" "target_teleporter2"
+}
+{
+"classname" "target_teleporter"
+"origin" "336.000000 4368.000000 1642.199951"
+"angle" "-90"
+"targetname" "target_teleporter3"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter3"
+"model" "*4"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "56.000000 134.399994 224.000000"
+"angle" "90"
+"g_gametype" "0,1,3,4,7,8"
+"team" "blue"
+"group" "2"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "0.000000 134.399994 224.000000"
+"angle" "90"
+"g_gametype" "0,1,3,4,7,8"
+"team" "blue"
+"group" "2"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "56.000000 134.399994 313.600006"
+"angle" "90"
+"team" "red"
+"group" "1"
+"g_gametype" "0,1,3,4,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "-56.000000 123.199997 313.600006"
+"angle" "90"
+"team" "red"
+"group" "1"
+"g_gametype" "0,1,3,4,7,8"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "0.000000 123.199997 313.600006"
+"angle" "90"
+"team" "red"
+"group" "1"
+"g_gametype" "0,1,3,4,7,8"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_teleporter4"
+"model" "*5"
+}
+{
+"classname" "target_teleporter"
+"origin" "347.199982 1892.799927 2307.199951"
+"angle" "90"
+"targetname" "target_teleporter4"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location1"
+"model" "*6"
+}
+{
+"classname" "target_speaker"
+"origin" "305.199982 4445.000000 2310.000000"
+"angle" "-90"
+"noise" "sond/azerty"
+"spawnflags" "12"
+"targetname" "target_speaker1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_speaker1"
+"model" "*7"
+}
