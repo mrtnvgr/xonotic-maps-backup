@@ -1,0 +1,143 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_startTimer"
+"origin" "-64 0 64"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_location"
+"origin" "2272 -1792 -1504"
+"targetname" "target_location1"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location1"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give1"
+"model" "*3"
+}
+{
+"classname" "target_give"
+"origin" "0 -1152 64"
+"targetname" "target_give1"
+"target" "item_enviro1"
+}
+{
+"classname" "item_enviro"
+"origin" "32 -1152 64"
+"count" "9999"
+"targetname" "item_enviro1"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "64 -1152 64"
+"count" "200"
+"targetname" "item_enviro1"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location2"
+"model" "*4"
+}
+{
+"classname" "target_location"
+"origin" "2240 640 832"
+"targetname" "target_location2"
+}
+{
+"classname" "trigger_push"
+"target" "target_position1"
+"model" "*5"
+}
+{
+"classname" "target_position"
+"origin" "2816 1280 1232"
+"angle" "90"
+"targetname" "target_position1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*6"
+}
+{
+"classname" "target_stopTimer"
+"origin" "2592 3072 1216"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_init1"
+"model" "*7"
+}
+{
+"classname" "target_init"
+"origin" "2368 -1792 -480"
+"targetname" "target_init1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-208 0 -16"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location3"
+"model" "*8"
+}
+{
+"classname" "target_location"
+"origin" "2832 1856 1104"
+"angle" "90"
+"targetname" "target_location3"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location3"
+"model" "*9"
+}
+{
+"classname" "trigger_teleport"
+"target" "target_location3"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-112 -1152 64"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2512 -1792 -448"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*12"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2816 1600 1248"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*13"
+}
