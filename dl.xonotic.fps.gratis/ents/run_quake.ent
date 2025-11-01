@@ -1,0 +1,107 @@
+{
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "-704 -1888 -992"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "trigger_push"
+"target" "push1"
+"model" "*1"
+}
+{
+"classname" "target_position"
+"origin" "2400 -3016 56"
+"targetname" "push1"
+}
+{
+"classname" "trigger_push"
+"target" "push2"
+"model" "*2"
+}
+{
+"classname" "target_position"
+"origin" "2584 -1424 8"
+"targetname" "push2"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "700"
+"model" "*3"
+}
+{
+"dmg" "700"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "700"
+"model" "*5"
+}
+{
+"target" "hoho1"
+"classname" "trigger_push"
+"model" "*6"
+}
+{
+"targetname" "hoho1"
+"origin" "1888 -392 -48"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push"
+"target" "t1"
+"model" "*7"
+}
+{
+"classname" "target_position"
+"origin" "1200 -392 -48"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "startas"
+"model" "*8"
+}
+{
+"classname" "target_startTimer"
+"origin" "-600 -1848 -792"
+"targetname" "startas"
+}
+{
+"classname" "trigger_push"
+"target" "ten"
+"model" "*9"
+}
+{
+"classname" "target_position"
+"origin" "-1088 1496 696"
+"targetname" "ten"
+}
+{
+"classname" "trigger_multiple"
+"target" "ten1"
+"model" "*10"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-1120 1136 800"
+"targetname" "ten1"
+}
+{
+"target" "aha"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"message" "map made by W65B61S"
+"targetname" "aha"
+"origin" "-1200 1128 800"
+"classname" "target_smallprint"
+}
