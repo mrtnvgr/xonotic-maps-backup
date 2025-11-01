@@ -1,0 +1,79 @@
+{
+"classname" "worldspawn"
+"gridsize" "256 256 512"
+"_blocksize" "2048"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "start"
+"model" "*1"
+}
+{
+"classname" "info_player_race"
+"origin" "-3496 512 1568"
+"angle" "-1.4033e-14"
+"target" "start"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-4032 512 1576"
+"angle" "-1.4033e-14"
+"targetname" "tele1"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele1"
+"model" "*2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "3"
+"targetname" "cp3"
+"model" "*3"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "2"
+"targetname" "cp2"
+"model" "*4"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "1"
+"targetname" "cp1"
+"model" "*5"
+}
+{
+"classname" "info_player_race"
+"origin" "12312 -1664 2096"
+"angle" "-90"
+"target" "cp2"
+}
+{
+"classname" "info_player_race"
+"origin" "9216 792 1696"
+"angle" "-1.4033e-14"
+"target" "cp1"
+}
+{
+"classname" "info_player_race"
+"origin" "11608 -2392 2104"
+"angle" "-90"
+"target" "cp3"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4016 72 1576"
+}
+{
+"classname" "func_ladder"
+"model" "*6"
+}
+{
+"classname" "func_ladder"
+"model" "*7"
+}
+{
+"classname" "func_ladder"
+"model" "*8"
+}
