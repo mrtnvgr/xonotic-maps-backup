@@ -1,0 +1,96 @@
+{
+"message" "M-M-M-Monster Grid"
+"classname" "worldspawn"
+"gridsize" "192 176 240"
+"blocksize" "10240000 10240000 10240000"
+}
+{
+"origin" "54272 -63488 24"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "start"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "start"
+"origin" "54528 -63488 128"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "stop"
+}
+{
+"targetname" "stop"
+"origin" "53728 -63488 128"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t1"
+"origin" "62976 54560 128"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "t3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-54560 63008 128"
+"targetname" "t3"
+}
+{
+"model" "*5"
+"target" "t5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t5"
+"origin" "-63008 -54560 128"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "t6"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "4"
+"message" "1/4"
+"targetname" "t6"
+"origin" "63136 54144 128"
+"classname" "target_print"
+}
+{
+"model" "*7"
+"target" "t7"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "4"
+"message" "1/2"
+"targetname" "t7"
+"origin" "-54176 63008 128"
+"classname" "target_print"
+}
+{
+"model" "*8"
+"target" "t8"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "4"
+"message" "3/4"
+"targetname" "t8"
+"origin" "-63264 -54176 128"
+"classname" "target_print"
+}
