@@ -1,0 +1,112 @@
+{
+"classname" "worldspawn"
+"message" "Dustish fantastish"
+"_ambient" "5"
+}
+{
+"classname" "info_player_start"
+"origin" "3256 5320 124"
+"angle" "180"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-3560 5264 -64"
+"count" "5"
+"spawnflags" "1"
+"target" "target_give1"
+"wait" "1"
+}
+{
+"classname" "item_enviro"
+"origin" "-3496 5264 -64"
+"angle" "-90"
+"count" "999"
+"wait" "1"
+}
+{
+"classname" "target_startTimer"
+"origin" "3216 4976 216"
+"targetname" "start1"
+}
+{
+"classname" "trigger_multiple"
+"target" "start1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "t2"
+"origin" "1664 -1896 0"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-3520 5216 -64"
+"count" "-6"
+"targetname" "ammo_rockets1"
+}
+{
+"classname" "target_give"
+"origin" "-3520 5296 -64"
+"targetname" "target_give1"
+"target" "ammo_rockets1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "8"
+"model" "*3"
+}
+{
+"classname" "info_player_intermission"
+"origin" "3200 5304 240"
+"angle" "-90"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t4"
+"origin" "208 1872 48"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t1"
+"origin" "-1352 -2688 272"
+"angle" "-90"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t3"
+"origin" "-2112 3200 16"
+"angle" "-90"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t5"
+"origin" "3296 1120 128"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*7"
+}
