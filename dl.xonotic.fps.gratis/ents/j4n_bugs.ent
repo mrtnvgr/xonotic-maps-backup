@@ -1,0 +1,169 @@
+{
+"classname" "worldspawn"
+}
+{
+"angle" "180"
+"origin" "424 0 88"
+"classname" "info_player_start"
+}
+{
+"angle" "180"
+"targetname" "target_startTimer1"
+"origin" "232 8 160"
+"classname" "target_startTimer"
+}
+{
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "target_stopTimer1"
+"angle" "-179.889"
+"origin" "-9196 4 120"
+"classname" "target_stopTimer"
+}
+{
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"angle" "180"
+"targetname" "target_checkpoint1"
+"origin" "-4104 -8 168"
+"classname" "target_checkpoint"
+}
+{
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "376 0 88"
+"count" "-1"
+"wait" "-1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-1056 0 80"
+"wait" "40"
+"count" "1"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*4"
+}
+{
+"classname" "target_give"
+"origin" "-952 0 216"
+"targetname" "t1"
+"target" "t2"
+}
+{
+"targetname" "t4"
+"count" "20"
+"origin" "-4376 0 88"
+"classname" "weapon_plasmagun"
+}
+{
+"targetname" "t4"
+"count" "200"
+"origin" "-4368 16 24"
+"classname" "item_health_mega"
+}
+{
+"wait" "-1"
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"target" "t4"
+"targetname" "t3"
+"origin" "-4352 0 168"
+"classname" "target_give"
+}
+{
+"wait" "-1"
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t5"
+"origin" "-1048 0 224"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"target" "t7"
+"targetname" "t6"
+"origin" "-512 48 -144"
+"classname" "target_give"
+}
+{
+"targetname" "t7"
+"count" "-200"
+"origin" "-512 136 -112"
+"classname" "item_health_mega"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"model" "*8"
+}
+{
+"classname" "target_give"
+"origin" "-2488 16 -144"
+"targetname" "t8"
+"target" "t9"
+}
+{
+"classname" "item_health_mega"
+"origin" "-2488 104 -112"
+"count" "-200"
+"targetname" "t9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*9"
+}
+{
+"classname" "target_give"
+"origin" "-5184 152 -144"
+"targetname" "t10"
+"target" "t11"
+}
+{
+"classname" "item_health_mega"
+"origin" "-4864 136 -112"
+"count" "-200"
+"targetname" "t11"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"target" "t13"
+"targetname" "t12"
+"origin" "-7168 -24 -136"
+"classname" "target_give"
+}
+{
+"targetname" "t13"
+"count" "-200"
+"origin" "-6848 -40 -104"
+"classname" "item_health_mega"
+}
