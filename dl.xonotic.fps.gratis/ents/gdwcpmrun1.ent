@@ -1,0 +1,36 @@
+{
+"message" "GuntherDW's 1st CPM run"
+"gridsize" "256 256 256"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1216 128 64"
+}
+{
+"origin" "4368 304 88"
+"targetname" "timer1_stop"
+"classname" "target_stopTimer"
+"target" "besttime"
+}
+{
+"target" "timer1_stop"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"origin" "-1064 328 88"
+"targetname" "timer1_start"
+"classname" "target_startTimer"
+}
+{
+"target" "timer1_start"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"noise" "sound/feedback/excellent.wav"
+"target" "timer1_stop"
+"origin" "4368 128 80"
+"classname" "target_speaker"
+}
