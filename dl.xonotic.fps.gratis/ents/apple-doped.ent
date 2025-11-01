@@ -1,0 +1,75 @@
+{
+"_ambient" "20"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "128 384 32"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2176 2392 224"
+"angle" "270"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t0"
+"model" "*2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1216 2848 96"
+"targetname" "t0"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*3"
+}
+{
+"classname" "target_startTimer"
+"origin" "424 384 184"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1152 2624 264"
+"targetname" "t3"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t4"
+"origin" "3136 -232 192"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*6"
+}
+{
+"classname" "target_stopTimer"
+"origin" "2176 1408 16"
+"targetname" "t5"
+}
+{
+"count" "15"
+"wait" "1"
+"origin" "2176 1600 -360"
+"classname" "weapon_plasmagun"
+}
