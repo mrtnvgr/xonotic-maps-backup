@@ -1,0 +1,80 @@
+{
+"classname" "worldspawn"
+"_ambient" "100"
+"_lightmapscale" "20"
+}
+{
+"classname" "info_player_start"
+"origin" "-32 -256 -3904"
+"angle" "90"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-32 32 -3968"
+"targetname" "t1"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-960 -1632 -4320"
+"targetname" "t2"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "128 288 -3776"
+"targetname" "t3"
+}
+{
+"model" "*4"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t4"
+"origin" "128 512 -4352"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"target" "t5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-992 -736 -4352"
+"targetname" "t5"
+}
+{
+"model" "*6"
+"target" "t6"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t6"
+"origin" "-992 -1152 -4352"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"classname" "trigger_multiple"
+"target" "t7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-992 -1568 -4352"
+"targetname" "t7"
+}
