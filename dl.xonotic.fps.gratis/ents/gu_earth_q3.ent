@@ -1,0 +1,75 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"vertexremapshader5" "textures/dvd_earthsteephills/vxterrain_1to2;textures/dvd_earthsteephills/vxterrain"
+"vertexremapshader4" "textures/dvd_earthsteephills/vxterrain_0to2;textures/dvd_earthsteephills/vxterrain"
+"vertexremapshader3" "textures/dvd_earthsteephills/vxterrain_0to1;textures/dvd_earthsteephills/vxterrain"
+"vertexremapshader2" "textures/dvd_earthsteephills/vxterrain_2;textures/dvd_earthsteephills/vxterrain"
+"vertexremapshader1" "textures/dvd_earthsteephills/vxterrain_1;textures/dvd_earthsteephills/vxterrain"
+"vertexremapshader0" "textures/dvd_earthsteephills/vxterrain_0;textures/dvd_earthsteephills/vxterrain"
+"gridsize" "358.399994 358.399994 716.799988"
+"_blocksize" "1024"
+"music" "sound/world/naturesounds.wav"
+"message" "earth's steep hills"
+"classname" "worldspawn"
+}
+{
+"origin" "2016.000000 -3438.399902 504.000000"
+"noise" "sound/world/waterpaddle.wav"
+"spawnflags" "5"
+"classname" "target_speaker"
+}
+{
+"origin" "2520.000000 -4323.199707 1344.000000"
+"noise" "sound/world/waterfall.wav"
+"spawnflags" "5"
+"classname" "target_speaker"
+}
+{
+"origin" "235.199997 -1433.599976 974.399963"
+"message" "made by dvd|trasher"
+"targetname" "credits"
+"classname" "target_print"
+}
+{
+"origin" "235.199997 -1400.000000 974.399963"
+"wait" "8"
+"target" "credits"
+"targetname" "msgdelay"
+"classname" "target_delay"
+}
+{
+"origin" "201.599991 -1433.599976 974.399963"
+"message" "earth's steep hills"
+"targetname" "msg"
+"classname" "target_print"
+}
+{
+"origin" "201.599991 -1400.000000 974.399963"
+"wait" "4"
+"target" "msg"
+"targetname" "msgdelay"
+"classname" "target_delay"
+}
+{
+"origin" "201.599991 -1366.400024 974.399963"
+"target" "msgdelay"
+"classname" "trigger_always"
+}
+{
+"message" "earth's steep hills"
+"classname" "info_player_start"
+"origin" "0.000000 -1276.799927 974.399963"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "5"
+"noise" "sound/world/waterfall.wav"
+"origin" "2508.800049 -4099.199707 728.000000"
+}
+{
+"origin" "2508.800049 -4625.600098 1948.799927"
+"noise" "sound/world/waterfall.wav"
+"spawnflags" "5"
+"classname" "target_speaker"
+}
