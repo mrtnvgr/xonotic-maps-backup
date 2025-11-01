@@ -1,0 +1,402 @@
+{
+"_q3map2_version" "2.5.17n-git-77c80c73"
+"_q3map2_cmdline" "-meta -keepLights -v -maxarea -samplesize 8 -mv 1000000 -mi 6000000; -vis -saveprt; -light -lightmapsize 1024 -lightmapsearchpower 4 -deluxe -patchshadows -randomsamples -samples 4 -fast -fastbounce -dirty -bouncegrid -fill"
+"_noshadersun" "1"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"message" "fell into the dark"
+"classname" "trigger_hurt"
+}
+{
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"noise" "machines/Flashlight.wav"
+"speed" "24"
+"wait" "-1"
+"lip" "1"
+"angle" "-2"
+"target" "trick1_1"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"speed" "666"
+"wait" "-1"
+"lip" "-1152"
+"angle" "-2"
+"spawnflags" "4"
+"targetname" "trick1_1"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"noise" "machines/Flashlight.wav"
+"speed" "24"
+"wait" "-1"
+"lip" "1"
+"angle" "-2"
+"target" "trick1_2"
+"classname" "func_button"
+}
+{
+"model" "*5"
+"lip" "-64"
+"spawnflags" "4"
+"wait" "1.5"
+"speed" "1200"
+"angle" "270"
+"targetname" "trick1_2"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"targetname" "trick2_1"
+"lip" "-1216"
+"wait" "-1"
+"speed" "666"
+"spawnflags" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"targetname" "trick2_3"
+"noise" "weapons/rocket_impact.wav"
+"mdl" "explosion_medium"
+"spawnflags" "4"
+"classname" "func_breakable"
+}
+{
+"model" "*8"
+"targetname" "trick2_2_1"
+"lip" "-1216"
+"wait" "-1"
+"speed" "666"
+"spawnflags" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"targetname" "trick2_2_2"
+"lip" "-1216"
+"wait" "-1"
+"speed" "666"
+"spawnflags" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*10"
+"targetname" "trick2_2_3"
+"lip" "-1216"
+"wait" "-1"
+"speed" "666"
+"spawnflags" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*11"
+"targetname" "trick2_2_4"
+"lip" "-1216"
+"wait" "-1"
+"speed" "666"
+"spawnflags" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*12"
+"targetname" "trick2_2_5"
+"lip" "-1216"
+"wait" "-1"
+"speed" "666"
+"spawnflags" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*13"
+"noise" "machines/Flashlight.wav"
+"speed" "24"
+"wait" "-1"
+"lip" "1"
+"angle" "-2"
+"target" "trick2_1"
+"classname" "func_button"
+}
+{
+"model" "*14"
+"noise" "machines/Flashlight.wav"
+"speed" "24"
+"wait" "-1"
+"lip" "1"
+"angle" "-2"
+"target" "trick2_2"
+"classname" "func_button"
+}
+{
+"model" "*15"
+"noise" "machines/Flashlight.wav"
+"speed" "24"
+"wait" "-1"
+"lip" "1"
+"angle" "-2"
+"target" "trick2_3"
+"classname" "func_button"
+}
+{
+"wait" "0.01"
+"target" "trick2_2_1"
+"targetname" "trick2_2"
+"origin" "2464.000000 -32.000000 -160.000000"
+"classname" "trigger_delay"
+}
+{
+"wait" "0.2"
+"target" "trick2_2_2"
+"targetname" "trick2_2_1"
+"origin" "2592.000000 -32.000000 -160.000000"
+"classname" "trigger_delay"
+}
+{
+"wait" "0.2"
+"target" "trick2_2_3"
+"targetname" "trick2_2_2"
+"origin" "2720.000000 -32.000000 -160.000000"
+"classname" "trigger_delay"
+}
+{
+"wait" "0.2"
+"target" "trick2_2_4"
+"targetname" "trick2_2_3"
+"origin" "2848.000000 -32.000000 -160.000000"
+"classname" "trigger_delay"
+}
+{
+"wait" "0.2"
+"target" "trick2_2_5"
+"targetname" "trick2_2_4"
+"origin" "2976.000000 -32.000000 -160.000000"
+"classname" "trigger_delay"
+}
+{
+"model" "*16"
+"origin" "3904.000000 64.000000 -272.000000"
+"targetname" "trick3_1_1"
+"spawnflags" "16"
+"speed" "666"
+"classname" "func_rotating"
+}
+{
+"model" "*17"
+"noise" "machines/Flashlight.wav"
+"speed" "24"
+"wait" "-1"
+"lip" "1"
+"angle" "-2"
+"target" "trick3_1"
+"classname" "func_button"
+}
+{
+"target" "trick3_1_1"
+"targetname" "trick3_1"
+"origin" "3904.000000 64.000000 -192.000000"
+"classname" "relay_activate"
+}
+{
+"model" "*18"
+"noise" "machines/Flashlight.wav"
+"speed" "24"
+"wait" "-1"
+"lip" "1"
+"angle" "-2"
+"target" "trick3_2"
+"classname" "func_button"
+}
+{
+"model" "*19"
+"speed" "3000"
+"targetname" "trick3_2"
+"angle" "-2"
+"wait" "1.5"
+"spawnflags" "5"
+"lip" "-1250"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"wait" "-1"
+"targetname" "trick3_3"
+"speed" "444"
+"spawnflags" "4"
+"target" "trick3_3_start"
+"classname" "func_train"
+}
+{
+"wait" "-1"
+"target" "trick3_3_1"
+"spawnflags" "4"
+"targetname" "trick3_3_0"
+"origin" "4288.000000 -64.000000 -256.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "trick3_3_2"
+"targetname" "trick3_3_1"
+"origin" "4288.000000 256.000000 -256.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "trick3_3_3"
+"targetname" "trick3_3_2"
+"origin" "4416.000000 224.000000 -128.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "trick3_3_4"
+"targetname" "trick3_3_3"
+"origin" "4160.000000 64.000000 -224.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "trick3_3_5"
+"targetname" "trick3_3_4"
+"origin" "4416.000000 0.000000 -320.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "trick3_3_5"
+"targetname" "trick3_3_4"
+"origin" "4192.000000 224.000000 -288.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "trick3_3_6"
+"targetname" "trick3_3_5"
+"origin" "4416.000000 -192.000000 -192.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "trick3_3_7"
+"targetname" "trick3_3_6"
+"origin" "4224.000000 -192.000000 -256.000000"
+"classname" "path_corner"
+}
+{
+"model" "*21"
+"noise" "machines/Flashlight.wav"
+"speed" "24"
+"wait" "-1"
+"lip" "1"
+"angle" "-2"
+"target" "trick3_3"
+"classname" "func_button"
+}
+{
+"wait" "-1"
+"target" "trick3_3_0"
+"targetname" "trick3_3_7"
+"origin" "4288.000000 -64.000000 -288.000000"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"target" "trick3_3_1"
+"targetname" "trick3_3_start"
+"origin" "4288.000000 -64.000000 -272.000000"
+"classname" "path_corner"
+}
+{
+"model" "*22"
+"target" "stage2"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "stage2"
+"origin" "128.000000 -896.000000 40.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*23"
+"strength" "2"
+"classname" "trigger_impulse"
+}
+{
+"model" "*24"
+"wait" "-1"
+"target" "decrease"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "roundend"
+"origin" "4464.000000 408.000000 -112.000000"
+"classname" "target_assault_roundend"
+}
+{
+"origin" "288.000000 32.000000 -224.000000"
+"classname" "info_player_attacker"
+}
+{
+"origin" "288.000000 -32.000000 -224.000000"
+"classname" "info_player_attacker"
+}
+{
+"origin" "288.000000 -96.000000 -224.000000"
+"classname" "info_player_attacker"
+}
+{
+"origin" "288.000000 96.000000 -224.000000"
+"classname" "info_player_attacker"
+}
+{
+"origin" "160.000000 -864.000000 32.000000"
+"classname" "info_player_defender"
+}
+{
+"origin" "96.000000 -864.000000 32.000000"
+"classname" "info_player_defender"
+}
+{
+"origin" "160.000000 -928.000000 32.000000"
+"classname" "info_player_defender"
+}
+{
+"origin" "96.000000 -928.000000 32.000000"
+"classname" "info_player_defender"
+}
+{
+"target" "roundend"
+"targetname" "objective"
+"angle" "-179.999985"
+"origin" "4560.000000 8.000000 -120.000000"
+"classname" "target_objective"
+}
+{
+"targetname" "decrease"
+"target" "objective"
+"origin" "4432.000000 -40.000000 -120.000000"
+"classname" "target_objective_decrease"
+}
+{
+"target" "objective"
+"origin" "296.000000 376.000000 -120.000000"
+"classname" "target_assault_roundstart"
+}
+{
+"angles" "9.545043 -47.116676 -1.340577"
+"origin" "440.000000 952.000000 120.000000"
+"classname" "info_autoscreenshot"
+}
