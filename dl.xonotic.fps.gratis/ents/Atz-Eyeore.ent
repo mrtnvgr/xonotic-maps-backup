@@ -1,0 +1,86 @@
+{
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-112 -320 0"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "8"
+"model" "*1"
+}
+{
+"spawnflags" "8"
+"dmg" "1000"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "8"
+"model" "*3"
+}
+{
+"spawnflags" "8"
+"dmg" "1000"
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "8"
+"model" "*5"
+}
+{
+"spawnflags" "8"
+"dmg" "1000"
+"classname" "trigger_hurt"
+"model" "*6"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"spawnflags" "8"
+"model" "*7"
+}
+{
+"classname" "target_startTimer"
+"origin" "-32 -176 80"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*8"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-16 2592 640"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*10"
+}
+{
+"targetname" "t5"
+"message" "^1FUCK YOU!!!!!!!!! AAAAAAAAAAA!!!!!!!!"
+"origin" "64 2320 0"
+"classname" "target_print"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*11"
+}
