@@ -1,0 +1,156 @@
+{
+"_ambient" "13"
+"_minlight" "1"
+"gridsize" "512 512 512"
+"_blocksize" "4096"
+"message" "lol"
+"classname" "worldspawn"
+}
+{
+"origin" "-32 176 96"
+"classname" "info_player_start"
+}
+{
+"classname" "target_startTimer"
+"origin" "176 176 128"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "6248 -7328 -1744"
+"targetname" "t12"
+}
+{
+"targetname" "t36455"
+"origin" "6328 -7408 -1312"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push"
+"target" "t36455"
+"model" "*2"
+}
+{
+"classname" "target_position"
+"origin" "6312 -7440 -864"
+"targetname" "t36456"
+}
+{
+"target" "t36456"
+"classname" "trigger_push"
+"model" "*3"
+}
+{
+"targetname" "t36457"
+"origin" "6232 -7472 624"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push"
+"target" "t36457"
+"model" "*4"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t10"
+"origin" "1864 224 -176"
+"classname" "target_checkpoint"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4120 312 -176"
+"targetname" "t36458"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36458"
+"model" "*7"
+}
+{
+"targetname" "t36459"
+"origin" "6360 -2632 -560"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36459"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t36460"
+"origin" "6376 -6864 -864"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push"
+"target" "t36460"
+"model" "*9"
+}
+{
+"classname" "target_position"
+"origin" "6360 -6880 -864"
+"targetname" "t36461"
+}
+{
+"target" "t36461"
+"classname" "trigger_push"
+"model" "*10"
+}
+{
+"classname" "target_position"
+"origin" "6760 -6496 -872"
+"targetname" "t36462"
+}
+{
+"target" "t36462"
+"classname" "trigger_push"
+"model" "*11"
+}
+{
+"targetname" "t1"
+"message" "^3lol."
+"origin" "6368 -6880 -800"
+"classname" "target_print"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*12"
+}
+{
+"classname" "target_speaker"
+"targetname" "t76"
+"spawnflags" "8"
+"noise" "*taunt.wav"
+"origin" "6328 -6720 -1192"
+}
+{
+"classname" "trigger_multiple"
+"target" "t76"
+"model" "*13"
+}
+{
+"classname" "target_print"
+"origin" "6320 -7328 640"
+"message" "^3O what a ninja you are..."
+"targetname" "t36463"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36463"
+"model" "*14"
+}
