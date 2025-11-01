@@ -1,0 +1,1217 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"classname" "worldspawn"
+"ambient" "15"
+"_blocksize" "2048 2048 0"
+"gridsize" "201.599991 201.599991 268.799988"
+}
+{
+"origin" "-179.199997 627.200012 492.799988"
+"classname" "info_player_start"
+}
+{
+"classname" "info_player_start"
+"origin" "224.000000 627.200012 492.799988"
+}
+{
+"origin" "627.200012 627.200012 492.799988"
+"classname" "info_player_start"
+}
+{
+"classname" "info_player_start"
+"origin" "627.200012 224.000000 492.799988"
+}
+{
+"origin" "627.200012 -179.199997 492.799988"
+"classname" "info_player_start"
+}
+{
+"classname" "info_player_start"
+"origin" "224.000000 -179.199997 492.799988"
+}
+{
+"origin" "-179.199997 -179.199997 492.799988"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"classname" "trigger_location"
+"message" "disinsmoothed spawn! (down = normal) (otherside = hard)"
+}
+{
+"model" "*2"
+"classname" "trigger_teleport"
+"target" "disin_res_1"
+}
+{
+"origin" "-179.199997 224.000000 492.799988"
+"classname" "info_player_start"
+}
+{
+"model" "*3"
+"classname" "trigger_location"
+"message" "timers! (normal = left) (normal+hard = right)"
+}
+{
+"model" "*4"
+"target" "disin_res_1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_1"
+"origin" "2352.000000 1276.799927 627.200012"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*5"
+"message" "1. first in first out"
+"classname" "trigger_location"
+}
+{
+"model" "*6"
+"classname" "trigger_teleport"
+"target" "disin_res_2"
+}
+{
+"targetname" "disin_res_1_back"
+"origin" "3360.000000 13820.799805 380.799988"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*7"
+"target" "disin_res_1_sound"
+"classname" "trigger_multiple"
+}
+{
+"wait" "1"
+"noise" "sound/disinsmoothed/q3a_impressive.wav"
+"targetname" "disin_res_1_sound"
+"spawnflags" "4"
+"origin" "3696.000000 14089.599609 694.399963"
+"classname" "target_speaker"
+}
+{
+"model" "*8"
+"classname" "trigger_teleport"
+"target" "disin_res_2"
+}
+{
+"model" "*9"
+"classname" "trigger_teleport"
+"target" "disin_res_2_back"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "5465.600098 10774.399414 672.000000"
+"angle" "90"
+"targetname" "disin_res_2_back"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "5331.199707 851.200012 739.200012"
+"targetname" "disin_res_2"
+}
+{
+"model" "*10"
+"classname" "trigger_teleport"
+"target" "disin_res_3"
+}
+{
+"model" "*11"
+"message" "2. 2nd out 2"
+"classname" "trigger_location"
+}
+{
+"model" "*12"
+"target" "disin_res_1_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*13"
+"target" "disin_res_2_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*14"
+"target" "disin_sound_2"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "4"
+"targetname" "disin_sound_2"
+"noise" "sound/disinsmoothed/mk_outstanding.wav"
+"origin" "5465.600098 12756.799805 851.200012"
+"classname" "target_speaker"
+}
+{
+"model" "*15"
+"target" "disin_res_3"
+"classname" "trigger_teleport"
+}
+{
+"model" "*16"
+"classname" "trigger_teleport"
+"target" "disin_res_3"
+}
+{
+"targetname" "disin_res_3"
+"origin" "6720.000000 806.399963 761.599976"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*17"
+"message" "3. with 3 ways"
+"classname" "trigger_location"
+}
+{
+"model" "*18"
+"target" "disin_sound_3"
+"classname" "trigger_multiple"
+}
+{
+"wait" "1"
+"noise" "sound/disinsmoothed/mk_superb.wav"
+"spawnflags" "4"
+"targetname" "disin_sound_3"
+"origin" "7190.399902 20059.199219 705.599976"
+"classname" "target_speaker"
+}
+{
+"model" "*19"
+"classname" "trigger_teleport"
+"target" "disin_res_4"
+}
+{
+"model" "*20"
+"target" "disin_res_2_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*21"
+"classname" "trigger_teleport"
+"target" "disin_res_4"
+}
+{
+"model" "*22"
+"classname" "trigger_teleport"
+"target" "disin_res_4_back"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1030.400024 16060.799805 694.399963"
+"targetname" "disin_res_4_back"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "851.200012 2329.599854 784.000000"
+"targetname" "disin_res_4"
+}
+{
+"model" "*23"
+"classname" "trigger_location"
+"message" "4. sheeeeeeeeep!!!!!!!!!!!"
+}
+{
+"model" "*24"
+"classname" "trigger_multiple"
+"target" "disin_sound_4"
+}
+{
+"model" "*25"
+"classname" "trigger_teleport"
+"target" "disin_res_4_back"
+}
+{
+"classname" "target_speaker"
+"origin" "1299.199951 18905.599609 604.799988"
+"spawnflags" "4"
+"noise" "sound/disinsmoothed/ut2k4_fem_holyshit.wav"
+"targetname" "disin_sound_4"
+}
+{
+"model" "*26"
+"classname" "trigger_teleport"
+"target" "disin_res_5"
+}
+{
+"model" "*27"
+"classname" "trigger_teleport"
+"target" "disin_res_3_back"
+}
+{
+"model" "*28"
+"classname" "trigger_teleport"
+"target" "disin_res_5"
+}
+{
+"model" "*29"
+"classname" "trigger_teleport"
+"target" "disin_res_5_back"
+}
+{
+"model" "*30"
+"target" "disin_res_5_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*31"
+"classname" "trigger_multiple"
+"target" "disin_sound_5"
+}
+{
+"classname" "target_speaker"
+"origin" "3337.599854 14784.000000 515.200012"
+"targetname" "disin_sound_5"
+"noise" "sound/disinsmoothed/oa_holycrap.wav"
+"spawnflags" "4"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2329.599854 18972.798828 582.399963"
+"targetname" "disin_res_5"
+}
+{
+"targetname" "disin_res_5_back"
+"origin" "3696.000000 15724.799805 425.600006"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*32"
+"classname" "trigger_teleport"
+"target" "disin_res_4_back"
+}
+{
+"model" "*33"
+"classname" "trigger_teleport"
+"target" "disin_res_6"
+}
+{
+"model" "*34"
+"message" "5. like the old days"
+"classname" "trigger_location"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "6899.199707 20339.199219 448.000000"
+"targetname" "disin_res_3_back"
+}
+{
+"model" "*35"
+"target" "disin_res_6"
+"classname" "trigger_teleport"
+}
+{
+"model" "*36"
+"target" "disin_res_6_back"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_6_back"
+"origin" "5577.600098 14582.399414 -537.599976"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "disin_res_6"
+"origin" "4704.000000 21705.599609 224.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*37"
+"message" "6. sixy shit"
+"classname" "trigger_location"
+}
+{
+"model" "*38"
+"classname" "trigger_teleport"
+"target" "disin_res_7"
+}
+{
+"model" "*39"
+"target" "disin_res_5_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*40"
+"classname" "trigger_teleport"
+"target" "disin_res_6_back"
+}
+{
+"model" "*41"
+"classname" "trigger_multiple"
+"target" "disin_sound_6"
+}
+{
+"classname" "target_speaker"
+"origin" "5622.399902 13104.000000 -313.600006"
+"targetname" "disin_sound_6"
+"noise" "sound/disinsmoothed/dota_ownage.wav"
+"spawnflags" "4"
+}
+{
+"model" "*42"
+"classname" "trigger_teleport"
+"target" "disin_res_7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-336.000000 2352.000000 784.000000"
+"targetname" "disin_res_7"
+}
+{
+"model" "*43"
+"target" "disin_res_7"
+"classname" "trigger_teleport"
+}
+{
+"model" "*44"
+"classname" "trigger_teleport"
+"target" "disin_res_6_back"
+}
+{
+"model" "*45"
+"classname" "trigger_teleport"
+"target" "disin_res_8"
+}
+{
+"model" "*46"
+"classname" "trigger_multiple"
+"target" "disin_sound_7"
+}
+{
+"classname" "target_speaker"
+"origin" "-156.800003 17472.000000 -201.599991"
+"targetname" "disin_sound_7"
+"spawnflags" "4"
+"noise" "sound/disinsmoothed/ut2k4_fem_wickedsick.wav"
+}
+{
+"model" "*47"
+"classname" "trigger_location"
+"message" "7. the prejudice girly jump"
+}
+{
+"targetname" "disin_res_7_back"
+"origin" "-739.200012 17292.798828 -448.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*48"
+"classname" "trigger_teleport"
+"target" "disin_res_8"
+}
+{
+"model" "*49"
+"classname" "trigger_teleport"
+"target" "disin_res_8_back"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "9027.200195 10236.799805 403.199982"
+"targetname" "disin_res_8_back"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "7996.799805 -291.199982 604.799988"
+"targetname" "disin_res_8"
+}
+{
+"model" "*50"
+"target" "disin_res_7_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*51"
+"classname" "trigger_teleport"
+"target" "disin_res_9"
+}
+{
+"model" "*52"
+"classname" "trigger_teleport"
+"target" "disin_res_8_back"
+}
+{
+"model" "*53"
+"classname" "trigger_multiple"
+"target" "disin_sound_8"
+}
+{
+"classname" "target_speaker"
+"origin" "9542.399414 13552.000000 358.399994"
+"targetname" "disin_sound_8"
+"spawnflags" "4"
+"noise" "sound/disinsmoothed/dota_rampage.wav"
+}
+{
+"model" "*54"
+"message" "8. firstborn"
+"classname" "trigger_location"
+}
+{
+"model" "*55"
+"target" "disin_res_9"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_9"
+"origin" "8108.799805 13921.599609 515.200012"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*56"
+"classname" "trigger_teleport"
+"target" "disin_res_10"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "8467.200195 24931.199219 515.200012"
+"angle" "270"
+"targetname" "disin_res_9_back"
+}
+{
+"model" "*57"
+"classname" "trigger_teleport"
+"target" "disin_res_9_back"
+}
+{
+"model" "*58"
+"classname" "trigger_multiple"
+"target" "disin_sound_9"
+}
+{
+"model" "*59"
+"classname" "trigger_location"
+"message" "9. rainbow crossing"
+}
+{
+"classname" "target_speaker"
+"origin" "8467.200195 24572.798828 694.399963"
+"targetname" "disin_sound_9"
+"noise" "sound/disinsmoothed/ut2k4_fem_unstoppable.wav"
+"spawnflags" "4"
+}
+{
+"model" "*60"
+"classname" "trigger_teleport"
+"target" "disin_res_8_back"
+}
+{
+"model" "*61"
+"classname" "trigger_teleport"
+"target" "disin_res_10_back"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1366.400024 20888.000000 -526.399963"
+"targetname" "disin_res_10_back"
+}
+{
+"model" "*62"
+"classname" "trigger_teleport"
+"target" "disin_res_10"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "649.599976 22355.199219 862.399963"
+"targetname" "disin_res_10"
+}
+{
+"model" "*63"
+"target" "disin_res_9_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*64"
+"classname" "trigger_teleport"
+"target" "disin_res_11"
+}
+{
+"model" "*65"
+"target" "disin_res_10_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*66"
+"target" "disin_sound_10"
+"classname" "trigger_multiple"
+}
+{
+"noise" "sound/disinsmoothed/dota_unstoppable.wav"
+"targetname" "disin_sound_10"
+"spawnflags" "4"
+"origin" "1590.400024 23329.599609 -352.799988"
+"classname" "target_speaker"
+}
+{
+"model" "*67"
+"message" "10. 360 degrees celsius"
+"classname" "trigger_location"
+}
+{
+"model" "*68"
+"target" "disin_res_11"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_11"
+"origin" "-2150.399902 4816.000000 649.599976"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*69"
+"target" "disin_res_10_back"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_11_back"
+"origin" "-1663.199951 18748.798828 588.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*70"
+"target" "disin_res_11_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*71"
+"target" "disin_sound_11"
+"classname" "trigger_multiple"
+}
+{
+"noise" "sound/disinsmoothed/q3a_holyshit.wav"
+"spawnflags" "4"
+"targetname" "disin_sound_11"
+"origin" "-1971.199951 18704.000000 560.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*72"
+"classname" "trigger_teleport"
+"target" "disin_res_12"
+}
+{
+"model" "*73"
+"classname" "trigger_location"
+"message" "11. red and blue jumps"
+}
+{
+"model" "*74"
+"target" "disin_res_12"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_12"
+"origin" "10606.399414 89.599998 582.399963"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*75"
+"classname" "trigger_teleport"
+"target" "disin_res_11_back"
+}
+{
+"model" "*76"
+"target" "disin_res_13"
+"classname" "trigger_teleport"
+}
+{
+"model" "*77"
+"classname" "trigger_multiple"
+"target" "disin_sound_12"
+}
+{
+"classname" "target_speaker"
+"origin" "10998.399414 19331.199219 -604.799988"
+"targetname" "disin_sound_12"
+"spawnflags" "4"
+"noise" "sound/disinsmoothed/ut2k4_fem_godlike.wav"
+}
+{
+"targetname" "disin_res_12_back"
+"classname" "misc_teleporter_dest"
+"origin" "10998.399414 19152.000000 -1008.000000"
+"angle" "90"
+}
+{
+"model" "*78"
+"classname" "trigger_location"
+"message" "12. pls stay quiet!"
+}
+{
+"model" "*79"
+"classname" "trigger_teleport"
+"target" "disin_res_13"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-4155.199707 12129.599609 795.200012"
+"targetname" "disin_res_13"
+}
+{
+"model" "*80"
+"message" "13. under the big sea"
+"classname" "trigger_location"
+}
+{
+"model" "*81"
+"classname" "trigger_multiple"
+"target" "disin_sound_13"
+}
+{
+"classname" "target_speaker"
+"origin" "-3808.000000 23872.798828 859.599976"
+"targetname" "disin_sound_13"
+"spawnflags" "4"
+"noise" "sound/disinsmoothed/q3a_excellent.wav"
+}
+{
+"model" "*82"
+"target" "disin_res_14"
+"classname" "trigger_teleport"
+}
+{
+"model" "*83"
+"target" "disin_res_12_back"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_13_back"
+"angle" "90"
+"origin" "-3808.000000 23788.798828 627.200012"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*84"
+"target" "disin_res_14"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_14"
+"origin" "-11950.399414 4065.599854 761.599976"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*85"
+"message" "14. shiny star"
+"classname" "trigger_location"
+}
+{
+"model" "*86"
+"classname" "trigger_multiple"
+"target" "disin_sound_14"
+"wait" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "-3449.599854 11132.799805 918.399963"
+"noise" "sound/disinsmoothed/ut2k4_fem_dominating.wav"
+"spawnflags" "4"
+"targetname" "disin_sound_14"
+}
+{
+"model" "*87"
+"target" "disin_res_15"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_14_back"
+"angle" "270"
+"origin" "-3539.199951 11468.799805 134.399994"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*88"
+"target" "disin_res_13_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*89"
+"classname" "trigger_teleport"
+"target" "disin_res_15"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-5969.600098 11894.399414 593.599976"
+"targetname" "disin_res_15"
+}
+{
+"model" "*90"
+"classname" "trigger_teleport"
+"target" "disin_res_15_back"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-5622.399902 23811.199219 739.200012"
+"targetname" "disin_res_15_back"
+}
+{
+"model" "*91"
+"classname" "trigger_location"
+"message" "15. the forest is green except when it's burning"
+}
+{
+"model" "*92"
+"target" "disin_res_15_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*93"
+"classname" "trigger_multiple"
+"target" "disin_sound_15"
+}
+{
+"classname" "target_speaker"
+"origin" "-5622.399902 26488.000000 784.000000"
+"spawnflags" "4"
+"targetname" "disin_sound_15"
+"noise" "sound/disinsmoothed/q3a_perfect.wav"
+}
+{
+"model" "*94"
+"target" "disin_res_16"
+"classname" "trigger_teleport"
+}
+{
+"model" "*95"
+"target" "disin_res_14_back"
+"classname" "trigger_teleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-8008.000000 11894.399414 593.599976"
+"targetname" "disin_res_16"
+}
+{
+"model" "*96"
+"target" "disin_res_16"
+"classname" "trigger_teleport"
+}
+{
+"model" "*97"
+"classname" "trigger_location"
+"message" "16. lets all sing ''over the rainbow''"
+}
+{
+"model" "*98"
+"target" "disin_res_16_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*99"
+"target" "disin_sound_16"
+"classname" "trigger_multiple"
+}
+{
+"noise" "sound/disinsmoothed/dota_godlike.wav"
+"spawnflags" "4"
+"targetname" "disin_sound_16"
+"origin" "-7436.799805 26656.000000 604.799988"
+"classname" "target_speaker"
+}
+{
+"model" "*100"
+"message" "normal end, time to try hard? :>"
+"classname" "trigger_location"
+}
+{
+"targetname" "disin_res_16_back"
+"angle" "180"
+"origin" "-7145.600098 27126.400391 627.200012"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*101"
+"target" "disin_res_hard"
+"classname" "trigger_teleport"
+}
+{
+"model" "*102"
+"target" "disin_res_15_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*103"
+"classname" "trigger_location"
+"message" "17. how to climb 1 meter"
+}
+{
+"model" "*104"
+"classname" "trigger_teleport"
+"target" "disin_res_17"
+}
+{
+"targetname" "disin_res_17"
+"angle" "270"
+"origin" "-11088.000000 12992.000000 380.799988"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*105"
+"target" "disin_res_18"
+"classname" "trigger_teleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-11390.399414 12577.599609 571.200012"
+"angle" "270"
+"targetname" "disin_res_17_back"
+}
+{
+"model" "*106"
+"target" "disin_res_20"
+"classname" "trigger_teleport"
+}
+{
+"model" "*107"
+"message" "20. this is how i show my love for ya all <3"
+"classname" "trigger_location"
+}
+{
+"targetname" "disin_res_20"
+"origin" "-9318.399414 6529.600098 604.799988"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*108"
+"target" "disin_res_21"
+"classname" "trigger_teleport"
+}
+{
+"angle" "90"
+"classname" "misc_teleporter_dest"
+"origin" "-10528.000000 2576.000000 492.799988"
+"targetname" "disin_res_20_back"
+}
+{
+"model" "*109"
+"classname" "trigger_teleport"
+"target" "disin_res_19_back"
+}
+{
+"model" "*110"
+"target" "disin_res_18"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_18"
+"angle" "360"
+"origin" "12252.799805 -1097.599976 761.599976"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*111"
+"message" "18. xl"
+"classname" "trigger_location"
+}
+{
+"model" "*112"
+"target" "disin_res_19"
+"classname" "trigger_teleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "12947.200195 28380.798828 -7750.399902"
+"angle" "180"
+"targetname" "disin_res_18_back"
+}
+{
+"model" "*113"
+"target" "disin_res_17_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*114"
+"message" "19. s ... or maybe m. m may like it"
+"classname" "trigger_location"
+}
+{
+"model" "*115"
+"target" "disin_res_19"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_19"
+"angle" "180"
+"origin" "-3113.599854 896.000000 672.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-4480.000000 873.599976 672.000000"
+"angle" "360"
+"targetname" "disin_res_19"
+}
+{
+"model" "*116"
+"classname" "trigger_teleport"
+"target" "disin_res_18_back"
+}
+{
+"model" "*117"
+"target" "disin_res_20"
+"classname" "trigger_teleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-3628.800049 10416.000000 806.399963"
+"angle" "180"
+"targetname" "disin_res_19_back"
+}
+{
+"model" "*118"
+"target" "disin_res_21"
+"classname" "trigger_teleport"
+}
+{
+"model" "*119"
+"message" "21. hit me @ 21"
+"classname" "trigger_location"
+}
+{
+"targetname" "disin_res_21"
+"origin" "-8915.200195 20384.000000 649.599976"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*120"
+"target" "disin_res_22"
+"classname" "trigger_teleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2128.000000 27596.798828 582.399963"
+"angle" "90"
+"targetname" "disin_res_21_back"
+}
+{
+"model" "*121"
+"target" "disin_res_20_back"
+"classname" "trigger_teleport"
+}
+{
+"model" "*122"
+"classname" "trigger_location"
+"message" "22. lets all hold hands and jump off the cliff together"
+}
+{
+"model" "*123"
+"classname" "trigger_location"
+"message" "22. lets all hold hands and jump off the cliff together"
+}
+{
+"model" "*124"
+"target" "disin_res_22"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_22"
+"angle" "180"
+"origin" "11760.000000 22176.000000 784.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*125"
+"classname" "trigger_teleport"
+"target" "disin_res_21_back"
+}
+{
+"model" "*126"
+"target" "disin_res_23"
+"classname" "trigger_teleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-11692.799805 28201.599609 -6518.399902"
+"angle" "90"
+"targetname" "disin_res_22_back"
+}
+{
+"model" "*127"
+"target" "disin_res_23"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_23"
+"origin" "-10169.599609 15187.200195 582.399963"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*128"
+"message" "23. just for you!!! (...whoever you are...)"
+"classname" "trigger_location"
+}
+{
+"model" "*129"
+"classname" "trigger_teleport"
+"target" "disin_res_22_back"
+}
+{
+"model" "*130"
+"target" "disin_res_24"
+"classname" "trigger_teleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-9990.399414 30620.798828 -2643.199951"
+"targetname" "disin_res_23_back"
+}
+{
+"model" "*131"
+"target" "disin_res_24"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_24"
+"origin" "-11827.200195 1075.199951 806.399963"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*132"
+"message" "24. sting like a butterfly and fly like a bee"
+"classname" "trigger_location"
+}
+{
+"model" "*133"
+"classname" "trigger_teleport"
+"target" "disin_res_23_back"
+}
+{
+"model" "*134"
+"target" "disin_res_25"
+"classname" "trigger_teleport"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-5527.199707 1260.000000 -106.400002"
+"angle" "90"
+"targetname" "disin_res_24_back"
+}
+{
+"model" "*135"
+"target" "disin_res_25"
+"classname" "trigger_teleport"
+}
+{
+"model" "*136"
+"message" "25. colorfusional!!!"
+"classname" "trigger_location"
+}
+{
+"targetname" "disin_res_25"
+"origin" "13641.599609 -963.200012 716.799988"
+"classname" "misc_teleporter_dest"
+}
+{
+"angle" "180"
+"classname" "misc_teleporter_dest"
+"origin" "18211.199219 -963.200012 716.799988"
+"targetname" "disin_res_25"
+}
+{
+"model" "*137"
+"message" "hard end - gg"
+"classname" "trigger_location"
+}
+{
+"model" "*138"
+"classname" "trigger_teleport"
+"target" "disin_res_24_back"
+}
+{
+"model" "*139"
+"target" "disin_res_24_back"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "disin_res_hard"
+"origin" "6361.600098 224.000000 336.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*140"
+"target" "disin_res_17"
+"classname" "trigger_teleport"
+}
+{
+"model" "*141"
+"target" "timer_norm"
+"classname" "trigger_multiple"
+}
+{
+"model" "*142"
+"target" "timer_full"
+"classname" "trigger_multiple"
+}
+{
+"target" "spawn_res"
+"targetname" "timer_norm"
+"origin" "414.399994 -1299.199951 89.599998"
+"classname" "target_teleporter"
+}
+{
+"color" "2"
+"name" "disinsmoother normal"
+"type" "1"
+"targetname" "timer_norm"
+"origin" "358.399994 -1299.199951 89.599998"
+"classname" "ut_jumpstart"
+}
+{
+"target" "spawn_res"
+"classname" "target_teleporter"
+"origin" "89.599998 -1288.000000 89.599998"
+"targetname" "timer_full"
+}
+{
+"classname" "ut_jumpstart"
+"origin" "33.599998 -1288.000000 89.599998"
+"targetname" "timer_full"
+"type" "2"
+"name" "disinsmoother normal + hard"
+"color" "1"
+}
+{
+"targetname" "spawn_res"
+"angle" "90"
+"origin" "3024.000000 67.199997 -862.399963"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*143"
+"target" "timer_stop_full"
+"classname" "trigger_multiple"
+}
+{
+"color" "1"
+"name" "disinsmoothed normal + hard"
+"type" "2"
+"targetname" "timer_stop_full"
+"origin" "6048.000000 224.000000 -448.000000"
+"classname" "ut_jumpcancel"
+}
+{
+"model" "*144"
+"target" "timer_norm_end"
+"classname" "trigger_multiple"
+}
+{
+"color" "2"
+"name" "disinsmoothed normal"
+"type" "1"
+"targetname" "timer_norm_end"
+"origin" "-7481.600098 27070.400391 672.000000"
+"classname" "ut_jumpstop"
+}
+{
+"model" "*145"
+"target" "timer_full_end"
+"classname" "trigger_multiple"
+}
+{
+"color" "1"
+"name" "disinsmoothed normal + hard"
+"type" "2"
+"targetname" "timer_full_end"
+"origin" "15960.000000 14459.200195 448.000000"
+"classname" "ut_jumpstop"
+}
