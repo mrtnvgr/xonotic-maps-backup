@@ -1,0 +1,101 @@
+{
+"gridsize" "192 176 240"
+"classname" "worldspawn"
+"message" "M-M-M-Monster Grid"
+}
+{
+"classname" "info_player_start"
+"origin" "54272 -63488 24"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "54528 -63488 128"
+"targetname" "start"
+}
+{
+"target" "stop"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "53728 -63488 128"
+"targetname" "stop"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "9999"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "62976 54560 128"
+"targetname" "t1"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t3"
+"origin" "-54560 63008 128"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-63008 -54560 128"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*7"
+}
+{
+"classname" "target_print"
+"origin" "63136 54144 128"
+"targetname" "t6"
+"message" "1/4"
+"spawnflags" "4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*8"
+}
+{
+"classname" "target_print"
+"origin" "-54176 63008 128"
+"targetname" "t7"
+"message" "1/2"
+"spawnflags" "4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"model" "*9"
+}
+{
+"classname" "target_print"
+"origin" "-63264 -54176 128"
+"targetname" "t8"
+"message" "3/4"
+"spawnflags" "4"
+}
