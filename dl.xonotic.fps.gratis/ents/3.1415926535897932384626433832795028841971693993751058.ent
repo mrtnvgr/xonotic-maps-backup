@@ -1,0 +1,171 @@
+{
+"_q3map2_version" "2.5.17n-svn395"
+"_q3map2_cmdline" "-bsp -meta -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000 -samplesize 1024; -light -samples 3 -dirty -fast -nogrid -bounce 0 -lightmapsize 128 -lightmapsize 128; -vis"
+"blocksize" "4096 4096 4096"
+"message" "2*pi*32512qu = 5188.68m"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"targetname" "cp0"
+"spawnflags" "2"
+"target" "cp0items"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*2"
+"spawnflags" "2"
+"cnt" "3"
+"target" "cp3items"
+"targetname" "cp3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*3"
+"spawnflags" "2"
+"targetname" "cp2"
+"target" "cp2items"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*4"
+"spawnflags" "2"
+"cnt" "1"
+"target" "cp1items"
+"targetname" "cp1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "0"
+"origin" "-1280.000000 32384.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "-1"
+"origin" "-256.000000 32512.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "1"
+"origin" "-256.000000 32640.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "2"
+"origin" "-384.000000 32384.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "3"
+"origin" "-512.000000 32640.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "4"
+"origin" "-640.000000 32384.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "5"
+"origin" "-768.000000 32640.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "6"
+"origin" "-896.000000 32384.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "7"
+"origin" "-1024.000000 32640.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "8"
+"origin" "-1152.000000 32384.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "0"
+"origin" "-1280.000000 32640.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp3items"
+"target" "cp0"
+"race_place" "0"
+"origin" "-1280.000000 32512.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp1items"
+"target" "cp2"
+"origin" "512.000000 -32512.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"target2" "cp0items"
+"target" "cp1"
+"origin" "32512.000000 256.000000 24.000000"
+"classname" "info_player_race"
+}
+{
+"health" "5"
+"ammo_fuel" "999"
+"netname" "jetpack unlimited_weapon_ammo fuel_regen"
+"targetname" "cp3items"
+"origin" "-256.000000 256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"health" "300"
+"netname" "laser unlimited_weapon_ammo"
+"targetname" "cp0items"
+"origin" "256.000000 256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"ammo_fuel" "999"
+"netname" "hook unlimited_weapon_ammo fuel_regen"
+"health" "100"
+"targetname" "cp1items"
+"origin" "256.000000 -256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"health" "300"
+"netname" "grenadelauncher unlimited_weapon_ammo"
+"targetname" "cp2items"
+"origin" "-256.000000 -256.000000 0.000000"
+"classname" "target_items"
+}
+{
+"target2" "cp2items"
+"target" "cp3"
+"origin" "-32512.000000 -512.000000 24.000000"
+"classname" "info_player_race"
+}
