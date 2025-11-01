@@ -1,0 +1,68 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-meta; -vis; -light -fast -super 2 -filter"
+"classname" "worldspawn"
+}
+{
+"origin" "-1552 80 -32"
+"classname" "team_CTF_redspawn"
+}
+{
+"origin" "-1552 -80 -32"
+"classname" "team_CTF_bluespawn"
+}
+{
+"origin" "-1552 0 -32"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "-1112.000000 0.000000 40.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "1600.000000 0.000000 40.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*3"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint2"
+"origin" "6232.000000 -1184.000000 -16.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint3"
+"origin" "7296.000000 1216.000000 -16.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "8608.000000 4288.000000 -24.000000"
+"classname" "target_stopTimer"
+}
