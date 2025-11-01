@@ -1,0 +1,279 @@
+{
+"music" "music/win.wav"
+"classname" "worldspawn"
+"message" "Starforce (by sst13)"
+"vertexremapshader1" "textures/13star/floor;textures/13star/vx_floor"
+"vertexremapshader2" "textures/13star/floor_peak;textures/13star/vx_floor"
+"vertexremapshader3" "textures/13star/floor_logo;textures/13star/vx_floor_logo"
+"gridsize" "512 512 512"
+}
+{
+"origin" "0 0 64"
+"target" "t3"
+"targetname" "t11"
+"classname" "target_teleporter"
+}
+{
+"origin" "-64 0 448"
+"targetShaderNewName" "textures/13star/_bloodTrail"
+"targetShaderName" "bloodTrail"
+"classname" "trigger_always"
+}
+{
+"origin" "0 0 -512"
+"noise" "*falling1.wav"
+"spawnflags" "4"
+"gametype" "tournament, single, team"
+"targetname" "t10"
+"classname" "target_speaker"
+}
+{
+"origin" "0 0 -640"
+"gametype" "tournament, single, team"
+"targetname" "t9"
+"classname" "target_remove_powerups"
+}
+{
+"target" "t9"
+"gametype" "tournament, single, team"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"dmg" "9999"
+"spawnflags" "12"
+"gametype" "tournament, single, team"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"origin" "0 0 640"
+"target" "t8"
+"targetname" "t7"
+"classname" "target_give"
+}
+{
+"origin" "0 0 128"
+"message" "Star"
+"classname" "target_location"
+}
+{
+"origin" "0 -416 16"
+"weight" "500"
+"classname" "item_botroam"
+}
+{
+"speed" "100"
+"classname" "func_rotating"
+"origin" "0 0 -256"
+"model" "*3"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/wind2.wav"
+"origin" "0 -960 64"
+}
+{
+"gametype" "ffa"
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*4"
+}
+{
+"origin" "0 704 480"
+"targetname" "t1"
+"classname" "target_position"
+}
+{
+"origin" "0 832 576"
+"target" "t1"
+"angle" "270"
+"classname" "info_player_intermission"
+}
+{
+"target" "t7"
+"origin" "0 -528 24"
+"angle" "90"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t7"
+"classname" "info_player_deathmatch"
+"angle" "160"
+"origin" "496 -176 24"
+}
+{
+"target" "t7"
+"origin" "-496 -176 24"
+"angle" "20"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t7"
+"classname" "info_player_deathmatch"
+"angle" "305"
+"origin" "-304 416 24"
+}
+{
+"target" "t7"
+"origin" "304 416 24"
+"angle" "235"
+"classname" "info_player_deathmatch"
+}
+{
+"gametype" "ffa"
+"origin" "0 -528 24"
+"angle" "90"
+"classname" "misc_teleporter_dest"
+"targetname" "t3"
+}
+{
+"gametype" "ffa"
+"classname" "misc_teleporter_dest"
+"angle" "160"
+"origin" "496 -176 24"
+"targetname" "t3"
+}
+{
+"gametype" "ffa"
+"origin" "-496 -176 24"
+"angle" "20"
+"classname" "misc_teleporter_dest"
+"targetname" "t3"
+}
+{
+"gametype" "ffa"
+"classname" "misc_teleporter_dest"
+"angle" "310"
+"origin" "-304 416 24"
+"targetname" "t3"
+}
+{
+"gametype" "ffa"
+"origin" "304 416 24"
+"angle" "230"
+"classname" "misc_teleporter_dest"
+"targetname" "t3"
+}
+{
+"origin" "896 -320 64"
+"noise" "sound/world/wind2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/wind2.wav"
+"origin" "576 768 64"
+}
+{
+"origin" "-576 768 64"
+"noise" "sound/world/wind2.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/world/wind2.wav"
+"origin" "-896 -320 64"
+}
+{
+"origin" "0 0 384"
+"noise" "sound/world/tim_hole.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"classname" "target_delay"
+"targetname" "t4"
+"target" "t5"
+"wait" "3"
+"origin" "0 0 256"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/1shot_gong.wav"
+"spawnflags" "4"
+"origin" "0 0 320"
+"targetname" "t5"
+}
+{
+"origin" "0 0 192"
+"classname" "trigger_always"
+"wait" "-1"
+"target" "t4"
+}
+{
+"classname" "item_botroam"
+"weight" "500"
+"origin" "384 -128 16"
+}
+{
+"origin" "224 320 16"
+"weight" "500"
+"classname" "item_botroam"
+}
+{
+"classname" "item_botroam"
+"weight" "500"
+"origin" "-224 320 16"
+}
+{
+"origin" "-384 -128 16"
+"weight" "500"
+"classname" "item_botroam"
+}
+{
+"classname" "item_botroam"
+"weight" "1000"
+"origin" "-128 -192 16"
+}
+{
+"origin" "128 -192 16"
+"weight" "1000"
+"classname" "item_botroam"
+}
+{
+"classname" "item_botroam"
+"weight" "1000"
+"origin" "224 64 16"
+}
+{
+"origin" "-224 64 16"
+"weight" "1000"
+"classname" "item_botroam"
+}
+{
+"classname" "item_botroam"
+"weight" "1000"
+"origin" "0 224 16"
+}
+{
+"targetname" "t8"
+"gametype" "ffa, tournament, single, ctf"
+"classname" "ammo_bullets"
+"count" "-100"
+"origin" "32 0 704"
+}
+{
+"targetname" "t8"
+"gametype" "team"
+"origin" "-32 0 704"
+"count" "-50"
+"classname" "ammo_bullets"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"gametype" "tournament, single, team"
+"model" "*5"
+}
+{
+"classname" "trigger_always"
+"targetShaderName" "bloodMark"
+"targetShaderNewName" "textures/13star/_bloodMark"
+"origin" "64 0 448"
+}
