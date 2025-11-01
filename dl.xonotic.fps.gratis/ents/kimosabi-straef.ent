@@ -1,0 +1,70 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -fast"
+"classname" "worldspawn"
+}
+{
+"origin" "512.000000 60.000000 92.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "392.000000 13976.000000 8.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*2"
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "256.000000 64.000000 384.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*3"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "1216.000000 4992.000000 320.000000"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "target_checkpoint2"
+"origin" "512.000000 8896.000000 896.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint3"
+"origin" "512.000000 11648.000000 1024.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "target_kill1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_kill1"
+"origin" "512.000000 6848.000000 -320.000000"
+"classname" "target_kill"
+}
