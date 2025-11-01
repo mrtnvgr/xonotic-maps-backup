@@ -1,0 +1,189 @@
+{
+"classname" "worldspawn"
+"_ambient" "10"
+"_color" "0.656397 0.643687 1.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 -64 24"
+"angle" "90"
+"target" "t3"
+}
+{
+"classname" "target_position"
+"origin" "0 544 608"
+"targetname" "t1"
+}
+{
+"classname" "trigger_push"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "item_haste"
+"origin" "416 -1504 496"
+"spawnflags" "1"
+"count" "9999"
+"wait" "-1"
+}
+{
+"wait" "-1"
+"count" "9999"
+"spawnflags" "1"
+"origin" "-416 -1504 496"
+"classname" "item_haste"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "0 128 96"
+"targetname" "t2"
+}
+{
+"classname" "target_init"
+"origin" "0 -64 64"
+"spawnflags" "32"
+"targetname" "t3"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"origin" "0 448 1152"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "t4"
+"spawnflags" "32"
+"origin" "0 768 1152"
+"classname" "target_init"
+}
+{
+"target" "t5"
+"classname" "trigger_teleport"
+"model" "*4"
+}
+{
+"targetname" "t5"
+"origin" "0 1088 1088"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t6"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"targetname" "t6"
+"angle" "90"
+"origin" "2944 1600 1216"
+"classname" "misc_teleporter_dest"
+}
+{
+"speed" "200"
+"classname" "func_rotating"
+"origin" "3872 2976 1216"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"target" "t7"
+"model" "*7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "3248 3264 1360"
+"angle" "90"
+"targetname" "t7"
+}
+{
+"target" "t9"
+"classname" "trigger_push"
+"model" "*8"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t8"
+"origin" "3584 5504 2432"
+"classname" "target_stopTimer"
+}
+{
+"targetname" "t9"
+"origin" "5120 5808 2304"
+"classname" "target_position"
+}
+{
+"target" "t10"
+"classname" "trigger_teleport"
+"model" "*10"
+}
+{
+"targetname" "t10"
+"origin" "3424 4512 1984"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t11"
+"origin" "5088 3568 2200"
+"classname" "target_position"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2752 1760 1216"
+"targetname" "t12"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*12"
+}
+{
+"targetname" "t13"
+"origin" "3264 3360 1440"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"model" "*13"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3328 5152 2016"
+"targetname" "t14"
+}
+{
+"classname" "trigger_push_velocity"
+"target" "t11"
+"spawnflags" "19"
+"speed" "400"
+"model" "*14"
+}
+{
+"classname" "trigger_teleport"
+"target" "t15"
+"model" "*15"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "4480 5632 1152"
+"angle" "270"
+"targetname" "t15"
+}
