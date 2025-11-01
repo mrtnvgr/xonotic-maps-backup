@@ -1,0 +1,62 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"music" "music/gu_wind1.wav"
+"gridsize" "7000.000000 7000.000000 14000.000000"
+"_blocksize" "8192"
+"classname" "worldspawn"
+}
+{
+"origin" "89.599998 1008.000000 -134.399994"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1153.599976 2508.800049 -336.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "56.000000 3830.399902 -145.599991"
+}
+{
+"origin" "-1164.799927 2307.199951 940.799988"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-5308.799805 6608.000000 -1568.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-8344.000000 952.000000 851.200012"
+}
+{
+"model" "*1"
+"dmg" "5000"
+"classname" "trigger_hurt"
+}
+{
+"target" "t1"
+"origin" "526.399963 996.799988 -268.799988"
+"classname" "trigger_always"
+}
+{
+"wait" "8"
+"target" "t1"
+"targetname" "t2"
+"origin" "380.799988 918.399963 -145.599991"
+"classname" "target_delay"
+}
+{
+"noise" "sound/gundamu/gu_wind1.wav"
+"spawnflags" "4"
+"targetname" "t2"
+"origin" "560.000000 918.399963 -212.800003"
+"classname" "target_speaker"
+}
+{
+"targetname" "t1"
+"target" "t2"
+"origin" "470.399994 996.799988 -201.599991"
+"classname" "target_relay"
+}
