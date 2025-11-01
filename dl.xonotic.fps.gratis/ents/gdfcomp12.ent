@@ -1,0 +1,179 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "-2496 64 2784"
+"classname" "target_speaker"
+"noise" "sounds/feedback/mk/excellent.wav"
+"spawnflags" "12"
+}
+{
+"model" "*1"
+"target" "fin"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-2648 96 2720"
+"wait" "2"
+"count" "5"
+"spawnflags" "1"
+"classname" "weapon_rocketlauncher"
+}
+{
+"classname" "target_startTimer"
+"targetname" "start"
+"origin" "3112 8 8"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "start"
+}
+{
+"classname" "target_init"
+"targetname" "init"
+"origin" "3080 104 8"
+"spawnflags" "0"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "init"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "check"
+"origin" "-824 168 200"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "check"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "fin"
+"origin" "-2400 96 1472"
+}
+{
+"classname" "misc_teleporter_dest"
+"targetname" "part2"
+"angle" "180"
+"origin" "-1504 96 1240"
+}
+{
+"model" "*5"
+"classname" "trigger_teleport"
+"target" "part2"
+}
+{
+"classname" "target_give"
+"targetname" "gv_quad"
+"target" "quad"
+"origin" "-1472 96 96"
+}
+{
+"classname" "item_quad"
+"targetname" "quad"
+"wait" "1"
+"count" "1"
+"origin" "-1384 96 144"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "gv_quad"
+"wait" "1"
+}
+{
+"classname" "item_haste"
+"wait" "6"
+"count" "14"
+"spawnflags" "1"
+"origin" "-1536 336 -48"
+}
+{
+"classname" "item_enviro"
+"count" "80"
+"wait" "6"
+"origin" "2400 96 -40"
+"angle" "180"
+}
+{
+"classname" "weapon_plasmagun"
+"wait" "3"
+"count" "200"
+"origin" "-320 192 -160"
+}
+{
+"classname" "weapon_grenadelauncher"
+"count" "1"
+"wait" "3"
+"origin" "-1536 96 96"
+}
+{
+"classname" "target_init"
+"targetname" "rem_rl"
+"spawnflags" "11"
+"origin" "1856 96 160"
+}
+{
+"model" "*7"
+"classname" "trigger_multiple"
+"target" "rem_rl"
+}
+{
+"model" "*8"
+"dmg" "500"
+"classname" "trigger_hurt"
+}
+{
+"origin" "2880 96 -8"
+"wait" "2"
+"count" "1"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "3424 96 40"
+"classname" "info_player_start"
+"angle" "180"
+}
+{
+"model" "*9"
+"classname" "trigger_hurt"
+"dmg" "500"
+}
+{
+"origin" "-320 0 -160"
+"count" "200"
+"wait" "3"
+"classname" "weapon_plasmagun"
+}
+{
+"origin" "-1536 -144 -48"
+"spawnflags" "1"
+"count" "14"
+"wait" "6"
+"classname" "item_haste"
+}
+{
+"classname" "weapon_rocketlauncher"
+"spawnflags" "1"
+"count" "5"
+"wait" "2"
+"origin" "-2408 88 2720"
+}
+{
+"origin" "-2528 216 2720"
+"wait" "2"
+"count" "5"
+"spawnflags" "1"
+"classname" "weapon_rocketlauncher"
+}
+{
+"classname" "weapon_rocketlauncher"
+"spawnflags" "1"
+"count" "5"
+"wait" "2"
+"origin" "-2528 -24 2720"
+}
