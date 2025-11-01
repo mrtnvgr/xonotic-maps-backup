@@ -1,0 +1,92 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_kill"
+"origin" "64 3616 128"
+"angle" "90"
+"targetname" "kill1"
+}
+{
+"classname" "trigger_multiple"
+"target" "kill1"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2304 48 -1352"
+"angle" "90"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "target_kill"
+"origin" "5952 1568 -2256"
+"targetname" "kill3"
+}
+{
+"classname" "trigger_multiple"
+"target" "kill3"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "kill2"
+"model" "*4"
+}
+{
+"classname" "target_kill"
+"origin" "3728 2736 -1632"
+"targetname" "kill2"
+}
+{
+"classname" "trigger_multiple"
+"target" "stop"
+"model" "*5"
+}
+{
+"classname" "target_stopTimer"
+"origin" "6432 1568 1856"
+"targetname" "stop"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*6"
+}
+{
+"classname" "target_startTimer"
+"origin" "-1600 456 272"
+"angle" "90"
+"targetname" "start"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-1612 128 32"
+"count" "200"
+}
+{
+"classname" "item_enviro"
+"origin" "-1600 64 32"
+"count" "9999"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1600 -64 -8"
+"angle" "90"
+}
+{
+"classname" "trigger_teleport"
+"target" "deststart"
+"model" "*7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "0 8 -8"
+"angle" "90"
+"targetname" "deststart"
+}
