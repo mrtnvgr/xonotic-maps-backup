@@ -1,0 +1,107 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-328 256 88"
+}
+{
+"targetname" "t1"
+"angle" "360"
+"origin" "10800 224 640"
+"classname" "target_teleporter"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_init"
+"origin" "11032 240 -2720"
+"targetname" "t2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "10968 248 -2720"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "15968 240 -2696"
+"targetname" "t3"
+}
+{
+"classname" "target_print"
+"origin" "15968 192 -2696"
+"message" "QuakeUnity The community for friends"
+"targetname" "t3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_teleporter"
+"origin" "6880 224 32"
+"angle" "360"
+"targetname" "t4"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "6976 224 24"
+"wait" "2"
+"count" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "7080 320 120"
+"targetname" "t5"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "112 224 24"
+"count" "3"
+"wait" "1"
+}
+{
+"classname" "item_enviro"
+"origin" "-328 64 80"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*6"
+}
+{
+"classname" "target_startTimer"
+"origin" "-168 232 168"
+"targetname" "t6"
+}
+{
+"classname" "ammo_cells"
+"origin" "7064 224 24"
+"wait" "1"
+}
+{
+"wait" "3"
+"origin" "-328 112 80"
+"classname" "weapon_plasmagun"
+}
