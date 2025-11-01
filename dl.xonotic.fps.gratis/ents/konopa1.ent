@@ -1,0 +1,97 @@
+{
+"_q3map2_version" "2.5.17n-git-2b06fe2"
+"_q3map2_cmdline" "-meta; -vis -saveprt; -light -super 2"
+"classname" "worldspawn"
+}
+{
+"angle" "-90.000000"
+"origin" "-10856.000000 176.000000 176.000000"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "target_kill1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_kill1"
+"dmg" "100"
+"origin" "-11492.000000 -708.000000 106.000000"
+"classname" "target_kill"
+}
+{
+"model" "*2"
+"wait" "999999999"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"wait" "-1"
+"targetname" "target_startTimer1"
+"origin" "-10856.000000 -48.000000 256.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*3"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "-3908.000000 448.000000 -72.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*4"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"angle" "-180.000000"
+"origin" "-12248.000000 -1356.000000 108.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "target_checkpoint2"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90.000000"
+"targetname" "target_checkpoint2"
+"origin" "-15024.000000 -3928.000000 4.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"target" "target_checkpoint3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint3"
+"angle" "90.000000"
+"origin" "-11256.000000 -2492.000000 244.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"target" "target_checkpoint4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint4"
+"origin" "-7960.000000 -2108.000000 372.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"target" "target_checkpoint5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint5"
+"angle" "90.000000"
+"origin" "-5348.000000 -772.000000 -32.000000"
+"classname" "target_checkpoint"
+}
