@@ -1,0 +1,79 @@
+{
+"message" "Can Run 1"
+"classname" "worldspawn"
+"_minlight" "16"
+"_color" "1 1 1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 -512 -104"
+"angle" "90"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t2"
+"origin" "384 -160 0"
+"classname" "target_startTimer"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t1"
+"origin" "128 5104 608"
+"classname" "target_stopTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t3"
+"origin" "128 1248 704"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "t2"
+"origin" "352 -224 96"
+"classname" "target_init"
+}
+{
+"targetname" "t3"
+"origin" "128 1216 832"
+"classname" "target_init"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8887_1"
+"model" "*4"
+}
+{
+"classname" "target_speaker"
+"targetname" "t8887_1"
+"origin" "-336.000000 2336.000000 -240.000000"
+"spawnflags" "8"
+"noise" "*falling1.wav"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8887_2"
+"model" "*5"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "t8887_2"
+"origin" "-336.000000 2336.000000 -320.000000"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"spawnflags" "12"
+"model" "*6"
+}
