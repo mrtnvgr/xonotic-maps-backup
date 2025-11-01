@@ -1,0 +1,213 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"angle" "90"
+}
+{
+"classname" "target_teleporter"
+"origin" "5555.199707 5476.799805 1646.400024"
+"targetname" "kasia"
+"angle" "270"
+}
+{
+"model" "*1"
+"classname" "trigger_teleport"
+"target" "kasia"
+}
+{
+"targetname" "stop"
+"origin" "5622.399902 -884.799988 168.000000"
+"classname" "target_stoptimer"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "5656.000000 4088.000000 705.599976"
+"wait" "5"
+"count" "100"
+}
+{
+"classname" "target_teleporter"
+"origin" "5622.399902 4177.600098 705.599976"
+"targetname" "max"
+"angle" "270"
+}
+{
+"classname" "target_init"
+"origin" "5633.600098 2968.000000 985.599976"
+"targetname" "kurwa"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5633.600098 2968.000000 963.200012"
+"targetname" "kurwa1"
+}
+{
+"classname" "target_teleporter"
+"origin" "5622.399902 2419.199951 896.000000"
+"targetname" "huj"
+"angle" "270"
+}
+{
+"classname" "item_armor_body"
+"origin" "5600.000000 2240.000000 907.200012"
+"wait" "1"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "5644.799805 2240.000000 907.200012"
+"wait" "5"
+"count" "50"
+}
+{
+"classname" "item_health_mega"
+"origin" "5622.399902 2284.800049 907.200012"
+"wait" "1"
+}
+{
+"classname" "item_haste"
+"origin" "5611.199707 4088.000000 705.599976"
+"wait" "10"
+"count" "10"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "stop"
+}
+{
+"model" "*3"
+"target" "max"
+"classname" "trigger_teleport"
+}
+{
+"model" "*4"
+"target" "kurwa"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"target" "kurwa1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"target" "huj"
+"classname" "trigger_teleport"
+}
+{
+"classname" "target_teleporter"
+"origin" "1220.799927 2307.199951 1568.000000"
+"targetname" "tel4"
+"angle" "90"
+}
+{
+"model" "*7"
+"classname" "trigger_teleport"
+"target" "tel4"
+}
+{
+"model" "*8"
+"target" "tel3"
+"classname" "trigger_teleport"
+}
+{
+"angle" "90"
+"targetname" "tel3"
+"origin" "1198.400024 683.200012 268.799988"
+"classname" "target_teleporter"
+}
+{
+"count" "50"
+"wait" "5"
+"origin" "1164.799927 828.799988 280.000000"
+"classname" "weapon_plasmagun"
+}
+{
+"wait" "1"
+"origin" "1209.599976 828.799988 280.000000"
+"classname" "item_armor_body"
+}
+{
+"wait" "1"
+"origin" "1187.199951 784.000000 280.000000"
+"classname" "item_health_mega"
+}
+{
+"count" "20"
+"wait" "5"
+"origin" "1108.799927 1937.599976 616.000000"
+"classname" "ammo_cells"
+}
+{
+"wait" "1"
+"origin" "1153.599976 1937.599976 616.000000"
+"classname" "item_armor_combat"
+}
+{
+"wait" "1"
+"origin" "1131.199951 1892.799927 616.000000"
+"classname" "item_health_large"
+}
+{
+"origin" "1220.799927 2396.800049 1579.199951"
+"classname" "item_health_mega"
+}
+{
+"model" "*9"
+"target" "ch1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "ch1"
+"origin" "963.200012 1478.400024 1668.799927"
+"classname" "target_checkpoint"
+}
+{
+"model" "*10"
+"target" "z1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "z1"
+"origin" "996.799988 1467.199951 1702.400024"
+"classname" "target_init"
+}
+{
+"count" "10"
+"wait" "10"
+"origin" "5633.600098 4043.199951 705.599976"
+"classname" "item_enviro"
+}
+{
+"model" "*11"
+"classname" "trigger_teleport"
+"target" "babcia"
+}
+{
+"angle" "90"
+"targetname" "babcia"
+"origin" "1187.199951 -190.399994 268.799988"
+"classname" "target_teleporter"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1198.400024 -224.000000 291.199982"
+"angle" "90"
+}
+{
+"model" "*12"
+"classname" "trigger_multiple"
+"target" "bleh"
+}
+{
+"origin" "1142.400024 -44.799999 627.200012"
+"classname" "target_starttimer"
+"targetname" "bleh"
+}
+{
+"classname" "target_init"
+"origin" "1176.000000 -56.000000 649.599976"
+"targetname" "bleh"
+}
