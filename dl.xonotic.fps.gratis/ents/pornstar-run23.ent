@@ -1,0 +1,143 @@
+{
+"classname" "worldspawn"
+"message" "Made By Pornstar"
+"_ambient" "15"
+"_blocksize" "4096"
+"gridsize" "512 512 512"
+}
+{
+"classname" "info_player_start"
+"origin" "-320 2592 628"
+"angle" "270"
+}
+{
+"classname" "item_enviro"
+"origin" "-320 2528 624"
+"count" "999"
+}
+{
+"classname" "target_startTimer"
+"origin" "-260 2528 652"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-7424 3144 992"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-288 512 696"
+"targetname" "t36457"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36457"
+"model" "*3"
+}
+{
+"targetname" "t36458"
+"origin" "-288 576 1912"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36458"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-288 2752 1976"
+"targetname" "t36459"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36459"
+"model" "*5"
+}
+{
+"targetname" "t36460"
+"origin" "-3040 3136 1208"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36460"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-6752 3136 1208"
+"targetname" "t36461"
+}
+{
+"classname" "trigger_multiple"
+"target" "t36461"
+"model" "*7"
+}
+{
+"targetname" "t36455"
+"origin" "-320 -2272 1760"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push"
+"target" "t36455"
+"model" "*8"
+}
+{
+"targetname" "t5"
+"count" "3"
+"origin" "-200 -2112 168"
+"classname" "weapon_rocketlauncher"
+"wait" "-1"
+}
+{
+"target" "t5"
+"targetname" "t4"
+"origin" "-280 -2088 160"
+"classname" "target_give"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t36462"
+"origin" "-288 -2048 312"
+"classname" "target_checkpoint"
+}
+{
+"target" "t36462"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"wait" "-1"
+"count" "1"
+"origin" "-320 2480 624"
+"classname" "weapon_rocketlauncher"
+}
+{
+"targetname" "t17"
+"origin" "-383 816 922"
+"classname" "target_kill"
+}
+{
+"dmg" "200"
+"spawnflags" "1"
+"target" "t17"
+"classname" "trigger_hurt"
+"model" "*11"
+}
