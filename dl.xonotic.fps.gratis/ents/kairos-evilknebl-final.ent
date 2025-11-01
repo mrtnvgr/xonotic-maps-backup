@@ -1,0 +1,71 @@
+{
+"message" "<3 EK"
+"classname" "worldspawn"
+"_ambient" "4"
+}
+{
+"target" "t1"
+"angle" "90"
+"origin" "0 -64 24"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "t1"
+"spawnflags" "32"
+"origin" "-96 -32 64"
+"classname" "target_init"
+}
+{
+"count" "500"
+"target" "t2"
+"speed" "300"
+"spawnflags" "15"
+"classname" "trigger_push_velocity"
+"model" "*1"
+}
+{
+"targetname" "t2"
+"origin" "-392 1888 992"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push_velocity"
+"targetname" "t3"
+"spawnflags" "12"
+"count" "500"
+"target" "t5"
+"model" "*2"
+}
+{
+"classname" "target_position"
+"origin" "1024 2080 16"
+"targetname" "t5"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"count" "999"
+"dmg" "999"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1280 1664 1152"
+"targetname" "t6"
+}
+{
+"wait" "-1"
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*5"
+}
+{
+"classname" "target_startTimer"
+"origin" "192 208 128"
+"targetname" "t7"
+}
