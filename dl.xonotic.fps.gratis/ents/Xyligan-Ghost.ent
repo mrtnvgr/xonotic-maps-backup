@@ -1,0 +1,92 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "64 112 40"
+"angle" "270"
+}
+{
+"classname" "item_haste"
+"origin" "64 48 40"
+"count" "200"
+}
+{
+"classname" "target_startTimer"
+"targetname" "t1"
+"origin" "56 -128 72"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "t2"
+"origin" "5016 -9176 288"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "-8 -5080 136"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3640 -8656 128"
+"targetname" "t3"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t4"
+"origin" "-1984 -5760 264"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "320 -3648 264"
+"targetname" "t5"
+}
+{
+"spawnflags" "8"
+"targetname" "r1"
+"noise" "*falling1.wav"
+"origin" "-376 -2224 -128"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "8"
+"target" "r1"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"dmg" "1000"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*8"
+}
