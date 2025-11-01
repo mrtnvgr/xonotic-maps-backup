@@ -1,0 +1,123 @@
+{
+"classname" "worldspawn"
+"angle" "-1"
+}
+{
+"angle" "90"
+"origin" "0 -1264 -40"
+"classname" "info_player_deathmatch"
+}
+{
+"wait" "-1"
+"target" "checkpoint1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "checkpoint1"
+"noise" "sound/mrm-fugget/bell1.wav"
+"spawnflags" "12"
+"origin" "0 -1128 -12"
+"classname" "target_speaker"
+}
+{
+"targetname" "checkpoint1"
+"origin" "0 -1128 4"
+"classname" "target_startTimer"
+}
+{
+"dmg" "999"
+"spawnflags" "12"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "checkpoint2"
+"wait" "-1"
+"model" "*3"
+}
+{
+"classname" "target_speaker"
+"origin" "0 276 28"
+"spawnflags" "12"
+"noise" "sound/mrm-fugget/bell2.wav"
+"targetname" "checkpoint2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "0 276 44"
+"targetname" "checkpoint2"
+}
+{
+"wait" "-1"
+"target" "checkpoint3"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "checkpoint3"
+"noise" "sound/mrm-fugget/bell3.wav"
+"spawnflags" "12"
+"origin" "0 916 28"
+"classname" "target_speaker"
+}
+{
+"targetname" "checkpoint3"
+"origin" "0 916 44"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "checkpoint4"
+"wait" "-1"
+"model" "*5"
+}
+{
+"classname" "target_speaker"
+"origin" "0 2196 28"
+"spawnflags" "12"
+"noise" "sound/mrm-fugget/bell4.wav"
+"targetname" "checkpoint4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "0 2196 44"
+"targetname" "checkpoint4"
+}
+{
+"wait" "-1"
+"target" "checkpoint5"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "checkpoint5"
+"noise" "sound/mrm-fugget/bell5.wav"
+"spawnflags" "12"
+"origin" "0 3092 28"
+"classname" "target_speaker"
+}
+{
+"targetname" "checkpoint5"
+"origin" "0 3092 44"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "checkpoint6"
+"wait" "-1"
+"model" "*7"
+}
+{
+"classname" "target_speaker"
+"origin" "0 3608 52"
+"spawnflags" "12"
+"noise" "sound/mrm-fugget/bell1.wav"
+"targetname" "checkpoint6"
+}
+{
+"classname" "target_stopTimer"
+"origin" "0 3608 68"
+"targetname" "checkpoint6"
+}
