@@ -1,0 +1,129 @@
+{
+"classname" "worldspawn"
+"_lightmapscale" ".3"
+"_blocksize" "4096"
+"gridsize" "256 256 512"
+"message" "Made By ^1Ghost"
+"ambient" "13"
+}
+{
+"target" "t2"
+"targetname" "t1"
+"origin" "88 40 -64"
+"classname" "target_give"
+}
+{
+"count" "99"
+"targetname" "t2"
+"origin" "88 88 -64"
+"classname" "item_haste"
+}
+{
+"targetname" "t3"
+"origin" "-24 104 64"
+"classname" "target_startTimer"
+}
+{
+"targetname" "t4"
+"origin" "96 600 64"
+"classname" "target_init"
+}
+{
+"targetname" "t5"
+"origin" "32 1608 64"
+"classname" "target_checkpoint"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-640 4232 64"
+"targetname" "t7"
+}
+{
+"classname" "target_stopTimer"
+"origin" "32 9928 -688"
+"targetname" "t6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "32 7016 -672"
+"targetname" "t8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*5"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"angle" "90"
+"origin" "0 40 -72"
+"classname" "info_player_start"
+}
+{
+"target" "t1"
+"wait" "999"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "999"
+"model" "*8"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "12"
+"model" "*9"
+}
+{
+"origin" "0 1160 -80"
+"classname" "misc_portal_surface"
+}
+{
+"classname" "misc_portal_surface"
+"origin" "0 8768 -800"
+}
+{
+"spawnflags" "12"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*10"
+}
+{
+"classname" "misc_portal_surface"
+"origin" "0 320 -104"
+}
+{
+"origin" "-80 7648 -896"
+"classname" "misc_portal_surface"
+}
+{
+"classname" "misc_portal_surface"
+"origin" "0 9584 -800"
+}
