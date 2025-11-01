@@ -1,0 +1,65 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "-536 132 152"
+"classname" "info_player_deathmatch"
+}
+{
+"count" "1"
+"wait" "3"
+"origin" "5312 -40 96"
+"classname" "weapon_grenadelauncher"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_teleporter"
+"origin" "-536 96 160"
+"angle" "360"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_teleporter"
+"origin" "5208 -24 120"
+"angle" "360"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "-368 32 168"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4992 64 232"
+"targetname" "t4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "6032 -3272 232"
+"targetname" "t5"
+}
