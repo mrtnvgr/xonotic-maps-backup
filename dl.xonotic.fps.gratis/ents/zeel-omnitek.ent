@@ -1,0 +1,130 @@
+{
+"gridsize" "96 96 160"
+"classname" "worldspawn"
+"_q3map2_cmdline" "-meta; -light -fast -super 2"
+"_q3map2_version" "2.5.17n-git-2b06fe2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "4224.000000 -9776.000000 -2688.000000"
+"angle" "90.000000"
+}
+{
+"classname" "trigger_multiple"
+"target" "START0"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "4176.000000 -9840.000000 -2648.000000"
+"targetname" "START0"
+"angle" "179.999985"
+}
+{
+"classname" "trigger_multiple"
+"target" "END1"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "9760.000000 -2904.000000 -3000.000000"
+"targetname" "END1"
+"angle" "-90.000000"
+}
+{
+"classname" "trigger_multiple"
+"target" "CHECK0"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4528.000000 -7088.000000 -2408.000000"
+"targetname" "CHECK0"
+"angles" "-0.000000 -90.000000 0.000010"
+"_light;light" "12000"
+"radius" "128"
+}
+{
+"classname" "trigger_multiple"
+"target" "CHECK1"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "6176.000000 -4624.000000 -2520.000000"
+"targetname" "CHECK1"
+"angles" "-0.000000 -90.000000 0.000010"
+"_light;light" "12000"
+"radius" "128"
+}
+{
+"classname" "trigger_multiple"
+"target" "CHECK2"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5088.000000 -2432.000000 -2200.000000"
+"targetname" "CHECK2"
+"angles" "0.000010 179.999985 0.000000"
+"_light;light" "12000"
+"radius" "128"
+}
+{
+"classname" "trigger_multiple"
+"target" "CHECK3"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2512.000000 -1088.000000 -2200.000000"
+"targetname" "CHECK3"
+"angles" "-0.000000 89.999992 0.000010"
+"_light;light" "12000"
+"radius" "128"
+}
+{
+"classname" "trigger_multiple"
+"target" "CHECK4"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3504.000000 1616.000000 -2200.000000"
+"targetname" "CHECK4"
+"angles" "0.000010 0.000010 0.000000"
+"_light;light" "12000"
+"radius" "128"
+}
+{
+"classname" "trigger_multiple"
+"target" "CHECK5"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "9216.000000 1568.000000 -2296.000000"
+"targetname" "CHECK5"
+"angles" "0.000010 0.000010 0.000000"
+"_light;light" "12000"
+"radius" "128"
+}
+{
+"classname" "trigger_multiple"
+"target" "CHECK6"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "9696.000000 -1440.000000 -2600.000000"
+"targetname" "CHECK6"
+"angles" "-0.000000 -90.000000 0.000010"
+"_light;light" "12000"
+"radius" "128"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "8"
+"model" "*10"
+}
