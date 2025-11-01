@@ -1,0 +1,251 @@
+{
+"message" "unbalanced by [acid]"
+"classname" "worldspawn"
+}
+{
+"origin" "256 -128 80"
+"classname" "item_quad"
+}
+{
+"origin" "448 640 400"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "224 -800 336"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "-320 224 400"
+"classname" "weapon_grenadelauncher"
+}
+{
+"angle" "180"
+"origin" "912 -32 280"
+"classname" "misc_teleporter_dest"
+"targetname" "t6"
+}
+{
+"angle" "270"
+"origin" "224 920 280"
+"classname" "misc_teleporter_dest"
+"targetname" "t1"
+}
+{
+"angle" "90"
+"origin" "-224 -736 88"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "640 -384 280"
+"angle" "270"
+}
+{
+"angle" "180"
+"origin" "928 -128 280"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "536 -248 280"
+"angle" "180"
+}
+{
+"angle" "270"
+"origin" "-96 288 24"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-352 -96 24"
+"angle" "360"
+}
+{
+"angle" "180"
+"origin" "352 832 280"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "448 736 408"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "96 288 280"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "672 352 -104"
+"angle" "360"
+}
+{
+"angle" "360"
+"origin" "-416 224 408"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "32 -544 344"
+"angle" "270"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t6"
+"model" "*2"
+}
+{
+"origin" "704 -768 208"
+"classname" "item_health_mega"
+}
+{
+"origin" "-96 224 16"
+"classname" "weapon_shotgun"
+}
+{
+"classname" "weapon_shotgun"
+"origin" "832 -128 272"
+}
+{
+"origin" "-288 -352 400"
+"classname" "item_armor_combat"
+}
+{
+"origin" "224 832 272"
+"classname" "item_health_large"
+}
+{
+"origin" "-224 -608 80"
+"classname" "weapon_railgun"
+}
+{
+"origin" "-96 -272 336"
+"classname" "item_armor_body"
+}
+{
+"origin" "800 352 -112"
+"classname" "weapon_bfg"
+}
+{
+"origin" "-224 -32 16"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "-288 -32 16"
+}
+{
+"origin" "128 -192 -112"
+"classname" "ammo_slugs"
+}
+{
+"origin" "448 -256 272"
+"classname" "weapon_lightning"
+}
+{
+"origin" "96 -640 336"
+"classname" "ammo_lightning"
+}
+{
+"origin" "512 -448 80"
+"classname" "ammo_rockets"
+}
+{
+"origin" "800 -64 -112"
+"classname" "item_health"
+}
+{
+"origin" "0 544 400"
+"classname" "ammo_shells"
+}
+{
+"origin" "64 544 400"
+"classname" "ammo_rockets"
+}
+{
+"origin" "96 -576 336"
+"classname" "ammo_grenades"
+}
+{
+"origin" "640 672 400"
+"classname" "item_armor_shard"
+}
+{
+"classname" "item_armor_shard"
+"origin" "704 672 400"
+}
+{
+"origin" "768 672 400"
+"classname" "item_armor_shard"
+}
+{
+"speed" "256"
+"height" "256"
+"classname" "func_plat"
+"_celshader" "acid/ink"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "64"
+"lip" "-256"
+"dmg" "9999"
+"spawnflags" "4"
+"targetname" "t7"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*5"
+}
+{
+"spawnflags" "4"
+"classname" "target_print"
+"origin" "1312 320 0"
+"message" "you have found the grot of desire"
+"targetname" "t9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t9"
+"model" "*6"
+}
+{
+"classname" "target_position"
+"origin" "1168 312 40"
+"targetname" "t8"
+}
+{
+"classname" "trigger_teleport"
+"target" "t8"
+"model" "*7"
+}
+{
+"classname" "item_health"
+"origin" "-192 -352 400"
+}
+{
+"targetname" "secret"
+"wait" "5"
+"angle" "360"
+"lip" "-24"
+"speed" "24"
+"classname" "func_door"
+"model" "*8"
+}
+{
+"_celshader" "acid/ink"
+"target" "secret"
+"angle" "180"
+"classname" "func_button"
+"health" "1"
+"model" "*9"
+}
