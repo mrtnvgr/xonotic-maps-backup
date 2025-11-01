@@ -1,0 +1,42 @@
+{
+"classname" "worldspawn"
+"angle" "-1"
+}
+{
+"origin" "-624 0 22"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "start"
+"origin" "-352 0 96"
+"classname" "target_startTimer"
+}
+{
+"wait" "-1"
+"target" "start"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "stop"
+"origin" "-1472 -32 -32"
+"classname" "target_stopTimer"
+}
+{
+"wait" "-1"
+"target" "stop"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "stop"
+"message" "wow happy birthday wow"
+"origin" "-1472 32 -32"
+"classname" "target_print"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "999"
+"model" "*3"
+}
