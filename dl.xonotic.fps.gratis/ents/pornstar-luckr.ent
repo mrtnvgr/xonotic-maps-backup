@@ -1,0 +1,174 @@
+{
+"_blocksize" "4096"
+"classname" "worldspawn"
+"gridsize" "512 512 512"
+"message" "Made By Pornstar"
+"_ambient" "3"
+}
+{
+"angle" "90"
+"origin" "-1952 -3584 160"
+"classname" "info_player_start"
+}
+{
+"count" "999"
+"origin" "-1952 -3520 160"
+"classname" "item_haste"
+}
+{
+"spawnflags" "16"
+"classname" "trigger_hurt"
+"dmg" "15"
+"model" "*1"
+}
+{
+"dmg" "15"
+"classname" "trigger_hurt"
+"spawnflags" "16"
+"model" "*2"
+}
+{
+"targetname" "t1"
+"origin" "-1952 -3288 152"
+"classname" "misc_teleporter_dest"
+"angle" "90"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"angle" "90"
+"classname" "misc_teleporter_dest"
+"origin" "-1952 680 664"
+"targetname" "t2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*4"
+}
+{
+"targetname" "t3"
+"origin" "-1952 3176 568"
+"classname" "misc_teleporter_dest"
+"angle" "90"
+}
+{
+"target" "t3"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"angle" "90"
+"classname" "misc_teleporter_dest"
+"origin" "-1952 7712 568"
+"targetname" "t4"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*6"
+}
+{
+"targetname" "t5"
+"origin" "-1952 12064 664"
+"classname" "misc_teleporter_dest"
+"angle" "90"
+}
+{
+"target" "t5"
+"classname" "trigger_teleport"
+"model" "*7"
+}
+{
+"classname" "target_startTimer"
+"origin" "-1996 -3320 172"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*8"
+}
+{
+"targetname" "t12"
+"origin" "-2160 20160 744"
+"classname" "target_stopTimer"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"targetname" "t10"
+"origin" "-1840 -1136 784"
+"classname" "target_checkpoint"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1840 4368 784"
+"targetname" "t13"
+}
+{
+"classname" "trigger_multiple"
+"target" "t13"
+"model" "*11"
+}
+{
+"targetname" "t14"
+"origin" "-1840 10320 784"
+"classname" "target_checkpoint"
+}
+{
+"target" "t14"
+"classname" "trigger_multiple"
+"model" "*12"
+}
+{
+"angle" "90"
+"classname" "func_pendulum"
+"origin" "-2400 2424 944"
+"model" "*13"
+}
+{
+"spawnflags" "3"
+"target" "accel_3"
+"classname" "trigger_push_velocity"
+"count" "0"
+"speed" "0"
+"model" "*14"
+}
+{
+"origin" "-1952 -1920 560"
+"targetname" "accel_3"
+"classname" "target_position"
+}
+{
+"classname" "func_pendulum"
+"angle" "90"
+"origin" "-1504 2424 944"
+"model" "*15"
+}
+{
+"targetname" "t15"
+"origin" "-1944 15200 632"
+"classname" "misc_teleporter_dest"
+"angle" "90"
+}
+{
+"target" "t15"
+"classname" "trigger_teleport"
+"model" "*16"
+}
+{
+"classname" "func_bobbing"
+"model" "*17"
+}
