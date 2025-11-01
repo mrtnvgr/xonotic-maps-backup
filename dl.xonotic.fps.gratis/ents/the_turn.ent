@@ -1,0 +1,48 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_race"
+"origin" "0 -384 64"
+"angle" "90"
+"target" "finish"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "0"
+"targetname" "finish"
+"model" "*1"
+}
+{
+"classname" "trigger_race_checkpoint"
+"cnt" "1"
+"targetname" "cp1"
+"model" "*2"
+}
+{
+"classname" "trigger_race_checkpoint"
+"targetname" "cp2"
+"cnt" "2"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "back"
+"model" "*4"
+}
+{
+"classname" "info_player_race"
+"origin" "896 2560 64"
+"target" "cp1"
+}
+{
+"classname" "info_player_race"
+"origin" "2240 2560 64"
+"target" "cp2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "448 -384 64"
+"angle" "180"
+"targetname" "back"
+}
