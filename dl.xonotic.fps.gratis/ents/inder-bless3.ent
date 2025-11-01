@@ -1,0 +1,42 @@
+{
+"classname" "worldspawn"
+"gridsize" "1024 1024 2048"
+"minlight" "18"
+"_q3map2_cmdline" "-meta -noob"
+"_q3map2_version" "2.5.17n"
+}
+{
+"classname" "info_player_start"
+"origin" "-24264 -8688 592"
+}
+{
+"classname" "item_enviro"
+"origin" "-24256 -8696 688"
+"count" "200"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-23472 -7496 352"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer2"
+"model" "*2"
+}
+{
+"classname" "item_haste"
+"origin" "-24240 -8688 640"
+"count" "200"
+}
+{
+"classname" "target_stopTimer"
+"origin" "8808 18400 -2016"
+"targetname" "target_stopTimer2"
+}
