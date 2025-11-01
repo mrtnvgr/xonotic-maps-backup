@@ -1,0 +1,228 @@
+{
+"classname" "worldspawn"
+"ambient" "20"
+}
+{
+"target" "t1"
+"origin" "-96 0 24"
+"classname" "info_player_start"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "32 0 16"
+"count" "-1"
+"wait" "1"
+}
+{
+"target" "t2"
+"targetname" "t1"
+"origin" "-128 0 32"
+"classname" "target_give"
+}
+{
+"targetname" "t2"
+"count" "10"
+"origin" "-128 -64 32"
+"classname" "ammo_rockets"
+}
+{
+"classname" "item_enviro"
+"origin" "-128 64 32"
+"count" "99999"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*1"
+}
+{
+"classname" "target_kill"
+"origin" "1392 0 -64"
+"targetname" "t3"
+}
+{
+"count" "2"
+"wait" "3"
+"origin" "3136 0 624"
+"classname" "ammo_rockets"
+}
+{
+"angle" "180"
+"targetname" "t6"
+"origin" "2304 0 896"
+"classname" "target_position"
+}
+{
+"target" "t6"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"classname" "ammo_rockets"
+"origin" "1728 0 848"
+"wait" "3"
+"count" "3"
+}
+{
+"target" "t8"
+"targetname" "t7"
+"origin" "3392 640 320"
+"classname" "target_give"
+}
+{
+"targetname" "t8"
+"count" "50"
+"origin" "3328 640 320"
+"classname" "weapon_plasmagun"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"wait" "3"
+"model" "*3"
+}
+{
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t9"
+"origin" "208 0 272"
+"classname" "target_startTimer"
+}
+{
+"classname" "target_give"
+"origin" "3392 -640 320"
+"targetname" "t11"
+"target" "t10"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "3328 -640 320"
+"count" "50"
+"targetname" "t10"
+}
+{
+"wait" "3"
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "t12"
+"model" "*6"
+}
+{
+"classname" "target_position"
+"origin" "3584 0 576"
+"targetname" "t12"
+}
+{
+"classname" "target_position"
+"origin" "5440 128 1120"
+"angle" "45"
+"targetname" "t20"
+}
+{
+"classname" "target_position"
+"origin" "5440 -128 1120"
+"angle" "315"
+"targetname" "t21"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1344 1280 1248"
+"targetname" "t15"
+}
+{
+"classname" "trigger_multiple"
+"target" "t15"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1344 -1280 1248"
+"targetname" "t16"
+}
+{
+"classname" "trigger_multiple"
+"target" "t16"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5384 0 1216"
+"targetname" "t17"
+}
+{
+"classname" "trigger_multiple"
+"target" "t17"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"target" "t17"
+"model" "*10"
+}
+{
+"origin" "1248 640 1760"
+"classname" "target_position"
+"angle" "180"
+"targetname" "t18"
+}
+{
+"classname" "target_position"
+"origin" "1248 -640 1760"
+"angle" "180"
+"targetname" "t19"
+}
+{
+"classname" "trigger_teleport"
+"target" "t18"
+"model" "*11"
+}
+{
+"classname" "trigger_teleport"
+"target" "t19"
+"model" "*12"
+}
+{
+"classname" "trigger_teleport"
+"target" "t20"
+"model" "*13"
+}
+{
+"classname" "trigger_teleport"
+"target" "t21"
+"model" "*14"
+}
+{
+"classname" "target_position"
+"origin" "-32 0 1760"
+"targetname" "t22"
+"angle" "180"
+}
+{
+"classname" "trigger_teleport"
+"target" "t22"
+"model" "*15"
+}
+{
+"classname" "target_stopTimer"
+"origin" "384 0 1024"
+"targetname" "t23"
+}
+{
+"classname" "trigger_multiple"
+"target" "t23"
+"model" "*16"
+}
+{
+"wait" "3"
+"count" "20"
+"origin" "1088 0 1712"
+"classname" "ammo_cells"
+}
