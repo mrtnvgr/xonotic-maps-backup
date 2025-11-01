@@ -1,0 +1,202 @@
+{
+"_q3map2_version" "2.5.17n-git-b25aa87"
+"_q3map2_cmdline" "-meta; -vis; -light -dirty -fast -samples 3"
+"ambient" "5"
+"_blocksize" "2048"
+"_lightmapscale" "0.125"
+"classname" "worldspawn"
+}
+{
+"target" "target_give1"
+"origin" "5688 11952 -228"
+"angle" "135"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"wait" "-1"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"target" "target_kill1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_kill1"
+"origin" "1096 11368 144"
+"classname" "target_kill"
+}
+{
+"model" "*3"
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"angle" "180"
+"targetname" "t1"
+"origin" "836 10280 140"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"wait" "-1"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"angle" "180"
+"origin" "5633 11956 8"
+"targetname" "t50sadfg0"
+"target" "t11"
+"classname" "target_teleporter"
+}
+{
+"model" "*5"
+"target" "t50sadfg0"
+"lip" "3000"
+"wait" ".01"
+"speed" "5000"
+"angle" "-2"
+"health" "1"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"message" "/respawnpoint set"
+"targetname" "target_print2"
+"origin" "5440 12180 -20"
+"classname" "target_print"
+}
+{
+"model" "*6"
+"target" "target_print2"
+"classname" "trigger_multiple"
+}
+{
+"angle" "135"
+"targetname" "t8"
+"origin" "5476 12180 -2"
+"classname" "target_position"
+}
+{
+"model" "*7"
+"wait" "-1"
+"target" "t7"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-1.40334e-014"
+"targetname" "t7"
+"origin" "1056 14396 140"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"wait" "-1"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"target" "target_kill2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_kill2"
+"origin" "-1132 11368 144"
+"classname" "target_kill"
+}
+{
+"angle" "-90"
+"origin" "-5738 12007 8"
+"targetname" "t50sadfg2"
+"target" "t8"
+"classname" "target_teleporter"
+}
+{
+"model" "*10"
+"target" "t50sadfg2"
+"lip" "3000"
+"wait" ".01"
+"speed" "5000"
+"angle" "-2"
+"health" "1"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"message" "/respawnpoint set"
+"targetname" "target_print3"
+"origin" "-5476 12180 -20"
+"classname" "target_print"
+}
+{
+"model" "*11"
+"target" "target_print3"
+"classname" "trigger_multiple"
+}
+{
+"angle" "45"
+"targetname" "t11"
+"origin" "-5512 12180 -2"
+"classname" "target_position"
+}
+{
+"angle" "45"
+"target" "target_give2"
+"origin" "-5724 11952 -228"
+"classname" "team_CTF_bluespawn"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "5389 12254 92"
+"classname" "target_startTimer"
+}
+{
+"origin" "2920 9772 144"
+"targetname" "t2"
+"classname" "target_stopTimer"
+}
+{
+"origin" "-2956 9772 144"
+"targetname" "t4"
+"classname" "target_stopTimer"
+}
+{
+"model" "*12"
+"wait" "-1"
+"target" "target_stopTimer4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer4"
+"origin" "-5425 12254 92"
+"classname" "target_startTimer"
+}
+{
+"model" "*13"
+"wait" "-1"
+"target" "t5"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-1.40334e-014"
+"targetname" "t5"
+"origin" "-1084 14396 140"
+"classname" "target_checkpoint"
+}
+{
+"model" "*14"
+"wait" "-1"
+"target" "t6"
+"classname" "trigger_multiple"
+}
+{
+"angle" "180"
+"targetname" "t6"
+"origin" "-848 10280 140"
+"classname" "target_checkpoint"
+}
