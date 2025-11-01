@@ -1,0 +1,61 @@
+{
+"angle" "360"
+"classname" "worldspawn"
+}
+{
+"origin" "1536 384 -96"
+"count" "999"
+"wait" "1"
+"spawnflags" "1"
+"classname" "item_enviro"
+}
+{
+"spawnflags" "27"
+"targetname" "t3"
+"origin" "-864 -736 672"
+"classname" "target_init"
+}
+{
+"model" "*1"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "1"
+"origin" "-1408 -800 352"
+"wait" "1"
+"count" "2"
+"angle" "90"
+"classname" "weapon_grenadelauncher"
+}
+{
+"targetname" "t2"
+"origin" "-416 -1888 632"
+"classname" "target_stopTimer"
+}
+{
+"model" "*2"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t1"
+"origin" "1440 384 -64"
+"classname" "target_startTimer"
+}
+{
+"model" "*3"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1632 384 -96"
+"angle" "180"
+"classname" "info_player_start"
+}
+{
+"model" "*4"
+"health" "1"
+"angle" "180"
+"classname" "func_button"
+}
