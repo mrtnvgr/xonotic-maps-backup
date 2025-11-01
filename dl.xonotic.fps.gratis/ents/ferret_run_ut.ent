@@ -1,0 +1,43 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "89.599998 448.000000 44.799999"
+}
+{
+"classname" "trigger_push"
+"target" "target_awning"
+"model" "*1"
+}
+{
+"classname" "target_position"
+"origin" "705.599976 7033.600098 1512.000000"
+"targetname" "target_awning"
+"model" "maps/ut4_ferret_run/drain.ase"
+}
+{
+"classname" "target_speaker"
+"origin" "3404.800049 7022.399902 896.000000"
+"noise" "sounds/bt_ferrets_run/boing_x.wav"
+"targetname" "target_boing"
+"spawnflags" "4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_boing"
+"model" "*2"
+}
+{
+"classname" "trigger_push"
+"target" "rooftop1"
+"model" "*3"
+}
+{
+"classname" "target_position"
+"origin" "4188.799805 6675.199707 1971.199951"
+"targetname" "rooftop1"
+}
