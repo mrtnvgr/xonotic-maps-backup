@@ -1,0 +1,109 @@
+{
+"classname" "worldspawn"
+"ambient" "22.5"
+"_color" "0.53 0.55 0.53"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "224 256 32"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "600 256 48"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "368 832 -104"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2600 2272 -80"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5512 5696 -280"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give1"
+"model" "*5"
+}
+{
+"classname" "target_give"
+"origin" "7872 5680 -272"
+"targetname" "target_give1"
+"target" "item_haste1"
+}
+{
+"classname" "item_haste"
+"origin" "7904 5664 -272"
+"targetname" "item_haste1"
+"count" "3"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "7952 5664 -272"
+"count" "9000"
+"targetname" "item_haste1"
+}
+{
+"classname" "item_enviro"
+"origin" "7936 5696 -272"
+"targetname" "item_haste1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "8280 5696 2728"
+"targetname" "target_checkpoint4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "10048 5696 3176"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*7"
+}
+{
+"classname" "info_player_intermission"
+"origin" "1504 104 -64"
+"angle" "90"
+"target" "target_position1"
+}
+{
+"classname" "target_position"
+"origin" "1424 216 -96"
+"angle" "90"
+"targetname" "target_position1"
+}
