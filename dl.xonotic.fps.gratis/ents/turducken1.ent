@@ -1,0 +1,46 @@
+{
+"_q3map2_version" "2.5.17n-git-ac4581f"
+"_q3map2_cmdline" "-meta -patchmeta; -vis; -light -nocollapse -fast -samples 3 -bounce 2 -patchshadows"
+"message" "turducken"
+"_blocksize" "2048 2048 0"
+"_minlight" "25"
+"classname" "worldspawn"
+}
+{
+"origin" "-240.000000 -336.000000 -1620.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-240.000000 -464.000000 -1620.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "8.000000 -400.000000 -1472.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "264.000000 -400.000000 2600.000000"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "target_kill1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_kill1"
+"origin" "-512.000000 0.000000 -1536.000000"
+"classname" "target_kill"
+}
