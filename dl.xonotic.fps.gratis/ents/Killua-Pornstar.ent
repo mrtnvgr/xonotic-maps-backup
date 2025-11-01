@@ -1,0 +1,155 @@
+{
+"_blocksize" "4096"
+"gridsize" "256 256 256"
+"classname" "worldspawn"
+}
+{
+"targetname" "t1"
+"origin" "1144 -48 24"
+"classname" "target_position"
+"angle" "360"
+}
+{
+"targetname" "t3"
+"origin" "2072 600 -40"
+"classname" "target_position"
+"angle" "90"
+}
+{
+"target" "t3"
+"classname" "trigger_teleport"
+"model" "*1"
+}
+{
+"target" "t1"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"targetname" "t4"
+"origin" "1504 2264 24"
+"classname" "target_position"
+"angle" "90"
+}
+{
+"target" "t4"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"targetname" "t5"
+"origin" "1352 3584 24"
+"classname" "target_position"
+"angle" "360"
+}
+{
+"target" "t5"
+"classname" "trigger_teleport"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "136 16 224"
+"targetname" "t74"
+}
+{
+"classname" "trigger_multiple"
+"target" "t74"
+"model" "*5"
+}
+{
+"targetname" "t75"
+"origin" "1624 -32 272"
+"classname" "target_checkpoint"
+}
+{
+"target" "t75"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t76"
+"origin" "1496 2120 192"
+"classname" "target_checkpoint"
+}
+{
+"target" "t76"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t77"
+"origin" "3304 3624 192"
+"classname" "target_checkpoint"
+}
+{
+"target" "t77"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t78"
+"origin" "3088 8072 -512"
+"classname" "target_stopTimer"
+}
+{
+"target" "t78"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"classname" "info_player_start"
+"origin" "-48 -32 24"
+}
+{
+"targetname" "t79"
+"origin" "5584 4848 192"
+"classname" "target_checkpoint"
+}
+{
+"target" "t79"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"classname" "target_position"
+"origin" "264 -32 24"
+"targetname" "t80"
+"angle" "360"
+}
+{
+"classname" "trigger_teleport"
+"target" "t80"
+"model" "*11"
+}
+{
+"classname" "target_position"
+"origin" "4536 3656 -112"
+"targetname" "t81"
+}
+{
+"classname" "trigger_teleport"
+"target" "t81"
+"model" "*12"
+}
+{
+"classname" "target_position"
+"origin" "5208 8480 -680"
+"angle" "180"
+"targetname" "t82"
+}
+{
+"classname" "trigger_teleport"
+"target" "t82"
+"model" "*13"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4752 8480 -432"
+"targetname" "t83"
+}
+{
+"classname" "trigger_multiple"
+"target" "t83"
+"model" "*14"
+}
