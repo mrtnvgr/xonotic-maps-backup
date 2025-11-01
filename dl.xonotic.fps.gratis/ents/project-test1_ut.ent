@@ -1,0 +1,79 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "-2268.000000 -2833.599854 -1556.799927"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "-2184.000000 -2833.599854 -1556.799927"
+"angle" "90"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2368.800049 -2814.000000 -1556.799927"
+"angle" "180"
+"targetname" "room1-trans1"
+}
+{
+"classname" "trigger_teleport"
+"target" "room1-trans1"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "room1-trans2"
+"model" "*2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1374.799927 -2816.800049 -966.000000"
+"targetname" "room1-trans2"
+}
+{
+"classname" "trigger_teleport"
+"target" "room2-trans1"
+"model" "*3"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1265.599976 -2777.599854 -579.599976"
+"targetname" "room2-trans1"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1212.400024 -2282.000000 -204.399994"
+"targetname" "room2-trans2b"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1206.799927 -2758.000000 -179.199997"
+"targetname" "room2-trans2a1"
+}
+{
+"classname" "trigger_teleport"
+"target" "room2-trans2a1"
+"model" "*4"
+}
+{
+"classname" "trigger_teleport"
+"target" "room2-trans2b"
+"model" "*5"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2368.800049 -2819.599854 -1537.199951"
+"angle" "180"
+"targetname" "finish-to-start"
+}
+{
+"classname" "trigger_teleport"
+"target" "finish-to-start"
+"model" "*6"
+}
