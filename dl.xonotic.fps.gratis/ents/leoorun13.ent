@@ -1,0 +1,50 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "-17216 4096 640"
+"classname" "team_CTF_redspawn"
+}
+{
+"model" "*1"
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"target" "target_checkpoint1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"name" "flatrun 1"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"name" "flatrun 1"
+"targetname" "target_startTimer1"
+"origin" "-16896 4240 640"
+"classname" "target_startTimer"
+}
+{
+"name" "flatrun 1"
+"targetname" "target_checkpoint1"
+"origin" "1184 1008 -1696"
+"classname" "target_checkpoint"
+}
+{
+"name" "flatrun 1"
+"targetname" "target_stopTimer1"
+"origin" "25088 2288 -4496"
+"classname" "target_stopTimer"
+}
+{
+"origin" "-17216 4224 640"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-17216 4416 640"
+"classname" "team_CTF_bluespawn"
+}
