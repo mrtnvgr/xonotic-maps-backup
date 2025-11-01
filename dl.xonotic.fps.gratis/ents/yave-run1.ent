@@ -1,0 +1,39 @@
+{
+"classname" "worldspawn"
+"_minlight" "18"
+"ambient" "15"
+"gridsize" "56 40 40"
+"_blocksize" "0 0 0"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "153 199 221"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "trigger_multiple1"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "func_bobbing"
+"height" "128"
+"speed" "3"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-6516 264 -1120"
+"angle" "180"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "info_player_start"
+"origin" "80 252 160"
+}
