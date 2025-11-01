@@ -1,0 +1,90 @@
+{
+"_q3map2_version" "2.5.17n"
+"_q3map2_cmdline" "-meta -noob; -vis; -light -fast -patchshadows -samples 2 -filter -bounce 8"
+"music" "music/nes2.wav"
+"_celshader" "cel/ink"
+"classname" "worldspawn"
+}
+{
+"angle" "-90.000000"
+"origin" "-256.000000 168.000000 24.000000"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "target_startTimer1"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "-256.000000 0.000000 160.000000"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "target_checkpoint1"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint1"
+"origin" "960.000000 -416.000000 64.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*3"
+"target" "target_checkpoint2"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint2"
+"origin" "2336.000000 -704.000000 64.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "target_checkpoint3"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"angle" "-90.000000"
+"targetname" "target_checkpoint3"
+"origin" "1472.000000 -1280.000000 64.000000"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "target_checkpoint4"
+"origin" "-128.000000 -1312.000000 160.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*5"
+"target" "target_checkpoint4"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"target" "target_checkpoint5"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_checkpoint5"
+"origin" "-1888.000000 -1312.000000 -64.000000"
+"classname" "target_checkpoint"
+}
+{
+"model" "*7"
+"target" "target_stopTimer1"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "-5056.000000 -1328.000000 -64.000000"
+"classname" "target_stopTimer"
+}
