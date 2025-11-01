@@ -1,0 +1,151 @@
+{
+"gridsize" "80 80 128"
+"classname" "worldspawn"
+"_blocksize" "4096"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "168 0 -8"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1966 1496 -5431"
+"targetname" "target_stopTimer1"
+"angle" "-90"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "-176 -8 56"
+"targetname" "target_startTimer1"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-5005 -9125 192"
+"angle" "-90"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "928 -6480 -4672"
+"angle" "90"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "500"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "500"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"targetname" "func_door1"
+"angle" "-2"
+"lip" "-10"
+"spawnflags" "1"
+"speed" "10"
+"wait" "10"
+"model" "*7"
+}
+{
+"classname" "func_button"
+"target" "func_door1"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "2"
+"lip" "-10"
+"targetname" "func_door1"
+"spawnflags" "1"
+"model" "*9"
+}
+{
+"classname" "func_button"
+"target" "func_door1"
+"model" "*10"
+}
+{
+"classname" "item_enviro"
+"origin" "0 0 -32"
+"wait" "-1"
+"count" "999"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-4992 -4232 -240"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*12"
+}
+{
+"classname" "target_print"
+"origin" "-4664 -48 -400"
+"angle" "-90"
+"targetname" "target_print1"
+"message" "You found: ^8the ^2secret room^8!"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print2"
+"model" "*13"
+}
+{
+"classname" "target_print"
+"origin" "-4824 -1048 -304"
+"angle" "180"
+"targetname" "target_print2"
+"message" "^2Yeah^8!!! ^7I made ^2this ^7map^8!!!!"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"health" "10"
+"model" "*14"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-2448 -248 344"
+"target" "target_position1"
+}
+{
+"classname" "target_position"
+"origin" "-368 -16 48"
+"targetname" "target_position1"
+"angle" "180"
+}
