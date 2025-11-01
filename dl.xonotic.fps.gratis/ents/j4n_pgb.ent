@@ -1,0 +1,64 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "16 0 24"
+"classname" "info_player_start"
+}
+{
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t1"
+"origin" "360 -24 120"
+"classname" "target_startTimer"
+}
+{
+"damage" "9999"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"damage" "9999"
+"model" "*3"
+}
+{
+"damage" "9999"
+"classname" "trigger_hurt"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"damage" "9999"
+"model" "*5"
+}
+{
+"damage" "9999"
+"classname" "trigger_hurt"
+"model" "*6"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t2"
+"origin" "8016 -104 128"
+"classname" "target_stopTimer"
+}
+{
+"count" "20"
+"wait" "-1"
+"origin" "144 0 16"
+"classname" "weapon_plasmagun"
+}
+{
+"wait" "-1"
+"origin" "96 0 16"
+"classname" "item_health_mega"
+}
