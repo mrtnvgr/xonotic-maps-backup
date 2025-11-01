@@ -1,0 +1,71 @@
+{
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"dmg" "9999"
+"spawnflags" "12"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"dmg" "9999"
+"spawnflags" "12"
+"classname" "trigger_hurt"
+}
+{
+"targetname" "t5"
+"origin" "256 2368 -744"
+"classname" "target_checkpoint"
+}
+{
+"model" "*3"
+"target" "t5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t4"
+"origin" "-3720 296 160"
+"classname" "target_checkpoint"
+}
+{
+"model" "*4"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t3"
+"origin" "64 0 72"
+"classname" "target_startTimer"
+}
+{
+"model" "*5"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t2"
+"origin" "240 0 408"
+"classname" "target_stopTimer"
+}
+{
+"model" "*6"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"message" "You found the secret! Thanks for playing!"
+"targetname" "t1"
+"origin" "-3288 -1664 -208"
+"classname" "target_smallprint"
+}
+{
+"model" "*7"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "256 0 32"
+"angle" "180"
+"classname" "info_player_start"
+}
