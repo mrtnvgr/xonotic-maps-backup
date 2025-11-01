@@ -1,0 +1,339 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"message" "tigger-on goes q*bert"
+}
+{
+"origin" "-22.400000 -593.599976 1176.000000"
+"targetname" "t21"
+"noise" "sound/tig/tig_whoop.wav"
+"spawnflags" "4"
+"classname" "target_speaker"
+}
+{
+"origin" "89.599998 -604.799988 1164.799927"
+"targetname" "t21"
+"message" "april fool's - www.planetquake.com/lvl"
+"classname" "target_print"
+}
+{
+"target" "t21"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"classname" "item_quad"
+"spawnflags" "1"
+"origin" "-89.599998 -268.799988 985.599976"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "5"
+"noise" "sound/tig/tig_bouncesong.wav"
+"origin" "-89.599998 -268.799988 347.199982"
+}
+{
+"classname" "trigger_multiple"
+"target" "t20"
+"model" "*2"
+}
+{
+"classname" "target_speaker"
+"noise" "*falling1.wav"
+"spawnflags" "8"
+"targetname" "t20"
+"origin" "-347.199982 -604.799988 -1713.599976"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "t19"
+"origin" "-145.599991 -604.799988 -2038.400024"
+}
+{
+"classname" "trigger_multiple"
+"target" "t19"
+"model" "*3"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"model" "*4"
+}
+{
+"origin" "246.399994 67.199997 772.799988"
+"light" "900"
+"classname" "light"
+}
+{
+"origin" "-246.399994 -582.399963 1478.400024"
+"targetname" "t17"
+"classname" "weapon_railgun"
+}
+{
+"targetname" "t18"
+"origin" "-313.600006 -425.600006 1478.400024"
+"target" "t17"
+"classname" "target_give"
+}
+{
+"classname" "target_position"
+"targetname" "t16"
+"origin" "-28.000000 -207.199997 980.000000"
+}
+{
+"classname" "target_position"
+"targetname" "t15"
+"origin" "28.000000 -5.600000 431.199982"
+}
+{
+"classname" "target_position"
+"targetname" "t14"
+"origin" "173.599991 -151.199997 431.199982"
+}
+{
+"classname" "target_position"
+"targetname" "t13"
+"origin" "173.599991 -330.399994 341.600006"
+}
+{
+"classname" "target_position"
+"targetname" "t12"
+"origin" "16.799999 -162.399994 341.600006"
+}
+{
+"classname" "target_position"
+"targetname" "t11"
+"origin" "-162.399994 -16.799999 341.600006"
+}
+{
+"classname" "target_position"
+"targetname" "t10"
+"origin" "173.599991 -509.600006 252.000000"
+}
+{
+"classname" "target_position"
+"targetname" "t9"
+"origin" "16.799999 -341.600006 252.000000"
+}
+{
+"classname" "trigger_push"
+"target" "t16"
+"model" "*5"
+}
+{
+"classname" "trigger_push"
+"target" "t14"
+"model" "*6"
+}
+{
+"classname" "trigger_push"
+"target" "t15"
+"model" "*7"
+}
+{
+"classname" "trigger_push"
+"target" "t11"
+"model" "*8"
+}
+{
+"classname" "trigger_push"
+"target" "t12"
+"model" "*9"
+}
+{
+"classname" "trigger_push"
+"target" "t13"
+"model" "*10"
+}
+{
+"classname" "target_position"
+"targetname" "t8"
+"origin" "-162.399994 -162.399994 252.000000"
+}
+{
+"classname" "trigger_push"
+"target" "t10"
+"model" "*11"
+}
+{
+"classname" "trigger_push"
+"target" "t9"
+"model" "*12"
+}
+{
+"classname" "trigger_push"
+"target" "t8"
+"model" "*13"
+}
+{
+"target" "t7"
+"classname" "trigger_push"
+"model" "*14"
+}
+{
+"origin" "-330.399994 -5.600000 252.000000"
+"targetname" "t7"
+"classname" "target_position"
+}
+{
+"target" "t6"
+"classname" "trigger_push"
+"model" "*15"
+}
+{
+"origin" "16.799999 -520.799988 173.599991"
+"targetname" "t6"
+"classname" "target_position"
+}
+{
+"target" "t5"
+"classname" "trigger_push"
+"model" "*16"
+}
+{
+"origin" "-162.399994 -341.600006 173.599991"
+"targetname" "t5"
+"classname" "target_position"
+}
+{
+"target" "t4"
+"classname" "trigger_push"
+"model" "*17"
+}
+{
+"origin" "-341.600006 -162.399994 173.599991"
+"targetname" "t4"
+"classname" "target_position"
+}
+{
+"target" "t3"
+"classname" "trigger_push"
+"model" "*18"
+}
+{
+"origin" "-162.399994 -520.799988 95.199997"
+"targetname" "t3"
+"classname" "target_position"
+}
+{
+"origin" "-341.600006 -341.600006 95.199997"
+"targetname" "t2"
+"classname" "target_position"
+}
+{
+"target" "t2"
+"classname" "trigger_push"
+"model" "*19"
+}
+{
+"origin" "-341.600006 -520.799988 5.600000"
+"targetname" "t1"
+"classname" "target_position"
+}
+{
+"classname" "info_player_start"
+"origin" "-414.399994 -593.599976 -324.799988"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "-347.199982 -526.399963 -11.200000"
+"angle" "45"
+}
+{
+"classname" "trigger_push"
+"target" "t1"
+"model" "*20"
+}
+{
+"target" "t18"
+"angle" "45"
+"origin" "-347.199982 -347.199982 89.599998"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "-168.000000 -526.399963 89.599998"
+"angle" "45"
+}
+{
+"target" "t18"
+"angle" "45"
+"origin" "-347.199982 -168.000000 179.199997"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "-347.199982 11.200000 280.000000"
+"angle" "45"
+}
+{
+"target" "t18"
+"angle" "45"
+"origin" "-168.000000 -168.000000 280.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "11.200000 -526.399963 168.000000"
+"angle" "45"
+}
+{
+"target" "t18"
+"angle" "45"
+"origin" "11.200000 -347.199982 268.799988"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "190.399994 -526.399963 268.799988"
+"angle" "45"
+}
+{
+"target" "t18"
+"angle" "45"
+"origin" "-168.000000 -347.199982 168.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "-168.000000 0.000000 380.799988"
+"angle" "45"
+}
+{
+"target" "t18"
+"angle" "45"
+"origin" "190.399994 -358.399994 369.600006"
+"classname" "info_player_deathmatch"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "11.200000 -179.199997 369.600006"
+"angle" "45"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "0.000000 0.000000 436.799988"
+"angle" "45"
+}
+{
+"target" "t18"
+"classname" "info_player_deathmatch"
+"origin" "179.199997 -179.199997 425.600006"
+"angle" "45"
+}
+{
+"target" "t18"
+"angle" "45"
+"origin" "179.199997 -11.200000 526.399963"
+"classname" "info_player_deathmatch"
+}
