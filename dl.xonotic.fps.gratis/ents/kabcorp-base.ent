@@ -1,0 +1,134 @@
+{
+"classname" "worldspawn"
+"gridsize" "80 64 128"
+}
+{
+"classname" "info_player_start"
+"origin" "3264 0 32"
+"angle" "180"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "target_startTimer"
+"origin" "3104 0 192"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1968 -1472 192"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "496 -1536 192"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-3072 -1360 192"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-912 1152 224"
+"targetname" "target_checkpoint4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint5"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-3200 2576 224"
+"targetname" "target_checkpoint5"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint6"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "832 2400 96"
+"targetname" "target_checkpoint6"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "3456 2416 96"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give1"
+"wait" "-1"
+"model" "*10"
+}
+{
+"classname" "target_give"
+"origin" "-896 720 -16"
+"targetname" "target_give1"
+"target" "weapon_plasmagun1"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-896 656 -16"
+"targetname" "weapon_plasmagun1"
+"wait" "0"
+"count" "3"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*11"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*12"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*13"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*14"
+}
