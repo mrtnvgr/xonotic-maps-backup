@@ -1,0 +1,55 @@
+{
+"ambient" "22"
+"classname" "worldspawn"
+"gridsize" "128 128 256"
+"vertexremapshader0" "textures/croc2text/terrain_0;textures/%METASHADER_NAME%_base"
+"vertexremapshader1" "textures/croc2text/terrain_1;textures/%METASHADER_NAME%_base"
+"vertexremapshader2" "textures/croc2text/terrain_2;textures/%METASHADER_NAME%_base"
+"vertexremapshader3" "textures/croc2text/terrain_0to1;textures/%METASHADER_NAME%_base"
+"vertexremapshader4" "textures/croc2text/terrain_0to2;textures/%METASHADER_NAME%_base"
+"vertexremapshader5" "textures/croc2text/terrain_1to2;textures/%METASHADER_NAME%_base"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1280 -1280 160"
+}
+{
+"target" "stopt"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "stopt"
+"origin" "1264 1032 224"
+"classname" "target_stopTimer"
+}
+{
+"target" "check2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "check2"
+"origin" "-1000 224 224"
+"classname" "target_checkpoint"
+}
+{
+"target" "check1"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "check1"
+"origin" "-808 -800 224"
+"classname" "target_checkpoint"
+}
+{
+"target" "start"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "start"
+"origin" "-1136 -1320 224"
+"classname" "target_startTimer"
+}
