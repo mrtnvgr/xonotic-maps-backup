@@ -1,0 +1,130 @@
+{
+"_ambient" "9"
+"angle" "-1"
+"gridsize" "40 24 32"
+"classname" "worldspawn"
+}
+{
+"origin" "-326.4 -678.4 50.4"
+"angle" "90"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-326.4 -595.2 144"
+"targetname" "start"
+"classname" "target_startTimer"
+}
+{
+"target" "start"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"target" "check3"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"wait" "-1"
+"target" "check2"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"wait" "-1"
+"target" "check1"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"origin" "172.8 652.8 144"
+"targetname" "check1"
+"classname" "target_checkpoint"
+}
+{
+"origin" "-659.2 2067.2 144"
+"targetname" "check2"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "check3"
+"origin" "-659.2 3648 227.2"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "check5"
+"origin" "1171.2 3232 144"
+"classname" "target_checkpoint"
+}
+{
+"target" "check5"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "check4"
+"origin" "-111.9 3564.8 16.6"
+"classname" "target_checkpoint"
+}
+{
+"wait" "-1"
+"target" "check4"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"origin" "2252.8 2566.4 102.4"
+"targetname" "check6"
+"classname" "target_checkpoint"
+}
+{
+"wait" "-1"
+"target" "check6"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"origin" "2086.4 4230.4 102.4"
+"targetname" "check7"
+"classname" "target_checkpoint"
+}
+{
+"target" "check7"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "stop"
+"origin" "-659.2 4563.2 -230.4"
+"classname" "target_stopTimer"
+}
+{
+"wait" "-1"
+"target" "stop"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"origin" "-326.4 236.8 19.2"
+"classname" "misc_portal_surface"
+}
+{
+"origin" "-76.7999 1276.8 -64"
+"classname" "misc_portal_surface"
+}
+{
+"origin" "-659.2 4563.2 -396.8"
+"classname" "misc_portal_surface"
+}
+{
+"origin" "-326.4 -470.4 102.4"
+"classname" "misc_portal_surface"
+}
+{
+"origin" "1108.8 3502.4 227.2"
+"classname" "misc_portal_surface"
+}
