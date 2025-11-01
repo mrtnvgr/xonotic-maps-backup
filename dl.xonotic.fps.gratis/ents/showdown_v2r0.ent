@@ -1,0 +1,3571 @@
+{
+"_q3map2_version" "2.5.17n-git-806e3fe"
+"_q3map2_cmdline" "-meta -v -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000; -vis -saveprt -fast; -light -deluxe -fast -patchshadows -samples 3"
+"_noshadersun" "1"
+"_floodlight" "240 240 255 1024 100"
+"_description" "based on CoD4 map Showdown"
+"message" "Showdown v1.5 - ^1TEST RELEASE"
+"author" "Fluffy aka Siwo"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"spawnflags" "2"
+"health" "600"
+"classname" "func_breakable"
+}
+{
+"model" "*2"
+"sounds" "0"
+"angle" "-2"
+"lip" "10"
+"speed" "15"
+"targetname" "obelisk1"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"sounds" "0"
+"angle" "-2"
+"targetname" "obelisk2"
+"lip" "10"
+"speed" "15"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"sounds" "0"
+"targetname" "obelisk3"
+"lip" "10"
+"speed" "15"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"sounds" "0"
+"speed" "15"
+"lip" "10"
+"angle" "-2"
+"targetname" "obelisk4"
+"classname" "func_door"
+}
+{
+"speed" "-1"
+"targetname" "tower3"
+"angle" "-179.999985"
+"origin" "2614.000000 -1332.000000 1094.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"speed" "-1"
+"targetname" "tower2"
+"origin" "968.000000 -1332.000000 1092.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"speed" "-1"
+"targetname" "tower1"
+"origin" "968.000000 -1924.000000 1092.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"speed" "-1"
+"targetname" "tower4"
+"angle" "-179.999985"
+"origin" "2614.000000 -1922.000000 1094.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*6"
+"target" "tower1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*7"
+"target" "tower2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*8"
+"target" "tower3"
+"classname" "trigger_teleport"
+}
+{
+"model" "*9"
+"target" "tower4"
+"classname" "trigger_teleport"
+}
+{
+"model" "*10"
+"spawnflags" "2"
+"health" "600"
+"classname" "func_breakable"
+}
+{
+"targetname" "target_position2"
+"angle" "-179.999985"
+"origin" "2168.000000 -1592.000000 448.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position3"
+"angle" "-179.999985"
+"origin" "2168.000000 -1654.000000 448.000000"
+"classname" "target_position"
+}
+{
+"speed" "-1"
+"angle" "-179.999985"
+"targetname" "red_roof"
+"origin" "1630.000000 -1454.000000 128.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "nieco"
+"angle" "-179.999985"
+"origin" "1416.000000 -1592.000000 448.000000"
+"classname" "target_position"
+}
+{
+"targetname" "target_position1"
+"angle" "-179.999985"
+"origin" "1416.000000 -1654.000000 448.000000"
+"classname" "target_position"
+}
+{
+"model" "*11"
+"spawnflags" "2"
+"health" "600"
+"classname" "func_breakable"
+}
+{
+"model" "*12"
+"spawnflags" "2"
+"health" "600"
+"classname" "func_breakable"
+}
+{
+"speed" "-1"
+"targetname" "misc_teleporter_dest1"
+"angle" "0.000016"
+"origin" "1986.000000 -1806.000000 124.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*13"
+"spawnflags" "2"
+"target" "red1"
+"health" "1000"
+"classname" "func_breakable"
+}
+{
+"angle" "0.000003"
+"origin" "266.000000 -890.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "179.999985"
+"origin" "3378.000000 -2192.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"speed" "-1"
+"targetname" "misc_teleporter_dest2"
+"angle" "-179.999985"
+"origin" "1630.000000 -1804.000000 128.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"speed" "-1"
+"targetname" "misc_teleporter_dest3"
+"origin" "1984.000000 -1448.000000 128.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*14"
+"target" "red_roof"
+"classname" "trigger_teleport"
+}
+{
+"model" "*15"
+"target" "misc_teleporter_dest2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*16"
+"target" "misc_teleporter_dest1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*17"
+"target" "misc_teleporter_dest3"
+"classname" "trigger_teleport"
+}
+{
+"model" "*18"
+"spawnflags" "2"
+"target" "blue1"
+"health" "1000"
+"classname" "func_breakable"
+}
+{
+"angle" "-179.999985"
+"origin" "3782.000000 -2442.000000 288.000000"
+"classname" "item_flag_team2"
+}
+{
+"origin" "-202.000000 -836.000000 292.000000"
+"classname" "item_flag_team1"
+}
+{
+"model" "*19"
+"origin" "2089.000000 -2813.000000 119.500000"
+"targetname" "blue1"
+"wait" "9999"
+"sounds" "1"
+"dmg" "500"
+"speed" "30"
+"message" "was squeezed to ketchup"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*20"
+"origin" "2089.000000 -2639.000000 119.500000"
+"wait" "9999"
+"sounds" "1"
+"message" "was squeezed to ketchup"
+"dmg" "500"
+"angle" "90"
+"speed" "30"
+"classname" "func_door_rotating"
+}
+{
+"angle" "180.000000"
+"spawnflags" "1"
+"origin" "136.000000 -830.000000 78.000000"
+"classname" "item_armor_large"
+}
+{
+"angle" "180.000000"
+"spawnflags" "1"
+"origin" "134.000000 -830.000000 162.000000"
+"classname" "item_health_mega"
+}
+{
+"model" "*21"
+"origin" "1519.000000 -429.000000 119.500000"
+"wait" "9999"
+"targetname" "red1"
+"speed" "30"
+"sounds" "1"
+"message" "was squeezed to ketchup"
+"dmg" "500"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*22"
+"origin" "1519.000000 -603.000000 119.500000"
+"wait" "9999"
+"speed" "30"
+"sounds" "1"
+"message" "was squeezed to ketchup"
+"dmg" "500"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "1"
+"origin" "3436.000000 -2448.000000 162.000000"
+"classname" "item_health_mega"
+}
+{
+"spawnflags" "1"
+"origin" "3434.000000 -2448.000000 78.000000"
+"classname" "item_armor_large"
+}
+{
+"model" "*23"
+"spawnflags" "258"
+"health" "200"
+"classname" "func_breakable"
+}
+{
+"model" "*24"
+"spawnflags" "258"
+"health" "200"
+"classname" "func_breakable"
+}
+{
+"model" "*25"
+"spawnflags" "258"
+"health" "200"
+"classname" "func_breakable"
+}
+{
+"model" "*26"
+"spawnflags" "258"
+"health" "200"
+"classname" "func_breakable"
+}
+{
+"model" "*27"
+"health" "200"
+"spawnflags" "258"
+"classname" "func_breakable"
+}
+{
+"model" "*28"
+"health" "200"
+"spawnflags" "258"
+"classname" "func_breakable"
+}
+{
+"model" "*29"
+"health" "200"
+"spawnflags" "258"
+"classname" "func_breakable"
+}
+{
+"model" "*30"
+"health" "200"
+"spawnflags" "258"
+"classname" "func_breakable"
+}
+{
+"model" "*31"
+"health" "200"
+"spawnflags" "258"
+"classname" "func_breakable"
+}
+{
+"model" "*32"
+"health" "200"
+"spawnflags" "258"
+"classname" "func_breakable"
+}
+{
+"spawnflags" "1"
+"origin" "2054.000000 -1728.000000 466.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1516.000000 -1728.000000 466.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1572.000000 -1728.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1630.000000 -1728.000000 446.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1686.000000 -1728.000000 442.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1744.000000 -1728.000000 440.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1802.000000 -1728.000000 440.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1864.000000 -1728.000000 442.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1932.000000 -1728.000000 448.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1990.000000 -1728.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "2056.000000 -1514.000000 462.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1516.000000 -1522.000000 458.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1572.000000 -1522.000000 442.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1630.000000 -1520.000000 428.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1686.000000 -1518.000000 420.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1744.000000 -1518.000000 416.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1804.000000 -1518.000000 416.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1864.000000 -1516.000000 420.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1932.000000 -1516.000000 430.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1990.000000 -1516.000000 444.000000"
+"classname" "item_health_small"
+}
+{
+"model" "*33"
+"target" "target_position4"
+"classname" "trigger_push"
+}
+{
+"targetname" "target_position4"
+"origin" "372.000000 -2938.000000 342.000000"
+"classname" "target_position"
+}
+{
+"model" "*34"
+"target" "target_position5"
+"classname" "trigger_push"
+}
+{
+"targetname" "target_position5"
+"angle" "-179.999985"
+"origin" "3254.000000 -338.000000 344.000000"
+"classname" "target_position"
+}
+{
+"spawnflags" "1"
+"origin" "2648.000000 -1924.000000 976.000000"
+"classname" "item_armor_big"
+}
+{
+"spawnflags" "1"
+"origin" "936.000000 -1920.000000 976.000000"
+"classname" "item_armor_big"
+}
+{
+"spawnflags" "1"
+"origin" "934.000000 -1332.000000 976.000000"
+"classname" "item_armor_big"
+}
+{
+"spawnflags" "1"
+"origin" "2646.000000 -1334.000000 976.000000"
+"classname" "item_armor_big"
+}
+{
+"spawnflags" "1"
+"origin" "3338.000000 -912.000000 554.000000"
+"classname" "item_health_medium"
+}
+{
+"spawnflags" "1"
+"origin" "178.000000 -2128.000000 554.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "180.000000"
+"spawnflags" "1"
+"origin" "3132.000000 -2946.000000 298.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "180.000000"
+"spawnflags" "1"
+"origin" "2792.000000 -2948.000000 298.000000"
+"classname" "item_armor_medium"
+}
+{
+"angle" "180.000000"
+"spawnflags" "1"
+"origin" "170.000000 -1002.000000 264.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "170.000000 -946.000000 264.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "170.000000 -974.000000 264.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "170.000000 -694.000000 264.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "170.000000 -722.000000 264.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "170.000000 -920.000000 264.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "3402.000000 -2278.000000 264.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "3402.000000 -2586.000000 264.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "3402.000000 -2558.000000 264.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "3402.000000 -2306.000000 264.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "3402.000000 -2334.000000 264.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"spawnflags" "1"
+"origin" "3402.000000 -2362.000000 264.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "824.000000 -294.000000 298.000000"
+"classname" "item_armor_medium"
+}
+{
+"spawnflags" "1"
+"origin" "440.000000 -298.000000 298.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "90.000000"
+"origin" "1888.000000 -1710.000000 106.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1724.000000 -1708.000000 106.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "-90.000000"
+"origin" "1722.000000 -1544.000000 106.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "1888.000000 -1544.000000 106.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "1674.000000 -1754.000000 66.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1674.000000 -1498.000000 66.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1932.000000 -1498.000000 66.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1932.000000 -1754.000000 66.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "0.000016"
+"origin" "-216.000000 -2106.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "0.000016"
+"origin" "-200.000000 -1870.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "0.000016"
+"origin" "-200.000000 -1658.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "0.000016"
+"origin" "-202.000000 -1454.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "0.000016"
+"origin" "-208.000000 -1198.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "0.000016"
+"origin" "-74.000000 -368.000000 369.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "0.000016"
+"origin" "184.000000 -542.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "90.000000"
+"origin" "664.000000 -1102.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "90.000000"
+"origin" "874.000000 -1022.000000 133.000000"
+"classname" "info_player_team1"
+}
+{
+"angle" "-179.999985"
+"origin" "3850.000000 -920.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-179.999985"
+"origin" "3822.000000 -1182.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-179.999985"
+"origin" "3824.000000 -1374.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-179.999985"
+"origin" "3740.000000 -1596.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-179.999985"
+"origin" "3796.000000 -1802.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-179.999985"
+"origin" "3744.000000 -2070.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-90.000000"
+"origin" "2726.000000 -2152.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "179.999985"
+"origin" "3630.000000 -2856.000000 349.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "179.999985"
+"origin" "3378.000000 -2690.000000 161.000000"
+"classname" "info_player_team2"
+}
+{
+"angle" "-90.000000"
+"origin" "1278.000000 -846.000000 336.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-26.000000 -1436.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-30.000000 -1630.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-18.000000 -1854.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-64.000000 -380.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-178.000000 -1242.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "816.000000 -1044.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "594.000000 -1122.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "2580.000000 -996.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "2970.000000 -1004.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0.000003"
+"origin" "2790.000000 -336.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-180.000000"
+"origin" "784.000000 -2944.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90.000000"
+"origin" "680.000000 -2140.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90.000000"
+"origin" "986.000000 -2348.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90.000000"
+"origin" "2526.000000 -2316.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "179.999985"
+"origin" "3708.000000 -2874.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "179.999985"
+"origin" "3822.000000 -2080.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "179.999985"
+"origin" "3354.000000 -2858.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "179.999985"
+"origin" "3758.000000 -1868.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "179.999985"
+"origin" "3758.000000 -1270.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "179.999985"
+"origin" "3754.000000 -1538.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "179.999985"
+"origin" "2276.000000 -2388.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0.000010"
+"origin" "1288.000000 -864.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "1278.000000 -2158.000000 124.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "1276.000000 -2158.000000 334.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-179.999985"
+"origin" "2920.000000 -1632.000000 334.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0.000009"
+"origin" "664.000000 -1624.000000 334.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-89.999992"
+"origin" "1812.000000 -840.000000 492.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "1808.000000 -2396.000000 492.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90.000000"
+"origin" "2314.000000 -2394.000000 336.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "-90.000000"
+"origin" "2326.000000 -1142.000000 336.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "2274.000000 -806.000000 122.000000"
+"classname" "item_armor_big"
+}
+{
+"origin" "1274.000000 -2218.000000 122.000000"
+"classname" "item_armor_big"
+}
+{
+"angle" "180.000000"
+"origin" "2740.000000 -326.000000 84.000000"
+"classname" "item_armor_big"
+}
+{
+"angle" "180.000000"
+"origin" "2910.000000 -394.000000 62.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "3088.000000 -398.000000 62.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2910.000000 -450.000000 62.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "3088.000000 -448.000000 62.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1286.000000 -2936.000000 266.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1224.000000 -2992.000000 266.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1356.000000 -2990.000000 266.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1578.000000 -2988.000000 266.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1914.000000 -3000.000000 266.000000"
+"classname" "item_armor_medium"
+}
+{
+"origin" "1656.000000 -2834.000000 132.000000"
+"classname" "item_armor_medium"
+}
+{
+"origin" "1078.000000 -2462.000000 96.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1078.000000 -2350.000000 96.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1078.000000 -2384.000000 96.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1078.000000 -2422.000000 96.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "536.000000 -2828.000000 62.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "536.000000 -2878.000000 62.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "714.000000 -2882.000000 62.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "714.000000 -2826.000000 62.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "884.000000 -2950.000000 84.000000"
+"classname" "item_armor_big"
+}
+{
+"origin" "1970.000000 -392.000000 136.000000"
+"classname" "item_armor_medium"
+}
+{
+"origin" "1700.000000 -262.000000 278.000000"
+"classname" "item_armor_medium"
+}
+{
+"origin" "2376.000000 -264.000000 278.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "2324.000000 -318.000000 278.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "2028.000000 -266.000000 278.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "2262.000000 -266.000000 278.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "2724.000000 -1612.000000 732.000000"
+"classname" "item_health_large"
+}
+{
+"origin" "852.000000 -1616.000000 732.000000"
+"classname" "item_health_large"
+}
+{
+"spawnflags" "1"
+"origin" "170.000000 -666.000000 264.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "170.000000 -748.000000 264.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"spawnflags" "1"
+"origin" "3402.000000 -2614.000000 264.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"spawnflags" "1"
+"origin" "3402.000000 -2534.000000 264.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2774.000000 -1966.000000 -128.000000"
+"classname" "item_armor_large"
+}
+{
+"origin" "660.000000 -1982.000000 -122.000000"
+"classname" "item_armor_large"
+}
+{
+"angle" "180.000000"
+"origin" "1362.000000 -1452.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "1364.000000 -1266.000000 456.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "1364.000000 -1192.000000 456.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "1366.000000 -970.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1366.000000 -1984.000000 456.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1368.000000 -1798.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1366.000000 -2058.000000 456.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1364.000000 -2280.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2214.000000 -1266.000000 456.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "2214.000000 -1984.000000 456.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "2216.000000 -1798.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2214.000000 -2058.000000 456.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "2212.000000 -2280.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2212.000000 -1452.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2214.000000 -1192.000000 456.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2216.000000 -970.000000 456.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "-179.999985"
+"netname" "^4Blue ^7towers"
+"origin" "2728.000000 -1248.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7towers"
+"origin" "848.000000 -1242.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"netname" "^4Blue ^7towers"
+"origin" "2562.000000 -1834.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7gate"
+"angle" "-179.999985"
+"origin" "1796.000000 -524.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7flagpoint"
+"angle" "-180.000000"
+"origin" "3732.000000 -2440.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3656.000000 -1974.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3674.000000 -2930.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3410.000000 -2444.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3698.000000 -2832.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "2994.000000 -364.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "2826.000000 -922.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3432.000000 -1278.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3296.000000 -1624.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3210.000000 -2216.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "2676.000000 -2438.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "2982.000000 -2776.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7gate"
+"angle" "-179.999985"
+"origin" "1834.000000 -2740.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3458.000000 -1018.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3758.000000 -840.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3472.000000 -816.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3828.000000 -896.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3482.000000 -810.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3802.000000 -1020.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3492.000000 -2010.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3808.000000 -2004.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3476.000000 -2242.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "880.000000 -2956.000000 356.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3474.000000 -2972.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3832.000000 -2920.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3856.000000 -2620.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3876.000000 -2236.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3650.000000 -2452.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3654.000000 -2094.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3642.000000 -2184.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3670.000000 -2696.000000 328.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base rooftop"
+"angle" "-179.999985"
+"origin" "3468.000000 -2618.000000 556.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "862.000000 -2966.000000 502.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "638.000000 -2950.000000 502.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "-106.000000 -2132.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "298.000000 -2938.000000 356.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "628.000000 -2950.000000 356.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "298.000000 -2938.000000 502.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "-116.000000 -2124.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "-302.000000 -2026.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "-324.000000 -2266.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "28.000000 -2060.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "118.000000 -1316.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "116.000000 -1036.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "96.000000 -642.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "-126.000000 -820.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "-308.000000 -666.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "-304.000000 -1046.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "-218.000000 -1298.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "92.000000 -294.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "-278.000000 -338.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base rooftop"
+"angle" "-179.999985"
+"origin" "138.000000 -2286.000000 550.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "130.000000 -2286.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "-300.000000 -2030.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "-332.000000 -2274.000000 366.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"origin" "2420.000000 -518.000000 98.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "82.000000 -2036.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Red ^7flagpoint"
+"angle" "-179.999985"
+"origin" "-134.000000 -834.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "-278.000000 -1284.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "-100.000000 -1102.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "-132.000000 -574.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "-108.000000 -336.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "802.000000 -906.000000 98.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "324.000000 -1626.000000 98.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "564.000000 -2458.000000 98.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"origin" "1218.000000 -2728.000000 98.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"origin" "2500.000000 -2702.000000 98.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"origin" "1882.000000 -520.000000 98.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "1160.000000 -524.000000 98.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "94.000000 -1282.000000 366.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "332.000000 -910.000000 98.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7base"
+"angle" "-179.999985"
+"origin" "732.000000 -450.000000 98.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2306.000000 -1814.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "2110.000000 -2414.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2312.000000 -1060.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2492.000000 -1450.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2292.000000 -1622.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2314.000000 -2086.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2284.000000 -2404.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2320.000000 -836.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2124.000000 -838.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "1912.000000 -838.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "1702.000000 -836.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "1486.000000 -832.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1258.000000 -844.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1250.000000 -1060.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1244.000000 -1290.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1254.000000 -1620.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1256.000000 -1868.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1104.000000 -1020.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1248.000000 -2416.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1614.000000 -2404.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1894.000000 -2408.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1242.000000 -2078.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1084.000000 -2204.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "874.000000 -2250.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "612.000000 -2024.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1076.000000 -2008.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "842.000000 -2018.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1082.000000 -1804.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1070.000000 -1446.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "1082.000000 -1238.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "822.000000 -1224.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "596.000000 -1220.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "600.000000 -1482.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Roof"
+"origin" "598.000000 -1792.000000 594.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2306.000000 -1298.000000 512.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2488.000000 -1124.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2968.000000 -1118.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2716.000000 -1118.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "3030.000000 -1346.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "3048.000000 -1590.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "3028.000000 -1924.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2762.000000 -2030.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2512.000000 -2156.000000 592.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Roof"
+"origin" "2508.000000 -1774.000000 592.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"origin" "1744.000000 -2716.000000 98.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7gate"
+"angle" "-179.999985"
+"origin" "2090.000000 -2738.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7gate"
+"angle" "-179.999985"
+"origin" "2336.000000 -2730.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7gate"
+"angle" "-179.999985"
+"origin" "1508.000000 -528.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7gate"
+"angle" "-179.999985"
+"origin" "1290.000000 -534.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1504.000000 -1220.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1716.000000 -1216.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1974.000000 -1204.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "2136.000000 -1226.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "2140.000000 -1414.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "2140.000000 -1772.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "2134.000000 -1964.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1988.000000 -1968.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1744.000000 -1990.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1558.000000 -1994.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1436.000000 -1876.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1256.000000 -986.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "Near fountain"
+"origin" "1814.000000 -1404.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1426.000000 -1508.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "Near fountain"
+"origin" "1622.000000 -1400.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "Near fountain"
+"origin" "1598.000000 -1638.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "Near fountain"
+"origin" "1608.000000 -1850.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "Near fountain"
+"origin" "1812.000000 -1856.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "Near fountain"
+"origin" "2028.000000 -1850.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "Near fountain"
+"origin" "2030.000000 -1404.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "Near fountain"
+"origin" "2038.000000 -1632.000000 88.000000"
+"classname" "info_location"
+}
+{
+"origin" "1434.000000 -1718.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "1342.000000 -842.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1276.000000 -1970.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1268.000000 -1806.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "574.000000 -1628.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1268.000000 -1414.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1260.000000 -1240.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1266.000000 -2176.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1710.000000 -2408.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1958.000000 -2410.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "2232.000000 -2400.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2322.000000 -2264.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2320.000000 -2104.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2328.000000 -1918.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2960.000000 -1628.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2326.000000 -1432.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2332.000000 -1154.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2974.000000 -1632.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "1858.000000 -838.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "1590.000000 -846.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2068.000000 -838.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2070.000000 -838.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "1868.000000 -834.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "2130.000000 -2392.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2338.000000 -1204.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2310.000000 -1376.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2290.000000 -1598.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2292.000000 -1874.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2298.000000 -2084.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2300.000000 -2270.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2300.000000 -2440.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2516.000000 -1994.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2770.000000 -1846.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2946.000000 -1760.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2972.000000 -1158.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2966.000000 -1358.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2668.000000 -1122.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2680.000000 -1432.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2514.000000 -1632.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2716.000000 -1628.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "2880.000000 -2014.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2310.000000 -1624.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2716.000000 -1632.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Upper floor"
+"origin" "1644.000000 -836.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1270.000000 -836.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1254.000000 -1230.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1266.000000 -1518.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "862.000000 -1418.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1266.000000 -1976.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1258.000000 -2178.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1628.000000 -2402.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1864.000000 -2408.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1262.000000 -1748.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1094.000000 -2006.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "630.000000 -2022.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "616.000000 -1776.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "622.000000 -1632.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "636.000000 -1480.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1100.000000 -1228.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1088.000000 -1486.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "1082.000000 -1610.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "886.000000 -1634.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Upper floor"
+"origin" "854.000000 -1812.000000 288.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1270.000000 -1612.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "1090.000000 -1630.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Ground floor"
+"origin" "900.000000 -1632.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Underground"
+"origin" "2506.000000 -1906.000000 -12.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Underground"
+"origin" "2752.000000 -1208.000000 -18.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Underground"
+"origin" "2768.000000 -1870.000000 -116.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Ground floor"
+"origin" "2324.000000 -1782.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Blue ^7base"
+"angle" "-179.999985"
+"origin" "3070.000000 -738.000000 88.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Underground"
+"origin" "946.000000 -1910.000000 -12.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Underground"
+"origin" "706.000000 -1280.000000 -62.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Underground"
+"origin" "662.000000 -1852.000000 -126.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"netname" "^4Blue ^7towers"
+"origin" "2560.000000 -1248.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"netname" "^4Blue ^7towers"
+"origin" "2560.000000 -1416.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"netname" "^4Blue ^7towers"
+"origin" "2728.000000 -1416.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"netname" "^4Blue ^7towers"
+"origin" "2562.000000 -2002.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"netname" "^4Blue ^7towers"
+"origin" "2730.000000 -2002.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"angle" "-179.999985"
+"netname" "^4Blue ^7towers"
+"origin" "2730.000000 -1834.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7towers"
+"origin" "848.000000 -2010.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7towers"
+"origin" "1016.000000 -2010.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7towers"
+"origin" "1024.000000 -1834.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7towers"
+"origin" "848.000000 -1834.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7towers"
+"origin" "848.000000 -1418.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7towers"
+"origin" "1024.000000 -1418.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Red ^7towers"
+"origin" "1016.000000 -1242.000000 1056.000000"
+"classname" "info_location"
+}
+{
+"spawnflags" "1"
+"origin" "2488.000000 -976.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "2488.000000 -1008.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "2528.000000 -1008.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "2528.000000 -976.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1910.000000 -266.000000 278.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1970.000000 -306.000000 278.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1702.000000 -2990.000000 266.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1640.000000 -2950.000000 266.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "3374.000000 -1048.000000 274.000000"
+"classname" "item_armor_medium"
+}
+{
+"angle" "180.000000"
+"origin" "3360.000000 -1014.000000 274.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "3422.000000 -1056.000000 274.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "100.000000 -1980.000000 274.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "148.000000 -1988.000000 274.000000"
+"classname" "item_armor_medium"
+}
+{
+"origin" "162.000000 -2022.000000 274.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "-38.000000 -1220.000000 76.000000"
+"classname" "weapon_crylink"
+}
+{
+"origin" "3550.000000 -2074.000000 76.000000"
+"classname" "weapon_crylink"
+}
+{
+"origin" "-78.000000 -1230.000000 76.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "-78.000000 -1196.000000 76.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "-10.000000 -1194.000000 76.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "-10.000000 -1228.000000 76.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "-192.000000 -2085.000000 76.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "-124.000000 -2081.125000 76.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "-124.000000 -2147.000000 76.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "-192.000000 -2150.875000 76.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "-210.000000 -1590.000000 76.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"angle" "-90.000000"
+"origin" "-204.000000 -1624.000000 76.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "3552.000000 -1606.000000 76.000000"
+"classname" "weapon_rocketlauncher"
+}
+{
+"angle" "-90.000000"
+"origin" "3558.000000 -1640.000000 76.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "-156.000000 -2118.000000 76.000000"
+"classname" "weapon_electro"
+}
+{
+"origin" "3810.000000 -932.000000 76.000000"
+"classname" "weapon_electro"
+}
+{
+"origin" "1264.000000 -1628.000000 90.000000"
+"classname" "weapon_hagar"
+}
+{
+"origin" "2304.000000 -1626.000000 90.000000"
+"classname" "weapon_hagar"
+}
+{
+"angle" "180.000000"
+"origin" "2086.000000 -834.000000 84.000000"
+"classname" "weapon_uzi"
+}
+{
+"origin" "1726.000000 -2396.000000 84.000000"
+"classname" "weapon_uzi"
+}
+{
+"angle" "90.000000"
+"origin" "1072.000000 -764.000000 112.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"angle" "90.000000"
+"origin" "1098.000000 -866.000000 112.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "90.000000"
+"origin" "1042.000000 -864.000000 112.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "2488.000000 -2364.000000 112.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "2588.000000 -2394.000000 112.000000"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "2486.000000 -2420.000000 112.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "2386.000000 -2463.000000 84.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "2402.000000 -2485.000000 84.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "2386.000000 -2483.000000 84.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "2404.000000 -2463.000000 84.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "1814.000000 -687.000000 274.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "2236.000000 -685.000000 274.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "2472.000000 -751.000000 274.000000"
+"classname" "item_minst_cells"
+}
+{
+"origin" "1196.000000 -1772.000000 274.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "1198.000000 -1480.000000 274.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "180.000000"
+"origin" "2386.000000 -1482.000000 274.000000"
+"classname" "item_rockets"
+}
+{
+"angle" "180.000000"
+"origin" "2384.000000 -1774.000000 274.000000"
+"classname" "item_rockets"
+}
+{
+"origin" "2524.000000 -1898.000000 274.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "762.000000 -1910.000000 274.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "1090.000000 -1364.000000 274.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "2886.000000 -1252.000000 274.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "2524.000000 -1940.000000 274.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2522.000000 -1852.000000 274.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2886.000000 -1214.000000 274.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2888.000000 -1288.000000 274.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "762.000000 -1870.000000 274.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1090.000000 -1330.000000 274.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1090.000000 -1400.000000 274.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "764.000000 -1948.000000 274.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "3774.000000 -964.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "3506.000000 -2030.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "3588.000000 -2028.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "3592.000000 -2096.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "3508.000000 -2100.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "3858.000000 -960.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "3854.000000 -892.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "3774.000000 -964.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "3772.000000 -894.000000 76.000000"
+"classname" "item_cells"
+}
+{
+"origin" "2426.000000 -2508.000000 274.000000"
+"classname" "item_cells"
+}
+{
+"origin" "2402.000000 -2486.000000 274.000000"
+"classname" "item_cells"
+}
+{
+"origin" "2426.000000 -2486.000000 274.000000"
+"classname" "item_cells"
+}
+{
+"origin" "2402.000000 -2508.000000 274.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1180.000000 -758.000000 274.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1160.000000 -738.000000 274.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1180.000000 -738.000000 274.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1160.000000 -758.000000 274.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1186.000000 -2256.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1186.000000 -2236.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1206.000000 -2256.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1206.000000 -2236.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "2338.000000 -1656.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "2266.000000 -1598.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "2338.000000 -1598.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "2266.000000 -1656.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1298.000000 -1658.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1298.000000 -1600.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1226.000000 -1658.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1226.000000 -1600.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1194.000000 -790.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1194.000000 -770.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1214.000000 -770.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"origin" "1214.000000 -790.000000 84.000000"
+"classname" "item_cells"
+}
+{
+"angle" "180.000000"
+"origin" "2164.000000 -808.000000 84.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "180.000000"
+"origin" "2164.000000 -878.000000 84.000000"
+"classname" "item_bullets"
+}
+{
+"angle" "180.000000"
+"origin" "2164.000000 -844.000000 84.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "1646.000000 -2396.000000 84.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "1646.000000 -2432.000000 84.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "1646.000000 -2362.000000 84.000000"
+"classname" "item_bullets"
+}
+{
+"origin" "2408.000000 -2488.000000 272.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "2384.000000 -2464.000000 120.000000"
+"classname" "item_health_medium"
+}
+{
+"angle" "180.000000"
+"origin" "2568.000000 -1520.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2480.000000 -1520.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2520.000000 -1520.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2568.000000 -1736.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2520.000000 -1736.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2480.000000 -1736.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"angle" "180.000000"
+"origin" "2936.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2872.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2936.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2872.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2720.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2664.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2720.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2664.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2776.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2776.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "624.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "672.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "624.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "672.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "920.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "864.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "920.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "808.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "808.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1016.000000 -1736.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1064.000000 -1736.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1016.000000 -1520.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1064.000000 -1520.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1104.000000 -1736.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1104.000000 -1520.000000 80.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "864.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2984.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "180.000000"
+"origin" "2984.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "712.000000 -1520.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "712.000000 -1736.000000 80.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "1216.000000 -792.000000 120.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "1176.000000 -752.000000 272.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "2672.000000 -2952.000000 296.000000"
+"classname" "item_health_small"
+}
+{
+"origin" "3008.000000 -2952.000000 296.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "568.000000 -296.000000 296.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "944.000000 -288.000000 296.000000"
+"classname" "item_health_small"
+}
+{
+"spawnflags" "1"
+"origin" "3392.000000 -1928.000000 136.000000"
+"classname" "item_armor_medium"
+}
+{
+"spawnflags" "1"
+"origin" "184.000000 -1360.000000 136.000000"
+"classname" "item_armor_medium"
+}
+{
+"origin" "3440.000000 -976.000000 80.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "176.000000 -2032.000000 80.000000"
+"classname" "item_health_medium"
+}
+{
+"spawnflags" "1"
+"origin" "1800.000000 -1624.000000 160.000000"
+"classname" "item_health_medium"
+}
+{
+"origin" "1440.000000 -1016.000000 128.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1512.000000 -1016.000000 128.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2088.000000 -2224.000000 256.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "1992.000000 -2224.000000 128.000000"
+"classname" "item_armor_small"
+}
+{
+"origin" "2040.000000 -2224.000000 192.000000"
+"classname" "item_health_small"
+}
+{
+"angle" "90.000000"
+"origin" "684.000000 -2002.000000 302.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "90.000000"
+"origin" "800.000000 -2000.000000 302.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "90.000000"
+"origin" "996.000000 -2000.000000 302.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "1052.000000 -1242.000000 302.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "968.000000 -1242.000000 302.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "664.000000 -1236.000000 302.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-0.000004"
+"origin" "624.000000 -1626.000000 302.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "-90.000000"
+"origin" "784.000000 -1236.000000 302.000000"
+"classname" "info_player_team3"
+}
+{
+"angle" "0.000010"
+"origin" "2512.000000 -1986.000000 302.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-90.000000"
+"origin" "2692.000000 -1128.000000 302.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "-90.000000"
+"origin" "2786.000000 -1124.000000 302.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "179.999985"
+"origin" "2980.000000 -1314.000000 302.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "179.999985"
+"origin" "2980.000000 -1446.000000 302.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "179.999985"
+"origin" "2860.000000 -1626.000000 302.000000"
+"classname" "info_player_team4"
+}
+{
+"angle" "0.000010"
+"origin" "2520.000000 -1816.000000 302.000000"
+"classname" "info_player_team4"
+}
+{
+"model" "*35"
+"target" "fontanaJump1"
+"classname" "trigger_push"
+}
+{
+"model" "*36"
+"message2" "was thrown into slime pit by #"
+"message" "went diving in toxic slime"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"spawnflags" "1"
+"origin" "1802.000000 -1626.000000 -143.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1802.000000 -1626.000000 -179.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1802.000000 -1626.000000 -216.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1802.000000 -1626.000000 -256.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1802.000000 -1626.000000 -292.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1803.000000 -1626.000000 -639.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1801.000000 -1626.000000 -333.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1801.000000 -1626.000000 -385.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1801.000000 -1626.000000 -443.000000"
+"classname" "item_armor_small"
+}
+{
+"spawnflags" "1"
+"origin" "1803.000000 -1626.000000 -535.000000"
+"classname" "item_armor_small"
+}
+{
+"netname" "^4Underground"
+"origin" "2506.000000 -1906.000000 -12.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "Underground"
+"origin" "1706.000000 -1626.000000 -308.000000"
+"classname" "info_location"
+}
+{
+"netname" "^4Underground"
+"origin" "2752.000000 -1208.000000 -18.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Underground"
+"origin" "946.000000 -1910.000000 -12.000000"
+"classname" "info_location"
+}
+{
+"angle" "-90.000000"
+"netname" "Underground"
+"origin" "1890.000000 -1628.000000 -308.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Underground"
+"origin" "662.000000 -1852.000000 -126.000000"
+"classname" "info_location"
+}
+{
+"netname" "^1Underground"
+"origin" "754.000000 -1440.000000 -112.000000"
+"classname" "info_location"
+}
+{
+"targetname" "fontanaJump1"
+"origin" "1802.000000 -1626.000000 760.000000"
+"classname" "target_position"
+}
+{
+"origin" "460.000000 -1610.000000 -138.000000"
+"classname" "item_health_mega"
+}
+{
+"origin" "3142.000000 -1610.000000 -136.000000"
+"classname" "item_health_mega"
+}
+{
+"model" "*37"
+"wait" "999999"
+"targetname" "otvor"
+"t_width" "80"
+"spawnflags" "12"
+"classname" "func_door_secret"
+}
+{
+"model" "*38"
+"target" "otvor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*39"
+"target" "obelisk2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*40"
+"target" "obelisk3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*41"
+"target" "obelisk4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*42"
+"target" "obelisk1"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "1"
+"origin" "1802.000000 -1624.000000 700.000000"
+"classname" "item_invincible"
+}
+{
+"target" "jail_blue"
+"origin" "3782.000000 -2440.000000 336.000000"
+"classname" "jailbreak_controlpoint_blue"
+}
+{
+"target" "jail_red"
+"origin" "-202.000000 -836.000000 336.000000"
+"classname" "jailbreak_controlpoint_red"
+}
+{
+"model" "*43"
+"targetname" "jail_red"
+"wait" "10"
+"spawnflags" "260"
+"sounds" "1"
+"dmg" "500"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*44"
+"targetname" "jail_red"
+"wait" "10"
+"spawnflags" "260"
+"sounds" "1"
+"dmg" "500"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*45"
+"wait" "10"
+"angle" "180"
+"sounds" "1"
+"targetname" "jail_blue"
+"dmg" "500"
+"spawnflags" "260"
+"classname" "func_door"
+}
+{
+"model" "*46"
+"angle" "0"
+"dmg" "500"
+"sounds" "1"
+"spawnflags" "260"
+"targetname" "jail_blue"
+"wait" "10"
+"classname" "func_door"
+}
+{
+"model" "*47"
+"message" "went diving in toxic slime"
+"dmg" "500"
+"classname" "trigger_hurt"
+}
+{
+"model" "*48"
+"classname" "func_jailbreak_jail_blue"
+}
+{
+"model" "*49"
+"classname" "func_jailbreak_jail_red"
+}
+{
+"angle" "90.000000"
+"origin" "1852.000000 -3156.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_red"
+}
+{
+"angle" "90.000000"
+"origin" "1342.000000 -3164.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_red"
+}
+{
+"angle" "90.000000"
+"origin" "1404.000000 -3164.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_red"
+}
+{
+"angle" "90.000000"
+"origin" "1476.000000 -3168.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_red"
+}
+{
+"angle" "90.000000"
+"origin" "1554.000000 -3166.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_red"
+}
+{
+"angle" "90.000000"
+"origin" "1718.000000 -3152.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_red"
+}
+{
+"angle" "90.000000"
+"origin" "1784.000000 -3164.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_red"
+}
+{
+"angle" "90.000000"
+"origin" "1924.000000 -3162.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_red"
+}
+{
+"angle" "90.000015"
+"origin" "1968.000000 -256.000000 226.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "-179.999985"
+"origin" "2358.000000 -52.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "-179.999985"
+"origin" "2358.000000 -104.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "-179.999985"
+"origin" "2358.000000 -144.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "-179.999985"
+"origin" "2358.000000 -180.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "-179.999985"
+"origin" "2358.000000 -216.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "0.000010"
+"origin" "1648.000000 -102.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "0.000010"
+"origin" "1648.000000 -138.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "0.000010"
+"origin" "1648.000000 -66.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "0.000010"
+"origin" "1648.000000 -30.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "0.000010"
+"origin" "1648.000000 -178.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "0.000010"
+"origin" "1648.000000 -230.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "-179.999985"
+"origin" "2358.000000 -252.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "51.289806"
+"origin" "1964.000000 -256.000000 88.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "142.462494"
+"origin" "1966.000000 -256.000000 120.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "41.722916"
+"origin" "1968.000000 -256.000000 156.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "139.865967"
+"origin" "1968.000000 -256.000000 186.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "90.000015"
+"origin" "1968.000000 -256.000000 206.000000"
+"classname" "info_jailbreak_torturespawn_blue"
+}
+{
+"angle" "-90.000000"
+"origin" "2252.000000 -104.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_blue"
+}
+{
+"angle" "-90.000000"
+"origin" "1736.000000 -98.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_blue"
+}
+{
+"angle" "-90.000000"
+"origin" "1784.000000 -96.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_blue"
+}
+{
+"angle" "-90.000000"
+"origin" "1832.000000 -98.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_blue"
+}
+{
+"angle" "-90.000000"
+"origin" "1886.000000 -94.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_blue"
+}
+{
+"angle" "-90.000000"
+"origin" "2050.000000 -100.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_blue"
+}
+{
+"angle" "-90.000000"
+"origin" "2126.000000 -102.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_blue"
+}
+{
+"angle" "-90.000000"
+"origin" "2188.000000 -102.000000 134.000000"
+"classname" "info_jailbreak_jailspawn_blue"
+}
+{
+"angles" "12.089640 -31.201824 -1.546973"
+"origin" "1656.000000 -52.000000 228.000000"
+"classname" "info_jailbreak_jailcamera_blue"
+}
+{
+"angles" "8.960282 -179.999985 0.000000"
+"origin" "2358.000000 -150.000000 218.000000"
+"classname" "info_jailbreak_jailcamera_blue"
+}
+{
+"angle" "105.447899"
+"origin" "2060.000000 -730.000000 146.000000"
+"classname" "info_jailbreak_jailcamera_blue"
+}
+{
+"angle" "-179.999985"
+"origin" "1956.000000 -3090.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-179.999985"
+"origin" "1956.000000 -3118.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-179.999985"
+"origin" "1956.000000 -3036.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-179.999985"
+"origin" "1954.000000 -3180.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-179.999985"
+"origin" "1952.000000 -3148.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-179.999985"
+"origin" "1956.000000 -3064.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-179.999985"
+"origin" "1954.000000 -3010.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "0.000016"
+"origin" "1248.000000 -3092.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "0.000016"
+"origin" "1248.000000 -3064.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "0.000016"
+"origin" "1248.000000 -3146.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-147.882004"
+"origin" "1638.000000 -2980.000000 120.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "0.000016"
+"origin" "1252.000000 -3034.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "0.000016"
+"origin" "1248.000000 -3118.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "0.000016"
+"origin" "1250.000000 -3172.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "0.000016"
+"origin" "1250.000000 -3002.000000 178.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-90.000000"
+"origin" "1622.000000 -2980.000000 222.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-90.000000"
+"origin" "1654.000000 -2980.000000 222.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-40.996834"
+"origin" "1636.000000 -2980.000000 198.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-145.689941"
+"origin" "1636.000000 -2980.000000 174.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angle" "-40.490849"
+"origin" "1636.000000 -2980.000000 148.000000"
+"classname" "info_jailbreak_torturespawn_red"
+}
+{
+"angles" "-11.982272 -179.999985 0.000000"
+"origin" "1954.000000 -3094.000000 222.000000"
+"classname" "info_jailbreak_jailcamera_red"
+}
+{
+"angles" "11.982259 0.000000 0.000000"
+"origin" "1248.000000 -3082.000000 222.000000"
+"classname" "info_jailbreak_jailcamera_red"
+}
+{
+"angle" "-90.000000"
+"origin" "1628.000000 -2552.000000 216.000000"
+"classname" "info_jailbreak_jailcamera_red"
+}
