@@ -1,0 +1,123 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1851 -24 568"
+"angle" "315"
+}
+{
+"wait" "-1"
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"target" "t3"
+"targetname" "t2"
+"origin" "2226 -139 708"
+"classname" "target_give"
+}
+{
+"count" "1"
+"targetname" "t3"
+"origin" "2226 -139 741"
+"classname" "weapon_bfg"
+}
+{
+"angle" "45"
+"origin" "-1851 -256 568"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-2633 -138 1568"
+"targetname" "t4"
+}
+{
+"classname" "target_startTimer"
+"origin" "2226 -74 709"
+"targetname" "t2"
+}
+{
+"classname" "target_print"
+"origin" "2226 -209 704"
+"targetname" "t2"
+"message" "^2good luck, comrade!"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1897 -149 1169"
+"targetname" "t5"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t6"
+"origin" "1129 -149 1169"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "361 -149 1169"
+"targetname" "t7"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t8"
+"origin" "-151 -149 1169"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t9"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-919 -149 1169"
+"targetname" "t9"
+}
+{
+"target" "t10"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t10"
+"origin" "-1431 -149 1169"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "9999"
+"model" "*9"
+}
+{
+"classname" "target_print"
+"origin" "-2580 -138 1564"
+"targetname" "t4"
+"message" "^2Welcome to Russia, Comrade!"
+}
