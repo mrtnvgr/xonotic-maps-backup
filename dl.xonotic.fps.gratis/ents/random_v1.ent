@@ -1,0 +1,31 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-meta -v -maxarea -samplesize 8 -mv 1000000 -mi 6000000; -vis -saveprt; -light -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill"
+"classname" "worldspawn"
+}
+{
+"dmg" "500"
+"classname" "trigger_hurt"
+}
+{
+"model" "*1"
+"cnt" "1"
+"spawnflags" "8"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "cp_start"
+"origin" "-960.000000 -960.000000 -32.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*2"
+"targetname" "cp_start"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*3"
+"dmg" "500"
+"classname" "trigger_hurt"
+}
