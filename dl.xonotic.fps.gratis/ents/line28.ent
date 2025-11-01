@@ -1,0 +1,39 @@
+{
+"gridsize" "256 256 512"
+"_blocksize" "4096"
+"padgenseed" "1305522326"
+"classname" "worldspawn"
+}
+{
+"spawnflags" "1"
+"angle" "90.000000"
+"origin" "16.000000 0.000000 32.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"wait" "-1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "-49.000000 0.000000 8.000000"
+"classname" "target_startTimer"
+}
+{
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "-161.000000 13689.500000 196.000000"
+"classname" "target_stopTimer"
+}
+{
+"dmg" "9999"
+"spawnflags" "12"
+"classname" "trigger_hurt"
+"model" "*3"
+}
