@@ -1,0 +1,149 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "64 0 24"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"targetname" "target_startTimer1"
+"origin" "320 64 128"
+}
+{
+"classname" "target_give"
+"targetname" "target_give1"
+"target" "weapon_rocketlauncher1"
+"origin" "320 0 128"
+}
+{
+"classname" "weapon_rocketlauncher"
+"targetname" "weapon_rocketlauncher1"
+"count" "525600"
+"origin" "384 -64 128"
+}
+{
+"classname" "item_quad"
+"targetname" "weapon_rocketlauncher1"
+"count" "525600"
+"origin" "448 0 128"
+}
+{
+"classname" "item_enviro"
+"targetname" "weapon_rocketlauncher1"
+"count" "525600"
+"origin" "512 64 128"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_give1"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "target_stopTimer1"
+"origin" "576 12416 1152"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "target_checkpoint1"
+"origin" "1472 0 512"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "target_checkpoint2"
+"origin" "640 576 1024"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "target_checkpoint3"
+"origin" "-64 3072 1152"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "target_checkpoint4"
+"origin" "640 5888 1152"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t1"
+"origin" "640 7104 1152"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "640 8640 1152"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*10"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t3"
+"origin" "640 10432 1152"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*11"
+}
+{
+"classname" "target_print"
+"message" "hf"
+"targetname" "t4"
+"origin" "640 4800 1152"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_remove_powerups1"
+"model" "*12"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "640 1216 1024"
+"targetname" "target_remove_powerups1"
+}
