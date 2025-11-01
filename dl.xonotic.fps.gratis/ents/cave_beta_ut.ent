@@ -1,0 +1,989 @@
+{
+"_q3map2_version" "2.5.17n-git-a7e6001"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"modelscale" "0.04"
+"classname" "worldspawn"
+"message" "salut"
+"ambient" "20"
+}
+{
+"origin" "-728.000000 2060.800049 806.399963"
+"classname" "info_player_start"
+}
+{
+"angle" "180"
+"classname" "info_player_start"
+"origin" "-816.200012 -2100.000000 -1153.599976"
+}
+{
+"angle" "225"
+"origin" "1310.400024 1915.199951 -1097.599976"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"classname" "info_player_start"
+"origin" "1601.599976 2352.000000 2172.800049"
+}
+{
+"origin" "-918.399963 -380.799988 1377.599976"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"origin" "-728.000000 -1069.599976 -610.399963"
+"classname" "func_rotating_door"
+}
+{
+"model" "*2"
+"origin" "-728.000000 -1685.599976 -610.399963"
+"classname" "func_rotating_door"
+}
+{
+"model" "*3"
+"origin" "-1122.799927 -1198.400024 -613.200012"
+"classname" "func_rotating_door"
+}
+{
+"model" "*4"
+"origin" "-581.000000 -1873.199951 -898.799988"
+"classname" "func_rotating_door"
+}
+{
+"model" "*5"
+"origin" "-439.600006 -1439.199951 -898.799988"
+"classname" "func_rotating_door"
+}
+{
+"model" "*6"
+"origin" "-581.000000 -1031.799927 -898.799988"
+"classname" "func_rotating_door"
+}
+{
+"model" "*7"
+"classname" "func_breakable"
+"type" "1"
+"health" "5"
+}
+{
+"model" "*8"
+"origin" "994.000000 1699.599976 441.000000"
+"classname" "func_rotating_door"
+}
+{
+"model" "*9"
+"origin" "994.000000 1436.400024 441.000000"
+"classname" "func_rotating_door"
+}
+{
+"model" "*10"
+"origin" "994.000000 1169.000000 441.000000"
+"classname" "func_rotating_door"
+}
+{
+"model" "*11"
+"origin" "994.000000 898.799988 441.000000"
+"classname" "func_rotating_door"
+}
+{
+"model" "*12"
+"origin" "994.000000 628.599976 441.000000"
+"classname" "func_rotating_door"
+}
+{
+"model" "*13"
+"origin" "994.000000 359.799988 441.000000"
+"classname" "func_rotating_door"
+}
+{
+"model" "*14"
+"origin" "994.000000 91.000000 441.000000"
+"classname" "func_rotating_door"
+}
+{
+"model" "*15"
+"origin" "1099.000000 5.600000 441.000000"
+"classname" "func_rotating_door"
+}
+{
+"model" "*16"
+"type" "1"
+"health" "5"
+"classname" "func_breakable"
+}
+{
+"model" "*17"
+"noise" "sounds/ut4_cave/door2.wav"
+"speed" "20"
+"angle" "-1"
+"classname" "func_door"
+"wait" "2"
+"closewhenidle" "1"
+"dmg" "8"
+}
+{
+"model" "*18"
+"origin" "1096.199951 -484.399994 184.800003"
+"classname" "func_rotating_door"
+}
+{
+"model" "*19"
+"dmg" "8"
+"closewhenidle" "1"
+"wait" "2"
+"classname" "func_door"
+"angle" "-1"
+"speed" "20"
+"noise" "sounds/ut4_cave/door2.wav"
+}
+{
+"model" "*20"
+"targetname" "wagonnet"
+"lip" "-6475.000000"
+"_targetname" "wagonnet"
+"speed" "50"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"targetname" "wagonnetdelay"
+"target" "wagonnet"
+"origin" "198.800003 2511.599854 1717.799927"
+"classname" "target_delay"
+}
+{
+"model" "*21"
+"lip" "1.400000"
+"speed" "20"
+"target" "wagonnetdelay"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*22"
+"classname" "func_button"
+"angle" "360"
+"target" "wagonnetdelay"
+"speed" "20"
+"lip" "1.400000"
+}
+{
+"targetname" "t1"
+"noise" "sounds/ut4_cave/depart.wav"
+"origin" "481.600006 1848.000000 1814.400024"
+"classname" "target_speaker"
+}
+{
+"model" "*23"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"classname" "target_speaker"
+"origin" "492.799988 -3673.599854 1814.400024"
+"noise" "sounds/ut4_cave/depart.wav"
+"targetname" "t2"
+}
+{
+"model" "*24"
+"classname" "trigger_multiple"
+"target" "t2"
+}
+{
+"random" "10"
+"wait" "30"
+"noise" "sounds/ut4_cave/aigle.wav"
+"origin" "190.399994 -2676.800049 2150.399902"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "750.399963 672.000000 2150.399902"
+"noise" "sounds/ut4_cave/aigle.wav"
+"wait" "30"
+"random" "10"
+}
+{
+"spawnflags" "1"
+"noise" "sounds/ut4_cave/feu.wav"
+"origin" "-1411.199951 604.799988 1164.799927"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-1411.199951 1545.599976 1019.200012"
+"noise" "sounds/ut4_cave/feu.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-1097.599976 112.000000 1299.199951"
+"noise" "sounds/ut4_cave/feu.wav"
+"spawnflags" "1"
+}
+{
+"noise" "sounds/ut4_cave/riviere.wav"
+"spawnflags" "1"
+"origin" "347.199982 2296.000000 -1131.199951"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "336.000000 705.599976 -1131.199951"
+"spawnflags" "1"
+"noise" "sounds/ut4_cave/riviere.wav"
+}
+{
+"noise" "sounds/ut4_cave/riviere.wav"
+"spawnflags" "1"
+"origin" "336.000000 -705.599976 -1131.199951"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "347.199982 -2150.399902 -1131.199951"
+"spawnflags" "1"
+"noise" "sounds/ut4_cave/riviere.wav"
+}
+{
+"noise" "sounds/ut4_cave/riviere.wav"
+"spawnflags" "1"
+"origin" "313.600006 -3774.399902 -1131.199951"
+"classname" "target_speaker"
+}
+{
+"targetname" "t3"
+"noise" "sounds/ut4_cave/wag.wav"
+"origin" "369.600006 -3001.599854 1982.400024"
+"classname" "target_speaker"
+}
+{
+"model" "*25"
+"target" "t3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t5"
+"noise" "sounds/ut4_cave/wag.wav"
+"origin" "369.600006 -1534.400024 1982.400024"
+"classname" "target_speaker"
+}
+{
+"model" "*26"
+"target" "t5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t7"
+"noise" "sounds/ut4_cave/wag.wav"
+"origin" "369.600006 -67.199997 1982.400024"
+"classname" "target_speaker"
+}
+{
+"model" "*27"
+"target" "t7"
+"classname" "trigger_multiple"
+}
+{
+"classname" "target_speaker"
+"origin" "380.799988 1232.000000 1982.400024"
+"noise" "sounds/ut4_cave/wag.wav"
+"targetname" "t8"
+}
+{
+"model" "*28"
+"classname" "trigger_multiple"
+"target" "t8"
+}
+{
+"spawnflags" "1"
+"noise" "sounds/ut4_cave/gaz.wav"
+"origin" "-1220.799927 -1444.799927 -806.399963"
+"classname" "target_speaker"
+}
+{
+"classname" "target_location"
+"origin" "-1003.799988 -1197.000000 -1219.400024"
+"message" "locaux principaux : sous-sol"
+}
+{
+"message" "locaux principaux : couloir"
+"origin" "-1218.000000 -1178.799927 -859.599976"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1218.000000 -1544.199951 -856.799988"
+"message" "locaux principaux : couloir"
+}
+{
+"message" "locaux principaux : couloir superieur"
+"origin" "-1219.400024 -1180.199951 -600.599976"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1220.799927 -1470.000000 -600.599976"
+"message" "locaux principaux : couloir superieur"
+}
+{
+"message" "locaux principaux : couloir superieur"
+"origin" "-838.599976 -1460.199951 -600.599976"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1026.199951 -1768.199951 -600.599976"
+"message" "locaux principaux : etage superieur"
+}
+{
+"message" "locaux principaux : etage superieur"
+"origin" "-918.399963 -1029.000000 -600.599976"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-271.600006 -1369.199951 -600.599976"
+"message" "locaux principaux : reserve materiel"
+}
+{
+"message" "torrent"
+"origin" "261.799988 -2039.799927 -1183.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "274.399994 -809.200012 -1183.000000"
+"message" "torrent"
+}
+{
+"message" "torrent"
+"origin" "387.799988 138.599991 -1183.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "389.199982 1353.799927 -1183.000000"
+"message" "torrent"
+}
+{
+"message" "torrent"
+"origin" "327.600006 2356.199951 -1272.599976"
+"classname" "target_location"
+}
+{
+"message" "torrent"
+"origin" "383.600006 819.000000 -1183.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "511.000000 -2683.800049 -1183.000000"
+"message" "torrent"
+}
+{
+"message" "torrent"
+"origin" "525.000000 -3497.199951 -1183.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "508.199982 -4271.399902 -1183.000000"
+"message" "torrent"
+}
+{
+"classname" "target_location"
+"origin" "1059.799927 -3189.199951 191.800003"
+"message" "chemin de falaise sud"
+}
+{
+"message" "chemin de falaise sud"
+"origin" "1047.199951 -2275.000000 191.800003"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1024.799927 -1384.599976 191.800003"
+"message" "chemin de falaise sud"
+}
+{
+"message" "chemin de falaise sud"
+"origin" "1026.199951 -935.200012 191.800003"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-637.000000 -3336.199951 -1143.799927"
+"message" "berges nord"
+}
+{
+"message" "berges nord"
+"origin" "-644.000000 -2469.599854 -1143.799927"
+"classname" "target_location"
+}
+{
+"message" "grotte nord"
+"origin" "-268.799988 2049.599854 761.599976"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-784.000000 2049.599854 851.200012"
+"message" "grotte nord"
+}
+{
+"message" "grotte nord"
+"origin" "-1388.799927 2049.599854 929.599976"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1388.799927 1400.000000 1041.599976"
+"message" "grotte nord"
+}
+{
+"message" "grotte nord"
+"origin" "-1388.799927 616.000000 1176.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1388.799927 112.000000 1220.799927"
+"message" "grotte nord"
+}
+{
+"message" "grotte nord"
+"origin" "-1232.000000 179.199997 1220.799927"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-1030.400024 694.399963 1187.199951"
+"message" "passerelle nord"
+}
+{
+"message" "passerelle nord"
+"origin" "-918.399963 1187.199951 1097.599976"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-828.799988 1500.799927 1064.000000"
+"message" "passerelle nord"
+}
+{
+"message" "passerelle nord"
+"origin" "-638.399963 1758.400024 1019.200012"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-280.000000 1915.199951 985.599976"
+"message" "passerelle nord"
+}
+{
+"classname" "target_location"
+"origin" "-616.000000 1657.599976 548.799988"
+"message" "cable nord"
+}
+{
+"message" "cable nord"
+"origin" "-616.000000 1657.599976 89.599998"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "-627.200012 1657.599976 -268.799988"
+"message" "cable nord"
+}
+{
+"message" "reserve de paille"
+"origin" "-347.199982 1657.599976 -1108.799927"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "114.799995 2378.599854 -791.000000"
+"message" "echelle est"
+}
+{
+"message" "echelle est"
+"origin" "114.799995 2378.599854 -85.400002"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "92.400002 2378.599854 642.599976"
+"message" "echelle est"
+}
+{
+"message" "base chariot est"
+"origin" "526.399963 2296.000000 1713.599976"
+"classname" "target_location"
+}
+{
+"message" "base chariot ouest"
+"origin" "436.799988 -4155.199707 1747.199951"
+"classname" "target_location"
+}
+{
+"message" "falaise sud"
+"origin" "1747.199951 2352.000000 2206.399902"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1747.199951 1702.400024 2206.399902"
+"message" "falaise sud"
+}
+{
+"message" "falaise sud"
+"origin" "1736.000000 873.599976 2206.399902"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1747.199951 100.799995 2206.399902"
+"message" "falaise sud"
+}
+{
+"message" "falaise sud"
+"origin" "1747.199951 -582.399963 2206.399902"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1780.799927 -1276.799927 2206.399902"
+"message" "falaise sud"
+}
+{
+"message" "falaise sud"
+"origin" "1825.599976 -2016.000000 2206.399902"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1836.799927 -2721.599854 2206.399902"
+"message" "falaise sud"
+}
+{
+"message" "falaise sud"
+"origin" "1792.000000 -3460.800049 2206.399902"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1310.400024 -4233.600098 2206.399902"
+"message" "echelle ouest"
+}
+{
+"message" "echelle ouest"
+"origin" "1310.400024 -4256.000000 1411.199951"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1310.400024 -4256.000000 772.799988"
+"message" "echelle ouest"
+}
+{
+"message" "echelle ouest"
+"origin" "1310.400024 -4267.199707 22.400000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1310.400024 -4278.399902 -571.200012"
+"message" "echelle ouest"
+}
+{
+"message" "escalier prison"
+"origin" "1075.199951 -280.000000 -940.799988"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1075.199951 -280.000000 -492.799988"
+"message" "escalier prison"
+}
+{
+"message" "escalier prison"
+"origin" "1075.199951 -280.000000 -123.199997"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1075.199951 -280.000000 201.599991"
+"message" "escalier prison"
+}
+{
+"message" "escalier prison"
+"origin" "1344.000000 -145.599991 448.000000"
+"classname" "target_location"
+}
+{
+"message" "prison"
+"origin" "963.200012 1915.199951 448.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1052.799927 1545.599976 448.000000"
+"message" "prison"
+}
+{
+"message" "prison"
+"origin" "1052.799927 1164.799927 448.000000"
+"classname" "target_location"
+}
+{
+"classname" "target_location"
+"origin" "1052.799927 683.200012 448.000000"
+"message" "prison"
+}
+{
+"message" "prison"
+"origin" "1041.599976 212.800003 448.000000"
+"classname" "target_location"
+}
+{
+"message" "reserve suspendue"
+"origin" "-593.599976 -571.200012 1478.400024"
+"classname" "target_location"
+}
+{
+"classname" "info_player_start"
+"origin" "1321.599976 -604.799988 -1097.599976"
+"angle" "225"
+}
+{
+"angle" "180"
+"origin" "414.399994 -4267.199707 -1254.400024"
+"classname" "info_player_start"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"angle" "225"
+"origin" "-996.799988 -1892.799927 -548.799988"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"classname" "info_ut_spawn"
+"origin" "-1064.000000 -1892.799927 -548.799988"
+"angle" "225"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"angle" "225"
+"origin" "-1131.199951 -1892.799927 -548.799988"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"classname" "info_ut_spawn"
+"origin" "-1198.400024 -1892.799927 -548.799988"
+"angle" "225"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"angle" "45"
+"origin" "-1265.599976 -1892.799927 -548.799988"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"classname" "info_ut_spawn"
+"origin" "-795.200012 -1892.799927 -548.799988"
+"angle" "225"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"angle" "225"
+"origin" "-862.399963 -1892.799927 -548.799988"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"classname" "info_ut_spawn"
+"origin" "-929.599976 -1892.799927 -548.799988"
+"angle" "225"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"angle" "225"
+"origin" "-1265.599976 -1769.599976 -548.799988"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"group" "1"
+"g_gametype" "4"
+"classname" "info_ut_spawn"
+"origin" "-1265.599976 -1825.599976 -548.799988"
+"angle" "225"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "884.799988 1668.799927 492.799988"
+"angle" "225"
+"g_gametype" "4"
+"group" "2"
+"team" "blue"
+}
+{
+"team" "blue"
+"group" "2"
+"g_gametype" "4"
+"angle" "225"
+"origin" "884.799988 1400.000000 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "884.799988 1153.599976 492.799988"
+"angle" "225"
+"g_gametype" "4"
+"group" "2"
+"team" "blue"
+}
+{
+"team" "blue"
+"group" "2"
+"g_gametype" "4"
+"angle" "225"
+"origin" "884.799988 862.399963 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "884.799988 593.599976 492.799988"
+"angle" "225"
+"g_gametype" "4"
+"group" "2"
+"team" "blue"
+}
+{
+"team" "blue"
+"group" "2"
+"g_gametype" "4"
+"angle" "225"
+"origin" "884.799988 336.000000 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "884.799988 56.000000 492.799988"
+"angle" "225"
+"g_gametype" "4"
+"group" "2"
+"team" "blue"
+}
+{
+"team" "blue"
+"group" "2"
+"g_gametype" "4"
+"angle" "225"
+"origin" "1064.000000 380.799988 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "1052.799927 761.599976 492.799988"
+"angle" "225"
+"g_gametype" "4"
+"group" "2"
+"team" "blue"
+}
+{
+"team" "blue"
+"group" "2"
+"g_gametype" "4"
+"angle" "225"
+"origin" "1052.799927 1299.199951 492.799988"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"group" "3"
+"g_gametype" "3"
+"angle" "360"
+"origin" "-358.399994 -1310.400024 -649.599976"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"group" "3"
+"classname" "info_ut_spawn"
+"origin" "-291.199982 -1310.400024 -649.599976"
+"angle" "360"
+"g_gametype" "3"
+}
+{
+"team" "red"
+"group" "3"
+"g_gametype" "3"
+"angle" "360"
+"origin" "-235.199997 -1534.400024 -649.599976"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"group" "3"
+"classname" "info_ut_spawn"
+"origin" "-168.000000 -1534.400024 -649.599976"
+"angle" "360"
+"g_gametype" "3"
+}
+{
+"team" "red"
+"group" "3"
+"g_gametype" "3"
+"angle" "360"
+"origin" "-156.800003 -1366.400024 -649.599976"
+"classname" "info_ut_spawn"
+}
+{
+"team" "red"
+"classname" "info_ut_spawn"
+"origin" "-638.399963 -436.799988 1512.000000"
+"angle" "360"
+"g_gametype" "3"
+"group" "3"
+}
+{
+"team" "red"
+"g_gametype" "3"
+"angle" "360"
+"origin" "-571.200012 -436.799988 1512.000000"
+"classname" "info_ut_spawn"
+"group" "3"
+}
+{
+"team" "red"
+"classname" "info_ut_spawn"
+"origin" "-515.200012 -660.799988 1512.000000"
+"angle" "360"
+"g_gametype" "3"
+"group" "3"
+}
+{
+"team" "red"
+"g_gametype" "3"
+"angle" "360"
+"origin" "-448.000000 -660.799988 1512.000000"
+"classname" "info_ut_spawn"
+"group" "3"
+}
+{
+"team" "red"
+"classname" "info_ut_spawn"
+"origin" "-436.799988 -492.799988 1512.000000"
+"angle" "360"
+"g_gametype" "3"
+"group" "3"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "896.000000 -649.599976 212.800003"
+"angle" "360"
+"g_gametype" "3"
+"group" "4"
+"team" "blue"
+}
+{
+"g_gametype" "3"
+"angle" "360"
+"origin" "963.200012 -649.599976 212.800003"
+"classname" "info_ut_spawn"
+"group" "4"
+"team" "blue"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "1019.200012 -873.599976 212.800003"
+"angle" "360"
+"g_gametype" "3"
+"group" "4"
+"team" "blue"
+}
+{
+"g_gametype" "3"
+"angle" "360"
+"origin" "1086.400024 -873.599976 212.800003"
+"classname" "info_ut_spawn"
+"group" "4"
+"team" "blue"
+}
+{
+"classname" "info_ut_spawn"
+"origin" "1097.599976 -705.599976 212.800003"
+"angle" "360"
+"g_gametype" "3"
+"group" "4"
+"team" "blue"
+}
+{
+"team" "blue"
+"group" "4"
+"g_gametype" "3"
+"angle" "360"
+"origin" "1668.799927 2228.800049 2195.199951"
+"classname" "info_ut_spawn"
+}
+{
+"team" "blue"
+"group" "4"
+"classname" "info_ut_spawn"
+"origin" "1736.000000 2228.800049 2195.199951"
+"angle" "360"
+"g_gametype" "3"
+}
+{
+"team" "blue"
+"group" "4"
+"g_gametype" "3"
+"angle" "360"
+"origin" "1792.000000 2004.799927 2195.199951"
+"classname" "info_ut_spawn"
+}
+{
+"team" "blue"
+"group" "4"
+"classname" "info_ut_spawn"
+"origin" "1737.400024 1926.400024 2195.199951"
+"angle" "360"
+"g_gametype" "3"
+}
+{
+"team" "blue"
+"group" "4"
+"g_gametype" "3"
+"angle" "360"
+"origin" "1748.599976 2094.399902 2195.199951"
+"classname" "info_ut_spawn"
+}
+{
+"angle" "45"
+"origin" "-716.799988 -1881.599976 -22.400000"
+"classname" "info_player_intermission"
+}
