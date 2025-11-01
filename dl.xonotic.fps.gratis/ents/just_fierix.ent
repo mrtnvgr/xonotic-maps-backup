@@ -1,0 +1,252 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "-2672 -3072 -3360"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "timer_start"
+}
+{
+"model" "*2"
+"target" "check02"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"target" "check01"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"target" "check03"
+"classname" "trigger_multiple"
+}
+{
+"angle" "180"
+"origin" "3800 1376 1576"
+"targetname" "tel04"
+"classname" "target_teleporter"
+}
+{
+"model" "*5"
+"target" "tel04"
+"classname" "trigger_teleport"
+}
+{
+"model" "*6"
+"target" "tel04"
+"classname" "trigger_teleport"
+}
+{
+"model" "*7"
+"target" "reinit3"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "tel03"
+"origin" "3776 1376 1576"
+"angle" "180"
+"classname" "target_location"
+}
+{
+"model" "*8"
+"target" "tel03"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-3832 1376 272"
+"angle" "360"
+"targetname" "tel02"
+"classname" "target_teleporter"
+}
+{
+"model" "*9"
+"target" "tel02"
+"classname" "trigger_teleport"
+}
+{
+"model" "*10"
+"wait" "10"
+"target" "give03"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"wait" "1"
+"target" "give01"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"target" "reinit1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*13"
+"wait" "1"
+"target" "give02"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "g02"
+"classname" "item_armor_body"
+"origin" "-3248 -864 280"
+}
+{
+"targetname" "g02"
+"classname" "item_health_mega"
+"origin" "-3312 -864 280"
+}
+{
+"targetname" "r02"
+"count" "2"
+"origin" "3744 -608 280"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "-2048 -608 392"
+"targetname" "push02"
+"classname" "target_location"
+}
+{
+"model" "*14"
+"classname" "trigger_push"
+"target" "push02"
+}
+{
+"targetname" "g01"
+"origin" "-2592 -3312 -3368"
+"classname" "item_health_mega"
+}
+{
+"targetname" "g01"
+"origin" "-2592 -2840 -3368"
+"classname" "item_armor_body"
+}
+{
+"model" "*15"
+"target" "tel01"
+"classname" "trigger_teleport"
+}
+{
+"angle" "180"
+"origin" "3784 -1568 1280"
+"targetname" "tel01"
+"classname" "target_location"
+}
+{
+"origin" "64 -3072 -2872"
+"targetname" "push01"
+"classname" "target_location"
+}
+{
+"origin" "-384 -2904 -3208"
+"targetname" "kill01"
+"classname" "target_kill"
+}
+{
+"model" "*16"
+"target" "kill01"
+"classname" "trigger_multiple"
+}
+{
+"model" "*17"
+"classname" "trigger_push"
+"target" "push01"
+}
+{
+"origin" "-2688 -3072 -3072"
+"angle" "180"
+"model" "models/mapobj~1/telepo~1/telepo~1.md3"
+"classname" "misc_model"
+}
+{
+"origin" "-3280 -752 376"
+"target" "g02"
+"targetname" "give02"
+"classname" "target_give"
+}
+{
+"origin" "-2208 -3200 -3256"
+"targetname" "reinit1"
+"classname" "target_init"
+}
+{
+"origin" "-2688 -3264 -3192"
+"target" "g01"
+"targetname" "give01"
+"classname" "target_give"
+}
+{
+"classname" "target_give"
+"targetname" "give03"
+"target" "r02"
+"origin" "3848 -456 376"
+}
+{
+"classname" "misc_model"
+"model" "models/mapobj~1/telepo~1/telepo~1.md3"
+"angle" "180"
+"origin" "-3776 288 256"
+}
+{
+"origin" "1120 -8 1032"
+"targetname" "reinit3"
+"classname" "target_init"
+}
+{
+"model" "*18"
+"classname" "trigger_multiple"
+"target" "msg_1"
+}
+{
+"classname" "target_print"
+"targetname" "msg_1"
+"origin" "3584 904 448"
+"message" "Congratulations - Dedicate to WoLoLo ;-)"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "check03"
+"origin" "-3768 72 584"
+}
+{
+"origin" "-3528 -1184 584"
+"targetname" "check01"
+"classname" "target_checkpoint"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "check02"
+"origin" "3576 -760 584"
+}
+{
+"classname" "target_speaker"
+"targetname" "speak1"
+"origin" "3648 1192 512"
+"noise" "sound/feedback/perfect.wav"
+}
+{
+"model" "*19"
+"target" "speak1"
+"classname" "trigger_multiple"
+}
+{
+"classname" "target_startTimer"
+"targetname" "timer_start"
+"origin" "-2440 -2936 -3176"
+}
+{
+"origin" "3776 1864 768"
+"targetname" "target_finish"
+"classname" "target_stopTimer"
+}
+{
+"model" "*20"
+"classname" "trigger_multiple"
+"target" "target_finish"
+}
