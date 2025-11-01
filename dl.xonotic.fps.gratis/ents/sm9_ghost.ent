@@ -1,0 +1,132 @@
+{
+"_minlight" "15"
+"message" "Made by Ghost"
+"gridsize" "256 256 512"
+"_blocksize" "4096"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "0 -96 24"
+"classname" "info_player_start"
+}
+{
+"wait" "-1"
+"count" "5"
+"origin" "0 1920 96"
+"classname" "weapon_rocketlauncher"
+}
+{
+"targetname" "t1"
+"origin" "-96 -64 320"
+"classname" "target_startTimer"
+}
+{
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"targetname" "t2"
+"origin" "-576 2048 64"
+"classname" "target_checkpoint"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t3"
+"origin" "-3200 -7296 -1024"
+"classname" "target_stopTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-3200 -7296 -1024"
+"targetname" "t3"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "32 1584 784"
+"wait" "-1"
+"count" "2"
+}
+{
+"count" "2"
+"wait" "-1"
+"origin" "-32 1584 784"
+"classname" "weapon_grenadelauncher"
+}
+{
+"targetname" "t5"
+"origin" "16 -704 0"
+"classname" "target_checkpoint"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "16 -3344 -1568"
+"targetname" "t6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*5"
+}
+{
+"target" "t7"
+"targetname" "t1"
+"origin" "128 -64 192"
+"classname" "target_give"
+}
+{
+"targetname" "t7"
+"count" "9999"
+"origin" "256 0 192"
+"classname" "item_enviro"
+}
+{
+"count" "200"
+"origin" "-96 1584 784"
+"classname" "weapon_plasmagun"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "96 1584 784"
+"count" "200"
+}
+{
+"spawnflags" "1"
+"wait" "5"
+"count" "1"
+"origin" "0 -704 -496"
+"classname" "weapon_rocketlauncher"
+}
+{
+"spawnflags" "1"
+"classname" "weapon_rocketlauncher"
+"origin" "0 -704 -384"
+"count" "1"
+"wait" "5"
+}
+{
+"targetname" "t8"
+"origin" "2656 -7280 -1088"
+"classname" "target_stopTimer"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*6"
+}
