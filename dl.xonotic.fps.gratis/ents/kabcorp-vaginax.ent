@@ -1,0 +1,145 @@
+{
+"gridsize" "144 144 208"
+"classname" "worldspawn"
+"light" "4500"
+}
+{
+"classname" "info_player_start"
+"origin" "-128 -640 -96"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "384 -256 256"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-19328 0 -3584"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "info_player_start"
+"origin" "-128 128 -96"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_checkpoint1"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2816 512 128"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_checkpoint2"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "96 5120 -384"
+"targetname" "target_checkpoint2"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_checkpoint3"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-2688 5120 -1920"
+"targetname" "target_checkpoint3"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_checkpoint4"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-5024 5120 -1920"
+"targetname" "target_checkpoint4"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_checkpoint5"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-12288 5120 -4000"
+"targetname" "target_checkpoint5"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_checkpoint6"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-5024 1760 -4000"
+"targetname" "target_checkpoint6"
+"angle" "-1.40334e-014"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "target_speaker1"
+"model" "*9"
+}
+{
+"classname" "target_speaker"
+"origin" "-19420 -40 -3616"
+"targetname" "target_speaker1"
+"noise" "sound/kabcorp/cortex2.wav"
+"wait" "-1"
+"spawnflags" "8"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*10"
+}
+{
+"classname" "target_print"
+"origin" "2784 -512 -64"
+"message" "^1???"
+"targetname" "target_print1"
+}
+{
+"classname" "target_position"
+"origin" "-15488 0 -1408"
+"targetname" "target_position1"
+}
+{
+"classname" "trigger_push"
+"target" "target_position1"
+"model" "*11"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*12"
+}
