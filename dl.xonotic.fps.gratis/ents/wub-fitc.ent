@@ -1,0 +1,130 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_push"
+"target" "target_location1"
+"model" "*1"
+}
+{
+"classname" "target_location"
+"origin" "4320 -28 752"
+"targetname" "target_location1"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "5872 -816 480"
+"count" "75"
+"wait" "10"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "5872 752 480"
+"count" "75"
+"wait" "10"
+}
+{
+"classname" "trigger_push"
+"target" "target_location2"
+"model" "*2"
+}
+{
+"classname" "target_location"
+"origin" "7200 -560 960"
+"targetname" "target_location2"
+}
+{
+"classname" "target_location"
+"origin" "7200 496 960"
+"targetname" "target_location3"
+}
+{
+"classname" "trigger_push"
+"target" "target_location3"
+"model" "*3"
+}
+{
+"classname" "target_stopTimer"
+"origin" "12064 -32 944"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "8736 -32 944"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "6464 -32 768"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4288 -32 512"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*8"
+}
+{
+"classname" "target_startTimer"
+"origin" "192 -32 80"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-128 -32 -16"
+}
+{
+"classname" "item_health_mega"
+"origin" "6144 -32 480"
+"wait" "5"
+}
+{
+"classname" "item_armor_body"
+"origin" "6192 -32 464"
+"wait" "5"
+}
+{
+"classname" "target_init"
+"origin" "7296 -560 928"
+"targetname" "target_init2"
+}
+{
+"classname" "target_init"
+"origin" "7296 496 928"
+"targetname" "target_init1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_init1"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_init2"
+"model" "*10"
+}
