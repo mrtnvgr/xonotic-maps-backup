@@ -1,0 +1,155 @@
+{
+"target" "t1"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "16 -344 232"
+"angle" "-2"
+}
+{
+"classname" "target_startTimer"
+"origin" "0 16 160"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"target" "t12"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"target" "t13"
+"targetname" "t12"
+"origin" "16 -328 152"
+"classname" "target_give"
+}
+{
+"spawnflags" "1"
+"count" "3"
+"targetname" "t13"
+"origin" "16 -272 152"
+"classname" "weapon_rocketlauncher"
+}
+{
+"wait" "1"
+"angle" "270"
+"origin" "16 -40 48"
+"classname" "item_armor_body"
+}
+{
+"wait" "5"
+"count" "100"
+"angle" "90"
+"origin" "16 2256 88"
+"classname" "weapon_plasmagun"
+}
+{
+"wait" "5"
+"angle" "90"
+"origin" "-104 2256 872"
+"classname" "item_health"
+}
+{
+"classname" "item_health"
+"origin" "136 2256 872"
+"angle" "90"
+"wait" "5"
+}
+{
+"wait" "5"
+"spawnflags" "1"
+"angle" "90"
+"origin" "16 2288 400"
+"classname" "item_health_mega"
+}
+{
+"target" "t2"
+"classname" "trigger_teleport"
+"model" "*4"
+}
+{
+"angle" "90"
+"targetname" "t2"
+"origin" "16 -168 64"
+"classname" "target_teleporter"
+}
+{
+"target" "t4"
+"classname" "trigger_teleport"
+"model" "*5"
+}
+{
+"targetname" "t4"
+"origin" "144 2284 856"
+"classname" "target_teleporter"
+"angle" "270"
+}
+{
+"target" "t5"
+"classname" "trigger_teleport"
+"model" "*6"
+}
+{
+"targetname" "t5"
+"origin" "-112 2284 856"
+"classname" "target_teleporter"
+"angle" "270"
+}
+{
+"spawnflags" "1"
+"angle" "90"
+"origin" "16 2288 192"
+"classname" "item_haste"
+"wait" "5"
+}
+{
+"count" "1"
+"wait" "5"
+"origin" "4 -96 352"
+"classname" "weapon_grenadelauncher"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t6"
+"origin" "16 2112 880"
+"classname" "target_init"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t7"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "16 -624 528"
+"targetname" "t7"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "t8"
+"origin" "8 2264 920"
+"classname" "target_checkpoint"
+}
