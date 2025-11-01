@@ -1,0 +1,54 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "item_enviro"
+"origin" "-160 608 8"
+"wait" "1"
+"random" "1"
+"count" "999"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"random" "-1"
+"target" "target_startTimer1"
+"model" "*1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-88 600 1504"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1256 -1256 1360"
+"targetname" "target_stopTimer1"
+}
+{
+"classname" "info_player_start"
+"origin" "-48 976 -32"
+"angle" "270"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "9999"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*4"
+}
+{
+"classname" "target_print"
+"origin" "-16 864 344"
+"targetname" "target_print1"
+"message" "Not this way, man!"
+}
