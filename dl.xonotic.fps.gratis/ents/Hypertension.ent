@@ -1,0 +1,98 @@
+{
+"classname" "worldspawn"
+"ambient" "20"
+"_blocksize" "2048"
+}
+{
+"classname" "func_rotating"
+"speed" "2000"
+"origin" "256 -8960 -1539"
+"model" "*1"
+}
+{
+"classname" "info_player_start"
+"origin" "296 188 120"
+}
+{
+"classname" "func_rotating"
+"speed" "700"
+"origin" "256 1536 -32"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*3"
+}
+{
+"classname" "target_startTimer"
+"origin" "256 616 352"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "256 -4752 -280"
+"targetname" "target_checkpoint1"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "256 -6312 -424"
+"count" "200"
+}
+{
+"classname" "item_enviro"
+"origin" "40 -9176 -1360"
+"count" "200"
+}
+{
+"classname" "item_enviro"
+"origin" "480 -9176 -1360"
+"count" "200"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "256 -8896 -336"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "256 -4744 144"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"model" "*7"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "256 104 32"
+"angle" "-90"
+"targetname" "misc_teleporter_dest1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"model" "*8"
+}
+{
+"classname" "target_stopTimer"
+"origin" "256 7032 -384"
+"targetname" "target_stopTimer1"
+}
