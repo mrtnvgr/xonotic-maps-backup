@@ -1,0 +1,142 @@
+{
+"_blocksize" "4100"
+"gridsize" "215,160,000,000,000"
+"_lightmapscale" ".5"
+"ambient" "70"
+"classname" "worldspawn"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-8 -48 48"
+"angle" "90"
+"targetname" "t3"
+}
+{
+"count" "100"
+"classname" "weapon_plasmagun"
+"origin" "-8 2576 -112"
+"wait" "-1"
+"angle" "180"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*2"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-8 3008 -104"
+"angle" "90"
+"targetname" "t4"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*3"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"wait" "5"
+"count" "2"
+"spawnflags" "1"
+"origin" "-8 2056 -1688"
+"classname" "weapon_grenadelauncher"
+}
+{
+"targetname" "t6"
+"origin" "0 2064 -1408"
+"classname" "target_stopTimer"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"wait" "-1"
+"count" "5"
+"spawnflags" "1"
+"angle" "180"
+"origin" "-8 1512 -104"
+"classname" "weapon_rocketlauncher"
+}
+{
+"angle" "90"
+"origin" "-8 -112 144"
+"classname" "info_player_start"
+}
+{
+"targetname" "t7"
+"origin" "-8 296 72"
+"classname" "target_startTimer"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"count" "9000"
+"origin" "-8 -112 24"
+"classname" "item_enviro"
+}
+{
+"targetname" "t8"
+"origin" "944 800 -824"
+"classname" "target_kill"
+}
+{
+"classname" "target_kill"
+"origin" "-480 1528 -432"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*9"
+}
+{
+"classname" "target_kill"
+"origin" "872 3976 -1704"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*10"
+}
+{
+"classname" "target_kill"
+"origin" "-32 1800 -8"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*12"
+}
