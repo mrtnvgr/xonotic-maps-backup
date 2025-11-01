@@ -1,0 +1,239 @@
+{
+"classname" "worldspawn"
+"angle" "-1"
+"_color" "1.000000 0.655299 0.642329"
+}
+{
+"model" "*1"
+"spawnflags" "12"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "start"
+}
+{
+"model" "*3"
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "12"
+}
+{
+"model" "*4"
+"spawnflags" "12"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"model" "*5"
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "12"
+}
+{
+"model" "*6"
+"spawnflags" "12"
+"dmg" "999"
+"classname" "trigger_hurt"
+}
+{
+"model" "*7"
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "12"
+}
+{
+"model" "*8"
+"classname" "func_button"
+"health" "1"
+"target" "action_stations"
+"speed" "9999"
+"wait" "4"
+"angle" "-2"
+}
+{
+"model" "*9"
+"wait" "-1"
+"target" "stop2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "start"
+"origin" "-1568 28688 112"
+"classname" "target_startTimer"
+}
+{
+"classname" "target_speaker"
+"origin" "-1744 27040 -416"
+"targetname" "action_stations"
+"noise" "sound/bignig-badman/action_stations.wav"
+"LOOPED_OFF" "true"
+"wait" "4"
+}
+{
+"wait" "4"
+"LOOPED_OFF" "true"
+"noise" "sound/bignig-badman/action_stations.wav"
+"targetname" "action_stations"
+"origin" "-1616 27040 -416"
+"classname" "target_speaker"
+}
+{
+"wait" "4"
+"LOOPED_OFF" "true"
+"noise" "sound/bignig-badman/action_stations.wav"
+"targetname" "action_stations"
+"origin" "-1616 26848 -416"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-1744 26848 -416"
+"targetname" "action_stations"
+"noise" "sound/bignig-badman/action_stations.wav"
+"LOOPED_OFF" "true"
+"wait" "4"
+}
+{
+"classname" "target_speaker"
+"origin" "-1616 26656 -416"
+"targetname" "action_stations"
+"noise" "sound/bignig-badman/action_stations.wav"
+"LOOPED_OFF" "true"
+"wait" "4"
+}
+{
+"wait" "4"
+"LOOPED_OFF" "true"
+"noise" "sound/bignig-badman/action_stations.wav"
+"targetname" "action_stations"
+"origin" "-1744 26656 -416"
+"classname" "target_speaker"
+}
+{
+"wait" "4"
+"LOOPED_OFF" "true"
+"noise" "sound/bignig-badman/action_stations.wav"
+"targetname" "action_stations"
+"origin" "-1744 26464 -416"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-1616 26464 -416"
+"targetname" "action_stations"
+"noise" "sound/bignig-badman/action_stations.wav"
+"LOOPED_OFF" "true"
+"wait" "4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1328 -23024 112"
+"targetname" "stop2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1304 28688 32"
+"angle" "180"
+}
+{
+"targetname" "check1"
+"origin" "-1792 27392 -256"
+"classname" "target_checkpoint"
+}
+{
+"model" "*10"
+"target" "check1"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check2"
+"origin" "-2048 25088 -256"
+"classname" "target_checkpoint"
+}
+{
+"model" "*11"
+"wait" "-1"
+"target" "check2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"target" "check3"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check3"
+"origin" "-1792 21504 -1024"
+"classname" "target_checkpoint"
+}
+{
+"model" "*13"
+"wait" "-1"
+"target" "check4"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check4"
+"origin" "0 16640 -1024"
+"classname" "target_checkpoint"
+}
+{
+"model" "*14"
+"wait" "-1"
+"target" "check5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check5"
+"origin" "0 4352 -1280"
+"classname" "target_checkpoint"
+}
+{
+"model" "*15"
+"wait" "-1"
+"target" "check6"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check6"
+"origin" "0 -7936 -1536"
+"classname" "target_checkpoint"
+}
+{
+"model" "*16"
+"target" "check7"
+"wait" "-1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check7"
+"origin" "1792 -14336 -1024"
+"classname" "target_checkpoint"
+}
+{
+"model" "*17"
+"wait" "-1"
+"target" "check8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check8"
+"origin" "2176 -19976 64"
+"classname" "target_checkpoint"
+}
+{
+"model" "*18"
+"wait" "-1"
+"target" "check9"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "check9"
+"origin" "1792 -22016 0"
+"classname" "target_checkpoint"
+}
