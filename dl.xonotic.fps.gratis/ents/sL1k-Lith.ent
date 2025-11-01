@@ -1,0 +1,110 @@
+{
+"_mingridlight" "10"
+"_minvertexlight" "10"
+"_minlight" "10"
+"_blocksize" "4096 4096 0"
+"gridsize" "512 512 1024"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "1120 -3968 32"
+"classname" "info_player_start"
+}
+{
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"target" "t2"
+"targetname" "t1"
+"origin" "1120 -4064 32"
+"classname" "target_give"
+}
+{
+"targetname" "t2"
+"count" "200"
+"origin" "1120 -4096 32"
+"classname" "weapon_rocketlauncher"
+}
+{
+"targetname" "t2"
+"count" "60"
+"origin" "1120 -4128 32"
+"classname" "item_enviro"
+}
+{
+"target" "t3"
+"wait" "-1"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t3"
+"origin" "1632 -4256 32"
+"classname" "target_startTimer"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "1120 -4096 32"
+"count" "200"
+"targetname" "t2"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"origin" "56000 -3968 1856"
+"classname" "target_stopTimer"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"targetname" "t5"
+"origin" "37056 -3968 1728"
+"classname" "target_checkpoint"
+}
+{
+"target" "t6"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t6"
+"origin" "29760 -4128 -672"
+"classname" "target_checkpoint"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"targetname" "t7"
+"origin" "18528 -4736 192"
+"classname" "target_checkpoint"
+}
+{
+"target" "t8"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"targetname" "t8"
+"origin" "6048 -4064 256"
+"classname" "target_checkpoint"
+}
+{
+"spawnflags" "8"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*8"
+}
