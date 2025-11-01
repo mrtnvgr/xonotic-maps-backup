@@ -1,0 +1,34 @@
+{
+"gridsize" "80 80 128"
+"classname" "worldspawn"
+"_blocksize" "4096"
+}
+{
+"classname" "info_player_start"
+"origin" "-984 -320 -24"
+}
+{
+"classname" "target_stopTimer"
+"origin" "7978 -20814 -1248"
+"targetname" "end"
+}
+{
+"classname" "trigger_multiple"
+"target" "end"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "150"
+"model" "*3"
+}
+{
+"classname" "target_startTimer"
+"origin" "-824 -200 72"
+"targetname" "start"
+}
