@@ -1,0 +1,137 @@
+{
+"classname" "worldspawn"
+"target" "target_stopTimer1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "512 -11384 22080"
+"angle" "90"
+}
+{
+"classname" "target_startTimer"
+"origin" "544 -11520 22112"
+"targetname" "target_startTimer1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "400 -7120 22112"
+"targetname" "target_checkpoint2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "5072 -2576 21568"
+"targetname" "target_checkpoint3"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"model" "*4"
+}
+{
+"classname" "target_speaker"
+"origin" "2168 -2568 22056"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "1863 -7798 21856"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "696 -5448 22376"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "4984 -5768 20840"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "3000 -3784 22376"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "1848 -4616 22376"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "3640 -2568 21032"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "4792 -2568 21352"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "4984 -3208 20840"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "4984 -4424 20840"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "2232 -2568 20968"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "632 -6344 22184"
+"noise" "sound/broken/wasserfallen.wav"
+"spawnflags" "1"
+}
+{
+"classname" "item_health_mega"
+"origin" "5200 -2544 21568"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "150"
+"spawnflags" "16"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer3"
+"model" "*6"
+}
+{
+"classname" "target_stopTimer"
+"origin" "4960 -5792 20704"
+"targetname" "target_stopTimer3"
+}
