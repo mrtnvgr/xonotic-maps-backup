@@ -1,0 +1,106 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+"message" "welcome to melee island"
+}
+{
+"angle" "270"
+"origin" "-861.000000 63.000000 60.200001"
+"classname" "misc_portal_surface"
+}
+{
+"light" "50"
+"_color" "0.376190 0.614286 1.000000"
+"origin" "1785.000000 68.599998 159.599991"
+"classname" "light"
+}
+{
+"light" "50"
+"origin" "799.399963 -128.800003 89.599998"
+"_color" "0.975806 1.000000 0.133065"
+"classname" "light"
+}
+{
+"light" "50"
+"origin" "91.000000 -469.000000 365.399994"
+"classname" "light"
+}
+{
+"light" "150"
+"_color" "1.000000 0.290323 0.166667"
+"origin" "47.599998 -431.199982 116.199997"
+"classname" "light"
+}
+{
+"classname" "func_door"
+"model" "*1"
+}
+{
+"origin" "-253.399994 -207.199997 88.199997"
+"classname" "item_armor_body"
+}
+{
+"origin" "952.000000 65.799995 849.799988"
+"targetname" "quad_jump"
+"classname" "target_position"
+}
+{
+"target" "quad_jump"
+"classname" "trigger_push"
+"model" "*2"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "828.799988 -224.000000 78.400002"
+}
+{
+"origin" "44.799999 347.199982 11.200000"
+"targetname" "tele1"
+"angle" "270"
+"classname" "target_teleporter"
+}
+{
+"angle" "90"
+"origin" "436.799988 -224.000000 11.200000"
+"targetname" "tele1"
+"classname" "target_teleporter"
+}
+{
+"target" "tele1"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"classname" "light"
+"_color" "0.964912 1.000000 0.210526"
+"origin" "-624.399963 280.000000 361.199982"
+"light" "800"
+}
+{
+"origin" "-637.000000 414.399994 288.399994"
+"targetname" "target1"
+"classname" "target_position"
+}
+{
+"angle" "270"
+"origin" "-607.599976 53.200001 49.000000"
+"classname" "info_player_start"
+}
+{
+"target" "tele1"
+"classname" "trigger_teleport"
+"model" "*4"
+}
+{
+"classname" "target_teleporter"
+"angle" "270"
+"targetname" "tele1"
+"origin" "-291.199982 504.000000 11.200000"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele1"
+"model" "*5"
+}
