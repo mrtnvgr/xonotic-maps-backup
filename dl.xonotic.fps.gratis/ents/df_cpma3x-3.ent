@@ -1,0 +1,137 @@
+{
+"ambient" "0 0 2"
+"message" "Strafe Jump Run"
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_teleport"
+"target" "respawn"
+"model" "*1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-4096 0 228"
+"targetname" "end"
+}
+{
+"classname" "trigger_multiple"
+"target" "end"
+"model" "*2"
+}
+{
+"target" "respawn"
+"classname" "trigger_teleport"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "respawn"
+"model" "*4"
+}
+{
+"classname" "target_startTimer"
+"origin" "224 0 120"
+"targetname" "start"
+}
+{
+"classname" "trigger_multiple"
+"target" "start"
+"model" "*5"
+}
+{
+"targetname" "sound"
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"target" "respawn"
+"model" "*7"
+}
+{
+"targetname" "sound"
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*8"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-40 0 32"
+}
+{
+"target" "respawn"
+"classname" "trigger_teleport"
+"model" "*9"
+}
+{
+"targetname" "respawn"
+"origin" "-40 0 16"
+"classname" "target_teleporter"
+}
+{
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "t1"
+"origin" "1656 0 48"
+"classname" "target_checkpoint"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"targetname" "t2"
+"origin" "3712 0 -4"
+"classname" "target_checkpoint"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*12"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*13"
+}
+{
+"targetname" "t3"
+"origin" "5696 0 -104"
+"classname" "target_checkpoint"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*14"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*15"
+}
+{
+"targetname" "t4"
+"origin" "4096 0 384"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "t5"
+"origin" "120 0 520"
+"classname" "target_checkpoint"
+}
+{
+"classname" "target_speaker"
+"targetname" "end"
+"noise" "*taunt.wav"
+"origin" "-4096 0 252"
+}
+{
+"target" "respawn"
+"classname" "trigger_teleport"
+"model" "*16"
+}
