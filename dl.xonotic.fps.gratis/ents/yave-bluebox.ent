@@ -1,0 +1,162 @@
+{
+"classname" "worldspawn"
+"mapcoordsmins" "-1024 1024"
+"mapcoordsmaxs" "1024 -1024"
+"_blocksize" "0 0 0"
+"lightmapscale" "3"
+"_mingridlight" "48"
+"_minvertexlight" "18"
+"ambient" "15"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "64 256 32"
+}
+{
+"classname" "target_startTimer"
+"origin" "216 328 104"
+"targetname" "target_startTimer2"
+"name" "^Db^FlUE^5."
+}
+{
+"classname" "target_stopTimer"
+"origin" "4844 9076 834"
+"targetname" "target_stopTimer1"
+"name" "^Db^FlUE^5."
+"angle" "-90"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4848 4192 1448"
+"targetname" "target_checkpoint1"
+"name" "^Db^FlUE^5."
+}
+{
+"classname" "trigger_multiple"
+"target" "target_startTimer2"
+"name" "^Db^FlUE^5."
+"wait" "-1"
+"model" "*1"
+}
+{
+"classname" "target_push"
+"origin" "7232 1728 144"
+"targetname" "target_push1"
+"target" "info_notnull1"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_push1"
+"model" "*2"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "13"
+"speed" "50"
+"origin" "6400 2304 1924"
+"model" "*3"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "13"
+"speed" "50"
+"origin" "6400 3328 1924"
+"model" "*4"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "13"
+"speed" "50"
+"origin" "5376 2304 1924"
+"model" "*5"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "13"
+"speed" "50"
+"origin" "5376 3328 1924"
+"model" "*6"
+}
+{
+"classname" "info_notnull"
+"origin" "7232 1728 1912"
+"targetname" "info_notnull1"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_stopTimer1"
+"name" "^Db^FlUE^5."
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2672 248 40"
+"targetname" "target_checkpoint2"
+"name" "^Db^FlUE^5."
+}
+{
+"classname" "target_checkpoint"
+"origin" "3984 248 1064"
+"targetname" "target_checkpoint3"
+"name" "^Db^FlUE^5."
+}
+{
+"classname" "target_checkpoint"
+"origin" "7216 1856 1608"
+"targetname" "target_checkpoint4"
+"name" "^Db^FlUE^5."
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_checkpoint2"
+"model" "*11"
+}
+{
+"classname" "target_print"
+"origin" "4848 6160 1216"
+"spawnflags" "4"
+"message" "^dNo^7thing ^fHe^7re^4."
+"targetname" "target_print1"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*12"
+}
+{
+"classname" "target_push"
+"origin" "3464 256 136"
+"targetname" "target_push2"
+}
+{
+"classname" "trigger_push"
+"target" "target_push2"
+"model" "*13"
+}
+{
+"classname" "target_push"
+"origin" "3168 256 608"
+"targetname" "target_push3"
+}
+{
+"classname" "trigger_push"
+"target" "target_push3"
+"model" "*14"
+}
