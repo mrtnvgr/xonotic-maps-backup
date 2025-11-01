@@ -1,0 +1,41 @@
+{
+"gridsize" "51.200001 51.200001 102.400002"
+"_minlight" "2"
+"_farplanedist" "2048"
+"classname" "worldspawn"
+}
+{
+"origin" "537.600037 947.200012 1689.600025"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"wait" "-1"
+"target" "start"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "start"
+"origin" "588.799988 947.200012 2227.200033"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "stop"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "stop"
+"origin" "819.200012 3456.000000 2227.200033"
+"classname" "target_stopTimer"
+}
+{
+"count" "200"
+"origin" "537.600037 947.200012 1740.800026"
+"classname" "weapon_rocketlauncher"
+}
+{
+"count" "99999"
+"origin" "537.600037 947.200012 1817.600027"
+"classname" "item_enviro"
+}
