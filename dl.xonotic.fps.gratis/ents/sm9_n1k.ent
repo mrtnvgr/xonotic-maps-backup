@@ -1,0 +1,146 @@
+{
+"_lightmapscale" "5"
+"_ambient" "20"
+"_blocksize" "4096"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-32 -96 48"
+"angle" "90"
+}
+{
+"spawnflags" "1"
+"classname" "weapon_rocketlauncher"
+"origin" "-32 624 104"
+"wait" "5"
+"count" "-1"
+}
+{
+"classname" "ammo_rockets"
+"origin" "416 3328 152"
+"wait" "5"
+"count" "1"
+}
+{
+"count" "1"
+"wait" "5"
+"origin" "-480 3328 152"
+"classname" "ammo_rockets"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-32 5280 216"
+"wait" "10"
+"count" "2"
+}
+{
+"count" "99"
+"wait" "5"
+"classname" "item_enviro"
+"origin" "-32 5232 216"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-32 3680 88"
+"count" "30"
+"wait" "10"
+}
+{
+"spawnflags" "1"
+"classname" "weapon_grenadelauncher"
+"origin" "-32 992 112"
+"count" "-1"
+}
+{
+"classname" "ammo_cells"
+"origin" "-144 3776 752"
+"wait" "5"
+"count" "20"
+}
+{
+"classname" "ammo_rockets"
+"origin" "176 3488 1184"
+"count" "1"
+"wait" "5"
+}
+{
+"classname" "ammo_grenades"
+"origin" "-160 3616 -552"
+"count" "1"
+"wait" "3"
+}
+{
+"wait" "3"
+"count" "1"
+"origin" "-160 3424 -552"
+"classname" "ammo_grenades"
+}
+{
+"classname" "ammo_grenades"
+"origin" "96 3424 -552"
+"count" "1"
+"wait" "3"
+}
+{
+"wait" "3"
+"count" "1"
+"origin" "96 3616 -552"
+"classname" "ammo_grenades"
+}
+{
+"classname" "target_startTimer"
+"origin" "24 120 192"
+"targetname" "t1"
+}
+{
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t2"
+"origin" "-96 5536 2024"
+"classname" "target_stopTimer"
+}
+{
+"dmg" "9999"
+"classname" "trigger_hurt"
+"model" "*3"
+}
+{
+"count" "1"
+"wait" "10"
+"origin" "-32 4032 -424"
+"classname" "ammo_rockets"
+}
+{
+"wait" "5"
+"count" "1"
+"origin" "-240 3488 1184"
+"classname" "ammo_rockets"
+}
+{
+"wait" "5"
+"count" "1"
+"origin" "72 3776 752"
+"classname" "ammo_grenades"
+}
+{
+"count" "20"
+"wait" "5"
+"origin" "-144 3232 1432"
+"classname" "ammo_cells"
+}
+{
+"classname" "ammo_grenades"
+"origin" "72 3232 1432"
+"count" "1"
+"wait" "5"
+}
