@@ -1,0 +1,130 @@
+{
+"_q3map2_version" "2.5.17n-git-1451c06"
+"_q3map2_cmdline" "-scale 1.40"
+"gridsize" "89.599998 89.599998 179.199997"
+"classname" "worldspawn"
+}
+{
+"origin" "-672.000000 -15344.000000 1243.199951"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"target" "startas"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "startas"
+"origin" "-481.600006 -15411.200195 1355.199951"
+"classname" "target_starttimer"
+}
+{
+"targetname" "hi"
+"angle" "270"
+"origin" "1388.799927 44.799999 1265.599976"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*2"
+"target" "hi"
+"classname" "trigger_teleport"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "endas"
+}
+{
+"classname" "target_stoptimer"
+"origin" "-593.599976 -15780.799805 3696.000000"
+"targetname" "endas"
+}
+{
+"model" "*4"
+"target" "pla"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "1"
+"count" "200"
+"wait" "3"
+"targetname" "plaz"
+"origin" "-3886.399902 884.799988 -313.600006"
+"classname" "weapon_plasmagun"
+}
+{
+"target" "plaz"
+"targetname" "pla"
+"origin" "-3315.199951 963.200012 -313.600006"
+"classname" "target_give"
+}
+{
+"wait" "3"
+"count" "200"
+"origin" "918.399963 7134.399902 1993.599976"
+"classname" "ammo_cells"
+}
+{
+"classname" "ammo_cells"
+"origin" "-2083.199951 7134.399902 1993.599976"
+"count" "200"
+"wait" "3"
+}
+{
+"wait" "3"
+"count" "200"
+"origin" "1388.799927 -56.000000 1232.000000"
+"classname" "ammo_cells"
+}
+{
+"classname" "ammo_cells"
+"origin" "-3696.000000 1993.599976 918.399963"
+"count" "200"
+"wait" "3"
+}
+{
+"wait" "3"
+"count" "200"
+"origin" "-3696.000000 3035.199951 2352.000000"
+"classname" "ammo_cells"
+}
+{
+"classname" "ammo_cells"
+"origin" "2307.199951 -3292.800049 3203.199951"
+"count" "200"
+"wait" "3"
+}
+{
+"wait" "3"
+"count" "200"
+"origin" "2419.199951 -10147.200195 2083.199951"
+"classname" "ammo_cells"
+}
+{
+"count" "777"
+"wait" "3"
+"origin" "-548.799988 -15344.000000 1220.799927"
+"classname" "item_enviro"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"target" "kaz"
+}
+{
+"classname" "target_smallprint"
+"origin" "-582.399963 -15086.399414 1355.199951"
+"targetname" "kaz"
+"message" "by w65b61s"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "aha"
+}
+{
+"classname" "target_init"
+"origin" "-459.199982 -15075.200195 1355.199951"
+"targetname" "aha"
+"spawnflags" "8"
+}
