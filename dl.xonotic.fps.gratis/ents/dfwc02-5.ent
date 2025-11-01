@@ -1,0 +1,205 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "0 -128 32"
+"classname" "info_player_deathmatch"
+}
+{
+"wait" "1"
+"count" "200"
+"origin" "128 -128 24"
+"classname" "weapon_plasmagun"
+}
+{
+"classname" "target_speaker"
+"origin" "1916 -484 80"
+"spawnflags" "1"
+"noise" "sound/factory/gaz_leak.wav"
+"targetname" "t2"
+}
+{
+"wait" "3"
+"origin" "1824 -688 -208"
+"classname" "item_health_mega"
+}
+{
+"dmg" "25"
+"classname" "trigger_hurt"
+"target" "t2"
+"model" "*1"
+}
+{
+"classname" "target_speaker"
+"origin" "1824 -960 -368"
+"spawnflags" "1"
+"noise" "sound/world/machinerydrone01.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "1824 -1392 -376"
+"spawnflags" "1"
+"noise" "sound/world/machinerydrone02.wav"
+}
+{
+"dmg" "25"
+"classname" "trigger_hurt"
+"model" "*2"
+}
+{
+"spawnflags" "8"
+"speed" "2000"
+"classname" "func_rotating"
+"origin" "1824 -1182 -448"
+"model" "*3"
+}
+{
+"wait" "3"
+"origin" "2496 -1664 -176"
+"classname" "item_health_mega"
+}
+{
+"wait" "3"
+"origin" "2560 -1600 -176"
+"classname" "item_armor_body"
+}
+{
+"classname" "target_startTimer"
+"origin" "376 -128 128"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*4"
+}
+{
+"classname" "target_speaker"
+"origin" "3016 280 -148"
+"spawnflags" "1"
+"noise" "sound/factory/burst.wav"
+}
+{
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*5"
+}
+{
+"classname" "item_armor_body"
+"origin" "2240 64 -304"
+"wait" "3"
+}
+{
+"wait" "5"
+"count" "10"
+"origin" "2416 1328 -296"
+"classname" "item_haste"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "1912 3840 -816"
+"wait" "3"
+"count" "3"
+}
+{
+"classname" "item_armor_body"
+"origin" "1920 1824 -816"
+"wait" "3"
+}
+{
+"classname" "item_health_mega"
+"origin" "1856 2272 -816"
+"wait" "3"
+}
+{
+"wait" "3"
+"origin" "1984 2720 -816"
+"classname" "item_armor_body"
+}
+{
+"wait" "3"
+"origin" "1920 3168 -816"
+"classname" "item_health_mega"
+}
+{
+"classname" "ammo_rockets"
+"origin" "256 3584 -1008"
+"count" "2"
+"wait" "3"
+}
+{
+"count" "2"
+"wait" "3"
+"origin" "1928 968 -816"
+"classname" "weapon_rocketlauncher"
+}
+{
+"classname" "func_rotating"
+"speed" "200"
+"noise" "sound/world/drone6.wav"
+"origin" "2528 3288 160"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2752 -704 -128"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1920 1776 -712"
+"targetname" "t4"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "2528 3288 -512"
+"targetname" "t5"
+}
+{
+"noise" "sound/world/machinerydrone02.wav"
+"spawnflags" "1"
+"origin" "1376 3712 -1048"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/world/machinerydrone01.wav"
+"spawnflags" "1"
+"origin" "1568 3736 -1064"
+"classname" "target_speaker"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"speed" "300"
+"origin" "1442 3736 -1112"
+"model" "*10"
+}
+{
+"classname" "func_rotating"
+"speed" "100"
+"spawnflags" "4"
+"origin" "1442 3664 -1104"
+"model" "*11"
+}
+{
+"classname" "func_rotating"
+"speed" "500"
+"spawnflags" "8"
+"origin" "1492 3610 -1132"
+"model" "*12"
+}
