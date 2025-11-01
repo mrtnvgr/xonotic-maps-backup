@@ -1,0 +1,58 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "-3536 3328 32"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "target_startTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_startTimer1"
+"origin" "-3272 3328 144"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "target_stopTimer1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "target_stopTimer1"
+"origin" "9216 3704 144"
+"classname" "target_stopTimer"
+}
+{
+"model" "*3"
+"target" "target_give1"
+"classname" "trigger_multiple"
+}
+{
+"target" "item_haste1"
+"targetname" "target_give1"
+"origin" "-3456 3328 64"
+"classname" "target_give"
+}
+{
+"count" "999"
+"wait" "999"
+"targetname" "item_haste1"
+"origin" "-3456 3392 64"
+"classname" "item_haste"
+}
+{
+"model" "*4"
+"target" "target_startTimer2"
+"classname" "trigger_multiple"
+}
+{
+"wait" "100"
+"spawnflags" "8"
+"noise" "sound/KABCORP/MOTUS.wav"
+"targetname" "target_startTimer2"
+"origin" "9344 3200 64"
+"classname" "target_speaker"
+}
