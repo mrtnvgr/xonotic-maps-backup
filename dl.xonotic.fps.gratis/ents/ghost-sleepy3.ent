@@ -1,0 +1,67 @@
+{
+"classname" "worldspawn"
+"_lightmapscale" ".3"
+"_blocksize" "4096"
+"gridsize" "215,160,000,000,000,000,000"
+}
+{
+"classname" "info_player_start"
+"origin" "32 -48 24"
+"angle" "90"
+}
+{
+"targetname" "t1"
+"origin" "10736 9016 184"
+"classname" "target_stopTimer"
+}
+{
+"model" "*1"
+"target" "t1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t2"
+"origin" "40 160 120"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"target" "t2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t3"
+"angle" "90"
+"origin" "32 32 24"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*3"
+"target" "t3"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "t4"
+"origin" "504 4240 -56"
+"classname" "target_kill"
+}
+{
+"model" "*4"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"target" "t4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*7"
+"target" "t4"
+"classname" "trigger_multiple"
+}
