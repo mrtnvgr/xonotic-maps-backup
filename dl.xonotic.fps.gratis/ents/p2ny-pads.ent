@@ -1,0 +1,120 @@
+{
+"dmg" "500"
+"classname" "worldspawn"
+}
+{
+"targetname" "t1"
+"origin" "-184 -112 176"
+"classname" "target_startTimer"
+}
+{
+"wait" "-1"
+"target" "t1"
+"classname" "trigger_multiple"
+"model" "*1"
+}
+{
+"target" "t2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"targetname" "t2"
+"origin" "104 6192 104"
+"classname" "target_stopTimer"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*3"
+}
+{
+"targetname" "t3"
+"origin" "-32 672 168"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-32 1632 168"
+"targetname" "t4"
+}
+{
+"target" "t5"
+"classname" "trigger_multiple"
+"model" "*5"
+}
+{
+"targetname" "t5"
+"origin" "-32 2272 168"
+"classname" "target_checkpoint"
+}
+{
+"angle" "90"
+"origin" "-32 -96 32"
+"classname" "info_player_start"
+}
+{
+"angle" "-1"
+"origin" "928 2592 -104"
+"classname" "info_player_intermission"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "500"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"target" "t6"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-32 2816 168"
+"targetname" "t6"
+}
+{
+"target" "t7"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t7"
+"origin" "-32 3544 168"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t8"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-40 4256 168"
+"targetname" "t8"
+}
+{
+"target" "t9"
+"classname" "trigger_multiple"
+"model" "*10"
+}
+{
+"targetname" "t9"
+"origin" "-24 4912 168"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*11"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-32 5696 168"
+"targetname" "t10"
+}
