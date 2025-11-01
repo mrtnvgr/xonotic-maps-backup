@@ -1,0 +1,183 @@
+{
+"target" "remove"
+"classname" "worldspawn"
+}
+{
+"origin" "-216 -568 104"
+"classname" "info_player_start"
+}
+{
+"count" "2"
+"origin" "-984 552 88"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "-1024 552 88"
+"classname" "item_enviro"
+}
+{
+"target" "pad1"
+"classname" "trigger_push"
+"model" "*1"
+}
+{
+"speed" "910"
+"targetname" "pad1"
+"origin" "-1120 -848 120"
+"classname" "target_push"
+}
+{
+"count" "1"
+"origin" "-848 -3416 976"
+"classname" "weapon_rocketlauncher"
+}
+{
+"count" "1"
+"origin" "-1184 -3432 88"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "-1120 -3432 88"
+"classname" "weapon_grenadelauncher"
+}
+{
+"origin" "-1816 -3560 1504"
+"classname" "weapon_plasmagun"
+"count" "200"
+}
+{
+"respawn" "20"
+"origin" "-1784 -3560 1504"
+"classname" "item_enviro"
+"count" "200"
+}
+{
+"respawn" "20"
+"origin" "-1752 -3560 1504"
+"classname" "item_haste"
+"count" "200"
+}
+{
+"origin" "-936 -3392 1504"
+"targetname" "reinit"
+"classname" "target_init"
+}
+{
+"target" "reinit"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"classname" "target_init"
+"targetname" "t1"
+"origin" "-936 -3392 1072"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*3"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-808 -3416 976"
+}
+{
+"classname" "ammo_cells"
+"origin" "-1744 -2760 1632"
+"wait" "5"
+"count" "50"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele2"
+"model" "*4"
+}
+{
+"classname" "target_teleporter"
+"origin" "-1680 -3568 1504"
+"targetname" "tele2"
+"angle" "180"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele3"
+"model" "*5"
+}
+{
+"classname" "target_teleporter"
+"origin" "-1832 -2760 1624"
+"targetname" "tele3"
+"angle" "360"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele4"
+"model" "*6"
+}
+{
+"classname" "target_teleporter"
+"origin" "-1416 -1264 1632"
+"targetname" "tele4"
+"angle" "360"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele5"
+"model" "*7"
+}
+{
+"classname" "target_teleporter"
+"origin" "-200 -568 80"
+"targetname" "tele5"
+}
+{
+"classname" "trigger_multiple"
+"target" "timer1_start"
+"model" "*8"
+}
+{
+"classname" "target_startTimer"
+"targetname" "timer1_start"
+"origin" "-152 -536 88"
+}
+{
+"origin" "-312 136 160"
+"targetname" "checkpoint1"
+"classname" "target_checkpoint"
+}
+{
+"target" "checkpoint1"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"classname" "target_checkpoint"
+"targetname" "t2"
+"origin" "-1136 -3448 1296"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*10"
+}
+{
+"origin" "-1672 -2776 1440"
+"targetname" "t3"
+"classname" "target_checkpoint"
+}
+{
+"target" "t3"
+"classname" "trigger_multiple"
+"model" "*11"
+}
+{
+"origin" "-1200 -2352 1664"
+"targetname" "timer1_stop"
+"classname" "target_stopTimer"
+"target" "besttime"
+}
+{
+"target" "timer1_stop"
+"classname" "trigger_multiple"
+"model" "*12"
+}
