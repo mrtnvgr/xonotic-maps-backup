@@ -1,0 +1,136 @@
+{
+"_q3map2_version" "2.5.17n-svn233"
+"_q3map2_cmdline" "-meta -samplesize 8 -minsamplesize 4 -mv 1000000 -mi 6000000; -vis -saveprt; -light -deluxe -patchshadows -samples 3 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid"
+"Title" "OzoRun!"
+"_description" "OzoRun - Made By ^0O^7z^0o^7m^0a^7h^0t^7l^0i"
+"license" "GPL"
+"message" "OzoRun - Made By ^0O^7z^0o^7m^0a^7h^0t^7l^0i"
+"author" "Ozomahtli"
+"_ambient" "5"
+"_floodlight" "240 240 255 1024 240"
+"classname" "worldspawn"
+}
+{
+"angle" "84.927956"
+"target" "cp0"
+"origin" "144.000000 -144.000000 64.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*1"
+"target" "give_health0"
+"targetname" "cp0"
+"cnt" "0"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*2"
+"dmg" "10"
+"classname" "trigger_hurt"
+}
+{
+"model" "*3"
+"target" "teleport"
+"targetname" "trigger_teleport1"
+"classname" "trigger_teleport"
+}
+{
+"angle" "87.947533"
+"targetname" "teleport"
+"target" "trigger_teleport1"
+"origin" "256.000000 -232.000000 72.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*4"
+"target" "give_hagar"
+"cnt" "1"
+"targetname" "trigger_race_checkpoint1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*5"
+"target" "take_hagar"
+"cnt" "2"
+"targetname" "trigger_race_checkpoint2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "87.865936"
+"target" "trigger_race_checkpoint1"
+"origin" "736.000000 2752.000000 136.000000"
+"classname" "info_player_race"
+}
+{
+"target" "trigger_race_checkpoint2"
+"origin" "1256.000000 4176.000000 1904.000000"
+"classname" "info_player_race"
+}
+{
+"targetname" "give_hagar"
+"health" "500"
+"ammo_rockets" "50"
+"target" "trigger_race_checkpoint1"
+"netname" "hagar"
+"origin" "800.000000 2768.000000 56.000000"
+"classname" "target_items"
+}
+{
+"targetname" "take_hagar"
+"health" "150"
+"netname" "take_hagar"
+"target" "trigger_race_checkpoint2"
+"origin" "1200.000000 4136.000000 1904.000000"
+"classname" "target_items"
+}
+{
+"model" "*6"
+"cnt" "3"
+"target" "give_laser"
+"health" "200"
+"targetname" "trigger_race_checkpoint3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"target" "trigger_race_checkpoint3"
+"origin" "664.000000 4624.000000 -24.000000"
+"classname" "info_player_race"
+}
+{
+"targetname" "give_laser"
+"health" "150"
+"target" "trigger_race_checkpoint3"
+"netname" "laser"
+"origin" "768.000000 4608.000000 352.000000"
+"classname" "target_items"
+}
+{
+"model" "*7"
+"dmg" "999999999999999999999"
+"classname" "trigger_hurt"
+}
+{
+"model" "*8"
+"classname" "trigger_hurt"
+}
+{
+"model" "*9"
+"targetname" "trigger_race_checkpoint5"
+"target" "take_laser"
+"health" "150"
+"cnt" "4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"health" "150"
+"target" "trigger_race_checkpoint4"
+"netname" "take_laser"
+"targetname" "take_laser"
+"origin" "16.000000 5448.000000 192.000000"
+"classname" "target_items"
+}
+{
+"target" "trigger_race_checkpoint5"
+"origin" "16.000000 5448.000000 192.000000"
+"classname" "info_player_race"
+}
