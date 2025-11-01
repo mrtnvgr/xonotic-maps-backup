@@ -1,0 +1,64 @@
+{
+"_minlight" "20"
+"classname" "worldspawn"
+"ambient" "5"
+"_lightmapscale" ".2"
+"_blocksize" "4096"
+"gridsize" "256 256 512"
+"message" "Made By Rick Astley"
+}
+{
+"classname" "target_startTimer"
+"origin" "128 96 128"
+"targetname" "t1"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1024 64 128"
+"targetname" "t2"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-96 3200 128"
+"targetname" "t3"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*3"
+}
+{
+"targetname" "t4"
+"origin" "608 5216 128"
+"classname" "target_checkpoint"
+}
+{
+"target" "t4"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1312 3168 128"
+"targetname" "t5"
+}
+{
+"classname" "trigger_multiple"
+"target" "t5"
+"model" "*5"
+}
+{
+"classname" "info_player_start"
+"origin" "64 0 24"
+"angle" "90"
+}
