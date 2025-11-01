@@ -1,0 +1,131 @@
+{
+"classname" "worldspawn"
+"_ambient" "6"
+"_blocksize" "4096"
+"_lightmapscale" ".3"
+"gridsize" "512 512 512"
+"message" "^3Made By Pornstar"
+}
+{
+"angle" "270"
+"origin" "-320 864 408"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"classname" "misc_teleporter_dest"
+"origin" "-320 -1256 608"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"angle" "270"
+"classname" "misc_teleporter_dest"
+"origin" "-1712 -3960 536"
+"targetname" "t2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*2"
+}
+{
+"angle" "270"
+"classname" "misc_teleporter_dest"
+"origin" "-1728 -3816 536"
+"targetname" "t3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*3"
+}
+{
+"angle" "270"
+"classname" "misc_teleporter_dest"
+"origin" "-1728 -8888 608"
+"targetname" "t4"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-2072 -12144 -2192"
+"targetname" "t12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t12"
+"model" "*5"
+}
+{
+"classname" "target_startTimer"
+"origin" "-272 768 456"
+"targetname" "t11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t11"
+"model" "*6"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-376 -1384 592"
+"targetname" "t10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t10"
+"model" "*7"
+}
+{
+"targetname" "t13"
+"origin" "-1976 -5992 592"
+"classname" "target_checkpoint"
+}
+{
+"target" "t13"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-1976 -8808 -1392"
+"targetname" "t14"
+}
+{
+"classname" "trigger_multiple"
+"target" "t14"
+"model" "*9"
+}
+{
+"origin" "-2288 -12136 -2176"
+"spawnflags" "1"
+"noise" "sound/world/fire1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/world/fire1.wav"
+"spawnflags" "1"
+"origin" "-1136 -12136 -2176"
+}
+{
+"targetname" "t17"
+"origin" "-767 688 218"
+"classname" "target_kill"
+}
+{
+"dmg" "200"
+"spawnflags" "1"
+"target" "t17"
+"classname" "trigger_hurt"
+"model" "*10"
+}
