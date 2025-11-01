@@ -1,0 +1,180 @@
+{
+"message" "made by unwind"
+"classname" "worldspawn"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "1464 72 -272"
+"wait" "3"
+"count" "200"
+}
+{
+"classname" "weapon_grenadelauncher"
+"count" "1"
+"wait" "-1"
+"origin" "1424 -344 -272"
+"targetname" "t1"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "target_init"
+"targetname" "t1"
+"origin" "1640 -304 -240"
+}
+{
+"classname" "target_startTimer"
+"targetname" "t1"
+"origin" "1640 -336 -240"
+}
+{
+"angle" "180"
+"classname" "info_player_start"
+"origin" "1840 -320 -264"
+"target" "hol1"
+}
+{
+"spawnflags" "32"
+"origin" "1840 -320 -200"
+"classname" "target_init"
+"targetname" "hol1"
+}
+{
+"classname" "ammo_cells"
+"origin" "1760 112 16"
+"wait" "3"
+"count" "200"
+}
+{
+"count" "200"
+"wait" "3"
+"origin" "2176 48 272"
+"classname" "ammo_cells"
+}
+{
+"classname" "ammo_cells"
+"origin" "2176 960 32"
+"wait" "3"
+"count" "200"
+}
+{
+"classname" "ammo_cells"
+"origin" "1712 928 272"
+"wait" "3"
+"count" "200"
+}
+{
+"classname" "ammo_cells"
+"origin" "1536 1792 272"
+"wait" "3"
+"count" "200"
+}
+{
+"classname" "ammo_cells"
+"origin" "1536 1520 272"
+"wait" "3"
+"count" "200"
+}
+{
+"count" "999"
+"classname" "item_enviro"
+"origin" "1424 -296 -272"
+"targetname" "t1"
+"wait" "-1"
+}
+{
+"targetname" "t36455"
+"origin" "1968 356 88"
+"classname" "target_position"
+}
+{
+"classname" "trigger_push"
+"target" "t36455"
+"model" "*2"
+}
+{
+"wait" "1"
+"count" "1"
+"origin" "2192 488 40"
+"classname" "item_regen"
+}
+{
+"wait" "1"
+"origin" "2176 560 40"
+"classname" "item_armor_shard"
+}
+{
+"classname" "item_armor_shard"
+"origin" "2176 416 40"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"target" "kill"
+"model" "*3"
+}
+{
+"targetname" "kill"
+"origin" "1599 -314 -273"
+"classname" "target_kill"
+}
+{
+"target" "tele1"
+"classname" "trigger_teleport"
+"model" "*4"
+}
+{
+"targetname" "tele1"
+"angle" "360"
+"origin" "1680 112 24"
+"classname" "misc_teleporter_dest"
+}
+{
+"classname" "trigger_teleport"
+"target" "t36456"
+"model" "*5"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1760 928 280"
+"angle" "180"
+"targetname" "t36456"
+}
+{
+"target" "t36456"
+"classname" "trigger_teleport"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"target" "chekpoint1"
+"model" "*7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "1615 71 128"
+"targetname" "chekpoint1"
+}
+{
+"target" "t36457"
+"classname" "trigger_multiple"
+"model" "*8"
+}
+{
+"targetname" "t36457"
+"origin" "1711 927 384"
+"classname" "target_checkpoint"
+}
+{
+"classname" "trigger_multiple"
+"target" "stop"
+"model" "*9"
+}
+{
+"classname" "target_stopTimer"
+"origin" "1797 1175 326"
+"targetname" "stop"
+}
