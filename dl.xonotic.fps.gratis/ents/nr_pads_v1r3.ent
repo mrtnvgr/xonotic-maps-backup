@@ -1,0 +1,188 @@
+{
+"_q3map2_version" "2.5.17n-svn393"
+"_q3map2_cmdline" "-meta -v -mv 1000000 -mi 6000000; -vis -saveprt -fast; -light -deluxe -fast -samples 3"
+"_floodlight" "240 240 255 1024 150"
+"classname" "worldspawn"
+}
+{
+"angle" "90.000000"
+"target" "player"
+"origin" "1152.000000 -768.000000 64.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*1"
+"target" "health"
+"cnt" "0"
+"targetname" "player"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*2"
+"message" "Welcome to nexrun! In the first room you will practice the first jump by jumping back and forth between the platforms."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"message" "You will need to use a technique called strafe jumping. This involves holding forward, jump and either strafe buttons down simultaneously, and smoothly turning the mouse in the same direction as you strafe."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*4"
+"message" "Let's proceed into setting you up for the first jump. To get into the first room, you need to crouch under the barrier. When there, position yourself towards the left wall as close to the barrier as possible and look slightly left of the right wall."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*5"
+"message" "Now that you know how to correctly set up yourself, let's proceed into the jump itself. Hold forward until you reach an approximate speed of 400 qu/s, and at this point immediately press the left strafe button and move the mouse quickly to the left, so that it points about 20 degrees right from forward. Keep the forward button pressed through the whole process."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*6"
+"message" "When you reach the ledge you should have forward, left strafe and jump pressed, and you should be aiming slightly (about 20 degrees) right of forward. Now start moving the mouse much much slower to the left, and keep doing so until you (hopefully :)) reach the other ledge. It will take some trial and error to find the best speed at which you should move the mouse, but once you get a hang of it all it should be easy. Now give it a try! Good luck! Move to the next level once you can cross the ledge 5 times in a row."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*7"
+"message" "Alright, welcome to the second room! Here you will have to perform the same start as in the first room, but now also continue with the next pads! As you will notice, the first jump is now (intentionally) much easier than in the first room, because if the first jump is performed wrong here, you'll notice it afterwards when you run out of speed! This could obviously not be noticed in the first room, where there was only one jump to perform."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*8"
+"message" "So, the starting movement all the way until you reach the first platform is the same as before. When you do reach the platform however, you will have to change the direction in which you are strafing so that you won't miss the second platform by moving too far to the left! So to fix this, do the movement that the third help box explains exactly at the moment when you hit the first platform..."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*9"
+"message" "When you hit the first platform: Unpress the left strafe key, press the right strafe key and IMMEDIATELY turn the mouse so that it points about 20 degrees right of the direction in which you are moving in right now. Keep moving the mouse to the right as fast as you were moving it to the left in the previous jump."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*10"
+"message" "NOTICE: If you prefer starting from the right wall, flip left/right in this tutorial"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*11"
+"message" "When you reach the third platform, do the same except strafe to the left again. When you reach the fourth, strafe to the right and so on..."
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*12"
+"message" "Congratulations on reaching the end! Now try to improve your time on the last level!"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"health" "100"
+"targetname" "health"
+"origin" "768.000000 64.000000 256.000000"
+"classname" "target_items"
+}
+{
+"model" "*13"
+"message" "In this last level there are race checkpoints, so that you can try to improve your time on the strafepads. Try different techniques and see if they give you a better time, for example strafing in the same direction over two pads will give you less time wasted switching directions, and more time gaining speed!"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*14"
+"target" "level2tele"
+"classname" "trigger_teleport"
+}
+{
+"speed" "-1"
+"targetname" "level2tele"
+"origin" "280.000000 -360.000000 64.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*15"
+"target" "level1tele"
+"classname" "trigger_teleport"
+}
+{
+"speed" "-1"
+"targetname" "level1tele"
+"origin" "-488.000000 -360.000000 64.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*16"
+"target" "level2tele1"
+"classname" "trigger_teleport"
+}
+{
+"speed" "-1"
+"targetname" "level2tele1"
+"origin" "1048.000000 -360.000000 64.000000"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*17"
+"targetname" "player1"
+"target" "health"
+"cnt" "1"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*18"
+"targetname" "player2"
+"target" "health"
+"cnt" "2"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*19"
+"targetname" "player3"
+"target" "health"
+"cnt" "3"
+"classname" "trigger_race_checkpoint"
+}
+{
+"model" "*20"
+"spawnflags" "8"
+"targetname" "player4"
+"target" "health"
+"cnt" "4"
+"classname" "trigger_race_checkpoint"
+}
+{
+"angle" "90.000000"
+"target" "player1"
+"origin" "1184.000000 -768.000000 64.000000"
+"classname" "info_player_race"
+}
+{
+"angle" "90.000000"
+"target" "player2"
+"origin" "1216.000000 -768.000000 64.000000"
+"classname" "info_player_race"
+}
+{
+"angle" "90.000000"
+"target" "player3"
+"origin" "1248.000000 -768.000000 64.000000"
+"classname" "info_player_race"
+}
+{
+"angle" "90.000000"
+"target" "player4"
+"origin" "1280.000000 -768.000000 64.000000"
+"classname" "info_player_race"
+}
+{
+"model" "*21"
+"target" "level2tele1"
+"classname" "trigger_teleport"
+}
