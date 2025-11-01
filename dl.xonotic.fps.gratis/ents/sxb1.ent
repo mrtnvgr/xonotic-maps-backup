@@ -1,0 +1,1008 @@
+{
+"_q3map2_version" "2.5.17n-git-8e4989b"
+"_q3map2_cmdline" "-meta -keepLights -vis -fast"
+"_description" "Super Xonotic Bros. 1: A side-scrolling adventure and true to the original fan remake of the original Super Mario Bros for NES!"
+"author" "-z-, Mario"
+"message" "Super Xonotic Bros. 1 (Level 1-1)"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target2" "overworld_2"
+"target" "overworld_1"
+"classname" "trigger_viewlocation"
+}
+{
+"targetname" "overworld_1"
+"angle" "0.000003"
+"origin" "328.000000 -1087.000000 672.000000"
+"classname" "target_viewlocation_start"
+}
+{
+"targetname" "overworld_2"
+"angle" "0.000003"
+"origin" "328.000000 -1089.000000 768.000000"
+"classname" "target_viewlocation_end"
+}
+{
+"noise" "map_sxb/music_start.wav"
+"origin" "80.000000 -816.000000 672.000000"
+"classname" "target_music"
+}
+{
+"targetname" "music_overworld0"
+"noise" "map_sxb/music_overworld.wav"
+"origin" "80.000000 -840.000000 672.000000"
+"classname" "target_music"
+}
+{
+"targetname" "music_death0"
+"noise" "map_sxb/music_death.wav"
+"origin" "80.000000 -864.000000 672.000000"
+"classname" "target_music"
+}
+{
+"targetname" "music_bonus0"
+"noise" "map_sxb/music_bonus.wav"
+"origin" "80.000000 -888.000000 672.000000"
+"classname" "target_music"
+}
+{
+"model" "*2"
+"delay" "0.2"
+"target" "brick_1"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_1"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*4"
+"delay" "0.2"
+"target" "brick_2"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_2"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*6"
+"delay" "0.2"
+"target" "brick_3"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*7"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_3"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*8"
+"target" "music_overworld0"
+"wait" "-2"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"target" "next"
+"delay" "0.2"
+"wait" "0.75"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"targetname" "next"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*11"
+"target" "block_2"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"targetname" "block_2"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*13"
+"target" "block_3"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"targetname" "block_3"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*15"
+"target" "block_4"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*16"
+"targetname" "block_4"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"chmap" "sxb1_1-1"
+"spawnflags" "2"
+"targetname" "next"
+"origin" "256.000000 -1184.000000 512.000000"
+"classname" "target_changelevel"
+}
+{
+"wait" "0.3"
+"targetname" "block_4"
+"target" "coin_1"
+"origin" "560.000000 -1040.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_1"
+"angle" "-179.999985"
+"origin" "560.000000 -1040.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"wait" "0.3"
+"targetname" "block_3"
+"target" "coin_2"
+"origin" "560.000000 -1200.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_2"
+"angle" "-179.999985"
+"origin" "560.000000 -1200.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"wait" "0.3"
+"targetname" "block_2"
+"target" "coin_13"
+"origin" "560.000000 -1264.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_13"
+"angle" "-179.999985"
+"origin" "560.000000 -1264.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*17"
+"target" "block_1"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*18"
+"targetname" "block_1"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_1"
+"target" "coin_3"
+"origin" "-1136.000000 -848.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_3"
+"angle" "-179.999985"
+"origin" "-1136.000000 -848.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*19"
+"delay" "0.2"
+"target" "brick_4"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*20"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_4"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*21"
+"delay" "0.2"
+"target" "brick_5"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*22"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_5"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"origin" "-1952.000000 -704.000000 576.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1952.000000 -896.000000 576.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1952.000000 -1248.000000 576.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1952.000000 -1408.000000 576.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1952.000000 -1632.000000 576.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1952.000000 -1088.000000 576.000000"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*23"
+"target" "block_5"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*24"
+"targetname" "block_5"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_5"
+"target" "coin_4"
+"origin" "-1392.000000 -1360.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_4"
+"angle" "-179.999985"
+"origin" "-1392.000000 -1360.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*25"
+"delay" "0.2"
+"target" "brick_7"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*26"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_7"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*27"
+"delay" "0.2"
+"target" "brick_8"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*28"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_8"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*29"
+"delay" "0.2"
+"target" "brick_9"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*30"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_9"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*31"
+"target" "block_6"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*32"
+"targetname" "block_6"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_6"
+"target" "coin_5"
+"origin" "-784.000000 -1648.000000 856.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_5"
+"angle" "-179.999985"
+"origin" "-784.000000 -1648.000000 816.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*33"
+"delay" "0.2"
+"target" "brick_10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*34"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_10"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*35"
+"delay" "0.2"
+"target" "brick_11"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*36"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_11"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*37"
+"delay" "0.2"
+"target" "brick_12"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*38"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_12"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*39"
+"delay" "0.2"
+"target" "brick_13"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*40"
+"noise" "map_sxb/brick.ogg"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.2"
+"debristime" "0.2"
+"debrisvelocityjitter" "0 10 40"
+"debrisvelocity" "0 50 100"
+"debrissolid" "0"
+"debrismovetype" "6"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"spawnflags" "4"
+"targetname" "brick_13"
+"respawntime" "20"
+"classname" "func_breakable"
+}
+{
+"model" "*41"
+"speed" "100"
+"target" "pad_targ"
+"classname" "trigger_push"
+}
+{
+"targetname" "pad_targ"
+"origin" "560.000000 -960.000000 608.000000"
+"classname" "target_position"
+}
+{
+"model" "*42"
+"target" "block_7"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*43"
+"targetname" "block_7"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_7"
+"target" "coin_6"
+"origin" "-1008.000000 -1104.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_6"
+"angle" "-179.999985"
+"origin" "-1008.000000 -1104.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*44"
+"target" "block_8"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*45"
+"targetname" "block_8"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_8"
+"target" "coin_7"
+"origin" "-720.000000 -1264.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_7"
+"angle" "-179.999985"
+"origin" "-720.000000 -1264.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*46"
+"target" "block_9"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*47"
+"targetname" "block_9"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_9"
+"target" "coin_8"
+"origin" "-944.000000 -1424.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_8"
+"angle" "-179.999985"
+"origin" "-944.000000 -1424.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*48"
+"target" "block_10"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*49"
+"targetname" "block_10"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_10"
+"target" "coin_9"
+"origin" "-1584.000000 -784.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_9"
+"angle" "-179.999985"
+"origin" "-1584.000000 -784.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*50"
+"target" "block_11"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*51"
+"targetname" "block_11"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_11"
+"target" "coin_10"
+"origin" "-336.000000 -1520.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_10"
+"angle" "-179.999985"
+"origin" "-336.000000 -1520.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*52"
+"target" "block_12"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*53"
+"targetname" "block_12"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_12"
+"target" "coin_11"
+"origin" "-432.000000 -784.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_11"
+"angle" "-179.999985"
+"origin" "-432.000000 -784.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*54"
+"target" "block_13"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*55"
+"targetname" "block_13"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_13"
+"target" "coin_12"
+"origin" "-432.000000 -816.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_12"
+"angle" "-179.999985"
+"origin" "-432.000000 -816.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*56"
+"target" "block_14"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*57"
+"targetname" "block_14"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_14"
+"target" "coin_14"
+"origin" "-400.000000 -784.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_14"
+"angle" "-179.999985"
+"origin" "-400.000000 -784.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*58"
+"target" "block_15"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*59"
+"targetname" "block_15"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_15"
+"target" "coin_15"
+"origin" "-1392.000000 -1424.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_15"
+"angle" "-179.999985"
+"origin" "-1392.000000 -1424.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*60"
+"target" "block_16"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*61"
+"targetname" "block_16"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_16"
+"target" "coin_16"
+"origin" "-1328.000000 -1424.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_16"
+"angle" "-179.999985"
+"origin" "-1328.000000 -1424.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*62"
+"target" "block_17"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*63"
+"targetname" "block_17"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_17"
+"target" "coin_17"
+"origin" "-1328.000000 -1360.000000 728.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_17"
+"angle" "-179.999985"
+"origin" "-1328.000000 -1360.000000 688.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*64"
+"target" "block_18"
+"delay" "0.2"
+"wait" "10"
+"spawnflags" "16384"
+"classname" "trigger_multiple"
+}
+{
+"model" "*65"
+"targetname" "block_18"
+"lip" "1"
+"wait" "0.1"
+"spawnflags" "4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"wait" "0.3"
+"targetname" "block_18"
+"target" "coin_18"
+"origin" "-1360.000000 -1392.000000 856.000000"
+"classname" "trigger_delay"
+}
+{
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"targetname" "coin_18"
+"angle" "-179.999985"
+"origin" "-1360.000000 -1392.000000 816.000000"
+"count" "1"
+"classname" "target_spawn"
+}
+{
+"model" "*66"
+"targetname" "wz1"
+"target" "wz2"
+"classname" "trigger_warpzone"
+}
+{
+"model" "*67"
+"target" "wz1"
+"targetname" "wz2"
+"classname" "trigger_warpzone"
+}
+{
+"model" "models/sxb-models/small_mushroom.md3"
+"origin" "-12232.000000 128.000000 3856.000000"
+"classname" "item_health_medium"
+}
+{
+"model" "models/sxb-models/coin.md3"
+"origin" "-12144.000000 128.000000 3856.000000"
+"classname" "item_health_small"
+}
+{
+"model" "models/sxb-models/small_star.md3"
+"origin" "-12072.000000 128.000000 3856.000000"
+"classname" "weapon_laser"
+}
+{
+"model" "models/sxb-models/small_green_mushroom.md3"
+"origin" "-12000.000000 128.000000 3856.000000"
+"classname" "item_health_mega"
+}
+{
+"model" "models/sxb-models/small_flower.md3"
+"origin" "-11928.000000 128.000000 3856.000000"
+"classname" "weapon_uzi"
+}
+{
+"model" "*68"
+"classname" "trigger_hurt"
+}
